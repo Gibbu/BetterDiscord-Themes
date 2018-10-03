@@ -5,4 +5,4 @@ To get results excatly like my screenshot all you need to do is:
 Please also note, that I will be constantly updating this theme.
 
 # Simply Dark Discord
-![BetterDiscord](https://i.imgur.com/94Ttl6Z.png)
+![BetterDiscord](https://i.imgur.com/P9khXac.jpg)
