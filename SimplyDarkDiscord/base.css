@@ -206,65 +206,107 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     transform: translateY(-50%);
     filter: invert(1);
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
+/* USER SETTINGS - ICONS */
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/2000px-User_font_awesome.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
     background: url('http://icons-for-free.com/free-icons/png/512/1608462.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/check-circle-512.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Font_Awesome_5_solid_plug.svg/2000px-Font_Awesome_5_solid_plug.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
     background: url('https://icon-icons.com/icons2/936/PNG/512/credit-card_icon-icons.com_73607.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
-    background: url('https://discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png') center;
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
+    background: url('https://i.imgur.com/l0tpfbH.png') center;
     filter: invert(0) !important;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
     background: url('https://discordia.me/uploads/hypesquad/hypesquadsmall.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/video-camera-512.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Desktop_font_awesome.svg/512px-Desktop_font_awesome.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
     background: url('https://image.flaticon.com/icons/png/512/77/77003.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_5_solid_keyboard.svg/2000px-Font_Awesome_5_solid_keyboard.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
     background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
     background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/comment-512.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
     background: url('http://icons-for-free.com/free-icons/png/512/1608688.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(20)::before {
+#user-settings .side-8zPYf6 .itemSelected-1qLhcL.item-PXvHYJ::before {
+    filter: invert(1) grayscale(1) brightness(2) !important;
+}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Twitch_font_awesome.svg/2000px-Twitch_font_awesome.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(21)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Font_Awesome_5_solid_globe-asia.svg/2000px-Font_Awesome_5_solid_globe-asia.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png') center;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/2000px-File_alt_font_awesome.svg.png') center;
 }
 
+/* SERVER SETTINGS - ICONS */
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
+    background: url('http://icons-for-free.com/free-icons/png/512/1608688.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Heart_font_awesome.svg/2000px-Heart_font_awesome.svg.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/2000px-File_alt_font_awesome.svg.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
+    background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_users/bfa_users_simple-black_512x512.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ethernet_Port.svg/2000px-Ethernet_Port.svg.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Font_Awesome_5_regular_grin-hearts.svg/2000px-Font_Awesome_5_regular_grin-hearts.svg.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
+    background: url('https://static.thenounproject.com/png/10561-200.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
+    background: url('http://icons-for-free.com/free-icons/png/512/1608639.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
+    background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_users/bfa_users_simple-black_512x512.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
+    background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/user-plus-512.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
+    background: url('https://www.shareicon.net/data/512x512/2016/11/14/852001_user_512x512.png') center;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
+    background: url('https://i.imgur.com/fCg2LyW.png') center;
+    filter: invert(0);
+}
 
 
 
@@ -306,7 +348,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .rowWrapper-2fB6P0, .rowBackground-3MeNoN, .searchBar-6Kv8R2 .search-bar,
 .searchBar-6Kv8R2 .search-bar input, .search-bar .search-bar-inner, .theme-dark .quickswitcher-3JagVE, .theme-dark .input-2VB9rf, .theme-dark .resultFocused-3aIoYe,
 .paginationItem-2lUq0s, .coverArtPosition-1EkmxA, .paginationItem-2lUq0s:after, .paginationItem-2lUq0s:before, .article-3kb3qm, .carousel-2WxMes,
-.theme-dark .dockItem-2kQDqg:hover {
+.theme-dark .dockItem-2kQDqg:hover, .tileWrapper-2khh-w, .filterByTitle-1b4n21 {
     border-radius: 0 !important;
 }
 .theme-dark .search-results-wrap .search-result .hit, .theme-dark .message-2qRu38,
@@ -339,7 +381,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .form-deprecated .control-group textarea, .form.deprecated .control-group input[type=email],
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
 .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea,
-.theme-dark #friends, .theme-dark .header-39GIC8, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .sidebarRegion-VFTUkN {
+.theme-dark #friends, .theme-dark .header-39GIC8, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .applicationStore-1pNvnv {
     background: var(--bg2);
 }
 .container-PNkimc, .theme-dark .title-3qD0b-, .theme-dark .members-1998pB, .channels-Ie2l6A, .theme-dark .headerBar-UHpsPw, .theme-dark .modal-3HD5ck,
@@ -351,7 +393,8 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .container-1UB9sr, .theme-dark .container-2Thooq, .theme-light .container-2Thooq, .contentHoveredText-2D9B-x, .uploadModal-2ifh8j, .channel-2QD9_O.selected-1HYmZZ a,
 .channel-2QD9_O:hover a, .theme-dark .card-7JP0BX, .theme-dark .body-SKIE6r, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .body-3iLsc4,
 .theme-dark .footer-1fjuF6, .theme-dark .note-3kmerW textarea:focus, .regionSelectModal-12e-57, .theme-dark #friends .friends-table .friends-row:hover,
-.theme-dark .resultFocused-3aIoYe, .searchBar-6Kv8R2 .search-bar, .search-bar .search-bar-inner, .theme-dark .contentRegion-3nDuYy {
+.theme-dark .resultFocused-3aIoYe, .searchBar-6Kv8R2 .search-bar, .search-bar .search-bar-inner, .theme-dark .contentRegion-3nDuYy, .theme-dark .searchBox-3Y2Vi7,
+.theme-dark .tileWrapper-2khh-w {
     background: var(--bg4);
 }
 .theme-dark .guildsWrapper-5TJh6A, .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .theme-dark .member-3W1lQa:hover .content-OzHfo4,
@@ -360,7 +403,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .search-results-wrap .channel-separator .channel-name, .theme-dark .footer-2yfCgX, .theme-dark .message-2qRu38, .theme-dark .markup-2BOw-j code,
 .theme-dark .markup-2BOw-j code.inline, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background,
 .theme-dark .body-3ND3kc, .create-guild-container.deprecated .action, .create-guild-container.deprecated .form-actions, .theme-dark .input-2VB9rf,
-.theme-dark .dockItem-2kQDqg:hover {
+.theme-dark .dockItem-2kQDqg:hover, .theme-dark .tileWrapper-2khh-w:hover {
     background: var(--bg5);
 }
 .appMount-3VJmYg, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div, .channel-2QD9_O.selected-1HYmZZ a, .theme-dark .header-1RC2Wb,
@@ -380,7 +423,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .carousel-2WxMes, .article-3kb3qm {
     background-color: var(--bg1) !important;
 }
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4, .theme-dark .input-cIJ7To {
     background-color: var(--bg4) !important;
 }
 #autocomplete-popout .autocomplete-scroller, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
