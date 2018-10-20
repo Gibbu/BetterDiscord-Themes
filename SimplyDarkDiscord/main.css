@@ -10,6 +10,84 @@ body, html {
 body {
   background: #eee; }
 
+#changeLogOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease; }
+  #changeLogOverlay.toggle {
+    opacity: 1;
+    visibility: visible; }
+
+#changeLog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  background: #eee;
+  width: 550px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease; }
+  #changeLog.toggle {
+    opacity: 1;
+    visibility: visible; }
+  #changeLog .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative; }
+    #changeLog .header h1 {
+      margin: 0;
+      font-family: 'Nunito';
+      font-weight: 700; }
+    #changeLog .header span {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: 20px;
+      cursor: pointer; }
+  #changeLog .body {
+    padding: 10px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 250px; }
+    #changeLog .body .update {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 10px; }
+      #changeLog .body .update:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0; }
+      #changeLog .body .update p {
+        margin: 0;
+        font-weight: bold; }
+      #changeLog .body .update ul {
+        padding-left: 20px;
+        margin: 10px; }
+
 nav {
   width: 250px;
   background: #fff;
@@ -36,20 +114,23 @@ nav {
 
 .navDownload {
   border-bottom: 1px solid #f8f8f8; }
-  .navDownload a {
+  .navDownload a, .navDownload button {
     display: block;
     width: 100%;
     text-align: center;
+    background: transparent;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 20px 10px;
+    border: none;
+    cursor: pointer;
     border-top: 1px solid #f8f8f8;
     color: #222;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Nunito';
-    font-weight: 600; }
-    .navDownload a:hover {
+    font-weight: 700; }
+    .navDownload a:hover, .navDownload button:hover {
       background: #fcfcfc; }
 
 .navSocials {
@@ -85,3 +166,13 @@ nav {
     display: block;
     margin-top: 15px;
     width: 95%; }
+
+.note {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  background: #ccc;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
