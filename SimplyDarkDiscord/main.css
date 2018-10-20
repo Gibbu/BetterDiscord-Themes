@@ -36,6 +36,8 @@ body {
   transform: translate(-50%, -50%);
   z-index: 6;
   background: #eee;
+  overflow: hidden;
+  border-radius: 3px;
   width: 550px;
   opacity: 0;
   visibility: hidden;
@@ -88,91 +90,115 @@ body {
         padding-left: 20px;
         margin: 10px; }
 
-nav {
-  width: 250px;
-  background: #fff;
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100vh; }
-
-.navTop {
+#centre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 25px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-  .navTop img {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto; }
+  #centre img {
     width: 100%; }
 
-.navDownload {
-  border-bottom: 1px solid #f8f8f8; }
-  .navDownload a, .navDownload button {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: transparent;
+.title {
+  background: #fff;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  position: relative; }
+  .title h1 {
+    font-family: 'Nunito';
+    font-weight: 600;
+    margin: 0; }
+  .title .socials {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .title .socials a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #444;
+      font-size: 20px;
+      text-decoration: none; }
+      .title .socials a:hover {
+        background: #f8f8f8;
+        border-radius: 3px; }
+      .title .socials a:last-child {
+        margin-right: 0; }
+
+.previewImage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px; }
+  .previewImage .notes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 20px 10px;
-    border: none;
-    cursor: pointer;
-    border-top: 1px solid #f8f8f8;
-    color: #222;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Nunito';
-    font-weight: 700; }
-    .navDownload a:hover, .navDownload button:hover {
-      background: #fcfcfc; }
+    background: #000;
+    text-align: right; }
+    .previewImage .notes p {
+      color: #fff;
+      margin: 2px 0; }
+  .previewImage img {
+    display: block; }
 
-.navSocials {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.btns {
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
+  margin-top: 15px;
+  border-radius: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .navSocials a {
+  .btns a, .btns button {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     text-decoration: none;
-    color: #aaa; }
-    .navSocials a:hover {
-      color: #555; }
-
-#body {
-  margin-left: 250px;
-  padding: 20px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative; }
-  #body h1 {
-    margin: 0; }
-  #body p {
-    margin: 2px 0; }
-  #body img {
-    display: block;
-    margin-top: 15px;
-    width: 95%; }
-
-.note {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  text-align: right;
-  background: #ccc;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+    background: none;
+    border: none;
+    font-family: 'Nunito';
+    font-weight: 700;
+    color: #444;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #eee; }
+    .btns a:last-child, .btns button:last-child {
+      border-right: none; }
+    .btns a:hover, .btns button:hover {
+      background: #fafafa; }
