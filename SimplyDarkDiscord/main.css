@@ -88,7 +88,28 @@ body {
         font-weight: bold; }
       #changeLog .body .update ul {
         padding-left: 20px;
-        margin: 10px; }
+        margin: 10px;
+        position: relative; }
+        #changeLog .body .update ul li {
+          list-style: none;
+          margin-bottom: 4px; }
+          #changeLog .body .update ul li span {
+            font-weight: normal; }
+          #changeLog .body .update ul li.fixed:before {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f0ad";
+            position: absolute;
+            left: 0; }
+          #changeLog .body .update ul li.add:before {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f067";
+            position: absolute;
+            left: 0; }
+          #changeLog .body .update ul li.remove:before {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f068";
+            position: absolute;
+            left: 0; }
 
 #centre {
   display: -webkit-box;

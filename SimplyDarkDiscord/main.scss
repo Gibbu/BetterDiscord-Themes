@@ -84,6 +84,32 @@ body {
             ul {
                 padding-left: 20px;
                 margin: 10px;
+                position: relative;
+                li {
+                    list-style: none;
+                    margin-bottom: 4px;
+                    span {
+                        font-weight: normal;
+                    }
+                    &.fixed:before {
+                        font-family: 'Font Awesome 5 Free';
+                        content: "\f0ad";
+                        position: absolute;
+                        left: 0;
+                    }
+                    &.add:before {
+                        font-family: 'Font Awesome 5 Free';
+                        content: "\f067";
+                        position: absolute;
+                        left: 0;
+                    }
+                    &.remove:before {
+                        font-family: 'Font Awesome 5 Free';
+                        content: "\f068";
+                        position: absolute;
+                        left: 0;
+                    }
+                }
             }
         }
     }
