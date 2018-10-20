@@ -124,9 +124,6 @@ body {
     height: 100vh;
     margin: 0 auto;
     box-sizing: border-box;
-    img {
-        width: 100%;
-    }
 }
 .title {
     background: #fff;
@@ -171,21 +168,8 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 3px;
-    .notes {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 10px;
-        box-sizing: border-box;
-        background: #000;
-        text-align: right;
-        p {
-            color: #fff;
-            margin: 2px 0;
-        }
-    }
     img {
-        display: block;
+        width: 100%;
     }
 }
 .btns {

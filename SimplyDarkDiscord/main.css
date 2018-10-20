@@ -130,8 +130,6 @@ body {
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-  #centre img {
-    width: 100%; }
 
 .title {
   background: #fff;
@@ -182,20 +180,8 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 3px; }
-  .previewImage .notes {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    background: #000;
-    text-align: right; }
-    .previewImage .notes p {
-      color: #fff;
-      margin: 2px 0; }
   .previewImage img {
-    display: block; }
+    width: 100%; }
 
 .btns {
   background: #fff;
