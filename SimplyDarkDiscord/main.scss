@@ -97,6 +97,7 @@ body {
     width: 1280px;
     height: 100vh;
     margin: 0 auto;
+    box-sizing: border-box;
     img {
         width: 100%;
     }
@@ -190,8 +191,17 @@ body {
 }
 
 
-
-
+@media only screen and (max-width: 1366px) {
+    #centre {
+        width: 980px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    #centre {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
 
 
 

@@ -106,7 +106,9 @@ body {
   flex-direction: column;
   width: 1280px;
   height: 100vh;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
   #centre img {
     width: 100%; }
 
@@ -202,3 +204,12 @@ body {
       border-right: none; }
     .btns a:hover, .btns button:hover {
       background: #fafafa; }
+
+@media only screen and (max-width: 1366px) {
+  #centre {
+    width: 980px; } }
+
+@media only screen and (max-width: 980px) {
+  #centre {
+    width: 100%;
+    padding: 0 20px; } }

@@ -192,15 +192,78 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .searchBar-6Kv8R2 .search-bar input {
     padding: 14px 8px;
 }
-
-
-
-
-
-
-
-
-
+.side-8zPYf6 .item-PXvHYJ {
+    padding-left: 40px;
+}
+.side-8zPYf6 .item-PXvHYJ::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-size: cover !important;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: invert(1);
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/2000px-User_font_awesome.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
+    background: url('http://icons-for-free.com/free-icons/png/512/1608462.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
+    background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/check-circle-512.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Font_Awesome_5_solid_plug.svg/2000px-Font_Awesome_5_solid_plug.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
+    background: url('https://icon-icons.com/icons2/936/PNG/512/credit-card_icon-icons.com_73607.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
+    background: url('https://discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png') center;
+    filter: invert(0) !important;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
+    background: url('https://discordia.me/uploads/hypesquad/hypesquadsmall.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
+    background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/video-camera-512.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Desktop_font_awesome.svg/512px-Desktop_font_awesome.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
+    background: url('https://image.flaticon.com/icons/png/512/77/77003.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_5_solid_keyboard.svg/2000px-Font_Awesome_5_solid_keyboard.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
+    background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
+    background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
+    background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/comment-512.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
+    background: url('http://icons-for-free.com/free-icons/png/512/1608688.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(20)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Twitch_font_awesome.svg/2000px-Twitch_font_awesome.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(21)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Font_Awesome_5_solid_globe-asia.svg/2000px-Font_Awesome_5_solid_globe-asia.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png') center;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/2000px-File_alt_font_awesome.svg.png') center;
+}
 
 
 
