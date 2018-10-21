@@ -181,7 +181,8 @@ body {
   overflow: hidden;
   border-radius: 3px; }
   .previewImage img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
 
 .btns {
   background: #fff;

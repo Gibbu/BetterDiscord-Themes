@@ -237,6 +237,9 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .side-8zPYf6 .item-PXvHYJ {
     padding-left: 40px;
 }
+.contentColumn-2hrIYH .side-8zPYf6 .item-PXvHYJ {
+    padding-left: 10px;
+}
 .side-8zPYf6 .item-PXvHYJ::before {
     content: "";
     width: 20px;
@@ -309,6 +312,10 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 }
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/2000px-File_alt_font_awesome.svg.png') center;
+}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before {
+    background: url('https://i.imgur.com/9sNjUCr.png') center;
+    filter: invert(0);
 }
 
 /* SERVER SETTINGS - ICONS */

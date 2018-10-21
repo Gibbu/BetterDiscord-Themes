@@ -3,9 +3,6 @@
 body, html {padding: 0; margin: 0;}
 
 
-
-
-$main: #2196F3;
 body {
     background: #eee;
 }
@@ -170,6 +167,7 @@ body {
     border-radius: 3px;
     img {
         width: 100%;
+        display: block;
     }
 }
 .btns {
