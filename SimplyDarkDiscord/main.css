@@ -92,7 +92,8 @@ body {
         position: relative; }
         #changeLog .body .update ul li {
           list-style: none;
-          margin-bottom: 4px; }
+          margin-bottom: 4px;
+          display: block; }
           #changeLog .body .update ul li span {
             font-weight: normal; }
           #changeLog .body .update ul li.fixed:before {
