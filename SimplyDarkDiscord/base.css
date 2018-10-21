@@ -369,7 +369,17 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .iconBadge-2dji3k {
     box-shadow: -2px 1px 5px #000;
 }
-
+.theme-dark .bda-slist li {
+    padding: 0;
+}
+.theme-dark .bda-slist .bda-header, .bda-description-wrap, .theme-dark .bda-slist .bda-footer {
+    padding: 10px;
+    box-sizing: border-box;
+}
+.bda-slist .bda-description {
+    margin: 0;
+    padding: 2px 0;
+}
 
 
 
@@ -390,7 +400,8 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
 .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea,
 .searchBar-6Kv8R2 .search-bar, .searchBar-6Kv8R2 .search-bar input, .search-bar .search-bar-inner, .theme-dark .messageGroupWrapper-o-Zw7G, .channel-2QD9_O .status,
-.theme-dark .input-cIJ7To:hover, .iconBadge-2dji3k {
+.theme-dark .input-cIJ7To:hover, .iconBadge-2dji3k, .theme-dark .bda-slist li, .bda-description-wrap, .theme-dark .bda-slist .bda-header, .bda-description-wrap,
+.theme-dark .bda-slist .bda-footer {
     border: none !important;
 }
 .theme-dark .embedInner-1-fpTo, .embedPill-1Zntps, .guild-1EfMGQ .guildInner-3DSoA4, .uploadModal-2ifh8j,
@@ -442,7 +453,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary, .form-deprecated .btn-default, .form.deprecated .btn-default, .searchBar-6Kv8R2 .search-bar input {
     background: transparent !important;
 }
-.divider-3gKybi > span, .theme-dark .changeDetails-bk98pu, .theme-dark .divider-1pnAR2 {
+.divider-3gKybi > span, .theme-dark .changeDetails-bk98pu, .theme-dark .divider-1pnAR2, .bda-description-wrap {
     background: var(--bg1) !important;
 }
 .theme-dark .activityFeed-28jde9, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .select-2TCrqx .Select-control, .theme-dark .input-cIJ7To,
