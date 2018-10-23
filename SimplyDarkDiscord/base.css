@@ -252,68 +252,88 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     filter: invert(1);
 }
 /* USER SETTINGS - ICONS */
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
+/* My Account */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/User_font_awesome.svg/2000px-User_font_awesome.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
+/* Privacy */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
     background: url('http://icons-for-free.com/free-icons/png/512/1608462.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
+/* Authorized Apps */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/check-circle-512.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
+/* Connections */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Font_Awesome_5_solid_plug.svg/2000px-Font_Awesome_5_solid_plug.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
+/* Billing */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
     background: url('https://icon-icons.com/icons2/936/PNG/512/credit-card_icon-icons.com_73607.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
+/* Discord Nitro */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
     background: url('https://i.imgur.com/l0tpfbH.png') center;
     filter: invert(0) !important;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
+/* HypeSquad */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
     background: url('https://discordia.me/uploads/hypesquad/hypesquadsmall.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
+/* Voice & Video */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/video-camera-512.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
+/* Overlay */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Desktop_font_awesome.svg/512px-Desktop_font_awesome.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
+/* Notifications */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
     background: url('https://image.flaticon.com/icons/png/512/77/77003.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
+/* Keybinds */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_5_solid_keyboard.svg/2000px-Font_Awesome_5_solid_keyboard.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
+/* Game Acticity */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
     background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
+/* Game Libary */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
     background: url('http://iconsetc.com/icons-watermarks/simple-black/bfa/bfa_gamepad/bfa_gamepad_simple-black_512x512.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
+/* Text & Images */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
     background: url('https://cdn2.iconfinder.com/data/icons/font-awesome/1792/comment-512.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
+/* Appearance */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
     background: url('http://icons-for-free.com/free-icons/png/512/1608688.png') center;
 }
-#user-settings .side-8zPYf6 .itemSelected-1qLhcL.item-PXvHYJ::before {
+.da-typeWindows #user-settings .side-8zPYf6 .itemSelected-1qLhcL.item-PXvHYJ::before {
     filter: invert(1) grayscale(1) brightness(2) !important;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before {
+/* Streamer Mode */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Twitch_font_awesome.svg/2000px-Twitch_font_awesome.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before {
+/* Language */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Font_Awesome_5_solid_globe-asia.svg/2000px-Font_Awesome_5_solid_globe-asia.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
+/* Window Settings */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
+/* Changelog */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before, .da-typeMacOS #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/File_alt_font_awesome.svg/2000px-File_alt_font_awesome.svg.png') center;
 }
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before {
+/* Log Out */
+.da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before, .da-typeWindows #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before {
     background: url('https://i.imgur.com/9sNjUCr.png') center;
     filter: invert(0);
 }
@@ -438,7 +458,11 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .jumpToPresentBar-9P20AM, .theme-dark .tier1Banner-1B_WXY, .smallCarousel-3UDi9v, .paginationItemContainer-2q8AX7,
 .paginationItemContainer-2q8AX7, .overlappingBorder-1ysb12, .theme-dark .root-1bFE0x, .theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP,
 .theme-dark .row-1bU71H, .assetWrapper-2Qw_5D, .section-foaVwT:first-child, .theme-dark .input-cIJ7To:hover, .theme-dark .price-1ynJAt,
-.search-results-wrap .search-result.expanded, .theme-dark.contextMenu-HLZMGh {
+.search-results-wrap .search-result.expanded, .theme-dark.contextMenu-HLZMGh, .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
+.calendarPicker-2yf6Ci .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker-2yf6Ci .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type,
+.calendarPicker-2yf6Ci .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker-2yf6Ci .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type, .theme-dark .keyboardShortcutsModal-3piNz7 {
     border-radius: 0 !important;
 }
 .theme-dark .search-results-wrap .search-result .hit, .theme-dark .message-2qRu38, .popout-3sVMXz, .theme-dark .cardPrimary-1Hv-to,
@@ -476,7 +500,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .container-PNkimc, .theme-dark .title-3qD0b-, .theme-dark .members-1998pB, .channels-Ie2l6A, .theme-dark .headerBar-UHpsPw, .theme-dark .modal-3HD5ck,
 .theme-dark .emoji-alias-input .emoji-input, .theme-dark .quickMessage-1yeL4E, .theme-dark .topSectionNormal-2-vo2m,
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus, .create-guild-container.deprecated .create-or-join .form-inner, .form-deprecated .form-inner,
-.form.deprecated .form-inner, .create-guild-container.deprecated, .theme-dark .quickswitcher-3JagVE {
+.form.deprecated .form-inner, .create-guild-container.deprecated, .theme-dark .quickswitcher-3JagVE, .theme-dark .keyboardShortcutsModal-3piNz7 {
     background: var(--bg3);
 }
 .container-1UB9sr, .theme-dark .container-2Thooq, .theme-light .container-2Thooq, .contentHoveredText-2D9B-x, .uploadModal-2ifh8j, .channel-2QD9_O.selected-1HYmZZ a,
@@ -493,19 +517,24 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .markup-2BOw-j code.inline, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background,
 .theme-dark .body-3ND3kc, .create-guild-container.deprecated .action, .create-guild-container.deprecated .form-actions, .theme-dark .input-2VB9rf,
 .theme-dark .dockItem-2kQDqg:hover, .theme-dark .tileWrapper-2khh-w:hover, .theme-dark .container-3ayLPN, .theme-dark .autocomplete-1vrmpx, .theme-dark .root-1bFE0x,
-.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP, .theme-dark .row-1bU71H, .theme-dark .isLocalBot-38G0P0, .theme-dark .item-1Yvehc:hover {
+.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP, .theme-dark .row-1bU71H, .theme-dark .isLocalBot-38G0P0, .theme-dark .item-1Yvehc:hover,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
     background: var(--bg5);
 }
 .appMount-3VJmYg, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div, .channel-2QD9_O.selected-1HYmZZ a, .theme-dark .header-1RC2Wb,
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4, .headerPlaying-j0WQBV,
-.theme-dark .headerNormal-T_seeN, .theme-dark .menu-Sp6bN1, .theme-dark .search .search-bar, .theme-dark .card-FDVird:before, .theme-dark .popoutList-T9CKZQ, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .jumpToPresentBar-9P20AM {
+.theme-dark .headerNormal-T_seeN, .theme-dark .menu-Sp6bN1, .theme-dark .search .search-bar, .theme-dark .card-FDVird:before, .theme-dark .popoutList-T9CKZQ, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .jumpToPresentBar-9P20AM, .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__current-month, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
     background: var(--bg6);
 }
 .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .passthroughSelected-1Eq0Kl,
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6, .theme-dark .item-1GzJrl:hover, .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 .theme-dark .colorPickerCustom-2CWBn2, .theme-dark #autocomplete-popout .row.selected, .theme-dark .searchBar-1MOL6S, .theme-dark .selectableItem-1MP3MQ:hover,
 .theme-dark .listRow-hutiT_:hover, .theme-dark .option-96V44q.selected-rZcOL-, .theme-dark .selectorSelected-1_M1WV, .theme-dark .header-ykumBX,
-.theme-dark .jumpToPresentBar-9P20AM:hover, .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit, .theme-dark.contextMenu-HLZMGh {
+.theme-dark .jumpToPresentBar-9P20AM:hover, .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit, .theme-dark.contextMenu-HLZMGh,
+.theme-dark .focused-2bY0OD {
     background: var(--bg7);
 }
 
