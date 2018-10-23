@@ -77,8 +77,11 @@ body {
     max-height: 250px; }
     #changeLog .body .update {
       border-bottom: 1px solid #ccc;
-      padding-bottom: 10px;
-      margin-bottom: 10px; }
+      padding: 10px 0;
+      margin: 10px 0; }
+      #changeLog .body .update:first-child {
+        margin-top: 0;
+        padding-top: 0; }
       #changeLog .body .update:last-child {
         border-bottom: none;
         margin-bottom: 0;
@@ -94,6 +97,8 @@ body {
           list-style: none;
           margin-bottom: 4px;
           display: block; }
+          #changeLog .body .update ul li:last-child {
+            margin-bottom: 0; }
           #changeLog .body .update ul li span {
             font-weight: normal; }
           #changeLog .body .update ul li.fixed:before {

@@ -67,8 +67,12 @@ body {
         max-height: 250px;
         .update {
             border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
+            padding: 10px 0;
+            margin: 10px 0;
+            &:first-child {
+                margin-top: 0;
+                padding-top: 0;
+            }
             &:last-child {
                 border-bottom: none;
                 margin-bottom: 0;
@@ -86,6 +90,9 @@ body {
                     list-style: none;
                     margin-bottom: 4px;
                     display: block;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
                     span {
                         font-weight: normal;
                     }
