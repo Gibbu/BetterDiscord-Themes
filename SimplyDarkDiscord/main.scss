@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Roboto:300,400,500,700|Abel');
-* {outline-width: 0 !important; font-family: 'Roboto';}
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800');
+* {outline-width: 0 !important; font-family: 'Nunito';}
 body, html {padding: 0; margin: 0;}
 
 
@@ -142,6 +142,10 @@ body {
         font-family: 'Nunito';
         font-weight: 600;
         margin: 0;
+    }
+    p {
+        margin: 0;
+        font-weight: 600;
     }
     .socials {
         position: absolute;
