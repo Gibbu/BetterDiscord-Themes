@@ -1,6 +1,6 @@
 /*Simply Dark Discord Base*/
-* {
-    font-family: 'Roboto' !important;
+#app-mount {
+    font-family: 'Roboto';
 }
 
 body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
@@ -328,50 +328,15 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before {
     background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/logout.png') center;
 }
-
-/* SERVER SETTINGS - ICONS */
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/appearance.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/heart.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/changelog.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/users.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/intergrations.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/emoji.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/hook.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/code.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/users.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/user-plus.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/user-times.png') center;
-}
-.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
-    background: url('https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/icons/trash.png') center;
-}
 .theme-dark .option-96V44q:after {
     display: none;
 }
 .theme-dark .jumpToPresentBar-9P20AM {
     left: 0;
     width: 100%;
+}
+.layer-3QrUeG:not(#user-settings) .side-8zPYf6 .item-PXvHYJ {
+    padding-left: 10px !important;
 }
 .theme-dark .itemBackground-1jfD8p:before {
     background: radial-gradient(ellipse at top,rgba(0,0,0,0),var(--bg2)),linear-gradient(90deg,var(--bg2) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,var(--bg2)),linear-gradient(0deg,var(--bg2) 0,rgba(0,0,0,0) 25%)
@@ -416,7 +381,8 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .searchBar-6Kv8R2 .search-bar, .searchBar-6Kv8R2 .search-bar input, .search-bar .search-bar-inner, .theme-dark .messageGroupWrapper-o-Zw7G, .channel-2QD9_O .status,
 .theme-dark .input-cIJ7To:hover, .iconBadge-2dji3k, .theme-dark .bda-slist li, .bda-description-wrap, .theme-dark .bda-slist .bda-header, .bda-description-wrap,
 .theme-dark .bda-slist .bda-footer, .theme-dark .search-results-wrap .search-result.expanded, .theme-dark.contextMenu-HLZMGh,
-.itemGroup-1tL0uz:not(:first-child):not(:empty), .theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0 {
+.itemGroup-1tL0uz:not(:first-child):not(:empty), .theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0,
+.need-help-modal.form.deprecated .footer {
     border: none !important;
 }
 .theme-dark .embedInner-1-fpTo, .embedPill-1Zntps, .guild-1EfMGQ .guildInner-3DSoA4, .uploadModal-2ifh8j,
@@ -453,13 +419,15 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .calendarPicker-2yf6Ci .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type,
 .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
 .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type, .theme-dark .keyboardShortcutsModal-3piNz7,
-.theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0 {
+.theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0, .need-help-modal.form.deprecated .header, .need-help-modal.form.deprecated .footer,
+.need-help-modal.form.deprecated .header input[type=text] {
     border-radius: 0 !important;
 }
 .theme-dark .search-results-wrap .search-result .hit, .theme-dark .message-2qRu38, .popout-3sVMXz, .theme-dark .cardPrimary-1Hv-to,
 .theme-dark .cardPrimaryOutline-29Ujqw, .theme-dark .elevationLow-2lY09M, .theme-dark .markup-2BOw-j pre, .create-guild-container.deprecated .action,
 .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .rowWrapper-2fB6P0, .rowBackground-3MeNoN,
-.search-bar .search-bar-inner, .theme-dark .input-2VB9rf, .theme-dark .header-ykumBX, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .isLocalBot-38G0P0 {
+.search-bar .search-bar-inner, .theme-dark .input-2VB9rf, .theme-dark .header-ykumBX, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .isLocalBot-38G0P0,
+.need-help-modal.form.deprecated .header input[type=text] {
     box-shadow: none !important;
 }
 
@@ -485,7 +453,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
 .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea,
 .theme-dark #friends, .theme-dark .header-39GIC8, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .applicationStore-1pNvnv,
-.heroCarousel-k7LeGl, .carouselContainer-1KvOK0, .carouselItem-3UIHqv, .home-2gmu2h, .theme-dark .noChannel-Z1DQK7, .theme-dark .search-results-wrap .search-result.expanded {
+.heroCarousel-k7LeGl, .carouselContainer-1KvOK0, .carouselItem-3UIHqv, .home-2gmu2h, .theme-dark .noChannel-Z1DQK7, .theme-dark .search-results-wrap .search-result.expanded, .need-help-modal.form.deprecated .header input[type=text] {
     background: var(--bg2);
 }
 .container-PNkimc, .theme-dark .title-3qD0b-, .theme-dark .members-1998pB, .channels-Ie2l6A, .theme-dark .headerBar-UHpsPw, .theme-dark .modal-3HD5ck,
@@ -499,7 +467,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .channel-2QD9_O:hover a, .theme-dark .card-7JP0BX, .theme-dark .body-SKIE6r, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .body-3iLsc4,
 .theme-dark .footer-1fjuF6, .theme-dark .note-3kmerW textarea:focus, .regionSelectModal-12e-57, .theme-dark #friends .friends-table .friends-row:hover,
 .theme-dark .resultFocused-3aIoYe, .searchBar-6Kv8R2 .search-bar, .search-bar .search-bar-inner, .theme-dark .contentRegion-3nDuYy, .theme-dark .searchBox-3Y2Vi7,
-.theme-dark .tileWrapper-2khh-w, .theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .tileWrapper-2khh-w, .theme-dark .messagesPopoutWrap-1MQ1bW, .need-help-modal.form.deprecated .header, .need-help-modal.form.deprecated .footer {
     background: var(--bg4);
 }
 .theme-dark .guildsWrapper-5TJh6A, .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .theme-dark .member-3W1lQa:hover .content-OzHfo4,
@@ -568,6 +536,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .form-deprecated .control-group input[type=password], .form-deprecated .control-group input[type=text],
 .form-deprecated .control-group textarea, .form.deprecated .control-group input[type=email],
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
-.form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea {
+.form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea, .need-help-modal.form.deprecated .header input[type=text] {
     color: #eee;
+    font-family: 'Roboto';
 }
