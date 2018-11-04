@@ -10,13 +10,55 @@
     </head>
     <body>
 
-        <div id="changeLogOverlay"></div>
-        <div id="changeLog">
+        <div id="settingsOverlay" class="overlay"></div>
+        <div id="settings" class="modal modalLarge">
+            <div class="header">
+                <h1>Settings</h1>
+                <span class="fas fa-times settingsClose"></span>
+            </div>
+            <div class="body">
+                <p>I know this isn't great. But it's the best I can do.</p>
+                <p>Just copy and paste what "setting" into the SimplyDarkDiscord-VERSION.theme.css under all the :root variables.</p>
+                <div class="setting">
+                    <h2>Circular Server list</h2>
+                    <code>
+                        .guild-1EfMGQ .guildInner-3DSoA4 { border-radius: 25px !important; transition: 0.15s ease; }<br>
+                        .guild-1EfMGQ .guildInner-3DSoA4:hover { border-radius: 10px !important; }<br>
+                        .theme-dark .guild-1EfMGQ.selected-ML3OIq:before { border-radius: 0 3px 3px 0; }
+                    </code>
+                </div>
+                <div class="setting">
+                    <h2>Square Buttons</h2>
+                    <code>
+                        .closeButton-1tv5uR, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before { border-radius: 0 !important;}
+                    </code>
+                </div>
+                <div class="setting">
+                    <h2>Square Avatars & online status</h2>
+                    <code>
+                        .image-33JSyf, .wrapper-2F3Zv8, .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .avatarWrapper-3B0ndJ, .avatarHint-1qgaV3, .avatarWrapper-3H_478, .status-oxiHuE { border-radius: 0 !important; }<br>
+                        .maskProfile-1ObLFT, .mask-3OgeRz { -webkit-mask: none; }<br>
+                        .status-oxiHuE { box-shadow: 0 0 15px #000, 0 0 5px #000 !important; }
+                    </code>
+                </div>
+            </div>
+        </div>
+
+        <div id="changeLogOverlay" class="overlay"></div>
+        <div id="changeLog" class="modal">
             <div class="header">
                 <h1>Changelog</h1>
                 <span class="fas fa-times changeLogClose"></span>
             </div>
             <div class="body">
+                <div class="update">
+                    <p>V1.4 (October 31st, 2018)</p>
+                    <ul>
+                        <li class="fixed fas"><span>Fixed help popup modal.</span></li>
+                        <li class="fixed fas"><span>Fixed font applying to Custom CSS panel.</span></li>
+                        <li class="add fas"><span>Added "settings". Click on Settings button.</span></li>
+                    </ul>
+                </div>
                 <div class="update">
                     <p>V1.3.1 (October 31st, 2018)</p>
                     <ul>
@@ -84,6 +126,7 @@
                 <a href="SimplyDarkDiscord-Dark.theme.css" download="SimplyDarkDiscord-Dark.theme.css">Download Dark</a>
                 <a href="SimplyDarkDiscord-Grey.theme.css" download="SimplyDarkDiscord-Grey.theme.css">Download Grey</a>
                 <button class="changeLogBtn">View Changelog</button>
+                <button class="settingsBtn">Settings</button>
                 <a href="https://codepen.io/Beard-Design/full/mEXNaN" target="_blank">How to install themes</a>
             </div>
         </div>
@@ -95,6 +138,12 @@
         });
         $('#changeLogOverlay, .changeLogClose').click(function() {
             $('#changeLogOverlay, #changeLog').removeClass('toggle');
+        });
+        $('.settingsBtn').click(function() {
+            $('#settings, #settingsOverlay').toggleClass('toggle');
+        });
+        $('#settingsOverlay, .settingsClose').click(function() {
+            $('#settings, #settingsOverlay').removeClass('toggle');
         });
     </script>
 </html>

@@ -10,7 +10,7 @@ body, html {
 body {
   background: #eee; }
 
-#changeLogOverlay {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,11 +23,11 @@ body {
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;
   transition: 0.2s ease; }
-  #changeLogOverlay.toggle {
+  .overlay.toggle {
     opacity: 1;
     visibility: visible; }
 
-#changeLog {
+.modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -44,10 +44,28 @@ body {
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;
   transition: 0.2s ease; }
-  #changeLog.toggle {
+  .modal.modalLarge {
+    width: 980px; }
+    .modal.modalLarge .body {
+      max-height: 450px; }
+      .modal.modalLarge .body code {
+        background: rgba(0, 0, 0, 0.1);
+        text-align: left;
+        display: block;
+        padding: 15px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px; }
+      .modal.modalLarge .body p {
+        margin: 0 0 4px 0; }
+      .modal.modalLarge .body .setting {
+        margin-bottom: 15px; }
+        .modal.modalLarge .body .setting h2 {
+          margin-bottom: 5px; }
+  .modal.toggle {
     opacity: 1;
     visibility: visible; }
-  #changeLog .header {
+  .modal .header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -56,11 +74,11 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative; }
-    #changeLog .header h1 {
+    .modal .header h1 {
       margin: 0;
       font-family: 'Nunito';
       font-weight: 700; }
-    #changeLog .header span {
+    .modal .header span {
       position: absolute;
       top: 50%;
       right: 20px;
@@ -69,49 +87,49 @@ body {
       transform: translateY(-50%);
       font-size: 20px;
       cursor: pointer; }
-  #changeLog .body {
+  .modal .body {
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     overflow-y: auto;
     max-height: 250px; }
-    #changeLog .body .update {
+    .modal .body .update {
       border-bottom: 1px solid #ccc;
       padding: 10px 0;
       margin: 10px 0; }
-      #changeLog .body .update:first-child {
+      .modal .body .update:first-child {
         margin-top: 0;
         padding-top: 0; }
-      #changeLog .body .update:last-child {
+      .modal .body .update:last-child {
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 0; }
-      #changeLog .body .update p {
+      .modal .body .update p {
         margin: 0;
         font-weight: bold; }
-      #changeLog .body .update ul {
+      .modal .body .update ul {
         padding-left: 20px;
         margin: 10px;
         position: relative; }
-        #changeLog .body .update ul li {
+        .modal .body .update ul li {
           list-style: none;
           margin-bottom: 4px;
           display: block; }
-          #changeLog .body .update ul li:last-child {
+          .modal .body .update ul li:last-child {
             margin-bottom: 0; }
-          #changeLog .body .update ul li span {
+          .modal .body .update ul li span {
             font-weight: normal; }
-          #changeLog .body .update ul li.fixed:before {
+          .modal .body .update ul li.fixed:before {
             font-family: 'Font Awesome 5 Free';
             content: "\f0ad";
             position: absolute;
             left: 0; }
-          #changeLog .body .update ul li.add:before {
+          .modal .body .update ul li.add:before {
             font-family: 'Font Awesome 5 Free';
             content: "\f067";
             position: absolute;
             left: 0; }
-          #changeLog .body .update ul li.remove:before {
+          .modal .body .update ul li.remove:before {
             font-family: 'Font Awesome 5 Free';
             content: "\f068";
             position: absolute;

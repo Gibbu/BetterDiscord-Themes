@@ -1,6 +1,6 @@
 /*Simply Dark Discord Base*/
-#app-mount {
-    font-family: 'Roboto';
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'Roboto' !important;
 }
 
 body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-dark .messagesWrapper-3lZDfY {
@@ -481,7 +481,8 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
-.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover, .theme-dark .attachment-33OFj0 {
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover, .theme-dark .attachment-33OFj0,
+.theme-dark .footer-1kmXd4 {
     background: var(--bg5);
 }
 .appMount-3VJmYg, .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div, .channel-2QD9_O.selected-1HYmZZ a, .theme-dark .header-1RC2Wb,
@@ -538,5 +539,4 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
 .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea, .need-help-modal.form.deprecated .header input[type=text] {
     color: #eee;
-    font-family: 'Roboto';
 }
