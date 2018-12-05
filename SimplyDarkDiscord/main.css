@@ -154,11 +154,9 @@ nav {
   z-index: 5;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
-  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
   opacity: 0;
   visibility: hidden;
   overflow-y: auto; }
@@ -197,7 +195,8 @@ nav {
       .slideOut .body .update:last-child {
         border-bottom: none; }
       .slideOut .body .update p {
-        margin-top: 0; }
+        margin-top: 0;
+        font-weight: 600; }
       .slideOut .body .update ul {
         margin-bottom: 0; }
   .slideOut.toggle {
