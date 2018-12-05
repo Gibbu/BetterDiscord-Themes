@@ -13,24 +13,6 @@ body {
 }
 
 
-.previewImg {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    width: 100%;
-    img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        border: none;
-    }
-}
-
-
 nav {
     position: fixed;
     top: 0;
@@ -126,6 +108,9 @@ nav {
 	transition: opacity 1s;
     display: flex;
     align-items: center;
+    img {
+        width: 100%;
+    }
     .info {
         position: absolute;
         bottom: 0;
