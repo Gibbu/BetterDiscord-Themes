@@ -1,250 +1,205 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Montserrat:400,500,600,700");
 * {
   outline-width: 0 !important;
-  font-family: 'Nunito'; }
+  font-family: 'Montserrat'; }
 
 body, html {
   padding: 0;
   margin: 0; }
 
 body {
-  background: #eee; }
+  background: #111; }
 
-.overlay {
+nav {
   position: fixed;
   top: 0;
   left: 0;
+  height: 100vh;
+  width: 300px;
+  background: #1c1c1c;
+  border-right: 1px solid #272727;
+  z-index: 10; }
+
+.navTop {
+  padding-bottom: 10px;
+  padding: 25px;
+  border-bottom: 1px solid #272727; }
+  .navTop h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0; }
+  .navTop p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0; }
+
+.nav a, .nav button {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 25px;
+  color: #eee;
+  width: 100%;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #272727; }
+  .nav a:hover, .nav button:hover {
+    background: #212121; }
+
+#right {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100vw - 300px); }
+
+#slides {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.slide:nth-child(1) {
+  background: url("img/1.jpg") center; }
+
+.slide:nth-child(2) {
+  background: url("img/2.jpg") center; }
+
+.slide:nth-child(3) {
+  background: url("img/3.jpg") center; }
+
+.slide:nth-child(4) {
+  background: url("img/4.jpg") center; }
+
+.slide:nth-child(5) {
+  background: url("img/5.jpg") center; }
+
+.slide:nth-child(6) {
+  background: url("img/6.jpg") center; }
+
+.slide:nth-child(7) {
+  background: url("img/7.jpg") center; }
+
+.slide:nth-child(8) {
+  background: url("img/8.jpg") center; }
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 5;
   opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.2s ease;
-  -o-transition: 0.2s ease;
-  transition: 0.2s ease; }
-  .overlay.toggle {
-    opacity: 1;
-    visibility: visible; }
-
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  z-index: 6;
-  background: #eee;
-  overflow: hidden;
-  border-radius: 3px;
-  width: 550px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.2s ease;
-  -o-transition: 0.2s ease;
-  transition: 0.2s ease; }
-  .modal.modalLarge {
-    width: 980px; }
-    .modal.modalLarge .body {
-      max-height: 450px; }
-      .modal.modalLarge .body code {
-        background: rgba(0, 0, 0, 0.1);
-        text-align: left;
-        display: block;
-        padding: 15px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        border-radius: 5px; }
-      .modal.modalLarge .body p {
-        margin: 0 0 4px 0; }
-      .modal.modalLarge .body .setting {
-        margin-bottom: 15px; }
-        .modal.modalLarge .body .setting h2 {
-          margin-bottom: 5px; }
-  .modal.toggle {
-    opacity: 1;
-    visibility: visible; }
-  .modal .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #fff;
-    padding: 10px;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  background-size: cover !important; }
+  .slide .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    position: relative; }
-    .modal .header h1 {
-      margin: 0;
-      font-family: 'Nunito';
-      font-weight: 700; }
-    .modal .header span {
+    width: 100%;
+    background: rgba(17, 17, 17, 0.95);
+    color: #fff;
+    padding: 15px 35px; }
+    .slide .info h1 {
+      margin: 0 0 10px 0;
+      font-weight: 500; }
+    .slide .info span {
+      font-weight: 500; }
+    .slide .info a {
       position: absolute;
+      right: 35px;
       top: 50%;
-      right: 20px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-      font-size: 20px;
-      cursor: pointer; }
-  .modal .body {
-    padding: 10px 15px;
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 25px;
+      -webkit-transition: 0.2s ease;
+      -o-transition: 0.2s ease;
+      transition: 0.2s ease; }
+      .slide .info a:hover {
+        background: #1c1c1c; }
+
+.showing {
+  opacity: 1;
+  z-index: 2; }
+
+.slideOut {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 95%;
+  width: 95%;
+  background: #1c1c1c;
+  z-index: 5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto; }
+  .slideOut .close {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px; }
+  .slideOut header {
+    padding: 25px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    overflow-y: auto;
-    max-height: 250px; }
-    .modal .body .update {
-      border-bottom: 1px solid #ccc;
-      padding: 10px 0;
-      margin: 10px 0; }
-      .modal .body .update:first-child {
-        margin-top: 0;
+    border-bottom: 1px solid #272727; }
+    .slideOut header h2 {
+      margin: 0;
+      color: #fff; }
+  .slideOut .body {
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #eee; }
+    .slideOut .body code {
+      background: #272727;
+      display: block;
+      padding: 15px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    .slideOut .body .update {
+      padding: 25px 0;
+      border-bottom: 1px solid #272727; }
+      .slideOut .body .update:first-child {
         padding-top: 0; }
-      .modal .body .update:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-        padding-bottom: 0; }
-      .modal .body .update p {
-        margin: 0;
-        font-weight: bold; }
-      .modal .body .update ul {
-        padding-left: 20px;
-        margin: 10px;
-        position: relative; }
-        .modal .body .update ul li {
-          list-style: none;
-          margin-bottom: 4px;
-          display: block; }
-          .modal .body .update ul li:last-child {
-            margin-bottom: 0; }
-          .modal .body .update ul li span {
-            font-weight: normal; }
-          .modal .body .update ul li.fixed:before {
-            font-family: 'Font Awesome 5 Free';
-            content: "\f0ad";
-            position: absolute;
-            left: 0; }
-          .modal .body .update ul li.add:before {
-            font-family: 'Font Awesome 5 Free';
-            content: "\f067";
-            position: absolute;
-            left: 0; }
-          .modal .body .update ul li.remove:before {
-            font-family: 'Font Awesome 5 Free';
-            content: "\f068";
-            position: absolute;
-            left: 0; }
-
-#centre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 1280px;
-  height: 100vh;
-  margin: 0 auto;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.title {
-  background: #fff;
-  padding: 15px 20px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  position: relative; }
-  .title h1 {
-    font-family: 'Nunito';
-    font-weight: 600;
-    margin: 0; }
-  .title p {
-    margin: 0;
-    font-weight: 600; }
-  .title .socials {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .title .socials a {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 32px;
-      height: 32px;
-      margin-right: 5px;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      color: #444;
-      font-size: 20px;
-      text-decoration: none; }
-      .title .socials a:hover {
-        background: #f8f8f8;
-        border-radius: 3px; }
-      .title .socials a:last-child {
-        margin-right: 0; }
-
-.previewImage {
-  position: relative;
-  overflow: hidden;
-  border-radius: 3px; }
-  .previewImage img {
-    width: 100%;
-    display: block; }
-
-.btns {
-  background: #fff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  margin-top: 15px;
-  border-radius: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .btns a, .btns button {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 20px 0;
-    text-decoration: none;
-    background: none;
-    border: none;
-    font-family: 'Nunito';
-    font-weight: 700;
-    color: #444;
-    text-align: center;
-    cursor: pointer;
-    border-right: 1px solid #eee; }
-    .btns a:last-child, .btns button:last-child {
-      border-right: none; }
-    .btns a:hover, .btns button:hover {
-      background: #fafafa; }
-
-@media only screen and (max-width: 1366px) {
-  #centre {
-    width: 980px; } }
-
-@media only screen and (max-width: 980px) {
-  #centre {
-    width: 100%;
-    padding: 0 20px; } }
+      .slideOut .body .update:last-child {
+        border-bottom: none; }
+      .slideOut .body .update p {
+        margin-top: 0; }
+      .slideOut .body .update ul {
+        margin-bottom: 0; }
+  .slideOut.toggle {
+    opacity: 1;
+    visibility: visible; }

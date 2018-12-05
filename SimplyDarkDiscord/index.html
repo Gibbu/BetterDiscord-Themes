@@ -10,140 +10,188 @@
     </head>
     <body>
 
-        <div id="settingsOverlay" class="overlay"></div>
-        <div id="settings" class="modal modalLarge">
-            <div class="header">
-                <h1>Settings</h1>
-                <span class="fas fa-times settingsClose"></span>
+        <nav>
+            <div class="navTop">
+                <h1>SimplyDarkDiscord</h1>
+                <p>by Gibbu</p>
             </div>
-            <div class="body">
-                <p>I know this isn't great. But it's the best I can do.</p>
-                <p>Just copy and paste what "setting" into the SimplyDarkDiscord-VERSION.theme.css under all the :root variables.</p>
-                <div class="setting">
-                    <h2>Circular Server list</h2>
-                    <code>
-                        .guild-1EfMGQ .guildInner-3DSoA4 { border-radius: 25px !important; transition: 0.15s ease; }<br>
-                        .guild-1EfMGQ .guildInner-3DSoA4:hover { border-radius: 10px !important; }<br>
-                        .theme-dark .guild-1EfMGQ.selected-ML3OIq:before { border-radius: 0 3px 3px 0; }
-                    </code>
-                </div>
-                <div class="setting">
-                    <h2>Square Buttons</h2>
-                    <code>
-                        .closeButton-1tv5uR, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before { border-radius: 0 !important;}
-                    </code>
-                </div>
-                <div class="setting">
-                    <h2>Square Avatars & online status</h2>
-                    <code>
-                        .image-33JSyf, .wrapper-2F3Zv8, .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .avatarWrapper-3B0ndJ, .avatarHint-1qgaV3, .avatarWrapper-3H_478, .status-oxiHuE { border-radius: 0 !important; }<br>
-                        .maskProfile-1ObLFT, .mask-3OgeRz { -webkit-mask: none; }<br>
-                        .status-oxiHuE { box-shadow: 0 0 15px #000, 0 0 5px #000 !important; }
-                    </code>
-                </div>
-            </div>
-        </div>
-
-        <div id="changeLogOverlay" class="overlay"></div>
-        <div id="changeLog" class="modal">
-            <div class="header">
-                <h1>Changelog</h1>
-                <span class="fas fa-times changeLogClose"></span>
-            </div>
-            <div class="body">
-                <div class="update">
-                    <p>V1.4 (October 31st, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed help popup modal.</span></li>
-                        <li class="fixed fas"><span>Fixed font applying to Custom CSS panel.</span></li>
-                        <li class="add fas"><span>Added "settings". Click on Settings button.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.3.1 (October 31st, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed input/output device selector dropdown menu.</span></li>
-                        <li class="fixed fas"><span>Fixed attachment file in chat.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.3 (October 24th, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed User Setting icons for Mac users.</span></li>
-                        <li class="fixed fas"><span>Moved icons to github for secure connection (HTTPS) and edited them a little.</span></li>
-                        <li class="fixed fas"><span>Fixed search function :before Calendar.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.2 (October 22nd, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed right click menus.</span></li>
-                        <li class="fixed fas"><span>Fixed options menu for chat messages.</span></li>
-                        <li class="fixed fas"><span>Fixed editing profile text boxes.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.1.1 (October 21st, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed Roles in Server settings.</span></li>
-                        <li class="fixed fas"><span>Minor fixes to BD settings.</span></li>
-                        <li class="add fas"><span>Added Icon to Log Out button.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.1 (October 20th, 2018)</p>
-                    <ul>
-                        <li class="fixed fas"><span>Fixed Activity, Libary, Store and Friends pages.</span></li>
-                        <li class="fixed fas"><span>Fixed User Settings and Server Settings pages.</span></li>
-                        <li class="fixed fas"><span>Fixed server list overlapping with Creating or Joining a new server button.</span></li>
-                        <li class="fixed fas"><span>Fixed popups. (Mentions, Auto fill commands and Search box).</span></li>
-                        <li class="add fas"><span>Added icons next to User Settings and Server Settings buttons.</span></li>
-                    </ul>
-                </div>
-                <div class="update">
-                    <p>V1.0 (October 20th, 2018)</p>
-                    <ul>
-                        <li class="add fas"><span>First release.</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div id="centre">
-            <div class="title">
-                <h1>SimplyDarkDiscord by Gibbu</h1>
-                <p>Turns Discord into a sharp dark theme.</p>
-                <div class="socials">
-                    <a href="http://www.twitter.com/Gibbu_" target="_blank"><span class="fab fa-twitter"></span></a>
-                    <a href="http://www.youtube.com/Gibbo12111" target="_blank"><span class="fab fa-youtube"></span></a>
-                    <a href="http://www.twitch.tv/Gibbu" target="_blank"><span class="fab fa-twitch"></span></a>
-                </div>
-            </div>
-            <div class="previewImage">
-                <img src="preview.jpg" alt="SimplyDarkDiscord Preview Image">
-            </div>
-            <div class="btns">
+            <div class="nav">
                 <a href="SimplyDarkDiscord-Dark.theme.css" download="SimplyDarkDiscord-Dark.theme.css">Download Dark</a>
                 <a href="SimplyDarkDiscord-Grey.theme.css" download="SimplyDarkDiscord-Grey.theme.css">Download Grey</a>
-                <button class="changeLogBtn">View Changelog</button>
-                <button class="settingsBtn">Settings</button>
+                <button class="slideOutBtn">View Changelog / Settings</button>
                 <a href="https://codepen.io/Beard-Design/full/mEXNaN" target="_blank">How to install themes</a>
             </div>
+        </nav>
+
+        <div id="right">
+
+            <div class="slideOut">
+                <div class="close slideOutBtn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="left">
+                    <header>
+                        <h2>Changelog</h2>
+                    </header>
+                    <div class="body">
+                        <div class="update">
+                            <p>V1.4 (October 31st, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed help popup modal.</span></li>
+                                <li class="fixed"><span>Fixed font applying to Custom CSS panel.</span></li>
+                                <li class="add"><span>Added "settings". Click on Settings button.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.3.1 (October 31st, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed input/output device selector dropdown menu.</span></li>
+                                <li class="fixed"><span>Fixed attachment file in chat.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.3 (October 24th, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed User Setting icons for Mac users.</span></li>
+                                <li class="fixed"><span>Moved icons to github for secure connection (HTTPS) and edited them a little.</span></li>
+                                <li class="fixed"><span>Fixed search function :before Calendar.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.2 (October 22nd, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed right click menus.</span></li>
+                                <li class="fixed"><span>Fixed options menu for chat messages.</span></li>
+                                <li class="fixed"><span>Fixed editing profile text boxes.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.1.1 (October 21st, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed Roles in Server settings.</span></li>
+                                <li class="fixed"><span>Minor fixes to BD settings.</span></li>
+                                <li class="add"><span>Added Icon to Log Out button.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.1 (October 20th, 2018)</p>
+                            <ul>
+                                <li class="fixed"><span>Fixed Activity, Libary, Store and Friends pages.</span></li>
+                                <li class="fixed"><span>Fixed User Settings and Server Settings pages.</span></li>
+                                <li class="fixed"><span>Fixed server list overlapping with Creating or Joining a new server button.</span></li>
+                                <li class="fixed"><span>Fixed popups. (Mentions, Auto fill commands and Search box).</span></li>
+                                <li class="add"><span>Added icons next to User Settings and Server Settings buttons.</span></li>
+                            </ul>
+                        </div>
+                        <div class="update">
+                            <p>V1.0 (October 20th, 2018)</p>
+                            <ul>
+                                <li class="add"><span>First release.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <header>
+                        <h2>Settings</h2>
+                    </header>
+                    <div class="body">
+                        <p>I know this isn't great. But it's the best I can do.</p>
+                        <p>Just copy and paste what "setting" into the SimplyDarkDiscord-VERSION.theme.css under all the :root variables.</p>
+                        <div class="setting">
+                            <h2>Circular Server list</h2>
+                            <code>
+                                .guild-1EfMGQ .guildInner-3DSoA4 { border-radius: 25px !important; transition: 0.15s ease; }<br>
+                                .guild-1EfMGQ .guildInner-3DSoA4:hover { border-radius: 10px !important; }<br>
+                                .theme-dark .guild-1EfMGQ.selected-ML3OIq:before { border-radius: 0 3px 3px 0; }
+                            </code>
+                        </div>
+                        <div class="setting">
+                            <h2>Square Buttons</h2>
+                            <code>
+                                .closeButton-1tv5uR, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before { border-radius: 0 !important;}
+                            </code>
+                        </div>
+                        <div class="setting">
+                            <h2>Square Avatars & online status</h2>
+                            <code>
+                                .image-33JSyf, .wrapper-2F3Zv8, .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .avatarWrapper-3B0ndJ, .avatarHint-1qgaV3, .avatarWrapper-3H_478, .status-oxiHuE { border-radius: 0 !important; }<br>
+                                .maskProfile-1ObLFT, .mask-3OgeRz { -webkit-mask: none; }<br>
+                                .status-oxiHuE { box-shadow: 0 0 15px #000, 0 0 5px #000 !important; }
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul id="slides">
+                <li class="slide showing">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Dark</h1>
+                        <span>Server Chat</span>
+                        <a href="img/1.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Grey</h1>
+                        <span>Direct Messages</span>
+                        <a href="img/2.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Dark</h1>
+                        <span>Library</span>
+                        <a href="img/3.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Grey</h1>
+                        <span>Server Settings</span>
+                        <a href="img/4.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Dark</h1>
+                        <span>Store</span>
+                        <a href="img/5.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="bg"></div>
+                    <div class="info">
+                        <h1>Dark</h1>
+                        <span>User Settings</span>
+                        <a href="img/6.jpg" target="_blank">View full</a>
+                    </div>
+                </li>
+            </ul>
         </div>
 
+        <script>
+            $('.slideOutBtn').click(function() {
+                $('.slideOut').toggleClass('toggle');
+            });
+
+            $(function() {
+                var slides = document.querySelectorAll('#slides .slide');
+                var currentSlide = 0;
+                var slideInterval = setInterval(nextSlide,5000);
+
+                function nextSlide() {
+                       slides[currentSlide].className = 'slide';
+                       currentSlide = (currentSlide+1)%slides.length;
+                       slides[currentSlide].className = 'slide showing';
+                }
+            });
+        </script>
     </body>
-    <script>
-        $('.changeLogBtn').click(function() {
-            $('#changeLog, #changeLogOverlay').toggleClass('toggle');
-        });
-        $('#changeLogOverlay, .changeLogClose').click(function() {
-            $('#changeLogOverlay, #changeLog').removeClass('toggle');
-        });
-        $('.settingsBtn').click(function() {
-            $('#settings, #settingsOverlay').toggleClass('toggle');
-        });
-        $('#settingsOverlay, .settingsClose').click(function() {
-            $('#settings, #settingsOverlay').removeClass('toggle');
-        });
-    </script>
 </html>
