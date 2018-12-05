@@ -367,6 +367,9 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     margin-left: -110px;
     margin-top: 10px;
 }
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+    filter: invert(1) grayscale(1);
+}
 
 
 
