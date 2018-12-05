@@ -52,6 +52,31 @@ nav {
   .nav a:hover, .nav button:hover {
     background: #212121; }
 
+.social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
+    border-top: 1px solid #272727;
+    border-right: 1px solid #272727; }
+    .social a:hover {
+      color: #ddd; }
+    .social a:last-child {
+      border-right: none; }
+
 #right {
   height: 100vh;
   position: absolute;
