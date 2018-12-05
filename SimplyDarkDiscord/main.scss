@@ -13,7 +13,22 @@ body {
 }
 
 
-
+.previewImg {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: none;
+    }
+}
 
 
 nav {
@@ -100,12 +115,6 @@ nav {
     margin: 0;
     padding: 0;
 }
-@for $i from 1 through 8 {
-    $img_path: 'img/' + $i + '.jpg';
-    .slide:nth-child(#{$i}) {
-        background: url($img_path) center;
-    }
-}
 .slide {
 	position: absolute;
 	left: 0px;
@@ -115,7 +124,8 @@ nav {
 	opacity: 0;
 	z-index: 1;
 	transition: opacity 1s;
-    background-size: cover !important;
+    display: flex;
+    align-items: center;
     .info {
         position: absolute;
         bottom: 0;
