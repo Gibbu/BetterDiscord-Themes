@@ -1,10 +1,10 @@
-//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.4.1","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//{}
+//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.5","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//{}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
 
-/* List of variables going from darkest to lightest */
 :root {
+    /* List of variables going from darkest to lightest */
     --bg1: #111;
     --bg2: #171717;
     --bg3: #1c1c1c;
@@ -12,4 +12,9 @@
     --bg5: #272727;
     --bg6: #2c2c2c;
     --bg7: #333;
+
+    /* Discord preset colours */
+    --green: #43b581;
+    --yellow: #faa61a;
+    --red: #f04747
 }
