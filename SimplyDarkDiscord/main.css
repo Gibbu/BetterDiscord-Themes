@@ -110,7 +110,8 @@ nav {
   -ms-flex-align: center;
   align-items: center; }
   .slide img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
   .slide .info {
     position: absolute;
     bottom: 0;
