@@ -612,10 +612,10 @@ div[status="offline"].avatar-small {
     box-sizing: border-box;
     background: rgba(64,64,64,0.2);
 }
-.da-gameLibrary .da-table .da-rowWrapper .da-row div:nth-child(2) {
+.da-gameLibrary .da-table .da-rowWrapper .da-row > div:nth-child(2) {
     padding: 15px 0 0 15px;
 }
-.da-gameLibrary .da-table .da-rowWrapper .da-row div:nth-child(3) {
+.da-gameLibrary .da-table .da-rowWrapper .da-row > div:nth-child(3) {
     padding: 0 0 15px 15px;
 }
 .da-gameLibrary .da-table .da-rowWrapper .da-row .da-bodyCell .da-settingIcons {
