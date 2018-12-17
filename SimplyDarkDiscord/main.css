@@ -112,36 +112,6 @@ nav {
   .slide img {
     width: 100%;
     display: block; }
-  .slide .info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    background: rgba(17, 17, 17, 0.95);
-    color: #fff;
-    padding: 15px 35px; }
-    .slide .info h1 {
-      margin: 0 0 10px 0;
-      font-weight: 500; }
-    .slide .info span {
-      font-weight: 500; }
-    .slide .info a {
-      position: absolute;
-      right: 35px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      color: #fff;
-      text-decoration: none;
-      padding: 15px 25px;
-      -webkit-transition: 0.2s ease;
-      -o-transition: 0.2s ease;
-      transition: 0.2s ease; }
-      .slide .info a:hover {
-        background: #1c1c1c; }
 
 .showing {
   opacity: 1;
@@ -152,23 +122,23 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  height: 95%;
-  width: 95%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
   background: #1c1c1c;
   z-index: 5;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: 0.1s ease;
-  -o-transition: 0.1s ease;
-  transition: 0.1s ease;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  overflow-y: auto;
+  -webkit-transform: scale(0.85, 0.85);
+  -ms-transform: scale(0.85, 0.85);
+  transform: scale(0.85, 0.85);
   opacity: 0;
-  visibility: hidden;
-  overflow-y: auto; }
+  visibility: hidden; }
   .slideOut .close {
     position: absolute;
     top: 0;
@@ -209,5 +179,8 @@ nav {
       .slideOut .body .update ul {
         margin-bottom: 0; }
   .slideOut.toggle {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
     opacity: 1;
     visibility: visible; }

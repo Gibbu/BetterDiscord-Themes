@@ -112,36 +112,6 @@ nav {
         width: 100%;
         display: block;
     }
-    .info {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        box-sizing: border-box;
-        width: 100%;
-        background: rgba($bg1, 0.95);
-        color: #fff;
-        padding: 15px 35px;
-        h1 {
-            margin: 0 0 10px 0;
-            font-weight: 500;
-        }
-        span {
-            font-weight: 500;
-        }
-        a {
-            position: absolute;
-            right: 35px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #fff;
-            text-decoration: none;
-            padding: 15px 25px;
-            transition: 0.2s ease;
-            &:hover {
-                background: $bg2;
-            }
-        }
-    }
 }
 .showing {
 	opacity: 1;
@@ -159,18 +129,18 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 95%;
-    width: 95%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
     background: $bg2;
     z-index: 5;
     box-sizing: border-box;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
+    overflow-y: auto;
+    transform: scale(0.85, 0.85);
     opacity: 0;
     visibility: hidden;
-    overflow-y: auto;
     .close {
         position: absolute;
         top: 0;
@@ -218,6 +188,7 @@ nav {
         }
     }
     &.toggle {
+        transform: scale(1,1);
         opacity: 1;
         visibility: visible;
     }
