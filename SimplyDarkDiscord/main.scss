@@ -20,7 +20,7 @@ nav {
     height: 100vh;
     width: 300px;
     background: $bg2;
-    border-right: 1px solid $bg3;
+    box-shadow: inset -1px 0 0 $bg3;
     z-index: 10;
 }
 .navTop {
@@ -46,7 +46,7 @@ nav {
         box-sizing: border-box;
         padding: 25px;
         color: #eee;
-        width: 100%;
+        width: calc(100% - 1px);
         border: none;
         background: transparent;
         text-align: left;
@@ -88,6 +88,7 @@ nav {
     top: 0;
     right: 0;
     width: calc(100vw - 300px);
+    z-index: 11;
 }
 #slides {
 	position: absolute;
@@ -112,6 +113,15 @@ nav {
         width: 100%;
         display: block;
     }
+}
+.info {
+    position: fixed;
+    top: 372px;
+    left: 0;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #fff;
 }
 .showing {
 	opacity: 1;
