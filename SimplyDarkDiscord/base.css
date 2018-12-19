@@ -459,12 +459,19 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     margin-top: 0;
     background: var(--bg6);
 }
+.typeWindows-1za-n7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
-    padding: 0 170px 0 12px;
+    padding: 0 160px 0 12px;
 }
 .winButton-iRh8-Z {
     position: relative;
-    top: 4px;
+    top: 0;
     height: 48px;
     width: 52px;
 }
@@ -640,7 +647,16 @@ div[status="offline"].avatar-small {
         padding: 15px;
     }
 }
-
+#pluginNotice {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateY(-50%);
+    border-radius: 0 !important;
+    padding: 0 40px 0 20px;
+    z-index: 999999999999;
+    -webkit-app-region: no-drag;
+}
 
 
 
