@@ -12,6 +12,18 @@ body {
     background: $bg1;
 }
 
+#notification {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 300px);
+    text-align: center;
+    z-index: 15;
+    p {
+        margin: 0;
+        color: #f44336;
+    }
+}
 
 nav {
     position: fixed;

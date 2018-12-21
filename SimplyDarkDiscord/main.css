@@ -10,6 +10,17 @@ body, html {
 body {
   background: #111; }
 
+#notification {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100% - 300px);
+  text-align: center;
+  z-index: 15; }
+  #notification p {
+    margin: 0;
+    color: #f44336; }
+
 nav {
   position: fixed;
   top: 0;
