@@ -1,4 +1,3 @@
-/*Simply Dark Discord Base*/
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: 'Roboto' !important;
 }
@@ -653,15 +652,15 @@ div[status="offline"].avatar-small {
 }
 #pluginNotice {
     position: fixed;
-    top: 40px;
-    left: 50%;
-    transform: translateY(-50%);
+    top: 0;
     border-radius: 0 !important;
-    padding: 0 40px 0 20px;
+    width: 100%;
     z-index: 999999999999;
     -webkit-app-region: no-drag;
 }
-
+#pluginNoticeDismiss {
+    left: 0;
+}
 
 
 
