@@ -455,19 +455,13 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     margin: 0 auto;
 }
 .typeWindows-1za-n7 {
-    height: 0;
+    height: 5px;
     margin-top: 0;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background: transparent;
-}
-.da-titleWrapper .da-headerBarDrag {
-    -webkit-app-region: drag;
-}
-.da-titleWrapper .da-headerBarDrag .da-title {
-    -webkit-app-region: no-drag;
 }
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
     padding: 0 160px 0 12px;
@@ -661,6 +655,10 @@ div[status="offline"].avatar-small {
 #pluginNoticeDismiss {
     left: 0;
 }
+#pluginNotice #outdatedPlugins {
+    -webkit-app-region: no-drag;
+}
+
 
 
 
