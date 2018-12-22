@@ -58,8 +58,9 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 }
 .theme-dark .typing-2GQL18 {
     padding: 0 10px;
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
+    bottom: 54px;
 }
 .chat-3bRxxu form {
     display: flex;
