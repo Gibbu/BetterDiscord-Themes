@@ -20,10 +20,22 @@ body {
     text-align: center;
     z-index: 15;
     p {
+        animation: fadeOut ease 2s forwards;
+        animation-delay: 8s;
         margin: 0;
         color: #f44336;
     }
 }
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+
 
 nav {
     position: fixed;

@@ -18,8 +18,22 @@ body {
   text-align: center;
   z-index: 15; }
   #notification p {
+    -webkit-animation: fadeOut ease 2s forwards;
+    animation: fadeOut ease 2s forwards;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
     margin: 0;
     color: #f44336; }
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
 
 nav {
   position: fixed;
