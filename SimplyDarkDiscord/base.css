@@ -679,6 +679,11 @@ div[status="offline"].avatar-small {
     padding-left: 0;
     padding-right: 0;
 }
+.noticeRegion-1YviSH {
+    padding: 0;
+    max-width: 100%;
+    right: 0;
+}
 
 
 
@@ -766,7 +771,7 @@ div[status="offline"].avatar-small {
 .search-bar .search-bar-inner, .theme-dark .input-2VB9rf, .theme-dark .header-ykumBX, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .isLocalBot-38G0P0,
 .need-help-modal.form.deprecated .header input[type=text], .bd-modal-wrapper .header, .theme-dark .footer-2yfCgX, #bda-qem button, .header-2o-2hj, .theme-dark .title-3qD0b-,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
-.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-shadow {
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-shadow, .theme-dark .elevationHigh-1PneE4 {
     box-shadow: none !important;
 }
 
