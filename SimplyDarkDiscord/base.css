@@ -193,10 +193,6 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .mask-3OgeRz {
     -webkit-mask-size: 110%;
 }
-.status-2s6iDp, .theme-dark .status-2kJpnA, .theme-light .status-2kJpnA, .channel-2QD9_O .status {
-    bottom: -1px;
-    box-shadow: -0.5px -0.5px 3px #000;
-}
 .accountBtn-2Nozo3 {
     margin-right: 0;
 }
@@ -393,16 +389,16 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .typingSpinnerItem-35chrT {
     opacity: 1;
 }
-.online-2S838R, .statusProfile-3ynqtt.online-2S838R, .avatar-small .status.online-2S838R {
+div:not(.popouts-3dRSmE) ~ .online-2S838R, div:not(.popouts-3dRSmE) ~ .statusProfile-3ynqtt.online-2S838R, div:not(.popouts-3dRSmE) ~ .avatar-small .status.online-2S838R {
     box-shadow: inset 0 0 0 2px var(--green), inset 0 0 10px #000;
 }
-.idle-3DEnRT, .statusProfile-3ynqtt.idle-3DEnRT, .avatar-small .status.idle-3DEnRT {
+div:not(.popouts-3dRSmE) ~ .idle-3DEnRT, div:not(.popouts-3dRSmE) ~ .statusProfile-3ynqtt.idle-3DEnRT, div:not(.popouts-3dRSmE) ~ .avatar-small .status.idle-3DEnRT {
     box-shadow: inset 0 0 0 2px var(--yellow), inset 0 0 10px #000;
 }
-.dnd-1_xrcq, .statusProfile-3ynqtt.dnd-1_xrcq, .avatar-small .status.dnd-1_xrcq {
+div:not(.popouts-3dRSmE) ~ .dnd-1_xrcq, div:not(.popouts-3dRSmE) ~ .statusProfile-3ynqtt.dnd-1_xrcq, div:not(.popouts-3dRSmE) ~ .avatar-small .status.dnd-1_xrcq {
     box-shadow: inset 0 0 0 2px var(--red), inset 0 0 10px #000;
 }
-.avatar-small .status.invisible-1kp8Z0, .avatar-small .status.da-offline {
+div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
     box-shadow: inset 0 0 0 2px #666, inset 0 0 10px #000;
 }
 .da-userInfoViewing .flexChild-faoVW3.da-flexChild:nth-child(2) > div:nth-child(2) > div {
@@ -457,7 +453,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     position: fixed;
     left: 220px;
     top: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -472,13 +468,13 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
     background: transparent;
 }
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
-    padding: 0 160px 0 12px;
+    padding: 0 135px 0 12px;
 }
 .winButton-iRh8-Z {
     position: relative;
     top: 0;
     height: 48px;
-    width: 52px;
+    width: 40px;
 }
 .theme-dark .closeButton-1tv5uR {
     border-color: transparent;
@@ -550,7 +546,7 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 div[status="offline"].avatar-small {
     filter: grayscale(1);
 }
-.da-channels.da-vertical .da-channel:hover div[status="offline"].avatar-small {
+.channel-2QD9_O:hover div[status="offline"].avatar-small {
     filter: grayscale(0);
 }
 @media only screen and (max-width: 1856px) {
@@ -684,6 +680,55 @@ div[status="offline"].avatar-small {
     max-width: 100%;
     right: 0;
 }
+.streaming-2_dnHe {
+    box-shadow: inset 0 0 0 2px #593695, inset 0 0 10px #000;
+}
+#app-mount.bd-detached-editor .typeWindows-1za-n7 {
+    right: 30%;
+    left: auto;
+}
+.carousel-2WxMes, .article-3kb3qm, .userInfoEditing-1CEzdT .theme-dark .input-cIJ7To, .theme-dark .input-cIJ7To {
+    color: #eee;
+}
+div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offline-3qoTek, div:not(.popouts-3dRSmE) ~ .unknown-Ms2zdV {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    user-select: none;
+    pointer-events: none;
+    box-shadow: inset 0 0 0 2px #666, inset 0 0 10px #000 !important;
+    opacity: 1;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background: var(--green);
+    color: #fff;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background: var(--greenDark)
+}
+.tabBarContainer-1s1u-z {
+    border: none;
+}
+div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -844,6 +889,9 @@ div[status="offline"].avatar-small {
 .theme-dark .focused-2bY0OD, .theme-dark .select-2TCrqx .Select-menu-outer, .search-bar.search-bar-light .search-bar-inner, #bda-qem button:hover,
 .diversitySelector-tmmMv0 .popout-2nUePc, .topSectionPlaying-1J5E4n {
     background: var(--bg7);
+}
+.topSectionPlaying-1J5E4n header {
+    background: var(--bg8);
 }
 
 
