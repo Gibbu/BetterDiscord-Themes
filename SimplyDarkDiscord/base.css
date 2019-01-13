@@ -626,8 +626,12 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     width: 20px;
     margin-right: 10px;
 }
-
-
+.avatar-small[status="offline"] {
+    filter: grayscale(1);
+}
+.channel-2QD9_O:hover .avatar-small[status="offline"], .channel-2QD9_O.selected-1HYmZZ .avatar-small[status="offline"] {
+    filter: grayscale(0);
+}
 
 
 
@@ -714,7 +718,8 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .avatarDefault-35WC3R, .avatarSpeaking-1wJCNq, .avatar-uploader-inner, .base-3dtUhz, .badge-1GsMF2, .topPill-30KHOu .item-PXvHYJ, .content-2BXhLs,
 .theme-light .wrapper-2ZbzR9, #friends .tab-bar .tab-bar-item, .theme-dark .codeRedemptionRedirect-1wVR4b, .premium-39U29H, .theme-dark .applicationTile-1Goy1W,
 .tileMedia-1q3guD, .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j, .theme-dark .guildsError-3cFMtY, .searchBar-2_Yu-C,
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz,
+.theme-dark .option-1l2vXE {
     border-radius: 0 !important;
 }
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .message-2qRu38, .popout-3sVMXz, .theme-dark .cardPrimary-1Hv-to,
@@ -788,7 +793,7 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .theme-dark .headerNormal-T_seeN, .theme-dark .menu-Sp6bN1, .theme-dark .search-2oPWTC .searchBar-2_Yu-C, .theme-dark .card-FDVird:before, .theme-dark .popoutList-T9CKZQ, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .jumpToPresentBar-9P20AM, .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__current-month, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header, .theme-dark .add-game-popout,
 #bda-qem button.active, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-dark .applicationTile-1Goy1W, .theme-dark .row-rrHHJU.selected-1pIgLL,
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA, .theme-dark .option-1l2vXE {
     background: var(--bg6);
 }
 .theme-dark .searchResultsWrap-2DKFzt .searchHeader-1l-wpR, .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResult-3pzFAB-message.hit-NLlWXA, .theme-dark .passthroughSelected-1Eq0Kl,
@@ -850,7 +855,8 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .form-deprecated .control-group textarea, .form.deprecated .control-group input[type=email],
 .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password],
 .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea, .need-help-modal.form.deprecated .header input[type=text],
-.searchBar-2_Yu-C.searchBar-2_Yu-C-light input, .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R, .searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+.searchBar-2_Yu-C.searchBar-2_Yu-C-light input, .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R, .searchBar-2_Yu-C.searchBarLight-1NxoDG input,
+.theme-brand .content-Qb0rXO {
     color: #eee;
 }
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder {
