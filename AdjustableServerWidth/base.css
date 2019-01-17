@@ -58,10 +58,10 @@ button.guildsAdd-21_IdK .guildsAddInner-1KMFy- {
 /* Custom CSS tab Instructions */
 #bd-settingspane-container .editor-wrapper {
     position: relative;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 #bd-settingspane-container .editor-wrapper::before {
-    content: "To change the size of the Server List type the following: \A :root { --ASW_size: 50px } \A\A Default: 50px \A Press 'Live Preview' and 'Detach'";
+    content: "To change the size of the Server List type the following: \A :root { --ASW_size: (YOUR NUMBER)px } \A\A Example:\A :root { --ASW_size: 55px }";
     background: #009688;
     display: block;
     white-space: pre;
@@ -73,6 +73,5 @@ button.guildsAdd-21_IdK .guildsAddInner-1KMFy- {
     width: 100%;
     text-shadow: 0 1px 2px rgba(0,0,0,1);
     position: absolute;
-    top: -95px;
-    user-select: all;
+    top: -110px;
 }
