@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Roboto:300,400,500,700");
+* {
+  outline-width: 0 !important;
+  font-family: 'Roboto'; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background: #eee; }
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
+.responsiveVideo {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden; }
+  .responsiveVideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none; }
+
+#banner {
+  height: 100px;
+  background: #009688;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #banner h1 {
+    font-family: 'Nunito';
+    font-weight: 500;
+    color: #fff;
+    margin: 0; }
+    #banner h1 a {
+      font-family: 'Nunito';
+      font-weight: 500;
+      color: #fff;
+      -webkit-box-shadow: inset 0 -1px 0 #fff;
+      box-shadow: inset 0 -1px 0 #fff;
+      text-decoration: none; }
+
+#list {
+  position: relative;
+  margin: 50px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.theme {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1); }
+  .theme img {
+    display: block;
+    width: 100%; }
+  .theme .info {
+    padding: 20px 140px 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative; }
+    .theme .info h1 {
+      margin: 0 0 10px 0;
+      font-family: 'Nunito'; }
+    .theme .info p {
+      margin-bottom: 0; }
+    .theme .info > a {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      display: block;
+      padding: 10px 25px;
+      border-radius: 5px;
+      background: #009688;
+      color: #fff;
+      text-decoration: none;
+      -webkit-transition: 0.2s ease;
+      -o-transition: 0.2s ease;
+      transition: 0.2s ease; }
+      .theme .info > a:hover {
+        background: #007d71; }

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Roboto:300,400,500,700");
+* {
+  outline-width: 0 !important;
+  font-family: 'Roboto'; }
+
+body, html {
+  padding: 0;
+  margin: 0; }
+
+html {
+  overflow: hidden; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; }
+
+#centre {
+  width: 1280px;
+  position: relative; }
+
+#title {
+  padding-bottom: 15px; }
+  #title h1 {
+    margin: 0;
+    font-family: 'Nunito'; }
+
+.btns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  padding-top: 15px; }
+  .btns a {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease; }
+    .btns a i {
+      padding-right: 5px; }
+    .btns a.download {
+      background: #4CAF50; }
+      .btns a.download:hover {
+        background: #449d48; }
+    .btns a.source {
+      background: #2196F3; }
+      .btns a.source:hover {
+        background: #0c84e4; }
+
+.responsiveVideo {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden; }
+  .responsiveVideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none; }
