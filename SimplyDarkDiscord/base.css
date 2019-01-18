@@ -617,6 +617,8 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     top: 0;
     left: 0;
     background: transparent;
+    user-select: none;
+    pointer-events: none;
 }
 .theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
     box-shadow: none !important;
