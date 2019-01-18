@@ -11,6 +11,13 @@
     height: 100%;
     position: absolute;
 }
+.theme-dark .guildsError-3cFMtY {
+    height: calc(var(--ASW_size) - 20px);
+    width: calc(var(--ASW_size) - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 a {
     position: relative;
 }
