@@ -634,7 +634,15 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .channel-2QD9_O:hover .avatar-small[status="offline"], .channel-2QD9_O.selected-1HYmZZ .avatar-small[status="offline"] {
     filter: grayscale(0);
 }
-
+.privateChannels-1nO12o .spinner-2enMB9 {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+}
+.privateChannels-1nO12o div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
+    width: 100% !important;
+    height: 100% !important;
+}
 
 
 
