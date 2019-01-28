@@ -90,18 +90,15 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 .theme-dark .guildsAdd-21_IdK {
     background: var(--bg5);
     border: none;
-    color: #fff;
-    opacity: 1;
-    height: 60px;
-    width: 70px;
+    color: #aaa;
     border-radius: 0;
     font-weight: 100;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
+    font-size: 24px;
+    border: 1px solid rgba(255,255,255,0.1)
 }
-.guilds-1q_RqH {
-    margin-bottom: 60px;
+.guildsAdd-21_IdK:hover {
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    color: #eee !important;
 }
 .scroller-fzNley::-webkit-scrollbar-track {
 	border-radius: 0 !important;
@@ -456,7 +453,7 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
     background: transparent;
 }
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
-    padding: 0 135px 0 12px;
+    padding: var(--HSL_winBtns);
 }
 .winButton-iRh8-Z {
     position: relative;
