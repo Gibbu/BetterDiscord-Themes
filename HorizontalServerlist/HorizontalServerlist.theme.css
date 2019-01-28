@@ -1,0 +1,10 @@
+/*//META{"name":"Horizontal Serverlist","description":"Moves the server list from the left to the top of Discord. Also allows for adjusting the size of the server icons. Customizable in the file or Custom CSS tab. To minimize compatibility issues, enable this theme last. Compatibility List can be found in My Account","author":"Gibbu","version":"0.7"}*//**/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
+
+:root {
+    --HSL-size: 40px; /* Size of the server icons */
+
+    /* Variables from other themes */
+    --winBtns: 0 12px 0 12px; /* SimplyDarkDiscord */
+}

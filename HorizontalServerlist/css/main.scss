@@ -20,16 +20,60 @@ body, html {padding: 0; margin: 0;}
         left: 0;
         width: 100%;
         height: 100%;
-    }
+    } 
 }
 
 
+$bg1: #151515;
 
 
+body {
+    background: $bg1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centre {
+    max-width: 1280px;
+}
 
+header {
+    padding-bottom: 25px;
+    h1 {
+        font-weight: 400;
+        color: #fff;
+        margin: 0 0 5px 0;
+    }
+    p {
+        color: #aaa;
+        margin: 0;
+    }
+}
 
-
-
+#lightSlider {
+    li {
+        position: relative;
+        max-height: 720px;
+        max-width: 1280px;
+        img {
+            height: 100% !important;
+            width: 100% !important;
+            display: block;
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.8);
+            margin: 0;
+            padding: 15px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+    }
+}
 
 
 
