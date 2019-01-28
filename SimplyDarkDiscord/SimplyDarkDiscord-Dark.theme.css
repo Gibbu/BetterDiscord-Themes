@@ -21,4 +21,7 @@
     --yellow: #faa61a;
     --red: #f04747;
     --purple: #593695;
+
+    /* Fix for my Horizontal Serverlist theme */
+    --HSL_winBtns: 0 135px 0 12px;
 }
