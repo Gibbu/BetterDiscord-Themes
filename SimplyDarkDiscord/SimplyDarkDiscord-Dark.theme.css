@@ -1,4 +1,4 @@
-//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.5.4","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//{}
+/*//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.5.4","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//**/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
@@ -24,4 +24,5 @@
 
     /* Fix for my Horizontal Serverlist theme */
     --HSL_winBtns: 0 135px 0 12px;
+    --SSD_HSL_padding: 135px;
 }
