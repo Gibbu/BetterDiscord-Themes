@@ -22,7 +22,9 @@
     --red: #f04747;
     --purple: #593695;
     
-    /* Fix for my Horizontal Serverlist theme */
-    --HSL_winBtns: 0 135px 0 12px;
-    --SSD_HSL_padding: 135px;
+    /* Random variables */
+    --winBtns: 0 135px 0 12px; /* Add space for windows buttons */
+
+    /* Variables for my Horizontal Serverlist */
+    --SSD_HSL-padding: 135px;
 }

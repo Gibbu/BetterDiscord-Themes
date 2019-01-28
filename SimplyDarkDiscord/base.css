@@ -453,7 +453,7 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
     background: transparent;
 }
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
-    padding: var(--HSL_winBtns);
+    padding: var(--winBtns);
 }
 .winButton-iRh8-Z {
     position: relative;
