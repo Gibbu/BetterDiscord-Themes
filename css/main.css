@@ -83,10 +83,7 @@ body, html {
     .theme .info > a {
       position: absolute;
       right: 20px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+      top: 20px;
       display: block;
       padding: 10px 25px;
       border-radius: 5px;
