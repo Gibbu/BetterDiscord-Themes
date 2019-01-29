@@ -185,7 +185,7 @@ div[role="dialog"].layer-3QrUeG {
 }
 /* Compatibility List */
 .userSettingsSecurity-3IYeMF::after {
-    content: "Horizontal Serverlist is 100% compatible with the following: \A\A Themes:\A > SimplyDarkDiscord - Gibbu#1211\A > Aurora - Tropical#6876\A > BasicBackground - DevilBro#4401 \A\A Plugins:\A > Server Folders - DevilBro#4401\A > Old Title Bar - DevilBro#4401 \A\A\A Make sure to apply Horizontal Serverlist last to minimize compatibility issues";
+    content: "Horizontal Serverlist is 100% compatible with the following: \A\A Themes:\A > SimplyDarkDiscord - Gibbu#1211\A > Aurora - Tropical#6876\A > BasicBackground - DevilBro#4401 \A\A Plugins:\A > Server Folders - DevilBro#4401\A > Old Title Bar - DevilBro#4401\A > Guild Counter - Metalloriff#2891 \A\A\A Make sure to apply Horizontal Serverlist last to minimize compatibility issues";
     background: rgba(0,0,0,0.3);
     border: 1px solid rgba(0,0,0,0.3);
     display: block;
@@ -255,3 +255,9 @@ Theme & Plugin Fixes
 
 /* NOX - Zerebos & Beard's Design | Theme */
 /* Maybe coming soon... ? */
+
+/* Guild Counter - Metalloriff | Plugin */
+#gc-counter {
+    bottom: -3px;
+    font-size: 9px;
+}
