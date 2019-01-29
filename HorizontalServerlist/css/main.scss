@@ -40,14 +40,34 @@ body {
 
 header {
     padding-bottom: 25px;
-    h1 {
-        font-weight: 400;
-        color: #fff;
-        margin: 0 0 5px 0;
+    display: flex;
+    .headerLeft {
+        flex: 1;
+        h1 {
+            font-weight: 400;
+            color: #fff;
+            margin: 0 0 5px 0;
+        }
+        p {
+            color: #aaa;
+            margin: 0;
+        }
     }
-    p {
-        color: #aaa;
-        margin: 0;
+    .headerRight {
+        display: flex;
+        align-items: flex-start;
+        a {
+            background: #3F51B5;
+            box-shadow: 0 3px 0 darken(#3F51B5, 20%);
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            padding: 15px 25px;
+            border-radius: 3px;
+            i {
+                padding-right: 10px;
+            }
+        }
     }
 }
 

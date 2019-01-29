@@ -55,14 +55,39 @@ body {
   max-width: 1280px; }
 
 header {
-  padding-bottom: 25px; }
-  header h1 {
-    font-weight: 400;
-    color: #fff;
-    margin: 0 0 5px 0; }
-  header p {
-    color: #aaa;
-    margin: 0; }
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  header .headerLeft {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    header .headerLeft h1 {
+      font-weight: 400;
+      color: #fff;
+      margin: 0 0 5px 0; }
+    header .headerLeft p {
+      color: #aaa;
+      margin: 0; }
+  header .headerRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    header .headerRight a {
+      background: #3F51B5;
+      -webkit-box-shadow: 0 3px 0 #252f69;
+      box-shadow: 0 3px 0 #252f69;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      padding: 15px 25px;
+      border-radius: 3px; }
+      header .headerRight a i {
+        padding-right: 10px; }
 
 #lightSlider li {
   position: relative;
