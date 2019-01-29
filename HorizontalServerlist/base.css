@@ -28,27 +28,26 @@ div[role="dialog"].layer-3QrUeG {
     display: flex !important;
     flex-wrap: wrap !important;
     padding: 0 !important;
-    padding-left: calc(var(--HSL-size) + 30px) !important;
+    padding-left: calc(var(--HSL-size) + 25px) !important;
 }
 .guild-1EfMGQ:not(.dms-rcsEnV .guild-1EfMGQ):first-child {
     margin-right: 10px;
 }
 .guildSeparator-1X4GQ1 {
-    top: 10px;
     width: 2px;
     height: var(--HSL-size);
     margin-bottom: 0;
     background: rgba(24,24,24,1);
     border-radius: 0;
     position: absolute;
-    margin-left: -10px;
+    margin-left: -5px;
 }
 .guildSeparator-1X4GQ1:after {
     content: none;
 }
 .dms-rcsEnV {
     display: flex;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 5px;
 }
 .dms-rcsEnV:empty {
     margin-left: 0;
@@ -101,7 +100,7 @@ div[role="dialog"].layer-3QrUeG {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
 }
-.guildsWrapper-5TJh6A:not(.foldercontent) .guild-1EfMGQ:first-child, .guildsWrapper-5TJh6A:not(.foldercontent) .guild-1EfMGQ:first-child a {
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child, .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4, .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
     height: calc(var(--HSL-size) - 10px) !important;
     width: calc(var(--HSL-size) - 10px) !important;
 }
