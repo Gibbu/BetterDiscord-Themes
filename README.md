@@ -9,3 +9,8 @@ To get results excatly like my screenshot all you need to do is:
 
 # AdjustableServerWidth - [Open](https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/index.html)
 ![AdjustableServerWidth](https://i.imgur.com/2KuvHaV.jpg)
+
+#
+
+# HorizontalServerlist - [Open](https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/index.html)
+![HorizontalServerlist](https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/img/preview1.jpg)
