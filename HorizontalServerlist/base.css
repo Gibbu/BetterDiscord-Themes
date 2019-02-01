@@ -1,3 +1,7 @@
+:root {
+    /* Variables from other themes */
+    --winBtns: 0 12px 0 12px; /* SimplyDarkDiscord */
+}
 .container-2lgZY8 {
     display: flex !important;
     flex-direction: column !important;
@@ -160,7 +164,29 @@ div[role="dialog"].layer-3QrUeG {
 
 
 
-/* CUSTOM CSS TAB INSTRUCTIONS */
+.bda-slist li {
+    max-height: 1000px;
+}
+li[data-name="Horizontal Serverlist"] .bda-footer {
+    display: flex;
+    flex-direction: column;
+}
+li[data-name="Horizontal Serverlist"] .bda-footer::after {
+    content: "Horizontal Serverlist is 100% compatible with the following: \A\A Themes:\A > SimplyDarkDiscord - Gibbu#1211\A > Aurora - Tropical#6876\A > BasicBackground - DevilBro#4401 \A\A Plugins:\A > Server Folders - DevilBro#4401\A > Old Title Bar - DevilBro#4401\A > Guild Counter - Metalloriff#2891 \A\A\A Make sure to apply Horizontal Serverlist last to minimize compatibility issues";
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    display: block;
+    white-space: pre;
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-shadow: 0 1px 2px rgba(0,0,0,1);
+}
 #bd-customcss-attach-controls {
     position: relative;
 }
@@ -182,22 +208,6 @@ div[role="dialog"].layer-3QrUeG {
     top: 80px;
     margin-bottom: 25px;
     left: 0;
-}
-/* Compatibility List */
-.userSettingsSecurity-3IYeMF::after {
-    content: "Horizontal Serverlist is 100% compatible with the following: \A\A Themes:\A > SimplyDarkDiscord - Gibbu#1211\A > Aurora - Tropical#6876\A > BasicBackground - DevilBro#4401 \A\A Plugins:\A > Server Folders - DevilBro#4401\A > Old Title Bar - DevilBro#4401\A > Guild Counter - Metalloriff#2891 \A\A\A Make sure to apply Horizontal Serverlist last to minimize compatibility issues";
-    background: rgba(0,0,0,0.3);
-    border: 1px solid rgba(0,0,0,0.3);
-    display: block;
-    white-space: pre;
-    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 400;
-    border-radius: 5px;
-    width: 100%;
-    text-shadow: 0 1px 2px rgba(0,0,0,1);
 }
 
 
