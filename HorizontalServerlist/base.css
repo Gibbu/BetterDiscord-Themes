@@ -244,6 +244,9 @@ Theme & Plugin Fixes
 .guilds-1q_RqH > .guild-1EfMGQ:first-child {
     margin-left: calc(var(--chat-avatar-roundness) - 5px) !important;
 }
+.vertical-V37hAW .channels-Ie2l6A {
+    border-radius: var(--chat-avatar-rou)
+}
 
 /* SimplyDarkDisocord - Gibbu | Theme */
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
