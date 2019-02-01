@@ -1,4 +1,4 @@
-/*//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.5.4","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//**/
+/*//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.6.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//**/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
@@ -14,17 +14,4 @@
     --bg7: #333;
     --bg8: #373737;
     --bg9: #3c3c3c;
-
-    /* Discord preset colours */
-    --green: #43b581;
-    --greenDark: #3ca374;
-    --yellow: #faa61a;
-    --red: #f04747;
-    --purple: #593695;
-
-    /* Random variables */
-    --winBtns: 0 135px 0 12px; /* Add space for windows buttons */
-
-    /* Variables for my Horizontal Serverlist */
-    --SSD_HSL-padding: 135px;
 }
