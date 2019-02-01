@@ -156,9 +156,6 @@ nav {
 
 .slideOut {
   position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
   left: 0;
   top: 0;
   height: 100%;

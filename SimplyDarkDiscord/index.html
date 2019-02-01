@@ -5,8 +5,8 @@
         <title>BetterDiscord - SimplyDarkDiscord</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
 
@@ -22,7 +22,7 @@
             <div class="nav">
                 <a href="SimplyDarkDiscord-Dark.theme.css" download="SimplyDarkDiscord-Dark.theme.css">Download Dark</a>
                 <a href="SimplyDarkDiscord-Grey.theme.css" download="SimplyDarkDiscord-Grey.theme.css">Download Grey</a>
-                <button class="slideOutBtn">View Changelog / Settings</button>
+                <button class="slideOutBtn">View Changelog</button>
                 <a href="https://www.betterdiscordlibrary.com/install" target="_blank">How to install themes</a>
             </div>
             <div class="social">
@@ -43,6 +43,26 @@
                         <h2>Changelog</h2>
                     </header>
                     <div class="body">
+                        <div class="update">
+                            <p>V1.6.0 (February 1st, 2019)</p>
+                            <ul>
+                                <li>
+                                    Remove all normalized classes.
+                                    <ul>
+                                        <li>Normalized classes are not required any more for this theme to work properly.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Changes to User/Server Settings
+                                    <ul>
+                                        <li>Moved header to top of page.</li>
+                                        <li>Reduced scrolling for left side.</li>
+                                    </ul>
+                                </li>
+                                <li>Changed Library tab back to grid layout.</li>
+                                <li>Changed User Roles on the user popouts and members tab.</li>
+                            </ul>
+                        </div>
                         <div class="update">
                             <p>V1.5.4 (January 13th, 2018)</p>
                             <ul>
@@ -154,29 +174,6 @@
                             <ul>
                                 <li>First release.</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="right">
-                    <header>
-                        <h2>Settings</h2>
-                    </header>
-                    <div class="body">
-                        <p>I know this isn't great. But it's the best I can do.</p>
-                        <p>Just copy and paste what "setting" into the SimplyDarkDiscord-VERSION.theme.css under all the :root variables.</p>
-                        <div class="setting">
-                            <h2>Circular Server list</h2>
-                            <code>
-                                .guild-1EfMGQ .guildInner-3DSoA4 { border-radius: 25px !important; transition: 0.15s ease; }<br>
-                                .guild-1EfMGQ .guildInner-3DSoA4:hover { border-radius: 10px !important; }<br>
-                                .theme-dark .guild-1EfMGQ.selected-ML3OIq:before { border-radius: 0 3px 3px 0; }
-                            </code>
-                        </div>
-                        <div class="setting">
-                            <h2>Square Buttons</h2>
-                            <code>
-                                .closeButton-1tv5uR, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before { border-radius: 0 !important;}
-                            </code>
                         </div>
                     </div>
                 </div>
