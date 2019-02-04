@@ -7,4 +7,8 @@ $(document).ready(function() {
         pause: 6000,
         adaptiveHeight: true
     });
+
+    $('.listBtn').click(function() {
+        $('#list').slideToggle(400);
+    })
 });

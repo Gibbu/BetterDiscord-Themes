@@ -52,7 +52,8 @@ body {
   align-items: center; }
 
 #centre {
-  max-width: 1280px; }
+  max-width: 1280px;
+  position: relative; }
 
 header {
   padding-bottom: 25px;
@@ -77,17 +78,37 @@ header {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start; }
-    header .headerRight a {
-      background: #3F51B5;
-      -webkit-box-shadow: 0 3px 0 #252f69;
-      box-shadow: 0 3px 0 #252f69;
+    header .headerRight a, header .headerRight button {
       text-decoration: none;
+      background: transparent;
+      border: none;
       color: #fff;
       display: block;
       padding: 15px 25px;
-      border-radius: 3px; }
-      header .headerRight a i {
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+      -webkit-transition: 0.1s ease;
+      -o-transition: 0.1s ease;
+      transition: 0.1s ease; }
+      header .headerRight a i, header .headerRight button i {
         padding-right: 10px; }
+      header .headerRight a:active, header .headerRight button:active {
+        position: relative;
+        -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+        transform: translateY(3px);
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+    header .headerRight a {
+      background: #3F51B5;
+      -webkit-box-shadow: 0 3px 0 #252f69;
+      box-shadow: 0 3px 0 #252f69; }
+    header .headerRight button {
+      margin-right: 10px;
+      background: #4CAF50;
+      -webkit-box-shadow: 0 3px 0 #2d682f;
+      box-shadow: 0 3px 0 #2d682f; }
 
 #lightSlider li {
   position: relative;
@@ -108,3 +129,29 @@ header {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #fff; }
+
+#list {
+  height: 720px;
+  max-height: 720px;
+  width: 1280px;
+  position: absolute;
+  top: 94px;
+  left: 0;
+  z-index: 104;
+  background: #151515;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-y: auto; }
+  #list h1 {
+    color: #fff;
+    margin-top: 0;
+    font-weight: 400; }
+  #list h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding-bottom: 5px; }
+  #list ul {
+    margin-bottom: 45px; }
+    #list ul li {
+      color: #fff; }
