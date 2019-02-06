@@ -150,13 +150,13 @@ div[role="dialog"].layer-3QrUeG {
     align-items: center;
     padding: 5px;
 }
-.contentCozy-3XX413 .wrapper-35wsBm.userSelectNone-Iy6XEP .icon-3o6xvg.noIcon-1a_FrS {
+.contentCozy-3XX413 .wrapper-35wsBm.userSelectNone-Iy6XEP .icon-3o6xvg.noIcon-1a_FrS, .friendsColumn-eVHFqJ .icon-3o6xvg.noIcon-1a_FrS {
     position: relative !important;
-    top: unset;
-    left: unset;
-    width: 50px !important;
-    height: 50px !important;
-    transform: translate(0);
+    top: unset !important;
+    left: unset !important;
+    width: 30px !important;
+    height: 30px !important;
+    transform: translate(0) !important;
 }
 
 
