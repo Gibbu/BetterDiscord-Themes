@@ -142,7 +142,8 @@ header {
   padding: 25px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow-y: auto; }
+  overflow-y: auto;
+  display: none; }
   #list h1 {
     color: #fff;
     margin-top: 0;
