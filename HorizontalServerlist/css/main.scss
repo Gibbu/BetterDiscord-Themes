@@ -74,15 +74,19 @@ header {
             &:active {
                 position: relative;
                 transform: translateY(3px);
-                box-shadow: none;
+                box-shadow: none !important;
             }
         }
-        a {
+        a:first-child {
+            background: #FF9800;
+            box-shadow: 0 3px 0 darken(#FF9800, 20%);
+        }
+        a:last-child {
             background: #3F51B5;
             box-shadow: 0 3px 0 darken(#3F51B5, 20%);
         }
         button {
-            margin-right: 10px;
+            margin: 0 10px;
             background: #4CAF50;
             box-shadow: 0 3px 0 darken(#4CAF50, 20%);
         }

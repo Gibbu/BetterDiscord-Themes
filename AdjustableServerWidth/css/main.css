@@ -36,8 +36,8 @@ body {
 .btns {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
   padding-top: 15px; }
   .btns a {
@@ -59,6 +59,10 @@ body {
       background: #2196F3; }
       .btns a.source:hover {
         background: #0c84e4; }
+    .btns a.support {
+      background: #FF9800; }
+      .btns a.support:hover {
+        background: #e68900; }
 
 .responsiveVideo {
   position: relative;

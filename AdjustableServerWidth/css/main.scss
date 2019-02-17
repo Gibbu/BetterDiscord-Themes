@@ -28,7 +28,7 @@ body {
 }
 .btns {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     padding-top: 15px;
     a {
@@ -51,6 +51,12 @@ body {
             background: #2196F3;
             &:hover {
                 background: darken(#2196F3, 7%);
+            }
+        }
+        &.support {
+            background: #FF9800;
+            &:hover {
+                background: darken(#FF9800, 5%)
             }
         }
     }

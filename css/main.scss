@@ -6,7 +6,7 @@ body, html {padding: 0; margin: 0; background: #eee;}
 
 $main: #009688;
 .wrapper {
-    width: 1280px;
+    width: 500px;
     margin: 0 auto;
 }
 .responsiveVideo {
@@ -45,79 +45,49 @@ $main: #009688;
     }
 }
 
+
 #list {
-    position: relative;
-    margin: 50px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    align-items: flex-start;
-}
-.theme {
-    position: relative;
-    background: #fff;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.1);
-    img {
-        display: block;
-        width: 100%;
-    }
-    .info {
-        padding: 20px 140px 20px 20px;
-        box-sizing: border-box;
-        position: relative;
-        h1 {
-            margin: 0 0 10px 0;
-            font-family: 'Nunito';
-        }
-        p {
-            margin-bottom: 0;
-        }
-        & > a {
-            position: absolute;
-            right: 20px;
-            top: 20px;
+    width: 500px;
+    margin: 50px auto;
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
             display: block;
-            padding: 10px 25px;
-            border-radius: 5px;
-            background: $main;
-            color: #fff;
-            text-decoration: none;
-            transition: 0.2s ease;
-            &:hover {
-                background: darken($main, 5%);
+            list-style: none;
+            border-bottom: 1px solid #ccc;
+            a {
+                display: block;
+                padding: 15px;
+                box-sizing: border-box;
+                position: relative;
+                text-decoration: none;
+                span {
+                    color: #444;
+                    font-family: 'Nunito';
+                    font-weight: 600;
+                }
+                i {
+                    padding-right: 10px;
+                    color: $main;
+                }
+                .border {
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: $main;
+                    transform: scaleX(0);
+                    transition: 0.4s cubic-bezier(.77,0,.18,1)
+                }
+                &:hover .border {
+                    transform: scaleX(1);
+                }
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
