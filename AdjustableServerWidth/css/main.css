@@ -36,8 +36,8 @@ body {
 .btns {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
   padding-top: 15px; }
   .btns a {
@@ -63,6 +63,10 @@ body {
       background: #FF9800; }
       .btns a.support:hover {
         background: #e68900; }
+    .btns a.paypal {
+      background: #002f86; }
+      .btns a.paypal:hover {
+        background: #00266d; }
 
 .responsiveVideo {
   position: relative;

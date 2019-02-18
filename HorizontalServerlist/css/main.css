@@ -90,7 +90,8 @@ header {
       cursor: pointer;
       -webkit-transition: 0.1s ease;
       -o-transition: 0.1s ease;
-      transition: 0.1s ease; }
+      transition: 0.1s ease;
+      margin-left: 10px; }
       header .headerRight a i, header .headerRight button i {
         padding-right: 10px; }
       header .headerRight a:active, header .headerRight button:active {
@@ -100,16 +101,23 @@ header {
         transform: translateY(3px);
         -webkit-box-shadow: none !important;
         box-shadow: none !important; }
-    header .headerRight a:first-child {
+    header .headerRight a:nth-child(1) {
+      background: #002f86;
+      -webkit-box-shadow: 0 3px 0 #000b20;
+      box-shadow: 0 3px 0 #000b20; }
+    header .headerRight a:nth-child(2) {
       background: #FF9800;
       -webkit-box-shadow: 0 3px 0 #995b00;
       box-shadow: 0 3px 0 #995b00; }
-    header .headerRight a:last-child {
+    header .headerRight a:nth-child(3) {
+      background: #FF9800;
+      -webkit-box-shadow: 0 3px 0 #995b00;
+      box-shadow: 0 3px 0 #995b00; }
+    header .headerRight a:nth-child(4) {
       background: #3F51B5;
       -webkit-box-shadow: 0 3px 0 #252f69;
       box-shadow: 0 3px 0 #252f69; }
     header .headerRight button {
-      margin: 0 10px;
       background: #4CAF50;
       -webkit-box-shadow: 0 3px 0 #2d682f;
       box-shadow: 0 3px 0 #2d682f; }

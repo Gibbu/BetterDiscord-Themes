@@ -68,6 +68,7 @@ header {
             font-size: 16px;
             cursor: pointer;
             transition: 0.1s ease;
+            margin-left: 10px;
             i {
                 padding-right: 10px;
             }
@@ -77,16 +78,23 @@ header {
                 box-shadow: none !important;
             }
         }
-        a:first-child {
+        a:nth-child(1) {
+            background: #002f86;
+            box-shadow: 0 3px 0 darken(#002f86, 20%);
+        }
+        a:nth-child(2) {
             background: #FF9800;
             box-shadow: 0 3px 0 darken(#FF9800, 20%);
         }
-        a:last-child {
+        a:nth-child(3) {
+            background: #FF9800;
+            box-shadow: 0 3px 0 darken(#FF9800, 20%);
+        }
+        a:nth-child(4) {
             background: #3F51B5;
             box-shadow: 0 3px 0 darken(#3F51B5, 20%);
         }
         button {
-            margin: 0 10px;
             background: #4CAF50;
             box-shadow: 0 3px 0 darken(#4CAF50, 20%);
         }
