@@ -2,6 +2,7 @@
     /* Variables from other themes */
     --winBtns: 0 12px 0 12px; /* SimplyDarkDiscord */
 }
+
 .container-2td-dC, .container-2td-dC .avatar-S_nsxk, .container-2td-dC .guildInner-3DSoA4 a, .guildsError-3cFMtY, .container-2td-dC .icon-3o6xvg, .wrapper-2lTRaf {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
@@ -14,6 +15,12 @@
 .container-2lgZY8 {
     display: flex !important;
     flex-direction: column !important;
+}
+.container-2td-dC.unread-2OHH1w:before {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 div[role="dialog"].layer-3QrUeG {
     padding-top: 0 !important;
