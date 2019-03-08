@@ -1,65 +1,37 @@
-.guildsWrapper-5TJh6A, .scrollerWrap-1IAIlv {
+.wrapper-1Rf91z {
+    width: calc(var(--ASW_size) + 20px);
+    position: relative;
+}
+.container-2td-dC, .container-1ETFDs, .homeButton-2Cw51C, .circleIconButton-jET_ig, .dragPlaceholder-D9-haY {
     width: var(--ASW_size);
+    height: var(--ASW_size);
 }
-.guild-1EfMGQ, .guild-1EfMGQ .avatar-S_nsxk, .guild-1EfMGQ .guildInner-3DSoA4 a {
-    width: calc(var(--ASW_size) - 20px);
-    height: calc(var(--ASW_size) - 20px);
-    position: relative;
-}
-.theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-.theme-dark .guildsError-3cFMtY {
-    height: calc(var(--ASW_size) - 20px);
-    width: calc(var(--ASW_size) - 20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 a {
-    position: relative;
-}
-.theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq.noIcon-1a_FrS {
-    position: absolute;
-    top: 1px;
-    left: 0;
-    line-height: var(--ASW_size);
-    width: calc(var(--ASW_size) - 20px);
-    height: calc(var(--ASW_size) - 20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.friendsOnline-_wi_fM {
-    display: none;
-}
-.guildSeparator-1X4GQ1 {
-    margin-left: -10px;
+.container-2td-dC .icon-3o6xvg {
     width: var(--ASW_size);
-}
-.homeIcon-1FoKUJ {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-button.guildsAdd-21_IdK {
+    height: var(--ASW_size);
     position: relative;
 }
-button.guildsAdd-21_IdK .guildsAddInner-1KMFy- {
-    position: absolute;
+.container-2td-dC.selected-nT-gM3:before {
+    margin-top: 0;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: calc(var(--ASW_size) - 20px)
+    transform: translateY(-50%);
+    height: 100%;
 }
-.guild-1EfMGQ.selected-ML3OIq:before {
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    height: calc(var(--ASW_size) - 60%) !important;
-    width: 10px !important;
-    margin-top: 0 !important;
+.container-2td-dC .noIcon-1a_FrS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guildSeparator-3s64Iy {
+    background: #2f3136;
+    width: var(--ASW_size);
+}
+.guildSeparator-3s64Iy:after {
+    content: none;
+}
+.friendsOnline-2JkivW {
+    width: calc(var(--ASW_size) + 20px);
+    margin: 0 0 10px -10px;
 }
 
 /* Custom CSS tab Instructions */
