@@ -2,6 +2,15 @@
     /* Variables from other themes */
     --winBtns: 0 12px 0 12px; /* SimplyDarkDiscord */
 }
+.container-2td-dC, .container-2td-dC .avatar-S_nsxk, .container-2td-dC .guildInner-3DSoA4 a, .guildsError-3cFMtY, .container-2td-dC .icon-3o6xvg, .wrapper-2lTRaf {
+    width: var(--HSL-size) !important;
+    height: var(--HSL-size) !important;
+}
+.wrapper-1Rf91z:not(.foldercontent) .wrapper-1Rf91z .scroller-2FKFPG > .container-1ETFDs, .wrapper-1Rf91z:not(.foldercontent) .wrapper-1Rf91z .scroller-2FKFPG > .container-1ETFDs .guildInner-3DSoA4, .wrapper-1Rf91z:not(.foldercontent) .wrapper-1Rf91z .scroller-2FKFPG > .container-1ETFDs .guildInner-3DSoA4 a {
+    height: calc(var(--HSL-size) - 10px) !important;
+    width: calc(var(--HSL-size) - 10px) !important;
+}
+
 .container-2lgZY8 {
     display: flex !important;
     flex-direction: column !important;
@@ -12,41 +21,49 @@ div[role="dialog"].layer-3QrUeG {
 .base-3dtUhz {
     border-radius: 0 !important;
 }
-.guildsWrapper-5TJh6A .scrollerWrap-2lJEkd {
+.wrapper-1Rf91z .scrollerWrap-2lJEkd {
     width: 100%;
     overflow: hidden;
 }
-.guildsWrapper-5TJh6A:not(.foldercontent) {
+.wrapper-1Rf91z:not(.foldercontent) {
     width: 100% !important;
     padding-top: 22px !important;
     border-radius: 0;
     max-height: calc(var(--HSL-size) + 25px) !important;
     height: auto
 }
-.guilds-1q_RqH > .guild-1EfMGQ:first-child {
+.wrapper-1Rf91z .scroller-2FKFPG > .container-1ETFDs {
     position: absolute;
     left: 10px;
     top: 10px;
+    height: calc(var(--HSL-size) - 5px) !important;
+    width: calc(var(--HSL-size) - 5px) !important;
 }
-.guilds-1q_RqH {
+.homeButton-2Cw51C {
+    height: calc(var(--HSL-size) - 5px) !important;
+    width: calc(var(--HSL-size) - 5px) !important;
+}
+.wrapper-1Rf91z .scroller-2FKFPG {
     display: flex !important;
     flex-wrap: wrap !important;
     padding: 0 !important;
     padding-left: calc(var(--HSL-size) + 25px) !important;
 }
-.guild-1EfMGQ:not(.dms-rcsEnV .guild-1EfMGQ):first-child {
+.container-2td-dC:not(.dms-rcsEnV .container-2td-dC):first-child {
     margin-right: 10px;
 }
-.guildSeparator-1X4GQ1 {
+.guildSeparator-3s64Iy {
+    top: 50%;
+    transform: translateY(-50%);
     width: 2px;
     height: var(--HSL-size);
     margin-bottom: 0;
-    background: rgba(24,24,24,1);
     border-radius: 0;
     position: absolute;
     margin-left: -5px;
+    background: #2f3136;
 }
-.guildSeparator-1X4GQ1:after {
+.guildSeparator-3s64Iy:after {
     content: none;
 }
 .dms-rcsEnV {
@@ -56,7 +73,7 @@ div[role="dialog"].layer-3QrUeG {
 .dms-rcsEnV:empty {
     margin-left: 0;
 }
-.dms-rcsEnV .guild-1EfMGQ+.guild-1EfMGQ {
+.dms-rcsEnV .container-2td-dC+.container-2td-dC {
     margin-left: 0 !important;
     margin-top: 0 !important;
 }
@@ -64,17 +81,17 @@ div[role="dialog"].layer-3QrUeG {
     margin-right: 10px !important;
 
 }
-.guild-1EfMGQ+.guild-1EfMGQ, .guildSeparator-1X4GQ1 + .guild-1EfMGQ {
+.container-2td-dC+.container-2td-dC, .guildSeparator-3s64Iy + .container-2td-dC {
     margin: 10px 0 10px 10px;
 }
-.dms-rcsEnV .guild-1EfMGQ {
+.dms-rcsEnV .container-2td-dC {
     margin-right: 0;
 }
-.guild-1EfMGQ::before {
+.container-2td-dC::before {
     user-select: none;
     pointer-events: none;
 }
-.guild-1EfMGQ.selected-ML3OIq:before {
+.container-2td-dC.selected-nT-gM3:before {
     margin: 0 !important;
     top: -10px !important;
     border-radius: 0 0 5px 5px;
@@ -86,7 +103,7 @@ div[role="dialog"].layer-3QrUeG {
 .unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsBar-1VrBNe, .unreadMentionsBar-1VrBNe svg {
     display: none;
 }
-.guild-1EfMGQ.unread-qLkInr:before {
+.container-2td-dC.unread-qLkInr:before {
     margin: 0;
     top: -10px;
     border-radius: 0 0 5px 5px;
@@ -97,21 +114,13 @@ div[role="dialog"].layer-3QrUeG {
     left: 50%;
     transform: translateX(-50%)
 }
-.guild-1EfMGQ.selected-ML3OIq.unread-qLkInr:before {
+.container-2td-dC.selected-nT-gM3.unread-qLkInr:before {
     left: 50% !important;
 }
-.guild-1EfMGQ, .guild-1EfMGQ .avatar-S_nsxk, .guild-1EfMGQ .guildInner-3DSoA4 a, .guildsError-3cFMtY, .guild-1EfMGQ .guildIcon-CT-ZDq {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-}
-.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child, .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4, .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
-    height: calc(var(--HSL-size) - 10px) !important;
-    width: calc(var(--HSL-size) - 10px) !important;
-}
-.guildsWrapper-5TJh6A:not(.foldercontent) .guild-1EfMGQ:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .container-2td-dC:first-child {
     margin-left: 5px !important;
 }
-.guild-1EfMGQ .badge-1GsMF2 {
+.container-2td-dC .badge-1GsMF2 {
     bottom: auto;
     bottom: 0;
     right: 0;
@@ -121,8 +130,13 @@ div[role="dialog"].layer-3QrUeG {
     justify-content: center;
     align-items: center;
 }
-.guildsAdd-21_IdK, .guild-1EfMGQ .guildInner-3DSoA4 a {
+.circleIconButton-jET_ig, .container-2td-dC .guildInner-3DSoA4 a {
     position: relative;
+}
+.circleIconButton-jET_ig {
+    width: var(--HSL-size);
+    height: var(--HSL-size);
+    margin: 10px 0 10px 10px;
 }
 .guildsAddInner-1KMFy-, .icon-3o6xvg.noIcon-1a_FrS {
     position: absolute !important;
@@ -130,17 +144,17 @@ div[role="dialog"].layer-3QrUeG {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.guildsWrapper-5TJh6A .icon-3o6xvg.noIcon-1a_FrS {
+.wrapper-1Rf91z .icon-3o6xvg.noIcon-1a_FrS {
     width: 100% !important;
     height: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.friendsOnline-_wi_fM {
+.friendsOnline-2JkivW {
     position: absolute;
     left: 0 !important;
-    bottom: 5px;
+    bottom: 0;
     margin: 0 !important;
     width: calc(var(--HSL-size) + 20px);
 }
@@ -171,7 +185,7 @@ div[role="dialog"].layer-3QrUeG {
 
 
 /* OSX Fixes */
-.typeMacOS-3EmCyP .guildsWrapper-5TJh6A:not(.foldercontent) {
+.typeMacOS-3EmCyP .wrapper-1Rf91z:not(.foldercontent) {
     padding-top: 0 !important;
 }
 
@@ -183,12 +197,8 @@ div[role="dialog"].layer-3QrUeG {
 .bda-slist li {
     max-height: 1000px;
 }
-li[data-name="Horizontal Serverlist"] .bda-footer {
-    display: flex;
-    flex-direction: column;
-}
-li[data-name="Horizontal Serverlist"] .bda-footer::after {
-    content: "Horizontal Serverlist is 100% compatible with the following: \A\A Themes:\A > SimplyDarkDiscord - Gibbu#1211\A > Aurora - Tropical#6876\A > BasicBackground - DevilBro#4401 \A\A Plugins:\A > Server Folders - DevilBro#4401\A > Old Title Bar - DevilBro#4401\A > Guild Counter - Metalloriff#2891 \A\A\A Make sure to apply Horizontal Serverlist last to minimize compatibility issues";
+li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
+    content: "Horizontal Serverlist compatibility list can be found on:\Ahttps://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/" !important;
     background: rgba(0,0,0,0.3);
     border: 1px solid rgba(0,0,0,0.3);
     display: block;
@@ -231,43 +241,14 @@ li[data-name="Horizontal Serverlist"] .bda-footer::after {
 Theme & Plugin Fixes
 *********************/
 
-/* Server Folders - DevilBro | Plugin */
-.guildsWrapper-5TJh6A.foldercontent {
-    width: 100% !important;
-    box-shadow: none;
-    background: rgba(0,0,0,0.3);
-    height: calc(var(--HSL-size) + 20px);
-    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
-}
-.guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH {
-    padding-right: 0 !important;
-}
-.guildsWrapper-5TJh6A.foldercontent .guild-1EfMGQ:first-of-type {
-    position: relative;
-    margin-right: 10px;
-}
-.guildsWrapper-5TJh6A.foldercontent.foldercontentclosed {
-    width: 100% !important;
-    height: 0;
-    margin-top: 0 !important;
-}
-.guildsWrapper-5TJh6A.foldercontent .folderseparator {
-    display: none;
-}
-
-/* Old Title Bar - DevilBro | Plugin */
-.settingsTitlebarOTB {
-    margin-top: 20px;
-}
-
 /* Aurora - Tropical | Theme */
 .base-3dtUhz {
     margin-top: calc(var(--chat-avatar-roundness) + 15px);
 }
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
     border-radius: var(--chat-avatar-roundness) !important;
 }
-.guilds-1q_RqH > .guild-1EfMGQ:first-child {
+.wrapper-1Rf91z .scroller-2FKFPG > .container-2td-dC:first-child {
     margin-left: calc(var(--chat-avatar-roundness) - 5px) !important;
 }
 .vertical-V37hAW .channels-Ie2l6A {
@@ -278,15 +259,46 @@ Theme & Plugin Fixes
 .platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
     padding: var(--winBtns);
 }
-.guilds-1q_RqH {
+.wrapper-1Rf91z .scroller-2FKFPG {
     padding-right: var(--SSD_HSL-padding) !important;
 }
-
-/* NOX - Zerebos & Beard's Design | Theme */
-/* Maybe coming soon... ? */
 
 /* Guild Counter - Metalloriff | Plugin */
 #gc-counter {
     bottom: -3px;
     font-size: 9px;
+}
+
+/* Server Folders - DevilBro | Plugin */
+.wrapper-1Rf91z.foldercontent {
+    width: 100% !important;
+    box-shadow: none;
+    background: rgba(0,0,0,0.3);
+    height: calc(var(--HSL-size) + 20px);
+    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
+}
+.wrapper-1Rf91z.foldercontent .wrapper-1Rf91z .scroller-2FKFPG {
+    padding-right: 0 !important;
+}
+.wrapper-1Rf91z.foldercontent .container-2td-dC:first-of-type {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px !important;
+}
+.wrapper-1Rf91z.foldercontent.foldercontentclosed {
+    width: 100% !important;
+    height: 0;
+    margin-top: 0 !important;
+}
+.wrapper-1Rf91z.foldercontent .folderseparator {
+    position: relative !important;
+    margin-left: 15px;
+    margin-right: 10px;
+    top: unset !important;
+    transform: unset !important;
+}
+
+/* Old Title Bar - DevilBro | Plugin */
+.settingsTitlebarOTB {
+    margin-top: 20px;
 }
