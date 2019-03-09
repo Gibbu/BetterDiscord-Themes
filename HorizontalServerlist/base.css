@@ -2,8 +2,7 @@
     /* Variables from other themes */
     --winBtns: 0 12px 0 12px; /* SimplyDarkDiscord */
 }
-
-.container-2td-dC, .container-2td-dC .avatar-S_nsxk, .container-2td-dC .guildInner-3DSoA4 a, .guildsError-3cFMtY, .container-2td-dC .icon-3o6xvg, .wrapper-2lTRaf {
+.container-2td-dC, .container-2td-dC .avatar-S_nsxk, .container-2td-dC .guildInner-3DSoA4 a, .guildsError-3cFMtY, .container-2td-dC .icon-3o6xvg, .wrapper-2lTRaf, .wrapper-2lTRaf .wrapper-2F3Zv8, .container-1aNBdK {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
 }
@@ -11,7 +10,15 @@
     height: calc(var(--HSL-size) - 10px) !important;
     width: calc(var(--HSL-size) - 10px) !important;
 }
-
+.container-1aNBdK{
+    margin: 10px 0 10px 10px;
+}
+.badge-2_fwUZ {
+    top: unset;
+    bottom: 0;
+    right: 0;
+    box-shadow: -1px -1px 5px rgba(0,0,0,0.5);
+}
 .container-2lgZY8 {
     display: flex !important;
     flex-direction: column !important;
@@ -106,6 +113,9 @@ div[role="dialog"].layer-3QrUeG {
     height: 4px !important;
     width: 100% !important;
     z-index: 11 !important;
+}
+.container-2td-dC.selected-nT-gM3.unread-2OHH1w:before {
+    left: 50% !important;
 }
 .unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsBar-1VrBNe, .unreadMentionsBar-1VrBNe svg {
     display: none;
