@@ -2,107 +2,127 @@
     flex-direction: column !important;
 }
 .wrapper-1Rf91z {
-    width: 100% !important;
+    width: 100%;
     position: relative;
+    max-height: calc(var(--HSL-size) + 20px) !important;
 }
 .wrapper-1Rf91z .da-scrollerWrap {
-    max-height: calc(var(--HSL-size) + 20px);
-    overflow: hidden;
-    width: 100% !important;
+    position: relative;
+    width: 100%;
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller {
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    position: relative;
+    padding: 0 0 0 calc(var(--HSL-size) + 25px) !important;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs), .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-dragPlaceholder {
+    width: var(--HSL-size) !important;
+    height: var(--HSL-size) !important;
     margin: 10px 0 10px 10px;
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
     position: relative;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-wrapper:not(.da-badge) {
-    margin-bottom: 0;
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-wrapper:not(.da-badge) .da-icon {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-wrapper:not(.da-badge) .da-noIcon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-badge {
-    bottom: 0 !important;
-    top: unset;
-    right: 0;
-    box-shadow: -1px -1px 3px #000;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container.da-unread:before {
-    top: 0;
-    height: 4px !important;
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-selected:before {
+    margin-top: 0;
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container.da-selected:before {
-    top: 10px;
-    height: 4px !important;
-    left: 50%;
+    height: 4px;
     width: 100%;
-    transform: translateX(-50%);
+    border-radius: 0 0 5px 5px;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-homeButton {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-unread:before {
+    margin-top: 0;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 40%;
+    border-radius: 0 0 5px 5px;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .da-wrapper:not(.da-badge) {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-friendsOnline {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-icon {
+    width: var(--HSL-size) !important;
+    height: var(--HSL-size) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .container-1ETFDs {
     position: absolute;
-    width: var(--HSL-size);
-    margin: 0;
-    font-size: 60%;
-    left: 5px;
-    top: 0;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildsErrorContainer {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-    margin: 10px 0 10px 10px;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildsErrorContainer .da-guildsError {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildSeparator {
-    width: 2px;
-    height: var(--HSL-size);
     top: 10px;
-    margin-left: 9px;
+    left: 12.5px;
+    width: calc(var(--HSL-size) - 10px) !important;
+    height: calc(var(--HSL-size) - 10px) !important;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .container-1ETFDs .da-homeButton {
+    width: calc(var(--HSL-size) - 10px) !important;
+    height: calc(var(--HSL-size) - 10px) !important;
+}
+.wrapper-1Rf91z:not(.foldercontent) .da-scrollerWrap .da-scroller .da-guildSeparator {
+    position: absolute;
+    top: 10px;
+    left: calc(var(--HSL-size) + 20px) !important;
+    width: 2px;
+    height: var(--HSL-size) !important;
     margin-bottom: 0;
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildSeparator:after {
-    width: 100%;
     height: 100%;
+    width: 100%;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-friendsOnline {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: calc(var(--HSL-size) + 35px) !important;
+    margin-bottom: 0;
+    text-align: center;
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleIconButton {
-    margin: 10px 0 10px 10px;
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10px 0 10px 10px;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleIconButton .da-plus {
-    font-size: 32px;
-}
-.wrapper-1Rf91z .da-unreadMentionsIndicatorBottom, .wrapper-1Rf91z .da-unreadMentionsIndicatorTop {
+.wrapper-1Rf91z .da-unreadMentionsIndicatorTop, .wrapper-1Rf91z .da-unreadMentionsIndicatorBottom {
     display: none;
+}
+
+.base-3dtUhz {
+    border-radius: 0;
+}
+
+
+/* Server Folders by DevilBro */
+.wrapper-1Rf91z.foldercontent {
+    width: 100% !important;
+    box-shadow: none;
+    background: rgba(0,0,0,0.3);
+    height: calc(var(--HSL-size) + 20px);
+    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
+}
+.wrapper-1Rf91z.foldercontent.foldercontentclosed {
+    width: 100% !important;
+    height: 0;
+    margin-top: 0 !important;
+}
+.wrapper-1Rf91z.foldercontent .da-guildSeparator {
+    width: 2px;
+    height: var(--HSL-size);
+    margin: 10px 0 10px 10px;
+}
+
+/* Old TItle Bar by DevilBro */
+.settingsTitlebarOTB {
+    margin-top: 20px;
+}
+
+/* Guild Counter - Metalloriff */
+#gc-counter {
+    bottom: -3px;
+    font-size: 9px;
 }
 
 
