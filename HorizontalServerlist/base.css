@@ -21,6 +21,10 @@
     margin: 10px 0 10px 10px;
     position: relative;
 }
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) > .da-wrapper:not(.da-badge), .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .da-wrapper.da-small {
+    width: 100% !important;
+    height: 100% !important;
+}
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-selected:before {
     margin-top: 0;
     top: -10px;
@@ -29,6 +33,12 @@
     height: 4px;
     width: 100%;
     border-radius: 0 0 5px 5px;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-badge {
+    top: unset;
+    bottom: 0;
+    right: 0;
+    box-shadow: -1px -1px 5px rgba(0,0,0,.5);
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-unread:before {
     margin-top: 0;
