@@ -182,38 +182,8 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
 
 
 /*********************
-Theme & Plugin Fixes
+    Plugin Fixes
 *********************/
-
-/* Aurora - Tropical | Theme */
-.base-3dtUhz {
-    margin-top: calc(var(--chat-avatar-roundness) + 15px);
-}
-.wrapper-1Rf91z {
-    border-radius: var(--chat-avatar-roundness) !important;
-}
-.wrapper-1Rf91z .scroller-2FKFPG > .container-2td-dC:first-child {
-    margin-left: calc(var(--chat-avatar-roundness) - 5px) !important;
-}
-.vertical-V37hAW .channels-Ie2l6A {
-    border-radius: var(--chat-avatar-rou)
-}
-
-/* SimplyDarkDisocord - Gibbu | Theme */
-.platform-win .title-3qD0b-, .platform-win .titleCall-_b9o8P, .platform-win .headerBar-UHpsPw {
-    padding: var(--winBtns);
-}
-.wrapper-1Rf91z .scroller-2FKFPG {
-    padding-right: var(--SSD_HSL-padding) !important;
-}
-
-/* Guild Counter - Metalloriff | Plugin */
-#gc-counter {
-    bottom: -3px;
-    font-size: 9px;
-}
-
-/* Server Folders - DevilBro | Plugin */
 .wrapper-1Rf91z.foldercontent {
     width: 100% !important;
     box-shadow: none;
@@ -221,28 +191,24 @@ Theme & Plugin Fixes
     height: calc(var(--HSL-size) + 20px);
     transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
 }
-.wrapper-1Rf91z.foldercontent .wrapper-1Rf91z .scroller-2FKFPG {
-    padding-right: 0 !important;
-}
-.wrapper-1Rf91z.foldercontent .container-2td-dC:first-of-type {
-    position: relative;
-    margin-top: 10px;
-    margin-left: 10px !important;
-}
 .wrapper-1Rf91z.foldercontent.foldercontentclosed {
     width: 100% !important;
     height: 0;
     margin-top: 0 !important;
 }
-.wrapper-1Rf91z.foldercontent .folderseparator {
-    position: relative !important;
-    margin-left: 15px;
-    margin-right: 10px;
-    top: unset !important;
-    transform: unset !important;
+.wrapper-1Rf91z.foldercontent .da-guildSeparator {
+    width: 2px;
+    height: var(--HSL-size);
+    margin: 10px 0 10px 10px;
 }
 
-/* Old Title Bar - DevilBro | Plugin */
+
 .settingsTitlebarOTB {
     margin-top: 20px;
+}
+
+
+#gc-counter {
+    bottom: -3px;
+    font-size: 9px;
 }
