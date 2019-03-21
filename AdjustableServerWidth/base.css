@@ -6,10 +6,20 @@
     width: var(--ASW_size);
     height: var(--ASW_size);
 }
+.container-1aNBdK, .container-1aNBdK .wrapper-2lTRaf, .container-1aNBdK .wrapper-2lTRaf .wrapper-2F3Zv8 {
+    height: var(--ASW_size) !important;
+    width: var(--ASW_size) !important;
+    margin-bottom: 12px;
+}
 .container-2td-dC .icon-3o6xvg {
     width: var(--ASW_size);
     height: var(--ASW_size);
     position: relative;
+}
+.container-1aNBdK .badge-2_fwUZ, .container-2td-dC .badge-2_fwUZ {
+    position: absolute;
+    bottom: -2px;
+    top: unset;
 }
 .container-2td-dC.selected-nT-gM3:before {
     margin-top: 0 !important;
