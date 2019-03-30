@@ -35,9 +35,6 @@
     border-radius: 0 0 5px 5px;
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-badge {
-    top: unset;
-    bottom: 0;
-    right: 0;
     box-shadow: -1px -1px 5px rgba(0,0,0,.5);
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-unread:before {
@@ -209,19 +206,19 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
 /*********************
     Plugin Fixes
 *********************/
-.wrapper-1Rf91z.foldercontent {
+#app-mount .da-app .wrapper-1Rf91z.foldercontent {
     width: 100% !important;
     box-shadow: none;
     background: rgba(0,0,0,0.3);
     height: calc(var(--HSL-size) + 20px);
-    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
+    transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
 }
-.wrapper-1Rf91z.foldercontent.foldercontentclosed {
+#app-mount .da-app .wrapper-1Rf91z.foldercontent.foldercontentclosed {
     width: 100% !important;
     height: 0;
     margin-top: 0 !important;
 }
-.wrapper-1Rf91z.foldercontent .da-guildSeparator {
+#app-mount .da-app .wrapper-1Rf91z.foldercontent .da-guildSeparator {
     width: 2px;
     height: var(--HSL-size);
     margin: 10px 0 10px 10px;
