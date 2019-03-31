@@ -46,6 +46,10 @@
     width: 40%;
     border-radius: 0 0 5px 5px;
 }
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .badge-2_fwUZ {
+    bottom: -2px;
+    top: unset;
+}
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .da-wrapper:not(.da-badge, .da-newBadge) {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
@@ -224,11 +228,9 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     margin: 10px 0 10px 10px;
 }
 
-
 .settingsTitlebarOTB {
     margin-top: 20px;
 }
-
 
 #gc-counter {
     bottom: -3px;
