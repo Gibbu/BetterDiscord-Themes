@@ -14,4 +14,8 @@
     --bg7: #333;
     --bg8: #373737;
     --bg9: #3c3c3c;
+
+    --avatarRoundness: 0; /* You can use pixels or percentage( % ). 50% is full round. */
+    --serverRoundness: 0;
+    --selectedServerRoundness: 0; /* Bar to the left when selected a server */
 }
