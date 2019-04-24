@@ -1,0 +1,69 @@
+/*//META{"name":"TrueLight","description":"Makes Discord's light theme a real light theme with a couple of minor changes. Light theme is needed to work properly.","author":"Gibbu","version":"0.6"}*//**/
+/*
+
+    TrueLight by Gibbu#1211
+    This theme was inspired by this: https://www.reddit.com/r/discordapp/comments/bebcmn/i_remade_light_theme_so_its_more_uniform_and/
+    If someone could send me the creator of this that would be nice :)
+
+*/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/TrueLight/base.css");
+
+:root {
+    /* The height will affect how many emoji's you can see at once */
+    --emojiPickerHeight: 224px; /* Default: 224px */
+
+    /* This effects the following scrollbars: Chat, EmojiPicker, Pinned Messages ect... */
+    --scrollbarColour: #7289DA; /* Default: #7289DA */
+
+    /* 300 = thin | 400 = regular | 500 = semi-bold | 600 = bold | 700 = extra-bold */
+	/* Want more options? Ask me on Discord @Gibbu#1211 */	
+    --chatTextThickness: 500;
+    --chatUsernameThickness: 500;
+    --chatTimestampThickness: 500;
+    --chatCodeBlockThickness: 500;
+
+    --membersRoleThickness: 500;
+    --membersMemberThickness: 500;
+    --membersPlayingThickness: 500;
+
+    --channelCategoryThickness: 600;
+    --channelNormalThickness: 500;
+    --channelSelectedThickness: 600;
+
+    --tooltipsTextThickness: 600;
+
+
+    /* --bg0 = Selected Server */
+    /* --bg1 = Nothing */
+    /* --bg2 = Watermark + Unread Server */
+    /* --bg3 = No icon servers + transparent server icons */
+    /* --bg4 = Selected text/voice channels */
+    /* --bg5 = Guild/Server list background */
+    /* --bg6 = Connection info + User details/buttons */
+    /* --bg7 = Channels & Members List */
+    /* --bg8 = Chat & Headers background */
+
+    /* To change the colours yourself uncomment the variables below */
+    /* If you want to make them brighter or darker use this website: https://www.hexcolortool.com/ */
+    /* Put the HEX value into "Enter a color:" and click either "Lighten" or "Darken" and on the right will be the results */
+
+    /* <-- Remove this + this message
+    --bg0: #070707;
+    --bg1: #4c4c4c;
+    --bg2: #676767;
+    --bg3: #959595;
+    --bg4: #c7c7c7;
+    --bg5: #d8d8d8;
+    --bg6: #e1e1e1;
+    --bg7: #ececec;
+    --bg8: #f5f5f5;
+
+    --c1: #000;
+    --c2: #444;
+    --c3: #666;
+    --c4: #888;
+    --c5: #aaa;
+    --c6: #bbb;
+    Remove this + this message --> */
+}
