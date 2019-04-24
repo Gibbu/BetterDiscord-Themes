@@ -3,7 +3,6 @@
 
     TrueLight by Gibbu#1211
     This theme was inspired by this: https://www.reddit.com/r/discordapp/comments/bebcmn/i_remade_light_theme_so_its_more_uniform_and/
-    If someone could send me the creator of this that would be nice :)
 
 */
 
@@ -17,7 +16,7 @@
     --scrollbarColour: #7289DA; /* Default: #7289DA */
 
     /* 300 = thin | 400 = regular | 500 = semi-bold | 600 = bold | 700 = extra-bold */
-	/* Want more options? Ask me on Discord @Gibbu#1211 */	
+	/* Want more options? Ask me on Discord @Gibbu#1211 */
     --chatTextThickness: 500;
     --chatUsernameThickness: 500;
     --chatTimestampThickness: 500;
@@ -32,17 +31,6 @@
     --channelSelectedThickness: 600;
 
     --tooltipsTextThickness: 600;
-
-
-    /* --bg0 = Selected Server */
-    /* --bg1 = Nothing */
-    /* --bg2 = Watermark + Unread Server */
-    /* --bg3 = No icon servers + transparent server icons */
-    /* --bg4 = Selected text/voice channels */
-    /* --bg5 = Guild/Server list background */
-    /* --bg6 = Connection info + User details/buttons */
-    /* --bg7 = Channels & Members List */
-    /* --bg8 = Chat & Headers background */
 
     /* To change the colours yourself uncomment the variables below */
     /* If you want to make them brighter or darker use this website: https://www.hexcolortool.com/ */
@@ -66,4 +54,15 @@
     --c5: #aaa;
     --c6: #bbb;
     Remove this + this message --> */
+
+    /* Explaination of what each variable is assigned to */
+    /* --bg0 = Selected Server */
+    /* --bg1 = Nothing */
+    /* --bg2 = Watermark + Unread Server */
+    /* --bg3 = No icon servers + transparent server icons */
+    /* --bg4 = Selected text/voice channels */
+    /* --bg5 = Guild/Server list background */
+    /* --bg6 = Connection info + User details/buttons */
+    /* --bg7 = Channels & Members List */
+    /* --bg8 = Chat & Headers background */
 }
