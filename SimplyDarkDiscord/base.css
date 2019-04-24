@@ -135,34 +135,68 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
 
 
 /***** Server List *****/
-.theme-dark .circleIconButton-jET_ig {
-    background: var(--bg5);
-    border: none;
-    color: #aaa;
-    border-radius: var(--serverRoundness) !important;
-    font-weight: 100;
-    font-size: 24px;
-    border: 1px solid rgba(255,255,255,0.1)
+.wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child {
+    margin-top: 10px;
 }
-.circleIconButton-jET_ig:hover {
-    border: 1px solid rgba(255,255,255,0.2) !important;
-    color: #eee !important;
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh * {
+    border-radius: 0 !important;
+    mask: unset !important;
 }
-.container-2td-dC {
-    position: relative;
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh span {
+    height: 100% !important;
 }
-.theme-dark .container-2td-dC.selected-nT-gM3:before {
-    border-radius: var(--selectedServerBar) !important;
-    top: 0;
-    margin-top: 0;
-    height: 100%;
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh span[style*="opacity: 0.7; height: 8px;"] {
+    height: 30% !important;
+    transition: 0.1s ease;
 }
-.theme-dark .container-2td-dC.selected-nT-gM3 .wrapper-2lTRaf {
-    border-radius: var(--selectedServerRoundness) !important;
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh:hover span {
+    height: 100% !important;
+    transition: 0.1s ease;
 }
-.wrapper-1Rf91z .wrapper-2lTRaf, .guildsErrorContainer-2uWYsE > a {
-    border-radius: var(--serverRoundness) !important;
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .guildSeparator-3s64Iy {
+    background: var(--bg9);
 }
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .acronym-2mOFsV, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .circleIconButton-jET_ig, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .button-OhfaWu {
+    background: var(--bg7);
+}
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .circleIconButton-jET_ig.selected-ugP_am {
+    background: var(--green);
+}
+.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .numberBadge-2s8kKX {
+    box-shadow: -1px -1px 7px #000;
+}
+
+
+
+/***** Channels *****/
+.channels-Ie2l6A .scroller-2FKFPG .wrapper-1ucjTd .content-3at_AU {
+    margin-left: 0;
+    padding-left: 16px;
+}
+.channels-Ie2l6A .scroller-2FKFPG .voiceUser-14U_Ns:hover .content-3xS9Lh {
+    background: var(--bg4);
+}
+.channels-Ie2l6A .scroller-2FKFPG .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background: var(--bg5) !important;
+}
+.channels-Ie2l6A .scroller-2FKFPG .wrapper-1ucjTd:hover .content-3at_AU {
+    background: var(--bg4);
+}
+
+
+
+/***** Headers *****/
+.title-3qD0b- .children-19S4PO:after {
+    content: none;
+}
+.title-3qD0b- .search-36MZv- .searchBar-3dMhjb {
+    background: var(--bg7);
+}
+.container-1r6BKw {
+    background: var(--bg4) !important;
+}
+
+
 
 
 /***** Right sidebar (Members) *****/
@@ -515,6 +549,9 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     height: 48px;
     width: 40px;
 }
+.container-1r6BKw {
+    padding-right: 125px;
+}
 
 
 
@@ -638,8 +675,6 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .userPopout-3XzG_A {
     margin-right: 15px;
 }
-
-
 
 
 
@@ -857,7 +892,7 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 
 
 /***** Preset rules *****/
-*, .sizeDefault-2YlOZr:after, .sizeMini-1ii40f, .ui-switch::before, .card-FDVird:before, .paginationItem-2lUq0s:before {
+*, *:before, *:after, .sizeDefault-2YlOZr:after, .sizeMini-1ii40f, .ui-switch::before, .card-FDVird:before, .paginationItem-2lUq0s:before {
     border-radius: 0 !important;
 }
 .theme-dark .or-3THJsp, .theme-light .or-3THJsp, .attachButton-1UjEWA svg, .alt-3btY0e .item-1GzJrl .helper-2c73HK, .create-guild-container.deprecated .create-or-join .actions .or, .theme-dark .option-96V44q:after, .theme-dark .avatar-uploader-indicator, .wordmark-2iDDfm, .theme-dark .keybind-KpFkfr, .theme-dark #friends .friends-table .friends-table-header, .stickyHeader-1pqx0j.header-39GIC8, .protip-YaFfgO {
