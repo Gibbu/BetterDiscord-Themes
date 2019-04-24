@@ -15,109 +15,103 @@
     flex-wrap: wrap;
     padding: 0 0 0 calc(var(--HSL-size) + 25px) !important;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs), .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-dragPlaceholder {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-    margin: 10px 0 10px 10px;
-    position: relative;
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem {
+    margin: 10px 10px 10px 0 !important;
+    width: var(--HSL-size);
+    height: var(--HSL-size);
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) > .da-wrapper:not(.da-badge), .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .da-wrapper.da-small {
-    width: 100% !important;
-    height: 100% !important;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-selected:before {
-    margin-top: 0;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 100%;
-    border-radius: 0 0 5px 5px;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-badge {
-    box-shadow: -1px -1px 5px rgba(0,0,0,.5);
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs).da-unread:before {
-    margin-top: 0;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 40%;
-    border-radius: 0 0 5px 5px;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .badge-2_fwUZ {
-    bottom: -2px;
-    top: unset;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container:not(.container-1ETFDs) .da-wrapper:not(.da-badge, .da-newBadge) {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-container .da-icon {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .container-1ETFDs {
-    position: absolute;
-    top: 10px;
-    left: 12.5px;
-    width: calc(var(--HSL-size) - 10px) !important;
-    height: calc(var(--HSL-size) - 10px) !important;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .container-1ETFDs .da-homeButton {
-    width: calc(var(--HSL-size) - 10px) !important;
-    height: calc(var(--HSL-size) - 10px) !important;
-}
-.wrapper-1Rf91z:not(.foldercontent) .da-scrollerWrap .da-scroller .da-guildSeparator {
-    position: absolute;
-    top: 10px;
-    left: calc(var(--HSL-size) + 20px) !important;
-    width: 2px;
-    height: var(--HSL-size) !important;
-    margin-bottom: 0;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildSeparator:after {
-    height: 100%;
-    width: 100%;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-friendsOnline {
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    width: calc(var(--HSL-size) + 35px) !important;
-    margin-bottom: 0;
-    text-align: center;
-}
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleIconButton {
-    width: var(--HSL-size) !important;
-    height: var(--HSL-size) !important;
-    margin: 10px 0 10px 10px;
-}
-.wrapper-1Rf91z .da-unreadMentionsIndicatorTop, .wrapper-1Rf91z .da-unreadMentionsIndicatorBottom {
+.wrapper-1Rf91z [class*="unreadMentionsIndicator"] {
     display: none;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildsErrorContainer {
+/* Home Button */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child {
+    position: absolute;
+    left: 0;
+    margin: 10px !important;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child svg, .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child > .da-wrapper {
+    height: var(--HSL-size);
+    width: var(--HSL-size);
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child svg svg {
+    width: 65%;
+}
+/* Separator */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem)+div, .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
+    margin: 10px 15px !important;
+    width: auto;
+    height: auto;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
+    margin: 10px 15px 10px 0 !important;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildSeparator {
+    height: 100%;
+    width: 2px;
+}
+/* Direct Messages */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem), .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-blob svg {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
-    margin: 10px 0 10px 10px;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildsErrorContainer a {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper {
+    height: var(--HSL-size);
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper .da-lowerBadge {
+    bottom: -2px;
+    right: -2px;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper .da-lowerBadge .da-numberBadge {
+    box-shadow: -2px -2px 5px #000;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) rect {
+    display: none;
+}
+/* Server Icons */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem .da-blobContainer > .da-wrapper {
+    width: var(--HSL-size);
+    height: var(--HSL-size);
+    display: block;
+    margin: 0;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem .da-blobContainer > .da-wrapper svg {
+    width: var(--HSL-size);
+    height: var(--HSL-size);
+}
+/* Bar */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem .da-pill {
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 4px;
+    top: -10px;
 }
-.container-11WMXy .da-circleIconButton {
-    margin: 0 !important;
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem .da-pill span {
+    width: 100% !important;
+    height: 4px !important;
+    border-radius: 0 0 4px 4px !important;
+    margin-left: 0;
+    top: -0px;
+    left: 50%;
+    transform: translate3d(0, 0, 0) translateX(-50%) !important;
+    transition: 0.1s ease;
+}
+/* Unread Bar */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem .da-pill span[style*="opacity: 0.7; height: 8px;"] {
+    width: 30% !important;
+    transition: 0.1s ease;
+}
+/* Add Server */
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask, .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask svg {
+    width: var(--HSL-size);
+    height: var(--HSL-size);
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask svg svg {
+    width: 65% !important;
+    height: 65% !important;
 }
 
+
 .base-3dtUhz {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 
