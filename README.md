@@ -1,12 +1,17 @@
-# Simply Dark Discord - [Open](https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/)
+# Simply Dark Discord
 ![BetterDiscord](https://i.imgur.com/ecyCfGc.jpg)
 
 #
 
-# AdjustableServerWidth - [Open](https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/index.html)
+# AdjustableServerWidth
 ![AdjustableServerWidth](https://i.imgur.com/2KuvHaV.jpg)
 
 #
 
-# HorizontalServerlist - [Open](https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/index.html)
-![HorizontalServerlist](https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/img/preview1.jpg)
+# HorizontalServerlist
+![HorizontalServerlist](https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/HorizontalServerlist/Previews/Main.jpg)
+
+#
+
+# TrueLight
+![TrueLight](https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/TrueLight/Previews/Preview.jpg)
