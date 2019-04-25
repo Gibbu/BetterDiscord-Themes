@@ -1,9 +1,7 @@
-/*//META{"name":"TrueLight","description":"Makes Discord's light theme a real light theme with a couple of minor changes. Light theme is needed to work properly.","author":"Gibbu","version":"1.0.0"}*//**/
+/*//META{"name":"TrueLight","description":"Makes Discord's light theme a real light theme with a couple of minor changes. Light theme is needed to work properly.","author":"Gibbu","version":"1.0.1"}*//**/
 /*
-
     TrueLight by Gibbu#1211
     This theme was inspired by this: https://www.reddit.com/r/discordapp/comments/bebcmn/i_remade_light_theme_so_its_more_uniform_and/
-
 */
 
 @import url("https://gibbu.github.io/BetterDiscord-Themes/TrueLight/base.css");
@@ -37,22 +35,22 @@
     /* Put the HEX value into "Enter a color:" and click either "Lighten" or "Darken" and on the right will be the results */
 
     /* <-- Remove this + this message
-    --bg0: #070707;
-    --bg1: #4c4c4c;
-    --bg2: #676767;
-    --bg3: #959595;
-    --bg4: #c7c7c7;
-    --bg5: #d8d8d8;
-    --bg6: #e1e1e1;
-    --bg7: #ececec;
-    --bg8: #f5f5f5;
+    --bg0: #070707 !important;
+    --bg1: #4c4c4c !important;
+    --bg2: #676767 !important;
+    --bg3: #959595 !important;
+    --bg4: #c7c7c7 !important;
+    --bg5: #d8d8d8 !important;
+    --bg6: #e1e1e1 !important;
+    --bg7: #ececec !important;
+    --bg8: #f5f5f5 !important;
 
-    --c1: #000;
-    --c2: #444;
-    --c3: #666;
-    --c4: #888;
-    --c5: #aaa;
-    --c6: #bbb;
+    --c1: #000 !important;
+    --c2: #444 !important;
+    --c3: #666 !important;
+    --c4: #888 !important;
+    --c5: #aaa !important;
+    --c6: #bbb !important;
     Remove this + this message --> */
 
     /* Explaination of what each variable is assigned to */
