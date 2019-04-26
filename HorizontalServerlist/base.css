@@ -152,6 +152,11 @@
     font-size: 9px;
 }
 
+/* ReadAllNotificationsButton by DevilBro */
+.RANbutton-frame {
+    transform: rotate(-90deg);
+}
+
 
 
 
