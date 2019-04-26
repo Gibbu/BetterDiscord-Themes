@@ -1,47 +1,35 @@
 .wrapper-1Rf91z {
-    width: calc(var(--ASW_size) + 20px);
+    width: calc(var(--ASW_size) + 15px);
     position: relative;
 }
-.container-2td-dC, .container-1ETFDs, .homeButton-2Cw51C, .circleIconButton-jET_ig, .dragPlaceholder-D9-haY, .guildsError-b7zR5H {
-    width: var(--ASW_size);
-    height: var(--ASW_size);
-}
-.container-1aNBdK, .container-1aNBdK .wrapper-2lTRaf, .container-1aNBdK .wrapper-2lTRaf .wrapper-2F3Zv8 {
-    height: var(--ASW_size) !important;
-    width: var(--ASW_size) !important;
-    margin-bottom: 12px;
-}
-.container-2td-dC .icon-3o6xvg {
-    width: var(--ASW_size);
-    height: var(--ASW_size);
-    position: relative;
-}
-.container-1aNBdK .badge-2_fwUZ, .container-2td-dC .badge-2_fwUZ {
-    position: absolute;
-    bottom: -2px;
-    top: unset;
-}
-.container-2td-dC.selected-nT-gM3:before {
-    margin-top: 0 !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    height: 100% !important;
-}
-.container-2td-dC .noIcon-1a_FrS, .guildsError-b7zR5H {
+.wrapper-1Rf91z .listItem-2P_4kh {
+    width: calc(var(--ASW_size) + 15px);
+    height: calc(var(--ASW_size) + 15px);
+    margin: unset;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-.guildSeparator-3s64Iy {
-    background: #2f3136;
+.wrapper-1Rf91z .listItem-2P_4kh .pill-31IEus {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wrapper-1Rf91z .listItem-2P_4kh .wrapper-25eVIn, .wrapper-1Rf91z > div[style] {
+    height: var(--ASW_size);
     width: var(--ASW_size);
 }
-.guildSeparator-3s64Iy:after {
-    content: none;
+.wrapper-1Rf91z .listItem-2P_4kh .wrapper-25eVIn svg {
+    height: var(--ASW_size);
+    width: var(--ASW_size);
 }
-.friendsOnline-2JkivW {
-    width: calc(var(--ASW_size) + 20px);
-    margin: 0 0 10px -10px;
+.wrapper-1Rf91z .listItem-2P_4kh:first-child + .listItem-2P_4kh, .wrapper-1Rf91z div[style] + .listItem-2P_4kh {
+    height: unset;
+    margin-top: 5px;
+}
+.unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
+    width: calc(var(--ASW_size) + 15px);
+}
+.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe, .unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe {
+    width: var(--ASW_size);
 }
 
 /* Custom CSS tab Instructions */
