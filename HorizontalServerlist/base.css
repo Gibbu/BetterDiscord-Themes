@@ -64,7 +64,6 @@
     margin-right: 15px;
 }
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem):not(:only-child) + div:not([style]), .wrapper-1Rf91z:not(.foldercontent) .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
-    /* background: lime; */
     position: absolute;
     margin-left: -15px !important;
     height: var(--HSL-size);
@@ -109,7 +108,7 @@
     transition: 0.1s ease;
 }
 /* Add Server */
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask, .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask svg {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask, .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-circleButtonMask svg, .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-guildsError {
     width: var(--HSL-size);
     height: var(--HSL-size);
 }
@@ -223,4 +222,29 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
 /* Old Titlebar by DevilBro */
 .settingsTitlebarOTB {
     margin-top: 20px;
+}
+
+/* ReadAllNotificationsButton by DevilBro */
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.RANbutton-frame {
+    position: absolute;
+    left: 10px;
+    height: auto !important;
+    bottom: -2px;
+    margin: 0 !important;
+    width: calc(var(--HSL-size)) !important;
+}
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.RANbutton-frame .RANbutton {
+    height: auto !important;
+}
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .RANbutton-frame + .da-listItem {
+    position: absolute;
+    margin-left: -15px !important;
+    height: var(--HSL-size);
+    width: auto !important;position: absolute;
+    margin-left: -15px !important;
+    height: var(--HSL-size);
+    text-align: center;
+}
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .RANbutton-frame .RANbutton {
+    text-align: center;
 }
