@@ -1,3 +1,8 @@
+My support server: https://discordapp.com/invite/ZHthyCw  
+Invite code: ZHthyCw
+
+#
+
 **SimplyDarkDiscord**  
 Makes discord sharp and simple
   
