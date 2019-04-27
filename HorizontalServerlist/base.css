@@ -41,6 +41,7 @@
     width: auto;
     height: auto;
 }
+
 /* Direct Messages */
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem), .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) .da-blob svg {
     width: var(--HSL-size) !important;
@@ -117,14 +118,25 @@
     height: 65% !important;
 }
 
+
 .base-3dtUhz {
     border-radius: 0 !important;
 }
+
+
+
+
+
 
 /* OSX Fixes */
 .typeMacOS-3EmCyP .wrapper-1Rf91z:not(.foldercontent) {
     padding-top: 0 !important;
 }
+
+
+
+
+
 
 .bda-slist li {
     max-height: 1000px;
@@ -168,6 +180,7 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     left: 0;
 }
 
+
 /*********************
     Plugin Fixes
 *********************/
@@ -198,6 +211,10 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
 }
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder {
     margin-top: 10px !important;
+}
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder svg {
+    height: var(--HSL-size) !important;
+    width: var(--HSL-size) !important;
 }
 
 /* Old Titlebar by DevilBro */
