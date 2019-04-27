@@ -13,7 +13,7 @@
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 0 calc(var(--HSL-size) + 25px) !important;
+    padding: 0 0 0 calc(var(--HSL-size) + 40px) !important;
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem {
     margin: 10px 10px 10px 0 !important;
@@ -24,7 +24,7 @@
     display: none;
 }
 /* Home Button */
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .da-scrollerWrap .da-scroller > .da-listItem:first-child {
     position: absolute;
     left: 0;
     margin: 10px !important;
@@ -37,35 +37,36 @@
     width: 65%;
 }
 /* Separator */
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) + div, .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
-    margin: 10px 15px !important;
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) + div, .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
     width: auto;
     height: auto;
 }
 /* Direct Messages */
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem), .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-blob svg {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem), .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) .da-blob svg {
     width: var(--HSL-size) !important;
     height: var(--HSL-size) !important;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) .da-badgeWrapper {
     height: var(--HSL-size);
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper .da-lowerBadge {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) .da-badgeWrapper .da-lowerBadge {
     bottom: -2px;
     right: -2px;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) .da-badgeWrapper .da-lowerBadge .da-numberBadge {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) .da-badgeWrapper .da-lowerBadge .da-numberBadge {
     box-shadow: -2px -2px 5px #000;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) rect {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) rect {
     display: none;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem) {
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem) {
     margin-right: 15px;
 }
-.wrapper-1Rf91z .da-scrollerWrap .da-scroller > div:not(.da-listItem):not(:only-child)+div {
-    margin-top: 0 !important;
-    margin-left: 0 !important;
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller > div[style]:not(.da-listItem):not(:only-child) + div:not([style]), .wrapper-1Rf91z:not(.foldercontent) .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
+    /* background: lime; */
+    position: absolute;
+    margin-left: -15px !important;
+    height: var(--HSL-size);
 }
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .da-listItem:first-child + .da-listItem {
     margin: 10px 15px 10px 0 !important;
@@ -116,54 +117,14 @@
     height: 65% !important;
 }
 
-
 .base-3dtUhz {
     border-radius: 0 !important;
 }
-
-
-/* Server Folders by DevilBro */
-.wrapper-1Rf91z.foldercontent {
-    width: 100% !important;
-    box-shadow: none;
-    background: rgba(0,0,0,0.3);
-    height: calc(var(--HSL-size) + 20px);
-    transition: height 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
-}
-.wrapper-1Rf91z.foldercontent.foldercontentclosed {
-    width: 100% !important;
-    height: 0;
-    margin-top: 0 !important;
-}
-.wrapper-1Rf91z.foldercontent .da-guildSeparator {
-    width: 2px;
-    height: var(--HSL-size);
-    margin: 10px 0 10px 10px;
-}
-
-/* Old TItle Bar by DevilBro */
-.settingsTitlebarOTB {
-    margin-top: 20px;
-}
-
-/* Guild Counter - Metalloriff */
-#gc-counter {
-    bottom: -3px;
-    font-size: 9px;
-}
-
-
-
 
 /* OSX Fixes */
 .typeMacOS-3EmCyP .wrapper-1Rf91z:not(.foldercontent) {
     padding-top: 0 !important;
 }
-
-
-
-
-
 
 .bda-slist li {
     max-height: 1000px;
@@ -207,10 +168,11 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     left: 0;
 }
 
-
 /*********************
     Plugin Fixes
 *********************/
+
+/* ServerFolders by DevilBro */
 #app-mount .da-app .wrapper-1Rf91z.foldercontent {
     width: 100% !important;
     box-shadow: none;
@@ -228,12 +190,17 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     height: var(--HSL-size);
     margin: 10px 0 10px 10px;
 }
-
-.settingsTitlebarOTB {
-    margin-top: 20px;
+#app-mount .da-app .wrapper-1Rf91z.foldercontent .da-listItem:not(.folderseparatorouter) {
+    margin: 10px 10px 10px 0 !important;
+}
+#app-mount .da-app .wrapper-1Rf91z.foldercontent .da-listItem.folderseparatorouter {
+    margin-bottom: 0 !important;
+}
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder {
+    margin-top: 10px !important;
 }
 
-#gc-counter {
-    bottom: -3px;
-    font-size: 9px;
+/* Old Titlebar by DevilBro */
+.settingsTitlebarOTB {
+    margin-top: 20px;
 }
