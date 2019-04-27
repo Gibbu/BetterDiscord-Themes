@@ -212,6 +212,9 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder {
     margin-top: 10px !important;
 }
+#app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder .da-blobContainer {
+    height: var(--HSL-size) !important;
+}
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder svg {
     height: var(--HSL-size) !important;
     width: var(--HSL-size) !important;
