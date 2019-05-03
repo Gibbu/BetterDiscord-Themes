@@ -1,23 +1,21 @@
-/*//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.6.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//**/
+/*//META{"name":"Simply Dark Discord - Dark","description":"Makes Discord sharp and simple, available with 2 versions. Dark and Grey.","author":"Gibbu","version":"1.7.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/"}*//**/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
 
 :root {
-    /* List of variables going from darkest to lightest */
-    --bg1: #111;
-    --bg2: #171717;
-    --bg3: #1c1c1c;
-    --bg4: #222;
-    --bg5: #272727;
-    --bg6: #2c2c2c;
-    --bg7: #333;
-    --bg8: #373737;
-    --bg9: #3c3c3c;
+    --bgR: 12; /* RED value | 0 - 255 */
+    --bgG: 12; /* GREEN value | 0 - 255 */
+    --bgB: 12; /* BLUE value | 0 - 255 */
+    --bgA: .6; /* ALPHA(transparent) value) | 0 - 1. Can use decimals (0.6) */
+    --bgImage: url('https://i.imgur.com/XSYUUhe.jpg'); /* HAS TO END IN .jpg, .jpeg or .gif. Example: https://i.imgur.com/XSYUUhe.jpg */
 
-    /* For complete circle use 50% */
+    --emojiPickerHeight: 400px;
+
+    /* For complete circles use 50% */
     --avatarRoundness: 0px; /* Chat, Members, Voice, Direct Messages avatar roundness */
-    --serverRoundness: 0px; /* Guild/Server list icon roundness */
-    --selectedServerRoundness: 0px; /* When selected on a server */
-    --selectedServerBar: 0px; /* Bar to the left when selected a server */
+
+    /* Guild/Server variables */
+    --serverRoundness: 0px;
+    --serverHoverRoundness: 0px;
 }
