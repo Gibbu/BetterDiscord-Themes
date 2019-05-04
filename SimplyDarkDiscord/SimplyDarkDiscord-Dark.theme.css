@@ -7,7 +7,7 @@
     --bgR: 12; /* RED value | 0 - 255 */
     --bgG: 12; /* GREEN value | 0 - 255 */
     --bgB: 12; /* BLUE value | 0 - 255 */
-    --bgA: .6; /* ALPHA(transparent) value) | 0 - 1. Can use decimals (0.6) */
+    --bgA: 1; /* ALPHA(transparent) value) | 0 - 1. Can use decimals (0.6) */
     --bgImage: url(''); /* HAS TO END IN .jpg, .jpeg or .gif. Example: https://i.imgur.com/XSYUUhe.jpg */
 
     --emojiPickerHeight: 400px;
