@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
 
+/* If you plan on using a background image, uncomment the @import below. This helps with visiblity issues. */
+/* @import url('https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/transparentFix.css'); */
+
 :root {
     --bgR: 12; /* RED value | 0 - 255 */
     --bgG: 12; /* GREEN value | 0 - 255 */
