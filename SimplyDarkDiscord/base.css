@@ -6,7 +6,7 @@
     --red: #f04747;
     --purple: #593695;
 
-    --bg1: rgba(var(--bgR), var(--bgG), var(--bgB), var(--bgA));
+    --bg1: rgba( var(--bgR), var(--bgG), var(--bgB), var(--bgA) );
     --bg2: rgba( calc(var(--bgR) * 1.5), calc(var(--bgG) * 1.5), calc(var(--bgB) * 1.5), var(--bgA) );
     --bg3: rgba( calc(var(--bgR) * 2), calc(var(--bgG) * 2), calc(var(--bgB) * 2), var(--bgA) );
     --bg4: rgba( calc(var(--bgR) * 2.5), calc(var(--bgG) * 2.5), calc(var(--bgB) * 2.5), var(--bgA) );
@@ -209,11 +209,11 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
 
 /***** Tooltips *****/
 #app-mount .tooltipBlack-PPG47z {
-    background-color: var(--bg15);
+    background-color: rgba( calc(var(--bgR) * 8), calc(var(--bgG) * 8), calc(var(--bgB) * 8), 1);
     color: #fff;
 }
 #app-mount .tooltipPointer-3ZfirK {
-    border-top-color: var(--bg15);
+    border-top-color: rgba( calc(var(--bgR) * 8), calc(var(--bgG) * 8), calc(var(--bgB) * 8), 1);
 }
 
 
@@ -808,6 +808,25 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .buttons-205you {
     height: 100%;
 }
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {
+    background-image: none;
+}
+.theme-dark .pageWrapper-1PgVDX {
+    background: var(--bg2);
+}
+.theme-dark .pageWrapper-1PgVDX > img {
+    display: none;
+}
+.theme-dark .action-1lSjCi {
+    position: relative;
+    padding-bottom: 50px;
+}
+.theme-dark .action-1lSjCi button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 199px;
+}
 .item-2J1YMK {
     padding: 8px 10px;
     width: 100%;
@@ -947,16 +966,16 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 }
 ::-webkit-scrollbar-thumb {
 	display: initial;
-	background-color: rgba(255,255,255,0.1) !important;
+	background-color: rgba( calc(var(--bgR) * 8), calc(var(--bgG) * 8), calc(var(--bgB) * 8), .2 ) !important;
 	border: 0 solid transparent !important;
 	border-radius: 0 !important;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background-color: rgba(255,255,255,0.125) !important;
+	background-color: rgba( calc(var(--bgR) * 8), calc(var(--bgG) * 8), calc(var(--bgB) * 8), .35 ) !important;
 }
 ::-webkit-scrollbar-thumb:active {
 	display: initial;
-	background-color: rgba(255,255,255,0.15) !important;
+	background-color: rgba( calc(var(--bgR) * 8), calc(var(--bgG) * 8), calc(var(--bgB) * 8), .45 ) !important;
 }
 
 
@@ -1059,4 +1078,26 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
     padding: 15px 0;
     color: #fff;
     background: var(--bg7);
+}
+
+/* Transparent Fixes */
+/* BG3 */
+.theme-dark .modal-3HD5ck, .theme-dark .embedInner-1-fpTo {
+    background: rgba( calc(var(--bgR) * 2), calc(var(--bgG) * 2), calc(var(--bgB) * 2), 1 );
+}
+/* BG4 */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .messagesPopoutWrap-1MQ1bW {
+    background: rgba( calc(var(--bgR) * 2.5), calc(var(--bgG) * 2.5), calc(var(--bgB) * 2.5), 1 );
+}
+/* BG5 */
+.theme-dark .container-3ayLPN, .theme-dark .body-3ND3kc, .theme-dark .autocomplete-1vrmpx, .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi, .theme-dark .container-3cGP6G {
+    background: rgba( calc(var(--bgR) * 3), calc(var(--bgG) * 3), calc(var(--bgB) * 3), 1 );
+}
+/* BG6 */
+.headerPlaying-j0WQBV, .theme-dark .menu-Sp6bN1, .theme-dark .headerNormal-T_seeN, .theme-dark .messageGroupWrapper-o-Zw7G {
+    background: rgba( calc(var(--bgR) * 3.5), calc(var(--bgG) * 3.5), calc(var(--bgB) * 3.5), 1 );
+}
+/* BG7 */
+.topSectionPlaying-1J5E4n, .theme-dark .header-ykumBX {
+    background: rgba( calc(var(--bgR) * 4), calc(var(--bgG) * 4), calc(var(--bgB) * 4), 1 ) !important;
 }
