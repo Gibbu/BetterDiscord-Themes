@@ -20,11 +20,11 @@ Make the server list smaller or larger
 **HorizontalServerlist**  
 Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes.
   
-![HorizontalServerlist](https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/HorizontalServerlist/Previews/Main.jpg)
+![HorizontalServerlist](https://i.imgur.com/ygGh3hy.jpg)
 
 #
 
 **TrueLight**  
 Makes Discord's light theme a real light theme with a couple of minor changes.
   
-![TrueLight](https://raw.githubusercontent.com/Gibbu/BetterDiscord-Themes/master/TrueLight/Previews/Preview.jpg)
+![TrueLight](https://i.imgur.com/p05iDxt.jpg)
