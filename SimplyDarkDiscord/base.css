@@ -224,11 +224,17 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
 }
 .title-3qD0b- .search-36MZv- .searchBar-3dMhjb {
     background: transparent;
-    width: 30px;
+    width: 24px;
     transition: 0.2s ease;
 }
 .title-3qD0b- .search-36MZv- .searchBar-3dMhjb svg {
     color: #b9bbbe;
+}
+.title-3qD0b- .search-36MZv- .searchBar-3dMhjb svg[name="Search"] {
+    height: 24px;
+    width: 24px;
+    margin-left: -4px;
+    margin-top: -4px;
 }
 .title-3qD0b- .search-36MZv-.popout-open .searchBar-3dMhjb, .title-3qD0b- .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
     width: 240px;
@@ -362,6 +368,9 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     padding-left: 10px;
 }
 
+[aria-label="USER_SETTINGS"] .contentColumn-2hrIYH {
+    position: relative;
+}
 .layer-3QrUeG:not([aria-label="USER_SETTINGS"]) .side-8zPYf6 .item-PXvHYJ {
     padding-left: 10px !important;
 }
@@ -687,11 +696,15 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     background: rgba(0,0,0,0.5)
 }
 .bd-pfbtn.bd-updatebtn {
-    left: 512px;
+    left: 512px !important;
+}
+.bd-pfbtn.bd-pluginrepobutton {
+    left: 650px !important;
 }
 .bda-slist li {
     max-height: 1000px !important;
 }
+
 
 
 
@@ -808,6 +821,9 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .buttons-205you {
     height: 100%;
 }
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background: var(--bg7);
+}
 .theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU {
     background-image: none;
 }
@@ -859,7 +875,6 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .regionSelect-3lf4eE .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button {
     border-color: var(--bg7);
 }
-
 .iconBadge-2dji3k {
     box-shadow: -2px 1px 5px #000;
 }
@@ -895,7 +910,6 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .carousel-2WxMes, .article-3kb3qm, .userInfoEditing-1CEzdT .theme-dark .input-cIJ7To, .theme-dark .input-cIJ7To {
     color: #eee;
 }
-
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     background: var(--green);
     color: #fff;
@@ -920,7 +934,6 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .theme-dark .payment-xT17Mq, .theme-dark .paymentRow-2e7VM6 {
     border-color: var(--bg2);
 }
-
 .header-2o-2hj:hover, .popout-open .header-2o-2hj {
     background: rgba(255,255,255,0.04);
 }
@@ -1070,7 +1083,6 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
     color: #666 !important;
 }
 
-
 /* Check if Light Theme is enabled */
 .app-2rEoOp.theme-light::after {
     content: "As the name suggest. SimplyDarkDiscord requires Dark Theme to be enabled.";
@@ -1081,6 +1093,9 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 }
 
 /* Transparent Fixes */
+.app-19_DXt, .theme-dark .standardSidebarView-3F1I7i {
+    background: transparent !important;
+}
 /* BG3 */
 .theme-dark .modal-3HD5ck, .theme-dark .embedInner-1-fpTo {
     background: rgba( calc(var(--bgR) * 2), calc(var(--bgG) * 2), calc(var(--bgB) * 2), 1 );
@@ -1100,4 +1115,16 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 /* BG7 */
 .topSectionPlaying-1J5E4n, .theme-dark .header-ykumBX {
     background: rgba( calc(var(--bgR) * 4), calc(var(--bgG) * 4), calc(var(--bgB) * 4), 1 ) !important;
+}
+
+/* Plugin Fixes */
+.bd-themerepobutton {
+    left: 515px;
+}
+#app-mount .pluginrepo-notice, #app-mount .themerepo-notice {
+    z-index: 1000;
+    border-radius: 0 !important;
+}
+.wrapper-1Rf91z.foldercontent {
+    background: var(--bg3) !important;
 }
