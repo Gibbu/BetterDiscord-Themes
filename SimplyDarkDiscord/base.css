@@ -349,6 +349,16 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 
 
 /***** User Settings / Server Settings *****/
+#app-mount .layer-3QrUeG {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+    top: 0 !important;
+    padding-top: 0 !important;
+}
+#app-mount .layer-3QrUeG[aria-label] .standardSidebarView-3F1I7i {
+    top: 0;
+}
 /* Connections */
 .theme-dark .accountBtnInner-sj5jLs {
     background-color: var(--bg6);
@@ -644,7 +654,7 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .winButton-iRh8-Z {
     position: relative;
     top: 0;
-    height: 48px;
+    height: 47px;
     width: 40px;
 }
 .container-1r6BKw {
