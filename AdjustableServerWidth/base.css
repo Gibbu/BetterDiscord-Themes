@@ -39,24 +39,14 @@
     width: 0;
     height: 0;
 }
-
-/* Custom CSS tab Instructions */
-#bd-settingspane-container .editor-wrapper {
-    position: relative;
-    margin-top: 100px;
+.macButtons-2MuSAC {
+    width: calc(var(--ASW_size) + 15px);
+    padding: 0;
 }
-#bd-settingspane-container .editor-wrapper::before {
-    content: "To change the size of the Server List type the following: \A :root { --ASW_size: (YOUR NUMBER)px } \A\A Example:\A :root { --ASW_size: 55px }";
-    background: #009688;
-    display: block;
-    white-space: pre;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 5px;
-    width: 100%;
-    text-shadow: 0 1px 2px rgba(0,0,0,1);
-    position: absolute;
-    top: -110px;
+.macButton-c_Adir {
+    display: flex;
+    justify-content: center;
+}
+.platform-osx .wrapper-1Rf91z {
+    margin-top: 15px;
 }
