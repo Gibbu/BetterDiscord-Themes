@@ -116,68 +116,10 @@
     width: 65% !important;
     height: 65% !important;
 }
-
-
 .base-3dtUhz {
     border-radius: 0 !important;
 }
 
-
-
-
-
-
-/* OSX Fixes */
-.typeMacOS-3EmCyP .wrapper-1Rf91z:not(.foldercontent) {
-    padding-top: 0 !important;
-}
-
-
-
-
-
-
-.bda-slist li {
-    max-height: 1000px;
-}
-li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
-    content: "Horizontal Serverlist compatibility list can be found on:\Ahttps://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/" !important;
-    background: rgba(0,0,0,0.3);
-    border: 1px solid rgba(0,0,0,0.3);
-    display: block;
-    white-space: pre;
-    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 400;
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 100%;
-    text-shadow: 0 1px 2px rgba(0,0,0,1);
-}
-#bd-customcss-attach-controls {
-    position: relative;
-}
-#bd-customcss-attach-controls::before {
-    content: "To change the size of the server icons type the following: \A :root { --HSL-size: (YOUR NUMBER)px } \A\A Example:\A :root { --HSL-size: 50px }";
-    border: 1px solid rgba(0,0,0,0.3);
-    background: rgba(0,0,0,0.3);
-    display: block;
-    white-space: pre;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 5px;
-    width: 100%;
-    text-shadow: 0 1px 2px rgba(0,0,0,1);
-    position: absolute;
-    top: 80px;
-    margin-bottom: 25px;
-    left: 0;
-}
 
 
 /*********************
@@ -191,6 +133,7 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     background: rgba(0,0,0,0.3);
     height: calc(var(--HSL-size) + 20px);
     transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1) !important;
+    margin-top: 0 !important;
 }
 #app-mount .da-app .wrapper-1Rf91z.foldercontent.foldercontentclosed {
     width: 100% !important;
@@ -206,7 +149,11 @@ li[data-name="z Horizontal Serverlist"] .bda-description-wrap::after {
     margin: 10px 10px 10px 0 !important;
 }
 #app-mount .da-app .wrapper-1Rf91z.foldercontent .da-listItem.folderseparatorouter {
-    margin-bottom: 0 !important;
+    margin: 10px 0 0 !important;
+    width: auto !important;
+}
+#app-mount .da-app .wrapper-1Rf91z.foldercontent .da-listItem.folderseparatorouter .folderseparator {
+    margin: 0 15px 0 5px !important;
 }
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller .da-listItem.folder {
     margin-top: 10px !important;
