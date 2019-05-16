@@ -177,6 +177,9 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
 .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq:hover, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq:hover svg, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .circleIconButton-jET_ig:hover, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp:hover .button-OhfaWu {
     border-radius: var(--serverHoverRoundness) !important;
 }
+#app-mount .da-app .wrapper-1Rf91z.foldercontent {
+    padding-top: 0 !important;
+}
 
 
 
