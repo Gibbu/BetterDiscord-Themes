@@ -34,8 +34,8 @@ body, html, .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark
 
 
 
-#app-mount {
-    background: var(--bgImage) center/cover fixed;
+html > body #app-mount {
+    background: var(--bgImage) center/cover fixed !important;
 }
 
 
