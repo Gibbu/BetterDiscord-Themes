@@ -222,7 +222,7 @@
       width: var(--HSL-size) !important;
       margin: 10px var(--HSL-spacing) 10px 0; }
       .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
-        margin: 0; }
+        margin: 0 !important; }
       .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh {
         width: auto;
         height: var(--HSL-size) !important; }
