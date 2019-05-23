@@ -3,5 +3,8 @@
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 
 :root {
-    --HSL-size: 45px; /* Size of the server icons */
+    --HSL-size: 35px; /* Size of Server Icons */
+    --HSL-spacing: 10px; /* Space between servers */
+    --HSL-roundness: 50%; /* Server non hovered and selected */
+    --HSL-roundnessHover: 20%; /* Server hovered */
 }
