@@ -217,6 +217,22 @@
           opacity: 1 !important; }
       .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh:hover a {
         border-radius: var(--HSL-roundnessHover); }
+    .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh {
+      position: absolute;
+      left: calc(var(--HSL-spacing) - 5px);
+      top: -10px;
+      height: auto !important;
+      width: calc(var(--HSL-size) + 10px) !important;
+      margin: 0; }
+      .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh div {
+        width: 100%;
+        height: 15px !important;
+        line-height: 12px; }
+      .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh {
+        width: auto; }
+        .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh .guildSeparator-3s64Iy {
+          width: 2px;
+          height: 100%; }
     .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) {
       height: var(--HSL-size) !important;
       width: var(--HSL-size) !important;
