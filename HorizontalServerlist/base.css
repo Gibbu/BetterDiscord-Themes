@@ -259,6 +259,8 @@
         height: 65%; }
     .wrapper-1Rf91z .circleButtonMask-2VNJsN:hover > svg {
       border-radius: var(--HSL-roundnessHover); }
+  .wrapper-1Rf91z .guildsError-b7zR5H {
+    height: var(--HSL-size) !important; }
 
 #app-mount .wrapper-1Rf91z.foldercontent {
   transition: height 0.3s ease !important;
