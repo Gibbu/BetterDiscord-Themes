@@ -568,7 +568,7 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     padding: 6px 16px;
 }
 [aria-label="USER_SETTINGS"] .side-8zPYf6 .header-2RyJ0Y:first-child::before {
-    content: "SimplyDarkDiscord v1.7.0";
+    content: "SimplyDark v1.7.0";
     display: block;
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -1114,7 +1114,7 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 
 /* Check if Light Theme is enabled */
 .app-2rEoOp.theme-light::after {
-    content: "As the name suggest. SimplyDarkDiscord requires Dark Theme to be enabled.";
+    content: "As the name suggest. SimplyDark requires Dark Theme to be enabled.";
     text-align: center;
     padding: 15px 0;
     color: #fff;
