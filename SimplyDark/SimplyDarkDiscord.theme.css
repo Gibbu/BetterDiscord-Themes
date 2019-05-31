@@ -1,10 +1,10 @@
-/*//META{"name":"SimplyDarkDiscord","description":"Makes Discord sharp and simple.","author":"Gibbu","version":"1.7.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDarkDiscord","website":"https://www.gibbu.me"}*//**/
+/*//META{"name":"SimplyDark","description":"Makes Discord sharp and simple.","author":"Gibbu","version":"1.7.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark","website":"https://www.gibbu.me"}*//**/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
-@import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/base.css");
+@import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDark/base.css");
 
 /* If you plan on using a background image, uncomment the @import below. This helps with visiblity issues. */
-/* @import url('https://gibbu.github.io/BetterDiscord-Themes/SimplyDarkDiscord/transparentFix.css'); */
+/* @import url('https://gibbu.github.io/BetterDiscord-Themes/SimplyDark/transparentFix.css'); */
 
 :root {
     --bgR: 12; /* RED value | 0 - 255 */
