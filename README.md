@@ -6,7 +6,7 @@ Invite code: ZHthyCw
 **SimplyDark**  
 Makes discord sharp and simple
 
-![BetterDiscord](https://i.imgur.com/ecyCfGc.jpg)
+![SimplyDark](https://i.imgur.com/i5p7KTQ.jpg)
 
 #
 
