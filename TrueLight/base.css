@@ -248,24 +248,20 @@
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-1UB9sr .flex-1xMQg5 > div:hover {
     background-color: #333;
 }
-.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .discriminator {
+.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .discriminator-3W31ZY {
     color: var(--c4);
     opacity: 1;
     font-weight: 600;
 }
-.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .username {
+.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .username-u0EL4I {
     font-weight: 500;
 }
-.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .username:not([style*=""]) {
+.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .username-u0EL4I:not([style*=""]) {
     color: var(--c1);
-}
-.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .flex-1xMQg5 > div,
-.app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .flex-1xMQg5 > button {
-    filter: invert(1) hue-rotate(180deg);
 }
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .flex-1xMQg5 > div:hover,
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .flex-1xMQg5 > button:hover {
-    background-color: #333;
+    background-color: var(--bg4);
 }
 .app-2rEoOp.theme-light .channels-Ie2l6A .avatarSpeaking-1wJCNq {
     box-shadow: 0 0 0 2px #43b581, inset 0 0 0 1.5px var(--bg7);
@@ -273,6 +269,16 @@
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-2Thooq .status-oxiHuE {
     border-color: var(--bg6);
 }
+.app-2rEoOp.theme-light .button-s03oPN {
+    color: var(--c1);
+}
+.app-2rEoOp.theme-light .button-s03oPN:hover:not(.disabled-1ZY10C) {
+    background: var(--bg4);
+    color: var(--c1);
+}
+
+
+
 
 /*** Direct Messages ***/
 .app-2rEoOp.theme-light .channels-Ie2l6A .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M {
@@ -757,21 +763,11 @@
 
 
 
-
-
-
-
-
-
-
-/***** Changelog *****/
-.modal-3HD5ck.modal-1sor29.size-JLvFeT .scroller-2FKFPG::before {
-    content: "TrueLight version: 1.0.0 \A- Fixed User/Server Settings(Still WIP)\A - Added more variables to allow users more customization\A\A\A Also quick note: If the 2nd number of the theme file version \A doesn't match the number above. You need to redownload this \A theme.";
-    margin: 10px 0 30px;
-    background: var(--bg7);
-    border-radius: 5px;
-    padding: 10px;
-    box-sizing: border-box;
+/***** Version *****/
+[aria-label="USER_SETTINGS"] .side-8zPYf6 .header-2RyJ0Y:first-child::before {
+    content: "TrueLight v1.0.1";
     display: block;
-    white-space: pre;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--bg4);
+    padding-bottom: 5px;
 }

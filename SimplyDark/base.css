@@ -547,16 +547,7 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
 .contentRegionScroller-26nc1e {
     position: relative;
 }
-.contentColumn-2hrIYH h2.ui-form-title, .userSettingsAccount-2eMFVR > h2:first-child, .contentColumn-2hrIYH > div > h2:first-child, .contentColumn-2hrIYH > div:first-child > div:first-child > h2:first-child, .section-3sEseC > h2:first-child {
-    position: fixed;
-    top: 0;
-    left: 224px;
-    background: var(--bg2);
-    width: 100%;
-    margin: 0;
-    padding: 14px 14px 14px 64px;
-    z-index: 10;
-}
+
 .contentRegionScroller-26nc1e .toolsContainer-1edPuj {
     margin-right: 0;
     width: 36px;
@@ -574,7 +565,16 @@ div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
     border-bottom: 1px solid rgba(255,255,255,0.1);
     padding-bottom: 10px;
 }
-
+[aria-label="USER_SETTINGS"] .contentColumn-2hrIYH h2.ui-form-title:first-of-type, [aria-label="USER_SETTINGS"] .contentColumn-2hrIYH > div:first-of-type .userSettingsAccount-2eMFVR h2.h2-2gWE-o.title-3sZWYQ.size16-14cGz5, [aria-label="USER_SETTINGS"] .contentColumn-2hrIYH > div:first-of-type > h2.title-3sZWYQ, [aria-label="USER_SETTINGS"] .contentColumn-2hrIYH .subscriptionDetails-16jcwU > h2.title-3sZWYQ, [aria-label="USER_SETTINGS"] .contentColumn-2hrIYH > div:first-child > div:first-child > h2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--bg2);
+    width: 100%;
+    margin: 0;
+    padding: 14px 14px 14px 64px;
+    z-index: 10;
+}
 
 
 
@@ -911,7 +911,7 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 }
 .toolsContainer-1edPuj {
     position: fixed;
-    left: 230px;
+    left: 6px;
     top: 0px;
     padding-top: 0;
     z-index: 12;
