@@ -5,6 +5,9 @@
 .container-2lgZY8 {
   flex-direction: column; }
 
+.wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh, .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:not([style]):first-child + .listItem-2P_4kh {
+  display: none; }
+
 .wrapper-1Rf91z {
   position: absolute;
   z-index: 5;
@@ -15,48 +18,40 @@
   transform-origin: top left; }
   .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     height: 150vh; }
-    .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) {
+    .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh {
       transform: rotate(90deg);
       width: var(--HSL-size);
       height: var(--HSL-size);
       margin: 0 0 var(--HSL-spacing) 10px; }
-      .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) div[class*='pill'] {
+      .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
         top: -10px;
         width: 0;
         height: 3px;
         left: 50%;
         transform: translate(-50%, 0) !important;
         transition: 0.2s ease; }
-        .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) div[class*='pill'] span {
+        .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span {
           height: 3px !important;
           width: 100%;
           margin-left: 0;
           border-radius: 0 0 3px 3px;
           transform: none !important; }
-        .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) div[class*='pill'].bd-unread {
+        .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'].bd-unread {
           width: calc(var(--HSL-size) - 70%); }
-        .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) div[class*='pill'].bd-hovered {
+        .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'].bd-hovered {
           width: calc(var(--HSL-size) - 40%); }
-        .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) div[class*='pill'].bd-selected {
+        .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'].bd-selected {
           width: var(--HSL-size); }
-      .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) .svg-1X37T1, .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator) .wrapper-25eVIn {
+      .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1, .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn {
         height: var(--HSL-size);
         width: var(--HSL-size); }
-      .wrapper-1Rf91z .scrollerWrap-2lJEkd .listItem-2P_4kh:not(.bd-guild-separator):first-child {
+      .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh:first-child {
         margin-top: 5px; }
-    .wrapper-1Rf91z .scrollerWrap-2lJEkd .guildsError-b7zR5H {
+    .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .guildsError-b7zR5H {
       height: 100%;
       width: 100%; }
-    .wrapper-1Rf91z .scrollerWrap-2lJEkd .bd-guild-separator {
-      width: calc(var(--HSL-size) + 20px);
-      display: flex;
-      justify-content: center; }
-  .wrapper-1Rf91z .unreadMentionsIndicatorTop-gA6RCh {
-    left: 50%;
-    transform: rotate(90deg) translateY(100%) translateX(10px) !important; }
-  .wrapper-1Rf91z .unreadMentionsIndicatorBottom-BXS58x {
-    left: 50%;
-    transform: rotate(90deg) translateY(100%) translateX(-10px) !important; }
+  .wrapper-1Rf91z [class*="unreadMentionsIndicator"] {
+    display: none; }
   .wrapper-1Rf91z .RANbutton-frame {
     width: 45px !important;
     transform: rotate(90deg) translateY(5px) !important;
