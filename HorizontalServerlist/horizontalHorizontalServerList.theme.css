@@ -1,6 +1,6 @@
 /*! //META {"name": "zVertical Horizontal Server List", "description": "Moves the server list from the left to the top of Discord. Also allows for adjusting the size of the server icons.", "author": "Gibbu", "version": "1.1"} *//**/
 
-@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/verticalBase.css");
+@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/horizontalBase.css");
 
 :root {
   --HSL-size: 35px;
