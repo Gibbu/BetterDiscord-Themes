@@ -1,6 +1,8 @@
 #app-mount .base-3dtUhz {
   border-radius: 0;
-  margin-top: calc(var(--HSL-size) + 20px); }
+  margin-top: calc(var(--HSL-size) + 20px);
+  transition: 0.3s ease;
+  transition-delay: 0.3s; }
 
 .container-2lgZY8 {
   flex-direction: column; }
@@ -15,7 +17,8 @@
   width: calc(var(--HSL-size) + 20px);
   transform: rotate(-90deg);
   top: calc(var(--HSL-size) + 42px);
-  transform-origin: top left; }
+  transform-origin: top left;
+  z-index: 999; }
   .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     height: 150vh; }
     .wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG .listItem-2P_4kh {
@@ -57,3 +60,15 @@
     transform: rotate(90deg) translateY(5px) !important;
     margin-top: 20px !important;
     margin-bottom: 20px !important; }
+
+body.foldercontentopened .base-3dtUhz {
+  margin-top: calc(var(--HSL-size) * 2 + 40px) !important;
+  transition-delay: 0s !important; }
+
+.wrapper-1Rf91z.foldercontent {
+  top: calc(var(--HSL-size) + 42px);
+  margin-top: calc(var(--HSL-size) + 15px);
+  transition: 0.3s ease !important;
+  transition-delay: 0s !important; }
+  .wrapper-1Rf91z.foldercontent.foldercontentopen {
+    transition-delay: 0.3s !important; }
