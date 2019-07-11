@@ -55,6 +55,17 @@ div:not(.popouts-3dRSmE) ~ .avatar-small .offline-3qoTek {
 .streaming-2_dnHe {
     box-shadow: inset 0 0 0 2px var(--purple), inset 0 0 10px #000;
 }
+html body #app-mount .userPopout-3XzG_A .statusProfile-3ynqtt.online-2S838R {
+    box-shadow: inset 0 0 0 2px var(--green), inset 0 0 10px #000 !important;
+}
+
+html body #app-mount .userPopout-3XzG_A .statusProfile-3ynqtt.idle-3DEnRT {
+    box-shadow: inset 0 0 0 2px var(--yellow), inset 0 0 10px #000 !important;
+}
+
+html body #app-mount .userPopout-3XzG_A .statusProfile-3ynqtt.dnd-1_xrcq {
+    box-shadow: inset 0 0 0 2px var(--red), inset 0 0 10px #000 !important;
+}
 
 
 
