@@ -132,6 +132,137 @@ html > body #app-mount {
 
 
 
+
+/***** STATUS *****/
+[aria-label] foreignObject, .avatarHint-1qgaV3 foreignObject {
+    mask: none !important;
+}
+[aria-label] rect {
+    display: none;
+}
+[role="img"][aria-label]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 2px #666, inset 0 0 15px #000;
+    z-index: 1;
+}
+[role="img"][aria-label*="Online"]:before,
+[role="img"][aria-label*="Conectado"]:before,
+[role="img"][aria-label*="Conectado"]:before,
+[role="img"][aria-label*="En ligne"]:before,
+[role="img"][aria-label*="Na mreži"]:before,
+[role="img"][aria-label*="Prisijungęs"]:before,
+[role="img"][aria-label*="Elérhető"]:before,
+[role="img"][aria-label*="Pålogget"]:before,
+[role="img"][aria-label*="Dostępny"]:before,
+[role="img"][aria-label*="Disponível"]:before,
+[role="img"][aria-label*="Paikalla"]:before,
+[role="img"][aria-label*="Trực tuyến"]:before,
+[role="img"][aria-label*="Çevrimiçi"]:before,
+[role="img"][aria-label*="Συνδεδεμένος"]:before,
+[role="img"][aria-label*="На линия"]:before,
+[role="img"][aria-label*="В сети"]:before,
+[role="img"][aria-label*="В мережі"]:before,
+[role="img"][aria-label*="ออนไลน์"]:before,
+[role="img"][aria-label*="在线"]:before,
+[role="img"][aria-label*="オンライン"]:before,
+[role="img"][aria-label*="線上"]:before,
+[role="img"][aria-label*="온라인"]:before {
+    box-shadow: inset 0 0 0 2px var(--green), inset 0 0 15px #000 !important;
+}
+[role="img"][aria-label*="Idle"]:before,
+[role="img"][aria-label*="Inaktiv"]:before,
+[role="img"][aria-label*="Abwesend"]:before,
+[role="img"][aria-label*="Ausente"]:before,
+[role="img"][aria-label*="Inactif"]:before,
+[role="img"][aria-label*="U mirovanju"]:before,
+[role="img"][aria-label*="Inattivo"]:before,
+[role="img"][aria-label*="Pasitraukęs"]:before,
+[role="img"][aria-label*="Tétlen"]:before,
+[role="img"][aria-label*="Inactief"]:before,
+[role="img"][aria-label*="Zaraz wracam"]:before,
+[role="img"][aria-label*="Inactiv"]:before,
+[role="img"][aria-label*="Toimeton"]:before,
+[role="img"][aria-label*="Chờ"]:before,
+[role="img"][aria-label*="Boşta"]:before,
+[role="img"][aria-label*="Nečinný"]:before,
+[role="img"][aria-label*="Αδρανής"]:before,
+[role="img"][aria-label*="Не се използва"]:before,
+[role="img"][aria-label*="Не активен"]:before,
+[role="img"][aria-label*="Відійшов"]:before,
+[role="img"][aria-label*="ไม่อยู่"]:before,
+[role="img"][aria-label*="闲置"]:before,
+[role="img"][aria-label*="退席中"]:before,
+[role="img"][aria-label*="閒置"]:before,
+[role="img"][aria-label*="자리비움"]:before {
+    box-shadow: inset 0 0 0 2px var(--yellow), inset 0 0 15px #000 !important;
+}
+[role="img"][aria-label*="Do Not Disturb"]:before,
+[role="img"][aria-label*="Vil ikke forstyrres"]:before,
+[role="img"][aria-label*="Bitte nicht stören"]:before,
+[role="img"][aria-label*="No molestar"]:before,
+[role="img"][aria-label*="Ne pas déranger"]:before,
+[role="img"][aria-label*="Ne uznemiravaj"]:before,
+[role="img"][aria-label*="Non disturbare"]:before,
+[role="img"][aria-label*="Netrukdyti"]:before,
+[role="img"][aria-label*="Niet storen"]:before,
+[role="img"][aria-label*="Ikke forstyrr"]:before,
+[role="img"][aria-label*="Nie przeszkadzać"]:before,
+[role="img"][aria-label*="Elfoglalt"]:before,
+[role="img"][aria-label*="Não perturbar"]:before,
+[role="img"][aria-label*="Nu deranja"]:before,
+[role="img"][aria-label*="Älä häiritse"]:before,
+[role="img"][aria-label*="Stör ej"]:before,
+[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
+[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
+[role="img"][aria-label*="Nerušit"]:before,
+[role="img"][aria-label*="Μην ενοχλείτε"]:before,
+[role="img"][aria-label*="Не ме безпокой"]:before,
+[role="img"][aria-label*="Не беспокоить"]:before,
+[role="img"][aria-label*="Не турбувати"]:before,
+[role="img"][aria-label*="ห้ามรบกวน"]:before,
+[role="img"][aria-label*="请勿打扰"]:before,
+[role="img"][aria-label*="取り込み中"]:before,
+[role="img"][aria-label*="請勿打擾"]:before,
+[role="img"][aria-label*="다른 용무 중"]:before {
+    box-shadow: inset 0 0 0 2px var(--red), inset 0 0 15px #000 !important;
+}
+[role="img"][aria-label*="Streaming"]:before,
+[role="img"][aria-label*="Streamer"]:before,
+[role="img"][aria-label*="Transmitiendo"]:before,
+[role="img"][aria-label*="En direct"]:before,
+[role="img"][aria-label*="In diretta"]:before,
+[role="img"][aria-label*="Transliuojama"]:before,
+[role="img"][aria-label*="Közvetítés"]:before,
+[role="img"][aria-label*="Streamt"]:before,
+[role="img"][aria-label*="Strømmer"]:before,
+[role="img"][aria-label*="Streamowanie"]:before,
+[role="img"][aria-label*="Transmitindo"]:before,
+[role="img"][aria-label*="Transmite live"]:before,
+[role="img"][aria-label*="Striimaa"]:before,
+[role="img"][aria-label*="Streamar"]:before,
+[role="img"][aria-label*="Đang stream"]:before,
+[role="img"][aria-label*="Yayın Yapıyor"]:before,
+[role="img"][aria-label*="Streamuje"]:before,
+[role="img"][aria-label*="Ζωντανά"]:before,
+[role="img"][aria-label*="Стрийминг"]:before,
+[role="img"][aria-label*="Стримит"]:before,
+[role="img"][aria-label*="Трансляція"]:before,
+[role="img"][aria-label*="ถ่ายทอดสด"]:before,
+[role="img"][aria-label*="正在直播"]:before,
+[role="img"][aria-label*="配信"]:before,
+[role="img"][aria-label*="直播中"]:before,
+[role="img"][aria-label*="配信"]:before {
+    box-shadow: inset 0 0 0 2px var(--purple), inset 0 0 15px #000 !important;
+}
+
+
+
+
 /***** Server List *****/
 .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child {
     margin-top: 6px;
@@ -260,12 +391,6 @@ html > body #app-mount {
 .avatarSpeaking-1wJCNq {
     box-shadow: 0 0 0 2px var(--green);
 }
-.privateChannels-1nO12o .channel-2QD9_O .wrapper-2F3Zv8 .inner-1W0Bkn[status="offline"] {
-    filter: grayscale(1);
-}
-.privateChannels-1nO12o .channel-2QD9_O:hover .wrapper-2F3Zv8 .inner-1W0Bkn[status="offline"] {
-    filter: grayscale(0);
-}
 
 
 
@@ -307,21 +432,6 @@ html > body #app-mount {
 }
 .avatar-3f3jk4 .inner-1x-wIi {
     border-radius: 0 !important;
-}
-.privateChannels-1nO12o div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
-    width: 100% !important;
-    height: 100% !important;
-}
-div:not(.popouts-3dRSmE) ~ .status-oxiHuE {
-    width: 100% !important;
-    height: 100% !important;
-    top: 0;
-    left: 0;
-    bottom: auto;
-    background: transparent;
-    user-select: none;
-    pointer-events: none;
-    border-radius: var(--avatarRoundness) !important;
 }
 
 
@@ -1003,7 +1113,7 @@ div:not(.popouts-3dRSmE) ~ .invisible-1kp8Z0, div:not(.popouts-3dRSmE) ~ .offlin
 .theme-dark .or-3THJsp, .theme-light .or-3THJsp, .attachButton-1UjEWA svg, .alt-3btY0e .item-1GzJrl .helper-2c73HK, .create-guild-container.deprecated .create-or-join .actions .or, .theme-dark .option-96V44q:after, .theme-dark .avatar-uploader-indicator, .wordmark-2iDDfm, .theme-dark .keybind-KpFkfr, .theme-dark #friends .friends-table .friends-table-header, .stickyHeader-1pqx0j.header-39GIC8, .protip-YaFfgO {
     display: none;
 }
-.theme-dark .container-3baos1, .theme-light .container-3baos1, .container-1giJp5, .uploadModal-2ifh8j .inner-3nWsbo, .theme-dark .select-2TCrqx .Select-control, .theme-dark .input-cIJ7To, .theme-dark .container-1nZlH6, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .auditLog-3jNbM6, .theme-dark .card-FDVird:before, .theme-dark .copyInputDefault-21sXtF, .theme-dark .quickMessage-1yeL4E, .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA, .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6, .theme-dark .message-2qRu38, .theme-dark .status-2s6iDp, .theme-dark .status-2kJpnA, .theme-light .status-2kJpnA, .theme-dark .cardPrimary-1Hv-to, .theme-dark .cardPrimaryOutline-29Ujqw, .connectionHeader-2MDqhu, .integration-3kMeY4, .theme-dark .markup-2BOw-j pre, .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3, .theme-dark .connectedAccount-36nQx7, .create-guild-container.deprecated .form-actions, .form-deprecated .control-group input[type=email], .form-deprecated .control-group input[type=number], .form-deprecated .control-group input[type=password], .form-deprecated .control-group input[type=text], .form-deprecated .control-group textarea, .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea,  .searchBar-2_Yu-C,  .searchBar-2_Yu-C input, .searchBar-2_Yu-C .searchBar-2_Yu-C-inner, .theme-dark .messageGroupWrapper-o-Zw7G, .channel-2QD9_O .status, .theme-dark .input-cIJ7To:hover, .iconBadge-2dji3k, .theme-dark .bda-slist li, .bda-description-wrap, .theme-dark .bda-slist .bda-header, .bda-description-wrap, .theme-dark .bda-slist .bda-footer, .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded, .theme-dark.contextMenu-HLZMGh, .itemGroup-1tL0uz:not(:first-child):not(:empty), .theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0, .need-help-modal.form.deprecated .footer, #bda-qem button, .diversitySelector-tmmMv0 .popout-2nUePc, .emojiPicker-3m1S-j, .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .searchBar-2_Yu-C .searchBarInner-1_Tg2R, .theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz, .theme-dark .wrapper-1cBijl, .channel-2QD9_O .status-1ibiUI, .theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
+.theme-dark .container-3baos1, .theme-light .container-3baos1, .container-1giJp5, .uploadModal-2ifh8j .inner-3nWsbo, .theme-dark .select-2TCrqx .Select-control, .theme-dark .input-cIJ7To, .theme-dark .container-1nZlH6, .theme-dark .cardPrimaryEditable-3KtE4g, .theme-dark .auditLog-3jNbM6, .theme-dark .card-FDVird:before, .theme-dark .copyInputDefault-21sXtF, .theme-dark .quickMessage-1yeL4E, .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA, .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6, .theme-dark .message-2qRu38, .theme-dark .cardPrimary-1Hv-to, .theme-dark .cardPrimaryOutline-29Ujqw, .connectionHeader-2MDqhu, .integration-3kMeY4, .theme-dark .markup-2BOw-j pre, .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3, .theme-dark .connectedAccount-36nQx7, .create-guild-container.deprecated .form-actions, .form-deprecated .control-group input[type=email], .form-deprecated .control-group input[type=number], .form-deprecated .control-group input[type=password], .form-deprecated .control-group input[type=text], .form-deprecated .control-group textarea, .form.deprecated .control-group input[type=email], .form.deprecated .control-group input[type=number], .form.deprecated .control-group input[type=password], .form.deprecated .control-group input[type=text], .form.deprecated .control-group textarea,  .searchBar-2_Yu-C,  .searchBar-2_Yu-C input, .searchBar-2_Yu-C .searchBar-2_Yu-C-inner, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .input-cIJ7To:hover, .iconBadge-2dji3k, .theme-dark .bda-slist li, .bda-description-wrap, .theme-dark .bda-slist .bda-header, .bda-description-wrap, .theme-dark .bda-slist .bda-footer, .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded, .theme-dark.contextMenu-HLZMGh, .itemGroup-1tL0uz:not(:first-child):not(:empty), .theme-dark .select-2TCrqx .Select-menu-outer, .theme-dark .attachment-33OFj0, .need-help-modal.form.deprecated .footer, #bda-qem button, .diversitySelector-tmmMv0 .popout-2nUePc, .emojiPicker-3m1S-j, .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .searchBar-2_Yu-C .searchBarInner-1_Tg2R, .theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz, .theme-dark .wrapper-1cBijl, .theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
     border: none !important;
 }
 .theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .message-2qRu38, .popout-2iWAc-, .theme-dark .cardPrimary-1Hv-to, .theme-dark .cardPrimaryOutline-29Ujqw, .theme-dark .elevationLow-2lY09M, .theme-dark .markup-2BOw-j pre, .create-guild-container.deprecated .action, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .rowWrapper-2fB6P0, .rowBackground-3MeNoN, .searchBar-2_Yu-C .searchBar-2_Yu-C-inner, .theme-dark .input-2VB9rf, .theme-dark .header-ykumBX, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .isLocalBot-38G0P0, .need-help-modal.form.deprecated .header input[type=text], .bd-modal-wrapper .header, .theme-dark .footer-2yfCgX, #bda-qem button, .header-2o-2hj, .theme-dark .title-3qD0b-, .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j, .theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-shadow, .theme-dark .elevationHigh-1PneE4, .theme-dark .headerBar-UHpsPw, .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchHeader-1l-wpR, .searchBar-6Kv8R2 {
