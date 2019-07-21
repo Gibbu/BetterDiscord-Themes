@@ -134,13 +134,40 @@ html > body #app-mount {
 
 
 /***** STATUS *****/
+.message-1PNnaP foreignObject {
+    mask: none;
+}
+.message-1PNnaP rect {
+    x: 1 !important;
+    y: 1 !important;
+    width: calc(100% - 9px);
+    height: calc(100% - 2px);
+    mask: none;
+    fill: transparent;
+    stroke-width: 2px;
+    stroke: #666;
+}
+.message-1PNnaP rect[fill="#43b581"] {
+    stroke: var(--green);
+}
+.message-1PNnaP rect[fill="#faa61a"] {
+    stroke: var(--yellow);
+}
+.message-1PNnaP rect[fill="#f04747"] {
+    stroke: var(--red);
+}
+.membersWrap-2h-GB4 [role="img"] .dots-3Bkt3k {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 [aria-label] foreignObject, .avatarHint-1qgaV3 foreignObject {
     mask: none !important;
 }
 [aria-label] rect {
     display: none;
 }
-[role="img"][aria-label]:before {
+[role="img"][aria-label][style*="32px"]:before, [role="img"][aria-label][style*="80px"]:before {
     content: "";
     position: absolute;
     top: 0;
@@ -151,7 +178,6 @@ html > body #app-mount {
     z-index: 1;
 }
 [role="img"][aria-label*="Online"]:before,
-[role="img"][aria-label*="Conectado"]:before,
 [role="img"][aria-label*="Conectado"]:before,
 [role="img"][aria-label*="En ligne"]:before,
 [role="img"][aria-label*="Na mreži"]:before,
@@ -172,7 +198,7 @@ html > body #app-mount {
 [role="img"][aria-label*="オンライン"]:before,
 [role="img"][aria-label*="線上"]:before,
 [role="img"][aria-label*="온라인"]:before {
-    box-shadow: inset 0 0 0 2px var(--green), inset 0 0 15px #000 !important;
+    box-shadow: inset 0 0 0 2px var(--green), inset 0 0 15px 2px #000 !important;
 }
 [role="img"][aria-label*="Idle"]:before,
 [role="img"][aria-label*="Inaktiv"]:before,
@@ -199,7 +225,7 @@ html > body #app-mount {
 [role="img"][aria-label*="退席中"]:before,
 [role="img"][aria-label*="閒置"]:before,
 [role="img"][aria-label*="자리비움"]:before {
-    box-shadow: inset 0 0 0 2px var(--yellow), inset 0 0 15px #000 !important;
+    box-shadow: inset 0 0 0 2px var(--yellow), inset 0 0 15px 2px #000 !important;
 }
 [role="img"][aria-label*="Do Not Disturb"]:before,
 [role="img"][aria-label*="Vil ikke forstyrres"]:before,
@@ -229,7 +255,7 @@ html > body #app-mount {
 [role="img"][aria-label*="取り込み中"]:before,
 [role="img"][aria-label*="請勿打擾"]:before,
 [role="img"][aria-label*="다른 용무 중"]:before {
-    box-shadow: inset 0 0 0 2px var(--red), inset 0 0 15px #000 !important;
+    box-shadow: inset 0 0 0 2px var(--red), inset 0 0 15px 2px #000 !important;
 }
 [role="img"][aria-label*="Streaming"]:before,
 [role="img"][aria-label*="Streamer"]:before,
@@ -257,7 +283,7 @@ html > body #app-mount {
 [role="img"][aria-label*="配信"]:before,
 [role="img"][aria-label*="直播中"]:before,
 [role="img"][aria-label*="配信"]:before {
-    box-shadow: inset 0 0 0 2px var(--purple), inset 0 0 15px #000 !important;
+    box-shadow: inset 0 0 0 2px var(--purple), inset 0 0 15px 2px #000 !important;
 }
 
 
