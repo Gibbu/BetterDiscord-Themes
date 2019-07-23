@@ -2,7 +2,7 @@
  * @name TrueLight
  * @author Gibbu#1211
  * @version 1.0.0
- * @description Makes Discord's light theme a real light theme with a couple of minor changes. Light theme is needed to work properly.
+ * @description Makes Discord's light theme a real light theme with a couple of minor changes. Light theme is needed to work properly. Customizable via variable settings inside the file.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/TrueLight
  * @website https://gibbu.me/
 */
@@ -14,20 +14,19 @@
 
 :root {
     /* The height will affect how many emoji's you can see at once */
-    --emojiPickerHeight: 224px;
-    /* Default: 224px */
+    --emojiPickerHeight: 224px; /* Default: 224px */
 
     /* This effects the following scrollbars: Chat, EmojiPicker, Pinned Messages ect... */
     --scrollbarColour: #43b581;
 
     /* 300 = thin | 400 = regular | 500 = semi-bold | 600 = bold | 700 = extra-bold */
-    /* Want more options? Ask me on Discord @Gibbu#1211 */
+	/* Want more options? Ask me on Discord @Gibbu#1211 */
     --chatTextThickness: 500;
     --chatUsernameThickness: 500;
     --chatTimestampThickness: 500;
     --chatCodeBlockThickness: 500;
 
-    --membersRoleThickness: 500;
+    --membersRoleThickness:500;
     --membersMemberThickness: 500;
     --membersPlayingThickness: 500;
 
@@ -50,10 +49,10 @@
     --settingsSubHeaderThickness: 600;
     --settingsTextThickneess: 500;
 
-    /* To change the colours yourself uncomment the variables below */
     /* If you want to make them brighter or darker use this website: https://www.hexcolortool.com/ */
     /* Put the HEX value into "Enter a color:" and click either "Lighten" or "Darken" and on the right will be the results */
 
+    /* BACKGROUND COLOURS */
     --bg0: #070707 !important;
     --bg1: #4c4c4c !important;
     --bg2: #676767 !important;
@@ -64,6 +63,7 @@
     --bg7: #ececec !important;
     --bg8: #f5f5f5 !important;
 
+    /* TEXT COLOURS */
     --c1: #000 !important;
     --c2: #444 !important;
     --c3: #666 !important;
@@ -71,7 +71,7 @@
     --c5: #aaa !important;
     --c6: #bbb !important;
 
-    /* Explaination of what each variable is assigned to */
+    /* Vague explaination of what each background variable is assigned to */
     /* --bg0 = Selected Server */
     /* --bg1 = Nothing */
     /* --bg2 = Watermark + Unread Server */

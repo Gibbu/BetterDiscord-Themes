@@ -37,7 +37,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
         to get your desired RGB numbers. Then simply put each number in their respective area.
         R,G,B
     */
-    --BG-gradient-one: 103,58,183;        /* DEFAULT: 63,81,181 */
+    --BG-gradient-one: 72,222,217;        /* DEFAULT: 72,222,217 */
     --BG-gradient-two: 3,169,244;         /* DEFAULT: 2,168,244 */
     --BG-gradient-direction: -45deg;      /* DEFAULT: -45deg */
     --BG-gradient-opacity: 1;             /* DEFAULT: 1 */
