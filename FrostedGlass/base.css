@@ -1344,7 +1344,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] { object-position: -999
 
 #app-mount .popout-googletranslate .themedPopout-1TrfdI > div:nth-child(7) .css-bdfdb-menuOuter.inChat .css-1ye7vu0 { height: 250px; }
 
-#app-mount #MemberCount { background: transparent; color: rgba(255, 255, 255, 0.8); font-weight: 400; }
+#app-mount #MemberCount { background: transparent; color: rgba(255, 255, 255, 0.8); font-weight: 400; position: relative; }
+
+#app-mount #MemberCount + .membersGroup-v9BXpm { margin-top: 0; }
+
+#app-mount .dst-tooltip { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); width: 225px; top: 0 !important; left: 0 !important; }
 
 #app-mount .markup-2BOw-j[style*="color: rgb(0, 0, 1);"] { color: #fff !important; }
 
