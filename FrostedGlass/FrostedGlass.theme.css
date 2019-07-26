@@ -1,7 +1,7 @@
 /**
  * @name Frosted Glass
  * @author Gibbu#1211
- * @version 0.2.0
+ * @version 1.0.0
  * @description Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
  * @website https://gibbu.me/
@@ -47,12 +47,6 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
     --BG-window-roundness: 10px;         /* DEFAULT: 10px */
     --BG-left-right-split: 0;          /* DEFAULT: 0 */
     --BG-roundness: 0%;                 /* DEFAULT: 50% */
-
-    /* Status variables */
-    --online: #43b581;
-    --idle: #faa61a;
-    --dnd: #f04747;
-    --offline: #75808e;
 
 }
 
