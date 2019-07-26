@@ -1,3 +1,6 @@
+:root { --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg'); --BG-image-set: var(--BG-image), var(--BG-image-default); }
+
+/* ---------- BLURING BACKGROUNDS START ---------- */
 #app-mount .activityFeed-1C0EmJ:before, #app-mount .applicationStore-1pNvnv:before, #app-mount .authBox-hW6HRx:before, #app-mount .autocomplete-1vrmpx:before, #app-mount .autocompleteShadow-iiGWFU:before, #app-mount .channels-Ie2l6A:before, #app-mount .chat-3bRxxu:before, #app-mount .container-2x5lvQ:before, #app-mount .container-3ayLPN:before, #app-mount .container-3cGP6G:before, #app-mount .container-3gCOGc:before, #app-mount .contentRegion-3nDuYy:before, #app-mount .css-1rckt42-menu:before, #app-mount .errorPage-u8SYh4:before, #app-mount .gameLibrary-TTDw4Y:before, #app-mount .menu-Sp6bN1:before, #app-mount .modal-yWgWj-:before, #app-mount .modal-yWgWj-.modal-1sor29:before, #app-mount .modal-yWgWj-.modal-c2O6Xq:before, #app-mount .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy:before, #app-mount .modal-yWgWj-.slide-2pHaq5.size-1XvbKb:before, #app-mount .pageWrapper-1PgVDX:before, #app-mount .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix:before, #app-mount .queryContainer-RKFJW-.focused-2bY0OD:before, #app-mount .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W:before, #app-mount .regionSelectModal-12e-57:before, #app-mount .reply-list:before, #app-mount .root-SR8cQa:before, #app-mount .sidebarRegion-VFTUkN:before, #app-mount .stickyHeader-1pqx0j:before, #app-mount .uploadModal-2ifh8j:before, #app-mount .userPopout-3XzG_A:before, #app-mount .wrapper-1Rf91z:before, #app-mount .messagesPopoutWrap-1MQ1bW:before, #app-mount .css-181m2lf-menu:before, #app-mount .overflowRolesPopout-140n9i:before, #app-mount .popout-3G62UL:before, #app-mount .membersFilterPopout-URUUD-:before, #app-mount .quickswitcher-3JagVE:before, #app-mount .keyboardShortcutsModal-3piNz7:before, #app-mount .react-datepicker:before, #app-mount #bd-customcss-detach-container:before, #app-mount .root-1BQpZw:before, #app-mount .popout-googletranslate .themedPopout-1TrfdI:before, #app-mount .root-1gCeng.small-3iVZYw:before, #app-mount .noticeStreamerMode-2TSQpg:before, #app-mount .guildSettingsAuditLogsUserFilterPopout-3Jg5NE:before { content: ""; background: var(--BG-image) center/cover fixed; position: absolute; filter: blur(var(--BG-image-blur)); z-index: 0; }
 
 #app-mount .wrapper-1Rf91z:before { height: calc(100% + var(--BG-image-blur) * 4); width: calc(100% + var(--BG-image-blur) * 4); left: calc(var(--BG-image-blur) / -1 * 1); top: calc(var(--BG-image-blur) / -1 * 1); box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, var(--BG-serverlist-brightness)); }
@@ -16,7 +19,9 @@
 
 /* ---------- BLURING BACKGROUNDS END ---------- */
 /* ---------- GENERAL START ---------- */
-#app-mount { background-color: transparent; background-image: var(--BG-image); background-attachment: fixed; background-position: center; background-size: cover; }
+html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visibility: hidden; }
+
+#app-mount { background-color: transparent; background: var(--BG-image) center/cover fixed; background-size: cover; }
 
 #app-mount .layers-3iHuyZ, #app-mount .layer-3QrUeG, #app-mount .container-2lgZY8 { background: transparent; }
 
@@ -375,6 +380,12 @@
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .recording-1H2dS7 .button-34kXw5 .text-2sI5Sd { color: #f04747 !important; }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .selected-mKYnfr.option-n0icdO, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .defaultIndicator-2X8Auf, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .slider-1PF9SW .barFill-23-gu-, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .userInfoViewingButton-2-jbH9, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .button-38aScr.lookFilled-1Gx00P, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .questionMark-CWEQZn { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
+
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .header-1NFI81, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .guildGraphicContainer-39I_Pl { background-color: rgba(0, 0, 0, 0.6) !important; }
+
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .info-3UT5_W, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .subscriptionDuration-UvxLGw, #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .guildGraphicPlaceholder-1QPxar { background-color: rgba(0, 0, 0, 0.3) !important; }
+
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .gemIndicatorContainer-2jdECl { background-color: black !important; }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .speaking-2bFhO4 { background: #43b581 !important; }
 
@@ -750,9 +761,13 @@
 
 #app-mount #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, #app-mount .bda-settings-button { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
+#app-mount .popoutBottomLeft-1pG8B4 .userPopout-3XzG_A { margin-left: 0; animation: fadeIn 0.2s ease forwards !important; }
+
 #app-mount .popoutLeft-3aViER .userPopout-3XzG_A { animation: fadeInLeft 0.2s ease forwards !important; }
 
 #app-mount .noArrow-2foL9g.popout-2iWAc-.popoutRight-1veHKi.arrowAlignmentTop-1yftWI { transform: none !important; }
+
+#app-mount .animatorRight-3i_YPs .userPopout-3XzG_A { margin-left: 0 !important; }
 
 #app-mount .userPopout-3XzG_A { box-shadow: none; position: relative; margin-left: -270px; margin-top: -1px; opacity: 0; animation: fadeInRight 0.2s ease forwards !important; }
 
@@ -864,7 +879,7 @@
 
 #app-mount .emojiPicker-3m1S-j .category-2U57w6 { color: #fff; }
 
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU { text-align: center; background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 26%, black 52%, rgba(0, 0, 0, 0.6) 76%, rgba(0, 0, 0, 0) 100%); /* W3C */ }
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU { text-align: center; background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 26%, black 52%, rgba(0, 0, 0, 0.6) 76%, rgba(0, 0, 0, 0) 100%) !important; }
 
 #app-mount .emojiPicker-3m1S-j .item-16cXuq.selected-39BZ4S { border-bottom-color: rgba(var(--BG-gradient-one), 1); }
 
@@ -892,7 +907,7 @@
 
 #app-mount .container-3cGP6G .item-2J1YMK:hover { background: rgba(0, 0, 0, 0.2); }
 
-#app-mount .contextMenu-HLZMGh { background: var(--BG-image) center/cover fixed; box-shadow: inset 0 0 0 300px rgba(0, 0, 0, calc(var(--BG-popout-brightness) + .2)); }
+#app-mount .contextMenu-HLZMGh { background: var(--BG-image), var(--BG-image); background-size: cover !important; background-position: center !important; background-attachment: fixed !important; box-shadow: inset 0 0 0 300px rgba(0, 0, 0, calc(var(--BG-popout-brightness) + .2)); }
 
 #app-mount .contextMenu-HLZMGh .itemGroup-1tL0uz { border-top-color: rgba(255, 255, 255, 0.1); }
 
