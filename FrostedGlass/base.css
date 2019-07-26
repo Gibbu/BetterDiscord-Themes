@@ -1468,8 +1468,14 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] { object-position: -999
 
 #app-mount .app-19_DXt.platform-osx .wrapper-1Rf91z { margin-top: 0; padding-top: 32px; }
 
-#app-mount .typeWindows-1za-n7.titleBar-AC4pGV { position: absolute; top: 0; left: 0; width: 100%; display: flex; align-items: center; }
+#app-mount .typeWindows-1za-n7 { height: 9px; margin-top: 0; position: absolute; top: 1px; left: 0; width: 100%; background: transparent; }
 
-#app-mount .typeWindows-1za-n7.titleBar-AC4pGV .wordmarkWindows-1v0lYD { display: none; }
+#app-mount .winButtonClose-1HsbF- { border-top-right-radius: var(--BG-window-roundness); }
+
+#app-mount .winButton-iRh8-Z { position: relative; top: var(--BG-window-padding); right: var(--BG-window-padding); height: 47px; width: 40px; }
+
+#app-mount .app-19_DXt.platform-win .container-1r6BKw { padding-right: 125px; }
+
+#app-mount .wordmarkWindows-1v0lYD { display: none; }
 
 /* ---------- OTHER FIXES END ---------- */
