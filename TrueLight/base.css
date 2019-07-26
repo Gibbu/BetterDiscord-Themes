@@ -10,9 +10,17 @@
 }
 
 /***** Global *****/
-#app-mount,
-.container-2lgZY8 {
-    background-color: var(--bg5) !important;
+.app-2rEoOp.theme-light .container-2lgZY8 {
+    background: var(--bg5) !important;
+}
+.app-2rEoOp.theme-light::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--bg5) !important;
 }
 
 
@@ -38,6 +46,9 @@
 .app-2rEoOp.theme-light .wrapper-1Rf91z .listItem-2P_4kh .acronym-2mOFsV {
     background: var(--bg4);
     color: var(--c1)
+}
+.app-2rEoOp.theme-light .wrapper-1Rf91z .expandedFolderBackground-2sPsd-, .app-2rEoOp.theme-light .wrapper-1Rf91z .folder-21wGz3 {
+    background: var(--bg4);
 }
 .app-2rEoOp.theme-light .wrapper-1Rf91z .listItem-2P_4kh .button-OhfaWu {
     background: var(--bg4);
@@ -89,20 +100,21 @@
 .app-2rEoOp.theme-light .channels-Ie2l6A .header-2o-2hj .name-3YKhmS {
     color: var(--c3);
     font-weight: 600;
+    text-shadow: none;
 }
 .app-2rEoOp.theme-light .channels-Ie2l6A .header-2o-2hj svg {
     filter: invert(1)
 }
-/* Verified Banner */
-.app-2rEoOp.theme-light .channels-Ie2l6A .header-2o-2hj.banner-1TiK82 {
-    border-bottom: none !important;
-    background: linear-gradient(var(--bg7), transparent 90%);
+.app-2rEoOp.theme-light .channels-Ie2l6A .bannerImage-1jOskm {
+    margin-top: 48px;
+    background-size: 0, cover !important;
+    -webkit-mask: linear-gradient(rgba(0,0,0,0.9) 50%, rgba(0,0,0,0) 100%) !important;
 }
-.app-2rEoOp.theme-light .channels-Ie2l6A .header-2o-2hj.banner-1TiK82 .name-3YKhmS {
-    color: #fff;
+.app-2rEoOp.theme-light .channels-Ie2l6A .bannerImage-1jOskm:after {
+    background: rgba(#000, 0.2);
 }
-.app-2rEoOp.theme-light .channels-Ie2l6A .header-2o-2hj.banner-1TiK82 svg {
-    filter: invert(0)
+.app-2rEoOp.theme-light .channels-Ie2l6A div[style="width: 100%; height: 78px; visibility: hidden;"] {
+    height: 120px !important;
 }
 
 /*** Channels ***/
@@ -223,7 +235,7 @@
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-1giJp5 span {
     font-weight: 600;
 }
-.container-3baos1 .button-2JbWXs .buttonIcon-onTTxP, .container-1giJp5 .button-2JbWXs .buttonIcon-onTTxP {
+.app-2rEoOp.theme-light .container-3baos1 .button-2JbWXs .buttonIcon-onTTxP, .container-1giJp5 .button-2JbWXs .buttonIcon-onTTxP {
     color: var(--bg0);
 }
 .app-2rEoOp.theme-light .button-2JbWXs:hover:not(.disabled-v9-Ysw) {
