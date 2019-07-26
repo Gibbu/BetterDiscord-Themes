@@ -25,6 +25,29 @@
       .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not([style]) .guildSeparator-3s64Iy {
         width: 2px;
         height: 100%; }
+    .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc {
+      min-width: var(--HSL-size) !important;
+      width: auto !important;
+      max-height: calc(var(--HSL-size) + 20px) !important;
+      margin-right: var(--HSL-spacing) !important;
+      display: flex; }
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg {
+        width: 100%;
+        height: 100%; }
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .folder-21wGz3 {
+        background: transparent; }
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: unset;
+        height: var(--HSL-size) !important;
+        left: -5px;
+        width: 100%; }
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedGuilds-1JMD4M {
+        width: auto;
+        max-height: calc(var(--HSL-size) + 20px) !important;
+        display: flex;
+        animation: folderOpen 0.2s ease forwards; }
     .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh {
       width: var(--HSL-size) !important;
       height: var(--HSL-size) !important;
