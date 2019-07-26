@@ -18,4 +18,4 @@ User modal
 
 User Settings
 
-![User Settings](https://i.imgur.com/GGgvphH.png)
+![User Settings](https://i.imgur.com/ZaaoFla.png)
