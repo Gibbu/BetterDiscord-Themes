@@ -1,7 +1,7 @@
 :root { --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg'); --BG-image-set: var(--BG-image,var(--BG-image-default)); }
 
 /* ---------- BLURING BACKGROUNDS START ---------- */
-#app-mount .activityFeed-1C0EmJ:before, #app-mount .applicationStore-1pNvnv:before, #app-mount .authBox-hW6HRx:before, #app-mount .autocomplete-1vrmpx:before, #app-mount .autocompleteShadow-iiGWFU:before, #app-mount .channels-Ie2l6A:before, #app-mount .chat-3bRxxu:before, #app-mount .container-2x5lvQ:before, #app-mount .container-3ayLPN:before, #app-mount .container-3cGP6G:before, #app-mount .container-3gCOGc:before, #app-mount .contentRegion-3nDuYy:before, #app-mount .css-1rckt42-menu:before, #app-mount .errorPage-u8SYh4:before, #app-mount .gameLibrary-TTDw4Y:before, #app-mount .menu-Sp6bN1:before, #app-mount .modal-yWgWj-:before, #app-mount .modal-yWgWj-.modal-1sor29:before, #app-mount .modal-yWgWj-.modal-c2O6Xq:before, #app-mount .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy:before, #app-mount .modal-yWgWj-.slide-2pHaq5.size-1XvbKb:before, #app-mount .pageWrapper-1PgVDX:before, #app-mount .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix:before, #app-mount .queryContainer-RKFJW-.focused-2bY0OD:before, #app-mount .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W:before, #app-mount .regionSelectModal-12e-57:before, #app-mount .reply-list:before, #app-mount .root-SR8cQa:before, #app-mount .sidebarRegion-VFTUkN:before, #app-mount .stickyHeader-1pqx0j:before, #app-mount .uploadModal-2ifh8j:before, #app-mount .userPopout-3XzG_A:before, #app-mount .wrapper-1Rf91z:before, #app-mount .messagesPopoutWrap-1MQ1bW:before, #app-mount .css-181m2lf-menu:before, #app-mount .overflowRolesPopout-140n9i:before, #app-mount .popout-3G62UL:before, #app-mount .membersFilterPopout-URUUD-:before, #app-mount .quickswitcher-3JagVE:before, #app-mount .keyboardShortcutsModal-3piNz7:before, #app-mount .react-datepicker:before, #app-mount #bd-customcss-detach-container:before, #app-mount .root-1BQpZw:before, #app-mount .popout-googletranslate .themedPopout-1TrfdI:before, #app-mount .root-1gCeng.small-3iVZYw:before, #app-mount .noticeStreamerMode-2TSQpg:before, #app-mount .guildSettingsAuditLogsUserFilterPopout-3Jg5NE:before, #app-mount .bd-modal-inner:before { content: ""; background: var(--BG-image-set) center/cover fixed; position: absolute; filter: blur(var(--BG-image-blur)); z-index: 0; }
+#app-mount .activityFeed-1C0EmJ:before, #app-mount .applicationStore-1pNvnv:before, #app-mount .authBox-hW6HRx:before, #app-mount .autocomplete-1vrmpx:before, #app-mount .autocompleteShadow-iiGWFU:before, #app-mount .channels-Ie2l6A:before, #app-mount .chat-3bRxxu:before, #app-mount .container-2x5lvQ:before, #app-mount .container-3ayLPN:before, #app-mount .container-3cGP6G:before, #app-mount .container-3gCOGc:before, #app-mount .contentRegion-3nDuYy:before, #app-mount .css-1rckt42-menu:before, #app-mount .errorPage-u8SYh4:before, #app-mount .gameLibrary-TTDw4Y:before, #app-mount .menu-Sp6bN1:before, #app-mount .modal-yWgWj-:before, #app-mount .modal-yWgWj-.modal-1sor29:before, #app-mount .modal-yWgWj-.modal-c2O6Xq:before, #app-mount .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy:before, #app-mount .modal-yWgWj-.slide-2pHaq5.size-1XvbKb:before, #app-mount .pageWrapper-1PgVDX:before, #app-mount .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix:before, #app-mount .queryContainer-RKFJW-.focused-2bY0OD:before, #app-mount .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W:before, #app-mount .regionSelectModal-12e-57:before, #app-mount .reply-list:before, #app-mount .root-SR8cQa:before, #app-mount .sidebarRegion-VFTUkN:before, #app-mount .stickyHeader-1pqx0j:before, #app-mount .uploadModal-2ifh8j:before, #app-mount .userPopout-3XzG_A:before, #app-mount .wrapper-1Rf91z:before, #app-mount .messagesPopoutWrap-1MQ1bW:before, #app-mount .css-181m2lf-menu:before, #app-mount .overflowRolesPopout-140n9i:before, #app-mount .popout-3G62UL:before, #app-mount .membersFilterPopout-URUUD-:before, #app-mount .quickswitcher-3JagVE:before, #app-mount .keyboardShortcutsModal-3piNz7:before, #app-mount .react-datepicker:before, #app-mount #bd-customcss-detach-container:before, #app-mount .root-1BQpZw:before, #app-mount .popout-googletranslate .themedPopout-1TrfdI:before, #app-mount .root-1gCeng.small-3iVZYw:before, #app-mount .notice-2FJMB4:before, #app-mount .guildSettingsAuditLogsUserFilterPopout-3Jg5NE:before, #app-mount .bd-modal-inner:before { content: ""; background: var(--BG-image-set) center/cover fixed; position: absolute; filter: blur(var(--BG-image-blur)); z-index: 0; }
 
 #app-mount .wrapper-1Rf91z:before { height: calc(100% + var(--BG-image-blur) * 4); width: calc(100% + var(--BG-image-blur) * 4); left: calc(var(--BG-image-blur) / -1 * 1); top: calc(var(--BG-image-blur) / -1 * 1); box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, var(--BG-serverlist-brightness)); }
 
@@ -25,7 +25,9 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .layers-3iHuyZ, #app-mount .layer-3QrUeG, #app-mount .container-2lgZY8 { background: transparent; }
 
-#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91, #app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ, #app-mount .overflowPlayerCount-_jrNfw, #app-mount .mediaBarGrabber-1FqnbN, #app-mount .mediaBarProgress-1xaPtl, #app-mount .mediaBarProgress-1xaPtl:after, #app-mount .mediaBarProgress-1xaPtl:before, #app-mount .keybindShortcut-1BD6Z1 span, #app-mount .wanderingCubesItem-WPXqao { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important; }
+#app-mount .mediaBarProgress-1xaPtl, #app-mount .mediaBarProgress-1xaPtl:after, #app-mount .mediaBarProgress-1xaPtl:before { background: rgba(var(--BG-gradient-one), 1); }
+
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91, #app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ, #app-mount .overflowPlayerCount-_jrNfw, #app-mount .mediaBarGrabber-1FqnbN, #app-mount .keybindShortcut-1BD6Z1 span, #app-mount .wanderingCubesItem-WPXqao { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important; }
 
 #app-mount .downloadProgress-3lBtPV .circleBackground-OqqxHM, #app-mount .downloadProgressCircle-3_wgim .circleBackground-OqqxHM { fill: rgba(var(--BG-gradient-one), 1); stroke: rgba(var(--BG-gradient-one), 0.5); }
 
@@ -211,9 +213,15 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .chat-3bRxxu .isMentioned-N-h9aa:after { background: transparent; border-color: rgba(var(--BG-gradient-one), 1); }
 
+#app-mount .chat-3bRxxu .isLocalBot-38G0P0 { border: none; box-shadow: none; background: rgba(0, 0, 0, 0.3); }
+
+#app-mount .chat-3bRxxu .isLocalBot-38G0P0 .anchor-3Z-8Bb { color: rgba(var(--BG-gradient-one), 1); font-weight: bold; }
+
+#app-mount .chat-3bRxxu .wrapper-3t9DeA { user-select: none; }
+
 #app-mount .chat-3bRxxu blockquote { border-color: rgba(var(--BG-gradient-one), 1); background: rgba(0, 0, 0, 0.3); padding: 8px 8px 8px 12px; }
 
-#app-mount .chat-3bRxxu .hasMore-3e72_v button, #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL, #app-mount .chat-3bRxxu .botTagRegular-2HEhHi { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; color: #fff !important; border: none !important; font-weight: 600 !important; }
+#app-mount .chat-3bRxxu .hasMore-3e72_v button, #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL, #app-mount .chat-3bRxxu .botTagRegular-2HEhHi:not(.TRE-tag) { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; color: #fff !important; border: none !important; font-weight: 600 !important; }
 
 #app-mount .chat-3bRxxu .akaBadge-1M-1Gw { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; }
 
@@ -293,7 +301,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .members-1998pB .member-3W1lQa.popout-open .nameTag-3p0yK- { color: #fff !important; }
 
-#app-mount .members-1998pB .member-3W1lQa.popout-open .botTag-2WPJ74 { background: #fff; color: rgba(var(--BG-gradient-one), 1); }
+#app-mount .members-1998pB .member-3W1lQa.popout-open .botTag-2WPJ74 { background: #fff !important; color: rgba(var(--BG-gradient-one), 1) !important; border-color: transparent !important; }
 
 #app-mount .members-1998pB .activityText-sLG0UL { color: rgba(255, 255, 255, 0.8); }
 
@@ -674,9 +682,29 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .splashBackground-1FRCko canvas { display: none; }
 
 /* ---------- OTHER PAGES END ---------- */
-#app-mount .notice-2FJMB4.noticeStreamerMode-2TSQpg { overflow: hidden; }
+#app-mount .notice-2FJMB4 { overflow: hidden; }
 
-#app-mount .notice-2FJMB4.noticeStreamerMode-2TSQpg:before { height: calc(100% + var(--BG-image-blur) * 4); width: calc(100% + var(--BG-image-blur) * 5); left: calc(var(--BG-image-blur) / -1 * 3); top: calc(var(--BG-image-blur) / -1 * 2); box-shadow: inset 0 0 0 10000px rgba(53, 32, 89, 0.7); z-index: -1; }
+#app-mount .notice-2FJMB4:before { height: calc(100% + var(--BG-image-blur) * 4); width: calc(100% + var(--BG-image-blur) * 5); left: calc(var(--BG-image-blur) / -1 * 3); top: calc(var(--BG-image-blur) / -1 * 2); z-index: -1; }
+
+#app-mount .notice-2FJMB4.toast-danger:before, #app-mount .notice-2FJMB4.toast-error:before, #app-mount .notice-2FJMB4 .noticeDanger-7u-yT9:before { box-shadow: inset 0 0 0 10000px rgba(144, 43, 43, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-default:before, #app-mount .notice-2FJMB4.noticeDefault-362Ko2:before { box-shadow: inset 0 0 0 10000px rgba(145, 61, 20, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-facebook:before, #app-mount .notice-2FJMB4.noticeFacebook-3equ5g:before { box-shadow: inset 0 0 0 10000px rgba(32, 48, 82, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-info:before, #app-mount .notice-2FJMB4.noticeInfo-3_iTE1:before { box-shadow: inset 0 0 0 10000px rgba(44, 86, 136, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-premium:before, #app-mount .notice-2FJMB4.noticePremium-12Zvj9:before { box-shadow: inset 0 0 0 10000px rgba(19, 20, 22, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-spotify:before, #app-mount .notice-2FJMB4.noticeSpotify-27dhr0:before { box-shadow: inset 0 0 0 10000px rgba(17, 111, 50, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-streamermode:before, #app-mount .notice-2FJMB4.noticeStreamerMode-2TSQpg:before { box-shadow: inset 0 0 0 10000px rgba(53, 32, 89, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-success:before, #app-mount .notice-2FJMB4.noticeSuccess-3Y62ob:before { box-shadow: inset 0 0 0 10000px rgba(40, 109, 77, 0.7); }
+
+#app-mount .notice-2FJMB4.toast-warning:before, #app-mount .notice-2FJMB4.toast-warn:before { box-shadow: inset 0 0 0 10000px rgba(153, 100, 0, 0.7); }
+
+#app-mount .notice-2FJMB4 .dismiss-SCAH9H { left: 0; }
 
 /* ---------- SCROLLBARS START ---------- */
 ::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
@@ -873,9 +901,9 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .emojiPicker-3m1S-j [name="recent"].category-2U57w6 { opacity: 0; }
 
-#app-mount .emojiPicker-3m1S-j .category-2U57w6 { color: #fff; }
+#app-mount .emojiPicker-3m1S-j .category-2U57w6 { color: #fff; background: transparent; }
 
-#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU { text-align: center; background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 26%, black 52%, rgba(0, 0, 0, 0.6) 76%, rgba(0, 0, 0, 0) 100%) !important; }
+#app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU { background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), transparent); }
 
 #app-mount .emojiPicker-3m1S-j .item-16cXuq.selected-39BZ4S { border-bottom-color: rgba(var(--BG-gradient-one), 1); }
 
@@ -1217,7 +1245,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .uploadModal-2ifh8j .inner-zqa7da textarea { color: #fff; }
 
-#app-mount .uploadModal-2ifh8j .checkbox-1ix_J3 polyline { stroke: #fff; }
+#app-mount .uploadModal-2ifh8j .checkbox-1ix_J3.checked-3_4uQ9 polyline { stroke: rgba(var(--BG-gradient-one), 1); }
 
 #app-mount .uploadModal-2ifh8j .file-34mY5K { padding-bottom: 20px; display: flex; align-items: center; }
 
