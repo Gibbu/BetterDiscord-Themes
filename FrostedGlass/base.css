@@ -923,7 +923,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .container-2x5lvQ .sparkline-3A-8OK polyline { fill: rgba(var(--BG-gradient-two), 0.2) !important; stroke: rgba(var(--BG-gradient-two), 1) !important; }
 
-#app-mount .container-3cGP6G { background: transparent; margin-left: -30px; animation: fadeInBottom 0.2s ease forwards; padding: 0; min-width: 80px; position: fixed; }
+#app-mount .container-3cGP6G { background: transparent; margin-left: -70px; animation: fadeInBottom 0.2s ease forwards; padding: 0; min-width: 80px; position: fixed; }
 
 #app-mount .container-3cGP6G .itemGroup-1tL0uz { border-top-color: rgba(255, 255, 255, 0.1); }
 
