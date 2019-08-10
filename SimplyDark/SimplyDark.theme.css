@@ -1,24 +1,25 @@
-/*//META{"name":"SimplyDark","description":"Makes Discord sharp and simple.","author":"Gibbu","version":"1.7.0","source":"https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark","website":"https://www.gibbu.me"}*//**/
+/**
+ * @name SimplyDark
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Makes Discord sharp and Simple.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/SimplyDark
+ * @website https://gibbu.me/
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url("https://gibbu.github.io/BetterDiscord-Themes/SimplyDark/base.css");
 
-/* If you plan on using a background image, uncomment the @import below. This helps with visiblity issues. */
-/* @import url('https://gibbu.github.io/BetterDiscord-Themes/SimplyDark/transparentFix.css'); */
+/* Black Box user tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
 :root {
-    --bgR: 12; /* RED value | 0 - 255 */
-    --bgG: 12; /* GREEN value | 0 - 255 */
-    --bgB: 12; /* BLUE value | 0 - 255 */
-    --bgA: 1; /* ALPHA(transparent) value) | 0 - 1. Can use decimals (0.6) */
-    --bgImage: url(''); /* HAS TO END IN .jpg, .jpeg or .gif. Example: https://i.imgur.com/XSYUUhe.jpg */
 
-    --emojiPickerHeight: 400px;
+    --SD-bgR: 10; /* RED value | 0 - 255 | DEFAULT: 10 */
+    --SD-bgG: 10; /* GREEN value | 0 - 255 | DEFAULT: 10 */
+    --SD-bgB: 10; /* BLUE value | 0 - 255 | DEFAULT: 10 */
 
-    /* For complete circles use 50% */
-    --avatarRoundness: 0px; /* Chat, Members, Voice, Direct Messages avatar roundness */
+    --SD-emojipickerheight: 224px;    /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
+    --SD-roundness: 0px;    /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 150px */
 
-    /* Guild/Server variables */
-    --serverRoundness: 0px;
-    --serverHoverRoundness: 0px;
 }
