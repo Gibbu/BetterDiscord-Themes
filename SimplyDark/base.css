@@ -837,47 +837,55 @@
 
 #app-mount .ui-switch.checked:before { transform: translateX(26px) !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) *, .wrapper-3t9DeA * { overflow: visible; mask: none !important; -webkit-mask: none !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) *, #app-mount .wrapper-3t9DeA * { overflow: visible; mask: none !important; -webkit-mask: none !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k, .wrapper-3t9DeA .dots-3Bkt3k { position: relative; z-index: 2; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k, #app-mount .wrapper-3t9DeA .dots-3Bkt3k { position: relative; z-index: 2; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="2.5"], .wrapper-3t9DeA .dots-3Bkt3k [cx="2.5"] { cy: -8 !important; cx: -8.5 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="2.5"], #app-mount .wrapper-3t9DeA .dots-3Bkt3k [cx="2.5"] { cy: -8 !important; cx: -8.5 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="8.75"], .wrapper-3t9DeA .dots-3Bkt3k [cx="8.75"] { cy: -8 !important; cx: -2.25 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="8.75"], #app-mount .wrapper-3t9DeA .dots-3Bkt3k [cx="8.75"] { cy: -8 !important; cx: -2.25 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="15"], .wrapper-3t9DeA .dots-3Bkt3k [cx="15"] { cy: -8 !important; cx: 4 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k [cx="15"], #app-mount .wrapper-3t9DeA .dots-3Bkt3k [cx="15"] { cy: -8 !important; cx: 4 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .mask-1l8v16 > rect[x="22"], .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] { x: 0 !important; y: 0 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .mask-1l8v16 > rect[x="22"], #app-mount .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] { x: 0 !important; y: 0 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .cursorDefault-dsQJ1n rect, .wrapper-3t9DeA .cursorDefault-dsQJ1n rect { x: -49 !important; y: -53 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .cursorDefault-dsQJ1n rect, #app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n rect { x: -49 !important; y: -53 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .pointerEvents-2zdfdO[x="14.5"], .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] { fill: rgba(0, 0, 0, 0.5) !important; width: 30px !important; height: 30px !important; x: 1 !important; y: 1 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .pointerEvents-2zdfdO[x="14.5"], #app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] { fill: rgba(0, 0, 0, 0.5) !important; width: 30px !important; height: 30px !important; x: 1 !important; y: 1 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 80px;"] rect, .wrapper-3t9DeA[style*="width: 80px;"] rect { width: 80px !important; height: 80px !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 80px;"] img, #app-mount .wrapper-3t9DeA[style*="width: 80px;"] img { clip-path: circle(calc(39px - var(--rs-large-spacing))); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 32px;"] rect, .wrapper-3t9DeA[style*="width: 32px;"] rect { width: 32px; height: 32px; overflow: visible; x: -14.5 !important; y: -17 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 80px;"] rect, #app-mount .wrapper-3t9DeA[style*="width: 80px;"] rect { width: 80px !important; height: 80px !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) img, .wrapper-3t9DeA img { border-radius: var(--SD-roundness) !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 80px;"] foreignObject[mask*="mobile"]:after, #app-mount .wrapper-3t9DeA[style*="width: 80px;"] foreignObject[mask*="mobile"]:after { -webkit-mask-size: 32px; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect, .wrapper-3t9DeA rect { x: 0 !important; y: 0 !important; width: 100%; height: 100%; rx: var(--SD-roundness) !important; ry: var(--SD-roundness) !important; fill: transparent; stroke-width: 2px; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 32px;"] img, #app-mount .wrapper-3t9DeA[style*="width: 32px;"] img { clip-path: circle(calc(15px - var(--rs-small-spacing))); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#43b581"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(67, 181, 129, 1)"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="online"], .wrapper-3t9DeA rect[fill="#43b581"], .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], .wrapper-3t9DeA rect[mask*="online"] { stroke: var(--green); }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"])[style*="width: 32px;"] rect, #app-mount .wrapper-3t9DeA[style*="width: 32px;"] rect { width: 32px; height: 32px; overflow: visible; x: -14.5 !important; y: -17 !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="mobile"], .wrapper-3t9DeA rect[mask*="mobile"] { stroke-width: 2 !important; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) img, #app-mount .wrapper-3t9DeA img { border-radius: var(--SD-roundness) !important; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#faa61a"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(250, 166, 26, 1)"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="idle"], .wrapper-3t9DeA rect[fill="#faa61a"], .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], .wrapper-3t9DeA rect[mask*="idle"] { stroke: var(--yellow); }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) foreignObject[mask*="mobile"]:before, #app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"]:before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); border-radius: var(--SD-roundness); z-index: 1; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#f04747"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(240, 71, 71, 1)"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="dnd"], .wrapper-3t9DeA rect[fill="#f04747"], .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--red); }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) foreignObject[mask*="mobile"]:after, #app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4="); -webkit-mask-size: 20px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 100%; height: 100%; background: var(--green); z-index: 1; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#f04747"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(240, 71, 71, 1)"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="dnd"], .wrapper-3t9DeA rect[fill="#f04747"], .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--red); }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect, #app-mount .wrapper-3t9DeA rect { x: 0 !important; y: 0 !important; width: 100%; height: 100%; rx: var(--SD-roundness) !important; ry: var(--SD-roundness) !important; fill: transparent; stroke-width: 2px; }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#593695"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="streaming"], .wrapper-3t9DeA rect[fill="#593695"], .wrapper-3t9DeA rect[mask*="streaming"] { stroke: var(--purple); }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#43b581"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(67, 181, 129, 1)"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="online"], #app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="online"] { stroke: var(--green); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#747f8d"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="offline"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="ivisible"], [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(116, 127, 141, 1)"], .wrapper-3t9DeA rect[fill="#747f8d"], .wrapper-3t9DeA rect[mask*="offline"], .wrapper-3t9DeA rect[mask*="ivisible"], .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: #747f8d; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#faa61a"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(250, 166, 26, 1)"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="idle"], #app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="idle"] { stroke: var(--yellow); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[x="28"], .wrapper-3t9DeA rect[x="28"] { width: 40px; height: 40px; overflow: visible; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#f04747"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(240, 71, 71, 1)"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="dnd"], #app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--red); }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[x="16"], .wrapper-3t9DeA rect[x="16"] { width: 24px; height: 24px; }
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#f04747"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(240, 71, 71, 1)"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="dnd"], #app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--red); }
+
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#593695"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="streaming"], #app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*="streaming"] { stroke: var(--purple); }
+
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#747f8d"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="offline"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="ivisible"], #app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(116, 127, 141, 1)"], #app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*="offline"], #app-mount .wrapper-3t9DeA rect[mask*="ivisible"], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: #747f8d; }
+
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[x="16"], #app-mount .wrapper-3t9DeA rect[x="16"] { width: 24px; height: 24px; }
+
+#app-mount [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[x="28"], #app-mount .wrapper-3t9DeA rect[x="28"] { width: 40px; height: 40px; overflow: visible; }
 
 #app-mount .removeKeybind-39dSFj, #app-mount .removeGame-2JFGPn, #app-mount .restoreButton-22-SIW, #app-mount .emojiRemove-1k6MlJ, #app-mount .removeWebhook-3PNViU, #app-mount .revokeInvite-28N8uj { background-color: var(--bg10); border: none; box-shadow: none; }
 
