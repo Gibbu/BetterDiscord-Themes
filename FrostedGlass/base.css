@@ -371,7 +371,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child { padding-bottom: 20px !important; }
 
-#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child:after { content: "Frosted Glass v0.2.0 by Gibbu"; position: absolute; left: 0; top: 18px; left: 10px; }
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child:after { content: "Frosted Glass v1.0.0 by Gibbu"; position: absolute; left: 0; top: 18px; left: 10px; }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .contentRegion-3nDuYy { border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0; background: transparent; overflow: hidden; }
 
