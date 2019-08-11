@@ -4,93 +4,93 @@
 .container-2lgZY8 {
   flex-direction: column; }
 
-#app-mount .wrapper-1Rf91z {
+.wrapper-1Rf91z {
   width: 100% !important;
   position: relative;
   max-height: calc(var(--HSL-size) + 20px) !important; }
-  #app-mount .wrapper-1Rf91z .scrollerWrap-2lJEkd {
+  .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     width: 100% !important; }
-  #app-mount .wrapper-1Rf91z .scroller-2FKFPG {
+  .wrapper-1Rf91z .scroller-2FKFPG {
     display: flex;
     padding: 0 0 0 var(--HSL-spacing) !important;
     flex-wrap: wrap; }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child svg {
+    .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child svg {
       width: 100%;
       height: 100%; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child svg svg {
+      .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child svg svg {
         width: 55%; }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not([style]) {
+    .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not([style]) {
       width: auto !important;
       height: var(--HSL-size) !important; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not([style]) .guildSeparator-3s64Iy {
+      .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not([style]) .guildSeparator-3s64Iy {
         width: 2px;
         height: 100%; }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc {
+    .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc {
       min-width: var(--HSL-size) !important;
       width: auto !important;
       max-height: calc(var(--HSL-size) + 20px) !important;
       margin-right: var(--HSL-spacing) !important;
       display: flex; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg {
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg {
         width: 100%;
         height: 100%; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .folder-21wGz3 {
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .folder-21wGz3 {
         background: transparent; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd- {
         top: 50%;
         transform: translateY(-50%);
         bottom: unset;
         height: var(--HSL-size) !important;
         left: -5px;
         width: 100%; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedGuilds-1JMD4M {
+      .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedGuilds-1JMD4M {
         width: auto;
         max-height: calc(var(--HSL-size) + 20px) !important;
         display: flex;
         animation: folderOpen 0.2s ease forwards; }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh {
+    .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh {
       width: var(--HSL-size) !important;
       height: var(--HSL-size) !important;
       margin: 10px var(--HSL-spacing) 10px 0 !important;
       position: relative; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc {
         width: 100%;
         height: 100%; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn {
         width: var(--HSL-size);
         height: var(--HSL-size); }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C {
         width: var(--HSL-size) !important;
         height: var(--HSL-size) !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq .svg-1X37T1, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq .wrapper-25eVIn, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp .svg-1X37T1, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp .wrapper-25eVIn, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C .svg-1X37T1, #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C .wrapper-25eVIn {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq .svg-1X37T1, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq .wrapper-25eVIn, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp .svg-1X37T1, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp .wrapper-25eVIn, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C .svg-1X37T1, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C .wrapper-25eVIn {
           width: var(--HSL-size) !important;
           height: var(--HSL-size) !important; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ > div[class*="Badge"] {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ > div[class*="Badge"] {
         border-radius: var(--HSL-roundness); }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ > div[class*="Badge"] div {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ > div[class*="Badge"] div {
           border-radius: var(--HSL-roundness); }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="lowerBadge"] {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="lowerBadge"] {
         right: -2px;
         bottom: -2px; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="upperBadge"] {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="upperBadge"] {
         top: -2px;
         right: -2px; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="upperBadge"].count {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .badgeWrapper-3e8pMZ div[class*="upperBadge"].count {
           left: -2px;
           right: unset; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh mask {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh mask {
         display: none; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh a {
         border-radius: var(--HSL-roundness);
         overflow: hidden;
         transition: 0.2s ease; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] {
         position: absolute;
         top: -10px;
         left: 0;
-        width: 100% !important;
-        height: 4px !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span {
+        width: 100%;
+        height: 4px; }
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span {
           height: 4px !important;
           width: 100% !important;
           transform: scale(0, 1) !important;
@@ -99,205 +99,205 @@
           transition: 0.2s ease !important;
           opacity: 0 !important;
           transform-origin: center top; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 0"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 0"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 1"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 1"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 2"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 2"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 3"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 3"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 4"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 4"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 5"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 5"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 6"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 6"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 7"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 7"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 8"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 8"] {
           transform: scale(0, 1) !important;
           opacity: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.0"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.0"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.1"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.1"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.2"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.2"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.3"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.3"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.4"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.4"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.5"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.5"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.6"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.6"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.7"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="opacity: 0.7"] {
           transform: scale(0.25, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 9"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 9"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 10"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 10"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 11"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 11"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 12"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 12"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 13"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 13"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 14"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 14"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 15"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 15"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 16"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 16"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 17"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 17"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 18"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 18"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 19"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 19"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 20"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 20"] {
           transform: scale(0.7, 1) !important;
           opacity: .5 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 21"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 21"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 22"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 22"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 23"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 23"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 24"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 24"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 25"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 25"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 26"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 26"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 27"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 27"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 28"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 28"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 29"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 29"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 30"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 30"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 31"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 31"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 32"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 32"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 33"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 33"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 34"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 34"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 35"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 35"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 36"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 36"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 37"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 37"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 38"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 38"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 39"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 39"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 40"] {
+        .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh div[class*='pill'] span[style*="height: 40"] {
           transform: scale(1, 1) !important;
           opacity: 1 !important; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh:hover a {
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh:hover a {
         border-radius: var(--HSL-roundnessHover); }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh {
+    .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh {
       position: absolute;
       left: calc(var(--HSL-spacing) - 5px);
       top: -10px;
       height: auto !important;
       width: calc(var(--HSL-size) + 10px) !important;
       margin: 0; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh div {
+      .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh div {
         width: 100%;
         height: 15px !important;
         line-height: 12px; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh {
+      .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh {
         width: auto !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh .guildSeparator-3s64Iy {
+        .wrapper-1Rf91z .scroller-2FKFPG #bd-pub-li.listItem-2P_4kh + .listItem-2P_4kh .guildSeparator-3s64Iy {
           width: 2px;
           height: 100%; }
-    #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) {
+    .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) {
       height: var(--HSL-size) !important;
       width: var(--HSL-size) !important;
       margin: 10px var(--HSL-spacing) 10px 0; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
+      .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
         margin: 0 !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx {
+        .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx {
           width: var(--HSL-size);
           height: var(--HSL-size); }
-          #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx img {
+          .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx img {
             width: 100%;
             height: 100%; }
-      #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh {
+      .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh {
         width: auto !important;
         height: var(--HSL-size) !important; }
-        #app-mount .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh .guildSeparator-3s64Iy {
+        .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh .guildSeparator-3s64Iy {
           width: 2px;
           height: 100%; }
-  #app-mount .wrapper-1Rf91z [class*="unreadMentionsIndicator"] {
+  .wrapper-1Rf91z [class*="unreadMentionsIndicator"] {
     display: none; }
-  #app-mount .wrapper-1Rf91z .circleButtonMask-2VNJsN {
+  .wrapper-1Rf91z .circleButtonMask-2VNJsN {
     width: var(--HSL-size);
     height: var(--HSL-size); }
-    #app-mount .wrapper-1Rf91z .circleButtonMask-2VNJsN > svg {
+    .wrapper-1Rf91z .circleButtonMask-2VNJsN > svg {
       border-radius: var(--HSL-roundness);
       width: var(--HSL-size);
       height: var(--HSL-size);
       transition: 0.2s ease; }
-      #app-mount .wrapper-1Rf91z .circleButtonMask-2VNJsN > svg svg {
+      .wrapper-1Rf91z .circleButtonMask-2VNJsN > svg svg {
         width: 65%;
         height: 65%; }
-    #app-mount .wrapper-1Rf91z .circleButtonMask-2VNJsN:hover > svg {
+    .wrapper-1Rf91z .circleButtonMask-2VNJsN:hover > svg {
       border-radius: var(--HSL-roundnessHover); }
-  #app-mount .wrapper-1Rf91z .guildsError-b7zR5H {
+  .wrapper-1Rf91z .guildsError-b7zR5H {
     height: var(--HSL-size) !important; }
 
 #app-mount .wrapper-1Rf91z.foldercontent {
