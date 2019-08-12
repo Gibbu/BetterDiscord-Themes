@@ -1,0 +1,151 @@
+/* ---------- BLURING BACKGROUNDS START ---------- */
+
+#app-mount {
+    .activityFeed-1C0EmJ,
+    .applicationStore-1pNvnv,
+    .authBox-hW6HRx,
+    .autocomplete-1vrmpx,
+    .autocompleteShadow-iiGWFU,
+    .channels-Ie2l6A,
+    .chat-3bRxxu,
+    .container-2x5lvQ,
+    .container-3ayLPN,
+    .container-3cGP6G,
+    .container-3gCOGc,
+    .contentRegion-3nDuYy,
+    .css-1rckt42-menu,
+    .errorPage-u8SYh4,
+    .gameLibrary-TTDw4Y,
+    .menu-Sp6bN1,
+    .modal-yWgWj-,
+    .modal-yWgWj-.modal-1sor29,
+    .modal-yWgWj-.modal-c2O6Xq,
+    .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
+    .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
+    .pageWrapper-1PgVDX,
+    .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix,
+    .queryContainer-RKFJW-.focused-2bY0OD,
+    .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
+    .regionSelectModal-12e-57,
+    .reply-list,
+    .root-SR8cQa,
+    .sidebarRegion-VFTUkN,
+    .stickyHeader-1pqx0j,
+    .uploadModal-2ifh8j,
+    .userPopout-3XzG_A,
+    .wrapper-1Rf91z,
+    .messagesPopoutWrap-1MQ1bW,
+    .css-181m2lf-menu,
+    .overflowRolesPopout-140n9i,
+    .popout-3G62UL,
+    .membersFilterPopout-URUUD-,
+    .quickswitcher-3JagVE,
+    .keyboardShortcutsModal-3piNz7,
+    .react-datepicker,
+    #bd-customcss-detach-container,
+    .root-1BQpZw,
+    .popout-googletranslate .themedPopout-1TrfdI,
+    .root-1gCeng.small-3iVZYw,
+    .notice-2FJMB4,
+    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
+    .bd-modal-inner {
+        &:before {
+            content: "";
+            background: var(--BG-image-set) center/cover fixed;
+            position: absolute;
+            filter: blur(var(--BG-image-blur));
+            z-index: 0;
+        }
+    }
+    // Left (Serverlist)
+    .wrapper-1Rf91z {
+        &:before {
+            height: calc(100% + var(--BG-image-blur) * 4);
+            width: calc(100% + var(--BG-image-blur) * 4);
+            left: calc(var(--BG-image-blur) / -1 * 1);
+            top: calc(var(--BG-image-blur) / -1 * 1);
+            box-shadow: inset 0 0 0 10000px rgba(0,0,0,var(--BG-serverlist-brightness));
+        }
+    }
+    // Left (Channels)
+    .channels-Ie2l6A,
+    .menu-Sp6bN1,
+    .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
+    .regionSelectModal-12e-57,
+    .sidebarRegion-VFTUkN {
+        position: relative;
+        background: transparent;
+        &:before {
+            height: calc(100% + var(--BG-image-blur) * 6);
+            width: calc(100% + var(--BG-image-blur) * 6);
+            left: calc(var(--BG-image-blur) / -1 * 3);
+            top: calc(var(--BG-image-blur) / -1 * 3);
+            box-shadow: inset 0 0 0 10000px rgba(0,0,0,var(--BG-left-brightness));
+        }
+    }
+    // Right
+    .activityFeed-1C0EmJ,
+    .applicationStore-1pNvnv,
+    .chat-3bRxxu,
+    .container-3gCOGc,
+    .contentRegion-3nDuYy,
+    .errorPage-u8SYh4,
+    .gameLibrary-TTDw4Y,
+    .pageWrapper-1PgVDX,
+    .root-SR8cQa,
+    .stickyHeader-1pqx0j,
+    .uploadModal-2ifh8j,
+    .keyboardShortcutsModal-3piNz7,
+    .quickswitcher-3JagVE,
+    .root-1BQpZw,
+    .bd-modal-inner {
+        overflow: hidden;
+        &:before {
+            height: calc(100% + var(--BG-image-blur) * 4);
+            width: calc(100% + var(--BG-image-blur) * 5);
+            left: calc(var(--BG-image-blur) / -1 * 3);
+            top: calc(var(--BG-image-blur) / -1 * 2);
+            box-shadow: inset 0 0 0 10000px rgba(0,0,0,var(--BG-right-brightness));
+        }
+    }
+    // Popouts
+    .authBox-hW6HRx,
+    .autocomplete-1vrmpx,
+    .autocompleteShadow-iiGWFU,
+    .container-2x5lvQ,
+    .container-3ayLPN,
+    .container-3cGP6G,
+    .css-1rckt42-menu,
+    .modal-yWgWj-,
+    .modal-yWgWj-.modal-1sor29,
+    .modal-yWgWj-.modal-c2O6Xq,
+    .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
+    .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.scrollerThemed-2oenus,
+    .queryContainer-RKFJW-.focused-2bY0OD,
+    .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
+    .reply-list,
+    .userPopout-3XzG_A,
+    .messagesPopoutWrap-1MQ1bW,
+    .css-181m2lf-menu,
+    .overflowRolesPopout-140n9i,
+    .popout-3G62UL,
+    .membersFilterPopout-URUUD-,
+    .colorPickerCustom-2CWBn2,
+    .react-datepicker,
+    #bd-customcss-detach-container,
+    .popout-googletranslate .themedPopout-1TrfdI,
+    .root-1gCeng.small-3iVZYw,
+    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE {
+        overflow: hidden;
+        &:before {
+            height: calc(100% + var(--BG-image-blur) * 4);
+            width: calc(100% + var(--BG-image-blur) * 5);
+            left: calc(var(--BG-image-blur) / -1 * 3);
+            top: calc(var(--BG-image-blur) / -1 * 2);
+            box-shadow: inset 0 0 0 10000px rgba(0,0,0,var(--BG-popout-brightness));
+            z-index: -1;
+        }
+    }
+}
+
+/* ---------- BLURING BACKGROUNDS END ---------- */

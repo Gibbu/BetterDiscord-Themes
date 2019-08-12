@@ -1,0 +1,158 @@
+#app-mount .channels-Ie2l6A {
+    background: var(--bg4);
+    .container-PNkimc {
+        background: transparent;
+        .bannerImage-1jOskm {
+            margin-top: 48px;
+            -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%) !important;
+        }
+        div[style="width: 100%; height: 78px; visibility: hidden;"] {
+            height: 140px !important;
+        }
+        .scroller-2FKFPG::-webkit-scrollbar {
+            width: 0 !important;
+        }
+        .wrapper-1ucjTd {
+            .content-3at_AU {
+                .icon-1_QxNX, .name-3_Dsmg {
+                    color: #888;
+                }
+            }
+            &:hover .content-3at_AU {
+                background: var(--bg5);
+                .icon-1_QxNX, .name-3_Dsmg {
+                    color: #bbb;
+                }
+            }
+            &.modeMuted-3osy7j {
+                .icon-1_QxNX, .name-3_Dsmg {
+                    color: #666;
+                }
+            }
+            &.modeUnread-1zpFdA {
+                .unread-3zKkbm {
+                    background-color: #fff;
+                }
+                .content-3at_AU {
+                    .icon-1_QxNX, .name-3_Dsmg {
+                        color: #fff;
+                    }
+                }
+            }
+            &.modeSelected-1zApJ_ .content-3at_AU {
+                background: var(--bg6);
+                .name-3_Dsmg {
+                    color: #fff;
+                }
+                .icon-1_QxNX {
+                    color: #bbb;
+                }
+            }
+        }
+        .voiceUser-14U_Ns {
+            &:hover {
+                background: var(--bg5);
+                .content-3xS9Lh {
+                    background: var(--bg5);
+                }
+            }
+            &:active {
+                background: var(--bg7);
+                .content-3xS9Lh {
+                    background: var(--bg7);
+                }
+            }
+        }
+        .content-3at_AU {
+            margin-left: 0;
+            padding-left: 16px;
+        }
+    }
+
+    .button-2JbWXs:hover {
+        background: var(--bg7);
+    }
+
+    // Connected Voice
+    .container-1giJp5 {
+        background: var(--bg5);
+        border: none;
+    }
+    // User
+    .container-3baos1 {
+        background: var(--bg5);
+    }
+
+    // Channel limit
+    .wrapper-pZmgj4 {
+        color: #fff;
+        .users-i_3-kL {
+            background-color: var(--bg12);
+            padding: 0 5px;
+            width: auto;
+        }
+        .total-3tKGEB {
+            background-color: var(--bg9);
+            padding: 0 5px;
+            width: auto;
+            &:after {
+                content: none;
+            }
+        }
+    }
+
+    // Private messages
+    .privateChannels-1nO12o {
+        .searchBar-6Kv8R2 {
+            padding: 0;
+            height: auto;
+            box-shadow: none;
+            .searchBarComponent-32dTOx {
+                background: transparent;
+                height: auto;
+                .inner-3ErfOT {
+                    padding: 0;
+                    input {
+                        background: var(--bg7);
+                        margin: 0;
+                        padding: 12px;
+                        box-sizing: border-box;
+                        height: auto;
+                        color: #fff;
+                        cursor: pointer;
+                        &::placeholder {
+                            color: rgba(255,255,255,0.3);
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .channel-2QD9_O {
+            a {
+                margin-left: 0;
+                padding-left: 16px;
+                svg {
+                    color: #fff;
+                }
+                .name-2WpE7M {
+                    color: #888;
+                }
+            }
+            &:hover a {
+                background: var(--bg5);
+                .name-2WpE7M {
+                    color: #ddd;
+                }
+            }
+            &.selected-1HYmZZ a {
+                background: var(--bg6);
+                .name-2WpE7M {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+
+}

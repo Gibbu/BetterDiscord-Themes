@@ -1,0 +1,33 @@
+/* ---------- TOOLTIPS START ---------- */
+
+#app-mount {
+    .bubble-3we2di {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+        color: #fff;
+        &:before {
+            content: none;
+        }
+    }
+    .tooltip-2QfLtc .tooltipPointer-3ZfirK {
+        display: none;
+    }
+    .tooltipBrand-g03Nz8, .tooltipBlack-PPG47z, .tooltipRed-8-9NeP {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+        color: #fff;
+    }
+    .tooltipBlack-PPG47z {
+        text-align: center;
+    }
+
+    .tooltipRight-2JM5PQ {
+        animation: fadeInRight 0.2s ease forwards;
+    }
+    .tooltipTop-XDDSxx {
+        animation: fadeInTop 0.2s ease forwards;
+    }
+    .tooltipBottom-3ARrEK {
+        animation: fadeInBottom 0.2s ease forwards;
+    }
+}
+
+/* ---------- TOOLTIPS END ---------- */

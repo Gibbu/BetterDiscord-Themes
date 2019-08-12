@@ -1,0 +1,38 @@
+:root {
+
+    --bg1: rgba( var(--SD-bgR), var(--SD-bgG), var(--SD-bgB), 1);
+    --bg2: rgba( calc(var(--SD-bgR) * 1.5), calc(var(--SD-bgG) * 1.5), calc(var(--SD-bgB) * 1.5), 1);
+    --bg3: rgba( calc(var(--SD-bgR) * 2), calc(var(--SD-bgG) * 2), calc(var(--SD-bgB) * 2), 1);
+    --bg4: rgba( calc(var(--SD-bgR) * 2.5), calc(var(--SD-bgG) * 2.5), calc(var(--SD-bgB) * 2.5), 1);
+    --bg5: rgba( calc(var(--SD-bgR) * 3), calc(var(--SD-bgG) * 3), calc(var(--SD-bgB) * 3), 1);
+    --bg6: rgba( calc(var(--SD-bgR) * 3.5), calc(var(--SD-bgG) * 3.5), calc(var(--SD-bgB) * 3.5), 1);
+    --bg7: rgba( calc(var(--SD-bgR) * 4), calc(var(--SD-bgG) * 4), calc(var(--SD-bgB) * 4), 1);
+    --bg8: rgba( calc(var(--SD-bgR) * 4.5), calc(var(--SD-bgG) * 4.5), calc(var(--SD-bgB) * 4.5), 1);
+    --bg9: rgba( calc(var(--SD-bgR) * 5), calc(var(--SD-bgG) * 5), calc(var(--SD-bgB) * 5), 1);
+    --bg10: rgba( calc(var(--SD-bgR) * 5.5), calc(var(--SD-bgG) * 5.5), calc(var(--SD-bgB) * 5.5), 1);
+    --bg11: rgba( calc(var(--SD-bgR) * 6), calc(var(--SD-bgG) * 6), calc(var(--SD-bgB) * 6), 1);
+    --bg12: rgba( calc(var(--SD-bgR) * 6.5), calc(var(--SD-bgG) * 6.5), calc(var(--SD-bgB) * 6.5), 1);
+    --bg13: rgba( calc(var(--SD-bgR) * 7), calc(var(--SD-bgG) * 7), calc(var(--SD-bgB) * 7), 1);
+    --bg14: rgba( calc(var(--SD-bgR) * 7.5), calc(var(--SD-bgG) * 7.5), calc(var(--SD-bgB) * 7.5), 1);
+    --bg15: rgba( calc(var(--SD-bgR) * 8), calc(var(--SD-bgG) * 8), calc(var(--SD-bgB) * 8), 1);
+
+    $greenDark: darken(#43b581, 10%);
+    $yellowDark: darken(#faa61a, 10%);
+    $purpleDark: darken(#593695, 10%);
+
+    --green: #43b581;
+    --greenDark: #{$greenDark};
+
+    --yellow: #faa61a;
+    --yellowDark: #{$yellowDark};
+
+    --red: #f04747;
+    --redDark: #b63b3b;
+
+    --purple: #593695;
+    --purpleDark: #{$purpleDark};
+
+    --blurple: #7289da;
+    --nitro: #ff73fa;
+
+}

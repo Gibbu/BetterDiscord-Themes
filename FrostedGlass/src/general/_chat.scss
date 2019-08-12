@@ -1,0 +1,167 @@
+/* ---------- CHAT START ---------- */
+
+#app-mount {
+    .chat-3bRxxu {
+        background: transparent;
+        .content-yTz4x3 {
+            background: transparent;
+            position: relative;
+            z-index: 1;
+        }
+        .welcomeMessage-3_Mcht {
+            h1 {
+                background: linear-gradient(to right, rgba(var(--BG-gradient-one), 1) 0%, rgba(var(--BG-gradient-two), 1) 100%);
+            	-webkit-background-clip: text;
+            	-webkit-text-fill-color: transparent;
+                line-height: 18px;
+                text-shadow: none !important;
+            }
+            p {
+                color: #fff;
+            }
+        }
+        .isMentioned-N-h9aa {
+            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 0.3), rgba(var(--BG-gradient-two), 0.3)) !important;
+            &:after {
+                background: transparent;
+                border-color: rgba(var(--BG-gradient-one), 1)
+            }
+        }
+        .isLocalBot-38G0P0 {
+            border: none;
+            box-shadow: none;
+            background: rgba(0,0,0,0.3);
+            .anchor-3Z-8Bb {
+                color: rgba(var(--BG-gradient-one), 1);
+                font-weight: bold;
+            }
+        }
+        .wrapper-3t9DeA {
+            user-select: none;
+        }
+        blockquote {
+            border-color: rgba(var(--BG-gradient-one), 1);
+            background: rgba(#000, 0.3);
+            padding: 8px 8px 8px 12px;
+        }
+        .hasMore-3e72_v button, .mention, .wrapper-3WhCwL, .botTagRegular-2HEhHi:not(.TRE-tag) {
+            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+            color: #fff !important;
+            border: none !important;
+            font-weight: 600 !important;
+        }
+        .akaBadge-1M-1Gw {
+            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+        }
+        .newMessagesBar-mujexs, .jumpToPresentBar-9P20AM, .actionRed-gYn8D3 {
+            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+        }
+        .operations-36ENbA>a {
+            font-weight: 700;
+            color: rgba(var(--BG-gradient-one), 1);
+        }
+        .messagesWrapper-3lZDfY {
+            background: transparent;
+            text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+            .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+                color: rgba(#fff, 0.6);
+                &:before, &:after {
+                    border-color: rgba(#fff, 0.1);
+                }
+            }
+            .buttonContainer-37UsAw [role="button"] {
+                opacity: 1;
+                filter: brightness(2);
+            }
+            .dividerEnabled-2TTlcf {
+                border-color: rgba(#fff, 0.1);
+            }
+            .markup-2BOw-j {
+                color: #fff;
+            }
+            pre {
+                background: rgba(0,0,0,0.5);
+                border: none;
+                overflow: hidden;
+                code {
+                    background: transparent;
+                    overflow: hidden;
+                }
+            }
+            code {
+                background: rgba(0,0,0,0.5);
+            }
+            .imageZoom-1n-ADA {
+                box-shadow: 0 0 15px rgba(#000, 0.3);
+            }
+            [class*="timestamp"] {
+                color: rgba(255,255,255,.7);
+            }
+            .messageGroupBlockedBtn-1PBBh- {
+                background: transparent;
+                color: #fff;
+            }
+            .embedInner-1-fpTo, .messageGroupBlocked-3wrQQX {
+                background: rgba(0,0,0,0.3);
+                border: none;
+            }
+            .attachment-33OFj0 {
+                background: rgba(0,0,0,0.3);
+                border: none;
+                .metadata-3WGS0M {
+                    color: #fff;
+                }
+            }
+            .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI {
+                border: none;
+                background: rgba(0,0,0,0.3);
+                .guildName-2hvnt_, .h5-18_1nd {
+                    color: #fff;
+                }
+                .onlineCount-w6_WmG, span {
+                    color: #aaa;
+                }
+            }
+            .textAreaEdit-bNLDk3 {
+                max-height: 700px;
+            }
+        }
+        .typing-2GQL18 {
+            background: transparent;
+            span {
+                color: #fff;
+            }
+        }
+    }
+    .wrapper-39oAo3 {
+        background: rgba(#000, 0.3);
+    }
+    form {
+        background: transparent;
+        .inner-zqa7da {
+            background: rgba(255,255,255,0.1);
+        }
+        .channelTextArea-rNsIhG {
+            border-color: rgba(#fff, 0.1);
+        }
+    }
+
+    .progressBar-3u8FBM {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+    }
+
+    // Calls
+    .wrapper-29NfPK {
+        background: transparent;
+        .video-1FfuMD {
+            background: rgba(#000, 0.3);
+            .actions-2vadYq .center-1Vp33r {
+                background: rgba(#000, 0.3);
+                border: none;
+                padding: 5px 18px;
+            }
+        }
+    }
+}
+
+/* ---------- CHAT END ---------- */

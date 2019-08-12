@@ -1,0 +1,13 @@
+#app-mount .membersWrap-2h-GB4 .scroller-2FKFPG {
+    background: var(--bg4);
+    .member-3W1lQa {
+        margin-left: 0;
+        padding-left: 16px;
+        &:hover {
+            background: var(--bg5);
+        }
+        &.popout-open {
+            background: var(--bg6);
+        }
+    }
+}

@@ -1,0 +1,199 @@
+#app-mount .chat-3bRxxu {
+    .newMessagesBar-mujexs {
+        background: var(--bg9);
+        left: 0;
+        right: 0;
+        button {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            &:last-child:after {
+                content: '';
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAEa0lEQVR4Ae3BXWjVdRzH8c/ads7S7GEODXUPZhG11oXiQ91EF5EyExxqahcj1GGKYqY5E+rKqVdSQnQToW06RboKRyMqrLHlSE2JIpvOPSGlqJubnnN29u76/z9nnu/vbOdM5P96SYFAIBAIBAKBQCAQeAhQwAJqOMAxWujgGv3EiNHPNTpo4RgHqGEBBXrQMJmlHOJ3YljEOM9nVDJZE48pVPMdEdIR4TuqeUwThUU0MMhYDdLAQmUXOVTRwnhqoYocZQdvco5MOMsbyjRe5HsyqZkXlCmE+IQImXaPj8nX+ONlLpItF6nQ+KKGu2TTEBs0XiigHhdxWtnLcsopJESIQsqpoo424rj4mrDGjiJasOtiFzM0CmZRSw92P1OosWEOf2P1HzXkKwVCbOQ6Vn8xW+njWXqwaqBQRkylEasunlF6mEM3NlE2yBHvEcPmKmVyx9N0YjPIEqWBSoawucx0uWES7dhEWaw0sZQYNm0UyI4cvsFqg8aATVidIEdW1GLVoKQoYzfN9BIlSi/N1FKqpDiO1Q7Z8AoxbP6lUAkopZE4fnGOUqwEFHEDmyjzlRpP0IlVjRKwljuMZoDVSsBmrDqYolT4Aqsu8uXDB6SyTT6E6cXqkO6PVxnBapd8WEtqI6ySDx9hFWehRkcuF7GKM0MelHIHi35myYNiRrA6T65Gw3rsWuVDI1b18uEMdu8qOQroxm6vPCgjjtUwJfJgH3ZXCSsZtuNiuTzYjYud8mAFLrYpEXn04KJcHjTjokkeVOCiizz5sQY3hfKgFxfd8qAIN2/LjzbchORBFBcReRDGTav8aMNNSB5EcRGRB2HctMqPNbgplAe9uOiWB0W4WSU/8ujBRbk8aMZFkzyowMVVcpWI93FRJQ9qcbFDHqzExVYlQwFd2NXJg1LiWA1TLA/2Y9dJSMmxDrs2+XAUqyPyoR27ao2GXC5gFWemPChmAIvbzJQHJYxgdY5HNDoWEceqVj6sJrURVsiHPVjFma/743OsugnJh22McD8jbJUPYfqw+lSp8DhXsNqoBKyin9HcZoUSsAWrf5ii1FhIFJvrTFUCZlHPMH7DHGGmEjCNm9hEmCcbPsSqUUlRwk6a6CZChG6a2EGxkuIkVttlRQ4nsNqoMWALVsfIkR0FtGETo1JpYhnD2PxCWG6YzmVshqhUGljGEDaXKJI7yujEJsYmOWILw9h0UKz0MJsurI5TJCOmcRKrK5QofZTxJ1Y32ExYKRBmKzex+oMSjQ1PcRq7XnZTrFFQwh76sPuBJzV2hDmMizhn2McKKigiTJgiKljJftoZwcWXhDReWMcQ2TRItcYXL3GBbDlPucYf+ezhHpl2l1rylCk8zyky6VueU6bxOu1kwq+8puwgh7f4ifH0I0uVbczjMAOM1QBfMVcThcm8QxP3SMddTrGWSZp4TGIJBzlLFIsIv3GQxTyqBw0h5rGeOuo5zSX6uEWUKLfo4xKnqaeOdcwlpEAgEAgEAoFAIBAIPAT+B6OUdyEND2TYAAAAAElFTkSuQmCC') center/cover;
+                width: 16px;
+                height: 16px;
+                display: inline-block;
+                margin-left: 5px;
+            }
+        }
+        &:hover {
+            background: var(--bg10);
+        }
+    }
+    .inner-zqa7da {
+        background: var(--bg3);
+    }
+    .textAreaEdit-bNLDk3 {
+        background: var(--bg3);
+        color: #fff;
+    }
+    .messagesWrapper-3lZDfY {
+        background: var(--bg2);
+        .container-1YxwTf:last-child {
+            margin-bottom: 15px;
+            &.containerCompact-3V0ioj {
+                margin-bottom: 30px;
+            }
+        }
+        time {
+            color: #555;
+            font-weight: 500;
+        }
+    }
+    .hasMore-3e72_v {
+        margin: 0;
+        button {
+            margin: 0;
+            background: var(--bg3);
+            border: none;
+        }
+    }
+    .jumpToPresentBar-9P20AM {
+        left: 0;
+        right: 0;
+        background: var(--bg10);
+        button {
+            color: #fff;
+        }
+    }
+    .channelTextAreaDisabled-rZtG8r {
+        background: var(--bg3);
+    }
+    form {
+        margin: 0;
+        background: transparent;
+        position: relative;
+        .channelTextArea-1LDbYG {
+            border: none;
+            margin: 0;
+            padding: 0;
+            .inner-zqa7da {
+                background-color: var(--bg3);
+                textarea {
+                    max-height: unset;
+                    padding: 17px 16px 16px 16px;
+                    margin: 0;
+                }
+                .attachButton-1UjEWA {
+                    svg {
+                        display: none;
+                    }
+                    &:after {
+                        content: '';
+                        width: 24px;
+                        height: 24px;
+                        display: block;
+                        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC');
+                        background-size: cover;
+                        opacity: .5;
+                        transition: 0.2s ease;
+                    }
+                    &:hover:after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .buttons-205you {
+            height: auto;
+        }
+        .typing-2GQL18 {
+            padding: 0 10px;
+            box-sizing: border-box;
+            top: -26px;
+            background: var(--bg6);
+        }
+    }
+    .embedInner-1-fpTo {
+        border: none;
+        background: var(--bg4);
+    }
+    // Dividers
+    .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+        color: var(--bg10);
+        &:before, &:after {
+            border-color: var(--bg5);
+        }
+    }
+    // NSFW
+    .content-yTz4x3  {
+        background: var(--bg2) !important;
+        .image-2LqJex {
+            filter: grayscale(1) brightness(1.5);
+        }
+    }
+    // Invites
+    .wrapper-35wsBm {
+        background: var(--bg4);
+        border: none;
+    }
+    code {
+        background: var(--bg6);
+        border: none;
+    }
+    pre {
+        border: none;
+    }
+    // Attachment
+    .attachment-33OFj0 {
+        background: var(--bg4);
+        border: none;
+    }
+    .wrapper-39oAo3 {
+        margin: 0;
+        background-color: var(--bg3);
+    }
+
+    // Search
+    .searchResultsWrap-2DKFzt {
+        background-color: var(--bg4);
+        .searchHeader-1l-wpR {
+            background-color: var(--bg6);
+            box-shadow: none;
+        }
+        .totalResults-gxvzgw {
+            opacity: 1;
+        }
+        .channelName-1QajIf {
+            background: transparent;
+        }
+        .searchResult-3pzFAB {
+            &:before, &:after {
+                content: none;
+            }
+            .hit-NLlWXA {
+                background-color: var(--bg5);
+                box-shadow: none;
+                border: none;
+            }
+        }
+        .expanded-v2Szsz {
+            background: var(--bg3);
+            border: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

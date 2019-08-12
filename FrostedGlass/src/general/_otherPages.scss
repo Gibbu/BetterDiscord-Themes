@@ -1,0 +1,48 @@
+/* ---------- OTHER PAGES START ---------- */
+
+#app-mount {
+    // Error
+    .errorPage-u8SYh4 {
+        & > div {
+            position: relative;
+        }
+    }
+
+    // No channel
+    .noChannel-Z1DQK7 {
+        background: transparent;
+    }
+
+    // Login
+    .splashBackground-1FRCko {
+        background: transparent;
+        .rightSplit-2US0xy {
+            img {
+                display: none;
+            }
+        }
+        .authBox-hW6HRx {
+            position: relative;
+            overflow: hidden;
+            .subTitle-3TUjmF {
+                color: rgba(#fff, 0.5);
+                font-weight: 300;
+            }
+            .h5-18_1nd {
+                color: #fff;
+            }
+            .input-cIJ7To {
+                background: rgba(#000, 0.3);
+                border: none;
+                &::placeholder {
+                    color: rgba(#fff, 0.5);
+                    font-weight: 300;
+                }
+            }
+        }
+        canvas {
+            display: none;
+        }
+    }
+}
+/* ---------- OTHER PAGES END ---------- */

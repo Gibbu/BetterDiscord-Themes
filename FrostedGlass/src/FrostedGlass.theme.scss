@@ -1,0 +1,92 @@
+/**
+ * @name Frosted Glass
+ * @author Gibbu#1211
+ * @version 1.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
+ * @website https://gibbu.me/
+*/
+
+
+/*
+Awesome images by the Among Trees game
+Website: https://www.amongtreesgame.com/
+
+Forest 1080p:     https://i.redd.it/4v718eku9z221.png
+Dear 4K:          https://i.imgur.com/kYW2H5C.jpg
+Valley 2K:        https://hdqwalls.com/wallpapers/small-memory-lp.jpg
+Valley 8K:        https://i.imgur.com/768zfyS.jpg
+*/
+
+/* @import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css"); */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+:root {
+
+    /* Image variables */
+    --BG-image: url('https://i.imgur.com/kYW2H5C.jpg');  /* URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
+
+    /* Brightness variables */
+    --BG-serverlist-brightness: 0.8;   /* DEFAULT: 0.8 */
+    --BG-left-brightness: 0.8;         /* DEFAULT: 0.8 */
+    --BG-right-brightness: 0.6;        /* DEFAULT: 0.6 */
+    --BG-popout-brightness: 0.7;       /* Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+
+    /*
+        Gradient variables
+        Use this website: https://htmlcolorcodes.com/color-picker/
+        to get your desired RGB numbers. Then simply put each number in their respective area.
+        R,G,B
+    */
+    --BG-gradient-one: 103,58,183;        /* DEFAULT: 103,58,183 */
+    --BG-gradient-two: 63,81,181;         /* DEFAULT: 63,81,181 */
+    --BG-gradient-direction: -45deg;      /* DEFAULT: -45deg */
+
+    /* Other variables */
+    --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
+    --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
+    --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+
+}
+
+/*
+    Coloured SVG's by DevilBro#4401
+    Discord Server: https://discordapp.com/invite/Jx3TjNS
+    PayPal.Me: https://www.paypal.me/MircoWittrien
+*/
+
+
+:root {
+    --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg');
+    --BG-image-set: var(--BG-image,var(--BG-image-default));
+
+}
+
+
+// Global serverlist
+@import 'general/blur';
+@import 'general/general';
+@import 'general/serverlist';
+@import 'general/channels';
+@import 'general/chat';
+@import 'general/members';
+@import 'general/search';
+@import 'general/settings';
+@import 'general/homePages';
+@import 'general/otherPages';
+@import 'general/notices';
+
+
+// Global imports
+@import 'global/scrollbars';
+@import 'global/headers';
+@import 'global/popouts';
+@import 'global/modals';
+@import 'global/tooltips';
+@import 'global/keyframes';
+@import 'global/svgs';
+
+
+// Plugin / OS fixes
+@import 'general/otherFixes';

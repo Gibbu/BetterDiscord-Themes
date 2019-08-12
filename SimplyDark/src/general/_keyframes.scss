@@ -1,0 +1,14 @@
+@keyframes slideIn {
+    from {transform: scale(1,0);}
+    to {transform: scale(1,1);}
+}
+@keyframes fadeInLeft {
+    from {
+        transform: translateX(-3px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

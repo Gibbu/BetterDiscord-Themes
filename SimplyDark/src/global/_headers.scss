@@ -1,0 +1,78 @@
+#app-mount {
+    .title-3qD0b- {
+        background-color: var(--bg7);
+        box-shadow: none;
+        .children-19S4PO::after {
+            content: none;
+        }
+        .clickable-3rdHwn .icon-22AiRD {
+            color: #aaa;
+        }
+        .search-2oPWTC {
+            .searchBar-3dMhjb {
+                width: 24px;
+                background: transparent;
+                .iconContainer-O4O2CN {
+                    width: 20px;
+                    height: 20px;
+                    svg {
+                        color: #aaa;
+                    }
+                }
+            }
+            &.open-6_Y_aH {
+                width: 224px;
+                .searchBar-3dMhjb {
+                    width: 100%;
+                    background: var(--bg10);
+                }
+            }
+        }
+    }
+
+    .header-2o-2hj {
+        background: var(--bg7);
+        box-shadow: none;
+        &:hover {
+            background: var(--bg7);
+        }
+    }
+
+    .container-1r6BKw {
+        background: var(--bg7);
+        box-shadow: none;
+        .children-19S4PO:after {
+            content: none;
+        }
+        .mask-1qbNWk {
+            width: 16px;
+            rect {
+                mask: none;
+                width: 16px !important;
+                x: -3 !important;
+            }
+        }
+        .item-PXvHYJ {
+			&:hover {
+				background-color: var(--bg10);
+			}
+			&.selected-3s45Ha {
+				background-color: var(--bg15);
+			}
+        }
+        .divider-3FBTu8 {
+            background: var(--bg10);
+        }
+        .children-19S4PO .icon-22AiRD {
+            color: #fff;
+        }
+        .clickable-3rdHwn {
+            &:hover .icon-22AiRD {
+                color: #fff;
+            }
+            &.icon-22AiRD {
+                color: #aaa;
+            }
+        }
+    }
+}

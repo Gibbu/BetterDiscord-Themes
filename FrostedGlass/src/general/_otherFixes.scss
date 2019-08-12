@@ -1,0 +1,241 @@
+/* ---------- OTHER FIXES START ---------- */
+
+body.hidden-by-OTB .container-1r6BKw {
+    padding: 0 8px !important;
+}
+
+#app-mount {
+
+    // PLUGINS
+    .foldercontent {
+        border-radius: 0;
+        &:before {
+            left: calc(var(--BG-image-blur) / -1 * 3);
+            width: calc(100% + var(--BG-image-blur) * 6)
+        }
+    }
+    .reply-button {
+        transition: none;
+    }
+    .reply-list {
+        background: transparent;
+        overflow: hidden;
+        &:before {
+            z-index: 1;
+        }
+        div, svg:not(.reply-clear) {
+            position: relative;
+            z-index: 1;
+        }
+        svg.reply-clear {
+            z-index: 1;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            &:hover {
+                background: rgba(#fff, 0.1);
+            }
+        }
+        .reply-item {
+            background: rgba(#fff, 0.1);
+        }
+    }
+    #dv-mount {
+        background: transparent;
+    }
+    #dv-main {
+        border-color: rgba(#fff, 0.1);
+    }
+    #bfredux {
+        margin-right: 0;
+        img {
+            opacity: 1;
+        }
+        &:before {
+            background: rgba(#000, 0.5);
+        }
+    }
+    .popout-googletranslate .themedPopout-1TrfdI {
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: fadeInTop 0.2s ease forwards;
+        & > div {
+            &:nth-child(3) .css-bdfdb-menuOuter.inChat {
+                top: calc(100% + 300px) !important;
+            }
+            &:nth-child(5) .css-bdfdb-menuOuter.inChat {
+                top: calc(100% + 200px) !important;
+                .css-1ye7vu0 {
+                    height: 200px;
+                }
+            }
+            &:nth-child(7) .css-bdfdb-menuOuter.inChat .css-1ye7vu0 {
+                height: 250px;
+            }
+        }
+    }
+    #MemberCount {
+        background: transparent;
+        color: rgba(#fff, 0.8);
+        font-weight: 400;
+        position: relative;
+        & + .membersGroup-v9BXpm {
+            margin-top: 0;
+        }
+    }
+    .dst-tooltip {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+        width: 225px;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .BDFDB-notice {
+        border-radius: 0 !important;
+        .dismiss-SCAH9H {
+            right: unset;
+            left: 0;
+        }
+    }
+
+    // BetterDiscord
+    .markup-2BOw-j[style*="color: rgb(0, 0, 1);"] {
+        color: #fff !important;
+    }
+    #bd-settingspane-container .ui-switch {
+        background: rgba(#fff, 0.1);
+    }
+
+    // Custom CSS editor
+    #bd-customcss-detach-container {
+        margin-top: 20px;
+        background: transparent;
+        .ace-monokai {
+            background: rgba(#000, 0.3);
+        }
+        #bd-customcss-innerpane > div {
+            position: relative;
+            z-index: 2;
+        }
+        &:before {
+            z-index: 1;
+        }
+    }
+    #bd-customcss-editor {
+        background: rgba(#000, 0.3);
+    }
+    .ace_gutter-cell {
+        color: #fff;
+    }
+    .ace-monokai .ace_gutter {
+        background: rgba(#000, 0.4);
+    }
+    .ace_gutter-active-line, .ace_active-line {
+        background: rgba(#fff, 0.05);
+    }
+    #bd-customcss-attach-controls {
+        background: rgba(#000, 0.57);
+        box-shadow: none;
+        button {
+            background: rgba(#fff, 0.05);
+            border: none !important;
+            &:hover {
+                background: rgba(#fff, 0.1);
+            }
+        }
+        .help-text {
+            font-size: 12px;
+            code, span {
+                font-size: 12px;
+                background: rgba(#fff, 0.1);
+            }
+        }
+    }
+    .ace_selection {
+        background: rgba(#fff, 0.15);
+    }
+    #editor-detached button {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+    }
+
+
+    // Smart phone overlay
+    .backdrop-1wrmKB {
+        background: rgba(#000, 0.95) !important;
+    }
+    .downloadApps-wbBFdZ {
+        .active-iLSdWQ {
+            border-color: rgba(var(--BG-gradient-one), 1);
+            p {
+                color: rgba(var(--BG-gradient-one), 1);
+            }
+            .downloadButton-1bWXpg {
+                background: rgba(var(--BG-gradient-one), 1);
+            }
+        }
+        .header-nJMe-Q {
+            color: #fff;
+        }
+        .active-iLSdWQ.icon-2Pk7pb {
+        	-webkit-mask-size: cover;
+        	background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+        }
+        .active-iLSdWQ.icon-2Pk7pb.apple-1fKN59 {
+        	-webkit-mask: url(https://canary.discordapp.com/assets/7ddab19e24325212299490c2f413b122.svg);
+        }
+        .active-iLSdWQ.icon-2Pk7pb.windows-29yOum {
+        	-webkit-mask: url(https://canary.discordapp.com/assets/37ce528f3abf4d735a624309e990acc6.svg);
+        }
+        .active-iLSdWQ.icon-2Pk7pb.linux-15cW1y {
+        	-webkit-mask: url(https://canary.discordapp.com/assets/f8e3f6e7b2cf5f10aed43243560a1b91.svg);
+        }
+        .active-iLSdWQ.icon-2Pk7pb.ios-Z7K-rr {
+        	-webkit-mask: url(https://canary.discordapp.com/assets/00a1b0447f0474ecaa767a4bc09fe2ed.svg);
+        }
+        .active-iLSdWQ.icon-2Pk7pb.android-gGrHJu {
+        	-webkit-mask: url(https://canary.discordapp.com/assets/676bfec9f4343f6fcdf0a12ae313a3de.svg);
+        }
+    }
+
+
+    // OS
+    .typeMacOS-3EmCyP.titleBar-AC4pGV {
+        top: var(--BG-window-padding);
+        left: var(--BG-window-padding);
+    }
+    .app-19_DXt.platform-osx {
+        .wrapper-1Rf91z {
+            margin-top: 0;
+            padding-top: 32px;
+        }
+    }
+    .typeWindows-1za-n7 {
+        height: 9px;
+        margin-top: 0;
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 100%;
+        background: transparent;
+    }
+    .winButtonClose-1HsbF- {
+        border-top-right-radius: var(--BG-window-roundness);
+    }
+    .winButton-iRh8-Z {
+        position: relative;
+        top: var(--BG-window-padding);
+        right: var(--BG-window-padding);
+        height: 47px;
+        width: 40px;
+    }
+    .app-19_DXt.platform-win .container-1r6BKw {
+        padding-right: 125px;
+    }
+    .wordmarkWindows-1v0lYD {
+        display: none;
+    }
+}
+/* ---------- OTHER FIXES END ---------- */
