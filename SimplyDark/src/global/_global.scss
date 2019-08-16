@@ -83,6 +83,7 @@
 
 // Status
 #app-mount .wrapper-3t9DeA {
+    position: unset;
     * {
         overflow: visible;
         mask: none;
@@ -120,9 +121,6 @@
     }
 
     &[style*="width: 80px;"] {
-        img {
-            clip-path: circle(calc(39px - var(--rs-large-spacing)));
-        }
         rect {
             width: 80px;
             height: 80px;
@@ -131,49 +129,36 @@
             -webkit-mask-size: 32px;
         }
     }
-
-    &[style*="width: 32px;"] {
-        img {
-            clip-path: circle(calc(15px - var(--rs-small-spacing)));
-        }
-        rect {
-            width: 32px;
-            height: 32px;
-            overflow: visible;
-            x: -14.5;
-            y: -17;
-        }
+    &[style*="width: 32px;"] rect {
+        width: 32px;
+        height: 32px;
+        overflow: visible;
+        x: -14.5;
+        y: -17;
     }
     img {
         border-radius: var(--SD-roundness);
     }
-    foreignObject[mask*="mobile"] {
-        &:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            border-radius: var(--SD-roundness);
-            z-index: 1;
-        }
+    &[aria-label*="mobile"] {
+        margin-right: 24px;
         &:after {
             content: "";
             -webkit-mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4=');
-            -webkit-mask-size: 20px;
+            -webkit-mask-size: 16px;
             -webkit-mask-repeat: no-repeat;
             -webkit-mask-position: center;
             display: block;
             position: absolute;
-            width: 100%;
-            height: 100%;
+            width: 12px;
+            height: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 55px;
             background: var(--green);
             z-index: 1;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        }
+        ~ .memberInner-2CPc3V .nameTag-m8r81H .username-2b1r56 {
+            max-width: 168px;
         }
     }
     rect {
@@ -184,7 +169,7 @@
         rx: var(--SD-roundness);
         ry: var(--SD-roundness);
         fill: transparent;
-        stroke-width: 2px;
+        stroke-width: var(--SD-avatar-status-width);
         &[fill="#43b581"], &[fill="rgba(67, 181, 129, 1)"], &[mask*="online"] {
             stroke: var(--green);
         }
@@ -194,7 +179,7 @@
         &[fill="#f04747"], &[fill="rgba(240, 71, 71, 1)"], &[mask*="dnd"] {
             stroke: var(--red);
         }
-        &[fill="#593695"], &[mask*="streaming"] {
+        &[fill="#593695"], &[fill="rgba(89, 54, 149, 1)"], &[mask*="streaming"] {
             stroke: var(--purple);
         }
         &[fill="#747f8d"], &[mask*="offline"], &[mask*="ivisible"], &[fill="rgba(116, 127, 141, 1)"] {
