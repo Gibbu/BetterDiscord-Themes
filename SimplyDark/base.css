@@ -855,7 +855,11 @@
 
 #app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] { fill: rgba(0, 0, 0, 0.5); width: 30px; height: 30px; x: 1; y: 1; }
 
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"] { position: relative; }
+
 #app-mount .wrapper-3t9DeA[style*="width: 80px;"] rect { width: 80px; height: 80px; }
+
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"][style*="width: 80px;"]:after { left: 50%; top: -19px; transform: translateX(-50%); }
 
 #app-mount .wrapper-3t9DeA[style*="width: 80px;"] foreignObject[mask*="mobile"]:after { -webkit-mask-size: 32px; }
 
