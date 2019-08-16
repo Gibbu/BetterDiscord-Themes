@@ -6,15 +6,16 @@
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/RadialStatus
  * @website https://www.gibbu.me
 */
-
 @import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 :root {
     --rs-small-spacing: 2px; /* spacing between avatar and status */
     --rs-large-spacing: 3px; /* spacing between avatar and status for user popouts & modals/profiles */
     --rs-width: 2px; /* Width/thickness of status border */
 
-    --green: #43b581; /* Online */
-    --yellow: #faa61a; /* Idle */
-    --red: #f04747; /* Do not disturb */
-    --purple: #593695; /* Live streaming */
+    --rs-online-color: #43b581; /* color for online status */
+    --rs-idle-color: #faa61a; /* color for idle status */
+    --rs-dnd-color: #f04747; /* color for dnd status */
+    --rs-offline-color: #636b75; /* color for offline status */
+    --rs-invisible-color: #747f8d; /* color for invisible status - Note this will only show for your own invisibility */
+    --rs-streaming-color: #643da7; /* color for streaming status */
 }

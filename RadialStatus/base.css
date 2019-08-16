@@ -28,23 +28,25 @@
 
 #app-mount .wrapper-3t9DeA img { border-radius: 50%; }
 
-#app-mount .wrapper-3t9DeA[aria-label*="mobile"] { margin-right: 24px; }
+#app-mount .wrapper-3t9DeA[aria-label*="mobile"] { margin-right: 20px; }
 
-#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4="); -webkit-mask-size: 16px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 12px; height: 16px; top: 50%; transform: translateY(-50%); left: 39px; background: var(--green); z-index: 1; }
+#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4="); -webkit-mask-size: 16px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 12px; height: 16px; top: 50%; transform: translateY(-50%); left: 37px; background: var(--rs-online-color); z-index: 1; }
 
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"] ~ .memberInner-2CPc3V .nameTag-m8r81H .username-2b1r56 { max-width: 168px; }
 
 #app-mount .wrapper-3t9DeA rect { x: 0; y: 0; width: 100%; height: 100%; rx: 200%; ry: 200%; fill: transparent; stroke-width: var(--rs-width); }
 
-#app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="online"] { stroke: var(--green); }
+#app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="online"] { stroke: var(--rs-online-color); }
 
-#app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="idle"] { stroke: var(--yellow); }
+#app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="idle"] { stroke: var(--rs-idle-color); }
 
-#app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--red); }
+#app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*="dnd"] { stroke: var(--rs-dnd-color); }
 
-#app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*="streaming"] { stroke: var(--purple); }
+#app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*="streaming"] { stroke: var(--rs-streaming-color); }
 
-#app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*="offline"], #app-mount .wrapper-3t9DeA rect[mask*="ivisible"], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: #747f8d; }
+#app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*="offline"] { stroke: var(--rs-offline-color); }
+
+#app-mount .wrapper-3t9DeA rect[mask*="ivisible"], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: var(--rs-invisible-color); }
 
 #app-mount .wrapper-3t9DeA rect[x="16"] { width: 24px; height: 24px; }
 
@@ -56,6 +58,6 @@
 
 #app-mount .message-1PNnaP .mask-1l8v16 img { clip-path: circle(calc(19px - var(--rs-small-spacing))); }
 
-#app-mount .memberOffline-2lN7gt img { clip-path: none; }
+#app-mount .memberOffline-2lN7gt img { clip-path: none !important; }
 
 #app-mount .header-QKLPzZ .wrapper-3t9DeA { margin-right: 20px !important; }
