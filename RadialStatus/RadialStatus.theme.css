@@ -7,6 +7,7 @@
  * @website https://www.gibbu.me
 */
 
+@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 :root {
     --rs-small-spacing: 2px; /* spacing between avatar and status */
     --rs-large-spacing: 3px; /* spacing between avatar and status for user popouts & modals/profiles */
@@ -17,5 +18,3 @@
     --red: #f04747; /* Do not disturb */
     --purple: #593695; /* Live streaming */
 }
-
-@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
