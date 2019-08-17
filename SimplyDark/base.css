@@ -837,7 +837,7 @@
 
 #app-mount .ui-switch.checked:before { transform: translateX(26px) !important; }
 
-#app-mount .wrapper-3t9DeA { position: unset; }
+#app-mount .wrapper-3t9DeA { position: relative; }
 
 #app-mount .wrapper-3t9DeA * { overflow: visible; mask: none; }
 
@@ -861,15 +861,13 @@
 
 #app-mount .wrapper-3t9DeA[style*="width: 80px;"][style*="width: 80px;"]:after { left: 50%; top: -19px; transform: translateX(-50%); }
 
-#app-mount .wrapper-3t9DeA[style*="width: 80px;"] foreignObject[mask*="mobile"]:after { -webkit-mask-size: 32px; }
-
 #app-mount .wrapper-3t9DeA[style*="width: 32px;"] rect { width: 32px; height: 32px; overflow: visible; x: -14.5; y: -17; }
 
 #app-mount .wrapper-3t9DeA img { border-radius: var(--SD-roundness); }
 
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"] { margin-right: 24px; }
 
-#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4="); -webkit-mask-size: 16px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 12px; height: 16px; top: 50%; transform: translateY(-50%); left: 55px; background: var(--green); z-index: 1; }
+#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4="); -webkit-mask-size: 16px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 12px; height: 16px; top: 50%; transform: translateY(-50%); left: 39px; background: var(--green); z-index: 1; }
 
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"] ~ .memberInner-2CPc3V .nameTag-m8r81H .username-2b1r56 { max-width: 168px; }
 
