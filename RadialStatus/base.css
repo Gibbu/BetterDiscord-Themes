@@ -46,7 +46,7 @@
 
 #app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*="offline"] { stroke: var(--rs-offline-color); }
 
-#app-mount .wrapper-3t9DeA rect[mask*="ivisible"], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: var(--rs-invisible-color); }
+#app-mount .wrapper-3t9DeA rect[mask*="invisible"], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] { stroke: var(--rs-invisible-color); }
 
 #app-mount .wrapper-3t9DeA rect[x="16"] { width: 24px; height: 24px; }
 
