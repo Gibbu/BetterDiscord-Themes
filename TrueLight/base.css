@@ -235,7 +235,7 @@
 .app-2rEoOp.theme-light .channels-Ie2l6A .container-1giJp5 span {
     font-weight: 600;
 }
-.app-2rEoOp.theme-light .container-3baos1 .button-2JbWXs .buttonIcon-onTTxP, .container-1giJp5 .button-2JbWXs .buttonIcon-onTTxP {
+.app-2rEoOp.theme-light .container-3baos1 .button-2JbWXs .buttonIcon-onTTxP, .app-2rEoOp.theme-light .container-1giJp5 .button-2JbWXs .buttonIcon-onTTxP {
     color: var(--bg0);
 }
 .app-2rEoOp.theme-light .button-2JbWXs:hover:not(.disabled-v9-Ysw) {
@@ -517,9 +517,17 @@
 .userPopout-3XzG_A .protip-YaFfgO {
     display: none;
 }
-.userPopout-3XzG_A .quickMessage-2XpSaN {
+.userPopout-3XzG_A .footer-1fjuF6 {
+    padding: 0;
     border: none;
+}
+.userPopout-3XzG_A .quickMessage-2XpSaN {
+    margin: 0 10px 10px;
+    width: calc(100% - 20px);
+}
+.theme-light .userPopout-3XzG_A .quickMessage-2XpSaN {
     background: var(--bg8);
+    border: none;
 }
 .theme-light .item-2J1YMK, .theme-light .item-1Yvehc {
     color: var(--c2);
@@ -536,8 +544,7 @@
     color: var(--c4);
 }
 
-
-/***** Emoji Picker *****/
+/*** Emoji Picker ***/
 .emojiPicker-3m1S-j .scroller-3vODG7 {
     height: var(--emojiPickerHeight) !important;
 }
@@ -550,6 +557,13 @@
 .lightTheme-3LGLQs .input-1Rv96N::placeholder {
     color: var(--c5);
 }
+
+/*** RTC CONNECTION ***/
+.container-2x5lvQ section {
+    background: var(--bg8);
+}
+
+
 
 
 
@@ -761,9 +775,12 @@
 
 /***** Version *****/
 [aria-label="USER_SETTINGS"] .side-8zPYf6 .header-2RyJ0Y:first-child::before {
-    content: "TrueLight v1.0.2";
+    content: "TrueLight v1.0.3";
     display: block;
     margin-bottom: 5px;
-    border-bottom: 1px solid var(--bg4);
     padding-bottom: 5px;
+    border-bottom: 1px solid var(--bg4);
+}
+.app-2rEoOp.theme-dark [aria-label="USER_SETTINGS"] .side-8zPYf6 .header-2RyJ0Y:first-child::before {
+    border-bottom-color: #40444b;
 }
