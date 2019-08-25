@@ -1,0 +1,55 @@
+[id*="bd-customcss-editor"] {
+    background: var(--bg5);
+    .ace_gutter {
+        background: var(--bg7);
+    }
+    .ace_active-line {
+        background: var(--bg6);
+    }
+}
+#bd-customcss-attach-controls {
+    position: relative;
+}
+#bd-customcss-attach-controls {
+    box-shadow: none !important;
+    background: var(--bg7) !important;
+    padding: 0 !important;
+    .btn {
+        background: var(--bg13) !important;
+        border: none !important;
+        margin: 0 !important;
+    }
+    span[style="font-size: 10px; margin-left: 5px;"] {
+        position: absolute;
+        right: 4px;
+        margin-top: -25px;
+        opacity: .5;
+    }
+    .help-text {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        opacity: .5;
+        .inline {
+            font-size: 12px;
+            background: var(--bg4);
+        }
+    }
+    .checkbox-group {
+        padding: 10px 0 0 10px;
+        margin-bottom: -10px;
+    }
+}
+#bd-customcss-detach-controls-button {
+    display: flex;
+    margin-top: 25px;
+    button {
+        flex: 1;
+        padding: 10px 0;
+        height: auto !important;
+        &:hover {
+            background: var(--bg15) !important;
+        }
+    }
+}

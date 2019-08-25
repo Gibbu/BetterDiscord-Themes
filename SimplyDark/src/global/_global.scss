@@ -83,7 +83,7 @@
 
 // Status
 #app-mount .wrapper-3t9DeA {
-    position: unset;
+    position: relative;
     * {
         overflow: visible;
         mask: none;
@@ -121,12 +121,15 @@
     }
 
     &[style*="width: 80px;"] {
+        position: relative;
         rect {
             width: 80px;
             height: 80px;
         }
-        foreignObject[mask*="mobile"]:after {
-            -webkit-mask-size: 32px;
+        &[style*="width: 80px;"]:after {
+            left: 50%;
+            top: -19px;
+            transform: translateX(-50%);
         }
     }
     &[style*="width: 32px;"] rect {
@@ -153,7 +156,7 @@
             height: 16px;
             top: 50%;
             transform: translateY(-50%);
-            left: 55px;
+            left: 39px;
             background: var(--green);
             z-index: 1;
         }
@@ -204,4 +207,9 @@
         border: none;
         box-shadow: none;
     }
+}
+
+// Notices
+.notice-2FJMB4 .dismiss-SCAH9H {
+    left: 0;
 }

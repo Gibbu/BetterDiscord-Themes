@@ -18,7 +18,7 @@
 
     --SD-emojipickerheight: 224px; /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
     --SD-roundness: 0px; /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 150px */
-    --SD-avatar-status-width: 2px; /* Width of status border around avatars (must end in px) */
+    --SD-avatar-status-width: 2px; /* Width of status border around avatars (must end in px) | DEFAULT: 2px */
 
 }
 
@@ -31,6 +31,7 @@
 @import 'general/settings';
 @import 'general/pages';
 @import 'general/keyframes';
+@import 'general/customCSS';
 
 @import 'global/scrollbars';
 @import 'global/headers';
