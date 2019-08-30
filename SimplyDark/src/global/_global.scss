@@ -140,7 +140,7 @@
         y: -17;
     }
     img {
-        border-radius: var(--SD-roundness);
+        border-radius: var(--SD-roundness) !important;
     }
     &[aria-label*="mobile"] {
         margin-right: 24px;
