@@ -266,12 +266,19 @@
 		}
 	}
 
-
-
-
-
-
-
-
-
+	// Call
+	.video-1FfuMD {
+		background: var(--bg3);
+		.actions-2vadYq .center-1Vp33r {
+			background: var(--bg3);
+			border: none;
+		}
+		.callAvatar-v-u4BM.video-3GgX2M, .callAvatar-v-u4BM.voice-2D-tt_, .callAvatarBorder-1D_KaE {
+			border-radius: var(--SD-roundness) !important;
+		}
+		.callAvatarStatus-3y6S04 {
+			border-color: var(--bg3);
+			border-radius: var(--SD-roundness) !important;
+		}
+	}
 }

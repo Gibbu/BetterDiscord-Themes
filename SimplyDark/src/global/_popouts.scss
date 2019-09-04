@@ -9,6 +9,9 @@
     .userPopout-3XzG_A {
         box-shadow: none;
         margin-top: -1px;
+        .wrapper-3t9DeA[aria-label*="mobile"] {
+            margin-right: 0;
+        }
         .headerPlaying-j0WQBV {
             background: var(--bg8);
         }
@@ -56,6 +59,8 @@
                     height: auto;
                     position: relative;
                     border: none;
+                    overflow: hidden;
+                    border-radius: var(--SD-roundness) !important;
                     .roleCircle-3xAZ1j {
                         width: 22px;
                         height: 22px;
@@ -78,6 +83,9 @@
                         z-index: 2;
                     }
                 }
+            }
+            .actionButton-VzECiy {
+                border-radius: var(--SD-roundness) !important;
             }
         }
         .footer-1fjuF6 {
@@ -422,9 +430,9 @@
         }
     }
 
-
-
-
-
-
+    // Incoming call
+    .incomingCallInner-2VmFiR {
+        background: var(--bg10);
+        border: none;
+    }
 }

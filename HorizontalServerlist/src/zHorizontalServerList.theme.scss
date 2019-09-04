@@ -1,0 +1,409 @@
+/*! //META {"name": "zHorizontal Serverlist", "description": "Moves the server list from the left to the top of Discord. Also allows for adjusting the size of the server icons. Customizable in the file or Custom CSS tab.", "author": "Gibbu", "version": "1.1", "website": "https://gibbu.me", "source": "https://github.com/Gibbu/BetterDiscord-Themes/tree/master/HorizontalServerlist"} #{'*'}//**/
+/* @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css"); */
+
+// CLASSES
+$app: "#app-mount";
+$container: ".container-2lgZY8";
+$wrapper: ".wrapper-1Rf91z";
+$serverFolder: "#{$wrapper}.foldercontent";
+$scrollerWrap: ".scrollerWrap-2lJEkd";
+$scroller: ".scroller-2FKFPG";
+
+$listItem: ".listItem-2P_4kh";
+$bar: "div[class*='pill']";
+$blob: ".blobContainer-239gwq, .blob-1PX1Gp, .blob-3RT82C";
+$guildSeparator: ".guildSeparator-3s64Iy";
+$badgeWrapper: ".badgeWrapper-3e8pMZ";
+$guildError: ".guildsError-b7zR5H";
+
+$circleButton: ".circleButtonMask-2VNJsN";
+
+:root {
+    --HSL-size: 35px;
+    --HSL-spacing: 10px;
+    --HSL-roundness: 50%;
+    --HSL-roundnessHover: 20%;
+}
+
+
+
+#app-mount .base-3dtUhz {
+    border-radius: 0;
+}
+
+#{$container} {
+    flex-direction: column;
+}
+
+
+#{$wrapper} {
+    width: 100% !important;
+    position: relative;
+    max-height: calc(var(--HSL-size) + 20px) !important;
+    #{$scrollerWrap} {
+        width: 100% !important;
+    }
+    #{$scroller} {
+        display: flex;
+        padding: 0 0 0 var(--HSL-spacing) !important;
+        flex-wrap: wrap;
+        // Home Button
+        & > #{$listItem}:first-child {
+            svg {
+                width: 100%;
+                height: 100%;
+                svg {
+                    width: 55%;
+                }
+            }
+            & + #{$listItem}:not([style]) {
+                width: auto !important;
+                height: var(--HSL-size) !important;
+                #{$guildSeparator} {
+                    width: 2px;
+                    height: 100%;
+                }
+            }
+        }
+        .placeholderMask-3K9THS {
+            height: var(--HSL-size) !important;
+            width: var(--HSL-size) !important;
+
+        }
+        .wrapper-21YSNc {
+            min-width: var(--HSL-size) !important;
+            width: auto !important;
+            max-height: calc(var(--HSL-size) + 20px) !important;
+            margin-right: var(--HSL-spacing) !important;
+            display: flex;
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+            .folder-21wGz3 {
+                background: transparent;
+            }
+            .expandedFolderBackground-2sPsd- {
+                top: 50%;
+                transform: translateY(-50%);
+                bottom: unset;
+                height: var(--HSL-size) !important;
+                left: -5px;
+                width: 100%;
+            }
+            .expandedGuilds-1JMD4M {
+                width: auto;
+                max-height: calc(var(--HSL-size) + 20px) !important;
+                display: flex;
+                animation: folderOpen 0.2s ease forwards;
+            }
+        }
+        #{$listItem} {
+            width: var(--HSL-size) !important;
+            height: var(--HSL-size) !important;
+            margin: 10px var(--HSL-spacing) 10px 0 !important;
+            position: relative;
+            .listItemWrapper-3X98Pc {width: 100%; height: 100%;}
+            .wrapper-25eVIn {width: var(--HSL-size); height: var(--HSL-size)}
+            #{$blob} {
+                width: var(--HSL-size) !important;
+                height: var(--HSL-size) !important;
+                .svg-1X37T1, .wrapper-25eVIn {
+                    width: var(--HSL-size) !important;
+                    height: var(--HSL-size) !important;
+                }
+            }
+            #{$badgeWrapper} {
+                & > div[class*="Badge"] {
+                    border-radius: var(--HSL-roundness);
+                    div {
+                        border-radius: var(--HSL-roundness);
+                    }
+                }
+                div[class*="lowerBadge"] {
+                    right: -2px;
+                    bottom: -2px;
+                }
+                div[class*="upperBadge"] {
+                    top: -2px;
+                    right: -2px;
+                    &.count {
+                        left: -2px;
+                        right: unset;
+                    }
+                }
+            }
+            mask {
+                display: none;
+            }
+            a {
+                border-radius: var(--HSL-roundness);
+                overflow: hidden;
+                transition: 0.2s ease;
+            }
+            #{$bar} {
+                position: absolute;
+                top: -10px;
+                left: 0;
+                width: 100%;
+                height: 4px;
+                span {
+                    height: 4px !important;
+                    width: 100% !important;
+                    transform: scale(0,1) !important;
+                    margin-left: 0;
+                    border-radius: 0 0 4px 4px;
+                    transition: 0.2s ease !important;
+                    opacity: 0 !important;
+                    transform-origin: center top;
+                }
+                // Not hovered
+                @for $i from 0 through 8 {
+                    span[style*="height: #{$i}"] {
+                        transform: scale(0,1) !important;
+                        opacity: 0 !important;
+                    }
+                }
+                // Unread
+                @for $i from 0 through 7 {
+                    span[style*="opacity: 0.#{$i}"] {
+                        transform: scale(0.25,1) !important;
+                        opacity: .5 !important;
+                    }
+                }
+                // Hovered
+                @for $i from 9 through 20 {
+                    span[style*="height: #{$i}"] {
+                        transform: scale(0.7,1) !important;
+                        opacity: .5 !important;
+                    }
+                }
+                // Selected
+                @for $i from 21 through 40 {
+                    span[style*="height: #{$i}"] {
+                        transform: scale(1,1) !important;
+                        opacity: 1 !important;
+                    }
+                }
+            }
+            &:hover a {
+                border-radius: var(--HSL-roundnessHover);
+            }
+        }
+        #bd-pub-li#{$listItem} {
+            position: absolute;
+            left: calc(var(--HSL-spacing) - 5px);
+            top: -10px;
+            height: auto !important;
+            width: calc(var(--HSL-size) + 10px) !important;
+            margin: 0;
+            div {
+                width: 100%;
+                height: 15px !important;
+                line-height: 12px
+            }
+            & + #{$listItem} {
+                width: auto !important;
+                #{$guildSeparator} {
+                    width: 2px;
+                    height: 100%;
+                }
+            }
+        }
+        // Direct Messages
+        & > div[style]:not(#{$listItem}) {
+            height: var(--HSL-size) !important;
+            width: var(--HSL-size) !important;
+            margin: 10px var(--HSL-spacing) 10px 0;
+            #{$listItem} {
+                margin: 0 !important;
+                .wrapper-1BJsBx {
+                    width: var(--HSL-size);
+                    height: var(--HSL-size);
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            // Guild Separator
+            & + #{$listItem} {
+                width: auto !important;
+                height: var(--HSL-size) !important;
+                #{$guildSeparator} {
+                    width: 2px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    [class*="unreadMentionsIndicator"] {
+        display: none;
+    }
+    #{$circleButton} {
+        width: var(--HSL-size);
+        height: var(--HSL-size);
+        & > svg {
+            border-radius: var(--HSL-roundness);
+            width: var(--HSL-size);
+            height: var(--HSL-size);
+            transition: 0.2s ease;
+            svg {
+                width: 65%;
+                height: 65%;
+            }
+        }
+        &:hover > svg {
+            border-radius: var(--HSL-roundnessHover);
+        }
+    }
+    #{$guildError} {
+        height: var(--HSL-size) !important;
+    }
+}
+
+// In video call
+#app-mount .videoHeight-Qp_9vC {
+    &.noChat-2qlG4B {
+        height: calc(100vh - var(--HSL-size) * 2);
+    }
+}
+
+// ServerFolders
+#app-mount #{$serverFolder} {
+    transition: height 0.3s ease !important;
+    height: calc(var(--HSL-size) + 20px);
+    width: 100% !important;
+    margin-top: 0 !important;
+    #{$listItem} {
+        &.folderseparatorouter {
+            width: auto !important;
+            div {
+                width: 2px;
+                height: auto;
+            }
+        }
+        #{$bar} span {
+            width: 100% !important;
+            transform: none;
+        }
+    }
+    &.foldercontentclosed {
+        height: 0;
+        width: 100% !important;
+    }
+}
+body.foldercontentopened .videoHeight-Qp_9vC {
+    &.noChat-2qlG4B {
+        height: calc(100vh - var(--HSL-size) * 3.5) !important;
+    }
+}
+
+// Read All Notications Button by DevilBro
+#app-mount #{$wrapper} .RANbutton-frame {
+    position: absolute;
+    left: calc(var(--HSL-spacing) - 5px);
+    bottom: -2px;
+    height: auto !important;
+    width: calc(var(--HSL-size) + 10px) !important;
+    margin: 0;
+    div {
+        width: 100%;
+        height: 15px !important;
+    }
+}
+#app-mount #{$wrapper} #{$scroller} .RANbutton-frame + #{$listItem} {
+    width: auto !important;
+    height: var(--HSL-size) !important;
+    #{$guildSeparator} {
+        width: 2px;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

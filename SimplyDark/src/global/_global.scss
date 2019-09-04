@@ -127,17 +127,25 @@
             height: 80px;
         }
         &[style*="width: 80px;"]:after {
-            left: 50%;
-            top: -19px;
-            transform: translateX(-50%);
+            top: auto;
+            left: auto;
+            bottom: -15px;
+            right: 0;
         }
     }
-    &[style*="width: 32px;"] rect {
-        width: 32px;
-        height: 32px;
-        overflow: visible;
-        x: -14.5;
-        y: -17;
+    &[style*="width: 32px;"] {
+        rect {
+            width: 32px;
+            height: 32px;
+            overflow: visible;
+            x: -14.5;
+            y: -17;
+            rx: calc(var(--SD-roundness) / 2) !important;
+            ry: calc(var(--SD-roundness) / 2) !important;
+        }
+        img {
+            border-radius: calc(var(--SD-roundness) / 2) !important;
+        }
     }
     img {
         border-radius: var(--SD-roundness) !important;
