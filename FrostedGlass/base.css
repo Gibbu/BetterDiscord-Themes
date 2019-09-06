@@ -221,7 +221,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .chat-3bRxxu blockquote { border-color: rgba(var(--BG-gradient-one), 1); background: rgba(0, 0, 0, 0.3); padding: 8px 8px 8px 12px; }
 
-#app-mount .chat-3bRxxu .hasMore-3e72_v button, #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL, #app-mount .chat-3bRxxu .botTagRegular-2HEhHi:not(.TRE-tag) { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; color: #fff !important; border: none !important; font-weight: 600 !important; }
+#app-mount .chat-3bRxxu .hasMore-3e72_v button, #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL, #app-mount .chat-3bRxxu .botTagRegular-2HEhHi:not(.TRE-tag) { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)); color: #fff; border: none !important; font-weight: 600 !important; }
 
 #app-mount .chat-3bRxxu .akaBadge-1M-1Gw { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; }
 
@@ -682,6 +682,8 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .splashBackground-1FRCko canvas { display: none; }
 
 /* ---------- OTHER PAGES END ---------- */
+.app-19_DXt.platform-osx .notice-2FJMB4 .dismiss-SCAH9H { left: auto !important; right: 0 !important; }
+
 #app-mount .notice-2FJMB4 { overflow: hidden; }
 
 #app-mount .notice-2FJMB4:before { height: calc(100% + var(--BG-image-blur) * 4); width: calc(100% + var(--BG-image-blur) * 5); left: calc(var(--BG-image-blur) / -1 * 3); top: calc(var(--BG-image-blur) / -1 * 2); z-index: -1; }
