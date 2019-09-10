@@ -6,6 +6,9 @@
         .botTagRegular-2HEhHi {
             background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
         }
+        .layout-2DM8Md {
+            background: transparent;
+        }
         .member-3W1lQa {
             .botTag-2WPJ74 {
                 font-weight: bold;
@@ -13,9 +16,9 @@
             &:hover {
                 background: rgba(#fff, 0.1);
             }
-            &.popout-open {
+            &.selected-aXhQR6 {
                 background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-                .nameTag-3p0yK- {
+                .roleColor-36x_Mz {
                     color: #fff !important;
                 }
                 .botTag-2WPJ74 {

@@ -10,8 +10,8 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-    .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8 {
-        background: transparent;
+    .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .appMount-3lHmkl, body {
+        background: transparent !important;
     }
 	.mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
 		background: rgba(var(--BG-gradient-one), 1);

@@ -3,11 +3,14 @@
 #app-mount .wrapper-1Rf91z {
     background: transparent;
     border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
-    .iconBadge-2wi9r4, .mention-1f5kbO, .button-OhfaWu {
+    .childWrapper-anI2G9, .mention-1f5kbO, .button-OhfaWu {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
     }
     .listItem-2P_4kh:first-child {
         margin-top: 10px;
+    }
+    .childWrapper-anI2G9 {
+        color: #fff;
     }
     .folder-21wGz3, .folderIconWrapper-226oVY {
         background: transparent !important;

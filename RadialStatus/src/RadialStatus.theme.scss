@@ -147,7 +147,7 @@
             &[fill="#747f8d"], &[mask*="offline"] {
                 stroke: var(--rs-offline-color);
             }
-            &[mask*="ivisible"], &[fill="rgba(116, 127, 141, 1)"] {
+            &[mask*="invisible"], &[fill="rgba(116, 127, 141, 1)"] {
                 stroke: var(--rs-invisible-color);
             }
             &[x="16"] {
