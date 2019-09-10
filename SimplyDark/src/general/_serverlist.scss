@@ -29,37 +29,29 @@
             height: 100%;
             width: 4px;
             span {
+                height: 100% !important;
                 transition: 0.2s ease !important;
-                transform: none !important;
+                transform: scale(1,0) !important;
+                // Unread
+                @for $i from 0 through 8 {
+                    &[style*="height: #{$i}"] {
+                        transform: scale(1,0.25) !important;
+                    }
+                }
+                // Hovered
+                @for $i from 9 through 20 {
+                    &[style*="height: #{$i}"] {
+                        transform: scale(1,0.50) !important;
+                    }
+                }
+                // Selected
+                @for $i from 21 through 40 {
+                    &[style*="height: #{$i}"] {
+                        transform: scale(1,1) !important;
+                    }
+                }
             }
             // Not hovered and no notification
-            @for $i from 0 through 8 {
-                span[style*="height: #{$i}"] {
-                    height: 0% !important;
-                    opacity: 0 !important;
-                }
-            }
-            // Unread
-            @for $i from 0 through 7 {
-                span[style*="opacity: 0.#{$i}"] {
-                    height: 25% !important;
-                    opacity: .5 !important;
-                }
-            }
-            // Hovered
-            @for $i from 9 through 20 {
-                span[style*="height: #{$i}"] {
-                    height: 50% !important;
-                    opacity: .5 !important;
-                }
-            }
-            // Selected
-            @for $i from 21 through 40 {
-                span[style*="height: #{$i}"] {
-                    height: 100% !important;
-                    opacity: 1 !important;
-                }
-            }
         }
         .blobContainer-239gwq {
             .acronym-2mOFsV {

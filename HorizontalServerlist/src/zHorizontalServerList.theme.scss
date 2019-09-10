@@ -161,35 +161,24 @@ $circleButton: ".circleButtonMask-2VNJsN";
                     margin-left: 0;
                     border-radius: 0 0 4px 4px;
                     transition: 0.2s ease !important;
-                    opacity: 0 !important;
                     transform-origin: center top;
                 }
-                // Not hovered
+                // Unread
                 @for $i from 0 through 8 {
                     span[style*="height: #{$i}"] {
-                        transform: scale(0,1) !important;
-                        opacity: 0 !important;
-                    }
-                }
-                // Unread
-                @for $i from 0 through 7 {
-                    span[style*="opacity: 0.#{$i}"] {
                         transform: scale(0.25,1) !important;
-                        opacity: .5 !important;
                     }
                 }
                 // Hovered
                 @for $i from 9 through 20 {
                     span[style*="height: #{$i}"] {
                         transform: scale(0.7,1) !important;
-                        opacity: .5 !important;
                     }
                 }
                 // Selected
                 @for $i from 21 through 40 {
                     span[style*="height: #{$i}"] {
                         transform: scale(1,1) !important;
-                        opacity: 1 !important;
                     }
                 }
             }
