@@ -1,8 +1,9 @@
 /* ---------- CHANNELS START ---------- */
 
-#app-mount .channels-Ie2l6A {
+#app-mount .sidebar-2K8pFh {
     overflow: hidden;
     margin-right: var(--BG-left-right-split);
+    border-radius: 0;
     .searchBar-6Kv8R2 {
         box-shadow: 0 0 5px rgba(#000,0.5);
         .darkTheme-3uETC4.container-2XeR5Z {
@@ -129,17 +130,21 @@
             }
         }
     }
+    .privateChannels-1nO12o {
+        background: transparent;
+    }
     .privateChannels-1nO12o header {
         opacity: .5;
     }
-    .container-1giJp5 {
+    .panels-j1Uci_ {
         position: relative;
-        background: rgba(0,0,0,0);
-        border-bottom: none;
-    }
-    .container-3baos1 {
-        position: relative;
-        background: rgba(0,0,0,0);
+        background: transparent;
+        .container-1giJp5 {
+            border: none;
+        }
+        .container-3baos1 {
+            border: none;
+        }
     }
 }
 

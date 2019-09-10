@@ -26,6 +26,12 @@ $circleButton: ".circleButtonMask-2VNJsN";
 }
 
 
+.base-3dtUhz {
+    top: calc(var(--HSL-size) + 20px);
+    left: 0;
+}
+
+
 
 #app-mount .base-3dtUhz {
     border-radius: 0;
@@ -33,6 +39,7 @@ $circleButton: ".circleButtonMask-2VNJsN";
 
 #{$container} {
     flex-direction: column;
+    display: flex;
 }
 
 

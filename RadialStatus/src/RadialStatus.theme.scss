@@ -22,6 +22,7 @@
 
 // @import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 
+
 #app-mount {
     .wrapper-3t9DeA {
         * {
@@ -93,10 +94,21 @@
             border-radius: 50%;
         }
         &[aria-label*="mobile"] {
-            margin-right: 20px;
+            &:before {
+                content: "";
+                background: rgba(12,12,12,0.3);
+                border-radius: 50%;
+                height: 30px;
+                width: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: block;
+                position: absolute;
+                right: -180px;
+            }
             &:after {
                 content: "";
-                -webkit-mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4gICAgPHBhdGggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMzQgMi4wMkwxNCAyYy0yLjIxIDAtNCAxLjc5LTQgNHYzNmMwIDIuMjEgMS43OSA0IDQgNGgyMGMyLjIxIDAgNC0xLjc5IDQtNFY2YzAtMi4yMS0xLjc5LTMuOTgtNC0zLjk4ek0zNCAzOEgxNFYxMGgyMHYyOHoiLz48L3N2Zz4=');
+                -webkit-mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgPHBhdGggZD0iTTE1LjUgMWgtOEM2LjEyIDEgNSAyLjEyIDUgMy41djE3QzUgMjEuODggNi4xMiAyMyA3LjUgMjNoOGMxLjM4IDAgMi41LTEuMTIgMi41LTIuNXYtMTdDMTggMi4xMiAxNi44OCAxIDE1LjUgMXptLTQgMjFjLS44MyAwLTEuNS0uNjctMS41LTEuNXMuNjctMS41IDEuNS0xLjUgMS41LjY3IDEuNSAxLjUtLjY3IDEuNS0xLjUgMS41em00LjUtNEg3VjRoOXYxNHoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==');
                 -webkit-mask-size: 16px;
                 -webkit-mask-repeat: no-repeat;
                 -webkit-mask-position: center;
@@ -106,12 +118,9 @@
                 height: 16px;
                 top: 50%;
                 transform: translateY(-50%);
-                left: 37px;
+                right: -171px;
                 background: var(--rs-online-color);
                 z-index: 1;
-            }
-            ~ .memberInner-2CPc3V .nameTag-m8r81H .username-2b1r56 {
-                max-width: 168px;
             }
         }
         rect {
@@ -138,7 +147,7 @@
             &[fill="#747f8d"], &[mask*="offline"] {
                 stroke: var(--rs-offline-color);
             }
-            &[mask*="invisible"], &[fill="rgba(116, 127, 141, 1)"] {
+            &[mask*="ivisible"], &[fill="rgba(116, 127, 141, 1)"] {
                 stroke: var(--rs-invisible-color);
             }
             &[x="16"] {

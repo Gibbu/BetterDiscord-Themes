@@ -45,8 +45,8 @@
             padding: 8px 8px 8px 12px;
         }
         .hasMore-3e72_v button, .mention, .wrapper-3WhCwL, .botTagRegular-2HEhHi:not(.TRE-tag) {
-            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
-            color: #fff !important;
+            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1));
+            color: #fff;
             border: none !important;
             font-weight: 600 !important;
         }
@@ -140,6 +140,15 @@
         background: transparent;
         .inner-zqa7da {
             background: rgba(255,255,255,0.1);
+            textarea {
+                font-weight: 500;
+                &::placeholder {
+                    font-weight: 500;
+                }
+            }
+            .attachButtonDivider-3Glu60 {
+                background-color: rgba(#fff, 0.05);
+            }
         }
         .channelTextArea-rNsIhG {
             border-color: rgba(#fff, 0.1);

@@ -1,4 +1,4 @@
-#app-mount .channels-Ie2l6A {
+#app-mount .sidebar-2K8pFh {
     background: var(--bg4);
     .container-PNkimc {
         background: transparent;
@@ -69,7 +69,7 @@
         }
     }
 
-    .button-2JbWXs:hover {
+    .button-14-BFJ:hover {
         background: var(--bg7);
     }
 
@@ -79,7 +79,7 @@
         border: none;
     }
     // User
-    .container-3baos1 {
+    .panels-j1Uci_ {
         background: var(--bg5);
     }
 
@@ -103,6 +103,7 @@
 
     // Private messages
     .privateChannels-1nO12o {
+        background: var(--bg4);
         .searchBar-6Kv8R2 {
             padding: 0;
             height: auto;
@@ -129,23 +130,26 @@
             }
         }
         .channel-2QD9_O {
-            a {
-                margin-left: 0;
+            margin: 0;
+            padding: 0;
+            max-width: 100% !important;
+            .layout-2DM8Md {
                 padding-left: 16px;
-                svg {
-                    color: #fff;
-                }
-                .name-2WpE7M {
-                    color: #888;
-                }
+                background: transparent;
             }
-            &:hover a {
+            svg {
+                color: #fff;
+            }
+            .name-2WpE7M {
+                color: #888;
+            }
+            &:hover {
                 background: var(--bg5);
                 .name-2WpE7M {
                     color: #ddd;
                 }
             }
-            &.selected-1HYmZZ a {
+            &.selected-aXhQR6 {
                 background: var(--bg6);
                 .name-2WpE7M {
                     color: #fff;
