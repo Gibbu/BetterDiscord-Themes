@@ -57,12 +57,13 @@
                 background: transparent;
             }
         }
-        div[style="width: 100%; height: 78px; visibility: hidden;"] {
+        div[style="width: 100%; height: 84px; visibility: hidden;"] {
             height: 120px !important;
         }
-        .bannerImage-1jOskm {
+        .animatedContainer-1pJv5C {
             margin-top: 48px;
-            background-size: 0, cover !important;
+        }
+        .bannerImage-1jOskm {
             -webkit-mask: linear-gradient(rgba(0,0,0,0.9) 50%, rgba(0,0,0,0) 100%) !important;
             &:after {
                 background: rgba(#000, 0.2);

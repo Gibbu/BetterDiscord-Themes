@@ -3,6 +3,7 @@
 #app-mount .wrapper-1Rf91z {
     background: transparent;
     border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
+    position: relative !important;
     .childWrapper-anI2G9, .mention-1f5kbO, .button-OhfaWu {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
     }
@@ -65,6 +66,9 @@
         &:hover {
             opacity: 1;
         }
+    }
+    &.foldercontent {
+        left: 0;
     }
 }
 /* ---------- SERVER LIST END ---------- */

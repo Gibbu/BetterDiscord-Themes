@@ -4,6 +4,7 @@
 // CLASSES
 $app: "#app-mount";
 $container: ".container-2lgZY8";
+$base: ".base-3dtUhz";
 $wrapper: ".wrapper-1Rf91z";
 $serverFolder: "#{$wrapper}.foldercontent";
 $scrollerWrap: ".scrollerWrap-2lJEkd";
@@ -25,23 +26,19 @@ $circleButton: ".circleButtonMask-2VNJsN";
     --HSL-roundnessHover: 20%;
 }
 
-
-.base-3dtUhz {
-    top: calc(var(--HSL-size) + 20px);
-    left: 0;
-}
-
-
-
-#app-mount .base-3dtUhz {
-    border-radius: 0;
-}
-
 #{$container} {
-    flex-direction: column;
-    display: flex;
+    flex-direction: column !important;
+    display: flex !important;
 }
 
+#{$base} {
+    height: 100% !important;
+    position: relative;
+    left: 0;
+    .sidebar-2K8pFh {
+        border-radius: 0;
+    }
+}
 
 #{$wrapper} {
     width: 100% !important;
@@ -54,6 +51,8 @@ $circleButton: ".circleButtonMask-2VNJsN";
         display: flex;
         padding: 0 0 0 var(--HSL-spacing) !important;
         flex-wrap: wrap;
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 10px;
         // Home Button
         & > #{$listItem}:first-child {
             svg {
@@ -110,8 +109,13 @@ $circleButton: ".circleButtonMask-2VNJsN";
             height: var(--HSL-size) !important;
             margin: 10px var(--HSL-spacing) 10px 0 !important;
             position: relative;
+            scroll-snap-align: start;
             .listItemWrapper-3X98Pc {width: 100%; height: 100%;}
             .wrapper-25eVIn {width: var(--HSL-size); height: var(--HSL-size)}
+            .svg-1X37T1 {
+                width: var(--HSL-size) !important;
+                height: var(--HSL-size) !important;
+            }
             #{$blob} {
                 width: var(--HSL-size) !important;
                 height: var(--HSL-size) !important;
@@ -213,14 +217,6 @@ $circleButton: ".circleButtonMask-2VNJsN";
             margin: 10px var(--HSL-spacing) 10px 0;
             #{$listItem} {
                 margin: 0 !important;
-                .wrapper-1BJsBx {
-                    width: var(--HSL-size);
-                    height: var(--HSL-size);
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
             }
 
             // Guild Separator
@@ -290,9 +286,11 @@ $circleButton: ".circleButtonMask-2VNJsN";
         width: 100% !important;
     }
 }
-body.foldercontentopened .videoHeight-Qp_9vC {
-    &.noChat-2qlG4B {
-        height: calc(100vh - var(--HSL-size) * 3.5) !important;
+body.foldercontentopened {
+    .videoHeight-Qp_9vC {
+        &.noChat-2qlG4B {
+            height: calc(100vh - var(--HSL-size) * 3.5) !important;
+        }
     }
 }
 

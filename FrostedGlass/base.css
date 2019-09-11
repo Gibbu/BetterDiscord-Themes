@@ -81,7 +81,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 /* ---------- GENERAL END ---------- */
 /* ---------- SERVER LIST START ---------- */
-#app-mount .wrapper-1Rf91z { background: transparent; border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness); }
+#app-mount .wrapper-1Rf91z { background: transparent; border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness); position: relative !important; }
 
 #app-mount .wrapper-1Rf91z .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .mention-1f5kbO, #app-mount .wrapper-1Rf91z .button-OhfaWu { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
@@ -120,6 +120,8 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .wrapper-1Rf91z .guildsError-b7zR5H, #app-mount .wrapper-1Rf91z .guildIconUnavailable-5PMHDN { opacity: .5; border: none; background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); transition: 0.1s ease; }
 
 #app-mount .wrapper-1Rf91z .guildsError-b7zR5H:hover, #app-mount .wrapper-1Rf91z .guildIconUnavailable-5PMHDN:hover { opacity: 1; }
+
+#app-mount .wrapper-1Rf91z.foldercontent { left: 0; }
 
 /* ---------- SERVER LIST END ---------- */
 /* ---------- CHANNELS START ---------- */

@@ -20,6 +20,13 @@
             background: var(--bg10);
         }
     }
+    #charcounter {
+        bottom: unset;
+        top: -18px;
+        right: 3px;
+        pointer-events: none;
+        opacity: .3;
+    }
     .inner-zqa7da {
         background: var(--bg3);
     }
