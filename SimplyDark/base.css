@@ -231,6 +231,8 @@
 
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs:hover { background: var(--bg10); }
 
+#app-mount .chat-3bRxxu #charcounter { bottom: unset; top: -18px; right: 3px; pointer-events: none; opacity: .3; }
+
 #app-mount .chat-3bRxxu .inner-zqa7da { background: var(--bg3); }
 
 #app-mount .chat-3bRxxu .textAreaEdit-bNLDk3 { background: var(--bg3); color: #fff; }

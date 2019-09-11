@@ -1,13 +1,13 @@
-.base-3dtUhz {
-  top: calc(var(--HSL-size) + 20px);
-  left: 0; }
-
-#app-mount .base-3dtUhz {
-  border-radius: 0; }
-
 .container-2lgZY8 {
-  flex-direction: column;
-  display: flex; }
+  flex-direction: column !important;
+  display: flex !important; }
+
+.base-3dtUhz {
+  height: 100% !important;
+  position: relative;
+  left: 0; }
+  .base-3dtUhz .sidebar-2K8pFh {
+    border-radius: 0; }
 
 .wrapper-1Rf91z {
   width: 100% !important;
@@ -18,7 +18,9 @@
   .wrapper-1Rf91z .scroller-2FKFPG {
     display: flex;
     padding: 0 0 0 var(--HSL-spacing) !important;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 10px; }
     .wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:first-child svg {
       width: 100%;
       height: 100%; }
@@ -60,13 +62,17 @@
       width: var(--HSL-size) !important;
       height: var(--HSL-size) !important;
       margin: 10px var(--HSL-spacing) 10px 0 !important;
-      position: relative; }
+      position: relative;
+      scroll-snap-align: start; }
       .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .listItemWrapper-3X98Pc {
         width: 100%;
         height: 100%; }
       .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .wrapper-25eVIn {
         width: var(--HSL-size);
         height: var(--HSL-size); }
+      .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .svg-1X37T1 {
+        width: var(--HSL-size) !important;
+        height: var(--HSL-size) !important; }
       .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blobContainer-239gwq, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-1PX1Gp, .wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh .blob-3RT82C {
         width: var(--HSL-size) !important;
         height: var(--HSL-size) !important; }
@@ -212,12 +218,6 @@
       margin: 10px var(--HSL-spacing) 10px 0; }
       .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
         margin: 0 !important; }
-        .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx {
-          width: var(--HSL-size);
-          height: var(--HSL-size); }
-          .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh .wrapper-1BJsBx img {
-            width: 100%;
-            height: 100%; }
       .wrapper-1Rf91z .scroller-2FKFPG > div[style]:not(.listItem-2P_4kh) + .listItem-2P_4kh {
         width: auto !important;
         height: var(--HSL-size) !important; }

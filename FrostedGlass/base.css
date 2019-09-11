@@ -159,9 +159,11 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .sidebar-2K8pFh .container-PNkimc header.withBanner-3j8ruM { background: transparent; }
 
-#app-mount .sidebar-2K8pFh .container-PNkimc div[style="width: 100%; height: 78px; visibility: hidden;"] { height: 120px !important; }
+#app-mount .sidebar-2K8pFh .container-PNkimc div[style="width: 100%; height: 84px; visibility: hidden;"] { height: 120px !important; }
 
-#app-mount .sidebar-2K8pFh .container-PNkimc .bannerImage-1jOskm { margin-top: 48px; background-size: 0, cover !important; -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%) !important; }
+#app-mount .sidebar-2K8pFh .container-PNkimc .animatedContainer-1pJv5C { margin-top: 48px; }
+
+#app-mount .sidebar-2K8pFh .container-PNkimc .bannerImage-1jOskm { -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%) !important; }
 
 #app-mount .sidebar-2K8pFh .container-PNkimc .bannerImage-1jOskm:after { background: rgba(0, 0, 0, 0.2); }
 
@@ -284,6 +286,10 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .chat-3bRxxu .typing-2GQL18 { background: transparent; }
 
 #app-mount .chat-3bRxxu .typing-2GQL18 span { color: #fff; }
+
+#app-mount .button-2vd_v_ { opacity: .4; }
+
+#app-mount .button-2vd_v_:hover { opacity: 1; }
 
 #app-mount .wrapper-39oAo3 { background: rgba(0, 0, 0, 0.3); }
 
@@ -809,7 +815,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, #app-mount .bda-settings-button { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
-#app-mount .popoutBottomLeft-1pG8B4 .userPopout-3XzG_A { margin-left: 0; animation: fadeIn 0.2s ease forwards !important; }
+#app-mount .popoutRight-1veHKi .userPopout-3XzG_A { margin-left: 0; animation: fadeInRight 0.2s ease forwards !important; }
 
 #app-mount .popoutLeft-3aViER .userPopout-3XzG_A { animation: fadeInLeft 0.2s ease forwards !important; }
 
