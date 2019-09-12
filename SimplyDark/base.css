@@ -844,9 +844,9 @@
 
 *:before, *:after { border-radius: 0 !important; }
 
-::-webkit-input-placeholder, body, button, input, select, textarea, #app-mount { font-family: 'Roboto' !important; border-radius: 0 !important; -webkit-mask: none !important; mask: none !important; }
+::-webkit-input-placeholder, body, button, input, select, textarea { font-family: 'Roboto'; border-radius: 0 !important; -webkit-mask: none !important; mask: none !important; }
 
-::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after, #app-mount:before, #app-mount:after { border-radius: 0 !important; mask: none !important; }
+::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after { border-radius: 0 !important; mask: none !important; }
 
 #app-mount .tooltipBlack-PPG47z { background: var(--bg15); box-shadow: none; color: #fff; text-align: center; }
 
