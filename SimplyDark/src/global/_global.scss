@@ -153,9 +153,9 @@
     &[aria-label*="mobile"] {
         &:before {
             content: "";
-            background: rgba(12,12,12,0.3);
+            background: linear-gradient(90deg, transparent, var(--bg4) 50%);
             height: 30px;
-            width: 30px;
+            width: 50px;
             top: 50%;
             transform: translateY(-50%);
             display: block;

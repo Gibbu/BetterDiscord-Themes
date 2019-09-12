@@ -10,6 +10,9 @@
         }
         &:hover {
             background: var(--bg5);
+            [aria-label*="mobile"]:before {
+                background: linear-gradient(90deg, transparent, var(--bg5) 50%);
+            }
         }
         &.selected-aXhQR6 {
             background: var(--bg6);
