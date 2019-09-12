@@ -262,6 +262,15 @@ $circleButton: ".circleButtonMask-2VNJsN";
     }
 }
 
+// Frosted Glass & SimplyDark windows buttons fixed
+#app-mount .winButton-iRh8-Z {
+    margin-top: var(--HSL-btns);
+    transition: 0.3s margin-top ease;
+}
+body.foldercontentopened #app-mount .winButton-iRh8-Z {
+    margin-top: var(--HSL-btns-SF-opened);
+}
+
 // ServerFolders
 #app-mount #{$serverFolder} {
     transition: height 0.3s ease !important;
@@ -292,6 +301,9 @@ body.foldercontentopened {
             height: calc(100vh - var(--HSL-size) * 3.5) !important;
         }
     }
+}
+body:not(.foldercontentopened) #app-mount .wrapper-1Rf91z.foldercontent {
+    height: 0 !important;
 }
 
 // Read All Notications Button by DevilBro

@@ -169,3 +169,10 @@
 
 body.foldercontentopened .base-3dtUhz {
   margin-top: calc(var(--HSL-size) * 2 + 40px) !important; }
+
+#app-mount .winButton-iRh8-Z {
+  margin-top: var(--HSL-btns);
+  transition: 0.3s margin-top ease; }
+
+body.foldercontentopened #app-mount .winButton-iRh8-Z {
+  margin-top: var(--HSL-btns-SF-opened); }

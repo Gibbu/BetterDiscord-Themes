@@ -245,6 +245,13 @@
 #app-mount .videoHeight-Qp_9vC.noChat-2qlG4B {
   height: calc(100vh - var(--HSL-size) * 2); }
 
+#app-mount .winButton-iRh8-Z {
+  margin-top: var(--HSL-btns);
+  transition: 0.3s margin-top ease; }
+
+body.foldercontentopened #app-mount .winButton-iRh8-Z {
+  margin-top: var(--HSL-btns-SF-opened); }
+
 #app-mount .wrapper-1Rf91z.foldercontent {
   transition: height 0.3s ease !important;
   height: calc(var(--HSL-size) + 20px);
@@ -264,6 +271,9 @@
 
 body.foldercontentopened .videoHeight-Qp_9vC.noChat-2qlG4B {
   height: calc(100vh - var(--HSL-size) * 3.5) !important; }
+
+body:not(.foldercontentopened) #app-mount .wrapper-1Rf91z.foldercontent {
+  height: 0 !important; }
 
 #app-mount .wrapper-1Rf91z .RANbutton-frame {
   position: absolute;

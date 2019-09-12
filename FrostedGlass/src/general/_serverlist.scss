@@ -4,13 +4,7 @@
     background: transparent;
     border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
     position: relative !important;
-    top: unset !important;
-    left: unset !important;
-    bottom: unset !important;
     height: 100% !important;
-    .scroller-2TZvBN {
-        overflow-y: auto;
-    }
     .childWrapper-anI2G9, .mention-1f5kbO, .button-OhfaWu {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
     }

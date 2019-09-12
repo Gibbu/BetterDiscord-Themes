@@ -16,6 +16,9 @@
         }
         &.selected-aXhQR6 {
             background: var(--bg6);
+            [aria-label*="mobile"]:before {
+                background: linear-gradient(90deg, transparent, var(--bg6) 50%);
+            }
         }
     }
 }
