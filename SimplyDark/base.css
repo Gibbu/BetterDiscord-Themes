@@ -212,6 +212,12 @@
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O .layout-2DM8Md { padding-left: 16px; background: transparent; }
 
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 { position: relative; z-index: 1; opacity: 1; }
+
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 .closeIcon-rycxaQ { opacity: .5; }
+
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5:hover .closeIcon-rycxaQ { opacity: 1; }
+
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O svg { color: #fff; }
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M { color: #888; }
@@ -220,9 +226,17 @@
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O:hover .name-2WpE7M { color: #ddd; }
 
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O:hover .wrapper-3t9DeA[aria-label*="mobile"]:before { background: linear-gradient(90deg, transparent, var(--bg5) 50%); }
+
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O:hover .closeButton-2GCmT5 { background: var(--bg5); }
+
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 { background: var(--bg6); }
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .name-2WpE7M { color: #fff; }
+
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .wrapper-3t9DeA[aria-label*="mobile"]:before { background: linear-gradient(90deg, transparent, var(--bg5) 50%); }
+
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .closeButton-2GCmT5 { background: var(--bg6); }
 
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs { background: var(--bg9); left: 0; right: 0; }
 

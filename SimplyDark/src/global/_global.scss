@@ -4,8 +4,8 @@
         border-radius: 0 !important;
     }
 }
-::-webkit-input-placeholder, body, button, input, select, textarea, #app-mount {
-    font-family: 'Roboto' !important;
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'Roboto';
     border-radius: 0 !important;
     -webkit-mask: none !important;
     mask: none !important;

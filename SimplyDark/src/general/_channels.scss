@@ -137,6 +137,17 @@
                 padding-left: 16px;
                 background: transparent;
             }
+            .closeButton-2GCmT5 {
+                position: relative;
+                z-index: 1;
+                opacity: 1;
+                .closeIcon-rycxaQ {
+                    opacity: .5;
+                }
+                &:hover .closeIcon-rycxaQ {
+                    opacity: 1;
+                }
+            }
             svg {
                 color: #fff;
             }
@@ -148,11 +159,23 @@
                 .name-2WpE7M {
                     color: #ddd;
                 }
+                .wrapper-3t9DeA[aria-label*="mobile"]:before {
+                    background: linear-gradient(90deg, transparent, var(--bg5) 50%)
+                }
+                .closeButton-2GCmT5 {
+                    background: var(--bg5);
+                }
             }
             &.selected-aXhQR6 {
                 background: var(--bg6);
                 .name-2WpE7M {
                     color: #fff;
+                }
+                .wrapper-3t9DeA[aria-label*="mobile"]:before {
+                    background: linear-gradient(90deg, transparent, var(--bg5) 50%)
+                }
+                .closeButton-2GCmT5 {
+                    background: var(--bg6);
                 }
             }
         }

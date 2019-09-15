@@ -240,12 +240,22 @@
         }
     }
 
+    // Personal Pins by DevilBro
+    .messagesPopoutWrap-1MQ1bW .container-2XeR5Z {
+        background: rgba(#000, 0.3);
+        input::placeholder {
+            color: rgba(#fff, 0.5);
+            font-weight: 400;
+        }
+    }
+
     // Create group chat
     .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy {
         background: transparent;
         box-shadow: none;
         margin-left: -430px;
         margin-top: 50px;
+        position: absolute;
         .container-2XeR5Z {
             background: rgba(#000, 0.3);
             input::placeholder {

@@ -94,7 +94,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .wrapper-1Rf91z .childWrapper-anI2G9 { color: #fff; }
 
-#app-mount .wrapper-1Rf91z .folder-21wGz3, #app-mount .wrapper-1Rf91z .folderIconWrapper-226oVY { background: transparent !important; }
+#app-mount .wrapper-1Rf91z .folder-21wGz3 { background: transparent !important; }
 
 #app-mount .wrapper-1Rf91z .expandedFolderBackground-2sPsd- { background: rgba(0, 0, 0, 0.3); min-height: 48px; }
 

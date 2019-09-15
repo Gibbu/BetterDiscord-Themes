@@ -48,7 +48,8 @@
     .root-1gCeng.small-3iVZYw,
     .notice-2FJMB4,
     .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
-    .bd-modal-inner {
+    .bd-modal-inner,
+    .searchResultsContainer-1ma_dc {
         &:before {
             content: "";
             background: var(--BG-image-set) center/cover fixed;
@@ -135,7 +136,8 @@
     #bd-customcss-detach-container,
     .popout-googletranslate .themedPopout-1TrfdI,
     .root-1gCeng.small-3iVZYw,
-    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE {
+    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
+    .searchResultsContainer-1ma_dc {
         overflow: hidden;
         &:before {
             height: calc(100% + var(--BG-image-blur) * 4);
