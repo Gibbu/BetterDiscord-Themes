@@ -151,7 +151,7 @@
         border-radius: var(--SD-roundness) !important;
     }
     &[aria-label*="mobile"] {
-        &:before {
+        &:not([style*="width: 80px;"]):before {
             content: "";
             background: linear-gradient(90deg, transparent, var(--bg4) 50%);
             height: 30px;

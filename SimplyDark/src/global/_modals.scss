@@ -100,6 +100,9 @@
 		}
 		.listRow-hutiT_ {
 			color: #fff;
+			.listAvatar-1NlAhb {
+				border-radius: var(--SD-roundness) !important;
+			}
 			&:hover {
 				background: var(--bg8);
 			}

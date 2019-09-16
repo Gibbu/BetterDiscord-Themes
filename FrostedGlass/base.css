@@ -330,7 +330,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
-#app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .roleColor-36x_Mz { color: #fff !important; }
+#app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .roleColor-36x_Mz, #app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .text-zpzAjW { color: #fff !important; }
 
 #app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .botTag-2WPJ74 { background: #fff !important; color: rgba(var(--BG-gradient-one), 1) !important; border-color: transparent !important; }
 

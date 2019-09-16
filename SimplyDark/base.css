@@ -138,6 +138,8 @@
 
 .wrapper-1Rf91z .listItem-2P_4kh .guildsError-b7zR5H, .wrapper-1Rf91z .listItem-2P_4kh .icon-27yU2q { border-radius: var(--SD-roundness) !important; }
 
+.wrapper-1Rf91z .folderIconWrapper-226oVY, .wrapper-1Rf91z .folder-21wGz3, .wrapper-1Rf91z .expandedFolderBackground-2sPsd-, .wrapper-1Rf91z .iconSizeSmol-2Dw61G, .wrapper-1Rf91z .numberBadge-2s8kKX { border-radius: var(--SD-roundness) !important; }
+
 .wrapper-1Rf91z .childWrapper-anI2G9, .wrapper-1Rf91z .circleIconButton-jET_ig { background-color: var(--bg8); border-radius: var(--SD-roundness) !important; }
 
 .wrapper-1Rf91z .guildSeparator-3s64Iy { background: var(--bg10); width: 48px; }
@@ -148,11 +150,11 @@
 
 #app-mount .sidebar-2K8pFh .container-PNkimc { background: transparent; }
 
-#app-mount .sidebar-2K8pFh .container-PNkimc .bannerImage-1jOskm { margin-top: 48px; -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%) !important; }
+#app-mount .sidebar-2K8pFh .container-PNkimc .animatedContainer-1pJv5C { margin-top: 48px; -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%) !important; }
 
-#app-mount .sidebar-2K8pFh .container-PNkimc div[style="width: 100%; height: 78px; visibility: hidden;"] { height: 140px !important; }
+#app-mount .sidebar-2K8pFh .container-PNkimc div[style="width: 100%; height: 84px; visibility: hidden;"] { height: 140px !important; }
 
-#app-mount .sidebar-2K8pFh .container-PNkimc .scroller-2FKFPG::-webkit-scrollbar { width: 0 !important; }
+#app-mount .sidebar-2K8pFh .container-PNkimc .scroller-2FKFPG::-webkit-scrollbar { width: 0px !important; }
 
 #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd .content-3at_AU .icon-1_QxNX, #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd .content-3at_AU .name-3_Dsmg { color: #888; }
 
@@ -234,7 +236,7 @@
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .name-2WpE7M { color: #fff; }
 
-#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .wrapper-3t9DeA[aria-label*="mobile"]:before { background: linear-gradient(90deg, transparent, var(--bg5) 50%); }
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .wrapper-3t9DeA[aria-label*="mobile"]:before { background: linear-gradient(90deg, transparent, var(--bg6) 50%); }
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .closeButton-2GCmT5 { background: var(--bg6); }
 
@@ -916,7 +918,7 @@
 
 #app-mount .wrapper-3t9DeA img { border-radius: var(--SD-roundness) !important; }
 
-#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:before { content: ""; background: linear-gradient(90deg, transparent, var(--bg4) 50%); height: 30px; width: 50px; top: 50%; transform: translateY(-50%); display: block; position: absolute; right: -180px; }
+#app-mount .wrapper-3t9DeA[aria-label*="mobile"]:not([style*="width: 80px;"]):before { content: ""; background: linear-gradient(90deg, transparent, var(--bg4) 50%); height: 30px; width: 50px; top: 50%; transform: translateY(-50%); display: block; position: absolute; right: -180px; }
 
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"]:after { content: ""; -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgPHBhdGggZD0iTTE1LjUgMWgtOEM2LjEyIDEgNSAyLjEyIDUgMy41djE3QzUgMjEuODggNi4xMiAyMyA3LjUgMjNoOGMxLjM4IDAgMi41LTEuMTIgMi41LTIuNXYtMTdDMTggMi4xMiAxNi44OCAxIDE1LjUgMXptLTQgMjFjLS44MyAwLTEuNS0uNjctMS41LTEuNXMuNjctMS41IDEuNS0xLjUgMS41LjY3IDEuNSAxLjUtLjY3IDEuNS0xLjUgMS41em00LjUtNEg3VjRoOXYxNHoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg=="); -webkit-mask-size: 16px; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center; display: block; position: absolute; width: 12px; height: 16px; top: 50%; transform: translateY(-50%); right: -171px; background: var(--green); z-index: 1; }
 
@@ -1217,6 +1219,8 @@ html.platform-win .container-1r6BKw { padding-right: 125px; }
 #app-mount .root-SR8cQa .topSectionNormal-2-vo2m { background: var(--bg4); }
 
 #app-mount .root-SR8cQa .listRow-hutiT_ { color: #fff; }
+
+#app-mount .root-SR8cQa .listRow-hutiT_ .listAvatar-1NlAhb { border-radius: var(--SD-roundness) !important; }
 
 #app-mount .root-SR8cQa .listRow-hutiT_:hover { background: var(--bg8); }
 
