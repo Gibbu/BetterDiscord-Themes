@@ -7,16 +7,14 @@
     width: calc(var(--ASW_size) + 20px);
     min-width: 78px; }
   .wrapper-1Rf91z .expandedFolderIconWrapper-1xLaU- {
-    -webkit-transform: none !important;
-    -ms-transform: none !important;
     transform: none !important; }
   .wrapper-1Rf91z .expandedFolderBackground-2sPsd- {
     width: var(--ASW_size);
     margin-left: -2px; }
   .wrapper-1Rf91z .closedFolderIconWrapper-15K9MK {
-    -webkit-transform: none !important;
-    -ms-transform: none !important;
     transform: none !important; }
+  .wrapper-1Rf91z .guildSeparator-3s64Iy {
+    width: var(--ASW_size) !important; }
   .wrapper-1Rf91z .placeholderMask-3K9THS {
     height: var(--ASW_size);
     width: var(--ASW_size); }
@@ -27,267 +25,97 @@
     height: auto !important; }
   .wrapper-1Rf91z .listItem-2P_4kh {
     width: calc(var(--ASW_size) + 20px);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
     .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] {
       top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
       .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span {
         height: var(--ASW_size) !important;
-        -webkit-transition: 0.15s ease !important;
-        -o-transition: 0.15s ease !important;
-        transition: 0.15s ease !important; }
+        transition: 0.15s ease !important;
+        transform: scale(1, 0) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 0"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 1"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 2"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 3"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 4"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 5"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 6"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 7"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 8"] {
-          -webkit-transform: scale(1, 0) !important;
-          -ms-transform: scale(1, 0) !important;
-          transform: scale(1, 0) !important;
-          opacity: 0 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.0"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.1"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.2"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.3"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.4"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.5"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.6"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="opacity: 0.7"] {
-          -webkit-transform: scale(1, 0.25) !important;
-          -ms-transform: scale(1, 0.25) !important;
-          transform: scale(1, 0.25) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.25) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 9"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 10"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 11"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 12"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 13"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 14"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 15"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 16"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 17"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 18"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 19"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 20"] {
-          -webkit-transform: scale(1, 0.7) !important;
-          -ms-transform: scale(1, 0.7) !important;
-          transform: scale(1, 0.7) !important;
-          opacity: .5 !important; }
+          transform: scale(1, 0.5) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 21"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 22"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 23"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 24"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 25"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 26"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 27"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 28"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 29"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 30"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 31"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 32"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 33"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 34"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 35"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 36"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 37"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 38"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 39"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
         .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 40"] {
-          -webkit-transform: scale(1, 1) !important;
-          -ms-transform: scale(1, 1) !important;
-          transform: scale(1, 1) !important;
-          opacity: 1 !important; }
+          transform: scale(1, 1) !important; }
     .wrapper-1Rf91z .listItem-2P_4kh:first-child svg svg {
       width: 60%; }
     .wrapper-1Rf91z .listItem-2P_4kh .wrapper-25eVIn {
@@ -307,6 +135,9 @@
   .wrapper-1Rf91z div[style] + .listItem-2P_4kh {
     height: unset;
     margin-top: 5px; }
+  .wrapper-1Rf91z .guildsError-b7zR5H {
+    height: var(--ASW_size);
+    width: var(--ASW_size); }
 
 .unreadMentionsIndicatorBottom-BXS58x,
 .unreadMentionsIndicatorTop-gA6RCh {
@@ -325,11 +156,7 @@
   padding: 0; }
 
 .macButton-c_Adir {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 .platform-osx .wrapper-1Rf91z {

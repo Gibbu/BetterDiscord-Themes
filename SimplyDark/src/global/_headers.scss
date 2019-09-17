@@ -41,6 +41,10 @@
     .container-1r6BKw {
         background: var(--bg7);
         box-shadow: none;
+        .status-1XNdyw {
+            border-radius: var(--SD-roundness) !important;
+            overflow: hidden;
+        }
         .children-19S4PO:after {
             content: none;
         }
