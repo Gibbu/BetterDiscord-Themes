@@ -15,12 +15,17 @@
     }
 }
 
+#app-mount .scroller-2FKFPG {
+    background: transparent;
+}
+
 // Tooltips
 #app-mount .tooltipBlack-PPG47z {
     background: var(--bg15);
     box-shadow: none;
     color: #fff;
     text-align: center;
+    position: relative;
     .tooltipPointer-3ZfirK {
         border-top-color: var(--bg15);
     }

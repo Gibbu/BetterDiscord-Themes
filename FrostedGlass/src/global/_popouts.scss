@@ -225,18 +225,17 @@
     }
 
     // Server dropdown
-    .popout-2iWAc-.popoutBottom-2GAFPg[style*="overflow: hidden"] {
-        position: fixed;
-        width: 216px !important;
-        left: 104px !important;
-        height: auto !important;
-        animation: fadeInBottom 0.2s ease forwards;
-        .invite-271nFU {
-            color: rgba(var(--BG-gradient-one), 1);
-            font-weight: 600;
-        }
-        .leave-1DRJfn {
-            color: #f04747;
+    .layer-v9HyYc[style*="top: 76px;"] .menu-Sp6bN1 {
+        .item-1GzJrl {
+            &:first-of-type {
+                color: var(--nitro);
+            }
+            &.invite-271nFU {
+                color: var(--blurple);
+            }
+            &.leave-1DRJfn {
+                color: var(--red);
+            }
         }
     }
 

@@ -44,6 +44,7 @@ $circleButton: ".circleButtonMask-2VNJsN";
     width: 100% !important;
     position: relative;
     max-height: calc(var(--HSL-size) + 20px) !important;
+    height: calc(var(--HSL-size) + 20px) !important;
     #{$scrollerWrap} {
         width: 100% !important;
     }
@@ -82,7 +83,10 @@ $circleButton: ".circleButtonMask-2VNJsN";
             max-height: calc(var(--HSL-size) + 20px) !important;
             margin-right: var(--HSL-spacing) !important;
             display: flex;
-            svg {
+            > #{$listItem} {
+                margin-right: 0 !important;
+            }
+            svg:not([name="Folder"]) {
                 width: 100%;
                 height: 100%;
             }
@@ -102,7 +106,11 @@ $circleButton: ".circleButtonMask-2VNJsN";
                 max-height: calc(var(--HSL-size) + 20px) !important;
                 display: flex;
                 animation: folderOpen 0.2s ease forwards;
+                margin-left: var(--HSL-spacing);
             }
+        }
+        .expandedFolderIconWrapper-1xLaU- {
+            transform: none !important;
         }
         #{$listItem} {
             width: var(--HSL-size) !important;
@@ -151,6 +159,10 @@ $circleButton: ".circleButtonMask-2VNJsN";
                 border-radius: var(--HSL-roundness);
                 overflow: hidden;
                 transition: 0.2s ease;
+                &[rel*="noopener"], &[rel*="noreferrer"] {
+                    width: var(--HSL-size);
+                    height: var(--HSL-size);
+                }
             }
             #{$bar} {
                 position: absolute;

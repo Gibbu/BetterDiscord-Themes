@@ -46,13 +46,14 @@
             color: rgba(#fff, 0.5);
         }
     }
-    .channel-2QD9_O.selected-1HYmZZ a {
+    .channel-2QD9_O.selected-1HYmZZ a, .bar-30k2ka {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
     }
     .container-PNkimc {
         background: transparent;
-        header {
+        .header-2o-2hj {
             box-shadow: 0 0 5px rgba(0,0,0,0.5);
+            background: transparent !important;
             &.withBanner-3j8ruM {
                 background: transparent;
             }
