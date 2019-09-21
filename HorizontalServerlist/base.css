@@ -12,7 +12,8 @@
 .wrapper-1Rf91z {
   width: 100% !important;
   position: relative;
-  max-height: calc(var(--HSL-size) + 20px) !important; }
+  max-height: calc(var(--HSL-size) + 20px) !important;
+  height: calc(var(--HSL-size) + 20px) !important; }
   .wrapper-1Rf91z .scrollerWrap-2lJEkd {
     width: 100% !important; }
   .wrapper-1Rf91z .scroller-2FKFPG {
