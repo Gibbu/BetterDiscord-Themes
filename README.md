@@ -35,3 +35,8 @@ Makes Discord's light theme a real light theme with a couple of minor changes.
 Display your picture of choice with adjustable blur and brightness via variables in the theme file. Discord Dark theme is required.
 
 ![Server Chat](https://i.imgur.com/vOi0oS1.png)
+
+#
+
+Approved edited versions of my themes:
+- [SDToxxy by ToxicMethASS (SimplyDark Edit)](https://github.com/ToxicMethASS/SDToxxy)
