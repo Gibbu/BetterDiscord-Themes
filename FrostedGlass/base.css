@@ -29,9 +29,11 @@
 /* ---------- GENERAL START ---------- */
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visibility: hidden; }
 
-#app-mount { background-color: transparent; background: var(--BG-image-set); background-attachment: fixed; background-position: center; background-size: cover; }
+.appMount-3lHmkl, body { background: transparent !important; }
 
-#app-mount .scroller-2FKFPG { background: transparent; }
+#app-mount { background-color: transparent !important; background: var(--BG-image-set) !important; background-attachment: fixed !important; background-position: center !important; background-size: cover !important; }
+
+#app-mount .scroller-2FKFPG { background: transparent !important; }
 
 #app-mount .layers-3iHuyZ, #app-mount .layer-3QrUeG, #app-mount .container-2lgZY8, #app-mount .appMount-3lHmkl, #app-mount body { background: transparent !important; }
 

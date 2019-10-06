@@ -4,14 +4,18 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 	backface-visibility: hidden;
 }
 
+.appMount-3lHmkl, body {
+    background: transparent !important;
+}
+
 #app-mount {
-    background-color: transparent;
-	background: var(--BG-image-set);
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
+    background-color: transparent !important;
+	background: var(--BG-image-set) !important;
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-size: cover !important;
 	.scroller-2FKFPG {
-		background: transparent;
+		background: transparent !important;
 	}
     .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .appMount-3lHmkl, body {
         background: transparent !important;

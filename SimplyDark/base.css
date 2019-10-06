@@ -876,6 +876,8 @@
 
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--bg15); }
 
+.showhiddenchannels-tooltip { top: unset !important; }
+
 .lookOutlined-3sRXeN.colorRed-1TFJan:not(:disabled) { background: var(--red); color: #fff; }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan:not(:disabled):hover { background: var(--redDark); border-color: var(--redDark); }
