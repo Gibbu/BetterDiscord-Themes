@@ -35,7 +35,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .scroller-2FKFPG { background: transparent !important; }
 
-#app-mount .layers-3iHuyZ, #app-mount .layer-3QrUeG, #app-mount .container-2lgZY8, #app-mount .appMount-3lHmkl, #app-mount body { background: transparent !important; }
+#app-mount .layers-3iHuyZ, #app-mount .layer-3QrUeG, #app-mount .container-2lgZY8, #app-mount .appMount-3lHmkl, #app-mount body, #app-mount .bg-h5JY_x { background: transparent !important; }
 
 #app-mount .mediaBarProgress-1xaPtl, #app-mount .mediaBarProgress-1xaPtl:after, #app-mount .mediaBarProgress-1xaPtl:before { background: rgba(var(--BG-gradient-one), 1); }
 
