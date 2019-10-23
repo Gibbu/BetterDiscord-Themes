@@ -857,7 +857,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .userPopout-3XzG_A .role-2irmRk { height: auto; position: relative; overflow: hidden; color: #fff; }
 
-#app-mount .userPopout-3XzG_A .role-2irmRk .roleCircle-3xAZ1j::after { content: ""; position: absolute; height: 24px; width: 100%; left: 0; top: 0; background: inherit; opacity: .2; z-index: -1; }
+#app-mount .userPopout-3XzG_A .role-2irmRk .roleCircle-3xAZ1j::after { content: ""; position: absolute; height: 24px; width: 100%; left: 0; top: 50%; transform: translateY(-50%); background: inherit; opacity: .2; z-index: -1; }
 
 #app-mount .userPopout-3XzG_A .footer-1fjuF6 { background: transparent; border-color: rgba(0, 0, 0, 0.1); padding: 0; }
 
