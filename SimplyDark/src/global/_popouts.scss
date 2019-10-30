@@ -60,7 +60,7 @@
                     position: relative;
                     border: none;
                     overflow: hidden;
-                    border-radius: var(--SD-roundness) !important;
+                    border-radius: calc(var(--SD-roundness) / 2.8) !important;
                     .roleCircle-3xAZ1j {
                         width: 22px;
                         height: 22px;
@@ -305,7 +305,7 @@
             [mask*="status"] {
                 mask: none !important;
             }
-            .statusItem-2uzPIV {
+            .itemBase-1Qj4z6 {
                 opacity: 0;
                 animation: fadeInLeft 0.2s ease forwards;
                 animation-delay: 0.2s;

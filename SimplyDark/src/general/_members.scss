@@ -1,6 +1,6 @@
-#app-mount .membersWrap-2h-GB4 .scroller-2FKFPG {
+#app-mount .membersWrap-2h-GB4 {
     background: var(--bg4);
-    .member-3W1lQa {
+    .member-3-YXUe {
         margin-left: 0;
         position: relative;
         min-width: 100%;
@@ -11,13 +11,13 @@
         &:hover {
             background: var(--bg5);
             [aria-label*="mobile"]:before {
-                background: linear-gradient(90deg, transparent, var(--bg5) 50%);
+                background: linear-gradient(90deg, transparent, var(--bg5) 50%) !important;
             }
         }
         &.selected-aXhQR6 {
             background: var(--bg6);
             [aria-label*="mobile"]:before {
-                background: linear-gradient(90deg, transparent, var(--bg6) 50%);
+                background: linear-gradient(90deg, transparent, var(--bg6) 50%) !important;
             }
         }
     }

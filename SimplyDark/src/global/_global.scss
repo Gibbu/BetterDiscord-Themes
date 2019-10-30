@@ -129,16 +129,34 @@
     }
 
     &[style*="width: 80px;"] {
-        position: relative;
+        &[aria-label*="mobile"] {
+            position: relative;
+            margin-bottom: 25px;
+        }
         rect {
             width: 80px;
             height: 80px;
+            rx: calc(var(--SD-roundness) * 1.5) !important;
+            ry: calc(var(--SD-roundness) * 1.5) !important;
+        }
+        img {
+            border-radius: calc(var(--SD-roundness) * 1.5) !important;
         }
         &[style*="width: 80px;"]:after {
             top: auto;
             left: auto;
-            bottom: -15px;
-            right: 0;
+            bottom: -25px;
+            right: 35%;
+            transform: translateX(-50%);
+        }
+    }
+    &[style*="width: 40px;"] {
+        rect {
+            rx: calc(var(--SD-roundness) / 1.5) !important;
+            ry: calc(var(--SD-roundness) / 1.5) !important;
+        }
+        img {
+            border-radius: calc(var(--SD-roundness) / 1.5) !important;
         }
     }
     &[style*="width: 32px;"] {
@@ -233,6 +251,37 @@
 }
 
 // Notices
-.notice-2FJMB4 .dismiss-SCAH9H {
-    left: 0;
+.notice-2FJMB4 {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    .button-1MICoQ {
+        top: 0;
+    }
+    .dismiss-SCAH9H {
+        left: 0;
+        height: 100%;
+    }
+}
+
+// Light mode notice
+html.theme-light #app-mount {
+    height: calc(100vh - 68px);
+    overflow: visible;
+    &:after {
+        content: "Woops, seems like you enabled Light theme! SimplyDark does not support light theme.\A Sorry about that :/";
+        line-height: 24px;
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        color: #fff;
+        white-space: pre-wrap;
+        background: var(--bg10);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        transform: translateY(100%);
+    }
 }
