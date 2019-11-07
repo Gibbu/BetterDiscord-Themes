@@ -1,7 +1,24 @@
-![Server Chat](https://i.imgur.com/TkcAdU7.jpg)
-![Nitro/Store](https://i.imgur.com/oo0gHhT.jpg)
-![Friends List](https://i.imgur.com/kU7gENA.jpg)
-![Library](https://i.imgur.com/qURrqV1.jpg)
-![Direct Messages](https://i.imgur.com/OTEXJku.jpg)
-![User Settings](https://i.imgur.com/fFarSiv.jpg)
-![Server Settings](https://i.imgur.com/t0sBbtl.jpg)
+#### Customize this theme with a easy to use interface [here](https://gibbu.me/themegen/simplydark)
+
+
+Server Chat + User Popout
+
+![Server Chat](https://i.imgur.com/PZsOQ3d.jpg)
+
+#
+
+Friends list
+
+![Friends List](https://i.imgur.com/jinqkHx.jpg)
+
+#
+
+User Settings
+
+![User Settings](https://i.imgur.com/9HRBSYP.jpg)
+
+#
+
+Server Settings
+
+![Server Settings](https://i.imgur.com/YlWfkMd.jpg)

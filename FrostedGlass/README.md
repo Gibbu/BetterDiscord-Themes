@@ -1,3 +1,5 @@
+#### Customize this theme with a easy to use interface [here](https://gibbu.me/themegen/frostedglass)
+
 Server chat + User popout
 
 ![Server Chat](https://i.imgur.com/vOi0oS1.png)
