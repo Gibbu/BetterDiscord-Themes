@@ -277,7 +277,13 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .messageGroupBlockedBtn-1PBBh- { background: transparent; color: #fff; }
 
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .embedInner-1-fpTo, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .messageGroupBlocked-3wrQQX { background: rgba(0, 0, 0, 0.3); border: none; }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .messageGroupBlocked-3wrQQX { background: rgba(0, 0, 0, 0.3); border: none; }
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .embedFull-2tM8-- { background: rgba(0, 0, 0, 0.3); }
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .embedFull-2tM8-- .embedFooterText-28V_Wb, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .embedFull-2tM8-- .embedFooterSeparator-3klTIQ { color: #fff; }
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .embedFull-2tM8-- .embedFieldName-NFrena { color: #aaa; }
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .attachment-33OFj0 { background: rgba(0, 0, 0, 0.3); border: none; }
 
@@ -331,17 +337,17 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .members-1998pB .layout-2DM8Md { background: transparent; }
 
-#app-mount .members-1998pB .member-3W1lQa .botTag-2WPJ74 { font-weight: bold; }
+#app-mount .members-1998pB .member-3-YXUe .botTag-2WPJ74 { font-weight: bold; }
 
-#app-mount .members-1998pB .member-3W1lQa:hover { background: rgba(255, 255, 255, 0.1); }
+#app-mount .members-1998pB .member-3-YXUe:hover { background: rgba(255, 255, 255, 0.1); }
 
-#app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
+#app-mount .members-1998pB .member-3-YXUe.selected-aXhQR6 { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
-#app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .roleColor-36x_Mz, #app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .text-zpzAjW { color: #fff !important; }
+#app-mount .members-1998pB .member-3-YXUe.selected-aXhQR6 .roleColor-rz2vM0, #app-mount .members-1998pB .member-3-YXUe.selected-aXhQR6 .text-zpzAjW { color: #fff !important; }
 
-#app-mount .members-1998pB .member-3W1lQa.selected-aXhQR6 .botTag-2WPJ74 { background: #fff !important; color: rgba(var(--BG-gradient-one), 1) !important; border-color: transparent !important; }
+#app-mount .members-1998pB .member-3-YXUe.selected-aXhQR6 .botTag-2WPJ74 { background: #fff !important; color: rgba(var(--BG-gradient-one), 1) !important; border-color: transparent !important; }
 
-#app-mount .members-1998pB .activityText-sLG0UL { color: rgba(255, 255, 255, 0.8); }
+#app-mount .members-1998pB .activity-2Gy-9S { color: rgba(255, 255, 255, 0.8); }
 
 /* ---------- MEMBERS LIST END ---------- */
 /* ---------- SEARCH RESULTS START ---------- */
@@ -1364,12 +1370,6 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .tooltipBrand-g03Nz8, #app-mount .tooltipBlack-PPG47z, #app-mount .tooltipRed-8-9NeP { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); color: #fff; }
 
 #app-mount .tooltipBlack-PPG47z { text-align: center; }
-
-#app-mount .tooltipRight-2JM5PQ { animation: fadeInRight 0.2s ease forwards; }
-
-#app-mount .tooltipTop-XDDSxx { animation: fadeInTop 0.2s ease forwards; }
-
-#app-mount .tooltipBottom-3ARrEK { animation: fadeInBottom 0.2s ease forwards; }
 
 /* ---------- TOOLTIPS END ---------- */
 /* ---------- KEYFRAMES START ---------- */

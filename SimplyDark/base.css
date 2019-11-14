@@ -292,7 +292,7 @@
 
 #app-mount .chat-3bRxxu form .typing-2GQL18 { padding: 0 10px; box-sizing: border-box; top: -30px; background: var(--bg6); }
 
-#app-mount .chat-3bRxxu .embedInner-1-fpTo { border: none; background: var(--bg4); }
+#app-mount .chat-3bRxxu .embedFull-2tM8-- { background: var(--bg4); }
 
 #app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI { color: var(--bg10); }
 
@@ -932,7 +932,7 @@
 
 #app-mount .scroller-2FKFPG { background: transparent; }
 
-#app-mount .tooltipBlack-PPG47z { background: var(--bg15); box-shadow: none; color: #fff; text-align: center; position: relative; }
+#app-mount .tooltipBlack-PPG47z { background: var(--bg15); box-shadow: none; color: #fff; text-align: center; position: relative; transform: none !important; }
 
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--bg15); }
 
