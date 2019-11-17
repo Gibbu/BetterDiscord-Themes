@@ -49,7 +49,8 @@
     .notice-2FJMB4,
     .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
     .bd-modal-inner,
-    .searchResultsContainer-1ma_dc {
+    .searchResultsContainer-1ma_dc,
+    .content-1-zrf2 {
         &:before {
             content: "";
             background: var(--BG-image-set) center/cover fixed;
@@ -99,7 +100,8 @@
     .keyboardShortcutsModal-3piNz7,
     .quickswitcher-3JagVE,
     .root-1BQpZw,
-    .bd-modal-inner {
+    .bd-modal-inner,
+    .content-1-zrf2 {
         overflow: hidden;
         &:before {
             height: calc(100% + var(--BG-image-blur) * 4);

@@ -110,9 +110,18 @@
                 background: transparent;
                 color: #fff;
             }
-            .embedInner-1-fpTo, .messageGroupBlocked-3wrQQX {
+            .messageGroupBlocked-3wrQQX {
                 background: rgba(0,0,0,0.3);
                 border: none;
+            }
+            .embedFull-2tM8-- {
+                background: rgba(0,0,0,0.3);
+                .embedFooterText-28V_Wb, .embedFooterSeparator-3klTIQ {
+                    color: #fff;
+                }
+                .embedFieldName-NFrena {
+                    color: #aaa;
+                }
             }
             .attachment-33OFj0 {
                 background: rgba(0,0,0,0.3);

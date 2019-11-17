@@ -292,36 +292,17 @@
         background: rgba(0,0,0,0.7);
         border: none;
         animation: fadeIn 0.2s ease forwards;
-        .header-1nkwgG {
-            border-color: rgba(#000, 0.2);
-        }
-        .searchBar-2pWH0_ {
-            background: rgba(#000, 0.3);
-            .input-1Rv96N {
-                color: #fff;
-                &::placeholder {
-                    color: rgba(#fff, 0.5);
-                    font-weight: 300;
-                }
-            }
-        }
-        .popout-2nUePc {
-            background: #000;
-            border: none;
-        }
-        .emojiItem-109bjA.selected-39BZ4S {
-            background-color: rgba(#fff, 0.3);
-        }
-        [name="recent"].category-2U57w6 {opacity: 0;}
-        .category-2U57w6 {
-            color: #fff;
-            background: transparent;
+        .container-2XeR5Z {
+            background: rgba(255,255,255,0.05);
         }
         .stickyHeader-1SS0JU {
-            background: linear-gradient(90deg, rgba(0,0,0,0.8), transparent);
+            background: #000;
         }
-        .item-16cXuq.selected-39BZ4S {
-            border-bottom-color: rgba(var(--BG-gradient-one), 1);
+        .infoBar-U6oBFk {
+            background: transparent;
+        }
+        .categories-1feg4n {
+            background: transparent;
         }
     }
 

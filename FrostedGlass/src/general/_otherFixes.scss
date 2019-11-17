@@ -200,6 +200,31 @@ body.hidden-by-OTB .container-1r6BKw {
         }
     }
 
+    .container-16j22k {
+        background: var(--BG-image-set) center/cover fixed;
+        .content-1-zrf2 {
+            position: relative;
+            padding: 0 25px 35px 25px;
+            border-radius: var(--BG-window-roundness);
+            & > * {
+                position: relative;
+            }
+        }
+        .problems-3mgf6w {
+            background: rgba(0,0,0,var(--BG-right-brightness));
+            text-align: center;
+            padding-top: 30px;
+            a {
+                margin: 0 15px;
+                .icon-3N9Bhy {
+                    display: none !important;
+                }
+                &:before {
+                    content: none;
+                }
+            }
+        }
+    }
 
 }
 // OS
@@ -235,7 +260,7 @@ html.platform-osx {
         background: rgba(255,255,255,0.1);
     }
 }
-html.platform-win .container-1r6BKw {
+.platform-win .container-1r6BKw {
     padding-right: 125px;
 }
 .wordmarkWindows-1v0lYD {

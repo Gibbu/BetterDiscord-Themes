@@ -288,4 +288,28 @@
 			border-radius: var(--SD-roundness) !important;
 		}
 	}
+
+	// Boost
+	.perksModalContentWrapper-2HU6uL {
+		background: var(--bg2);
+		.ctaBar-2UsjF2, .perk-2WeBWW, .tierBody-16Chc9 {
+			background: var(--bg4);
+		}
+		.tierHeaderLocked-1s2JJz {
+			background: var(--bg6);
+			color: #fff;
+		}
+		.tierLock-3CSxSX {
+			color: #fff;
+		}
+		.tierMarkerBackground-3q29am, .tierMarkerInProgress-24LMzJ {
+			background: var(--bg15) !important;
+		}
+		.barBackground-2EEiLw {
+			background: var(--bg6);
+			.barForeground-3KglC8 {
+				background: var(--bg15);
+			}
+		}
+	}
 }
