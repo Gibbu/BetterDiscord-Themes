@@ -275,7 +275,7 @@
     .layer-v9HyYc[style*="bottom: 57px;"] {
         position: fixed;
         transform: none !important;
-        margin-left: -10px;
+        margin-left: -8px;
         margin-bottom: -4px;
         .scale-3iLZhb.animatorTop-2Y7x2r {
             transform: none !important;
@@ -303,48 +303,28 @@
     }
 
     // Server Dropdown
-    [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] {
-        margin-top: -8px;
-        width: 240px !important;
-        height: 345px !important;
-        transform: none !important;
-        animation: none !important;
-        left: 72px !important;
-        .scale-3iLZhb.didRender-33z1u8 {
-            transition: none !important;
+    .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 {
+        background: var(--bg7);
+        box-shadow: none;
+        margin-left: -10px;
+        margin-top: -10px;
+        width: 240px;
+        animation: slideIn 0.2s ease forwards;
+        transform-origin: top center;
+        & > div {
+            opacity: 0;
+            animation: fadeInLeft 0.2s ease forwards;
+            animation-delay: 0.2s;
         }
-        .menu-Sp6bN1 {
-            position: fixed;
-            background: var(--bg7);
-            animation: slideIn 0.2s ease forwards;
-            transform-origin: top center;
-            box-shadow: none;
-            width: 100%;
-            div {
-                opacity: 0;
-                animation: fadeInLeft 0.2s ease forwards;
-                animation-delay: 0.2s;
+        .itemBase-1Qj4z6 {
+            &:not(.leave-1DRJfn):not(.invite-271nFU) {
+                color: #fff;
             }
-            .item-1GzJrl {
-                &:not(.invite-271nFU):not(:first-child):not(.leave-1DRJfn) {
-                    color: #aaa;
-                    .icon-2doZ3q {
-                        filter: grayscale(1);
-                    }
-                }
-                &:first-child {
-                    color: var(--nitro);
-                }
-                &:hover {
-                    background: var(--bg8);
-                    color: #fff !important;
-                    .icon-2doZ3q {
-                        filter: brightness(5);
-                    }
-                    path, rect {
-                        fill: #fff;
-                    }
-                }
+            &:first-child .label-1Y-LW5 {
+                color: var(--nitro);
+            }
+            &:hover {
+                background: var(--bg6);
             }
         }
     }

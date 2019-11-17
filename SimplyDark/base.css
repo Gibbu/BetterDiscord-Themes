@@ -944,6 +944,8 @@
 
 ::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after { border-radius: 0 !important; mask: none !important; }
 
+.scale-3iLZhb.didRender-33z1u8 { transform: scale(1) !important; transition: none !important; }
+
 #app-mount .scroller-2FKFPG { background: transparent; }
 
 #app-mount .tooltipBlack-PPG47z { background: var(--bg15); box-shadow: none; color: #fff; text-align: center; position: relative; transform: none !important; }
@@ -1176,7 +1178,7 @@ html.theme-light #app-mount:after { content: "Woops, seems like you enabled Ligh
 
 #app-mount .container-3ayLPN .option-96V44q.selected-rZcOL- { background-color: var(--bg7); }
 
-#app-mount .layer-v9HyYc[style*="bottom: 57px;"] { position: fixed; transform: none !important; margin-left: -10px; margin-bottom: -4px; }
+#app-mount .layer-v9HyYc[style*="bottom: 57px;"] { position: fixed; transform: none !important; margin-left: -8px; margin-bottom: -4px; }
 
 #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .scale-3iLZhb.animatorTop-2Y7x2r { transform: none !important; }
 
@@ -1190,25 +1192,15 @@ html.theme-light #app-mount:after { content: "Woops, seems like you enabled Ligh
 
 #app-mount .layer-v9HyYc[style*="bottom: 57px;"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover { background: var(--bg6); }
 
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] { margin-top: -8px; width: 240px !important; height: 345px !important; transform: none !important; animation: none !important; left: 72px !important; }
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 { background: var(--bg7); box-shadow: none; margin-left: -10px; margin-top: -10px; width: 240px; animation: slideIn 0.2s ease forwards; transform-origin: top center; }
 
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .scale-3iLZhb.didRender-33z1u8 { transition: none !important; }
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 > div { opacity: 0; animation: fadeInLeft 0.2s ease forwards; animation-delay: 0.2s; }
 
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 { position: fixed; background: var(--bg7); animation: slideIn 0.2s ease forwards; transform-origin: top center; box-shadow: none; width: 100%; }
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .itemBase-1Qj4z6:not(.leave-1DRJfn):not(.invite-271nFU) { color: #fff; }
 
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 div { opacity: 0; animation: fadeInLeft 0.2s ease forwards; animation-delay: 0.2s; }
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .itemBase-1Qj4z6:first-child .label-1Y-LW5 { color: var(--nitro); }
 
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:not(.invite-271nFU):not(:first-child):not(.leave-1DRJfn) { color: #aaa; }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:not(.invite-271nFU):not(:first-child):not(.leave-1DRJfn) .icon-2doZ3q { filter: grayscale(1); }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:first-child { color: var(--nitro); }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover { background: var(--bg8); color: #fff !important; }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover .icon-2doZ3q { filter: brightness(5); }
-
-#app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover path, #app-mount [id*="popout_"].layer-v9HyYc[style*="left: 82"][style*="top"] .menu-Sp6bN1 .item-1GzJrl:hover rect { fill: #fff; }
+#app-mount .layer-v9HyYc[style*="left"][style*="top"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover { background: var(--bg6); }
 
 #app-mount .autocomplete-1vrmpx { background-color: var(--bg3); }
 
