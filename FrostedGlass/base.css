@@ -1577,6 +1577,8 @@ body.hidden-by-OTB .container-1r6BKw { padding: 0 8px !important; }
 
 #app-mount .container-16j22k .problems-3mgf6w a:before { content: none; }
 
+#app-mount .container-16j22k { background-color: #000; }
+
 .typeMacOS-3EmCyP.titleBar-AC4pGV { top: var(--BG-window-padding); left: var(--BG-window-padding); }
 
 html.platform-osx .wrapper-1Rf91z { margin-top: 0; padding-top: 32px; }
