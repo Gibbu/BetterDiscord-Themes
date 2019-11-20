@@ -9,11 +9,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 }
 
 #app-mount {
-    background-color: transparent !important;
-	background: var(--BG-image-set) !important;
-	background-attachment: fixed !important;
-	background-position: center !important;
-	background-size: cover !important;
+	background: var(--BG-image-set) center/cover fixed !important;
 	.scroller-2FKFPG {
 		background: transparent !important;
 	}

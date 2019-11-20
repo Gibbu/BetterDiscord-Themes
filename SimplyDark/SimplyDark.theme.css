@@ -13,6 +13,9 @@
 /* Black Box user tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
 :root {
 
     --SD-bgR: 10; /* RED value | 0 - 255 | DEFAULT: 10 */

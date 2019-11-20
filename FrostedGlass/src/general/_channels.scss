@@ -4,6 +4,7 @@
     overflow: hidden;
     margin-right: var(--BG-left-right-split);
     border-radius: 0;
+    background: transparent;
     .searchBar-6Kv8R2 {
         box-shadow: 0 0 5px rgba(#000,0.5);
         .container-2XeR5Z {
@@ -17,7 +18,7 @@
         &.selected-3TGCSZ .content-3xS9Lh {
             background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
             .username-lm8y6T {
-                color: #fff;
+                color: #fff !important;
             }
         }
     }

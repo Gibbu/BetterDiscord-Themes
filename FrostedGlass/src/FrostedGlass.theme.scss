@@ -7,7 +7,6 @@
  * @website https://gibbu.me/
 */
 
-
 /*
 Awesome images by the Among Trees game
 Website: https://www.amongtreesgame.com/
@@ -20,6 +19,9 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
 
 /* @import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css"); */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 
 :root {
 
@@ -61,12 +63,14 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
     --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg');
     --BG-image-set: var(--BG-image,var(--BG-image-default));
 
-    --HSL-btns: calc(var(--HSL-size) + 20px);
-    --HSL-btns-SF-opened: calc(var(--HSL-btns) + 55px);
+    --TB-tr-roundness: var(--BG-window-roundness);
+    --TB-position-top: var(--BG-window-padding);
+    --TB-position-right: var(--BG-window-padding);
 
     --blurple: #7289da;
     --nitro: #ff73fa;
     --red: #f04747;
+    --roundness: 50px;
 }
 
 

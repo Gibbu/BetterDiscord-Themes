@@ -944,6 +944,12 @@
 
 ::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after { border-radius: 0 !important; mask: none !important; }
 
+.bg-h5JY_x { background-color: var(--bg10); }
+
+.platform-win .wordmark-2iDDfm svg { color: #fff; }
+
+.platform-win .winButton-iRh8-Z:not(.winButtonClose-1HsbF-):hover { background: rgba(255, 255, 255, 0.1); }
+
 .scale-3iLZhb.didRender-33z1u8 { transform: scale(1) !important; transition: none !important; }
 
 #app-mount .scroller-2FKFPG { background: transparent; }
@@ -1041,16 +1047,6 @@
 html.theme-light #app-mount { height: calc(100vh - 68px); overflow: visible; }
 
 html.theme-light #app-mount:after { content: "Woops, seems like you enabled Light theme! SimplyDark does not support light theme.\A Sorry about that :/"; line-height: 24px; display: block; text-align: center; padding: 10px 0; color: #fff; white-space: pre-wrap; background: var(--bg10); position: absolute; bottom: 0; width: 100%; transform: translateY(100%); }
-
-.wordmark-2iDDfm { display: none; }
-
-.bd-detached-editor .winButton-iRh8-Z { right: 30% !important; }
-
-.typeWindows-1za-n7 { height: 9px; margin-top: 0; position: absolute; top: 1px; left: 0; width: 100%; background: transparent; }
-
-.winButton-iRh8-Z { position: relative; top: 0; height: 47px; width: 40px; }
-
-.platform-win .container-1r6BKw { padding-right: 125px; }
 
 #app-mount .popout-2iWAc- { box-shadow: none; }
 

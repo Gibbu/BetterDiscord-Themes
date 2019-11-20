@@ -226,7 +226,7 @@
     }
 
     // Server dropdown
-    .layer-v9HyYc[style*="top: 76px;"] .menu-Sp6bN1 {
+    .layer-v9HyYc[style*="top"][style*="left"] .menu-Sp6bN1 {
         .item-1GzJrl {
             &:first-of-type {
                 color: var(--nitro);
@@ -347,12 +347,11 @@
 
     // Message option dropdown
     .container-3cGP6G {
-        background: transparent;
+        background: rgba(0,0,0,0.9);
         margin-left: -70px;
         animation: fadeInBottom 0.2s ease forwards;
         padding: 0;
         min-width: 80px;
-        position: fixed;
         .itemGroup-1tL0uz {
             border-top-color: rgba(#fff, 0.1);
         }
