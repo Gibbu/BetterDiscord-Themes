@@ -13,15 +13,15 @@
 .platform-win .winButton-iRh8-Z {
     position: relative;
     top: calc(var(--TB-position-top, 0px) - 1px);
-    right: calc(var(--TB-position-right, 0px) - 1px);
-    height: 48px;
-    width: 40px;
+    right: var(--TB-position-right, 0px);
+    height: var(--TB-height, 48px);
+    width: var(--TB-width, 40px);
 }
 .platform-win .winButton-iRh8-Z:not(.winButtonClose-1HsbF-):hover {
     background: rgba(255,255,255,0.1);
 }
 .platform-win .container-1r6BKw {
-    padding-right: 125px;
+    padding-right: var(--TB-header-padding, 125px);
 }
 .platform-win .wordmarkWindows-1v0lYD {
     display: none;
