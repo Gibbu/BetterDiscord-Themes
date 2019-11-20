@@ -23,7 +23,7 @@
     --SD-bgB: 10; /* BLUE value | 0 - 255 | DEFAULT: 10 */
 
     --SD-emojipickerheight: 224px; /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
-    --SD-roundness: 0px; /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 150px */
+    --SD-roundness: 0px; /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 30px */
     --SD-avatar-status-width: 2px; /* Width of status border around avatars (must end in px) | DEFAULT: 2px */
 
 }
