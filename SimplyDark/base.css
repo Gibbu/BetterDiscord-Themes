@@ -940,7 +940,7 @@
 
 *:before, *:after { border-radius: 0 !important; }
 
-::-webkit-input-placeholder, body, button, input, select, textarea { font-family: var(--font, "Roboto"), Whitney; border-radius: 0 !important; -webkit-mask: none !important; mask: none !important; }
+::-webkit-input-placeholder, body, button, input, select, textarea { font-family: var(--SD-font, "Roboto"), Whitney; border-radius: 0 !important; -webkit-mask: none !important; mask: none !important; }
 
 ::-webkit-input-placeholder:before, ::-webkit-input-placeholder:after, body:before, body:after, button:before, button:after, input:before, input:after, select:before, select:after, textarea:before, textarea:after { border-radius: 0 !important; mask: none !important; }
 

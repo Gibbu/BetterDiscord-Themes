@@ -5,7 +5,7 @@
     }
 }
 ::-webkit-input-placeholder, body, button, input, select, textarea {
-    font-family: 'Roboto';
+    font-family: var(--SD-font, 'Roboto'), Whitney;
     border-radius: 0 !important;
     -webkit-mask: none !important;
     mask: none !important;

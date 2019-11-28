@@ -7,10 +7,7 @@
  * @website https://gibbu.me/
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
-
-/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 
 :root {
@@ -22,6 +19,12 @@
     --SD-emojipickerheight: 300px; /* Height of the emojipicker. Changing this may cause issues in some places. | DEFAULT: 224px */
     --SD-roundness: 0px; /* Roundness for avatars, servers ect... | DEFAULT: 0px | MAX: 30px */
     --SD-avatar-status-width: 2px; /* Width of status border around avatars (must end in px) | DEFAULT: 2px */
+
+    /*
+        To use a custom font. Visit https://fonts.google.com and select one to your liking.
+        Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+    */
+    --font: 'Roboto';
 
 }
 
