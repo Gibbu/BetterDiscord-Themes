@@ -6,7 +6,6 @@ $app: "#app-mount";
 $container: ".container-2lgZY8";
 $base: ".base-3dtUhz";
 $wrapper: ".wrapper-1Rf91z";
-$serverFolder: "#{$wrapper}.foldercontent";
 $scrollerWrap: ".scrollerWrap-2lJEkd";
 $scroller: ".scroller-2FKFPG";
 
@@ -92,6 +91,9 @@ $circleButton: ".circleButtonMask-2VNJsN";
             }
             .folder-21wGz3 {
                 background: transparent;
+            }
+            .closedFolderIconWrapper-15K9MK {
+                transform: none !important;
             }
             .expandedFolderBackground-2sPsd- {
                 top: 50%;
@@ -284,38 +286,12 @@ body.foldercontentopened #app-mount .winButton-iRh8-Z {
 }
 
 // ServerFolders
-#app-mount #{$serverFolder} {
-    transition: height 0.3s ease !important;
-    height: calc(var(--HSL-size) + 20px);
-    width: 100% !important;
-    margin-top: 0 !important;
-    #{$listItem} {
-        &.folderseparatorouter {
-            width: auto !important;
-            div {
-                width: 2px;
-                height: auto;
-            }
-        }
-        #{$bar} span {
-            width: 100% !important;
-            transform: none;
-        }
-    }
-    &.foldercontentclosed {
-        height: 0;
-        width: 100% !important;
-    }
-}
-body.foldercontentopened {
-    .videoHeight-Qp_9vC {
-        &.noChat-2qlG4B {
-            height: calc(100vh - var(--HSL-size) * 3.5) !important;
-        }
-    }
-}
-body:not(.foldercontentopened) #app-mount .wrapper-1Rf91z.foldercontent {
+#app-mount .wrapper-1Rf91z.foldercontent {
     height: 0 !important;
+    transition: height 0.3s ease !important;
+    &:not(.foldercontentclosed) {
+        height: calc(var(--HSL-size) + 20px) !important;
+    }
 }
 
 // Read All Notications Button by DevilBro
@@ -339,89 +315,3 @@ body:not(.foldercontentopened) #app-mount .wrapper-1Rf91z.foldercontent {
         height: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
