@@ -33,6 +33,8 @@
 /* ---------- GENERAL START ---------- */
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visibility: hidden; }
 
+::-webkit-input-placeholder, body, button, input, select, textarea { font-family: var(--font, "Whitney"), Whitney; }
+
 .appMount-3lHmkl, body { background: transparent !important; }
 
 #app-mount { background: var(--BG-image-set) center/cover fixed !important; }
