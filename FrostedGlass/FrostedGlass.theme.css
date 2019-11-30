@@ -30,10 +30,14 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
     --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
 
     /* Brightness variables */
-    --BG-serverlist-brightness: 0.8;   /* DEFAULT: 0.8 */
-    --BG-left-brightness: 0.8;         /* DEFAULT: 0.8 */
-    --BG-right-brightness: 0.6;        /* DEFAULT: 0.6 */
-    --BG-popout-brightness: 0.7;       /* Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+    --BG-serverlist-brightness: .8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+    --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+
+    /* Tint variables */
+    --BG-tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
+    --BG-tint-brightness: 0; /* Intensity of --BG-tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
     /*
         Gradient variables
@@ -54,7 +58,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
         To use a custom font. Visit https://fonts.google.com and select one to your liking.
         Now just follow this tutorial: https://imgur.com/a/CNbw7xC
     */
-    --BG-font: 'Whitney';                  /* Font of Discord | DEFAULT: Whitney */
+    --BG-font: 'Whitney';  /* Font of Discord | DEFAULT: Whitney */
 
 }
 
