@@ -871,6 +871,8 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .animatorRight-3i_YPs .userPopout-3XzG_A { margin-left: 0 !important; }
 
+#app-mount .layer-v9HyYc[style*="left"][style*="bottom"] .userPopout-3XzG_A { margin-left: 0; }
+
 #app-mount .userPopout-3XzG_A { box-shadow: none; position: relative; margin-left: -270px; margin-top: -1px; opacity: 0; animation: fadeInRight 0.2s ease forwards !important; }
 
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV, #app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
@@ -1012,6 +1014,8 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 #app-mount .contextMenu-HLZMGh .barFill-23-gu- { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)); }
 
 #app-mount .contextMenu-HLZMGh .item-1Yvehc { margin: 0; padding: 10px; box-sizing: border-box; width: 100%; color: #fff; border-radius: 0; cursor: pointer; }
+
+#app-mount .contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE { color: var(--red); }
 
 #app-mount .contextMenu-HLZMGh .item-1Yvehc:hover { background: rgba(255, 255, 255, 0.1); }
 

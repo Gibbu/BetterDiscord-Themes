@@ -84,6 +84,9 @@
     .animatorRight-3i_YPs .userPopout-3XzG_A {
         margin-left: 0 !important;
     }
+    .layer-v9HyYc[style*="left"][style*="bottom"] .userPopout-3XzG_A {
+        margin-left: 0;
+    }
     .userPopout-3XzG_A {
         box-shadow: none;
         position: relative;
@@ -396,6 +399,9 @@
             color: #fff;
             border-radius: 0;
             cursor: pointer;
+            &.danger-2dXSTE {
+                color: var(--red);
+            }
             &:hover {
                 background: rgba(#fff, 0.1);
             }

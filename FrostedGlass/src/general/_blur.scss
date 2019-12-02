@@ -54,7 +54,7 @@
     .root-3R2ngo {
         &:before {
             content: "";
-            background: var(--BG-image-set) center/cover fixed;
+            background: linear-gradient(rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set)), rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set))), var(--BG-image-set) center/cover fixed;
             position: absolute;
             filter: blur(var(--BG-image-blur));
             z-index: 0;
