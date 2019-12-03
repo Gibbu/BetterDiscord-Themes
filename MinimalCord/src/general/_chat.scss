@@ -1,0 +1,128 @@
+#app-mount .chat-3bRxxu {
+    background: var(--background-1);
+    .scroller-2FKFPG {
+        background: transparent;
+    }
+
+    .messagesWrapper-3lZDfY {
+        ::-webkit-scrollbar-thumb {
+            visibility: hidden !important;
+        }
+        .markup-2BOw-j {
+            > a, strong > a, em > a {
+                color: rgba(var(--accent), 1);
+                text-decoration: underline;
+            }
+        }
+        .divider-3gKybi {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: var(--channels-default);
+            .dividerContent-2L12VI {
+                &:before, &:after {
+                    content: none;
+                }
+            }
+            &.dividerRed-MKoLlr {
+                color: var(--red);
+            }
+        }
+        .containerCozy-jafyvG {
+            background: var(--message-box);
+            margin: 20px 12px 0 20px;
+            border-radius: 5px;
+            box-shadow: var(--box-shadow);
+            min-height: calc(var(--chat-avatar-size) + 45px);
+            .contentCozy-3XX413 {
+                margin-left: calc(var(--chat-avatar-size) + 40px);
+            }
+
+            .wrapper-3t9DeA {
+                height: var(--chat-avatar-size) !important;
+                width: var(--chat-avatar-size) !important;
+            }
+            .embedFull-2tM8-- {
+                background: var(--background-2);
+                .embedTitle-3OXDkz {
+                    color: rgba(var(--accent), 1);
+                }
+            }
+            .guildIconImage-3qTk45 {
+                background-color: transparent;
+            }
+
+            .wrapper-3WhCwL {
+                color: rgba(var(--accent), 1);
+                background: rgba(var(--accent), 0.1);
+                &:hover {
+                    color: #fff;
+                    background: rgba(var(--accent), 1);
+                }
+            }
+
+
+            .dividerEnabled-2TTlcf {
+                display: none;
+            }
+            &:last-child {
+                margin-bottom: 20px;
+            }
+        }
+        &:hover ::-webkit-scrollbar-thumb {
+            visibility: visible !important;
+        }
+    }
+
+    .channelTextArea-rNsIhG {
+        border-top-color: var(--message-box-divider);
+        .inner-zqa7da {
+            background-color: var(--message-box);
+            box-shadow: var(--box-shadow);
+            .textArea-2Spzkt {
+                padding: 15px;
+                box-sizing: border-box;
+                &::placeholder {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    font-size: 12px;
+                    opacity: .7;
+                }
+            }
+            .buttons-205you {
+                height: 54px;
+                button {
+                    opacity: .3;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            .attachButton-1UjEWA {
+                .attachButtonInner-1iyZ9F {display: none;}
+                &:before {
+                    content: "";
+                    width: 24px;
+                    height: 24px;
+                    background: var(--text-normal);
+                    -webkit-mask: url($upload_file) center/20px no-repeat;
+                    opacity: .3;
+                    transition: 0.2s ease;
+                }
+                &:hover:before {
+                    opacity: 1;
+                    -webkit-mask-size: 24px;
+                }
+            }
+            .attachButtonDivider-3Glu60 {
+                display: none;
+            }
+        }
+    }
+
+    .content-yTz4x3 {
+        &:before {
+            content: none;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#app-mount {
+    .contextMenu-HLZMGh {
+        background: var(--dropdown);
+        box-shadow: var(--box-shadow);
+        .itemBase-tz5SeC {
+            &.selected-BYpGTS {
+                background: transparent;
+            }
+            &:hover {
+                background: var(--dropdown-item-hover);
+                color: var(--text-1);
+            }
+        }
+    }
+}

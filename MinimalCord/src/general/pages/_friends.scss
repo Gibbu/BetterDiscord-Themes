@@ -1,0 +1,18 @@
+#app-mount {
+    .container-3gCOGc {background: transparent;}
+    .friendsTable-133bsv {
+        &:before {content: none;}
+        .friendsTableBody-1ZhKif {
+            background-color: transparent;
+        }
+    }
+    .friendsRow-2yicud {
+        margin: 8px;
+        border: none;
+        padding: 16px 10px;
+        &:hover {
+            background: var(--pages-box);
+            box-shadow: var(--box-shadow);
+        }
+    }
+}

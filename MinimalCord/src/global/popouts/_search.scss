@@ -1,0 +1,114 @@
+#app-mount {
+
+    // Searchbar
+    .searchBar-3dMhjb {
+        background: var(--background-2);
+        .searchFilter-2ESiM3, .searchAnswer-3Dz2-q {
+            background-color: var(--foreground-1);
+            color: var(--text-1);
+        }
+    }
+
+    // Suggestions / dropdown
+    .container-3ayLPN {
+        background-color: var(--dropdown);
+        box-shadow: var(--box-shadow);
+        .filter-3Y_im-, .displayedNick-3xxvzU, .header-2N-gMV  {
+            color: var(--text-1);
+        }
+        .answer-1n6g43, .displayUsername-Qekxml {
+            color: var(--text-3);
+        }
+        .option-96V44q {
+            &.selected-rZcOL- {
+                background-color: var(--search-filter-hover);
+                .plusIcon-v0BTrL {
+                    color: var(--text-1);
+                    opacity: 1;
+                }
+                &:after {
+                    background: linear-gradient(90deg, transparent, var(--search-filter-hover) 80%);
+                }
+            }
+            &:after {
+                background: transparent;
+            }
+        }
+        .react-datepicker {
+            background-color: var(--background-3);
+            border-radius: 0;
+        }
+        .react-datepicker__header {
+            background-color: Var(--background-3);
+        }
+        .react-datepicker__day {
+            background-color: var(--background-4);
+        }
+        .react-datepicker__day--disabled,
+        .react-datepicker__day--outside-month {
+            background-color: var(--background-1);
+        }
+    }
+
+    // Results
+    .searchResultsWrap-2DKFzt {
+        width: var(--search-results-width);
+        min-width: 450px;
+        background: transparent;
+        .scroller-2FKFPG {
+            overflow-x: hidden;
+            padding-right: 8px;
+        }
+        .sibling-3tUBeh {
+            opacity: .3;
+        }
+        .searchHeader-1l-wpR {
+            z-index: 105;
+            position: relative;
+            background: var(--search-result-header);
+            box-shadow: var(--box-shadow);
+            .tab-2Ixsn0, .totalResults-gxvzgw {
+                opacity: 1;
+                color: var(--text-3);
+                &.selected-16te-P {
+                    color: var(--text-1);
+                }
+            }
+        }
+        .channelName-1QajIf {
+            background: transparent;
+        }
+        .searchResult-3pzFAB {
+            overflow: visible;
+            &:before, &:after {
+                content: none;
+            }
+        }
+        .searchResultMessage-2VxO12 {
+            &.hit-NLlWXA {
+                border: none;
+                box-shadow: var(--box-shadow), 0 0 20px 15px var(--background-1);
+                background: var(--message-box);
+                .embedFull-2tM8-- {
+                    background: var(--background-2);
+                    .embedTitle-3OXDkz {
+                        color: rgba(var(--accent), 1);
+                    }
+                }
+            }
+            &:not(.hit-NLlWXA) .embedFull-2tM8-- {
+                background: var(--message-box);
+                .embedTitle-3OXDkz {
+                    color: rgba(var(--accent), 1);
+                }
+            }
+        }
+        .searchResult-3pzFAB.expanded-v2Szsz {
+            background: var(--background-2);
+            border: none;
+            .searchResultMessage-2VxO12.hit-NLlWXA {
+                box-shadow: var(--box-shadow);
+            }
+        }
+    }
+}
