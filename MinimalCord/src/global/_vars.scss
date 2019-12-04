@@ -54,6 +54,11 @@ $dark-foreground: #21232b;
     --channel-selected: #{lighten($dark-background, 6%)};
     --channel-hovered: #{lighten($dark-background, 4%)};
 
+    // Modals
+    --modal-connection: var(--background-1);
+    --modal-list: #{lighten($dark-background, 1%)};
+    --modal-badge-invert: invert(0);
+
     // Text colours
     --text-1: #fff;
     --text-2: #{mix(#ddd, $dark-background, 90%)};
@@ -116,6 +121,11 @@ $dark-foreground: #21232b;
     --channel-selected: #fff;
     --channel-hovered: #fafafa;
 
+    // Modals
+    --modal-connection: #fff;
+    --modal-list: #f8f8f8;
+    --modal-badge-invert: invert(1);
+
     // Text colours
     --text-1: #000;
     --text-2: #111;
@@ -126,6 +136,16 @@ $dark-foreground: #21232b;
 
 // Global vars
 :root {
+    // Add/Join modal
+    --dark-modal-background: #{lighten($dark-background, 2%)};
+    --dark-modal-item: #{lighten($dark-background, 4%)};
+    --dark-modal-footer: #{$dark-background};
+
+    --light-modal-background: #f8f8f8;
+    --light-modal-item: #fff;
+    --light-modal-footer: #eee;
+
+
     --green: #43b581;
     --greenDark: #{darken(#43b581, 10%)};
 
@@ -139,7 +159,7 @@ $dark-foreground: #21232b;
     --purpleDark: #{darken(#593695, 10%)};
 
     --blurple: #7289da;
-    --blurpleDark: #{darken(#7289da, 10%)};
+    --blurpleDark: #677bc4;
     --nitro: #ff73fa;
 
     --spotify-green: #1db954;

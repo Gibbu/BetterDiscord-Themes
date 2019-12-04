@@ -60,13 +60,15 @@
                 }
             }
 
-
             .dividerEnabled-2TTlcf {
                 display: none;
             }
             &:last-child {
                 margin-bottom: 20px;
             }
+        }
+        .inner-zqa7da {
+            background: var(--background-1);
         }
         &:hover ::-webkit-scrollbar-thumb {
             visibility: visible !important;

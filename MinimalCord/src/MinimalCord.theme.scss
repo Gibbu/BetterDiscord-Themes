@@ -52,4 +52,11 @@
 @import 'global/popouts/serverdropdown';
 @import 'global/popouts/statuspicker';
 @import 'global/popouts/userpopout';
-@import 'global/popouts/context-menu';
+@import 'global/popouts/contextmenu';
+@import 'global/popouts/autocomplete';
+
+// Modals
+@import 'global/modals/usermodal';
+@import 'global/modals/upload';
+@import 'global/modals/notification';
+@import 'global/modals/joinaddserver';
