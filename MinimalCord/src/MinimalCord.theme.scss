@@ -10,7 +10,6 @@
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
 :root {
-
     /*
         Accent variable
         Use this website: https://htmlcolorcodes.com/color-picker/
@@ -46,6 +45,7 @@
 @import 'general/pages/library';
 @import 'general/pages/nitro';
 @import 'general/pages/friends';
+@import 'general/pages/discovery';
 
 // Popouts
 @import 'global/popouts/search';
@@ -54,9 +54,13 @@
 @import 'global/popouts/userpopout';
 @import 'global/popouts/contextmenu';
 @import 'global/popouts/autocomplete';
+@import 'global/popouts/mentions';
+@import 'global/popouts/rtc';
 
 // Modals
 @import 'global/modals/usermodal';
 @import 'global/modals/upload';
 @import 'global/modals/notification';
 @import 'global/modals/joinaddserver';
+@import 'global/modals/selectregion';
+@import 'global/modals/imagelightbox';

@@ -1,0 +1,22 @@
+#app-mount .messagesPopoutWrap-1MQ1bW {
+    background-color: var(--dropdown);
+    box-shadow: var(--box-shadow);
+    border: none;
+    .header-ykumBX {
+        background-color: var(--dropdown-header);
+        box-shadow: var(--box-shadow);
+    }
+    .messagesPopout-24nkyi {
+        background: transparent;
+        .messageGroupWrapper-o-Zw7G {
+            border: none;
+            box-shadow: var(--box-shadow);
+            background-color: var(--dropdown-item-hover);
+        }
+        .actionButtons-1sUUug {
+            box-shadow: none;
+            background-color: transparent;
+        }
+        &:after {content: none;}
+    }
+}

@@ -33,12 +33,14 @@ $dark-foreground: #21232b;
 
     // Dropdowns
     --dropdown: #{lighten($dark-background, 5%)};
+    --dropdown-header: #{lighten($dark-background, 8%)};
     --dropdown-item-hover: #{lighten($dark-background, 7%)};
 
     // Chat
     --message-box: #{lighten($dark-background, 3.5%)};
     --message-box-divider: #{lighten($dark-background, 6%)};
     --message-embed: #{lighten($dark-background, 2%)};
+    --message-button: #{lighten($dark-background, 12%)};
 
     // Serverlist
     --server-background: #{lighten($dark-foreground, 3%)};
@@ -106,6 +108,7 @@ $dark-foreground: #21232b;
     --message-box: #fff;
     --message-box-divider: #ddd;
     --message-embed: #eee;
+    --message-button: var(--message-box);
 
     // Serverlist
     --server-background: #fff;
