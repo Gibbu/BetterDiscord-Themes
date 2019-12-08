@@ -38,7 +38,8 @@
     padding-left: 6px;
     svg {
         -webkit-mask: url($wordmark) center/cover no-repeat;
-        background: var(--text-4);
+        background: var(--text-1);
+        opacity: .5;
         height: 10px !important;
         width: 88px !important;
         path {

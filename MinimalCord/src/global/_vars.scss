@@ -60,6 +60,7 @@ $dark-foreground: #21232b;
     --modal-connection: var(--background-1);
     --modal-list: #{lighten($dark-background, 1%)};
     --modal-badge-invert: invert(0);
+    --modal-bg1-search: var(--search-filter-hover);
 
     // Text colours
     --text-1: #fff;
@@ -128,6 +129,7 @@ $dark-foreground: #21232b;
     --modal-connection: #fff;
     --modal-list: #f8f8f8;
     --modal-badge-invert: invert(1);
+    --modal-bg1-search: #fff;
 
     // Text colours
     --text-1: #000;

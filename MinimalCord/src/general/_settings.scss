@@ -46,24 +46,14 @@
         }
     }
     .radioGroup-1GBvlr {
-        .item-26Dhrx {
-            .info-3LOr12 {
+        .item-26Dhrx[style*="background-color: rgb(114, 137, 218)"] {
+            background-color: rgba(var(--accent), 1) !important;
+            > label {
+                width: 100%;
                 display: flex;
-                position: relative;
-                .title-3BE6m5 {
-                    width: auto;
+                .label-cywgfr {
                     flex: 1;
                 }
-                .desc-2Dttbk {
-                    margin-top: 0;
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    right: 0px;
-                }
-            }
-            &[style*="background-color: rgb(114, 137, 218)"] {
-                background-color: rgba(var(--accent), 1) !important;
             }
         }
         .cardPrimaryEditable-3KtE4g {
@@ -88,6 +78,10 @@
         background-color: var(--settings-box);
         box-shadow: var(--box-shadow);
         border: none;
+    }
+    .container-2VW0UT {
+        background: var(--settings-box) !important;
+        box-shadow: var(--box-shadow);
     }
 
 
