@@ -3,7 +3,7 @@ Invite code: ZHthyCw
 
 #
 
-**SimplyDark - [Download](https://betterdiscord.net/ghdl?id=2899)**  
+**SimplyDark - [Download](https://betterdiscord.net/ghdl?id=2899) - [Editor](https://gibbu.me/themegen/simplydark)**  
 Makes discord sharp and simple
 
 ![SimplyDark](https://i.imgur.com/i5p7KTQ.jpg)
@@ -31,14 +31,14 @@ Makes Discord's light theme a real light theme with a couple of minor changes.
 
 #
 
-**Frosted Glass - [Download](https://betterdiscord.net/ghdl?id=2917)**  
+**Frosted Glass - [Download](https://betterdiscord.net/ghdl?id=2917) - [Editor](https://gibbu.me/themegen/frostedglass)**  
 Display your picture of choice with adjustable blur and brightness via variables in the theme file. Discord Dark theme is required.
 
 ![Server Chat](https://i.imgur.com/vOi0oS1.png)
 
 #
 
-**MinimalCord - [Download](https://betterdiscord.net/ghdl?id=3037)**  
+**MinimalCord - [Download](https://betterdiscord.net/ghdl?id=3037) - [Editor](https://gibbu.me/themegen/minimalcord)**  
 Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
 
 ![Server Chat](https://i.imgur.com/SJBb9VY.jpg)
