@@ -3,6 +3,9 @@
     .scroller-2FKFPG {
         background: transparent;
     }
+    .markupRtl-3M0hmN > a {
+        color: rgba(var(--accent), 1);
+    }
 
     .hasMore-3e72_v {
         background: var(--message-box);
@@ -124,7 +127,7 @@
 
     .channelTextArea-rNsIhG {
         border-top-color: var(--message-box-divider);
-        .inner-zqa7da {
+        .scrollableContainer-38zsVD {
             background-color: var(--message-box);
             box-shadow: var(--box-shadow);
             .textArea-2Spzkt {
@@ -147,7 +150,11 @@
                     }
                 }
             }
+            .attachWrapper-1_D-pj {
+                border-right: none;
+            }
             .attachButton-1UjEWA {
+                height: 100%;
                 .attachButtonInner-1iyZ9F {display: none;}
                 &:before {
                     content: "";

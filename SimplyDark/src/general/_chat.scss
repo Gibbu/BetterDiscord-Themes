@@ -27,9 +27,6 @@
         pointer-events: none;
         opacity: .3;
     }
-    .inner-zqa7da {
-        background: var(--bg3);
-    }
     .textAreaEdit-bNLDk3 {
         background: var(--bg3);
         color: #fff;
@@ -67,21 +64,26 @@
         margin: 0;
         background: transparent;
         position: relative;
+        border: none;
         .channelTextArea-1LDbYG {
             border: none;
             margin: 0;
             padding: 0;
-            .inner-zqa7da {
+            .scrollableContainer-38zsVD {
                 background-color: var(--bg3);
                 textarea {
                     max-height: unset;
-                    padding: 17px 16px 16px 16px;
+                    padding: 15px 16px 16px 16px;
                     margin: 0;
+                }
+                .attachWrapper-1_D-pj {
+                    border-right: none;
                 }
                 .attachButtonDivider-3Glu60 {
                     display: none;
                 }
                 .attachButton-1UjEWA {
+                    height: 100%;
                     svg {
                         display: none;
                     }

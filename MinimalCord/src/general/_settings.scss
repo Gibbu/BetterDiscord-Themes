@@ -8,6 +8,9 @@
     .anchor-3Z-8Bb:not(.embedLink-1G1K1D) {
         color: rgba(var(--accent), 1);
     }
+    .scroller-305q3I {
+        background: transparent;
+    }
     .barFill-23-gu- {
         background: rgba(var(--accent), 1);
     }
@@ -305,6 +308,34 @@
             box-shadow: inset 0 -1px 0 var(--settings-separator);
         }
 
+        // Audit Log
+        .auditLog-3jNbM6 {
+            border: none;
+            box-shadow: var(--box-shadow);
+        }
+        .headerDefault-1wrJcN, .headerClickable-2IVFo9 {
+            background: var(--settings-box);
+            border: none;
+        }
+        .headerExpanded-CUEwZ5 {
+            background-color: var(--settings-box);
+        }
+        .changeDetails-bk98pu {
+            background: var(--background-1);
+        }
+
+        // Emojis
+        .card-FDVird {
+            .button-2CgfFz {
+                background-color: var(--settings-box);
+                box-shadow: var(--box-shadow);
+            }
+            &:before {
+                background-color: var(--settings-box);
+                box-shadow: var(--box-shadow);
+                border: none;
+            }
+        }
 
     }
 

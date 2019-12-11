@@ -252,8 +252,6 @@
 
 #app-mount .chat-3bRxxu #charcounter { bottom: unset; top: -18px; right: 3px; pointer-events: none; opacity: .3; }
 
-#app-mount .chat-3bRxxu .inner-zqa7da { background: var(--bg3); }
-
 #app-mount .chat-3bRxxu .textAreaEdit-bNLDk3 { background: var(--bg3); color: #fff; }
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY { background: var(--bg2); }
@@ -272,21 +270,25 @@
 
 #app-mount .chat-3bRxxu .channelTextAreaDisabled-rZtG8r { background: var(--bg3); }
 
-#app-mount .chat-3bRxxu form { margin: 0; background: transparent; position: relative; }
+#app-mount .chat-3bRxxu form { margin: 0; background: transparent; position: relative; border: none; }
 
 #app-mount .chat-3bRxxu form .channelTextArea-1LDbYG { border: none; margin: 0; padding: 0; }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da { background-color: var(--bg3); }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD { background-color: var(--bg3); }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da textarea { max-height: unset; padding: 17px 16px 16px 16px; margin: 0; }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD textarea { max-height: unset; padding: 15px 16px 16px 16px; margin: 0; }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButtonDivider-3Glu60 { display: none; }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachWrapper-1_D-pj { border-right: none; }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA svg { display: none; }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachButtonDivider-3Glu60 { display: none; }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:after { content: ''; width: 24px; height: 24px; display: block; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC"); background-size: cover; opacity: .5; transition: 0.2s ease; }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachButton-1UjEWA { height: 100%; }
 
-#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .inner-zqa7da .attachButton-1UjEWA:hover:after { opacity: 1; }
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachButton-1UjEWA svg { display: none; }
+
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachButton-1UjEWA:after { content: ''; width: 24px; height: 24px; display: block; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC"); background-size: cover; opacity: .5; transition: 0.2s ease; }
+
+#app-mount .chat-3bRxxu form .channelTextArea-1LDbYG .scrollableContainer-38zsVD .attachButton-1UjEWA:hover:after { opacity: 1; }
 
 #app-mount .chat-3bRxxu form .buttons-205you { height: auto; }
 
