@@ -779,6 +779,8 @@
 
 #app-mount .modal-yWgWj- .footer-3rDWdC { background-color: var(--background-2); box-shadow: none; border: none; }
 
+#app-mount .modal-3c3bKg .root-SR8cQa { background: transparent; }
+
 #app-mount .modal-3c3bKg .root-SR8cQa [class*="topSection"] .headerFill-adLl4x { background: transparent; }
 
 #app-mount .modal-3c3bKg .root-SR8cQa [class*="topSection"]:not([class*="SectionNormal"]) .profileBadge-2BqF-Z { filter: var(--modal-badge-invert); }
@@ -915,13 +917,9 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC { background: var(
 
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-1); border: none; box-shadow: var(--box-shadow); }
 
-#app-mount .modal-3c3bKg .inner-1ilYF7 { display: block; background: var(--background-1); box-shadow: var(--box-shadow); }
+#app-mount .modal-3c3bKg .inner-1ilYF7 { display: block; }
 
-#app-mount .modal-3c3bKg .inner-1ilYF7 .imageWrapper-2p5ogY { border-radius: 0; width: 100% !important; }
-
-#app-mount .modal-3c3bKg .inner-1ilYF7 .imageWrapper-2p5ogY img { position: relative; display: block; margin: 0 auto; }
-
-#app-mount .modal-3c3bKg .inner-1ilYF7 .downloadLink-1ywL9o { display: inline-block; box-sizing: border-box; margin: 10px 0 10px 10px; box-sizing: border-box; background: var(--background-2); padding: 0 10px; border-radius: 3px; color: var(--text-2) !important; opacity: 1; text-decoration: none; }
+#app-mount .modal-3c3bKg .inner-1ilYF7 .downloadLink-1ywL9o { margin-right: 10px; }
 
 #app-mount .modal-3c3bKg .inner-1ilYF7 .downloadLink-1ywL9o + span.downloadLink-1ywL9o { display: none; }
 
