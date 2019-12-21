@@ -24,13 +24,6 @@ Moves the server list from the left to the top of Discord. Compatible with Serve
 
 #
 
-**TrueLight - [Download](https://betterdiscord.net/ghdl?id=2854)**  
-Makes Discord's light theme a real light theme with a couple of minor changes.
-
-![TrueLight](https://i.imgur.com/p05iDxt.jpg)
-
-#
-
 **Frosted Glass - [Download](https://betterdiscord.net/ghdl?id=2917) - [Editor](https://gibbu.me/themegen/frostedglass)**  
 Display your picture of choice with adjustable blur and brightness via variables in the theme file. Discord Dark theme is required.
 
