@@ -92,26 +92,10 @@
                 height: 44px;
                 background: transparent;
                 border-radius: 0 5px 5px 0;
-            }
-            .inner-3ErfOT {
+                font-size: 0px;
                 display: flex;
                 align-items: center;
                 padding-left: 16px;
-                position: relative;
-                input {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    width: 100%;
-                    cursor: pointer;
-                    &::placeholder {
-                        opacity: 0;
-                    }
-                    &:hover {
-                        background: var(--background-3);
-                    }
-                }
                 &:before {
                     content: "";
                     width: 32px;

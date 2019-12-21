@@ -60,51 +60,63 @@
     .channelTextAreaDisabled-rZtG8r {
         background: var(--bg3);
     }
+    .scrollableContainer-2NUZem {
+        background-color: var(--bg3);
+        .textArea-12jD-V {
+            max-height: unset;
+            padding: 0;
+            margin: 0;
+        }
+        .placeholder-37qJjk {
+            left: 15px;
+            top: 15px;
+        }
+        .slateTextArea-1Mkdgw {
+            left: 0;
+            padding: 17px 15px 15px 15px;
+        }
+        .attachWrapper-2TRKBi {
+            border-right: none;
+        }
+        .attachButtonDivider-3Glu60 {
+            display: none;
+        }
+        .attachButton-2WznTc {
+            height: 100%;
+            svg {
+                display: none;
+            }
+            &:after {
+                content: '';
+                width: 24px;
+                height: 24px;
+                display: block;
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC');
+                background-size: cover;
+                opacity: .5;
+                transition: 0.2s ease;
+            }
+            &:hover:after {
+                opacity: 1;
+            }
+        }
+    }
     form {
         margin: 0;
         background: transparent;
         position: relative;
         border: none;
-        .channelTextArea-1LDbYG {
+        border-top: none;
+        .channelTextArea-rNsIhG {
             border: none;
             margin: 0;
             padding: 0;
-            .scrollableContainer-38zsVD {
-                background-color: var(--bg3);
-                textarea {
-                    max-height: unset;
-                    padding: 15px 16px 16px 16px;
-                    margin: 0;
-                }
-                .attachWrapper-1_D-pj {
-                    border-right: none;
-                }
-                .attachButtonDivider-3Glu60 {
-                    display: none;
-                }
-                .attachButton-1UjEWA {
-                    height: 100%;
-                    svg {
-                        display: none;
-                    }
-                    &:after {
-                        content: '';
-                        width: 24px;
-                        height: 24px;
-                        display: block;
-                        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC');
-                        background-size: cover;
-                        opacity: .5;
-                        transition: 0.2s ease;
-                    }
-                    &:hover:after {
-                        opacity: 1;
-                    }
-                }
-            }
         }
-        .buttons-205you {
+        .buttons-3JBrkn {
             height: auto;
+            button {
+                min-height: 53px;
+            }
         }
         .typing-2GQL18 {
             padding: 0 10px;

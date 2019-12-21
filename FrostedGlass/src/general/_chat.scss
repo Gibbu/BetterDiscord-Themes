@@ -156,6 +156,9 @@
             }
         }
     }
+    .scrollableContainer-2NUZem {
+        background: rgba(#fff, 0.1);
+    }
     .button-2vd_v_ {
         opacity: .4;
         &:hover {
@@ -168,7 +171,6 @@
     form {
         background: transparent;
         .inner-zqa7da {
-            background: rgba(255,255,255,0.1);
             textarea {
                 font-weight: 500;
                 &::placeholder {

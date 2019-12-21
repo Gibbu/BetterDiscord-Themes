@@ -101,15 +101,6 @@
                 background-color: transparent;
             }
 
-            .wrapper-3WhCwL {
-                color: rgba(var(--accent), 1);
-                background: rgba(var(--accent), 0.1);
-                &:hover {
-                    color: #fff;
-                    background: rgba(var(--accent), 1);
-                }
-            }
-
             .dividerEnabled-2TTlcf {
                 display: none;
             }
@@ -125,37 +116,68 @@
         }
     }
 
+    .wrapper-3WhCwL {
+        color: rgba(var(--accent), 1);
+        background: rgba(var(--accent), 0.1);
+        &:hover {
+            color: #fff;
+            background: rgba(var(--accent), 1);
+        }
+    }
+
+    .content-3dzVd8 {
+        .scrollableContainer-2NUZem {
+            background: var(--background-1);
+            border-radius: 5px;
+        }
+    }
+
+    .operations-36ENbA>a {
+        color: rgba(var(--accent), 1);
+    }
+
     .channelTextArea-rNsIhG {
         border-top-color: var(--message-box-divider);
-        .scrollableContainer-38zsVD {
+        .scrollableContainer-2NUZem {
             background-color: var(--message-box);
             box-shadow: var(--box-shadow);
-            .textArea-2Spzkt {
+            .inner-MADQqc {
+                max-height: 144px;
+            }
+            .textArea-12jD-V {
                 padding: 15px;
                 box-sizing: border-box;
-                &::placeholder {
+                .placeholder-37qJjk {
                     text-transform: uppercase;
                     font-weight: bold;
                     letter-spacing: 1.5px;
                     font-size: 12px;
                     opacity: .7;
+                    left: 15px;
+                }
+                .slateTextArea-1Mkdgw {
+                    left: 0;
+                    top: 0;
+                    padding: 15px;
+                    box-sizing: border-box;
                 }
             }
-            .buttons-205you {
+            .buttons-3JBrkn {
                 height: 54px;
                 button {
                     opacity: .3;
+                    min-height: 54px;
                     &:hover {
                         opacity: 1;
                     }
                 }
             }
-            .attachWrapper-1_D-pj {
+            .attachWrapper-2TRKBi {
                 border-right: none;
             }
-            .attachButton-1UjEWA {
+            .attachButton-2WznTc {
                 height: 100%;
-                .attachButtonInner-1iyZ9F {display: none;}
+                .attachButtonInner-PQjIyk {display: none;}
                 &:before {
                     content: "";
                     width: 24px;
