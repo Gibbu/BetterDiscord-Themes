@@ -1,0 +1,165 @@
+:root {
+    --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg');
+    --BG-image-set: var(--BG-image, var(--BG-image-default));
+    --BG-gradient: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1));
+    --TB-tr-roundness: var(--BG-window-roundness);
+    --TB-position-top: var(--BG-window-padding);
+    --TB-position-right: var(--BG-window-padding);
+    --blurple: #7289da;
+    --nitro: #ff73fa;
+    --red: #f04747;
+    --roundness: 50px;
+}
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #fff;
+    --text-muted: #777;
+    --text-link: #00b0f4;
+    --channels-default: rgba(255, 255, 255, 0.7);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: rgba(255, 255, 255, 0.7);
+    --interactive-active: #fff;
+    --interactive-muted: rgba(255, 255, 255, 0.2);
+    --background-primary: #36393f;
+    --background-secondary: #2f3136;
+    --background-tertiary: #202225;
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-mobile-header: #2f3136;
+    --background-modifier-hover: rgba(255, 255, 255, 0.1);
+    --background-modifier-active: rgba(255, 255, 255, 0.05);
+    --background-modifier-selected: rgba(255, 255, 255, 0.1);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-panel-background: #292b2f;
+    --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { border-color: transparent !important; background: transparent !important; }
+
+::-webkit-scrollbar-thumb { border-radius: 10px !important; border: none !important; background-clip: content-box !important; background-color: rgba(0, 0, 0, 0.5) !important; }
+
+::-webkit-scrollbar-corner { visibility: hidden !important; }
+
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-corner, .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar { display: none !important; }
+
+#app-mount .container-1r6BKw { background: transparent; }
+
+#app-mount .container-1r6BKw .children-19S4PO:after { content: none; }
+
+#app-mount .tooltipBlack-PPG47z { background: var(--BG-gradient); }
+
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { display: none; }
+
+#app-mount .tooltip-2QfLtc { color: var(--text-normal); }
+
+body { background: var(--BG-image-set) center/cover fixed; }
+
+#app-mount { background: transparent; }
+
+#app-mount .app-2rEoOp, #app-mount .bg-h5JY_x { background: transparent; }
+
+#app-mount .app-2rEoOp { margin: var(--BG-window-padding); box-sizing: border-box; backdrop-filter: blur(var(--BG-image-blur)); background: rgba(var(--BG-tint-colour), var(--BG-tint-brightness)); border-radius: var(--BG-window-roundness); }
+
+#app-mount [class*="scroller"] { background: transparent; }
+
+#app-mount .base-3dtUhz:before { content: ""; position: absolute; top: 48px; width: 100%; height: 4px; background: linear-gradient(rgba(0, 0, 0, 0.2), transparent); display: block; pointer-events: none; z-index: 1; }
+
+html.theme-light body { display: flex; justify-content: center; }
+
+html.theme-light body:before { content: "Error 404: Frosted Glass Light Theme not found. \A Switch to Dark Theme to remove this notice."; white-space: pre-wrap; top: 0; z-index: 1; background: var(--BG-gradient); position: absolute; display: block; border-radius: 0 0 5px 5px; padding: 15px; box-sizing: border-box; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); color: #fff; font-weight: 500; animation: fadeInTop 0.4s ease forwards; text-align: center; }
+
+html.theme-light body:before:hover { opacity: 0; }
+
+#app-mount .guilds-1SWlCJ { background: transparent; box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--BG-serverlist-brightness)); border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness); }
+
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN { padding-top: 12px; }
+
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN .listItem-2P_4kh:first-child .wrapper-1BJsBx .childWrapper-anI2G9 { background: var(--BG-gradient); }
+
+#app-mount .guilds-1SWlCJ .childWrapper-anI2G9 { background: rgba(0, 0, 0, 0.2); }
+
+#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig { background-color: rgba(0, 0, 0, 0.2); color: rgba(var(--BG-gradient-one), 1); }
+
+#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig:hover { color: rgba(var(--BG-gradient-two), 1); }
+
+#app-mount .sidebar-2K8pFh { background: transparent; border-radius: 0; box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--BG-left-brightness)); }
+
+#app-mount .sidebar-2K8pFh .container-PNkimc, #app-mount .sidebar-2K8pFh .privateChannels-1nO12o { background: transparent; }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU { background: var(--background-modifier-active); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeUnread-1zpFdA .content-3at_AU .icon-1_QxNX { color: var(--interactive-active); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeMuted-3osy7j .content-3at_AU .icon-1_QxNX { color: var(--interactive-muted); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd:hover .content-3at_AU { background: var(--background-modifier-hover); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd:hover .content-3at_AU .icon-1_QxNX { color: var(--interactive-hover); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU { background: var(--BG-gradient); }
+
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX { color: #fff; }
+
+#app-mount .sidebar-2K8pFh .panels-j1Uci_ { background: transparent; }
+
+#app-mount .chat-3bRxxu { background: transparent; box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--BG-right-brightness)); border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0; }
+
+#app-mount .chat-3bRxxu .content-yTz4x3:before { content: none; }
+
+#app-mount .chat-3bRxxu .scrollableContainer-2NUZem { background-color: rgba(255, 255, 255, 0.1); }
+
+#app-mount .chat-3bRxxu .welcomeMessage-3_Mcht h1 { background: linear-gradient(to right, rgba(var(--BG-gradient-one), 1) 0%, rgba(var(--BG-gradient-two), 1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 18px; text-shadow: none !important; }
+
+#app-mount .chat-3bRxxu .welcomeMessage-3_Mcht p { color: #fff; }
+
+#app-mount .chat-3bRxxu .wrapper-3WhCwL { background: var(--BG-gradient); color: #fff; }
+
+#app-mount .chat-3bRxxu .markupRtl-3M0hmN { text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeInTop { from { opacity: 0;
+    transform: translateY(-10px); }
+  to { opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes fadeInRight { from { opacity: 0;
+    transform: translateX(10px); }
+  to { opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes fadeInBottom { from { opacity: 0;
+    transform: translateY(10px); }
+  to { opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes fadeInLeft { from { opacity: 0;
+    transform: translateX(-10px); }
+  to { opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes fadeOutBottom { from { opacity: 1;
+    transform: translateX(0); }
+  to { opacity: 0;
+    transform: translateY(-10px); } }

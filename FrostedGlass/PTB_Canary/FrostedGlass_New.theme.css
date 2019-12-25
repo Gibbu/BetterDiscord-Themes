@@ -1,0 +1,59 @@
+/**
+ * @name Frosted Glass PTB/Canary
+ * @author Gibbu#1211
+ * @version 1.0.0
+ * @description This version only works for PTB and Canary versions of Discord | Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
+ * @website https://gibbu.me/
+*/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/PTB_Canary/base.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+
+    /* Image variables */
+    --BG-image: url('https://i.imgur.com/kYW2H5C.jpg');  /* URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
+
+    /* Brightness variables */
+    --BG-serverlist-brightness: 0.8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+    --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+
+    /* Tint variables */
+    --BG-tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
+    --BG-tint-brightness: 0; /* Intensity of --BG-tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+    /*
+        Gradient variables
+        Use this website: https://htmlcolorcodes.com/color-picker/
+        to get your desired RGB numbers. Then simply put each number in their respective area.
+        R,G,B
+    */
+    --BG-gradient-one: 103,58,183;        /* DEFAULT: 103,58,183 */
+    --BG-gradient-two: 63,81,181;         /* DEFAULT: 63,81,181 */
+    --BG-gradient-direction: -45deg;      /* DEFAULT: -45deg */
+
+    /* Other variables */
+    --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
+    --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
+    --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+
+    /*
+        To use a custom font. Visit https://fonts.google.com and select one to your liking.
+        Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+    */
+    --BG-font: 'Whitney';  /* Font of Discord | DEFAULT: Whitney */
+
+}
+
+/*
+    Coloured SVG's by DevilBro#4401
+    Discord Server: https://discordapp.com/invite/Jx3TjNS
+    PayPal.Me: https://www.paypal.me/MircoWittrien
+*/
