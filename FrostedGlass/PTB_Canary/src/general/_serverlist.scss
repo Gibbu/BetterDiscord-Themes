@@ -1,0 +1,27 @@
+#app-mount .guilds-1SWlCJ {
+    background: transparent;;
+    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-serverlist-brightness));
+    border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
+    .scroller-2TZvBN {
+        padding-top: 12px;
+        // Home button
+        .listItem-2P_4kh:first-child .wrapper-1BJsBx .childWrapper-anI2G9 {
+            background: var(--BG-gradient);
+        }
+    }
+
+
+    // Default channel
+    .childWrapper-anI2G9 {
+        background: rgba(#000, 0.2);
+    }
+
+    // Add server & Server Discovery
+    .circleIconButton-jET_ig {
+        background-color: rgba(#000, 0.2);
+        color: rgba(var(--BG-gradient-one), 1);
+        &:hover {
+            color: rgba(var(--BG-gradient-two), 1);
+        }
+    }
+}
