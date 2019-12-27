@@ -42,6 +42,13 @@
         transform: translateX(0);
     }
 }
+
+
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
 @keyframes fadeOutBottom {
     from {
         opacity: 1;

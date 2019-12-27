@@ -23,7 +23,7 @@
     --BG-serverlist-brightness: 0.8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-    --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+    --BG-popout-brightness: 0.4;       /* 0 - 1 (decimals allowed) | DEFAULT: 0.4 */
 
     /* Tint variables */
     --BG-tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
@@ -43,6 +43,7 @@
     --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
     --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
     --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+    --BG-other-blur: 10px;               /* Bluring of user popouts, modals, dropdowns ect... | DEFAULT: 10px */
 
     /*
         To use a custom font. Visit https://fonts.google.com and select one to your liking.

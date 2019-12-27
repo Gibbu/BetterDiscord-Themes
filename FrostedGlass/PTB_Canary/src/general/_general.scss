@@ -2,23 +2,37 @@
     [class*="scroller"] {
         background: transparent;
     }
-
-    .base-3dtUhz {
-        &:before {
-            content: "";
-            position: absolute;
-            top: 48px;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(rgba(#000, 0.2), transparent);
-            display: block;
-            pointer-events: none;
-            z-index: 1;
-        }
+    .base-3dtUhz::before {
+        content: "";
+        position: absolute;
+        top: 48px;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(rgba(#000, 0.2), transparent);
+        display: block;
+        pointer-events: none;
+        z-index: 1;
+    }
+    .layer-3QrUeG.baseLayer-35bLyl {
+        transform: scale(1) !important;
+        opacity: 1 !important;
+        margin: var(--BG-window-padding);
+        box-sizing: border-box;
+        padding-top: 0;
+        top: 0;
+        backdrop-filter: blur(var(--BG-image-blur));
+        background: rgba(var(--BG-tint-colour), var(--BG-tint-brightness));
+        border-radius: var(--BG-window-roundness);
+    }
+    .lookFilled-1Gx00P.colorBrand-3pXr91 {
+        background: var(--BG-gradient);
     }
 }
 
-
+::selection {
+    background: rgba(var(--BG-gradient-two), 1);
+    color: #fff;
+}
 
 
 // Light theme warning

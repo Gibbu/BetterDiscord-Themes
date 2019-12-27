@@ -1,0 +1,37 @@
+#app-mount .layer-3QrUeG:not(.baseLayer-35bLyl) {
+    background: rgba(0,0,0,0.5);
+    left: calc(var(--BG-window-padding) / -1);
+    right: calc(var(--BG-window-padding) / -1);
+    bottom: calc(var(--BG-window-padding) / -1);
+    margin: var(--BG-window-padding);
+    box-sizing: border-box;
+    transform: scale(1) !important;
+    opacity: 1 !important;
+    .standardSidebarView-3F1I7i {
+        background: rgba(0,0,0,0.2);
+        border-radius: var(--BG-window-roundness);
+        overflow: hidden;
+        margin: 0 var(--BG-window-padding) var(--BG-window-padding);
+        backdrop-filter: blur(var(--BG-other-blur));
+    }
+
+
+    .sidebarRegion-VFTUkN {
+
+    }
+
+    .contentRegion-3nDuYy {
+        background: transparent;
+    }
+}
+
+
+
+#app-mount .layer-3QrUeG.baseLayer-35bLyl {
+    &.stop-animations.animating-rRxada ~ div {
+        animation: fadeIn 0.4s ease forwards;
+    }
+    &:not([style*="transform: scale(0.93)"]) ~ div {
+        animation: fadeOut 0.4s ease forwards;
+    }
+}

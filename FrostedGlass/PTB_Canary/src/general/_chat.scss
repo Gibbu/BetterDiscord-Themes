@@ -2,15 +2,9 @@
     background: transparent;
     box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-right-brightness));
     border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0;
-    .content-yTz4x3 {
-        &:before {
-            content: none;
-        }
+    .content-yTz4x3::before {
+        content: none;
     }
-    .scrollableContainer-2NUZem {
-        background-color: rgba(#fff, 0.1);
-    }
-
     .welcomeMessage-3_Mcht {
         h1 {
             background: linear-gradient(to right, rgba(var(--BG-gradient-one), 1) 0%, rgba(var(--BG-gradient-two), 1) 100%);
@@ -24,12 +18,60 @@
         }
     }
 
+    // Chat Messages
+    .messagesWrapper-3lZDfY {
+        text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    }
     .wrapper-3WhCwL {
         background: var(--BG-gradient);
         color: #fff;
     }
-
-    .markupRtl-3M0hmN {
-        text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    code {
+        background: rgba(#000, 0.3);
+        text-shadow: none;
+        border: none;
     }
+    .timestampCozy-2hLAPV, .edited-DL9ECl {
+        color: var(--text-normal);
+        opacity: .5;
+        font-weight: 400;
+    }
+    .embedFull-2tM8--, .wrapper-35wsBm {
+        background: rgba(#000, 0.3);
+    }
+    .attachment-33OFj0 {
+        background: rgba(#000, 0.3);
+        border: none;
+    }
+    .isMentioned-N-h9aa {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), .3), rgba(var(--BG-gradient-two), .3));
+        &::after {
+            border-left-color: rgba(var(--BG-gradient-one), 1);
+            background: none;
+            left: -4px;
+        }
+    }
+
+    // Chat box
+    .attachWrapper-2TRKBi {
+        border: none;
+    }
+    .scrollableContainer-2NUZem {
+        background-color: rgba(#fff, 0.1);
+    }
+    .textArea-12jD-V {
+        padding: 0;
+        height: auto !important;
+        .placeholder-37qJjk {
+            top: 12px;
+            left: 10px;
+        }
+        .slateTextArea-1Mkdgw {
+            padding: 10px;
+            box-sizing: border-box;
+            left: 0;
+            height: 100%;
+        }
+    }
+
 }

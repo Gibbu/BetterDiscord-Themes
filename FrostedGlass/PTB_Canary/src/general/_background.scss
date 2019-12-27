@@ -6,12 +6,4 @@ body {
     .app-2rEoOp, .bg-h5JY_x {
         background: transparent;
     }
-
-    .app-2rEoOp {
-        margin: var(--BG-window-padding);
-        box-sizing: border-box;
-        backdrop-filter: blur(var(--BG-image-blur));
-        background: rgba(var(--BG-tint-colour), var(--BG-tint-brightness));
-        border-radius: var(--BG-window-roundness);
-    }
 }

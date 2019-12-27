@@ -1,10 +1,14 @@
-#app-mount {
-    .container-1r6BKw {
-        background: transparent;
-        .children-19S4PO {
-            &:after {
-                content: none;
-            }
+#app-mount .container-1r6BKw {
+    background: transparent;
+    .children-19S4PO::after {
+        content: none;
+    }
+    .searchBar-3dMhjb {
+        background: rgba(#000, 0.3);
+        .public-DraftEditorPlaceholder-root {
+            color: var(--text-normal);
+            opacity: .5;
+            font-weight: 400;
         }
     }
 }

@@ -10,6 +10,10 @@
         }
     }
 
+    // Expanded folder
+    .expandedFolderBackground-2sPsd- {
+        background: rgba(#000, 0.3);
+    }
 
     // Default channel
     .childWrapper-anI2G9 {
@@ -23,5 +27,8 @@
         &:hover {
             color: rgba(var(--BG-gradient-two), 1);
         }
+    }
+    .guildsError-b7zR5H {
+        background: var(--red);
     }
 }

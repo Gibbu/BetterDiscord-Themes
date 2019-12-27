@@ -1,0 +1,49 @@
+.userPopout-3XzG_A, .popoutRight-1veHKi.noArrow-2foL9g {
+    background: rgba(var(--BG-tint-colour), calc(var(--BG-tint-brightness) / 2));
+    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-popout-brightness));
+    backdrop-filter: blur(var(--BG-other-blur));
+
+    .headerNormal-T_seeN {
+        background: transparent;
+    }
+    .headerPlaying-j0WQBV {
+        background: rgba(var(--blurple), 0.3);
+    }
+    .headerStreaming-2FjmGz {
+        background: rgba(var(--twitch), 0.4);
+    }
+    .headerSpotify-zpWxgT {
+        background: rgba(var(--spotify), 0.4);
+    }
+    .bodyTitle-Y0qMQz {
+        color: var(--text-normal);
+    }
+    .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+        background: rgba(#fff, 0.1);
+        border: none;
+        &:hover {
+            background: #fff;
+            color: rgba(var(--BG-gradient-one), 1);
+        }
+    }
+    .addButton-pcyyf6 {
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        border: none;
+    }
+    .footer-1fjuF6 {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        input {
+            background: rgba(#000, 0.3);
+            border: none;
+            margin: 0 10px 10px 10px;
+            width: calc(100% - 20px);
+        }
+        .protip-YaFfgO {
+            display: none;
+        }
+    }
+}
