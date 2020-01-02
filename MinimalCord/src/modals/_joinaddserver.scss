@@ -57,49 +57,49 @@
 }
 
 html.theme-dark .theme-light .wrapper-2ZbzR9 {
-    background: var(--dark-modal-background);
+    background: var(--dark-modal-background) !important;
     .slide-2pHaq5 {
-        background: var(--dark-modal-background);
+        background: var(--dark-modal-background) !important;
         .description-QF3836 {
-            color: #bbb;
+            color: #bbb !important;
         }
         .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button {
-            background: var(--dark-modal-footer);
-            border: none;
+            background: var(--dark-modal-footer) !important;
+            border: none !important;
         }
         .input-1mgnkM, .input-UJ9Tr3 {
-            background: var(--dark-modal-footer);
-            color: #fff;
+            background: var(--dark-modal-footer) !important;
+            color: #fff !important;
         }
         .action-1lSjCi {
-            background: var(--dark-modal-item);
+            background: var(--dark-modal-item) !important;
         }
         .footer-3rDWdC {
-            background: var(--dark-modal-footer);
+            background: var(--dark-modal-footer) !important;
         }
     }
 }
 
 html.theme-light .wrapper-2ZbzR9 {
-    background: var(--light-modal-background);
+    background: var(--light-modal-background) !important;
     .slide-2pHaq5 {
-        background: var(--light-modal-background);
+        background: var(--light-modal-background) !important;
         .description-QF3836 {
-            color: #444;
+            color: #444 !important;
         }
         .regionSelectInner-24f4Ce, .regionSelect-3lf4eE button {
-            background: var(--light-modal-footer);
-            border: none;
+            background: var(--light-modal-footer) !important;
+            border: none !important;
         }
         .input-1mgnkM, .input-UJ9Tr3 {
-            background: var(--light-modal-footer);
-            color: #000;
+            background: var(--light-modal-footer) !important;
+            color: #000 !important;
         }
         .action-1lSjCi {
-            background: var(--light-modal-item);
+            background: var(--light-modal-item) !important;
         }
         .footer-3rDWdC {
-            background: var(--light-modal-footer);
+            background: var(--light-modal-footer) !important;
         }
     }
 }

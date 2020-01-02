@@ -141,6 +141,10 @@ $dark-foreground: #21232b;
 
 // Global vars
 :root {
+    --roundness: 50px;
+
+    --text-link: rgba(var(--accent), 1);
+
     // Add/Join modal
     --dark-modal-background: #{lighten($dark-background, 2%)};
     --dark-modal-item: #{lighten($dark-background, 4%)};

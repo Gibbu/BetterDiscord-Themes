@@ -28,13 +28,14 @@
     --font: 'Roboto';
 }
 
-
+// Global
 @import 'global/vars';
 @import 'global/icons';
 @import 'global/global';
-
 @import 'global/headers';
+@import 'global/aceeditor';
 
+// General
 @import 'general/serverlist';
 @import 'general/channels';
 @import 'general/chat';
@@ -49,24 +50,25 @@
 @import 'general/pages/discovery';
 
 // Popouts
-@import 'global/popouts/search';
-@import 'global/popouts/serverdropdown';
-@import 'global/popouts/statuspicker';
-@import 'global/popouts/userpopout';
-@import 'global/popouts/contextmenu';
-@import 'global/popouts/autocomplete';
-@import 'global/popouts/mentions';
-@import 'global/popouts/rtc';
-@import 'global/popouts/emojipicker';
+@import 'popouts/search';
+@import 'popouts/serverdropdown';
+@import 'popouts/statuspicker';
+@import 'popouts/userpopout';
+@import 'popouts/contextmenu';
+@import 'popouts/autocomplete';
+@import 'popouts/mentions';
+@import 'popouts/rtc';
+@import 'popouts/emojipicker';
+@import 'popouts/auditlogs';
 
 // Modals
-@import 'global/modals/general';
-@import 'global/modals/usermodal';
-@import 'global/modals/upload';
-@import 'global/modals/notification';
-@import 'global/modals/joinaddserver';
-@import 'global/modals/selectregion';
-@import 'global/modals/imagelightbox';
-@import 'global/modals/quicktravel';
-@import 'global/modals/customstatus';
-@import 'global/modals/delete';
+@import 'modals/general';
+@import 'modals/usermodal';
+@import 'modals/upload';
+@import 'modals/notification';
+@import 'modals/joinaddserver';
+@import 'modals/selectregion';
+@import 'modals/imagelightbox';
+@import 'modals/quicktravel';
+@import 'modals/customstatus';
+@import 'modals/delete';
