@@ -14,6 +14,9 @@
     --bg13: rgba(calc(var(--SD-bgR) * 7), calc(var(--SD-bgG) * 7), calc(var(--SD-bgB) * 7), 1);
     --bg14: rgba(calc(var(--SD-bgR) * 7.5), calc(var(--SD-bgG) * 7.5), calc(var(--SD-bgB) * 7.5), 1);
     --bg15: rgba(calc(var(--SD-bgR) * 8), calc(var(--SD-bgG) * 8), calc(var(--SD-bgB) * 8), 1);
+    --SD-accent-default: 33, 150, 243;
+    --SD-accent-set: var(--SD-accent, var(--SD-accent-default));
+    --text-link: rgba(var(--SD-accent-set), 1);
     --green: #43b581;
     --greenDark: #359066;
     --yellow: #faa61a;
@@ -242,6 +245,16 @@
 
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .closeButton-2GCmT5 { background: var(--bg6); }
 
+#app-mount .chat-3bRxxu .wrapper-3WhCwL { background: rgba(var(--SD-accent-set), 0.1); color: rgba(var(--SD-accent-set), 1); }
+
+#app-mount .chat-3bRxxu .wrapper-3WhCwL:hover { background: rgba(var(--SD-accent-set), 1); color: #fff; }
+
+#app-mount .chat-3bRxxu .typing-2GQL18 { font-size: 12px; top: -25px; opacity: .3; left: 5px; background: var(--bg2); }
+
+#app-mount .chat-3bRxxu .typing-2GQL18 svg { margin-left: 0; }
+
+#app-mount .chat-3bRxxu .typing-2GQL18 svg circle { r: 2 !important; }
+
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs { background: var(--bg9); left: 0; right: 0; }
 
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs button { color: #fff; display: flex; align-items: center; }
@@ -256,33 +269,35 @@
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY { background: var(--bg2); }
 
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .container-1YxwTf:last-child { margin-bottom: 30px; }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .container-1YxwTf:last-child { margin-bottom: 15px; }
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY time { color: #555; font-weight: 500; }
 
-#app-mount .chat-3bRxxu form { margin: 0; border: none; }
+#app-mount .chat-3bRxxu .attachWrapper-2TRKBi { height: 53px; border: none; }
 
-#app-mount .chat-3bRxxu form .scrollableContainer-2NUZem { background: var(--bg3); }
+#app-mount .chat-3bRxxu .attachWrapper-2TRKBi button { height: 53px; }
+
+#app-mount .chat-3bRxxu .attachWrapper-2TRKBi button .attachButtonInner-PQjIyk { -webkit-mask: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC") center/24px no-repeat; background: #fff; width: 24px; opacity: .4; transition: 0.2s ease; }
+
+#app-mount .chat-3bRxxu .attachWrapper-2TRKBi button .attachButtonInner-PQjIyk svg { display: none; }
+
+#app-mount .chat-3bRxxu .attachWrapper-2TRKBi button:hover .attachButtonInner-PQjIyk { opacity: 1; }
+
+#app-mount .chat-3bRxxu .textArea-12jD-V { padding: 0; }
+
+#app-mount .chat-3bRxxu .placeholder-37qJjk { left: 15px; top: 15px; }
+
+#app-mount .chat-3bRxxu .slateTextArea-1Mkdgw { left: 0; box-sizing: border-box; padding: 16px 15px 17px; }
+
+#app-mount .chat-3bRxxu .scrollableContainer-2NUZem { background: var(--bg3); }
+
+#app-mount .chat-3bRxxu form { margin: 0; border: none; }
 
 #app-mount .chat-3bRxxu form .channelTextArea-rNsIhG { margin: 0; }
 
-#app-mount .chat-3bRxxu form .attachWrapper-2TRKBi { height: 53px; border: none; }
-
-#app-mount .chat-3bRxxu form .attachWrapper-2TRKBi button { height: 53px; }
-
-#app-mount .chat-3bRxxu form .attachWrapper-2TRKBi button .attachButtonInner-PQjIyk { -webkit-mask: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAgMAAACf9p+rAAAADFBMVEUAAAD///////////84wDuoAAAAA3RSTlMAgADB9VyVAAAAiklEQVR4Xu3RoQ1CQRRFwUO7NEEpSAIlUQiOPASCEWDA8JO9apMjJnnbV1vb7S+vxft0/RCOtw/hcH8fzjMgQcyABDEDEsQMSBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIZKESBIiSYgkIRIEiB/1DE/597DCCm7bYdxsLPzhdVd4AP85wjFpkJ5/AAAAAElFTkSuQmCC") center/24px no-repeat; background: #fff; width: 24px; opacity: .4; transition: 0.2s ease; }
-
-#app-mount .chat-3bRxxu form .attachWrapper-2TRKBi button .attachButtonInner-PQjIyk svg { display: none; }
-
-#app-mount .chat-3bRxxu form .attachWrapper-2TRKBi button:hover .attachButtonInner-PQjIyk { opacity: 1; }
-
-#app-mount .chat-3bRxxu form .textArea-12jD-V { padding: 0; }
-
-#app-mount .chat-3bRxxu form .placeholder-37qJjk { left: 15px; top: 15px; }
-
-#app-mount .chat-3bRxxu form .slateTextArea-1Mkdgw { left: 0; box-sizing: border-box; padding: 16px 15px 17px; }
-
 #app-mount .chat-3bRxxu form .channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem { height: 53px; }
+
+#app-mount .chat-3bRxxu form .buttons-3JBrkn { height: 53px; }
 
 #app-mount .chat-3bRxxu .hasMore-3e72_v { margin: 0; }
 
@@ -302,7 +317,7 @@
 
 #app-mount .chat-3bRxxu .content-yTz4x3 .image-2LqJex { filter: grayscale(1) brightness(1.5); }
 
-#app-mount .chat-3bRxxu .wrapper-35wsBm { background: var(--bg4); border: none; }
+#app-mount .chat-3bRxxu .wrapper-35wsBm { background-color: var(--bg4); border: none; }
 
 #app-mount .chat-3bRxxu code, #app-mount .chat-3bRxxu .invite-18yqGF { background: var(--bg4); border: none; }
 
@@ -1248,6 +1263,10 @@ html.theme-light #app-mount:after { content: "Woops, seems like you enabled Ligh
 
 #app-mount .modal-3c3bKg .horizontalReverse-2eTKWD > .flex-1xMQg5:last-child .input-cIJ7To { background: var(--bg2); padding: 2px 2px 2px 8px; }
 
+#app-mount .modal-3c3bKg code, #app-mount .modal-3c3bKg .wrapper-35wsBm { background: var(--bg5); border: none; }
+
+#app-mount .modal-3c3bKg pre { border: none; }
+
 #app-mount .modal-yWgWj- { background: var(--bg4); }
 
 #app-mount .modal-yWgWj- .boostCount-UFqabz { background: var(--bg10); }
@@ -1346,13 +1365,15 @@ html.theme-light #app-mount:after { content: "Woops, seems like you enabled Ligh
 
 #app-mount .uploadModal-2ifh8j .icon-kyxXVr.image-2yrs5j { border-color: var(--bg4); max-height: 85px; margin-left: 17px; }
 
+#app-mount .uploadModal-2ifh8j .scrollableContainer-2NUZem { background: var(--bg3); }
+
 #app-mount .uploadModal-2ifh8j .checkbox-1ix_J3.checked-3_4uQ9 { background: var(--green); border-color: var(--green) !important; }
 
 #app-mount .uploadModal-2ifh8j .checkbox-1ix_J3.checked-3_4uQ9 polyline { stroke: #fff !important; }
 
 #app-mount .uploadModal-2ifh8j .lookInverted-2D7oAl.colorBrand-3pXr91 { background: var(--blurple); color: #fff; }
 
-#app-mount .uploadModal-2ifh8j .footer-3mqk7D { background: var(--bg3); }
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D { background: var(--bg3); box-shadow: none; }
 
 #app-mount .uploadDropModal-2kTwbc { animation: none; }
 

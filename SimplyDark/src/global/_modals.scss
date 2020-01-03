@@ -31,6 +31,13 @@
 			background: var(--bg2);
 			padding: 2px 2px 2px 8px;
 		}
+		code, .wrapper-35wsBm {
+	        background: var(--bg5);
+	        border: none;
+	    }
+	    pre {
+	        border: none;
+	    }
 	}
 	.modal-yWgWj- {
 		background: var(--bg4);
@@ -216,6 +223,9 @@
 				margin-left: 17px;
 			}
 		}
+		.scrollableContainer-2NUZem {
+			background: var(--bg3);
+		}
 		.checkbox-1ix_J3.checked-3_4uQ9 {
 			background: var(--green);
 			border-color: var(--green) !important;
@@ -229,6 +239,7 @@
 		}
 		.footer-3mqk7D {
 			background: var(--bg3);
+			box-shadow: none;
 		}
 	}
 	.uploadDropModal-2kTwbc {
