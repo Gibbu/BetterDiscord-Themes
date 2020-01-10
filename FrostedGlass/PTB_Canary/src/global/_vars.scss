@@ -18,7 +18,7 @@
     --background-modifier-hover: #{rgba(#fff, 0.05)};
     --background-modifier-active: #{rgba(#fff, 0.1)};
     --background-modifier-selected: #{rgba(#fff, 0.1)};
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-modifier-accent: #{rgba(#fff, 0.05)};
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
     --logo-primary: #fff;
@@ -27,13 +27,13 @@
     --activity-card-background: #202225;
     --textbox-markdown-syntax: #8e9297;
     --deprecated-panel-background: #292b2f;
-    --deprecated-card-bg: rgba(32,34,37,0.6);
-    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-card-bg: #{rgba(#fff, 0.05)};
+    --deprecated-card-editable-bg: #{rgba(#fff, 0.05)};
     --deprecated-store-bg: #36393f;
     --deprecated-quickswitcher-input-background: #72767d;
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.2);
+    --deprecated-text-input-border: transparent;
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;

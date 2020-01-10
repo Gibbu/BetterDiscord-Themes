@@ -1,0 +1,19 @@
+#app-mount .notice-2FJMB4 {
+    border-radius: 0;
+    height: 48px;
+    box-shadow: none;
+    background: rgba(var(--twitch), 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .dismiss-SCAH9H {
+        right: unset;
+        left: 0;
+        position: absolute;
+        height: 100%;
+        background-position: center;
+    }
+    button {
+        top: 0;
+    }
+}

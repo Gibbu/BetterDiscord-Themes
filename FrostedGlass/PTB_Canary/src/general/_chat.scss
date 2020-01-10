@@ -53,24 +53,14 @@
     }
 
     // Chat box
-    .attachWrapper-2TRKBi {
-        border: none;
-    }
     .scrollableContainer-2NUZem {
-        background-color: rgba(#fff, 0.1);
-    }
-    .textArea-12jD-V {
-        padding: 0;
-        height: auto !important;
-        .placeholder-37qJjk {
-            top: 12px;
-            left: 10px;
+        background: rgba(#fff, 0.1);
+        .attachWrapper-2TRKBi {
+            border-color: rgba(#fff, 0.03);
         }
-        .slateTextArea-1Mkdgw {
-            padding: 10px;
-            box-sizing: border-box;
-            left: 0;
-            height: 100%;
+        .placeholder-37qJjk {
+            color: var(--text-normal);
+            opacity: .3;
         }
     }
 

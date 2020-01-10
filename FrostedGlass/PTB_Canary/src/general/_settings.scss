@@ -15,23 +15,122 @@
         backdrop-filter: blur(var(--BG-other-blur));
     }
 
-
-    .sidebarRegion-VFTUkN {
-
+    // Global
+    .cardPrimaryEditable-3KtE4g {
+        border: none;
+    }
+    .codeRedemptionRedirect-1wVR4b {
+        border: none;
+        background: var(--deprecated-card-bg);
+    }
+    .css-13kbzi0-control,
+    .lookFilled-1h1y05.select-1Pkeg4 {
+        background-color: rgba(#000, 0.2);
+        border-color: transparent;
+    }
+    .finePrint-ULGqdp {
+        color: #fff;
+        opacity: .5;
     }
 
     .contentRegion-3nDuYy {
         background: transparent;
+
+        // My Account
+        .userInfoViewing-16kqK3 {
+            .h5-18_1nd {
+                color: var(--text-normal);
+            }
+            .flexChild-faoVW3 > div:not([class]) .viewBody-2Qz-jg {
+                color: transparent;
+                position: relative;
+                transition: 0.2s ease 0.5s;
+                &:before {
+                    content: "Hover to reveal";
+                    color: #fff;
+                    opacity: .3;
+                    font-size: 12px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    transition: 0.2s ease 0.5s;
+                }
+                &:hover {
+                    color: #fff;
+                    &:before {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+
+        // Authorized Apps
+        .cardPrimaryOutline-29Ujqw {
+            border: none;
+            background: var(--deprecated-card-bg);
+        }
+
+        // Connections
+        .accountBtnInner-sj5jLs {
+            background-color: var(--deprecated-card-bg);
+        }
+
+        // Billing
+        .paymentPane-3bwJ6A {
+            background-color: var(--deprecated-card-bg);
+            .paginator-166-09, .payment-xT17Mq {
+                background: transparent;
+            }
+            > .paymentRow-2e7VM6 {
+                border-bottom-color: var(--deprecated-card-bg);
+            }
+            .scrollerWrap-2lJEkd {
+                border: none;
+            }
+            .scroller-2FKFPG .bottomDivider-1K9Gao {
+                border: none;
+            }
+            .expandedInfo-3kfShd {
+                background: var(--deprecated-card-bg);
+            }
+            .pageButtonPrev-1Y-47D,
+            .pageIndicator-1gAbyA,
+            .pageButtonNext-V2kUq0 {
+                border: none;
+                background: var(--deprecated-card-bg);
+            }
+        }
+
+        // Subscriptons
+        .detailsBlock-FoDTGA {
+            background: var(--deprecated-card-bg);
+        }
+        .tier1Banner-1BTgv0 {
+            background: var(--deprecated-card-bg);
+        }
+
+        // Server Boost
+        .cardWrapper-2Min21 {
+            background: var(--deprecated-card-bg);
+        }
+
+
+
+
+
+    }
+    .cardPrimary-1Hv-to {
+        border: none;
     }
 }
 
 
 
 #app-mount .layer-3QrUeG.baseLayer-35bLyl {
-    &.stop-animations.animating-rRxada ~ div {
+    &.stop-animations.animating-rRxada + div {
         animation: fadeIn 0.4s ease forwards;
     }
-    &:not([style*="transform: scale(0.93)"]) ~ div {
+    &:not([style*="transform: scale(0.93)"]) + div {
         animation: fadeOut 0.4s ease forwards;
     }
 }
