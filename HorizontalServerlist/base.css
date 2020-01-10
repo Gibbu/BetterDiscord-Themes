@@ -48,7 +48,7 @@
         width: 100%;
         height: 100%; }
       .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .folder-21wGz3 {
-        background: transparent; }
+        background: transparent !important; }
       .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .closedFolderIconWrapper-15K9MK {
         transform: none !important; }
       .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd- {
@@ -58,6 +58,8 @@
         height: var(--HSL-size) !important;
         left: -5px;
         width: 100%; }
+        .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+          background: transparent !important; }
       .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedGuilds-1JMD4M {
         width: auto;
         max-height: calc(var(--HSL-size) + 20px) !important;

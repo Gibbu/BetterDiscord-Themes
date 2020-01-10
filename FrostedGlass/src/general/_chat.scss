@@ -156,9 +156,6 @@
             }
         }
     }
-    .scrollableContainer-2NUZem {
-        background: rgba(#fff, 0.1);
-    }
     .button-2vd_v_ {
         opacity: .4;
         &:hover {
@@ -168,27 +165,36 @@
     .wrapper-39oAo3 {
         background: rgba(#000, 0.3);
     }
-    form {
-        background: transparent;
-        .inner-zqa7da {
-            textarea {
-                font-weight: 500;
-                &::placeholder {
-                    font-weight: 500;
-                }
-            }
-            .attachButtonDivider-3Glu60 {
-                background-color: rgba(#fff, 0.05);
-            }
-        }
-        .channelTextArea-rNsIhG {
-            border-color: rgba(#fff, 0.1);
-        }
-    }
 
     .progressBar-3u8FBM {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
     }
+
+    .scrollableContainer-2NUZem {
+        background: rgba(#fff, 0.1);
+        .inner-MADQqc {
+            display: flex;
+            align-items: center;
+        }
+        .attachWrapper-2TRKBi {
+            border-color: rgba(#fff, 0.03);
+        }
+        .attachButton-2WznTc {
+            height: 53px;
+        }
+        .placeholder-37qJjk {
+            padding: 0;
+            top: 16px;
+            left: 16px;
+            color: #fff;
+            opacity: .3;
+        }
+        .slateTextArea-1Mkdgw {
+            padding: 16px 16px 17px;
+            box-sizing: border-box;
+        }
+    }
+
 
     // Calls
     .wrapper-29NfPK {

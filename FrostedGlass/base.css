@@ -313,25 +313,25 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) { backface-visib
 
 #app-mount .chat-3bRxxu .typing-2GQL18 span { color: #fff; }
 
-#app-mount .scrollableContainer-2NUZem { background: rgba(255, 255, 255, 0.1); }
-
 #app-mount .button-2vd_v_ { opacity: .4; }
 
 #app-mount .button-2vd_v_:hover { opacity: 1; }
 
 #app-mount .wrapper-39oAo3 { background: rgba(0, 0, 0, 0.3); }
 
-#app-mount form { background: transparent; }
-
-#app-mount form .inner-zqa7da textarea { font-weight: 500; }
-
-#app-mount form .inner-zqa7da textarea::placeholder { font-weight: 500; }
-
-#app-mount form .inner-zqa7da .attachButtonDivider-3Glu60 { background-color: rgba(255, 255, 255, 0.05); }
-
-#app-mount form .channelTextArea-rNsIhG { border-color: rgba(255, 255, 255, 0.1); }
-
 #app-mount .progressBar-3u8FBM { background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important; }
+
+#app-mount .scrollableContainer-2NUZem { background: rgba(255, 255, 255, 0.1); }
+
+#app-mount .scrollableContainer-2NUZem .inner-MADQqc { display: flex; align-items: center; }
+
+#app-mount .scrollableContainer-2NUZem .attachWrapper-2TRKBi { border-color: rgba(255, 255, 255, 0.03); }
+
+#app-mount .scrollableContainer-2NUZem .attachButton-2WznTc { height: 53px; }
+
+#app-mount .scrollableContainer-2NUZem .placeholder-37qJjk { padding: 0; top: 16px; left: 16px; color: #fff; opacity: .3; }
+
+#app-mount .scrollableContainer-2NUZem .slateTextArea-1Mkdgw { padding: 16px 16px 17px; box-sizing: border-box; }
 
 #app-mount .wrapper-29NfPK { background: transparent; }
 

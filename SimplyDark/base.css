@@ -283,9 +283,9 @@
 
 #app-mount .chat-3bRxxu .attachWrapper-2TRKBi button:hover .attachButtonInner-PQjIyk { opacity: 1; }
 
-#app-mount .chat-3bRxxu .textArea-12jD-V { padding: 0; }
+#app-mount .chat-3bRxxu .textArea-12jD-V { padding: 0; min-height: 53px; height: auto; }
 
-#app-mount .chat-3bRxxu .placeholder-37qJjk { left: 15px; top: 15px; }
+#app-mount .chat-3bRxxu .placeholder-37qJjk { left: 15px; top: 15px; padding: 0; }
 
 #app-mount .chat-3bRxxu .slateTextArea-1Mkdgw { left: 0; box-sizing: border-box; padding: 16px 15px 17px; }
 

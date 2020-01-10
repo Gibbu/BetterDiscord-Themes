@@ -30,7 +30,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
     --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
 
     /* Brightness variables */
-    --BG-serverlist-brightness: .8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --BG-serverlist-brightness: 0.8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */

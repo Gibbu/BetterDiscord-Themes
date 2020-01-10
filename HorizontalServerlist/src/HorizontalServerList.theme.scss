@@ -90,7 +90,7 @@ $circleButton: ".circleButtonMask-2VNJsN";
                 height: 100%;
             }
             .folder-21wGz3 {
-                background: transparent;
+                background: transparent !important;
             }
             .closedFolderIconWrapper-15K9MK {
                 transform: none !important;
@@ -102,6 +102,9 @@ $circleButton: ".circleButtonMask-2VNJsN";
                 height: var(--HSL-size) !important;
                 left: -5px;
                 width: 100%;
+                &.collapsed-1GMuSb {
+                    background: transparent !important;
+                }
             }
             .expandedGuilds-1JMD4M {
                 width: auto;
