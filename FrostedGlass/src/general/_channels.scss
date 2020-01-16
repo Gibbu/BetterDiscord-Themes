@@ -1,149 +1,157 @@
 /* ---------- CHANNELS START ---------- */
-
 #app-mount .sidebar-2K8pFh {
-    overflow: hidden;
-    margin-right: var(--BG-left-right-split);
-    border-radius: 0;
+  overflow: hidden;
+  margin-right: var(--BG-left-right-split);
+  border-radius: 0;
+  background: transparent;
+  .searchBar-6Kv8R2 {
+    box-shadow: 0 0 5px rgba(#000,0.5);
+    .container-2XeR5Z {
+      background: transparent;
+    }
+  }
+  .clickable-23RaYz {
+    &:hover .content-3xS9Lh {
+      background: rgba(#fff, 0.05);
+    }
+    &.selected-3TGCSZ .content-3xS9Lh {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+      .username-lm8y6T {
+        color: #fff !important;
+      }
+    }
+  }
+  .moreUsers-7v8yWY {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+    color: #fff;
+  }
+  .flowerStar-1GeTsn path {
+    fill: rgba(var(--BG-gradient-one), 1);
+  }
+  .premiumGuildIconGem-C4yUDR {
+    color: #fff;
+  }
+  .channel-2QD9_O {
+    color: #fff;
+    &:hover a {
+      background: rgba(#fff, 0.1);
+      .name-2WpE7M {
+        color: #fff;
+      }
+    }
+    &.selected-1HYmZZ .linkButtonIcon-Mlm5d6 {
+      color: #fff;
+    }
+    &:not(.selected-1HYmZZ) .name-2WpE7M {
+      color: rgba(#fff, 0.5);
+    }
+  }
+  .bar-30k2ka,
+  .channel-2QD9_O.selected-1HYmZZ a {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+  }
+  .container-PNkimc {
     background: transparent;
-    .searchBar-6Kv8R2 {
-        box-shadow: 0 0 5px rgba(#000,0.5);
-        .container-2XeR5Z {
-            background: transparent;
-        }
+    .header-2o-2hj {
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);
+      background: transparent !important;
+      &.withBanner-3j8ruM {
+        background: transparent;
+      }
     }
-    .clickable-23RaYz {
-        &:hover .content-3xS9Lh {
+    div[style="width: 100%; height: 84px; visibility: hidden;"] {
+      height: 120px !important;
+    }
+    .animatedContainer-1pJv5C {
+      margin-top: 48px;
+      -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 100%) !important;
+    }
+    .containerDefault-3GGEv_ .wrapper-CU3qI5 {
+      .icon-WnO6o2,
+      .name-IbjUBS {
+        color: #fff;
+        opacity: 0.4;
+      }
+      &:hover {
+        .icon-WnO6o2,
+        .name-IbjUBS {
+          opacity: 1;
+        }
+      }
+    }
+    .containerDefault-1ZnADq {
+      .modeMuted-3osy7j {
+        svg {
+          color: rgba(#fff, 0.2);
+        }
+        .name-3_Dsmg {
+          color: rgba(#fff, 0.2);
+          font-weight: 400;
+        }
+      }
+      .wrapper-1ucjTd:not(.modeMuted-3osy7j) {
+        .name-3_Dsmg,
+        svg {
+          color: rgba(#fff, 0.7);
+          font-weight: 400;
+        }
+        &.modeUnread-1zpFdA {
+          .unread-3zKkbm {
+            background: #fff;
+          }
+          .content-3at_AU {
             background: rgba(#fff, 0.05);
-        }
-        &.selected-3TGCSZ .content-3xS9Lh {
-            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-            .username-lm8y6T {
-                color: #fff !important;
+            .name-3_Dsmg,
+            svg {
+              color: #fff;
             }
+          }
         }
-    }
-    .moreUsers-7v8yWY {
+      }
+      &:hover .content-3at_AU {
+        background: rgba(#fff, 0.1);
+      }
+      &.selected-37j_iU .content-3at_AU {
         background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-        color: #fff;
+        .name-3_Dsmg,
+        svg {
+          color: #fff;
+          font-weight: 500;
+        }
+      }
     }
-    .flowerStar-1GeTsn path {
-        fill: rgba(var(--BG-gradient-one), 1);
+    .userLimit-64AFxe .wrapper-pZmgj4 {
+      color: #fff;
+      .users-i_3-kL {
+        background: rgba(#fff, 0.1);
+        padding: 0 5px;
+        width: auto;
+      }
+      .total-3tKGEB {
+        background: rgba(#fff, 0.2);
+        padding: 0 5px;
+        width: auto;
+        &:after {
+          content: none;
+        }
+      }
     }
-    .premiumGuildIconGem-C4yUDR {
-        color: #fff;
+  }
+  .privateChannels-1nO12o {
+    background: transparent;
+  }
+  .privateChannels-1nO12o header {
+    opacity: 0.5;
+  }
+  .panels-j1Uci_ {
+    position: relative;
+    background: transparent;
+    .container-1giJp5 {
+      border: none;
     }
-    .channel-2QD9_O {
-        color: #fff;
-        &:hover a {
-            background: rgba(#fff, 0.1);
-            .name-2WpE7M {
-                color: #fff;
-            }
-        }
-        &.selected-1HYmZZ .linkButtonIcon-Mlm5d6 {
-            color: #fff;
-        }
-        &:not(.selected-1HYmZZ) .name-2WpE7M {
-            color: rgba(#fff, 0.5);
-        }
+    .container-3baos1 {
+      border: none;
     }
-    .channel-2QD9_O.selected-1HYmZZ a, .bar-30k2ka {
-        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-    }
-    .container-PNkimc {
-        background: transparent;
-        .header-2o-2hj {
-            box-shadow: 0 0 5px rgba(0,0,0,0.5);
-            background: transparent !important;
-            &.withBanner-3j8ruM {
-                background: transparent;
-            }
-        }
-        div[style="width: 100%; height: 84px; visibility: hidden;"] {
-            height: 120px !important;
-        }
-        .animatedContainer-1pJv5C {
-            margin-top: 48px;
-            -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 100%) !important
-        }
-        .containerDefault-3GGEv_ .wrapper-CU3qI5 {
-            .name-IbjUBS, .icon-WnO6o2 {
-                color: #fff;
-                opacity: .4;
-            }
-            &:hover {
-                .name-IbjUBS, .icon-WnO6o2 {
-                    opacity: 1;
-                }
-            }
-        }
-        .containerDefault-1ZnADq {
-            .modeMuted-3osy7j {
-                svg {color: rgba(#fff, 0.2)}
-                .name-3_Dsmg {
-                    color: rgba(#fff, 0.2);
-                    font-weight: 400;
-                }
-            }
-            .wrapper-1ucjTd:not(.modeMuted-3osy7j) {
-                svg, .name-3_Dsmg {
-                    color: rgba(#fff, 0.7);
-                    font-weight: 400;
-                }
-                &.modeUnread-1zpFdA {
-                    .unread-3zKkbm {
-                        background: #fff;
-                    }
-                    .content-3at_AU {
-                        background: rgba(#fff, 0.05);
-                        svg, .name-3_Dsmg {color: #fff;}
-                    }
-                }
-            }
-            &:hover .content-3at_AU {
-                background: rgba(#fff, 0.1);
-            }
-            &.selected-37j_iU .content-3at_AU {
-                background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-                svg, .name-3_Dsmg {
-                    color: #fff;
-                    font-weight: 500;
-                }
-            }
-        }
-        .userLimit-64AFxe .wrapper-pZmgj4 {
-            color: #fff;
-            .users-i_3-kL {
-                background: rgba(#fff, 0.1);
-                padding: 0 5px;
-                width: auto;
-            }
-            .total-3tKGEB {
-                background: rgba(#fff, 0.2);
-                padding: 0 5px;
-                width: auto;
-                &:after {
-                    content: none;
-                }
-            }
-        }
-    }
-    .privateChannels-1nO12o {
-        background: transparent;
-    }
-    .privateChannels-1nO12o header {
-        opacity: .5;
-    }
-    .panels-j1Uci_ {
-        position: relative;
-        background: transparent;
-        .container-1giJp5 {
-            border: none;
-        }
-        .container-3baos1 {
-            border: none;
-        }
-    }
+  }
 }
-
 /* ---------- CHANNELS END ---------- */

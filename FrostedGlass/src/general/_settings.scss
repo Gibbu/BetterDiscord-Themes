@@ -1,314 +1,307 @@
 /* ---------- SETTINGS START ---------- */
-
-#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
-    .standardSidebarView-3F1I7i {
-        background: transparent;
-        overflow: hidden;
-        .bd-pfbtn {
-            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-        }
-        .themed-OHr7kt.item-PXvHYJ:hover {
-            background: rgba(#fff, 0.05);
-        }
-        .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
-            background: rgba(#fff, 0.15);
-        }
-        .auditLog-3jNbM6 {
-            border: none;
-            background: rgba(#000, 0.3);
-            .headerClickable-2IVFo9, .headerDefault-1wrJcN {
-                background: transparent;
-                color: #fff;
-            }
-            .headerExpanded-CUEwZ5 {
-                background: rgba(#000, 0.3);
-            }
-            .divider-1pnAR2 {
-                display: none;
-            }
-            .changeDetails-bk98pu {
-                background: transparent;
-            }
-        }
-
-        // Side bar
-        .sidebarRegion-VFTUkN {
-            border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
-            background: transparent;
-            overflow: hidden;
-            margin-right: var(--BG-left-right-split);
-            .header-2RyJ0Y {
-                color: rgba(#fff, 0.5);
-                font-weight: 500;
-            }
-            .separator-gCa7yv {
-                background: rgba(#fff, 0.1);
-            }
-            item-PXvHYJ selected-3s45Ha
-            .item-PXvHYJ {
-                color: #fff;
-                &:hover {
-                    background: rgba(#fff, 0.1);
-                }
-                &.selected-3s45Ha {
-                    background: rgba(#fff, 0.2);
-                }
-            }
-            .ui-tab-bar-item.selected {
-                background: rgba(#fff, 0.2);
-            }
-            #bd-settings-sidebar > span > div {
-                display: block;
-                position: relative;
-                &:last-child {
-                    padding-bottom: 20px !important;
-                    &:after {
-                        content: "Frosted Glass v1.0.0 by Gibbu";
-                        position: absolute;
-                        left: 0;
-                        top: 18px;
-                        left: 10px;
-                    }
-                }
-            }
-        }
-
-        // Main content
-        .contentRegion-3nDuYy {
-            border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0;
-            background: transparent;
-            overflow: hidden;
-            .wrapper-1u09nF[role="progressbar"] circle {
-                &:first-child {
-                    stroke: rgba(#fff, 0.15);
-                }
-                &:last-child {
-                    stroke: rgba(var(--BG-gradient-one), 1);
-                }
-            }
-            .wrapper-3jrx9n {
-                border-color: rgba(var(--BG-gradient-one), .5);
-            }
-            .recording-1H2dS7 .button-34kXw5 .text-2sI5Sd {
-                color: #f04747 !important;
-            }
-            .selected-mKYnfr.option-n0icdO, .defaultIndicator-2X8Auf, .slider-1PF9SW .barFill-23-gu-, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .userInfoViewingButton-2-jbH9, .button-38aScr.lookFilled-1Gx00P, .questionMark-CWEQZn {
-                background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-            }
-            .header-1NFI81, .guildGraphicContainer-39I_Pl {
-                background-color:  rgba(0,0,0,0.6) !important;
-            }
-            .info-3UT5_W, .subscriptionDuration-UvxLGw, .guildGraphicPlaceholder-1QPxar{
-                background-color: rgba(0,0,0,0.3) !important;
-            }
-            .gemIndicatorContainer-2jdECl {
-                background-color: rgba(0,0,0,1) !important;
-            }
-            .speaking-2bFhO4 {
-                background: #43b581 !important;
-            }
-            .lookOutlined-3sRXeN.colorBrand-3pXr91 {
-                background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-                color: #fff;
-                border: none;
-            }
-            .lookLink-9FtZy-.colorBrand-3pXr91 {
-                background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-                color: #fff;
-                border-radius: 3px;
-                padding: 10px 18px;
-                &:hover .contents-18-Yxp {
-                    background: transparent;
-                }
-            }
-            .bda-slist li, .container-2XeR5Z {
-                border: none;
-                background: rgba(#000, 0.3);
-            }
-            .bda-slist .bda-header, .bda-footer {
-                border-color: rgba(#fff, 0.1);
-            }
-            .subscriptionDetails-16jcwU {
-                .tier1-1ttHRY.banner-3Kac2g {
-                    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-                }
-                .container-2Zlzt0 {
-                    background: rgba(#000, 0.3);
-                }
-            }
-            .tier1Banner-1B_WXY {
-                background: rgba(#000, 0.3);
-            }
-            .background-3N1V7e {
-                background: none;
-            }
-            .notificationsSound-27jFSh {
-                box-shadow: inset 0 -1px 0 0 rgba(#fff, 0.1);
-            }
-            .role-2irmRk {
-                max-width: 100%;
-                box-sizing: border-box;
-            }
-            .removeWebhook-3PNViU, .restoreButton-22-SIW, .removeGame-2JFGPn {
-                box-shadow: none;
-                background-color: rgba(#000, 0.3);
-            }
-            .hiddenLibraryApplication-2esFER {
-                border-color: rgba(#fff, 0.1);
-            }
-            .progress-1IcQ3A {
-                background: rgba(#000, 0.3);
-            }
-            .notches-1sAcEM {
-                display: none;
-            }
-            .divider-3573oO, .bar-2Qqk5Z, .markDash-3hAolZ {
-                background-color: rgba(#fff, 0.1);
-            }
-            .tierHeader-rlkkJd {
-                background: rgba(#000, 0.6);
-            }
-            .formNotice-2_hHWR, .container-1nZlH6, .searchBox-3Y2Vi7, .emptyUsers--hiToV, .preview-2nSL_2, .installationPathEditing-1kEfQT, .codeRedemptionRedirect-1wVR4b, .container-cMG81i, .tierBody-x9kBBp {
-                border: none;
-                background: rgba(#000, 0.3);
-            }
-            .card-FDVird:before, .input-cIJ7To, .cardPrimary-1Hv-to {
-                border: none;
-                background: rgba(#000, 0.3);
-            }
-            .preview-2nSL_2 [class*="timestamp"] {
-                color: rgba(#fff, 0.5);
-            }
-            .row-2okwlC, .game-1ipmAa {
-                box-shadow: none;
-            }
-            .lookGhost-2Fn_0-.colorGrey-2DXtkV {
-                background: rgba(#fff, 0.1);
-            }
-            .item-3T2z1R {
-                border: none;
-                background: rgba(#000, 0.3);
-            }
-            .passthroughSelected-1Eq0Kl {
-                background: rgba(#fff, 0.1);
-            }
-            .allowSelected-25S_i5 {
-                background: #43b581;
-            }
-            .denySelected-1mh2mZ {
-                background: #f04747;
-            }
-            .text-2sI5Sd, .colorStandard-2KCXvj, .header-2RyJ0Y, .description-1W0DiL {
-                color: #fff;
-            }
-            .notDetected-33MY4s {
-                background: rgba(#fff, 0.1);
-            }
-            h5:not(.isEnabled-24g9qA) {
-                color: rgba(#fff, 0.6);
-                font-weight: 500;
-            }
-            .description-3_Ncsb, .unfollowButton-2uoMXv {
-                color: #fff;
-            }
-            .default-3sgIpy {
-                color: rgba(#fff, 0.7);
-                font-weight: 400;
-            }
-            .userInfoViewing-16kqK3 {
-                border: none;
-                background: rgba(#000, 0.3);
-                .viewBody-2Qz-jg {
-                    color: #fff;
-                    span {
-                        opacity: .7 !important;
-                    }
-                }
-            }
-            .userInfoEditing-1CEzdT {
-                border: none;
-                background: rgba(#000, 0.3);
-                .input-cIJ7To {
-                    border: none;
-                    background: rgba(#000, 0.3);
-                    input {
-                        background: transparent;
-                    }
-                }
-                .divider-3573oO {
-                    background: rgba(#fff, 0.1);
-                }
-            }
-            .authedApp-mj2Hmd, .accountList-33MS45 {
-                border: none;
-                background: rgba(#000, 0.3);
-                .primary-jw0I4K {
-                    color: #fff;
-                }
-            }
-            .item-3eFBNF {
-                box-shadow: inset 0 -1px 0 0 rgba(#fff, 0.1);
-            }
-            .connectedAccounts-2-XP1G {
-                display: grid;
-                grid-template-columns: repeat(11, 1fr);
-                .accountBtn-2Nozo3 {
-                    margin: 0;
-                    button {
-                        border: none;
-                        background-color: rgba(#000, 0.3);
-                        padding: 0;
-                    }
-                }
-            }
-            .paymentPane-3bwJ6A {
-                background: rgba(#000, 0.3);
-                .paginator-2CA79G {
-                    background: transparent;
-                }
-                .payment-xT17Mq {
-                    background: transparent;
-                    &:hover {
-                        background: rgba(#000, 0.1);
-                    }
-                    .expandedInfo-3kfShd {
-                        background: transparent;
-                    }
-                }
-                .bottomDivider-1K9Gao {
-                    border-bottom-color: rgba(#fff, 0.1);
-                }
-            }
-            .sound-2QlACh {
-                color: #fff;
-            }
-            .ui-switch-item .style-description {
-                color: rgba(#fff, 0.6);
-                font-weight: 400;
-            }
-            .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .cardPrimaryEditable-3KtE4g {
-                border: none;
-                background: rgba(#000, 0.3);
-            }
-            .media-engine-video {
-                background: transparent;
-            }
-
-            .pageActions-1SVAnA {
-                .pageIndicator-1gAbyA, .pageButtonNext-V2kUq0,  .pageButtonPrev-1Y-47D {
-                    border: none;
-                    background: rgba(#fff, 0.05);
-                }
-            }
-            .searchResultsContainer-1ma_dc {
-                box-shadow: none;
-                .searchOption-8nCYo-.selected-1r_nkg {
-                    background: rgba(#fff, 0.1);
-                }
-            }
-
-        }
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i {
+  background: transparent;
+  overflow: hidden;
+  .bd-pfbtn {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+  }
+  .themed-OHr7kt.item-PXvHYJ:hover {
+    background: rgba(#fff, 0.05);
+  }
+  .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background: rgba(#fff, 0.15);
+  }
+  .auditLog-3jNbM6 {
+    border: none;
+    background: rgba(#000, 0.3);
+    .headerClickable-2IVFo9,
+    .headerDefault-1wrJcN {
+      background: transparent;
+      color: #fff;
     }
+    .headerExpanded-CUEwZ5 {
+      background: rgba(#000, 0.3);
+    }
+    .divider-1pnAR2 {
+      display: none;
+    }
+    .changeDetails-bk98pu {
+      background: transparent;
+    }
+  }
+  // Side bar
+  .sidebarRegion-VFTUkN {
+    border-radius: var(--BG-window-roundness) 0 0 var(--BG-window-roundness);
+    background: transparent;
+    overflow: hidden;
+    margin-right: var(--BG-left-right-split);
+    .header-2RyJ0Y {
+      color: rgba(#fff, 0.5);
+      font-weight: 500;
+    }
+    .separator-gCa7yv {
+      background: rgba(#fff, 0.1);
+    }
+    .item-PXvHYJ {
+      color: #fff;
+      &:hover {
+        background: rgba(#fff, 0.1);
+      }
+      &.selected-3s45Ha {
+        background: rgba(#fff, 0.2);
+      }
+    }
+    .ui-tab-bar-item.selected {
+      background: rgba(#fff, 0.2);
+    }
+    #bd-settings-sidebar > span > div {
+      display: block;
+      position: relative;
+      &:last-child {
+        padding-bottom: 20px !important;
+        &:after {
+          content: "Frosted Glass v1.0.0 by Gibbu";
+          position: absolute;
+          left: 0;
+          top: 18px;
+          left: 10px;
+        }
+      }
+    }
+  }
+  // Main content
+  .contentRegion-3nDuYy {
+    border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0;
+    background: transparent;
+    overflow: hidden;
+    .wrapper-1u09nF[role="progressbar"] circle {
+      &:first-child {
+        stroke: rgba(#fff, 0.15);
+      }
+      &:last-child {
+        stroke: rgba(var(--BG-gradient-one), 1);
+      }
+    }
+    .wrapper-3jrx9n {
+      border-color: rgba(var(--BG-gradient-one), .5);
+    }
+    .recording-1H2dS7 .button-34kXw5 .text-2sI5Sd {
+      color: #f04747 !important;
+    }
+    #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .button-38aScr.lookFilled-1Gx00P, .defaultIndicator-2X8Auf, .questionMark-CWEQZn, .selected-mKYnfr.option-n0icdO, .slider-1PF9SW .barFill-23-gu-, .userInfoViewingButton-2-jbH9 {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+    }
+    .guildGraphicContainer-39I_Pl, .header-1NFI81 {
+      background-color: rgba(0,0,0,0.6) !important;
+    }
+    .guildGraphicPlaceholder-1QPxar, .info-3UT5_W, .subscriptionDuration-UvxLGw {
+      background-color: rgba(0,0,0,0.3) !important;
+    }
+    .gemIndicatorContainer-2jdECl {
+      background-color: rgba(0,0,0,1) !important;
+    }
+    .speaking-2bFhO4 {
+      background: #43b581 !important;
+    }
+    .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+      color: #fff;
+      border: none;
+    }
+    .lookLink-9FtZy-.colorBrand-3pXr91 {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+      color: #fff;
+      border-radius: 3px;
+      padding: 10px 18px;
+      &:hover .contents-18-Yxp {
+        background: transparent;
+      }
+    }
+    .bda-slist li, .container-2XeR5Z {
+      border: none;
+      background: rgba(#000, 0.3);
+    }
+    .bda-footer, .bda-slist .bda-header {
+      border-color: rgba(#fff, 0.1);
+    }
+    .subscriptionDetails-16jcwU {
+      .tier1-1ttHRY.banner-3Kac2g {
+        background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+      }
+      .container-2Zlzt0 {
+        background: rgba(#000, 0.3);
+      }
+    }
+    .tier1Banner-1B_WXY {
+      background: rgba(#000, 0.3);
+    }
+    .background-3N1V7e {
+      background: none;
+    }
+    .notificationsSound-27jFSh {
+      box-shadow: inset 0 -1px 0 0 rgba(#fff, 0.1);
+    }
+    .role-2irmRk {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .removeGame-2JFGPn, .removeWebhook-3PNViU, .restoreButton-22-SIW {
+      box-shadow: none;
+      background-color: rgba(#000, 0.3);
+    }
+    .hiddenLibraryApplication-2esFER {
+      border-color: rgba(#fff, 0.1);
+    }
+    .progress-1IcQ3A {
+      background: rgba(#000, 0.3);
+    }
+    .notches-1sAcEM {
+      display: none;
+    }
+    .bar-2Qqk5Z, .divider-3573oO, .markDash-3hAolZ {
+      background-color: rgba(#fff, 0.1);
+    }
+    .tierHeader-rlkkJd {
+      background: rgba(#000, 0.6);
+    }
+    .codeRedemptionRedirect-1wVR4b, .container-1nZlH6, .container-cMG81i, .emptyUsers--hiToV, .formNotice-2_hHWR, .installationPathEditing-1kEfQT, .preview-2nSL_2, .searchBox-3Y2Vi7, .tierBody-x9kBBp {
+      border: none;
+      background: rgba(#000, 0.3);
+    }
+    .card-FDVird:before, .cardPrimary-1Hv-to, .input-cIJ7To {
+      border: none;
+      background: rgba(#000, 0.3);
+    }
+    .preview-2nSL_2 [class*="timestamp"] {
+      color: rgba(#fff, 0.5);
+    }
+    .game-1ipmAa, .row-2okwlC {
+      box-shadow: none;
+    }
+    .lookGhost-2Fn_0-.colorGrey-2DXtkV {
+      background: rgba(#fff, 0.1);
+    }
+    .item-3T2z1R {
+      border: none;
+      background: rgba(#000, 0.3);
+    }
+    .passthroughSelected-1Eq0Kl {
+      background: rgba(#fff, 0.1);
+    }
+    .allowSelected-25S_i5 {
+      background: #43b581;
+    }
+    .denySelected-1mh2mZ {
+      background: #f04747;
+    }
+    .colorStandard-2KCXvj, .description-1W0DiL, .header-2RyJ0Y, .text-2sI5Sd {
+      color: #fff;
+    }
+    .notDetected-33MY4s {
+      background: rgba(#fff, 0.1);
+    }
+    h5:not(.isEnabled-24g9qA) {
+      color: rgba(#fff, 0.6);
+      font-weight: 500;
+    }
+    .description-3_Ncsb, .unfollowButton-2uoMXv {
+      color: #fff;
+    }
+    .default-3sgIpy {
+      color: rgba(#fff, 0.7);
+      font-weight: 400;
+    }
+    .userInfoViewing-16kqK3 {
+      border: none;
+      background: rgba(#000, 0.3);
+      .viewBody-2Qz-jg {
+        color: #fff;
+        span {
+          opacity: 0.7 !important;
+        }
+      }
+    }
+    .userInfoEditing-1CEzdT {
+      border: none;
+      background: rgba(#000, 0.3);
+      .input-cIJ7To {
+        border: none;
+        background: rgba(#000, 0.3);
+        input {
+          background: transparent;
+        }
+      }
+      .divider-3573oO {
+        background: rgba(#fff, 0.1);
+      }
+    }
+    .accountList-33MS45, .authedApp-mj2Hmd {
+      border: none;
+      background: rgba(#000, 0.3);
+      .primary-jw0I4K {
+        color: #fff;
+      }
+    }
+    .item-3eFBNF {
+      box-shadow: inset 0 -1px 0 0 rgba(#fff, 0.1);
+    }
+    .connectedAccounts-2-XP1G {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr);
+      .accountBtn-2Nozo3 {
+        margin: 0;
+        button {
+          border: none;
+          background-color: rgba(#000, 0.3);
+          padding: 0;
+        }
+      }
+    }
+    .paymentPane-3bwJ6A {
+      background: rgba(#000, 0.3);
+      .paginator-2CA79G {
+        background: transparent;
+      }
+      .payment-xT17Mq {
+        background: transparent;
+        &:hover {
+          background: rgba(#000, 0.1);
+        }
+        .expandedInfo-3kfShd {
+          background: transparent;
+        }
+      }
+      .bottomDivider-1K9Gao {
+        border-bottom-color: rgba(#fff, 0.1);
+      }
+    }
+    .sound-2QlACh {
+      color: #fff;
+    }
+    .ui-switch-item .style-description {
+      color: rgba(#fff, 0.6);
+      font-weight: 400;
+    }
+    .cardPrimaryEditable-3KtE4g,
+    .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+      border: none;
+      background: rgba(#000, 0.3);
+    }
+    .media-engine-video {
+      background: transparent;
+    }
+    .pageActions-1SVAnA {
+      .pageButtonNext-V2kUq0, .pageButtonPrev-1Y-47D, .pageIndicator-1gAbyA {
+        border: none;
+        background: rgba(#fff, 0.05);
+      }
+    }
+    .searchResultsContainer-1ma_dc {
+      box-shadow: none;
+      .searchOption-8nCYo-.selected-1r_nkg {
+        background: rgba(#fff, 0.1);
+      }
+    }
+  }
 }
-
 /* ---------- SETTINGS END ---------- */

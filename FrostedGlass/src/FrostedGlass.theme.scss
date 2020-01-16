@@ -25,66 +25,66 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
 
 :root {
 
-    /* Image variables */
-    --BG-image: url('https://i.imgur.com/kYW2H5C.jpg');  /* URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-    --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
+  /* Image variables */
+  --BG-image: url('https://i.imgur.com/kYW2H5C.jpg');  /* URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --BG-image-blur: 5px;                                /* MUST END IN px (0px) | DEFAULT: 5px */
 
-    /* Brightness variables */
-    --BG-serverlist-brightness: 0.8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-    --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
+  /* Brightness variables */
+  --BG-serverlist-brightness: 0.8;   /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --BG-left-brightness: 0.8;         /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --BG-right-brightness: 0.6;        /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --BG-popout-brightness: 0.7;       /* 0 - 1 (decimals allowed) | Usually darker than --BG-right-brightness | DEFAULT: 0.7 */
 
-    /* Tint variables */
-    --BG-tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
-    --BG-tint-brightness: 0; /* Intensity of --BG-tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  /* Tint variables */
+  --BG-tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
+  --BG-tint-brightness: 0; /* Intensity of --BG-tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
-    /*
-        Gradient variables
-        Use this website: https://htmlcolorcodes.com/color-picker/
-        to get your desired RGB numbers. Then simply put each number in their respective area.
-        R,G,B
-    */
-    --BG-gradient-one: 103,58,183;        /* DEFAULT: 103,58,183 */
-    --BG-gradient-two: 63,81,181;         /* DEFAULT: 63,81,181 */
-    --BG-gradient-direction: -45deg;      /* DEFAULT: -45deg */
+  /*
+    Gradient variables
+    Use this website: https://htmlcolorcodes.com/color-picker/
+    to get your desired RGB numbers. Then simply put each number in their respective area.
+    R,G,B
+  */
+  --BG-gradient-one: 103,58,183;        /* DEFAULT: 103,58,183 */
+  --BG-gradient-two: 63,81,181;         /* DEFAULT: 63,81,181 */
+  --BG-gradient-direction: -45deg;      /* DEFAULT: -45deg */
 
-    /* Other variables */
-    --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
-    --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
-    --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+  /* Other variables */
+  --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
+  --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
+  --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
 
-    /*
-        To use a custom font. Visit https://fonts.google.com and select one to your liking.
-        Now just follow this tutorial: https://imgur.com/a/CNbw7xC
-    */
-    --BG-font: 'Whitney';  /* Font of Discord | DEFAULT: Whitney */
+  /*
+    To use a custom font. Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --BG-font: 'Whitney';  /* Font of Discord | DEFAULT: Whitney */
 
 }
 
 /*
-    Coloured SVG's by DevilBro#4401
-    Discord Server: https://discordapp.com/invite/Jx3TjNS
-    PayPal.Me: https://www.paypal.me/MircoWittrien
+  Coloured SVG's by DevilBro#4401
+  Discord Server: https://discordapp.com/invite/Jx3TjNS
+  PayPal.Me: https://www.paypal.me/MircoWittrien
 */
 
 
 :root {
-    --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg');
-    --BG-image-set: var(--BG-image,var(--BG-image-default));
+  --BG-image-default: url('https://i.imgur.com/kYW2H5C.jpg');
+  --BG-image-set: var(--BG-image,var(--BG-image-default));
 
-    --BG-tint-colour-default: 255, 51, 159;
-    --BG-tint-colour-set: var(--BG-tint-colour, var(--BG-tint-colour-default));
-    --BG-tint-brightness-set: var(--BG-tint-brightness, 0);
+  --BG-tint-colour-default: 255, 51, 159;
+  --BG-tint-colour-set: var(--BG-tint-colour, var(--BG-tint-colour-default));
+  --BG-tint-brightness-set: var(--BG-tint-brightness, 0);
 
-    --TB-tr-roundness: var(--BG-window-roundness);
-    --TB-position-top: var(--BG-window-padding);
-    --TB-position-right: var(--BG-window-padding);
+  --TB-tr-roundness: var(--BG-window-roundness);
+  --TB-position-top: var(--BG-window-padding);
+  --TB-position-right: var(--BG-window-padding);
 
-    --blurple: #7289da;
-    --nitro: #ff73fa;
-    --red: #f04747;
-    --roundness: 50px;
+  --blurple: #7289da;
+  --nitro: #ff73fa;
+  --red: #f04747;
+  --roundness: 50px;
 }
 
 

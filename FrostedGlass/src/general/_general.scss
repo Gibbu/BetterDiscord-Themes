@@ -1,119 +1,113 @@
 /* ---------- GENERAL START ---------- */
-
 html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 	backface-visibility: hidden;
 }
-
 ::-webkit-input-placeholder, body, button, input, select, textarea {
-    font-family: var(--BG-font, 'Whitney'), Whitney;
+	font-family: var(--BG-font, 'Whitney'), Whitney;
 }
-
 .appMount-3lHmkl, body {
-    background: transparent !important;
+	background: transparent !important;
 }
-
 #app-mount {
 	background: var(--BG-image-set) center/cover fixed !important;
 	.scroller-2FKFPG {
 		background: transparent !important;
 	}
-    .layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .appMount-3lHmkl, body, .bg-h5JY_x {
-        background: transparent !important;
-    }
-	.mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before {
+	.appMount-3lHmkl,	.bg-h5JY_x,	.container-2lgZY8,	.layer-3QrUeG,	.layers-3iHuyZ,	body {
+		background: transparent !important;
+	}
+	.mediaBarProgress-1xaPtl,	.mediaBarProgress-1xaPtl:after,	.mediaBarProgress-1xaPtl:before {
 		background: rgba(var(--BG-gradient-one), 1);
 	}
-	.lookFilled-1Gx00P.colorBrand-3pXr91, .themeDefault-24hCdX.valueChecked-m-4IJZ, .overflowPlayerCount-_jrNfw, .mediaBarGrabber-1FqnbN, .keybindShortcut-1BD6Z1 span, .wanderingCubesItem-WPXqao {
+	.keybindShortcut-1BD6Z1 span,	.lookFilled-1Gx00P.colorBrand-3pXr91,	.mediaBarGrabber-1FqnbN,	.overflowPlayerCount-_jrNfw,	.themeDefault-24hCdX.valueChecked-m-4IJZ,	.wanderingCubesItem-WPXqao {
 		background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 	}
-    .downloadProgress-3lBtPV, .downloadProgressCircle-3_wgim {
-        .circleBackground-OqqxHM {
-            fill: rgba(var(--BG-gradient-one), 1);
-            stroke: rgba(var(--BG-gradient-one), .5);
-        }
-        .circleProgress-1EBmVn {
-            stroke: #fff;
-        }
-    }
-    ::selection {
-        background: rgba(var(--BG-gradient-two), 1);
-        color: #fff !important;
-    }
-    .callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
-        box-shadow: inset 0 0 0 2px rgba(var(--BG-gradient-one), 1);
-    }
-    .videoHeight-Qp_9vC.noChat-3nt48u {
-        height: calc(100vh - 40px)
-    }
-    .themeDefault-24hCdX {
-        background: rgba(#fff, 0.15);
-    }
-    .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
-        background: rgba(var(--BG-gradient-one), 1);
-        border-color: transparent;
-    }
-    .keybindShortcutTipsSelect-HDyfe8:last-of-type:before {
-        background: rgba(#fff, 0.1);
-    }
-    .layers-3iHuyZ {
+	.downloadProgress-3lBtPV,.downloadProgressCircle-3_wgim {
+		.circleBackground-OqqxHM {
+			fill: rgba(var(--BG-gradient-one), 1);
+			stroke: rgba(var(--BG-gradient-one), .5);
+		}
+		.circleProgress-1EBmVn {
+			stroke: #fff;
+		}
+	}
+	::selection {
+		background: rgba(var(--BG-gradient-two), 1);
+		color: #fff !important;
+	}
+	.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+		box-shadow: inset 0 0 0 2px rgba(var(--BG-gradient-one), 1);
+	}
+	.videoHeight-Qp_9vC.noChat-3nt48u {
+		height: calc(100vh - 40px);
+	}
+	.themeDefault-24hCdX {
+		background: rgba(#fff, 0.15);
+	}
+	.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+		background: rgba(var(--BG-gradient-one), 1);
+		border-color: transparent;
+	}
+	.keybindShortcutTipsSelect-HDyfe8:last-of-type:before {
+		background: rgba(#fff, 0.1);
+	}
+	.layers-3iHuyZ {
 		border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0;
-    }
-    .app-2rEoOp {
+	}
+	.app-2rEoOp {
 		background: transparent;
 		padding: var(--BG-window-padding);
-    }
-    .css-15ejc46-control, .css-13kbzi0-control, .lookFilled-1h1y05.select-1Pkeg4 {
-        background: rgba(#000, 0.3);
-        border: none;
-    }
-    .option-n0icdO {
-        background: rgba(#fff, 0.1);
-        box-shadow: none;
-        &:hover {
-            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), .5) 20%, rgba(var(--BG-gradient-two), .5));
-        }
-    }
-    .flowerStar-1GeTsn path {
-        fill: rgba(var(--BG-gradient-one), 1);
-    }
-    .css-2yldzf-control, .css-1yegjoj-control {
-        background: rgba(#000, 0.6);
-        border: none;
-    }
-    .css-1gnr91b-option {
-        background: rgba(#000, 0.3);
-    }
-    .css-181m2lf-menu {
-        border: none;
-        box-shadow: none;
-    }
-    .css-1k00wn6-singleValue {
-        color: #fff;
-    }
-    .radioGroup-1GBvlr .item-26Dhrx {
-        border: none;
-        display: flex;
-        align-items: center;
-        .checkboxWrapper-SkhIWG {
-            margin-left: 10px;
-        }
-        .info-3LOr12 {
-            margin-left: 25px;
-        }
-        .checkbox-1ix_J3 {
-            border-color: #fff !important;
-        }
-        &[style*="background-color: rgb(114, 137, 218);"] {
-            background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
-        }
-        &:not([style*="background-color"]) {
-            background: rgba(#000, 0.3);
-            .desc-2Dttbk {
-                color: rgba(#fff, 0.5);
-            }
-        }
-    }
+	}
+	.css-13kbzi0-control,	.css-15ejc46-control,	.lookFilled-1h1y05.select-1Pkeg4 {
+		background: rgba(#000, 0.3);
+		border: none;
+	}
+	.option-n0icdO {
+		background: rgba(#fff, 0.1);
+		box-shadow: none;
+		&:hover {
+			background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), .5) 20%, rgba(var(--BG-gradient-two), .5));
+		}
+	}
+	.flowerStar-1GeTsn path {
+		fill: rgba(var(--BG-gradient-one), 1);
+	}
+	.css-1yegjoj-control,	.css-2yldzf-control {
+		background: rgba(#000, 0.6);
+		border: none;
+	}
+	.css-1gnr91b-option {
+		background: rgba(#000, 0.3);
+	}
+	.css-181m2lf-menu {
+		border: none;
+		box-shadow: none;
+	}
+	.css-1k00wn6-singleValue {
+		color: #fff;
+	}
+	.radioGroup-1GBvlr .item-26Dhrx {
+		border: none;
+		display: flex;
+		align-items: center;
+		.checkboxWrapper-SkhIWG {
+			margin-left: 10px;
+		}
+		.info-3LOr12 {
+			margin-left: 25px;
+		}
+		.checkbox-1ix_J3 {
+			border-color: #fff !important;
+		}
+		&[style*="background-color: rgb(114, 137, 218);"] {
+			background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+		}
+		&:not([style*="background-color"]) {
+			background: rgba(#000, 0.3);
+			.desc-2Dttbk {
+				color: rgba(#fff, 0.5);
+			}
+		}
+	}
 }
-
-
 /* ---------- GENERAL END ---------- */

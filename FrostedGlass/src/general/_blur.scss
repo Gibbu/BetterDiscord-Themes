@@ -1,157 +1,155 @@
 /* ---------- BLURING BACKGROUNDS START ---------- */
-
 #app-mount {
-    .activityFeed-1C0EmJ,
-    .applicationStore-1pNvnv,
-    .authBox-hW6HRx,
-    .autocomplete-1vrmpx,
-    .autocompleteShadow-iiGWFU,
-    .sidebar-2K8pFh,
-    .chat-3bRxxu,
-    .container-2x5lvQ,
-    .container-3ayLPN,
-    .container-3cGP6G,
-    .container-3gCOGc,
-    .contentRegion-3nDuYy,
-    .css-1rckt42-menu,
-    .errorPage-u8SYh4,
-    .gameLibrary-TTDw4Y,
-    .menu-Sp6bN1,
-    .modal-yWgWj-,
-    .modal-yWgWj-.modal-1sor29,
-    .modal-yWgWj-.modal-c2O6Xq,
-    .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
-    .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
-    .pageWrapper-1PgVDX,
-    .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix,
-    .queryContainer-RKFJW-.focused-2bY0OD,
-    .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
-    .regionSelectModal-12e-57,
-    .reply-list,
-    .root-SR8cQa,
-    .sidebarRegion-VFTUkN,
-    .stickyHeader-1pqx0j,
-    .uploadModal-2ifh8j,
-    .userPopout-3XzG_A,
-    .wrapper-1Rf91z,
-    .messagesPopoutWrap-1MQ1bW,
-    .css-181m2lf-menu,
-    .overflowRolesPopout-140n9i,
-    .popout-3G62UL,
-    .membersFilterPopout-URUUD-,
-    .quickswitcher-3JagVE,
-    .keyboardShortcutsModal-3piNz7,
-    .react-datepicker,
-    #bd-customcss-detach-container,
-    .root-1BQpZw,
-    .popout-googletranslate .themedPopout-1TrfdI,
-    .root-1gCeng.small-3iVZYw,
-    .notice-2FJMB4,
-    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
-    .bd-modal-inner,
-    .searchResultsContainer-1ma_dc,
-    .content-1-zrf2,
-    .root-3R2ngo {
-        &:before {
-            content: "";
-            background: linear-gradient(rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set)), rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set))), var(--BG-image-set) center/cover fixed;
-            position: absolute;
-            filter: blur(var(--BG-image-blur));
-            z-index: 0;
-        }
+  #bd-customcss-detach-container,
+  .activityFeed-1C0EmJ,
+  .applicationStore-1pNvnv,
+  .authBox-hW6HRx,
+  .autocomplete-1vrmpx,
+  .autocompleteShadow-iiGWFU,
+  .bd-modal-inner,
+  .chat-3bRxxu,
+  .container-2x5lvQ,
+  .container-3ayLPN,
+  .container-3cGP6G,
+  .container-3gCOGc,
+  .content-1-zrf2,
+  .contentRegion-3nDuYy,
+  .css-181m2lf-menu,
+  .css-1rckt42-menu,
+  .errorPage-u8SYh4,
+  .gameLibrary-TTDw4Y,
+  .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
+  .keyboardShortcutsModal-3piNz7,
+  .membersFilterPopout-URUUD-,
+  .menu-Sp6bN1,
+  .messagesPopoutWrap-1MQ1bW,
+  .modal-yWgWj-,
+  .modal-yWgWj-.modal-1sor29,
+  .modal-yWgWj-.modal-c2O6Xq,
+  .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
+  .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
+  .notice-2FJMB4,
+  .overflowRolesPopout-140n9i,
+  .pageWrapper-1PgVDX,
+  .popout-3G62UL,
+  .popout-googletranslate .themedPopout-1TrfdI,
+  .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix,
+  .queryContainer-RKFJW-.focused-2bY0OD,
+  .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
+  .quickswitcher-3JagVE,
+  .react-datepicker,
+  .regionSelectModal-12e-57,
+  .reply-list,
+  .root-1BQpZw,
+  .root-1gCeng.small-3iVZYw,
+  .root-3R2ngo,
+  .root-SR8cQa,
+  .searchResultsContainer-1ma_dc,
+  .sidebar-2K8pFh,
+  .sidebarRegion-VFTUkN,
+  .stickyHeader-1pqx0j,
+  .uploadModal-2ifh8j,
+  .userPopout-3XzG_A,
+  .wrapper-1Rf91z {
+    &:before {
+      content: "";
+      background: linear-gradient(rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set)), rgba(var(--BG-tint-colour-set), var(--BG-tint-brightness-set))), var(--BG-image-set) center/cover fixed;
+      position: absolute;
+      filter: blur(var(--BG-image-blur));
+      z-index: 0;
     }
-    // Left (Serverlist)
-    .wrapper-1Rf91z {
-        &:before {
-            height: calc(100% + var(--BG-image-blur) * 4);
-            width: calc(100% + var(--BG-image-blur) * 4);
-            left: calc(var(--BG-image-blur) / -1 * 1);
-            top: calc(var(--BG-image-blur) / -1 * 1);
-            box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-serverlist-brightness));
-        }
+  }
+  // Left (Serverlist)
+  .wrapper-1Rf91z {
+    &:before {
+      height: calc(100% + var(--BG-image-blur) * 4);
+      width: calc(100% + var(--BG-image-blur) * 4);
+      left: calc(var(--BG-image-blur) / -1 * 1);
+      top: calc(var(--BG-image-blur) / -1 * 1);
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-serverlist-brightness));
     }
-    // Left (Channels)
-    .sidebar-2K8pFh,
-    .menu-Sp6bN1,
-    .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
-    .regionSelectModal-12e-57,
-    .sidebarRegion-VFTUkN {
-        position: relative;
-        background: transparent;
-        &:before {
-            height: calc(100% + var(--BG-image-blur) * 6);
-            width: calc(100% + var(--BG-image-blur) * 6);
-            left: calc(var(--BG-image-blur) / -1 * 3);
-            top: calc(var(--BG-image-blur) / -1 * 3);
-            box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-left-brightness));
-        }
+  }
+  // Left (Channels)
+  .menu-Sp6bN1,
+  .modal-yWgWj-.slide-2pHaq5.size-1XvbKb,
+  .regionSelectModal-12e-57,
+  .sidebar-2K8pFh,
+  .sidebarRegion-VFTUkN {
+    position: relative;
+    background: transparent;
+    &:before {
+      height: calc(100% + var(--BG-image-blur) * 6);
+      width: calc(100% + var(--BG-image-blur) * 6);
+      left: calc(var(--BG-image-blur) / -1 * 3);
+      top: calc(var(--BG-image-blur) / -1 * 3);
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-left-brightness));
     }
-    // Right
-    .activityFeed-1C0EmJ,
-    .applicationStore-1pNvnv,
-    .chat-3bRxxu,
-    .container-3gCOGc,
-    .contentRegion-3nDuYy,
-    .errorPage-u8SYh4,
-    .gameLibrary-TTDw4Y,
-    .pageWrapper-1PgVDX,
-    .root-SR8cQa,
-    .stickyHeader-1pqx0j,
-    .uploadModal-2ifh8j,
-    .keyboardShortcutsModal-3piNz7,
-    .quickswitcher-3JagVE,
-    .root-1BQpZw,
-    .bd-modal-inner,
-    .content-1-zrf2,
-    .root-3R2ngo {
-        overflow: hidden;
-        &:before {
-            height: calc(100% + var(--BG-image-blur) * 4);
-            width: calc(100% + var(--BG-image-blur) * 5);
-            left: calc(var(--BG-image-blur) / -1 * 3);
-            top: calc(var(--BG-image-blur) / -1 * 2);
-            box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-right-brightness));
-        }
+  }
+  // Right
+  .activityFeed-1C0EmJ,
+  .applicationStore-1pNvnv,
+  .bd-modal-inner,
+  .chat-3bRxxu,
+  .container-3gCOGc,
+  .content-1-zrf2,
+  .contentRegion-3nDuYy,
+  .errorPage-u8SYh4,
+  .gameLibrary-TTDw4Y,
+  .keyboardShortcutsModal-3piNz7,
+  .pageWrapper-1PgVDX,
+  .quickswitcher-3JagVE,
+  .root-1BQpZw,
+  .root-3R2ngo,
+  .root-SR8cQa,
+  .stickyHeader-1pqx0j,
+  .uploadModal-2ifh8j {
+    overflow: hidden;
+    &:before {
+      height: calc(100% + var(--BG-image-blur) * 4);
+      width: calc(100% + var(--BG-image-blur) * 5);
+      left: calc(var(--BG-image-blur) / -1 * 3);
+      top: calc(var(--BG-image-blur) / -1 * 2);
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-right-brightness));
     }
-    // Popouts
-    .authBox-hW6HRx,
-    .autocomplete-1vrmpx,
-    .autocompleteShadow-iiGWFU,
-    .container-2x5lvQ,
-    .container-3ayLPN,
-    .container-3cGP6G,
-    .css-1rckt42-menu,
-    .modal-yWgWj-,
-    .modal-yWgWj-.modal-1sor29,
-    .modal-yWgWj-.modal-c2O6Xq,
-    .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
-    .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.scrollerThemed-2oenus,
-    .queryContainer-RKFJW-.focused-2bY0OD,
-    .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
-    .reply-list,
-    .userPopout-3XzG_A,
-    .messagesPopoutWrap-1MQ1bW,
-    .css-181m2lf-menu,
-    .overflowRolesPopout-140n9i,
-    .popout-3G62UL,
-    .membersFilterPopout-URUUD-,
-    .colorPickerCustom-2CWBn2,
-    .react-datepicker,
-    #bd-customcss-detach-container,
-    .popout-googletranslate .themedPopout-1TrfdI,
-    .root-1gCeng.small-3iVZYw,
-    .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
-    .searchResultsContainer-1ma_dc {
-        overflow: hidden;
-        &:before {
-            height: calc(100% + var(--BG-image-blur) * 4);
-            width: calc(100% + var(--BG-image-blur) * 5);
-            left: calc(var(--BG-image-blur) / -1 * 3);
-            top: calc(var(--BG-image-blur) / -1 * 2);
-            box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-popout-brightness));
-            z-index: -1;
-        }
+  }
+  // Popouts
+  #bd-customcss-detach-container,
+  .authBox-hW6HRx,
+  .autocomplete-1vrmpx,
+  .autocompleteShadow-iiGWFU,
+  .colorPickerCustom-2CWBn2,
+  .container-2x5lvQ,
+  .container-3ayLPN,
+  .container-3cGP6G,
+  .css-181m2lf-menu,
+  .css-1rckt42-menu,
+  .guildSettingsAuditLogsUserFilterPopout-3Jg5NE,
+  .membersFilterPopout-URUUD-,
+  .messagesPopoutWrap-1MQ1bW,
+  .modal-yWgWj-,
+  .modal-yWgWj-.modal-1sor29,
+  .modal-yWgWj-.modal-c2O6Xq,
+  .modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy,
+  .overflowRolesPopout-140n9i,
+  .popout-3G62UL,
+  .popout-googletranslate .themedPopout-1TrfdI,
+  .popoutContainerMinimal-yvdYAP .scrollerWrap-2lJEkd.scrollerThemed-2oenus,
+  .queryContainer-RKFJW-.focused-2bY0OD,
+  .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W,
+  .react-datepicker,
+  .reply-list,
+  .root-1gCeng.small-3iVZYw,
+  .searchResultsContainer-1ma_dc,
+  .userPopout-3XzG_A {
+    overflow: hidden;
+    &:before {
+      height: calc(100% + var(--BG-image-blur) * 4);
+      width: calc(100% + var(--BG-image-blur) * 5);
+      left: calc(var(--BG-image-blur) / -1 * 3);
+      top: calc(var(--BG-image-blur) / -1 * 2);
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--BG-popout-brightness));
+      z-index: -1;
     }
+  }
 }
-
 /* ---------- BLURING BACKGROUNDS END ---------- */

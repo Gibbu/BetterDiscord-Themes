@@ -1,77 +1,69 @@
 /* ---------- OTHER PAGES START ---------- */
-
 #app-mount {
-    // Error
-    .errorPage-u8SYh4 {
-        & > div {
-            position: relative;
-        }
+  // Error
+  .errorPage-u8SYh4 > div {
+    position: relative;
+  }
+  // No channel
+  .noChannel-Z1DQK7 {
+    background: transparent;
+  }
+  // Login
+  .splashBackground-1FRCko {
+    background: transparent;
+    .rightSplit-2US0xy img {
+      display: none;
     }
-
-    // No channel
-    .noChannel-Z1DQK7 {
-        background: transparent;
+    .authBox-hW6HRx {
+      position: relative;
+      overflow: hidden;
+      .subTitle-3TUjmF {
+        color: rgba(#fff, 0.5);
+        font-weight: 300;
+      }
+      .h5-18_1nd {
+        color: #fff;
+      }
+      .input-cIJ7To {
+        background: rgba(#000, 0.3);
+        border: none;
+        &::placeholder {
+          color: rgba(#fff, 0.5);
+          font-weight: 300;
+        }
+      }
     }
-
-    // Login
-    .splashBackground-1FRCko {
-        background: transparent;
-        .rightSplit-2US0xy {
-            img {
-                display: none;
-            }
-        }
-        .authBox-hW6HRx {
-            position: relative;
-            overflow: hidden;
-            .subTitle-3TUjmF {
-                color: rgba(#fff, 0.5);
-                font-weight: 300;
-            }
-            .h5-18_1nd {
-                color: #fff;
-            }
-            .input-cIJ7To {
-                background: rgba(#000, 0.3);
-                border: none;
-                &::placeholder {
-                    color: rgba(#fff, 0.5);
-                    font-weight: 300;
-                }
-            }
-        }
-        canvas {
-            display: none;
-        }
+    canvas {
+      display: none;
     }
-
-    // Server Boost
-    .root-3R2ngo {
-        margin: var(--BG-window-padding);
-        border-radius: var(--BG-window-roundness);
-        .ctaBar-2UsjF2 {
-            background-image: none;
-            background-color: rgba(#fff, 0.1);
-        }
-        .perk-2WeBWW {
-            background-color: rgba(#fff, 0.1);
-        }
-        .barBackground-2EEiLw {
-            background: rgba(#fff, 0.1);
-        }
-        .barForeground-3KglC8 {
-            background: rgba(#fff, 0.2);
-        }
-        .tierMarkerBackground-3q29am {
-            background: transparent;
-        }
-        .tierBody-16Chc9 {
-            background: rgba(#000, 0.5);
-        }
-        .tierHeaderLocked-1s2JJz {
-            background: rgba(#000, 0.5);
-            color: #ddd;
-        }
+  }
+  // Server Boost
+  .root-3R2ngo {
+    margin: var(--BG-window-padding);
+    border-radius: var(--BG-window-roundness);
+    .ctaBar-2UsjF2 {
+      background-image: none;
+      background-color: rgba(#fff, 0.1);
     }
+    .perk-2WeBWW {
+      background-color: rgba(#fff, 0.1);
+    }
+    .barBackground-2EEiLw {
+      background: rgba(#fff, 0.1);
+    }
+    .barForeground-3KglC8 {
+      background: rgba(#fff, 0.2);
+    }
+    .tierMarkerBackground-3q29am {
+      background: transparent;
+    }
+    .tierBody-16Chc9 {
+      background: rgba(#000, 0.5);
+    }
+    .tierHeaderLocked-1s2JJz {
+      background: rgba(#000, 0.5);
+      color: #ddd;
+    }
+  }
 }
 /* ---------- OTHER PAGES END ---------- */
