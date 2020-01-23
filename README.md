@@ -3,7 +3,7 @@ Invite code: ZHthyCw
 
 #
 
-**SimplyDark - [BD Download](https://betterdiscord.net/ghdl?id=2899) - [Powercord Download](https://github.com/Cr3atable/BetterDiscord-Themes/raw/master/SimplyDark/SimplyDark.zip) - [Editor](https://gibbu.me/themegen/simplydark)**  
+**SimplyDark - [BD Download](https://betterdiscord.net/ghdl?id=2899) - [Powercord Download](https://github.com/Gibbu/BetterDiscord-Themes/raw/master/SimplyDark/SimplyDark.zip) - [Editor](https://gibbu.me/themegen/simplydark)**  
 Makes discord sharp and simple
 
 ![SimplyDark](https://i.imgur.com/i5p7KTQ.jpg)
