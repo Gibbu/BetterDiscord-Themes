@@ -1,85 +1,86 @@
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
-    padding-top: 8px;
+  padding-top: 8px;
 }
 .wrapper-1Rf91z {
-    background-color: var(--bg6) !important;
-    .folder-21wGz3 {
-        background: var(--bg10);
-        &.hover-2ji_A7 {
-            background-color: var(--bg12);
-        }
+  background-color: var(--bg6) !important;
+  .folder-21wGz3 {
+    background: var(--bg10);
+    &.hover-2ji_A7 {
+      background-color: var(--bg12);
     }
-    .expandedFolderBackground-2sPsd- {
+  }
+  .expandedFolderBackground-2sPsd- {
+    background-color: var(--bg8);
+    &.hover-2ji_A7 {
+      background-color: var(--bg10);
+    }
+  }
+  .listItem-2P_4kh {
+    position: relative;
+    * {
+      mask: none !important;
+      border-radius: 0 !important;
+      -webkit-mask: none !important;
+    }
+    .dragInner-_SHftW {
+      background: var(--bg4);
+    }
+    [class*="pill"] {
+      height: 100%;
+      width: 4px;
+      span {
+        height: 100% !important;
+        transition: 0.2s ease !important;
+        transform: scale(1,0) !important;
+        // Unread
+        @for $i from 0 through 8 {
+          &[style*="height: #{$i}"] {
+            transform: scale(1,0.25) !important;
+          }
+        }
+        // Hovered
+        @for $i from 9 through 20 {
+          &[style*="height: #{$i}"] {
+            transform: scale(1,0.50) !important;
+          }
+        }
+        // Selected
+        @for $i from 21 through 40 {
+          &[style*="height: #{$i}"] {
+            transform: scale(1,1) !important;
+          }
+        }
+      }
+      // Not hovered and no notification
+    }
+    .blobContainer-239gwq {
+      .acronym-2mOFsV {
         background-color: var(--bg8);
-        &.hover-2ji_A7 {
-            background-color: var(--bg10);
-        }
-    }
-    .listItem-2P_4kh {
-        position: relative;
-        * {
-            mask: none !important;
-            border-radius: 0 !important;
-            -webkit-mask: none !important;
-        }
-        .dragInner-_SHftW {
-            background: var(--bg4);
-        }
-        [class*="pill"] {
-            height: 100%;
-            width: 4px;
-            span {
-                height: 100% !important;
-                transition: 0.2s ease !important;
-                transform: scale(1,0) !important;
-                // Unread
-                @for $i from 0 through 8 {
-                    &[style*="height: #{$i}"] {
-                        transform: scale(1,0.25) !important;
-                    }
-                }
-                // Hovered
-                @for $i from 9 through 20 {
-                    &[style*="height: #{$i}"] {
-                        transform: scale(1,0.50) !important;
-                    }
-                }
-                // Selected
-                @for $i from 21 through 40 {
-                    &[style*="height: #{$i}"] {
-                        transform: scale(1,1) !important;
-                    }
-                }
-            }
-            // Not hovered and no notification
-        }
-        .blobContainer-239gwq {
-            .acronym-2mOFsV {
-                background-color: var(--bg8);
-                color: #ddd;
-                border-radius: var(--SD-roundness) !important;
-            }
-            img {
-                border-radius: var(--SD-roundness) !important;
-            }
-        }
-        .guildsError-b7zR5H, .icon-27yU2q {
-            border-radius: var(--SD-roundness) !important;
-        }
-    }
-    .folderIconWrapper-226oVY, .folder-21wGz3, .expandedFolderBackground-2sPsd-, .iconSizeSmol-2Dw61G, .numberBadge-2s8kKX {
+        color: #ddd;
         border-radius: var(--SD-roundness) !important;
-    }
-    .childWrapper-anI2G9, .circleIconButton-jET_ig {
-        background-color: var(--bg8);
+      }
+      img {
         border-radius: var(--SD-roundness) !important;
+      }
     }
-    .guildSeparator-3s64Iy {
-        background: var(--bg10);
-        width: 48px;
+    .guildsError-b7zR5H,
+    .icon-27yU2q {
+      border-radius: var(--SD-roundness) !important;
     }
-    [class*="unreadMentionsIndicator"] {
-        padding: 0;
-        height: auto;
-    }
+  }
+  .expandedFolderBackground-2sPsd-, .folder-21wGz3, .folderIconWrapper-226oVY, .iconSizeSmol-2Dw61G, .numberBadge-2s8kKX {
+    border-radius: var(--SD-roundness) !important;
+  }
+  .childWrapper-anI2G9, .circleIconButton-jET_ig {
+    background-color: var(--bg8);
+    border-radius: var(--SD-roundness) !important;
+  }
+  .guildSeparator-3s64Iy {
+    background: var(--bg10);
+    width: 48px;
+  }
+  [class*="unreadMentionsIndicator"] {
+    padding: 0;
+    height: auto;
+  }
 }

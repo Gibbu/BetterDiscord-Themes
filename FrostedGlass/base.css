@@ -23,6 +23,7 @@
 #app-mount .bd-modal-inner:before,
 #app-mount .chat-3bRxxu:before,
 #app-mount .container-2x5lvQ:before,
+#app-mount .container-3Mxszk:before,
 #app-mount .container-3ayLPN:before,
 #app-mount .container-3cGP6G:before,
 #app-mount .container-3gCOGc:before,
@@ -101,11 +102,11 @@
 #app-mount .applicationStore-1pNvnv,
 #app-mount .bd-modal-inner,
 #app-mount .chat-3bRxxu,
+#app-mount .container-3Mxszk,
 #app-mount .container-3gCOGc,
 #app-mount .content-1-zrf2,
 #app-mount .contentRegion-3nDuYy,
 #app-mount .errorPage-u8SYh4,
-#app-mount .gameLibrary-TTDw4Y,
 #app-mount .keyboardShortcutsModal-3piNz7,
 #app-mount .pageWrapper-1PgVDX,
 #app-mount .quickswitcher-3JagVE,
@@ -120,11 +121,11 @@
 #app-mount .applicationStore-1pNvnv:before,
 #app-mount .bd-modal-inner:before,
 #app-mount .chat-3bRxxu:before,
+#app-mount .container-3Mxszk:before,
 #app-mount .container-3gCOGc:before,
 #app-mount .content-1-zrf2:before,
 #app-mount .contentRegion-3nDuYy:before,
 #app-mount .errorPage-u8SYh4:before,
-#app-mount .gameLibrary-TTDw4Y:before,
 #app-mount .keyboardShortcutsModal-3piNz7:before,
 #app-mount .pageWrapper-1PgVDX:before,
 #app-mount .quickswitcher-3JagVE:before,
@@ -402,6 +403,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   margin-right: var(--BG-left-right-split);
   border-radius: 0;
   background: transparent;
+  position: relative;
+  z-index: 1;
 }
 #app-mount .sidebar-2K8pFh .searchBar-6Kv8R2 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -676,8 +679,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border: none;
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI .guildName-2hvnt_,
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI .h5-18_1nd {
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI .guildName-2hvnt_, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI .h5-18_1nd {
   color: #fff;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI .onlineCount-w6_WmG, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .wrapper-35wsBm.userSelectNone-Iy6XEP.cursorDefault-331ZcI span {
@@ -863,20 +865,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .ui-tab-bar-item.selected {
   background: rgba(255, 255, 255, 0.2);
-}
-#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div {
-  display: block;
-  position: relative;
-}
-#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child {
-  padding-bottom: 20px !important;
-}
-#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN #bd-settings-sidebar > span > div:last-child:after {
-  content: "Frosted Glass v1.0.0 by Gibbu";
-  position: absolute;
-  left: 0;
-  top: 18px;
-  left: 10px;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
   border-radius: 0 var(--BG-window-roundness) var(--BG-window-roundness) 0;
@@ -1105,6 +1093,20 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .contentRegion-3nDuYy .searchResultsContainer-1ma_dc .searchOption-8nCYo-.selected-1r_nkg {
   background: rgba(255, 255, 255, 0.1);
 }
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ {
+  display: block;
+  position: relative;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child {
+  padding-bottom: 20px !important;
+}
+#app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:last-child:after {
+  content: "Frosted Glass v1.0.0 by Gibbu";
+  position: absolute;
+  left: 0;
+  top: 18px;
+  left: 0;
+}
 
 /* ---------- SETTINGS END ---------- */
 /* ---------- HOMEPAGES START ---------- */
@@ -1171,8 +1173,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .pageWrapper-1PgVDX .loading-17PYl_ {
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .pageWrapper-1PgVDX .css-1wqqa50-container,
-#app-mount .pageWrapper-1PgVDX .searchBox-3Y2Vi7 {
+#app-mount .pageWrapper-1PgVDX .css-1wqqa50-container, #app-mount .pageWrapper-1PgVDX .searchBox-3Y2Vi7 {
   box-shadow: none;
   background: rgba(0, 0, 0, 0.3);
   border: none;
@@ -1198,56 +1199,56 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .pageWrapper-1PgVDX .activeButton-1BJAiN {
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
-#app-mount .gameLibrary-TTDw4Y {
+#app-mount .container-3Mxszk {
   background: transparent;
   position: relative;
 }
-#app-mount .gameLibrary-TTDw4Y .item-PXvHYJ {
+#app-mount .container-3Mxszk .item-PXvHYJ {
   color: #fff;
 }
-#app-mount .gameLibrary-TTDw4Y .item-PXvHYJ.selected-3s45Ha {
+#app-mount .container-3Mxszk .item-PXvHYJ.selected-3s45Ha {
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
-#app-mount .gameLibrary-TTDw4Y .stickyHeader-1pqx0j {
+#app-mount .container-3Mxszk .stickyHeader-1pqx0j {
   background: transparent;
   overflow: hidden;
 }
-#app-mount .gameLibrary-TTDw4Y .stickyHeader-1pqx0j > div {
+#app-mount .container-3Mxszk .stickyHeader-1pqx0j > div {
   position: relative;
 }
-#app-mount .gameLibrary-TTDw4Y .stickyHeader-1pqx0j .headerCell-3L6rFG {
+#app-mount .container-3Mxszk .stickyHeader-1pqx0j .headerCell-3L6rFG {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 500;
 }
-#app-mount .gameLibrary-TTDw4Y .stickyHeader-1pqx0j .headerCellSorted-3a5AzJ {
+#app-mount .container-3Mxszk .stickyHeader-1pqx0j .headerCellSorted-3a5AzJ {
   color: #fff;
 }
-#app-mount .gameLibrary-TTDw4Y .gameUpdates-2GPqBU {
+#app-mount .container-3Mxszk .gameUpdates-2GPqBU {
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .gameLibrary-TTDw4Y .gameUpdates-2GPqBU .progress-2XXRYo, #app-mount .gameLibrary-TTDw4Y .gameUpdates-2GPqBU .progress-5tMCVk {
+#app-mount .container-3Mxszk .gameUpdates-2GPqBU .progress-2XXRYo, #app-mount .container-3Mxszk .gameUpdates-2GPqBU .progress-5tMCVk {
   background: rgba(0, 0, 0, 0.3) !important;
 }
-#app-mount .gameLibrary-TTDw4Y .gameUpdates-2GPqBU .progress-5tMCVk {
+#app-mount .container-3Mxszk .gameUpdates-2GPqBU .progress-5tMCVk {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-#app-mount .gameLibrary-TTDw4Y .gameUpdates-2GPqBU .progressBar-3zryPV {
+#app-mount .container-3Mxszk .gameUpdates-2GPqBU .progressBar-3zryPV {
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
-#app-mount .gameLibrary-TTDw4Y .icon-1IKq3C, #app-mount .gameLibrary-TTDw4Y .textCell-1aBIUP {
+#app-mount .container-3Mxszk .icon-1IKq3C, #app-mount .container-3Mxszk .textCell-1aBIUP {
   color: #fff;
 }
-#app-mount .gameLibrary-TTDw4Y .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+#app-mount .container-3Mxszk .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .gameLibrary-TTDw4Y .lookFilled-1Gx00P.colorGreen-29iAKY {
+#app-mount .container-3Mxszk .lookFilled-1Gx00P.colorGreen-29iAKY {
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
-#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f {
+#app-mount .container-3Mxszk .rowWrapperActive-2L7i9f {
   box-shadow: none;
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 + .rowWrapper-2fB6P0 .row-ZLfFhY {
+#app-mount .container-3Mxszk .rowWrapper-2fB6P0 + .rowWrapper-2fB6P0 .row-ZLfFhY {
   border-top-color: rgba(255, 255, 255, 0.05);
 }
 #app-mount .applicationStore-1pNvnv {
@@ -1334,8 +1335,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: transparent;
   position: relative;
 }
-#app-mount .container-3gCOGc .botTag-2WPJ74,
-#app-mount .container-3gCOGc .primary-3j8BhM {
+#app-mount .container-3gCOGc .botTag-2WPJ74, #app-mount .container-3gCOGc .primary-3j8BhM {
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
 #app-mount .container-3gCOGc .friendsTableHeader-32yE7d {

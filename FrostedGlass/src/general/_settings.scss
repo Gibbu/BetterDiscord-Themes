@@ -54,20 +54,6 @@
     .ui-tab-bar-item.selected {
       background: rgba(#fff, 0.2);
     }
-    #bd-settings-sidebar > span > div {
-      display: block;
-      position: relative;
-      &:last-child {
-        padding-bottom: 20px !important;
-        &:after {
-          content: "Frosted Glass v1.0.0 by Gibbu";
-          position: absolute;
-          left: 0;
-          top: 18px;
-          left: 10px;
-        }
-      }
-    }
   }
   // Main content
   .contentRegion-3nDuYy {
@@ -300,6 +286,20 @@
       box-shadow: none;
       .searchOption-8nCYo-.selected-1r_nkg {
         background: rgba(#fff, 0.1);
+      }
+    }
+  }
+  .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ {
+    display: block;
+    position: relative;
+    &:last-child {
+      padding-bottom: 20px !important;
+      &:after {
+        content: "Frosted Glass v1.0.0 by Gibbu";
+        position: absolute;
+        left: 0;
+        top: 18px;
+        left: 0;
       }
     }
   }

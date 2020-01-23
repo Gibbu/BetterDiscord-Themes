@@ -1,5 +1,4 @@
 #app-mount {
-
 	.noChannel-Z1DQK7 {
 		background: var(--bg2);
 		&:before {
@@ -12,7 +11,6 @@
 			background: var(--bg7);
 		}
 	}
-
 	// Acivity
 	.activityFeed-1C0EmJ {
 		background-color: var(--bg2);
@@ -26,15 +24,12 @@
 			background-color: var(--bg5);
 			box-shadow: none;
 			transform: translateY(0) !important;
-
 			.colorStandard-2KCXvj {
 				color: #fff;
 			}
-
 			.wrapper-9ppXpy {
 				box-shadow: none;
 				background: var(--bg4);
-
 				.colorMuted-HdFt4q {
 					color: #aaa;
 				}
@@ -51,11 +46,11 @@
 		}
 		.popout-3G62UL {
 			background-color: var(--bg7);
-			h3,
-			.colorStandard-2KCXvj {
+			.colorStandard-2KCXvj,
+			h3 {
 				color: #fff;
 			}
-			.memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover, .enabled-5QKLzu:hover {
+			.enabled-5QKLzu:hover, .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
 				background: var(--bg9);
 			}
 		}
@@ -66,46 +61,34 @@
 			}
 		}
 	}
-
 	// Library
-	.gameLibrary-TTDw4Y {
-		background-color: var(--bg2);
-		.children-19S4PO:after {content: none;}
+	.container-3Mxszk {
 		.header-39GIC8 {
-			background: var(--bg2);
-			border-color: var(--bg5);
-			.headerCell-3L6rFG {
-				border-color: var(--bg5);
+			background-color: var(--bg2);
+		}
+		.rowWrapper-2fB6P0 {
+			margin: 0 6px 0 0;
+			border-bottom: 1px solid var(--bg5);
+			padding-bottom: 0;
+			.row-ZLfFhY {
+				border: none;
+				margin: 0;
+				padding: 0 10px;
 			}
-		}
-		.container-cMG81i {
-			background-color: var(--bg4);
-		}
-		.container-1r6BKw {
-			background: var(--bg7);
-			.icon-22AiRD {
-				color: #fff;
-			}
-		}
-		.textCell-1aBIUP {
-			color: #aaa;
-		}
-		.rowBackground-3MeNoN {
-			-webkit-mask: radial-gradient(100% 100% at top left, hsla(0, 0%, 100%, .3) 0, hsla(0, 0%, 100%, 0) 100%) !important;
 		}
 		.rowWrapperActive-2L7i9f {
-			background-color: var(--bg5);
-			box-shadow: none;
+			background: var(--bg3);
 		}
-		.rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY {
-			border-color: var(--bg5);
+		.stickyScroller-24zUyY {
+			background: var(--bg2);
 		}
 	}
-
 	// Gift inventory
 	.root-1BQpZw {
 		background: var(--bg2);
-		.children-19S4PO:after {content: none;}
+		.children-19S4PO:after {
+			content: none;
+		}
 		.container-1r6BKw {
 			background: var(--bg7);
 		}
@@ -117,7 +100,6 @@
 			}
 		}
 	}
-
 	// Friends
 	.container-3gCOGc {
 		background: var(--bg2);
@@ -185,21 +167,21 @@
 			background: var(--bg5);
 		}
 	}
-
 	// Nitro / Store
 	.applicationStore-1pNvnv {
 		background: var(--bg2);
 		.itemBackground-2vEldQ:before {
-			background: radial-gradient(ellipse at top, rgba(54, 57, 63, 0), var(--bg2)),
-			linear-gradient(90deg, var(--bg2) 0, rgba(54, 57, 63, 0) 40%, rgba(54, 57, 63, 0) 60%, var(--bg2)),
-			linear-gradient(0deg, var(--bg2) 10%, rgba(54, 57, 63, 0) 70%)
+			background: radial-gradient(ellipse at top, rgba(54, 57, 63, 0), var(--bg2)), linear-gradient(90deg, var(--bg2) 0, rgba(54, 57, 63, 0) 40%, rgba(54, 57, 63, 0) 60%, var(--bg2)), linear-gradient(0deg, var(--bg2) 10%, rgba(54, 57, 63, 0) 70%);
 		}
 		.tile-QA_yMc {
 			background-color: var(--bg4);
 			box-shadow: none;
-			.title-2XwaXv, .tagline-EIH5-W {
+			.tagline-EIH5-W, .title-2XwaXv {
 				color: #fff;
 			}
+		}
+		.detailsBlock-FoDTGA {
+			background: var(--bg4);
 		}
 		.scrollerButton-1Vm5_P {
 			background: var(--bg10);
@@ -224,7 +206,6 @@
 			-webkit-mask: radial-gradient(ellipse 50% 100% at 50% 0, var(--bg2), transparent) !important;
 		}
 	}
-
 	// Discovery
 	.pageWrapper-1PgVDX {
 		background: var(--bg2);
@@ -272,7 +253,6 @@
 			font-weight: 400;
 		}
 	}
-
 	// Call
 	.video-1FfuMD {
 		background: var(--bg3);
@@ -288,11 +268,10 @@
 			border-radius: var(--SD-roundness) !important;
 		}
 	}
-
 	// Boost
 	.perksModalContentWrapper-2HU6uL {
 		background: var(--bg2);
-		.ctaBar-2UsjF2, .perk-2WeBWW, .tierBody-16Chc9 {
+		.ctaBar-2UsjF2,	.perk-2WeBWW,	.tierBody-16Chc9 {
 			background: var(--bg4);
 		}
 		.tierHeaderLocked-1s2JJz {
