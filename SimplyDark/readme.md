@@ -1,4 +1,4 @@
-**SimplyDark - [Download](https://betterdiscord.net/ghdl?id=2899) - [Editor](https://gibbu.me/themegen/simplydark)**  
+**SimplyDark - [BD Download](https://betterdiscord.net/ghdl?id=2899) - [Powercord Download](https://github.com/Gibbu/BetterDiscord-Themes/raw/master/SimplyDark/SimplyDark.zip) - [Editor](https://gibbu.me/themegen/simplydark)**  
 Makes discord sharp and simple
 
 Server Chat + User Popout
