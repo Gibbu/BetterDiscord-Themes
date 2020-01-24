@@ -1,4 +1,4 @@
-**Frosted Glass - [BD Download](https://betterdiscord.net/ghdl?id=2917) - [Powercord Download](https://github.com/Gibbu/BetterDiscord-Themes/raw/master/FrostedGlass/Frosted%20Glass.zip) - [Editor](https://gibbu.me/themegen/frostedglass)**  
+**Frosted Glass - [BD Download](https://betterdiscord.net/ghdl?id=2917) - [Editor](https://gibbu.me/themegen/frostedglass)**  
 Display your picture of choice with adjustable blur and brightness via variables in the theme file. Discord Dark theme is required.
 
 Server chat + User popout
