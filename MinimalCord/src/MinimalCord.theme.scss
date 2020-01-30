@@ -43,11 +43,10 @@
 @import 'general/memberslist';
 
 // Pages
-@import 'general/pages/activity';
-@import 'general/pages/library';
-@import 'general/pages/nitro';
-@import 'general/pages/friends';
-@import 'general/pages/discovery';
+@import 'pages/library';
+@import 'pages/nitro';
+@import 'pages/friends';
+@import 'pages/discovery';
 
 // Popouts
 @import 'popouts/search';

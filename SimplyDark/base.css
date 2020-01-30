@@ -1242,55 +1242,6 @@
   width: 100%;
   background: var(--bg7);
 }
-#app-mount .activityFeed-1C0EmJ {
-  background-color: var(--bg2);
-}
-#app-mount .activityFeed-1C0EmJ .layout-1cQCv2 {
-  background: none;
-}
-#app-mount .activityFeed-1C0EmJ .section-2VKIPC {
-  background-color: var(--bg4);
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n {
-  background-color: var(--bg5);
-  box-shadow: none;
-  transform: translateY(0) !important;
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n .colorStandard-2KCXvj {
-  color: #fff;
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n .wrapper-9ppXpy {
-  box-shadow: none;
-  background: var(--bg4);
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n .wrapper-9ppXpy .colorMuted-HdFt4q {
-  color: #aaa;
-}
-#app-mount .activityFeed-1C0EmJ .unwrapped-37iUtM {
-  background-color: var(--bg5);
-}
-#app-mount .activityFeed-1C0EmJ .wrapped-15rg6t {
-  background-color: var(--bg3);
-}
-#app-mount .activityFeed-1C0EmJ .popoutContainer-3WC9HR:hover {
-  background: var(--bg6);
-}
-#app-mount .activityFeed-1C0EmJ .popout-3G62UL {
-  background-color: var(--bg7);
-}
-#app-mount .activityFeed-1C0EmJ .popout-3G62UL .colorStandard-2KCXvj,
-#app-mount .activityFeed-1C0EmJ .popout-3G62UL h3 {
-  color: #fff;
-}
-#app-mount .activityFeed-1C0EmJ .popout-3G62UL .enabled-5QKLzu:hover, #app-mount .activityFeed-1C0EmJ .popout-3G62UL .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
-  background: var(--bg9);
-}
-#app-mount .activityFeed-1C0EmJ .recentlyPlayedContainer-2F3MqS {
-  background-color: var(--bg5);
-}
-#app-mount .activityFeed-1C0EmJ .recentlyPlayedContainer-2F3MqS .separator-2c4hi3 {
-  margin: 0;
-}
 #app-mount .container-3Mxszk .header-39GIC8 {
   background-color: var(--bg2);
 }
@@ -1326,71 +1277,23 @@
 #app-mount .root-1BQpZw .input-cIJ7To::placeholder {
   color: #777;
 }
-#app-mount .container-3gCOGc {
+#app-mount .container-1D34oG .peopleList-3c4jOR {
   background: var(--bg2);
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv {
-  margin-top: 0;
+#app-mount .container-1D34oG .peopleList-3c4jOR .actionButton-uPB8Fs {
+  background: var(--bg5);
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableAdd-1w2_qZ {
-  padding: 30px;
-}
-#app-mount .container-3gCOGc .icon-3o6xvg {
-  border-radius: var(--SD-roundness) !important;
-}
-#app-mount .container-3gCOGc .status-mz5rqq {
-  border-radius: var(--SD-roundness) !important;
-  overflow: hidden;
-}
-#app-mount .container-3gCOGc .wrapper-1cBijl {
-  background: var(--bg3);
-  border: none;
-}
-#app-mount .container-3gCOGc .friendsColumnActions-1LT3_M {
-  padding-right: 15px;
-}
-#app-mount .container-3gCOGc .friendTableAddHeader-m9bzFr {
-  background: var(--bg4);
-}
-#app-mount .container-3gCOGc .friendsColumn-eVHFqJ {
-  color: #aaa;
-}
-#app-mount .container-3gCOGc .nameTag-m8r81H {
-  color: #fff;
-}
-#app-mount .container-3gCOGc rect {
-  mask: none;
-}
-#app-mount .container-3gCOGc .friendsTableHeader-32yE7d {
-  border-color: var(--bg6);
-}
-#app-mount .container-3gCOGc .noIcon-1a_FrS {
+#app-mount .container-1D34oG .peopleList-3c4jOR .actionButton-uPB8Fs:hover {
   background: var(--bg7);
 }
-#app-mount .container-3gCOGc .friendsTableBody-1ZhKif {
-  padding-top: 0;
-}
-#app-mount .container-3gCOGc .friendsRow-2yicud {
-  border-color: var(--bg6);
-  margin: 0;
-  padding: 0 0 0 20px;
-}
-#app-mount .container-3gCOGc .friendsRow-2yicud .mask-1qbNWk {
-  width: 15px !important;
-}
-#app-mount .container-3gCOGc .friendsRow-2yicud .mask-1qbNWk rect {
-  width: 15px !important;
-  x: -2 !important;
-}
-#app-mount .container-3gCOGc .friendsRow-2yicud .friendsAction-__WNE9 {
-  background-color: var(--bg6);
-}
-#app-mount .container-3gCOGc .friendsRow-2yicud:hover {
+#app-mount .container-1D34oG .peopleList-3c4jOR .peopleListItem-2nzedh:hover {
   background: var(--bg3);
-  box-shadow: none;
 }
-#app-mount .container-3gCOGc .friendsColumnSeparator-3MqtMA {
-  background: var(--bg5);
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
+  background: var(--bg4);
+}
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .emptyCard-1RJw8n {
+  background: var(--bg7);
 }
 #app-mount .applicationStore-1pNvnv {
   background: var(--bg2);

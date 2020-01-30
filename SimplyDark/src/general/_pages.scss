@@ -11,56 +11,6 @@
 			background: var(--bg7);
 		}
 	}
-	// Acivity
-	.activityFeed-1C0EmJ {
-		background-color: var(--bg2);
-		.layout-1cQCv2 {
-			background: none;
-		}
-		.section-2VKIPC {
-			background-color: var(--bg4);
-		}
-		.outer-2IVh5n {
-			background-color: var(--bg5);
-			box-shadow: none;
-			transform: translateY(0) !important;
-			.colorStandard-2KCXvj {
-				color: #fff;
-			}
-			.wrapper-9ppXpy {
-				box-shadow: none;
-				background: var(--bg4);
-				.colorMuted-HdFt4q {
-					color: #aaa;
-				}
-			}
-		}
-		.unwrapped-37iUtM {
-			background-color: var(--bg5);
-		}
-		.wrapped-15rg6t {
-			background-color: var(--bg3);
-		}
-		.popoutContainer-3WC9HR:hover {
-			background: var(--bg6);
-		}
-		.popout-3G62UL {
-			background-color: var(--bg7);
-			.colorStandard-2KCXvj,
-			h3 {
-				color: #fff;
-			}
-			.enabled-5QKLzu:hover, .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
-				background: var(--bg9);
-			}
-		}
-		.recentlyPlayedContainer-2F3MqS {
-			background-color: var(--bg5);
-			.separator-2c4hi3 {
-				margin: 0;
-			}
-		}
-	}
 	// Library
 	.container-3Mxszk {
 		.header-39GIC8 {
@@ -101,70 +51,24 @@
 		}
 	}
 	// Friends
-	.container-3gCOGc {
-		background: var(--bg2);
-		.friendsTable-133bsv {
-			margin-top: 0;
-			.friendsTableAdd-1w2_qZ {
-				padding: 30px;
-			}
-		}
-		.icon-3o6xvg {
-			border-radius: var(--SD-roundness) !important;
-		}
-		.status-mz5rqq {
-			border-radius: var(--SD-roundness) !important;
-			overflow: hidden;
-		}
-		.wrapper-1cBijl {
-			background: var(--bg3);
-			border: none;
-		}
-		.friendsColumnActions-1LT3_M {
-			padding-right: 15px;
-		}
-		.friendTableAddHeader-m9bzFr {
-			background: var(--bg4);
-		}
-		.friendsColumn-eVHFqJ {
-			color: #aaa;
-		}
-		.nameTag-m8r81H {
-			color: #fff;
-		}
-		rect {
-			mask: none;
-		}
-		.friendsTableHeader-32yE7d {
-			border-color: var(--bg6);
-		}
-		.noIcon-1a_FrS {
-			background: var(--bg7);
-		}
-		.friendsTableBody-1ZhKif {
-			padding-top: 0;
-		}
-		.friendsRow-2yicud {
-			border-color: var(--bg6);
-			margin: 0;
-			padding: 0 0 0 20px;
-			.mask-1qbNWk {
-				width: 15px !important;
-				rect {
-					width: 15px !important;
-					x: -2 !important;
+	.container-1D34oG {
+		.peopleList-3c4jOR {
+			background: var(--bg2);
+			.actionButton-uPB8Fs {
+				background: var(--bg5);
+				&:hover {
+					background: var(--bg7);
 				}
 			}
-			.friendsAction-__WNE9 {
-				background-color: var(--bg6);
-			}
-			&:hover {
+			.peopleListItem-2nzedh:hover {
 				background: var(--bg3);
-				box-shadow: none;
 			}
 		}
-		.friendsColumnSeparator-3MqtMA {
-			background: var(--bg5);
+		.nowPlayingColumn-2sl4cE {
+			background: var(--bg4);
+			.emptyCard-1RJw8n {
+				background: var(--bg7);
+			}
 		}
 	}
 	// Nitro / Store

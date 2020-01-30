@@ -15,7 +15,6 @@
 
 /* ---------- BLURING BACKGROUNDS START ---------- */
 #app-mount #bd-customcss-detach-container:before,
-#app-mount .activityFeed-1C0EmJ:before,
 #app-mount .applicationStore-1pNvnv:before,
 #app-mount .authBox-hW6HRx:before,
 #app-mount .autocomplete-1vrmpx:before,
@@ -26,7 +25,7 @@
 #app-mount .container-3Mxszk:before,
 #app-mount .container-3ayLPN:before,
 #app-mount .container-3cGP6G:before,
-#app-mount .container-3gCOGc:before,
+#app-mount .container-1D34oG:before,
 #app-mount .content-1-zrf2:before,
 #app-mount .contentRegion-3nDuYy:before,
 #app-mount .css-181m2lf-menu:before,
@@ -103,7 +102,7 @@
 #app-mount .bd-modal-inner,
 #app-mount .chat-3bRxxu,
 #app-mount .container-3Mxszk,
-#app-mount .container-3gCOGc,
+#app-mount .container-1D34oG,
 #app-mount .content-1-zrf2,
 #app-mount .contentRegion-3nDuYy,
 #app-mount .errorPage-u8SYh4,
@@ -122,7 +121,7 @@
 #app-mount .bd-modal-inner:before,
 #app-mount .chat-3bRxxu:before,
 #app-mount .container-3Mxszk:before,
-#app-mount .container-3gCOGc:before,
+#app-mount .container-1D34oG:before,
 #app-mount .content-1-zrf2:before,
 #app-mount .contentRegion-3nDuYy:before,
 #app-mount .errorPage-u8SYh4:before,
@@ -1110,60 +1109,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 
 /* ---------- SETTINGS END ---------- */
 /* ---------- HOMEPAGES START ---------- */
-#app-mount .activityFeed-1C0EmJ {
-  background-color: transparent;
-  position: relative;
-}
-#app-mount .activityFeed-1C0EmJ .h5-18_1nd {
-  color: #fff;
-}
-#app-mount .activityFeed-1C0EmJ .layout-1cQCv2 {
-  background: none;
-}
-#app-mount .activityFeed-1C0EmJ .section-2VKIPC {
-  background: transparent;
-}
-#app-mount .activityFeed-1C0EmJ .popoutContainer-3WC9HR:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n {
-  background: rgba(0, 0, 0, 0.3);
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n .colorStandard-2KCXvj {
-  color: #fff;
-}
-#app-mount .activityFeed-1C0EmJ .outer-2IVh5n .colorMuted-HdFt4q {
-  color: rgba(255, 255, 255, 0.5);
-}
-#app-mount .activityFeed-1C0EmJ .popout-3G62UL {
-  background: transparent;
-  box-shadow: none;
-}
-#app-mount .activityFeed-1C0EmJ .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-#app-mount .activityFeed-1C0EmJ .separator-2c4hi3 {
-  background: rgba(0, 0, 0, 0.1);
-}
-#app-mount .activityFeed-1C0EmJ .inset-GQDQYw, #app-mount .activityFeed-1C0EmJ .recentlyPlayedContainer-2F3MqS, #app-mount .activityFeed-1C0EmJ .unwrapped-37iUtM {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-#app-mount .activityFeed-1C0EmJ .wrapper-9ppXpy {
-  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-#app-mount .activityFeed-1C0EmJ .container-1r6BKw {
-  background: transparent;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-#app-mount .activityFeed-1C0EmJ .container-1r6BKw .icon-22AiRD {
-  color: #fff;
-}
-#app-mount .activityFeed-1C0EmJ .container-1r6BKw .children-19S4PO:after {
-  content: none;
-}
-#app-mount .activityFeed-1C0EmJ .buttonColor-1agP3J {
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
-}
 #app-mount .pageWrapper-1PgVDX {
   background: transparent;
 }
@@ -1331,31 +1276,21 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border: none;
   background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
 }
-#app-mount .container-3gCOGc {
+#app-mount .container-1D34oG {
   background: transparent;
-  position: relative;
 }
-#app-mount .container-3gCOGc .botTag-2WPJ74, #app-mount .container-3gCOGc .primary-3j8BhM {
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
+  background: transparent;
 }
-#app-mount .container-3gCOGc .friendsTableHeader-32yE7d {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsColumn-eVHFqJ {
-  color: #fff;
-}
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
-  box-shadow: none;
+#app-mount .container-1D34oG .emptyCard-1RJw8n {
   background: rgba(0, 0, 0, 0.3);
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud + .friendsRow-2yicud {
-  border-top-color: rgba(255, 255, 255, 0.05);
+#app-mount .container-1D34oG .actionButton-uPB8Fs {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsAction-__WNE9 {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsAction-__WNE9:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+#app-mount .container-1D34oG .actionButton-uPB8Fs:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 #app-mount .root-1BQpZw {
   background: transparent;
