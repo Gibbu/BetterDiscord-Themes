@@ -20,6 +20,9 @@
       }
     }
   }
+  .wrapper-2aW0bm {
+    background: var(--bg10);
+  }
   .newMessagesBar-mujexs {
     background: var(--bg9);
     left: 0;
@@ -102,7 +105,11 @@
   }
   form {
     margin: 0;
+    padding: 0;
     border: none;
+    &:before {
+      content: none;
+    }
     .channelTextArea-rNsIhG {
       margin: 0;
     }
@@ -133,12 +140,11 @@
     background: var(--bg4);
   }
   // Dividers
-  .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
-    color: var(--bg10);
-    &:after,
-    &:before {
-      border-color: var(--bg5);
-    }
+  .content-1o0f9g {
+    background: var(--bg2);
+    color: #fff;
+    padding: 0 25px;
+    font-weight: 400;
   }
   // NSFW
   .content-yTz4x3 {

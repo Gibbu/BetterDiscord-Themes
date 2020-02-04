@@ -586,8 +586,10 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   padding: 8px 8px 8px 12px;
 }
 #app-mount .chat-3bRxxu .botTagRegular-2HEhHi:not(.TRE-tag), #app-mount .chat-3bRxxu .hasMore-3e72_v button, #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL {
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1));
-  color: #fff;
+  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+  border-radius: 3px;
+  padding: 0 2px;
+  color: #fff !important;
   border: none !important;
   font-weight: 600 !important;
 }

@@ -237,6 +237,9 @@
 #app-mount .sidebar-2K8pFh .container-PNkimc .scroller-2FKFPG::-webkit-scrollbar {
   width: 0 !important;
 }
+#app-mount .sidebar-2K8pFh .container-PNkimc .unread-1xRYoj {
+  background: var(--bg15);
+}
 #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd .content-3at_AU .icon-1_QxNX, #app-mount .sidebar-2K8pFh .container-PNkimc .wrapper-1ucjTd .content-3at_AU .name-3_Dsmg {
   color: #888;
 }
@@ -396,6 +399,9 @@
 #app-mount .chat-3bRxxu .typing-2GQL18 svg circle {
   r: 2 !important;
 }
+#app-mount .chat-3bRxxu .wrapper-2aW0bm {
+  background: var(--bg10);
+}
 #app-mount .chat-3bRxxu .newMessagesBar-mujexs {
   background: var(--bg9);
   left: 0;
@@ -478,7 +484,11 @@
 }
 #app-mount .chat-3bRxxu form {
   margin: 0;
+  padding: 0;
   border: none;
+}
+#app-mount .chat-3bRxxu form:before {
+  content: none;
 }
 #app-mount .chat-3bRxxu form .channelTextArea-rNsIhG {
   margin: 0;
@@ -508,11 +518,11 @@
 #app-mount .chat-3bRxxu .embedFull-2tM8-- {
   background: var(--bg4);
 }
-#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
-  color: var(--bg10);
-}
-#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, #app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
-  border-color: var(--bg5);
+#app-mount .chat-3bRxxu .content-1o0f9g {
+  background: var(--bg2);
+  color: #fff;
+  padding: 0 25px;
+  font-weight: 400;
 }
 #app-mount .chat-3bRxxu .content-yTz4x3 {
   background: var(--bg2) !important;
@@ -686,17 +696,13 @@
 .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN {
   background: var(--bg4);
 }
-.layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .scroller-2FKFPG, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .scroller-2FKFPG {
-  margin-top: 45px;
-}
 .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e {
-  padding: 10px 0;
+  padding: 30px 0 0;
 }
 .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e:before, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e:before {
   content: "SETTINGS";
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
   color: #fff;
   background: var(--bg4);
   width: 226px;

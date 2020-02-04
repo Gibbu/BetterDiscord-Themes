@@ -86,16 +86,12 @@
   // Left
   .sidebarRegion-VFTUkN {
     background: var(--bg4);
-    .scroller-2FKFPG {
-      margin-top: 45px;
-    }
     .sidebar-CFHs9e {
-      padding: 10px 0;
+      padding: 30px 0 0;
       &:before {
         content: "SETTINGS";
-        position: absolute;
+        position: fixed;
         top: 0;
-        right: 0;
         color: #fff;
         background: var(--bg4);
         width: 226px;
