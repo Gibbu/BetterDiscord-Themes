@@ -1,0 +1,82 @@
+#app-mount {
+  // Filter Dropdown
+  .filterBrowsingSelectPopout-2kjxuc {
+    background: transparent;
+  }
+  // Personal Pins by DevilBro
+  .messagesPopoutWrap-1MQ1bW .container-2XeR5Z {
+    background: rgba(#000, 0.3);
+    input::placeholder {
+      color: rgba(#fff, 0.5);
+      font-weight: 400;
+    }
+  }
+  // Query search
+  .queryContainer-RKFJW-.focused-2bY0OD {
+    background: transparent;
+    overflow: hidden;
+    border: none;
+    &:before {
+      box-shadow: inset 0 0 0 10000px rgba(0,0,0,calc(var(--BG-left-brightness) + 0.05));
+    }
+  }
+  // Call region selector
+  .quickSelectPopout-X1hvgV.regionSelectPopout-p9-0_W {
+    background: transparent;
+    position: fixed;
+    margin-left: -100px;
+    animation: fadeIn 0.2s ease forwards;
+    .regionSelectName-c5qL8O {
+      color: #fff;
+    }
+    .check-2by_h9 {
+      filter: brightness(2);
+    }
+  }
+  // Nitro card select
+  .popout-2sKjHu {
+    background: rgba(#000, 0.7);
+    box-shadow: none;
+    border: none;
+    .optionActive-KkAdqq {
+      background: rgba(#fff, 0.1);
+    }
+    .optionNormal-12VR9V:hover {
+      background: rgba(#fff, 0.05);
+    }
+  }
+  // User management add roles
+  .overflowRolesPopout-140n9i {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    .overflowRolesPopoutHeaderText-1SW-y3 {
+      color: #fff;
+      font-weight: 500;
+    }
+    svg path {
+      fill: #fff;
+    }
+  }
+  // Colour picker
+  .colorPickerCustom-2CWBn2 {
+    background: transparent;
+    border: none;
+    animation: fadeInTop 0.2s ease forwards;
+    position: absolute;
+    margin-left: -115px;
+    .input-cIJ7To {
+      background: rgba(#000, 0.3);
+      border: none;
+    }
+  }
+  // Incoming call
+  .incomingCallInner-2VmFiR {
+    background: rgba(#000, 0.8);
+    border: none;
+    .lookFilled-1Gx00P.colorGreen-29iAKY {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+    }
+  }
+}

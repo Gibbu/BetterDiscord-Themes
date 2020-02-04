@@ -87,8 +87,6 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
   --roundness: 50px;
 }
 
-
-// Global serverlist
 @import 'general/blur';
 @import 'general/general';
 @import 'general/serverlist';
@@ -97,20 +95,43 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
 @import 'general/members';
 @import 'general/search';
 @import 'general/settings';
-@import 'general/homePages';
-@import 'general/otherPages';
 @import 'general/notices';
 
+@import 'pages/discovery';
+@import 'pages/nitro';
+@import 'pages/friends';
+@import 'pages/login';
+@import 'pages/serverboost';
+@import 'pages/others';
 
-// Global imports
+@import 'popouts/autocomplete';
+@import 'popouts/server';
+@import 'popouts/user';
+@import 'popouts/addrole';
+@import 'popouts/statusselector';
+@import 'popouts/serverdropdown';
+@import 'popouts/emojipicker';
+@import 'popouts/rtcconnection';
+@import 'popouts/contextmenu';
+@import 'popouts/pinnedmessages';
+@import 'popouts/searchroles';
+@import 'popouts/auditlogs';
+@import 'popouts/others';
+
+@import 'modals/global';
+@import 'modals/createjoinserver';
+@import 'modals/regionselect';
+@import 'modals/nitrobooststatus';
+@import 'modals/user';
+@import 'modals/quickswitcher';
+@import 'modals/bd';
+@import 'modals/others';
+
 @import 'global/scrollbars';
 @import 'global/headers';
-@import 'global/popouts';
-@import 'global/modals';
 @import 'global/tooltips';
 @import 'global/keyframes';
 @import 'global/svgs';
 
-
-// Plugin / OS fixes
 @import 'general/otherFixes';
+@import 'general/ptbcanaryfixes';

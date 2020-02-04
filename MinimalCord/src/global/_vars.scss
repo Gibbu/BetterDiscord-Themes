@@ -53,8 +53,13 @@ $dark-foreground: #21232b;
     --search-result-header: #{lighten($dark-background, 5%)};
 
     // Channels / DMs
-    --channel-selected: #{lighten($dark-background, 6%)};
-    --channel-hovered: #{lighten($dark-background, 4%)};
+    --channel-selected-bg: #{lighten($dark-background, 6%)};
+    --channel-hovered-bg: #{lighten($dark-background, 4%)};
+    --channel-unread-bg: transparent;
+    --channel-selected-text: var(--text-1);
+    --channel-unread-text: var(--text-2);
+    --channel-muted-text: var(--text-dark);
+    --channel-hovered-text: var(--text-1);
 
     // Modals
     --modal-connection: var(--background-1);
@@ -122,8 +127,13 @@ $dark-foreground: #21232b;
     --search-result-header: #fff;
 
     // Channels / DMs
-    --channel-selected: #fff;
-    --channel-hovered: #fafafa;
+    --channel-selected-bg: #fff;
+    --channel-hovered-bg: #fafafa;
+    --channel-unread-bg: transparent;
+    --channel-selected-text: var(--text-1);
+    --channel-unread-text: var(--text-2);
+    --channel-muted-text: var(--text-dark);
+    --channel-hovered-text: var(--text-1);
 
     // Modals
     --modal-connection: #fff;

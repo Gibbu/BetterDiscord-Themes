@@ -1,0 +1,35 @@
+#app-mount .pageWrapper-1PgVDX {
+  background: transparent;
+  & > img {
+    display: none;
+  }
+  .loading-17PYl_ {
+    background: rgba(#000, 0.3);
+  }
+  .css-1wqqa50-container, .searchBox-3Y2Vi7 {
+    box-shadow: none;
+    background: rgba(#000, 0.3);
+    border: none;
+  }
+  .description-2QALGo, .searchHelpText-19imBp {
+    color: #fff;
+  }
+  .searchHelpText-19imBp:not(.searchHelpTextVisible-1mRnNd) {
+    opacity: 0;
+  }
+  .css-1rckt42-menu {
+    background: transparent;
+    border: none;
+  }
+  .guildList-1ItbxP .card-3DjzTQ {
+    background: rgba(#000, 0.3);
+    border: none;
+    box-shadow: none;
+  }
+  .sectionSeparator-2OWiNT {
+    border-top-color: rgba(#000, 0.1);
+  }
+  .activeButton-1BJAiN {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+  }
+}

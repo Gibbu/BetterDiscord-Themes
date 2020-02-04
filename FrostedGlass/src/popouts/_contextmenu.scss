@@ -1,0 +1,42 @@
+#app-mount .contextMenu-HLZMGh {
+  background: var(--BG-image-set) center/cover fixed;
+  box-shadow: inset 0 0 0 300px rgba(#000, calc(var(--BG-popout-brightness) + .2));
+  .itemGroup-1tL0uz {
+    border-top-color: rgba(#fff, 0.1);
+    &:first-child .item-1Yvehc:first-child {
+      border-radius: 5px 7px 0 0;
+    }
+    &:last-child .item-1Yvehc:last-child {
+      border-radius: 0 0 7px 5px;
+    }
+  }
+  .bar-2Qqk5Z {
+    background: rgba(#fff, 0.3);
+  }
+  .barFill-23-gu- {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+  }
+  .item-1Yvehc {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    &.danger-2dXSTE {
+      color: var(--red);
+    }
+    &:hover {
+      background: rgba(#fff, 0.1);
+    }
+  }
+  .contextMenu-HLZMGh {
+    .item-1Yvehc:first-child {
+      border-radius: 7px 0 0 0 !important;
+    }
+    .item-1Yvehc:last-child {
+      border-radius: 0 0 7px 5px !important;
+    }
+  }
+}

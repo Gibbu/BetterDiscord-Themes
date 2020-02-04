@@ -1,0 +1,82 @@
+#app-mount .applicationStore-1pNvnv {
+  background: transparent;
+  position: relative;
+  .itemBackground-2vEldQ {
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    &:before {
+      background: rgba(#000, 0.8);
+    }
+  }
+  .tileMedia-1q3guD {
+    background: rgba(#000, 0.3);
+    .loadingContainer-138F59, .mediaFade-1SdEfL {
+      background: transparent;
+    }
+  }
+  .content-35aVm0, .item-2yFVoY, .whyYouMightLikeIt-2zZIIj {
+    background: rgba(#000, 0.3);
+  }
+  .bodySection-jqkkIP {
+    background: rgba(#000, 0.3);
+    border-top-color: rgba(#000, 0.3);
+    .skuNormal-3h1es- {
+      border-bottom-color: rgba(#000, 0.3);
+    }
+    .price-NUANu6 {
+      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+    }
+  }
+  .features-_IOqVv {
+    .title-3KTIjF {
+      color: #fff;
+    }
+    .row-1bU71H {
+      background: rgba(#000, 0.3);
+      color: #fff;
+    }
+  }
+  .memberInfo-1TAaKC {
+    color: #fff;
+    font-weight: 500;
+  }
+  .categoryHeader-1D7Tqy, .sortFilterBar-3hePOV {
+    border-color: rgba(#fff, 0.1);
+  }
+  .carouselItem-1qFCGP {
+    padding: 0;
+    top: 0;
+  }
+  .tile-QA_yMc {
+    background-color: rgba(#000, 0.3);
+    box-shadow: none;
+    .tagline-EIH5-W, .title-2XwaXv {
+      color: #fff;
+    }
+  }
+  .overlappingBorder-1-XPGl {
+    border-color: rgba(var(--BG-gradient-one), 1);
+  }
+  .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorPrimary-3b3xI6, .perkTag-2O4dx4, .toggleCollapseButton-2wffKu {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+  }
+  .filterBackground-QanGTJ:before, .footer-3oZnEF {
+    display: none;
+  }
+  .searchBox-3Y2Vi7 {
+    background: rgba(#000, 0.3);
+    box-shadow: none;
+    input::placeholder {
+      color: rgba(#fff, 0.5);
+      font-weight: 400;
+    }
+  }
+  .hideGames-zMTyGl {
+    color: #fff;
+  }
+  .checked-3_4uQ9 {
+    border: none;
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1), rgba(var(--BG-gradient-two), 1)) !important;
+  }
+}

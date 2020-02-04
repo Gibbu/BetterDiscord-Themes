@@ -1,0 +1,33 @@
+#app-mount {
+  .container-3ayLPN {
+    box-shadow: none;
+    position: fixed;
+    background: transparent;
+    margin-left: -165px;
+    .option-96V44q {
+      .displayedNick-3xxvzU, .filter-3Y_im- {
+        color: #fff;
+      }
+      .answer-1n6g43, .displayUsername-Qekxml {
+        color: rgba(#fff, 0.6);
+        font-weight: 400;
+      }
+      &.selected-rZcOL- {
+        background: rgba(#000, 0.4);
+        &:after {
+          content: none;
+        }
+      }
+    }
+    .resultsGroup-r_nuzN:before {
+      border-top-color: rgba(#000, 0.3);
+    }
+    .header-2N-gMV {
+      color: rgba(#fff, 0.5);
+      font-weight: 400;
+    }
+  }
+  #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .bda-settings-button {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+  }
+}

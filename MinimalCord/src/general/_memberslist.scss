@@ -1,18 +1,20 @@
 #app-mount .membersWrap-2h-GB4 {
-    .scroller-2FKFPG::-webkit-scrollbar {display: none;}
-    .member-3-YXUe {
-        padding-right: 0;
-        max-width: 100%;
-        border-radius: 0;
-        .layout-2DM8Md {
-            border-radius: 5px 0 0 5px;
-        }
-        &:hover .layout-2DM8Md {
-            background: var(--channel-hovered);
-        }
-        &.selected-aXhQR6 .layout-2DM8Md {
-            background: var(--channel-selected);
-            box-shadow: inset -4px 0 0 rgba(var(--accent), 1);
-        }
+  .scroller-2FKFPG::-webkit-scrollbar {
+    display: none;
+  }
+  .member-3-YXUe {
+    padding-right: 0;
+    max-width: 100%;
+    border-radius: 0;
+    .layout-2DM8Md {
+      border-radius: 5px 0 0 5px;
     }
+    &:hover .layout-2DM8Md {
+      background: var(--channel-hovered-bg);
+    }
+    &.selected-aXhQR6 .layout-2DM8Md {
+      background: var(--channel-selected-bg);
+      box-shadow: inset -4px 0 0 rgba(var(--accent), 1);
+    }
+  }
 }

@@ -1,0 +1,32 @@
+#app-mount .datePicker--XZbmJ {
+  .react-datepicker {
+    background: transparent;
+    .react-datepicker__header {
+      background: transparent;
+      .react-datepicker__current-month {
+        color: #fff;
+        border-bottom: none;
+      }
+    }
+    .react-datepicker__day.react-datepicker__day--selected:after {
+      background: rgba(var(--BG-gradient-one), 1);
+    }
+    .react-datepicker__day {
+      border-color: rgba(#000, 0.3);
+      color: #fff;
+      &:hover {
+        background: rgba(var(--BG-gradient-one), 1);
+      }
+      &.react-datepicker__day--disabled,
+      &[class*="--outside-month"] {
+        background: rgba(#000, 0.3);
+      }
+    }
+    .datePickerHint-3Q1Udw {
+      border-top-color: rgba(#fff, 0.1);
+    }
+  }
+  .hintValue-29ny8Z {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+  }
+}

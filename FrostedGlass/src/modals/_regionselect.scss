@@ -1,0 +1,18 @@
+#app-mount .regionSelectModal-12e-57 {
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  & > div {
+    position: relative;
+  }
+  .regionSelectModalOption-2DSIZ3 {
+    background: rgba(#000, 0.3);
+    border: none;
+    .regionSelectName-2-2FWh {
+      color: #fff;
+    }
+    &:hover {
+      background: rgba(#000, 0.4);
+    }
+  }
+}

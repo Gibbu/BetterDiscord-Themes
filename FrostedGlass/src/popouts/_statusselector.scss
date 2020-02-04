@@ -1,0 +1,28 @@
+#app-mount .menu-Sp6bN1 {
+  background: transparent;
+  box-shadow: none;
+  overflow: hidden;
+  & > div {
+    position: relative;
+    z-index: 1;
+  }
+  .item-1GzJrl {
+    color: #fff;
+    .helper-2c73HK {
+      color: rgba(#fff, 0.5);
+      font-weight: 400;
+    }
+    &:hover {
+      background: rgba(#fff, 0.05);
+    }
+  }
+  .separator-2zcjq8 {
+    border-bottom-color: rgba(#fff, 0.1);
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+  &:before {
+    box-shadow: inset 0 0 0 10000px rgba(0,0,0,calc(var(--BG-left-brightness) + 0.1));
+  }
+}
