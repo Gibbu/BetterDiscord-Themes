@@ -17,7 +17,6 @@
         R,G,B
     */
     --accent: 0, 105, 255; /* DEFAULT: 22, 188, 249 */
-    --chat-avatar-size: 40px; /* Changes size of chat avatars | DEFAULT: 40px */
     --search-results-width: 25vw; /* Width of server results. For a fixed width use px. | DEFAULT: 25vw */
     --emoji-picker-height: 260px; /* Height of Emoji picker | DEFAULT: 260px */
 
@@ -59,6 +58,7 @@
 @import 'popouts/rtc';
 @import 'popouts/emojipicker';
 @import 'popouts/auditlogs';
+@import 'popouts/addrole';
 
 // Modals
 @import 'modals/general';

@@ -113,7 +113,7 @@
     .cozyMessage-3V1Y8y {
       background: var(--message-box);
       margin: 0 10px 0 20px;
-      padding: 0 20px 0 80px;
+      padding: 0 20px 0 74px;
 
       .wrapper-2aW0bm {
         background: var(--foreground-1);
@@ -136,16 +136,23 @@
         padding-bottom: 20px;
         margin-top: -20px;
       }
-      &.mentioned-xhSam7::after {
-        content: "";
-        background: rgb(250, 166, 26, 0.1);
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        pointer-events: none;
+      &.mentioned-xhSam7 {
+        > div {
+          position: relative;
+          z-index: 1;
+        }
+        &::after {
+          content: "";
+          background: rgb(250, 166, 26, 0.1);
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          pointer-events: none;
+          z-index: 0;
+        }
       }
     }
 
