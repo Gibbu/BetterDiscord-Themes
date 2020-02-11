@@ -12,5 +12,5 @@
 :root {
   --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
   --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
-  --server-container-padding: 10px; /* Spacing between left and right sides of server icons | DEFAULT: 10px */
+  --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
 }
