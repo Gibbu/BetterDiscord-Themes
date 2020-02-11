@@ -644,7 +644,7 @@
 .layer-3QrUeG[aria-label*=SETTINGS] .toolsContainer-1edPuj, .layer-3QrUeG[aria-label*=RTC] .toolsContainer-1edPuj {
   position: absolute;
   top: 0;
-  left: -36px;
+  left: 0;
   margin: 0;
   padding: 0;
   width: auto;
@@ -697,28 +697,7 @@
   background: var(--bg4);
 }
 .layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e {
-  padding: 30px 0 0;
-}
-.layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e:before, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e:before {
-  content: "SETTINGS";
-  position: fixed;
-  top: 0;
-  color: #fff;
-  background: var(--bg4);
-  width: 226px;
-  z-index: 1;
-  padding: 15px 8px;
-  box-sizing: border-box;
-  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.2);
-}
-.layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e .header-2RyJ0Y, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e .header-2RyJ0Y {
-  color: #888;
-}
-.layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e .item-PXvHYJ:hover, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e .item-PXvHYJ:hover {
-  background: var(--bg5);
-}
-.layer-3QrUeG[aria-label*=SETTINGS] .sidebarRegion-VFTUkN .sidebar-CFHs9e .item-PXvHYJ.selected-3s45Ha, .layer-3QrUeG[aria-label*=RTC] .sidebarRegion-VFTUkN .sidebar-CFHs9e .item-PXvHYJ.selected-3s45Ha {
-  background: var(--bg6);
+  padding: 10px 0;
 }
 .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy, .layer-3QrUeG[aria-label*=RTC] .contentRegion-3nDuYy {
   background: var(--bg2);
@@ -1044,21 +1023,6 @@
   transition-delay: 1s;
 }
 
-#bd-settings-sidebar > span > div {
-  display: block;
-  position: relative;
-}
-#bd-settings-sidebar > span > div:last-child {
-  padding-bottom: 20px !important;
-}
-#bd-settings-sidebar > span > div:last-child:after {
-  content: "SimplyDark v2.0.0 by Gibbu";
-  position: absolute;
-  left: 0;
-  top: 18px;
-  left: 10px;
-}
-
 [aria-label=USER_SETTINGS] .side-8zPYf6 .item-PXvHYJ:nth-child(2):before {
   -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgM2MxLjY2IDAgMyAxLjM0IDMgM3MtMS4zNCAzLTMgMy0zLTEuMzQtMy0zIDEuMzQtMyAzLTN6bTAgMTQuMmMtMi41IDAtNC43MS0xLjI4LTYtMy4yMi4wMy0xLjk5IDQtMy4wOCA2LTMuMDggMS45OSAwIDUuOTcgMS4wOSA2IDMuMDgtMS4yOSAxLjk0LTMuNSAzLjIyLTYgMy4yMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
 }
@@ -1277,23 +1241,40 @@
 #app-mount .root-1BQpZw .input-cIJ7To::placeholder {
   color: #777;
 }
-#app-mount .container-1D34oG .peopleList-3c4jOR {
+#app-mount .container-1D34oG {
   background: var(--bg2);
 }
-#app-mount .container-1D34oG .peopleList-3c4jOR .actionButton-uPB8Fs {
+#app-mount .container-1D34oG .peopleColumn-29fq28 {
+  background: var(--bg2);
+}
+#app-mount .container-1D34oG .peopleColumn-29fq28 .actionButton-uPB8Fs {
   background: var(--bg5);
 }
-#app-mount .container-1D34oG .peopleList-3c4jOR .actionButton-uPB8Fs:hover {
+#app-mount .container-1D34oG .peopleColumn-29fq28 .actionButton-uPB8Fs:hover {
   background: var(--bg7);
 }
-#app-mount .container-1D34oG .peopleList-3c4jOR .peopleListItem-2nzedh:hover {
+#app-mount .container-1D34oG .peopleColumn-29fq28 .peopleListItem-2nzedh {
+  margin-left: 0;
+  padding-left: 20px;
+}
+#app-mount .container-1D34oG .peopleColumn-29fq28 .peopleListItem-2nzedh:hover {
   background: var(--bg3);
+  margin-left: 0;
 }
 #app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
   background: var(--bg4);
 }
 #app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .emptyCard-1RJw8n {
   background: var(--bg7);
+}
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .wrapper-3D2qGf {
+  background: var(--bg6);
+}
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .wrapper-3D2qGf .inset-3sAvek {
+  background: var(--bg5);
+}
+#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .wrapper-3D2qGf .inset-3sAvek .separator-XqIyoz {
+  background-color: var(--bg6);
 }
 #app-mount .applicationStore-1pNvnv {
   background: var(--bg2);
@@ -2600,4 +2581,9 @@ html.theme-light #app-mount:after {
   border: none;
   color: #fff;
   padding: 10px;
+}
+
+.colorMuted-HdFt4q.size12-3cLvbJ:first-child:before {
+  content: "SimplyDark v2.0.1 by Gibbu";
+  display: block;
 }

@@ -52,7 +52,8 @@
 	}
 	// Friends
 	.container-1D34oG {
-		.peopleList-3c4jOR {
+		background: var(--bg2);
+		.peopleColumn-29fq28 {
 			background: var(--bg2);
 			.actionButton-uPB8Fs {
 				background: var(--bg5);
@@ -60,14 +61,28 @@
 					background: var(--bg7);
 				}
 			}
-			.peopleListItem-2nzedh:hover {
-				background: var(--bg3);
+			.peopleListItem-2nzedh {
+				margin-left: 0;
+				padding-left: 20px;
+				&:hover {
+					background: var(--bg3);
+					margin-left: 0;
+				}
 			}
 		}
 		.nowPlayingColumn-2sl4cE {
 			background: var(--bg4);
 			.emptyCard-1RJw8n {
 				background: var(--bg7);
+			}
+			.wrapper-3D2qGf {
+				background: var(--bg6);
+				.inset-3sAvek {
+					background: var(--bg5);
+					.separator-XqIyoz {
+						background-color: var(--bg6);
+					}
+				}
 			}
 		}
 	}

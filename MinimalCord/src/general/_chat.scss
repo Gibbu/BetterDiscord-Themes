@@ -53,6 +53,14 @@
     ::-webkit-scrollbar-thumb {
       visibility: hidden !important;
     }
+
+    .reaction-1hd86g.reactionMe-wv5HKu {
+      background: rgba(var(--accent), 0.2);
+      .reactionCount-2mvXRV {
+        color: rgba(var(--accent), 1);
+      }
+    }
+
     .markup-2BOw-j {
       > a, em > a, strong > a {
         color: rgba(var(--accent), 1);
@@ -129,12 +137,12 @@
         padding-top: 20px;
         padding-bottom: 20px;
         + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-          margin-top: -19px;
+          margin-top: -25px;
         }
       }
       &:not(.groupStart-23k01U) {
         padding-bottom: 20px;
-        margin-top: -20px;
+        margin-top: -25px;
       }
       &.mentioned-xhSam7 {
         > div {

@@ -280,6 +280,11 @@
   bottom: 0;
 }
 
+.colorMuted-HdFt4q.size12-3cLvbJ:first-child:before {
+  content: "MinimalCord v1.0.1 by Gibbu";
+  display: block;
+}
+
 #app-mount .wrapper-1Rf91z .scroller-2TZvBN {
   background: var(--background-2);
 }
@@ -525,6 +530,12 @@
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY ::-webkit-scrollbar-thumb {
   visibility: hidden !important;
 }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .reaction-1hd86g.reactionMe-wv5HKu {
+  background: rgba(var(--accent), 0.2);
+}
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+  color: rgba(var(--accent), 1);
+}
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j > a, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j em > a, #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .markup-2BOw-j strong > a {
   color: rgba(var(--accent), 1);
   text-decoration: underline;
@@ -595,11 +606,11 @@
   padding-bottom: 20px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-  margin-top: -19px;
+  margin-top: -25px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
   padding-bottom: 20px;
-  margin-top: -20px;
+  margin-top: -25px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.mentioned-xhSam7 > div {
   position: relative;
@@ -1112,17 +1123,17 @@
   box-shadow: var(--box-shadow);
 }
 
-#app-mount .peopleList-3c4jOR {
+#app-mount .container-1D34oG {
   background: var(--background-1);
 }
-#app-mount .peopleList-3c4jOR .peopleListItem-2nzedh:hover {
+#app-mount .tabBody-3YRQ8W:before {
+  content: none;
+}
+#app-mount .peopleListItem-2nzedh {
+  border-radius: 3px;
+}
+#app-mount .peopleListItem-2nzedh:hover {
   background: var(--background-2);
-}
-#app-mount .peopleList-3c4jOR .actionButton-uPB8Fs {
-  background: var(--foreground-2);
-}
-#app-mount .peopleList-3c4jOR .actionButton-uPB8Fs:hover {
-  background: var(--foreground-1);
 }
 #app-mount .nowPlayingColumn-2sl4cE {
   background: var(--background-2);
@@ -1130,6 +1141,12 @@
 #app-mount .nowPlayingColumn-2sl4cE .emptyCard-1RJw8n {
   background: var(--background-1);
   box-shadow: var(--box-shadow);
+}
+#app-mount .nowPlayingColumn-2sl4cE .wrapper-3D2qGf {
+  background: var(--dropdown);
+}
+#app-mount .nowPlayingColumn-2sl4cE .wrapper-3D2qGf .inset-3sAvek {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #app-mount .pageWrapper-1PgVDX {
