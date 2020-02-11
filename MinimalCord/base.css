@@ -281,7 +281,7 @@
 }
 
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:before {
-  content: "MinimalCord v1.0.1 by Gibbu";
+  content: "MinimalCord v1.0.2 by Gibbu";
   display: block;
 }
 
@@ -606,11 +606,11 @@
   padding-bottom: 20px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-  margin-top: -25px;
+  margin-top: -22px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
   padding-bottom: 20px;
-  margin-top: -25px;
+  margin-top: -22px;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.mentioned-xhSam7 > div {
   position: relative;
@@ -648,6 +648,9 @@
 }
 #app-mount .chat-3bRxxu .operations-36ENbA > a {
   color: rgba(var(--accent), 1);
+}
+#app-mount .chat-3bRxxu .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
+  background: var(--background-1);
 }
 #app-mount .chat-3bRxxu .channelTextArea-rNsIhG {
   border-top-color: var(--message-box-divider);
@@ -1643,14 +1646,17 @@
 }
 #app-mount .uploadModal-2ifh8j .comment-4IWttf {
   margin: 0;
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 20px;
   box-sizing: border-box;
 }
 #app-mount .uploadModal-2ifh8j .comment-4IWttf .inner-zqa7da {
   background-color: var(--background-2);
 }
 #app-mount .uploadModal-2ifh8j .channelTextAreaUpload-3t7EIx {
-  margin: 5px 0 0 0;
+  margin: 5px 0 0;
+}
+#app-mount .uploadModal-2ifh8j .channelTextAreaUpload-3t7EIx .scrollableContainer-2NUZem {
+  background-color: var(--foreground-1);
 }
 #app-mount .uploadModal-2ifh8j .channelTextAreaUpload-3t7EIx .charCounter-7fw40k.charcounter {
   bottom: unset;

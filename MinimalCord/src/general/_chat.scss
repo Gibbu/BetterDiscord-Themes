@@ -137,12 +137,12 @@
         padding-top: 20px;
         padding-bottom: 20px;
         + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-          margin-top: -25px;
+          margin-top: -22px;
         }
       }
       &:not(.groupStart-23k01U) {
         padding-bottom: 20px;
-        margin-top: -25px;
+        margin-top: -22px;
       }
       &.mentioned-xhSam7 {
         > div {
@@ -187,6 +187,9 @@
   }
   .operations-36ENbA > a {
     color: rgba(var(--accent), 1);
+  }
+  .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
+    background: var(--background-1);
   }
   .channelTextArea-rNsIhG {
     border-top-color: var(--message-box-divider);

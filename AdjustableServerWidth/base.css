@@ -1,163 +1,183 @@
+:root {
+  --icon: var(--server-icon-size, var(--ASW_size, 35px));
+  --container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
+}
+
 .base-3dtUhz {
-  left: calc(var(--ASW_size) + 20px); }
+  left: var(--container);
+}
 
 .wrapper-1Rf91z {
-  width: calc(var(--ASW_size) + 20px); }
-  .wrapper-1Rf91z .scrollerWrap-1IAIlv {
-    width: calc(var(--ASW_size) + 20px);
-    min-width: 78px; }
-  .wrapper-1Rf91z .expandedFolderIconWrapper-1xLaU- {
-    transform: none !important; }
-  .wrapper-1Rf91z .expandedFolderBackground-2sPsd- {
-    width: var(--ASW_size);
-    margin-left: -2px; }
-  .wrapper-1Rf91z .closedFolderIconWrapper-15K9MK {
-    transform: none !important; }
-  .wrapper-1Rf91z .guildSeparator-3s64Iy {
-    width: var(--ASW_size) !important; }
-  .wrapper-1Rf91z .placeholderMask-3K9THS {
-    height: var(--ASW_size);
-    width: var(--ASW_size); }
-    .wrapper-1Rf91z .placeholderMask-3K9THS foreignObject {
-      width: 100%;
-      height: 100%; }
-  .wrapper-1Rf91z .expandedGuilds-1JMD4M {
-    height: auto !important; }
-  .wrapper-1Rf91z .listItem-2P_4kh {
-    width: calc(var(--ASW_size) + 20px);
-    display: flex;
-    align-items: center; }
-    .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] {
-      top: 50%;
-      transform: translateY(-50%); }
-      .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span {
-        height: var(--ASW_size) !important;
-        transition: 0.15s ease !important;
-        transform: scale(1, 0) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 0"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 1"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 2"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 3"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 4"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 5"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 6"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 7"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 8"] {
-          transform: scale(1, 0.25) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 9"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 10"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 11"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 12"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 13"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 14"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 15"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 16"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 17"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 18"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 19"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 20"] {
-          transform: scale(1, 0.5) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 21"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 22"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 23"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 24"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 25"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 26"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 27"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 28"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 29"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 30"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 31"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 32"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 33"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 34"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 35"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 36"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 37"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 38"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 39"] {
-          transform: scale(1, 1) !important; }
-        .wrapper-1Rf91z .listItem-2P_4kh [class*="pill"] span[style*="height: 40"] {
-          transform: scale(1, 1) !important; }
-    .wrapper-1Rf91z .listItem-2P_4kh:first-child svg svg {
-      width: 60%; }
-    .wrapper-1Rf91z .listItem-2P_4kh .wrapper-25eVIn {
-      height: var(--ASW_size);
-      width: var(--ASW_size); }
-      .wrapper-1Rf91z .listItem-2P_4kh .wrapper-25eVIn svg {
-        height: var(--ASW_size);
-        width: var(--ASW_size); }
-    .wrapper-1Rf91z .listItem-2P_4kh:first-child + .listItem-2P_4kh {
-      height: unset;
-      margin-top: 5px; }
-    .wrapper-1Rf91z .listItem-2P_4kh:first-child + div[style]:not([class*="listItem"]) {
-      height: var(--ASW_size) !important; }
-  .wrapper-1Rf91z > div[style] {
-    height: var(--ASW_size);
-    width: var(--ASW_size); }
-  .wrapper-1Rf91z div[style] + .listItem-2P_4kh {
-    height: unset;
-    margin-top: 5px; }
-  .wrapper-1Rf91z .guildsError-b7zR5H {
-    height: var(--ASW_size);
-    width: var(--ASW_size); }
+  width: var(--container);
+}
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
+  width: calc(100% + 30px);
+}
+.wrapper-1Rf91z .listItem-2P_4kh {
+  width: var(--container);
+  margin-bottom: var(--server-icon-spacing);
+}
+.wrapper-1Rf91z [class*=pill] {
+  height: var(--icon);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrapper-1Rf91z [class*=pill] span {
+  height: var(--server-icon-size) !important;
+  transition: 0.1s ease !important;
+  transform: scale(1, 0) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 0"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 1"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 2"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 3"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 4"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 5"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 6"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 7"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 8"] {
+  transform: scale(1, 0.25) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 9"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 10"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 11"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 12"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 13"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 14"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 15"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 16"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 17"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 18"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 19"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 20"] {
+  transform: scale(1, 0.5) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 21"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 22"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 23"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 24"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 25"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 26"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 27"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 28"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 29"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 30"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 31"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 32"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 33"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 34"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 35"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 36"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 37"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 38"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 39"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z [class*=pill] span[style*="height: 40"] {
+  transform: scale(1, 1) !important;
+}
+.wrapper-1Rf91z .svg-1X37T1, .wrapper-1Rf91z .wrapper-25eVIn {
+  width: var(--icon);
+  height: var(--icon);
+}
+.wrapper-1Rf91z .iconBadge-2NuvG9 {
+  border-radius: 50%;
+  height: calc(var(--icon) / 3);
+  width: calc(var(--icon) / 3);
+}
+.wrapper-1Rf91z .wrapper-21YSNc {
+  width: var(--container);
+}
+.wrapper-1Rf91z .wrapper-21YSNc .folder-21wGz3, .wrapper-1Rf91z .wrapper-21YSNc .folderIconWrapper-226oVY {
+  background: transparent;
+}
+.wrapper-1Rf91z .wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+  left: 50%;
+  transform: translateX(-50%);
+  width: var(--server-icon-size);
+}
+.wrapper-1Rf91z .wrapper-21YSNc .expandedGuilds-1JMD4M {
+  height: auto !important;
+}
+.wrapper-1Rf91z .wrapper-21YSNc .expandedFolderIconWrapper-1xLaU-, .wrapper-1Rf91z .wrapper-21YSNc .closedFolderIconWrapper-15K9MK {
+  transform: none !important;
+}
 
-.unreadMentionsIndicatorBottom-BXS58x,
-.unreadMentionsIndicatorTop-gA6RCh {
-  width: calc(var(--ASW_size) + 20px); }
-
-.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe,
-.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe {
-  width: var(--ASW_size); }
-
-.wrapper-1Rf91z .scroller-2FKFPG .listItem-2P_4kh mask rect:last-child {
-  width: 0;
-  height: 0; }
-
-.macButtons-2MuSAC {
-  width: calc(var(--ASW_size) + 20px);
-  padding: 0; }
-
-.macButton-c_Adir {
-  display: flex;
-  justify-content: center; }
-
-.platform-osx .wrapper-1Rf91z {
-  margin-top: 15px; }
+.colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
+  content: "Adjustable Server Width v2.0.0";
+  display: block;
+}
