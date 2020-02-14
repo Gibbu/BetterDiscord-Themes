@@ -1,0 +1,16 @@
+#app-mount .sidebar-2K8pFh {
+  width: var(--sidebar-width);
+  border-right: 1px solid var(--border-color);
+  border-radius: 0;
+  .scrollerWrap-2lJEkd {
+    background: var(--background-color);
+
+    .scroller-2FKFPG {
+      overflow: overlay;
+      position: relative;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

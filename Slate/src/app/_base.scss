@@ -1,0 +1,12 @@
+#app-mount {
+  background: var(--background-color);
+  .base-3dtUhz {
+    border-radius: 0;
+    border-left: 1px solid var(--border-color);
+  }
+
+  // Remove box-shadow from chat
+  .content-yTz4x3:before {
+    content: none;
+  }
+}

@@ -1,0 +1,19 @@
+#app-mount .privateChannels-1nO12o {
+  .searchBar-6Kv8R2 {
+    background: var(--toolbar-background);
+    border-bottom: 1px solid var(--border-color);
+    height: calc(var(--toolbar-height) - 1px);
+    box-shadow: none;
+    button {
+      background: var(--background-color);
+      border: 1px solid var(--border-color);
+      padding: calc(var(--spacing) / 2) var(--spacing);
+      height: auto;
+      border-radius: var(--border-radius);
+      font-size: var(--font-size);
+    }
+  }
+  .scroller-1JbKMe {
+    background: var(--background-color);
+  }
+}

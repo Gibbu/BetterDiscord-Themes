@@ -1,0 +1,48 @@
+#app-mount .guilds-1SWlCJ {
+  .scroller-2TZvBN {
+    background: var(--background-color);
+  }
+  // Home button
+  .listItem-2P_4kh:first-child .childWrapper-anI2G9 {
+    background: transparent;
+  }
+  .homeIcon-tEMBK1 {
+    -webkit-mask: url($home) center/cover no-repeat;
+    background: var(--text-default);
+    width: 70%;
+    height: 70%;
+    path {
+      display: none;
+    }
+  }
+  .childWrapper-anI2G9 {
+    background: var(--server-icon);
+  }
+  .circleIconButton-jET_ig {
+    background: var(--server-icon);
+    color: var(--text-default);
+    &.selected-ugP_am {
+      background-color: var(--accent-solid);
+      color: #fff;
+    }
+  }
+  foreignObject {
+    mask: none;
+  }
+  .expandedFolderBackground-2sPsd- {
+    background: var(--server-icon);
+  }
+  .wrapper-25eVIn {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+  .folderIconWrapper-226oVY,
+  .guildIcon-GuAC7C,
+  [class*="pill"] span,
+  .expandedFolderBackground-2sPsd-,
+  .guildIconUnavailable-5PMHDN,
+  .iconBadge-2NuvG9,
+  .guildsError-b7zR5H {
+    border-radius: var(--border-radius);
+  }
+}

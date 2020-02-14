@@ -1,0 +1,107 @@
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd {
+  height: auto;
+  position: relative;
+  .content-3at_AU {
+    margin: 0;
+    padding: 0 var(--spacing);
+    border-radius: 0;
+    svg {
+      color: var(--text-default);
+      opacity: .75;
+    }
+    .icon-1_QxNX {
+      margin-right: var(--spacing);
+      opacity: .75;
+      height: 16px;
+      width: auto;
+    }
+    .name-3_Dsmg {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      color: var(--text-default);
+    }
+  }
+
+  // Connected voices
+  & + .list-2bwCXU {
+    padding-left: 0;
+    .content-3xS9Lh {
+      border-radius: 0;
+      margin: 0;
+    }
+    .voiceUser-14U_Ns {
+      border-radius: 0;
+      .avatarContainer-2inGBK {
+        margin-left: var(--spacing);
+        border-radius: var(--border-radius);
+        &.avatarSpeaking-3MqCHL {
+          box-shadow: none;
+        }
+      }
+      .usernameSpeaking-2xbKKh {
+        display: flex;
+        align-items: center;
+        &:after {
+          content: "";
+          display: block;
+          width: 12px;
+          height: 12px;
+          margin-left: var(--spacing);
+          -webkit-mask: url($speaker) center/cover no-repeat;
+          background: currentColor;
+        }
+      }
+      .icons-3q-_6z {
+        margin-right: var(--spacing);
+      }
+      &.selected-3TGCSZ {
+        background: var(--accent-solid);
+        .username-lm8y6T {
+          color: #fff !important;
+        }
+        .usernameSpeaking-2xbKKh:after {
+          background: #fff;
+        }
+        .content-3xS9Lh {
+          background: transparent;
+        }
+      }
+    }
+  }
+
+
+
+  .unread-3zKkbm {
+    border-radius: 0;
+    width: 2px;
+    height: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    background: var(--accent-solid);
+    transition: 0.2s ease;
+  }
+  &.modeUnread-1zpFdA {
+    .content-3at_AU {
+      svg, .name-3_Dsmg {
+        color: var(--text-focus);
+        opacity: 1;
+      }
+    }
+    &:hover .unread-3zKkbm {
+      height: 100%;
+    }
+  }
+  &.modeMuted-3osy7j .content-3at_AU {
+    svg, .name-3_Dsmg {
+      opacity: .75;
+      color: var(--text-muted);
+    }
+  }
+  &.modeSelected-1zApJ_ .content-3at_AU {
+    svg, .name-3_Dsmg {
+      opacity: 1;
+      color: var(--text-focus);
+    }
+  }
+}
