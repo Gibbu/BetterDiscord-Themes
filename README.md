@@ -40,6 +40,13 @@ Changes Discord enough to give it a fresh feel while also making it darker. Supp
 If you're using Powercord you can download these themes here: [Gibbu/Powercord-Themes](https://github.com/Gibbu/Powercord-Themes)
 
 - - -
+**Slate - [Download](https://betterdiscord.net/ghdl?id=3114)**  
+NOTE: Slate is in very early stages. Expect bugs and broken areas.  
+Github desktop meets Discord  
+
+![Server Chat](https://i.imgur.com/ix41ICB.jpg)
+
+- - -
 
 Approved edited versions of my themes:
 - [SDToxxy by ToxicMethASS (SimplyDark Edit)](https://github.com/ToxicMethASS/SDToxxy)
