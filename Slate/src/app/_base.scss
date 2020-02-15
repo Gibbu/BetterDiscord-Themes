@@ -5,6 +5,17 @@
     border-left: 1px solid var(--border-color);
   }
 
+  // Mention
+  .mention {
+    background: rgba(var(--accent-colour), 0.15);
+    border-radius: var(--border-radius);
+    color: var(--accent-solid);
+    &:hover {
+      background: var(--accent-solid);
+      color: #fff;
+    }
+  }
+
   // Remove box-shadow from chat
   .content-yTz4x3:before {
     content: none;

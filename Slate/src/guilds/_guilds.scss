@@ -7,13 +7,17 @@
     background: transparent;
   }
   .homeIcon-tEMBK1 {
-    -webkit-mask: url($home) center/cover no-repeat;
+    -webkit-mask: url($svg_home) center/cover no-repeat;
     background: var(--text-default);
     width: 70%;
     height: 70%;
     path {
       display: none;
     }
+  }
+  .guildSeparator-3s64Iy {
+    height: 1px;
+    background-color: var(--border-color);
   }
   .childWrapper-anI2G9 {
     background: var(--server-icon);
@@ -42,7 +46,8 @@
   .expandedFolderBackground-2sPsd-,
   .guildIconUnavailable-5PMHDN,
   .iconBadge-2NuvG9,
-  .guildsError-b7zR5H {
+  .guildsError-b7zR5H,
+  .numberBadge-2s8kKX {
     border-radius: var(--border-radius);
   }
 }

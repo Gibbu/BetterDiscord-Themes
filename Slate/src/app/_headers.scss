@@ -63,6 +63,35 @@
     a .iconWrapper-2OrFZ1 {
       margin-right: 0;
     }
+    .divider-3FBTu8 {
+      display: none;
+    }
+  }
+  .topPill-30KHOu {
+    height: var(--toolbar-height);
+    border-left: 1px solid var(--border-color);
+    margin-left: var(--spacing);
+    div {
+      border-radius: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      background: transparent !important;
+      color: var(--text-muted) !important;
+      padding: 0 var(--spacing);
+      &:hover {
+        background: var(--toolbar-hover-background) !important;
+        color: var(--text-default) !important;
+      }
+      &.selected-3s45Ha {
+        color: var(--text-focus) !important;
+        background: var(--accent-solid) !important;
+      }
+      &[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
+        background: var(--discord-green) !important;
+        color: var(--text-focus) !important;
+      }
+    }
   }
   .search-36MZv- {
     position: absolute;

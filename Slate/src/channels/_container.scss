@@ -2,15 +2,21 @@
   width: var(--sidebar-width);
   border-right: 1px solid var(--border-color);
   border-radius: 0;
-  .scrollerWrap-2lJEkd {
+  .container-PNkimc {
     background: var(--background-color);
-
-    .scroller-2FKFPG {
-      overflow: overlay;
-      position: relative;
-      &::-webkit-scrollbar {
-        display: none;
-      }
-    }
+  }
+  .hasBanner-14PPlG ~ .scrollerWrap-2lJEkd div[style*="width: 100%;"] {
+    height: 135px !important;
+  }
+  .animatedContainer-1pJv5C {
+    top: 50px;
+    box-shadow: none;
+  }
+  .bannerImage-1jOskm {
+    width: var(--sidebar-width);
+    top: 0;
+  }
+  .scroller-2FKFPG::-webkit-scrollbar {
+    display: none;
   }
 }

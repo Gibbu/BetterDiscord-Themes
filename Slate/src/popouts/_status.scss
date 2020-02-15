@@ -1,0 +1,32 @@
+#app-mount [id*="popout_"][style*="bottom"][style*="left"] .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+  transform: none !important;
+  transition: none !important;
+  .menu-Sp6bN1 {
+    background: var(--background-color);
+    width: var(--sidebar-width);
+    box-shadow: none;
+    margin-left: -10px;
+    margin-bottom: -5px;
+    padding: 0;
+    border-radius: 0;
+    border-top: 1px solid var(--border-color);
+    .statusItem-2uzPIV, .item-1GzJrl {
+      margin: 0;
+      padding: var(--spacing);
+      border-radius: 0;
+      &.itemActive-2V2HNc {
+        background: var(--accent-solid);
+        color: #fff;
+      }
+      .customStatusContentIcon-2sionu {
+        margin-left: 0;
+      }
+      .statusIconText-3b4TkH {
+        height: auto;
+      }
+    }
+  }
+  .separator-2zcjq8 {
+    display: none;
+  }
+}

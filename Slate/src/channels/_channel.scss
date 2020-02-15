@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0 var(--spacing);
     border-radius: 0;
+    height: 34px;
     svg {
       color: var(--text-default);
       opacity: .75;
@@ -16,7 +17,7 @@
       width: auto;
     }
     .name-3_Dsmg {
-      font-size: var(--font-size);
+      font-size: var(--font-size-lg);
       font-weight: var(--font-weight-normal);
       color: var(--text-default);
     }
@@ -28,9 +29,12 @@
     .content-3xS9Lh {
       border-radius: 0;
       margin: 0;
+      height: 100%;
+      padding-left: calc(var(--spacing) * 2.5);
     }
     .voiceUser-14U_Ns {
       border-radius: 0;
+      height: 36px;
       .avatarContainer-2inGBK {
         margin-left: var(--spacing);
         border-radius: var(--border-radius);
@@ -44,10 +48,10 @@
         &:after {
           content: "";
           display: block;
-          width: 12px;
-          height: 12px;
+          width: 14px;
+          height: 14px;
           margin-left: var(--spacing);
-          -webkit-mask: url($speaker) center/cover no-repeat;
+          -webkit-mask: url($svg_speaker) center/cover no-repeat;
           background: currentColor;
         }
       }
@@ -55,15 +59,11 @@
         margin-right: var(--spacing);
       }
       &.selected-3TGCSZ {
-        background: var(--accent-solid);
         .username-lm8y6T {
           color: #fff !important;
         }
         .usernameSpeaking-2xbKKh:after {
           background: #fff;
-        }
-        .content-3xS9Lh {
-          background: transparent;
         }
       }
     }

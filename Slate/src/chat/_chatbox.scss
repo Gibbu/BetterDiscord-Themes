@@ -5,16 +5,16 @@
   min-height: 53px;
   display: flex;
   align-items: center;
-  background: var(--chat-background);
+  background: var(--main-background);
   &:before {
     content: none;
   }
   .attachWrapper-2TRKBi {
     border-color: var(--border-color);
     button {
-      -webkit-mask: url($upload) center/12px no-repeat;
+      -webkit-mask: url($svg_upload) center/20px no-repeat;
       background: var(--text-muted);
-      width: 32px;
+      width: 44px;
       height: 44px;
       div {
         display: none;
@@ -44,10 +44,28 @@
     font-size: var(--font-size);
   }
   .buttons-3JBrkn {
-    height: 40px;
+    height: 44px;
     button {
       transform: scale(0.75);
       transform-origin: center right;
+    }
+  }
+
+  .charCounter-7fw40k.charcounter {
+    font-size: var(--font-size-sm);
+  }
+
+  .typing-2GQL18 {
+    opacity: .5;
+    bottom: unset;
+    left: var(--spacing);
+    top: -6px;
+    svg {
+      display: none;
+    }
+    .text-1y-e8- {
+      font-size: var(--font-size-sm);
+      margin-left: 0;
     }
   }
 

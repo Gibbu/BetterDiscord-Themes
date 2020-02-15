@@ -1,6 +1,9 @@
+#app-mount .chat-3bRxxu {
+  background: var(--main-background);
+}
 #app-mount .messages-3amgkR {
-  overflow: overlay;
-  background: var(--chat-background);
+  background: var(--main-background);
+  overflow: hidden;
   &::-webkit-scrollbar {
     width: 12px;
     display: none;
@@ -19,10 +22,13 @@
     background-clip: padding-box;
     background-color: var(--channel-scrollbar);
   }
-  &:hover::-webkit-scrollbar {
-    display: block;
+  &:hover {
+    overflow: overlay;
+    &::-webkit-scrollbar {
+      display: block;
+    }
   }
   &:after {
-    height: var(--spacing);
+    content: none;
   }
 }

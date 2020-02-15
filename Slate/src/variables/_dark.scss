@@ -13,13 +13,22 @@
 
   // Account Container
   --account-panel-background-color: #2f363d;
-  --account-button-hover-color: #4a5561;
+  --account-button-hover-color: #{lighten(#2f363d, 1%)};
 
-  // Chat
-  --chat-background: #2a3036;
+  // Chat/Friends/DM
+  --main-background: #2a3036;
+  --main-background-hover: #{lighten(#2a3036, 2%)};
 
   // Servers
   --server-icon: var(--toolbar-background);
+
+  // Friends list
+  --now-playing-background: var(--main-background);
+
+  // Userpopouts
+  --userpopout-header: var(--toolbar-background);
+  --userpopout-body: var(--background-color);
+  --userpopout-textbox: var(--toolbar-background);
 
   // Font weights
   --font-weight-ultralight: 300;

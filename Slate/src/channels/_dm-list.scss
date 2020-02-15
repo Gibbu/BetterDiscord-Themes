@@ -13,7 +13,33 @@
       font-size: var(--font-size);
     }
   }
+  .header-zu8eWb {
+    padding: var(--spacing);
+    height: auto;
+  }
   .scroller-1JbKMe {
     background: var(--background-color);
+    & > div[style*="height: 8px"] {
+      display: none;
+    }
+    .channel-2QD9_O {
+      margin: 0;
+      max-width: 100%;
+      padding: 0;
+      .layout-2DM8Md {
+        border-radius: 0;
+        padding: 0 var(--spacing);
+      }
+      .name-uJV0GL {
+        font-size: var(--font-size-lg);
+      }
+      .activityText-OW8WYb {
+        font-size: var(--font-size-sm);
+      }
+      .wrapper-3t9DeA {
+        width: 26px !important;
+        height: 26px !important;
+      }
+    }
   }
 }
