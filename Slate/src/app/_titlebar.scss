@@ -1,0 +1,28 @@
+#app-mount .titleBar-AC4pGV {
+  height: calc(var(--titlebar-height) - 2px);
+  border-bottom: 1px solid var(--border-color);
+  margin-top: 2px;
+  background: var(--background-color);
+  position: relative;
+  .wordmarkWindows-1v0lYD {
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--titlebar-height);
+    margin-top: -3px;
+    svg {
+      display: none;
+    }
+    &:before {
+      content: 'Discord';
+      font-size: var(--font-size);
+      color: var(--text-default);
+    }
+  }
+  .winButton-iRh8-Z {
+    height: var(--titlebar-height);
+    width: calc(var(--titlebar-height) * 1.5);
+    top: -2px;
+  }
+}

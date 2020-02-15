@@ -1,0 +1,31 @@
+/**
+ * @name Slate
+ * @author Gibbu#1211 & Tropical#8908
+ * @version 1.0.0
+ * @description Github Desktop meets Discord
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
+ * @website https://www.gibbu.me
+*/
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
+
+:root {
+
+  --accent-colour: 3, 102, 214;
+
+  /* Guild variables  */
+  --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
+  --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
+  --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
+
+}
+
+@import 'variables/import';
+@import 'assets/import';
+@import 'app/import';
+@import 'channels/import';
+@import 'guilds/guilds';
+@import 'chat/import';
+@import 'members/import';
+@import 'pages/import';
+@import 'popouts/import';

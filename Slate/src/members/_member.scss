@@ -1,0 +1,32 @@
+#app-mount .members-1998pB .member-3-YXUe {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  .layout-2DM8Md {
+    border-radius: 0;
+    height: 44px;
+    .avatar-3uk_u9 {
+      margin-right: var(--spacing);
+    }
+    .name-uJV0GL {
+      font-size: var(--font-size-lg);
+      font-weight: var(--font-weight-normal);
+      color: var(--text-default);
+    }
+    .wrapper-3t9DeA {
+      width: 26px !important;
+      height: 26px !important;
+    }
+    .activity-2Gy-9S {
+      font-size: var(--font-size-sm);
+      font-weight: var(--font-weight-bold);
+      color: var(--text-muted);
+    }
+  }
+  &.selected-aXhQR6 {
+    .activity-2Gy-9S,
+    .roleColor-rz2vM0 {
+      color: #fff !important;
+    }
+  }
+}

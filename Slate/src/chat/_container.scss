@@ -1,0 +1,34 @@
+#app-mount .chat-3bRxxu {
+  background: var(--main-background);
+}
+#app-mount .messages-3amgkR {
+  background: var(--main-background);
+  overflow: hidden;
+  &::-webkit-scrollbar {
+    width: 12px;
+    display: none;
+    background: transparent;
+    border-left: 1px solid var(--border-color);
+  }
+  &::-webkit-scrollbar-track-piece {
+    background: transparent;
+    border-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-style: solid;
+    border-color: transparent;
+    border-left-width: 4px;
+    border-right-width: 3px;
+    background-clip: padding-box;
+    background-color: var(--channel-scrollbar);
+  }
+  &:hover {
+    overflow: overlay;
+    &::-webkit-scrollbar {
+      display: block;
+    }
+  }
+  &:after {
+    content: none;
+  }
+}
