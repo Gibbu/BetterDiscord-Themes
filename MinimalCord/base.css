@@ -598,6 +598,9 @@
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .contents-2mQqc9 {
   margin-left: 0;
 }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .container-1ov-mD {
+  padding-left: 70px;
+}
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .wrapper-2aW0bm {
   background: var(--foreground-1);
   box-shadow: var(--box-shadow);
