@@ -595,6 +595,9 @@
   margin: 0 8px 0 16px;
   padding: 0 20px 0 9px;
 }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .contents-2mQqc9 {
+  margin-left: 0;
+}
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .wrapper-2aW0bm {
   background: var(--foreground-1);
   box-shadow: var(--box-shadow);
@@ -1172,7 +1175,8 @@
 #app-mount .searchBar-3dMhjb {
   background: var(--background-2);
 }
-#app-mount .searchBar-3dMhjb .searchFilter-2ESiM3, #app-mount .searchBar-3dMhjb .searchAnswer-3Dz2-q {
+#app-mount .searchBar-3dMhjb .searchAnswer-3Dz2-q,
+#app-mount .searchBar-3dMhjb .searchFilter-2ESiM3 {
   background-color: var(--foreground-1);
   color: var(--text-1);
 }
@@ -1180,10 +1184,13 @@
   background-color: var(--dropdown);
   box-shadow: var(--box-shadow);
 }
-#app-mount .container-3ayLPN .filter-3Y_im-, #app-mount .container-3ayLPN .displayedNick-3xxvzU, #app-mount .container-3ayLPN .header-2N-gMV {
+#app-mount .container-3ayLPN .displayedNick-3xxvzU,
+#app-mount .container-3ayLPN .filter-3Y_im-,
+#app-mount .container-3ayLPN .header-2N-gMV {
   color: var(--text-1);
 }
-#app-mount .container-3ayLPN .answer-1n6g43, #app-mount .container-3ayLPN .displayUsername-Qekxml {
+#app-mount .container-3ayLPN .answer-1n6g43,
+#app-mount .container-3ayLPN .displayUsername-Qekxml {
   color: var(--text-3);
 }
 #app-mount .container-3ayLPN .option-96V44q.selected-rZcOL- {
@@ -1231,11 +1238,13 @@
   background: var(--search-result-header);
   box-shadow: var(--box-shadow);
 }
-#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .tab-2Ixsn0, #app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .totalResults-gxvzgw {
+#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .tab-2Ixsn0,
+#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .totalResults-gxvzgw {
   opacity: 1;
   color: var(--text-3);
 }
-#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P, #app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .totalResults-gxvzgw.selected-16te-P {
+#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .tab-2Ixsn0.selected-16te-P,
+#app-mount .searchResultsWrap-2DKFzt .searchHeader-1l-wpR .totalResults-gxvzgw.selected-16te-P {
   color: var(--text-1);
 }
 #app-mount .searchResultsWrap-2DKFzt .channelName-1QajIf {
@@ -1244,7 +1253,7 @@
 #app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB {
   overflow: visible;
 }
-#app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB:before, #app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB:after {
+#app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB:after, #app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB:before {
   content: none;
 }
 #app-mount .searchResultsWrap-2DKFzt .searchResultMessage-2VxO12.hit-NLlWXA {
@@ -1303,11 +1312,12 @@
   background: var(--user-popout);
 }
 #app-mount .userPopout-3XzG_A .header-2BwW8b .headerName-fajvi9,
-#app-mount .userPopout-3XzG_A .header-2BwW8b .headerTagUsernameNoNickname-2_H881,
-#app-mount .userPopout-3XzG_A .header-2BwW8b .headerTag-2pZJzA {
+#app-mount .userPopout-3XzG_A .header-2BwW8b .headerTag-2pZJzA,
+#app-mount .userPopout-3XzG_A .header-2BwW8b .headerTagUsernameNoNickname-2_H881 {
   color: var(--text-1);
 }
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV, #app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN,
+#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
   background: transparent;
 }
 #app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT {
@@ -1382,7 +1392,7 @@
 #app-mount .userPopout-3XzG_A .footer-1fjuF6 .quickMessage-1yeL4E {
   background: var(--user-popout-message);
   border: none;
-  margin: 0 10px 10px 10px;
+  margin: 0 10px 10px;
   box-sizing: border-box;
   width: calc(100% - 20px);
 }
@@ -1419,7 +1429,8 @@
 #app-mount .autocomplete-1vrmpx .container-cMG81i {
   background-color: var(--background-1);
 }
-#app-mount .autocomplete-1vrmpx .focused-1En8bG:after, #app-mount .autocomplete-1vrmpx .result-3w1ZcL:hover:after {
+#app-mount .autocomplete-1vrmpx .focused-1En8bG:after,
+#app-mount .autocomplete-1vrmpx .result-3w1ZcL:hover:after {
   box-shadow: inset 0 0 0 2px rgba(var(--accent), 1);
 }
 #app-mount .autocomplete-1vrmpx .categoryFadeBlurple-1j72_A {
@@ -1852,7 +1863,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   padding: 0;
 }
 #app-mount .quickswitcher-3JagVE .input-2VB9rf {
-  margin: 20px 20px 0 20px;
+  margin: 20px 20px 0;
   box-sizing: border-box;
   padding: 0 20px;
   background: var(--modal-bg1-search);
