@@ -595,6 +595,13 @@
   margin: 0 8px 0 16px;
   padding: 0 20px 0 9px;
 }
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .contents-2mQqc9,
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .container-1ov-mD {
+  padding-left: 70px;
+}
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .contents-2mQqc9 .avatar-1BDn8e {
+  top: unset;
+}
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y .wrapper-2aW0bm {
   background: var(--foreground-1);
   box-shadow: var(--box-shadow);
