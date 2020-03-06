@@ -20,7 +20,7 @@ Make the server list smaller or larger
 
 - - -
 
-**HorizontalServerlist - [Download](https://betterdiscord.net/ghdl?id=2747)**  
+**HorizontalServerlist - [Download](https://betterdiscord.net/ghdl?id=3081)**  
 Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes.
 
 ![HorizontalServerlist](https://i.imgur.com/ygGh3hy.jpg)
