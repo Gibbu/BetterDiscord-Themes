@@ -2,6 +2,7 @@
  * @name Slate
  * @author Gibbu#1211 & Tropical#8908
  * @version 1.0.0
+ * @invite TeRQEPb
  * @description Github Desktop meets Discord
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
  * @website https://www.gibbu.me
@@ -12,9 +13,10 @@
 
 :root {
 
-  --accent-colour: 3, 102, 214;
+  --accent: 3, 102, 214; /* This affects: Mentions, select channel/dm, unread channel */
+  --accent-hover: 17, 83, 157; /* Hover state of --accent */
 
-  /* Guild variables  */
+  /* Adjustable Server Width variables  */
   --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
   --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
   --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
