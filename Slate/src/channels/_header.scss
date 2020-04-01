@@ -1,10 +1,12 @@
 #app-mount .sidebar-2K8pFh {
+
+  // Server dropdown selected
   .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
-    background: var(--background-color);
+    background: var(--background-colour);
   }
   .header-2o-2hj {
     box-shadow: none;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-colour);
     background-color: var(--toolbar-background);
     height: var(--toolbar-height);
     padding: var(--spacing);
@@ -25,6 +27,8 @@
         color: var(--text-muted);
       }
     }
+
+    // Chevron
     .button-1w5pas {
       transform-origin: center;
       transition: none;

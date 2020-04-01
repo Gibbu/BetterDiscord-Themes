@@ -1,0 +1,36 @@
+#app-mount {
+  // Test boxes
+  .container-1nZlH6 {
+    background: var(--background-secondary);
+    border-color: transparent;
+  }
+
+  // Checkboxes
+  .themeDefault-24hCdX {
+    background: rgba(255,255,255,0.15);
+  }
+  #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+    background: rgba(255,255,255,0.15) !important;
+    transition: 0.1s ease;
+    &.checked {
+      background: var(--set-gradient-solid) !important;
+    }
+  }
+
+  // Select
+  .css-15ejc46-control,
+  .css-2yldzf-control,
+  .css-1yegjoj-control,
+  .css-1wqqa50-container,
+  .css-13kbzi0-control {
+    background: var(--background-secondary);
+    border: none;
+    box-shadow: none;
+  }
+
+  .css-181m2lf-menu,
+  .css-1rckt42-menu {
+    background: var(--set-tint);
+    box-shadow: var(--set-popout-brightness);
+  }
+}

@@ -1,9 +1,20 @@
-#app-mount .sidebar-2K8pFh .unread-1s3J68 {
-  padding: 0;
-  height: auto;
+#app-mount .sidebar-2K8pFh {
+
+  // Unread messages above
+  .unreadTop-73gZ2_ .bar-30k2ka {
+    border-bottom: 1px solid var(--border-colour);
+  }
+
+  // Unread messages below
+  .unreadBottom-3hWQ7c .bar-30k2ka {
+    border-top: 1px solid var(--border-colour);
+  }
+  .unread-1s3J68 {
+    padding: 0;
+    height: auto;
+  }
   .bar-30k2ka {
     border-radius: 0;
-    border-bottom: 1px solid var(--border-color);
     background: var(--accent-solid);
     opacity: 1;
     height: auto;

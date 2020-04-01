@@ -15,7 +15,7 @@
       width: 12px;
       display: none;
       background: transparent;
-      border-left: 1px solid var(--border-color);
+      border-left: 1px solid var(--border-colour);
     }
     &::-webkit-scrollbar-track-piece {
       background: transparent;
@@ -39,11 +39,11 @@
   .title-30qZAO {
     margin: 0;
     padding: var(--spacing);
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-colour);
   }
   .peopleListItem-2nzedh {
     border-top: none;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-colour);
     margin: 0;
     padding: var(--spacing);
     border-radius: 0;
@@ -68,8 +68,8 @@
       font-size: var(--font-size);
     }
     .actionButton-uPB8Fs {
-      background: var(--background-color);
-      border: 1px solid var(--border-color);
+      background: var(--background-colour);
+      border: 1px solid var(--border-colour);
       border-radius: var(--border-radius);
       color: var(--text-focus);
     }
@@ -78,7 +78,7 @@
     }
   }
   .sectionHeader-20RGqu {
-    border-bottom-color: var(--border-color);
+    border-bottom-color: var(--border-colour);
     .addInputWrapper-1BOZ3d {
       padding: var(--spacing);
       h2 {
@@ -90,9 +90,9 @@
         display: none;
       }
       .wrapper-1cBijl {
-        border-color: var(--border-color);
+        border-color: var(--border-colour);
         border-radius: var(--border-radius);
-        background-color: var(--background-color);
+        background-color: var(--background-colour);
         margin: var(--spacing) 0 0 0;
         padding: 0;
         height: 46px;
@@ -102,7 +102,7 @@
           padding-left: var(--spacing);
           height: 100%;
           margin-right: 0;
-          border-right: 1px solid var(--border-color);
+          border-right: 1px solid var(--border-colour);
         }
         .addFriendHint-3Y70FX {
           height: 100%;
@@ -124,18 +124,18 @@
   }
 
   .nowPlayingColumn-2sl4cE {
-    border-left: 1px solid var(--border-color);
-    background: var(--background-color);
+    border-left: 1px solid var(--border-colour);
+    background: var(--background-colour);
   }
   .wrapper-3D2qGf {
     background: var(--now-playing-background);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-colour);
     .separator-XqIyoz {
-      background-color: var(--border-color);
+      background-color: var(--border-colour);
     }
     .inset-3sAvek {
-      background-color: var(--background-color);
-      border: 1px solid var(--border-color);
+      background-color: var(--background-colour);
+      border: 1px solid var(--border-colour);
     }
   }
 }

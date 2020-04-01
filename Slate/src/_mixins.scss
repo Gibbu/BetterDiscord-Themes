@@ -1,0 +1,27 @@
+@mixin smallBtn($colour: var(--text-default)) {
+  font-size: var(--font-size);
+  padding: 0 var(--spacing);
+  height: 25px;
+  min-height: 25px;
+  min-width: auto;
+  text-decoration: none;
+  font-weight: var(--font-weight-light);
+  border: 1px solid var(--border-colour);
+  background-color: var(--settings-button);
+  border-radius: var(--border-radius);
+  transition: none;
+  @if $colour == var(--text-default) {
+    color: var(--text-default);
+  } @else {
+    color: $colour;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+  &:hover {
+    background: var(--settings-button-hover);
+    @if $colour == var(--text-default) {
+      color: var(--text-focus);
+    }
+  }
+}

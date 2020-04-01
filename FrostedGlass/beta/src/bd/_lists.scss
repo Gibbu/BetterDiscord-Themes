@@ -1,0 +1,43 @@
+#app-mount {
+  .bda-slist li {
+    background: var(--background-secondary);
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: unset;
+    margin-top: 0;
+    margin-bottom: 10px;
+    .bda-header {
+      padding-bottom: 10px;
+      border-bottom-color: var(--background-modifier-accent);
+    }
+    .bda-description {
+      margin: 0;
+      padding: 10px 0;
+      box-sizing: border-box;
+    }
+    .bda-footer {
+      padding: 10px 0 5px;
+    }
+    .bda-links {
+      font-size: 0;
+    }
+    .bda-link {
+      font-size: 12px;
+      background: var(--background-secondary);
+      border-radius: 20px;
+      padding: 2px 8px;
+      box-sizing: border-box;
+      margin-right: 5px;
+      color: rgba(var(--gradient-one), 1);
+      text-decoration: none;
+      &:hover {
+        background: var(--set-gradient-solid);
+        color: #fff;
+      }
+    }
+  }
+  .bda-settings-button {
+    background: var(--set-gradient-solid);
+  }
+}

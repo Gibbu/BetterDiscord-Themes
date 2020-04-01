@@ -59,6 +59,9 @@
       color: var(--text-1);
     }
   }
+  .customStatus-1bh2V9 {
+    color: var(--text-1);
+  }
   .bodyTitle-Y0qMQz {
     color: var(--text-1);
   }
@@ -96,6 +99,23 @@
     }
     .protip-YaFfgO {
       display: none;
+    }
+  }
+}
+
+.theme-light .userPopout-3XzG_A {
+  [mask*="url(#svg-mask-status-online)"] {
+    fill: var(--text-1) !important;
+  }
+  [mask*="url(#svg-mask-status-dnd)"] {
+    fill: var(--red);
+  }
+  .headerPlaying-j0WQBV, .headerSpotify-zpWxgT {
+    .profileBadgeHypeSquadOnlineHouse2-3jBpXR,
+    .profileBadgePremium-3kZ9Qj,
+    .profileBadgeEarlySupporter-PQB_0a,
+    [class*="BadgeHype"] {
+      filter: invert(1);
     }
   }
 }

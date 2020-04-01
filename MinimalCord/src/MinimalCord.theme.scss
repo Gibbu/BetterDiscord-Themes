@@ -19,6 +19,8 @@
     --accent: 0, 105, 255; /* DEFAULT: 22, 188, 249 */
     --search-results-width: 25vw; /* Width of server results. For a fixed width use px. | DEFAULT: 25vw */
     --emoji-picker-height: 260px; /* Height of Emoji picker | DEFAULT: 260px */
+    --chat-message-padding: 20px; /* Spacing around messages | DEFAULT: 20px */
+    --chat-message-spacing: 20px; /* Spacing between message | DEFAULT: 20px */
 
     /*
         To use a custom font. Visit https://fonts.google.com and select one to your liking.
@@ -38,7 +40,6 @@
 // General
 @import 'general/serverlist';
 @import 'general/channels';
-@import 'general/chat';
 @import 'general/settings';
 @import 'general/memberslist';
 
@@ -72,3 +73,7 @@
 @import 'modals/quicktravel';
 @import 'modals/customstatus';
 @import 'modals/delete';
+
+
+@import 'chat/import';
+@import 'bd/import';

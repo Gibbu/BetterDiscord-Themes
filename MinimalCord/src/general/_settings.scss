@@ -330,35 +330,6 @@
       }
     }
   }
-  // BetterDiscord
-  .ui-switch-item .style-description {
-    border-bottom-color: var(--settings-separator);
-  }
-  .settings-open {
-    padding: 10px !important;
-    box-sizing: border-box;
-  }
-  .bda-slist li {
-    background-color: var(--settings-box);
-    box-shadow: var(--box-shadow);
-    border: none;
-    padding: 0;
-    .bda-header {
-      padding: 10px 10px 0;
-      box-sizing: border-box;
-      border: none;
-    }
-    .bda-description-wrap {
-      padding: 10px;
-      box-sizing: border-box;
-    }
-    .bda-footer {
-      padding: 10px;
-      box-sizing: border-box;
-      border: none;
-      background: var(--settings-box-footer);
-    }
-  }
 }
 // Light theme warning
 .theme-light #user-settings > div:nth-child(3) > div > div:nth-child(2) > div > div > div > main > div > div > div:nth-child(2) > div > div:nth-child(2) > label > div.label-cywgfr.labelClickable-11AuB8.labelForward-1wfipV > div:after {

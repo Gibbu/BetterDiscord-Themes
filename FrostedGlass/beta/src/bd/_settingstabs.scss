@@ -1,0 +1,11 @@
+#app-mount #bd-settings-sidebar {
+  .ui-tab-bar-item {
+    margin-top: 2px;
+    &:hover {
+      background: var(--background-modifier-hover);
+    }
+    &.selected {
+      background: var(--background-modifier-selected);
+    }
+  }
+}

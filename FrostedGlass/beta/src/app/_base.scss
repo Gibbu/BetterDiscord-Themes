@@ -1,0 +1,35 @@
+#app-mount {
+  .baseLayer-35bLyl {
+    padding: var(--window-padding);
+    box-sizing: border-box;
+    top: 0;
+    margin-top: 0;
+  }
+  .container-2lgZY8 {
+    backdrop-filter: blur(var(--background-blur));
+    border-radius: var(--window-roundness);
+    overflow: hidden;
+  }
+  .base-3dtUhz:after {
+    content: "";
+    height: 5px;
+    background: linear-gradient(rgba(0,0,0,0.2), transparent);
+    position: absolute;
+    top: 48px;
+    left: 0;
+    display: block;
+    pointer-events: none;
+    width: 100%;
+    z-index: 10;
+  }
+  .anchor-3Z-8Bb {
+    color: rgba(var(--gradient-one), 1);
+  }
+}
+::selection {
+  background: rgba(var(--gradient-two), 1) !important;
+  color: #fff !important;
+}
+html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
+  backface-visibility: hidden;
+}

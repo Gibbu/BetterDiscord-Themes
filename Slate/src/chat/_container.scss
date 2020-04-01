@@ -1,14 +1,50 @@
 #app-mount .chat-3bRxxu {
   background: var(--main-background);
+
+  // Old messages
+  .jumpToPresentBar-9P20AM {
+    opacity: 1;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    padding: 0;
+    min-height: auto;
+    border-top: 1px solid var(--border-colour);
+    background: var(--account-panel-background-colour);
+    button {
+      padding: var(--spacing-half) var(--spacing);
+      height: auto;
+    }
+  }
+
+  // New messages
+  .newMessagesBar-mujexs {
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    background: var(--accent-solid);
+    border-bottom: 1px solid var(--border-colour);
+    box-shadow: none;
+    opacity: 1;
+  }
+
+  // Load more messages
+  .hasMore-3e72_v {
+    margin: 0;
+    box-shadow: none;
+    background: var(--background-colour);
+    border-top: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--border-colour);
+    border-radius: 0;
+  }
 }
 #app-mount .messages-3amgkR {
   background: var(--main-background);
-  overflow: hidden;
   &::-webkit-scrollbar {
     width: 12px;
     display: none;
     background: transparent;
-    border-left: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-colour);
   }
   &::-webkit-scrollbar-track-piece {
     background: transparent;

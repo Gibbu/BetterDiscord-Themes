@@ -1,0 +1,64 @@
+/**
+ * @name Frosted Glass
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Discord Dark theme is required via the Appearance tab.
+ * @source https://github.com/gibbubdstuff/frostedglass
+ * @website https://gibbu.me/
+*/
+
+@import url("https://gibbubdstuff.github.io/FrostedGlass/base.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+
+  /* Blur variables */
+  --background-blur: 5px; /* MUST END IN px (0px) | DEFAULT: 5px */
+  --popout-blur: 10px; /* MUST END IN px (0px) | DEFAULT: 5px */
+  --modal-blur: 5px;  /* MUST END IN px (0px) | DEFAULT: 5px */
+
+  /* Brightness variables */
+  --modal-brightness: 0.4; /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --serverlist-brightness: 0.8; /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.8; /* 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --right-brightness: 0.6; /* 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --popout-brightness: 0.5; /* 0 - 1 (decimals allowed) | DEFAULT: 0.4 */
+
+  /*
+    Gradient variables
+    Use this website: https://htmlcolorcodes.com/color-picker/
+    to get your desired RGB numbers. Then simply put each number in their respective area.
+    R,G,B
+  */
+  --gradient-one: 103,58,183; /* DEFAULT: 103,58,183 */
+  --gradient-two: 63,81,181; /* DEFAULT: 63,81,181 */
+  --gradient-direction: -45deg; /* DEFAULT: -45deg */
+
+  /* Tint variables */
+  --tint-colour: 255, 51, 159; /* Colour of tint. Follow Gradient Variables instructions to get your desired colour | DEFAULT: 255, 51, 159 */
+  --tint-brightness: 0; /* Intensity of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+  /* Other variables */
+  --window-padding: 20px; /* Space between Discord window and Discord itself | DEFAULT: 20px */
+  --window-roundness: 10px; /* Edges of Discord | DEFAULT: 10px */
+
+  /*
+    To use a custom font. Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --font: 'Whitney'; /* Font of Discord | DEFAULT: Whitney */
+
+}
+
+/* Background image */
+#app-mount {
+  background: url('https://i.imgur.com/kYW2H5C.jpg') center/cover fixed;
+}
+
+/* User modal background image */
+#app-mount .root-SR8cQa:before {
+  background: url('https://i.imgur.com/kYW2H5C.jpg') center/cover fixed;
+}

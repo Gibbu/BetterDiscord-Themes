@@ -1,27 +1,32 @@
 #app-mount .privateChannels-1nO12o {
+  // Find or start a coversation
   .searchBar-6Kv8R2 {
     background: var(--toolbar-background);
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-colour);
     height: calc(var(--toolbar-height) - 1px);
     box-shadow: none;
     button {
-      background: var(--background-color);
-      border: 1px solid var(--border-color);
+      background: var(--background-colour);
+      border: 1px solid var(--border-colour);
       padding: calc(var(--spacing) / 2) var(--spacing);
       height: auto;
       border-radius: var(--border-radius);
       font-size: var(--font-size);
     }
   }
+
+  // Direct messages header
   .header-zu8eWb {
     padding: var(--spacing);
     height: auto;
   }
   .scroller-1JbKMe {
-    background: var(--background-color);
+    background: var(--background-colour);
     & > div[style*="height: 8px"] {
       display: none;
     }
+
+    // Dm
     .channel-2QD9_O {
       margin: 0;
       max-width: 100%;
@@ -39,6 +44,26 @@
       .wrapper-3t9DeA {
         width: 26px !important;
         height: 26px !important;
+        &:before {
+          right: -190px;
+        }
+        &:after {
+          right: -190px;
+        }
+      }
+      &:hover .wrapper-3t9DeA:before {
+        background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
+      }
+      &:active .wrapper-3t9DeA:before {
+        background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
+      }
+      &.selected-aXhQR6 .wrapper-3t9DeA {
+        &:before {
+          background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
+        }
+        &:after {
+          background: #fff;
+        }
       }
     }
   }

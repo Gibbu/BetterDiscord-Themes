@@ -1,15 +1,17 @@
 #app-mount .container-1r6BKw {
   background: var(--toolbar-background);
   height: var(--toolbar-height);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-colour);
   padding-left: 0;
   position: relative;
+
+  // Current Channel
   .children-19S4PO {
     flex: none;
     height: var(--toolbar-height);
     min-width: 230px;
     padding: var(--spacing);
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-colour);
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing) 0 0;
       .icon-22AiRD {
@@ -25,7 +27,7 @@
       align-items: flex-start;
       &:before {
         content: "Current Channel";
-        margin-bottom: -5px;
+        margin-bottom: -2px;
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-light);
         line-height: normal;
@@ -53,10 +55,12 @@
       background: var(--toolbar-hover-background);
     }
   }
+
+  // Icons
   .toolbar-1t6TWx {
     height: var(--toolbar-height);
     padding: 0 var(--spacing);
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-colour);
     .iconWrapper-2OrFZ1 {
       margin: 0 calc(var(--spacing) * 2) 0 0;
     }
@@ -67,9 +71,11 @@
       display: none;
     }
   }
+
+  // Header buttons in friends/library tab
   .topPill-30KHOu {
     height: var(--toolbar-height);
-    border-left: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-colour);
     margin-left: var(--spacing);
     div {
       border-radius: 0;
@@ -93,15 +99,21 @@
       }
     }
   }
+
+  // Search bar
   .search-36MZv- {
     position: absolute;
     right: var(--spacing);
     .searchBar-3dMhjb {
-      background: var(--background-color);
-      border: 1px solid var(--border-color);
-      padding: 0 var(--spacing-sm);
+      background: var(--background-colour);
+      border: 1px solid var(--border-colour);
+      padding: 0 var(--spacing-half);
       height: 27px;
       border-radius: var(--border-radius);
+    }
+    .searchAnswer-3Dz2-q,
+    .searchFilter-2ESiM3 {
+      background: var(--search-tag);
     }
   }
 }

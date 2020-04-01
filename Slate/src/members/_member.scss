@@ -5,25 +5,66 @@
   .layout-2DM8Md {
     border-radius: 0;
     height: 44px;
-    .avatar-3uk_u9 {
-      margin-right: var(--spacing);
-    }
-    .name-uJV0GL {
-      font-size: var(--font-size-lg);
-      font-weight: var(--font-weight-normal);
-      color: var(--text-default);
-    }
-    .wrapper-3t9DeA {
-      width: 26px !important;
-      height: 26px !important;
-    }
-    .activity-2Gy-9S {
-      font-size: var(--font-size-sm);
-      font-weight: var(--font-weight-bold);
-      color: var(--text-muted);
+    padding: 0 calc(var(--spacing) + 5px);
+  }
+  .avatar-3uk_u9 {
+    margin-right: var(--spacing);
+    width: var(--avatar-size-small) !important;
+    height: var(--avatar-size-small) !important;
+  }
+  .name-uJV0GL {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-normal);
+    color: var(--text-default);
+    line-height: normal;
+  }
+  .wrapper-3t9DeA {
+    width: var(--avatar-size-small) !important;
+    height: var(--avatar-size-small) !important;
+  }
+  .activity-2Gy-9S {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-muted);
+  }
+  .botTag-3W9SuW:not(.tag-wWVHyf) {
+    font-size: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-color: var(--background-modifier-active);
+    border: 1px solid var(--border-colour);
+    border-radius: var(--border-radius);
+    order: -1;
+    margin-left: 0;
+    margin-right: var(--spacing-half);
+    &:before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -webkit-mask: url($icon_cog) center/12px no-repeat;
+      background: var(--text-default);
     }
   }
+  &:hover .wrapper-3t9DeA:before {
+    background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
+  }
+  &:active .wrapper-3t9DeA:before {
+    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
+  }
   &.selected-aXhQR6 {
+    .wrapper-3t9DeA {
+      &:before {
+        background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
+      }
+      &:after {
+        background-color: #fff;
+      }
+    }
     .activity-2Gy-9S,
     .roleColor-rz2vM0 {
       color: #fff !important;

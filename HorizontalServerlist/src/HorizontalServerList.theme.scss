@@ -1,0 +1,183 @@
+/**
+ * @name Horizontal Server List
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @invite TeRQEPb
+ * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
+ * @source https://github.com/GibbuBDStuff/HorizontalServerList
+ * @website https://www.gibbu.me
+*/
+:root {
+  --HSL-server-icon-size: 35px;  /* Size of the server icon | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing to the right of each server icon | DEFAULT: 10px */
+  --HSL-container-spacing: 10px;  /* Spacing around the server icons | DEFAULT: 10px */
+}
+
+
+
+:root {
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+  --server-container: calc(var(--server-size) + calc(var(--server-spacing) * 2));
+}
+.base-3dtUhz {
+  top: var(--server-container);
+  left: 0;
+}
+.container-2lgZY8 {
+  display: flex;
+  flex-direction: column;
+}
+.platform-win .sidebar-2K8pFh {
+  border-radius: 0;
+}
+.guilds-1SWlCJ {
+  position: unset;
+  height: var(--server-container) !important;
+  width: 100%;
+  .scrollerWrap-1IAIlv {
+    width: 100%;
+  }
+  .scroller-2TZvBN {
+    padding-top: 0;
+    padding-left: var(--server-spacing);
+    display: flex;
+    align-items: center;
+    > .listItem-2P_4kh:not(:last-child) {
+      min-width: unset;
+    }
+  }
+}
+.guildSeparator-3s64Iy {
+  height: var(--server-size);
+  width: 2px;
+}
+nav .scroller-2TZvBN {
+  padding-top: 0;
+  padding-left: var(--server-spacing);
+  display: flex;
+  align-items: center;
+  > .listItem-2P_4kh:first-child {
+    + .listItem-2P_4kh:not(#bd-pub-li),
+    + #bd-pub-li + .listItem-2P_4kh {
+      width: 2px;
+      min-width: unset;
+    }
+  }
+  > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+    height: var(--server-size) !important;
+  }
+}
+[data-ref-id="guildsnav"] {
+  display: flex;
+}
+.wrapper-21YSNc {
+  min-width: var(--server-size);
+  width: auto;
+  display: flex;
+  align-items: center;
+  [role="group"] {
+    display: flex;
+    align-items: center;
+    height: auto !important;
+  }
+}
+.listItem-2P_4kh {
+  min-width: var(--server-size);
+  width: auto;
+  margin-right: var(--server-spacing);
+  margin-bottom: 0;
+}
+.svg-1X37T1,
+.wrapper-25eVIn {
+  width: var(--server-size);
+  height: var(--server-size);
+}
+[class*="pill"] {
+  width: 100%;
+  height: 4px;
+  top: calc(var(--server-spacing) / -1);
+  span {
+    height: 4px !important;
+    width: 100% !important;
+    transform: scale(0,1) !important;
+    margin-left: 0;
+    border-radius: 0 0 4px 4px;
+    transition: 0.1s ease !important;
+    transform-origin: center top;
+  }
+  @for $i from 0 through 8 {
+    span[style*="height: #{$i}"] {
+      transform: scale(0.25,1) !important;
+    }
+  }
+  // Hovered
+  @for $i from 9 through 20 {
+    span[style*="height: #{$i}"] {
+      transform: scale(0.7,1) !important;
+    }
+  }
+  // Selected
+  @for $i from 21 through 40 {
+    span[style*="height: #{$i}"] {
+      transform: scale(1,1) !important;
+    }
+  }
+}
+.expandedGuilds-1JMD4M {
+  height: auto !important;
+  display: flex;
+  width: auto;
+  overflow: visible;
+}
+.expandedFolderBackground-2sPsd- {
+  height: var(--server-size);
+  width: calc(100% - 20px);
+  border-radius: 0 50px 50px 0;
+}
+[class*="unreadMentionsIndicator"] {
+  display: none;
+}
+.placeholderMask-3K9THS {
+  width: var(--server-size);
+  height: var(--server-size);
+}
+
+
+/* BetterDiscord */
+#bd-pub-li {
+  height: var(--server-size);
+  margin-bottom: 0;
+  div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+  }
+}
+
+
+/* ServerFolders by DebilBro fix */
+body[class*="folder"] .base-3dtUhz {
+  position: absolute !important;
+  transition: 0.2s ease !important;
+}
+.wrapper-1Rf91z.content-Pph8t6.foldercontent {
+  transition: height 0.2s ease !important;
+}
+.wrapper-1Rf91z.content-Pph8t6.foldercontent {
+  &.closed-j55_T-.foldercontentclosed {
+    width: 100% !important;
+    height: 0 !important;
+  }
+  &:not(.foldercontentclosed) + .base-3dtUhz {
+    top: calc(var(--server-container) * 2)
+  }
+}
+
+/* Horizontal Server List version */
+.colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
+  content: "HSL 2.0.0 by Gibbu";
+  display: block;
+}

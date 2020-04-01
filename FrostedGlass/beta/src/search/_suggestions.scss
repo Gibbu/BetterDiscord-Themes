@@ -1,0 +1,44 @@
+#app-mount {
+  .searchFilter-2ESiM3 {
+    background-color: var(--background-secondary);
+  }
+  .searchAnswer-3Dz2-q {
+    background-color: var(--background-secondary);
+    margin-left: 0;
+  }
+
+  .container-3ayLPN {
+    background-color: transparent;
+    box-shadow: var(--set-popout-brightness);
+  }
+  .resultsGroup-r_nuzN:before {
+    border-top-color: var(--background-secondary);
+  }
+  .option-96V44q {
+    &.selected-rZcOL- {
+      background-color: var(--background-secondary);
+      &:after {
+        background: var(--background-secondary);
+      }
+    }
+    &:after {
+      background: transparent;
+      width: 34px;
+    }
+  }
+  .plusIcon-v0BTrL {
+    color: var(--text-normal);
+    opacity: 1;
+  }
+  .header-2N-gMV {
+    color: var(--text-muted);
+  }
+  .filter-3Y_im-,
+  .displayedNick-3xxvzU {
+    color: var(--text-normal);
+  }
+  .answer-1n6g43,
+  .displayUsername-Qekxml {
+    color: var(--text-muted);
+  }
+}

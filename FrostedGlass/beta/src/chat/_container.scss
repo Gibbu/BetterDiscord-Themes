@@ -1,0 +1,41 @@
+#app-mount .chat-3bRxxu {
+  background: var(--set-tint);
+  box-shadow: var(--set-right-brightness);
+  margin-left: var(--left-right-split);
+  .scroller-3sQKXg,
+  .scroller-2FKFPG {
+    background: transparent;
+  }
+  .messages-3amgkR {
+    margin-bottom: 8px;
+  }
+  .content-yTz4x3:before {
+    content: none;
+  }
+  .divider-JfaTT5:not(.isUnread-3Ef-o9) {
+    border: none;
+  }
+  .content-1o0f9g {
+    background: var(--background-secondary);
+    padding: 4px 10px;
+  }
+  .newMessagesBar-mujexs {
+    background: var(--set-gradient-solid);
+    z-index: 30;
+    .span-3ncFWM {
+      text-shadow: var()
+    }
+  }
+  &:before {
+    content: "";
+    height: 5px;
+    background: linear-gradient(rgba(0,0,0,0.2), transparent);
+    position: absolute;
+    top: 48px;
+    left: 0;
+    display: block;
+    pointer-events: none;
+    width: 100%;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,5 @@
+#app-mount [id*="popout_"][style*="left"][style*="bottom"] .menu-Sp6bN1 {
+  background: var(--set-tint);
+  box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--popout-brightness));
+  backdrop-filter: blur(var(--popout-blur));
+}

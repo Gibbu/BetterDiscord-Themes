@@ -1,0 +1,66 @@
+.theme-dark {
+  // Master Variables
+  --border-colour: #141414;
+  --background-colour: #24292e;
+  --text-default: #d1d5da;
+  --text-muted: #959da5;
+  --text-focus: #ffffff;
+
+  // Toolbar (headers)
+  --toolbar-background: #1d2125;
+  --toolbar-hover-background: #2f363d;
+  --toolbar-server-icon-colour: #454f59;
+
+  // Account Container
+  --account-panel-background-colour: #2f363d;
+  --account-button-hover-colour: #{lighten(#2f363d, 1%)};
+
+  // Chat/Friends/DM
+  --main-background: #2a3036;
+  --main-background-hover: #{lighten(#2a3036, 2%)};
+
+  // Servers
+  --server-icon: var(--toolbar-background);
+
+  // Friends list
+  --now-playing-background: var(--main-background);
+
+  // Input
+  --input-background: #1d2125;
+
+  // Settings
+  --settings-button: var(--account-panel-background-colour);
+  --settings-button-hover: #{lighten(#2f363d, 4%)};
+  --settings-input-background: var(--toolbar-background);
+  --settings-input-height: 25px;
+
+  // Checkbox
+  --checkbox-background: #fff;
+  --checkbox-border: #bbb;
+  --checkbox-tick: #444;
+
+  // Userpopouts
+  --userpopout-header: var(--toolbar-background);
+  --userpopout-body: var(--background-colour);
+  --userpopout-textbox: var(--toolbar-background);
+
+  // Font weights
+  --font-weight-ultralight: 300;
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  // Search
+  --search-result: var(--main-background);
+  --search-tag: var(--toolbar-background);
+
+  // Scrollbars
+  --channel-scrollbar: rgba(0,0,0,0.3);
+
+  // Discord variables
+  --background-modifier-hover: #2f363d;
+  --background-modifier-active: #444d56;
+  --background-modifier-selected: var(--accent-solid);
+}

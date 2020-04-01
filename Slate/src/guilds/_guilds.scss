@@ -1,13 +1,13 @@
 #app-mount .guilds-1SWlCJ {
   .scroller-2TZvBN {
-    background: var(--background-color);
+    background: var(--background-colour);
   }
   // Home button
   .listItem-2P_4kh:first-child .childWrapper-anI2G9 {
     background: transparent;
   }
   .homeIcon-tEMBK1 {
-    -webkit-mask: url($svg_home) center/cover no-repeat;
+    -webkit-mask: url($icon_home) center/cover no-repeat;
     background: var(--text-default);
     width: 70%;
     height: 70%;
@@ -17,7 +17,7 @@
   }
   .guildSeparator-3s64Iy {
     height: 1px;
-    background-color: var(--border-color);
+    background-color: var(--border-colour);
   }
   .childWrapper-anI2G9 {
     background: var(--server-icon);

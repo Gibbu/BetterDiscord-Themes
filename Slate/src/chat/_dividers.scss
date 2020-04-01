@@ -1,0 +1,29 @@
+#app-mount .chatContent-a9vAAp .divider-JfaTT5 {
+  height: auto;
+  margin: 0;
+  padding: var(--spacing) 0;
+  border-top: 1px solid var(--border-colour);
+  background: var(--background-colour);
+  top: 0;
+  .content-1o0f9g {
+    background: transparent;
+    color: var(--text-muted);
+  }
+  & + .groupStart-23k01U {
+    margin-top: 0;
+  }
+  &.isUnread-3Ef-o9 {
+    border-bottom: 1px solid var(--border-colour);
+    .unreadPill-2HyYtt {
+      position: unset;
+      background: transparent;
+      color: var(--discord-red);
+      svg {
+        display: none;
+      }
+    }
+    & + .groupStart-23k01U {
+      margin-top: calc(var(--spacing) - 12px);
+    }
+  }
+}

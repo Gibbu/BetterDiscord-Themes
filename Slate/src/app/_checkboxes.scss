@@ -1,0 +1,18 @@
+#app-mount .switch-3wwwcV,
+#app-mount .bd-switch {
+  height: 14px;
+  width: 30px;
+  border-radius: 3px;
+  &:after {
+    margin: 0;
+    border-radius: 3px;
+    width: 14px;
+    height: 14px;
+  }
+  &.valueChecked-m-4IJZ {
+    background: var(--accent-solid);
+    &:after {
+      transform: translate3d(16px,0,0);
+    }
+  }
+}

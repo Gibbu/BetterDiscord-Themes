@@ -9,13 +9,17 @@
     width: var(--sidebar-width);
     box-shadow: none;
     height: 100vh;
-    background: var(--background-color);
+    background: var(--background-colour);
     .item-1GzJrl {
       margin: 0;
       padding: var(--spacing);
+      color: var(--text-default);
       border-radius: 0;
       &:first-child {
         color: var(--discord-nitro);
+      }
+      &:not(:first-child):hover {
+        color: var(--text-focus);
       }
     }
     .separator-2zcjq8 {
