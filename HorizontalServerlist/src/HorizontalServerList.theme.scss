@@ -39,14 +39,13 @@
     height: var(--server-container) !important;
     width: 100%;
     .scrollerWrap-1IAIlv {
-      width: 100%;
+      width: 100% !important;
     }
     .scroller-2TZvBN {
       padding-top: 0;
       padding-left: var(--server-spacing);
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
       scroll-snap-type: y mandatory;
       > .listItem-2P_4kh:not(:last-child) {
         min-width: unset;
@@ -76,6 +75,11 @@
   [data-ref-id="guildsnav"] {
     display: flex;
     flex-wrap: wrap;
+    height: var(--server-container);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none !important;
+    }
   }
   .wrapper-21YSNc {
     width: auto;
@@ -83,7 +87,7 @@
     align-items: center;
     margin-bottom: 0;
     height: var(--server-size);
-    margin-top: var(--HSL-container-spacing);
+    margin-top: 10px;
     [role="group"] {
       display: flex;
       align-items: center;
@@ -93,7 +97,7 @@
   .listItem-2P_4kh {
     min-width: var(--server-size);
     width: auto;
-    margin: var(--HSL-container-spacing) 0;
+    margin: 10px 0;
     margin-right: var(--server-spacing);
     scroll-snap-align: center;
   }
@@ -153,7 +157,6 @@
   }
   .listItemTooltip-CDcY8J {
     position: absolute;
-    left: 0;
     white-space: nowrap;
     margin-left: calc(var(--server-size) / -1 - 20px);
     top: calc(var(--server-size) - 10px);
