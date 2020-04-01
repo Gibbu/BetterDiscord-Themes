@@ -8,9 +8,8 @@
  * @website https://www.gibbu.me
 */
 :root {
-  --HSL-server-icon-size: 35px;  /* Size of the server icon | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;  /* Spacing to the right of each server icon | DEFAULT: 10px */
-  --HSL-container-spacing: 10px;  /* Spacing around the server icons | DEFAULT: 10px */
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
 }
 
 
@@ -18,19 +17,21 @@
 :root {
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-  --server-container: calc(var(--server-size) + calc(var(--server-spacing) * 2));
+  --server-container: calc(var(--server-size) + 20px);
 }
 
 #app-mount {
   .base-3dtUhz {
     top: var(--server-container);
     left: 0;
+    position: absolute !important;
+    transition: 0.2s ease !important;
   }
   .container-2lgZY8 {
     display: flex;
     flex-direction: column;
   }
-  .platform-win .sidebar-2K8pFh {
+  .sidebar-2K8pFh {
     border-radius: 0;
   }
   .guilds-1SWlCJ {
@@ -45,6 +46,8 @@
       padding-left: var(--server-spacing);
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
+      scroll-snap-type: y mandatory;
       > .listItem-2P_4kh:not(:last-child) {
         min-width: unset;
       }
@@ -72,13 +75,15 @@
   }
   [data-ref-id="guildsnav"] {
     display: flex;
+    flex-wrap: wrap;
   }
   .wrapper-21YSNc {
-    min-width: var(--server-size);
     width: auto;
     display: flex;
     align-items: center;
     margin-bottom: 0;
+    height: var(--server-size);
+    margin-top: var(--HSL-container-spacing);
     [role="group"] {
       display: flex;
       align-items: center;
@@ -88,8 +93,9 @@
   .listItem-2P_4kh {
     min-width: var(--server-size);
     width: auto;
+    margin: var(--HSL-container-spacing) 0;
     margin-right: var(--server-spacing);
-    margin-bottom: 0;
+    scroll-snap-align: center;
   }
   .svg-1X37T1,
   .wrapper-25eVIn {
@@ -99,7 +105,7 @@
   [class*="pill"] {
     width: 100%;
     height: 4px;
-    top: calc(var(--server-spacing) / -1);
+    top: -10px;
     span {
       height: 4px !important;
       width: 100% !important;
@@ -145,7 +151,20 @@
     width: var(--server-size);
     height: var(--server-size);
   }
-
+  .listItemTooltip-CDcY8J {
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+    top: calc(var(--server-size) - 10px);
+    .tooltipPointer-3ZfirK {
+      transform: rotate(180deg);
+      top: -5px;
+      right: unset;
+      left: 13px;
+      z-index: 1;
+    }
+  }
 
   // BetterDiscord
   #bd-pub-li {
@@ -162,9 +181,8 @@
 
 
   // ServerFolders by DebilBro fix
-  body[class*="folder"] .base-3dtUhz {
+  body.foldercontentopened .base-3dtUhz {
     position: absolute !important;
-    transition: 0.2s ease !important;
   }
   .wrapper-1Rf91z.content-Pph8t6.foldercontent {
     transition: height 0.2s ease !important;

@@ -1,0 +1,24 @@
+body #app-mount .container-2lgZY8 {
+  flex-direction: column-reverse;
+}
+body #app-mount .base-3dtUhz {
+  top: 0;
+  bottom: var(--server-container);
+}
+body #app-mount .listItemTooltip-CDcY8J {
+  position: absolute;
+  white-space: nowrap;
+  top: calc((var(--server-size) / -1) - 30px);
+}
+body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
+  transform: rotate(0);
+  top: unset;
+  bottom: -10px;
+}
+body #app-mount [class*=pill] {
+  top: unset;
+  bottom: -10px;
+}
+body #app-mount [class*=pill] span {
+  border-radius: 4px 4px 0 0;
+}

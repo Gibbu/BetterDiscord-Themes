@@ -11,7 +11,6 @@
 @import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
 
 :root {
-  --HSL-server-icon-size: 35px;  /* Size of the server icon | DEFAULT: 40px */
-  --HSL-server-spacing: 10px;  /* Spacing to the right of each server icon | DEFAULT: 10px */
-  --HSL-container-spacing: 10px;  /* Spacing around the server icons | DEFAULT: 10px */
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
 }

@@ -1,18 +1,20 @@
 :root {
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
-  --server-container: calc(var(--server-size) + calc(var(--server-spacing) * 2));
+  --server-container: calc(var(--server-size) + 20px);
 }
 
 #app-mount .base-3dtUhz {
   top: var(--server-container);
   left: 0;
+  position: absolute !important;
+  transition: 0.2s ease !important;
 }
 #app-mount .container-2lgZY8 {
   display: flex;
   flex-direction: column;
 }
-#app-mount .platform-win .sidebar-2K8pFh {
+#app-mount .sidebar-2K8pFh {
   border-radius: 0;
 }
 #app-mount .guilds-1SWlCJ {
@@ -28,6 +30,8 @@
   padding-left: var(--server-spacing);
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  scroll-snap-type: y mandatory;
 }
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
   min-width: unset;
@@ -52,13 +56,15 @@
 }
 #app-mount [data-ref-id=guildsnav] {
   display: flex;
+  flex-wrap: wrap;
 }
 #app-mount .wrapper-21YSNc {
-  min-width: var(--server-size);
   width: auto;
   display: flex;
   align-items: center;
   margin-bottom: 0;
+  height: var(--server-size);
+  margin-top: var(--HSL-container-spacing);
 }
 #app-mount .wrapper-21YSNc [role=group] {
   display: flex;
@@ -68,8 +74,9 @@
 #app-mount .listItem-2P_4kh {
   min-width: var(--server-size);
   width: auto;
+  margin: var(--HSL-container-spacing) 0;
   margin-right: var(--server-spacing);
-  margin-bottom: 0;
+  scroll-snap-align: center;
 }
 #app-mount .svg-1X37T1,
 #app-mount .wrapper-25eVIn {
@@ -79,7 +86,7 @@
 #app-mount [class*=pill] {
   width: 100%;
   height: 4px;
-  top: calc(var(--server-spacing) / -1);
+  top: -10px;
 }
 #app-mount [class*=pill] span {
   height: 4px !important;
@@ -231,6 +238,19 @@
   width: var(--server-size);
   height: var(--server-size);
 }
+#app-mount .listItemTooltip-CDcY8J {
+  position: absolute;
+  white-space: nowrap;
+  margin-left: calc(var(--server-size) / -1 - 20px);
+  top: calc(var(--server-size) - 10px);
+}
+#app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
+  transform: rotate(180deg);
+  top: -5px;
+  right: unset;
+  left: 13px;
+  z-index: 1;
+}
 #app-mount #bd-pub-li {
   height: var(--server-size);
   margin-bottom: 0;
@@ -242,9 +262,8 @@
   justify-content: center;
   border-radius: 25%;
 }
-#app-mount body[class*=folder] .base-3dtUhz {
+#app-mount body.foldercontentopened .base-3dtUhz {
   position: absolute !important;
-  transition: 0.2s ease !important;
 }
 #app-mount .wrapper-1Rf91z.content-Pph8t6.foldercontent {
   transition: height 0.2s ease !important;
