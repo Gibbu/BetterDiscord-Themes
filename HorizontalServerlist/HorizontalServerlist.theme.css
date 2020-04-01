@@ -1,10 +1,17 @@
-/*//META{"name":"Horizontal Serverlist","description":"Moves the server list from the left to the top of Discord. Also allows for adjusting the size of the server icons. Customizable in the file or Custom CSS tab. To minimize compatibility issues, enable this theme last. Compatibility List can be found in My Account","author":"Gibbu","version":"1.0"}*//**/
+/**
+ * @name Horizontal Server List
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @invite TeRQEPb
+ * @description Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes
+ * @source https://github.com/GibbuBDStuff/HorizontalServerList
+ * @website https://www.gibbu.me
+*/
 
-@import url("https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css");
+@import url("https://gibbubdstuff.github.io/HorizontalServerList/base.css");
 
 :root {
-    --HSL-size: 35px; /* Size of Server Icons */
-    --HSL-spacing: 10px; /* Space between servers */
-    --HSL-roundness: 50%; /* Server non hovered and selected */
-    --HSL-roundnessHover: 20%; /* Server hovered */
+  --HSL-server-icon-size: 35px;  /* Size of the server icon | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing to the right of each server icon | DEFAULT: 10px */
+  --HSL-container-spacing: 10px;  /* Spacing around the server icons | DEFAULT: 10px */
 }

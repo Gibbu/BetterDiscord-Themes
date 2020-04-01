@@ -13,17 +13,11 @@ Makes discord sharp and simple
 
 - - -
 
-**AdjustableServerWidth - [Download](https://betterdiscord.net/ghdl?id=2710)**  
-Make the server list smaller or larger
-
-![AdjustableServerWidth](https://i.imgur.com/2KuvHaV.jpg)
+**Adjustable Server Width - [Moved here](https://github.com/GibbuBDStuff/AdjustableServerWidth)**
 
 - - -
 
-**HorizontalServerlist - [Download](https://betterdiscord.net/ghdl?id=3081)**  
-Moves the server list from the left to the top of Discord. Compatible with Server Folders and most basic transparent themes.
-
-![HorizontalServerlist](https://i.imgur.com/ygGh3hy.jpg)
+**Horizontal Server List - [Moved here](https://github.com/GibbuBDStuff/HorizontalServerList)**
 
 - - -
 
@@ -34,10 +28,7 @@ Display your picture of choice with adjustable blur and brightness via variables
 
 - - -
 
-**MinimalCord - [Download](https://betterdiscord.net/ghdl?id=3037) - [Editor](https://gibbu.me/themegen/minimalcord)**  
-Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
-
-![Server Chat](https://i.imgur.com/SJBb9VY.jpg)
+**MinimalCord - [Moved here](https://github.com/GibbuBDStuff/MinimalCord)**
 
 - - -
 
