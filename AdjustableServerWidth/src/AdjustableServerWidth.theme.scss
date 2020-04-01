@@ -6,19 +6,18 @@
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/AdjustableServerWidth
  * @website https://gibbu.me/
 */
-
 :root {
-  --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
-  --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
-  --server-container-padding: 10px; /* Spacing between left and right sides of server icons | DEFAULT: 10px */
+  --server-icon-size: 35px;  /* Size of the server icons | DEFAULT: 35px */
+  --server-icon-spacing: 8px;  /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
+  --server-container-padding: 10px;  /* Spacing between left and right sides of server icons | DEFAULT: 10px */
 }
+
 
 
 :root {
   --icon: var(--server-icon-size, var(--ASW_size, 35px));
   --container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
 }
-
 // Base
 .base-3dtUhz {
   left: var(--container);
@@ -27,16 +26,23 @@
 // Guilds
 .wrapper-1Rf91z {
   width: var(--container);
-
   .scrollerWrap-1IAIlv {
     width: calc(100% + 30px);
   }
-
+  [role="group"] {
+    height: auto !important;
+  }
+  .placeholderMask-3K9THS {
+    width: var(--icon);
+    height: var(--icon);
+  }
   .listItem-2P_4kh {
     width: var(--container);
     margin-bottom: var(--server-icon-spacing);
   }
-
+  .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) {
+    height: calc(var(--icon) + var(--server-icon-spacing)) !important;
+  }
   [class*="pill"] {
     height: var(--icon);
     top: 50%;
@@ -65,22 +71,22 @@
       }
     }
   }
-
-  .svg-1X37T1, .wrapper-25eVIn {
+  .guildsError-b7zR5H,
+  .svg-1X37T1,
+  .wrapper-25eVIn {
     width: var(--icon);
     height: var(--icon);
   }
-
   .iconBadge-2NuvG9 {
     border-radius: 50%;
     height: calc(var(--icon) / 3);
     width: calc(var(--icon) / 3);
   }
-
   // Folders
   .wrapper-21YSNc {
     width: var(--container);
-    .folder-21wGz3, .folderIconWrapper-226oVY {
+    .folder-21wGz3,
+    .folderIconWrapper-226oVY {
       background: transparent;
     }
     .expandedFolderBackground-2sPsd- {
@@ -91,13 +97,13 @@
     .expandedGuilds-1JMD4M {
       height: auto !important;
     }
-    .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK{
+    .closedFolderIconWrapper-15K9MK,
+    .expandedFolderIconWrapper-1xLaU- {
       transform: none !important;
     }
   }
 }
-
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "Adjustable Server Width v2.0.0";
+  content: "Adjustable Server Width v2.0.2";
   display: block;
 }

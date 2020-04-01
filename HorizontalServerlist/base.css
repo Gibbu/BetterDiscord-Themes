@@ -4,93 +4,84 @@
   --server-container: calc(var(--server-size) + calc(var(--server-spacing) * 2));
 }
 
-.base-3dtUhz {
+#app-mount .base-3dtUhz {
   top: var(--server-container);
   left: 0;
 }
-
-.container-2lgZY8 {
+#app-mount .container-2lgZY8 {
   display: flex;
   flex-direction: column;
 }
-
-.platform-win .sidebar-2K8pFh {
+#app-mount .platform-win .sidebar-2K8pFh {
   border-radius: 0;
 }
-
-.guilds-1SWlCJ {
+#app-mount .guilds-1SWlCJ {
   position: unset;
   height: var(--server-container) !important;
   width: 100%;
 }
-.guilds-1SWlCJ .scrollerWrap-1IAIlv {
+#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
   width: 100%;
 }
-.guilds-1SWlCJ .scroller-2TZvBN {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN {
   padding-top: 0;
   padding-left: var(--server-spacing);
   display: flex;
   align-items: center;
 }
-.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
   min-width: unset;
 }
-
-.guildSeparator-3s64Iy {
+#app-mount .guildSeparator-3s64Iy {
   height: var(--server-size);
   width: 2px;
 }
-
-nav .scroller-2TZvBN {
+#app-mount nav .scroller-2TZvBN {
   padding-top: 0;
   padding-left: var(--server-spacing);
   display: flex;
   align-items: center;
 }
-nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
-nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
+#app-mount nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
+#app-mount nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
   width: 2px;
   min-width: unset;
 }
-nav .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+#app-mount nav .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
   height: var(--server-size) !important;
 }
-
-[data-ref-id=guildsnav] {
+#app-mount [data-ref-id=guildsnav] {
   display: flex;
 }
-
-.wrapper-21YSNc {
+#app-mount .wrapper-21YSNc {
   min-width: var(--server-size);
   width: auto;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
-.wrapper-21YSNc [role=group] {
+#app-mount .wrapper-21YSNc [role=group] {
   display: flex;
   align-items: center;
   height: auto !important;
 }
-
-.listItem-2P_4kh {
+#app-mount .listItem-2P_4kh {
   min-width: var(--server-size);
   width: auto;
   margin-right: var(--server-spacing);
   margin-bottom: 0;
 }
-
-.svg-1X37T1,
-.wrapper-25eVIn {
+#app-mount .svg-1X37T1,
+#app-mount .wrapper-25eVIn {
   width: var(--server-size);
   height: var(--server-size);
 }
-
-[class*=pill] {
+#app-mount [class*=pill] {
   width: 100%;
   height: 4px;
   top: calc(var(--server-spacing) / -1);
 }
-[class*=pill] span {
+#app-mount [class*=pill] span {
   height: 4px !important;
   width: 100% !important;
   transform: scale(0, 1) !important;
@@ -99,185 +90,173 @@ nav .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
   transition: 0.1s ease !important;
   transform-origin: center top;
 }
-[class*=pill] span[style*="height: 0"] {
+#app-mount [class*=pill] span[style*="height: 0"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 1"] {
+#app-mount [class*=pill] span[style*="height: 1"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 2"] {
+#app-mount [class*=pill] span[style*="height: 2"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 3"] {
+#app-mount [class*=pill] span[style*="height: 3"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 4"] {
+#app-mount [class*=pill] span[style*="height: 4"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 5"] {
+#app-mount [class*=pill] span[style*="height: 5"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 6"] {
+#app-mount [class*=pill] span[style*="height: 6"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 7"] {
+#app-mount [class*=pill] span[style*="height: 7"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 8"] {
+#app-mount [class*=pill] span[style*="height: 8"] {
   transform: scale(0.25, 1) !important;
 }
-[class*=pill] span[style*="height: 9"] {
+#app-mount [class*=pill] span[style*="height: 9"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 10"] {
+#app-mount [class*=pill] span[style*="height: 10"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 11"] {
+#app-mount [class*=pill] span[style*="height: 11"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 12"] {
+#app-mount [class*=pill] span[style*="height: 12"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 13"] {
+#app-mount [class*=pill] span[style*="height: 13"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 14"] {
+#app-mount [class*=pill] span[style*="height: 14"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 15"] {
+#app-mount [class*=pill] span[style*="height: 15"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 16"] {
+#app-mount [class*=pill] span[style*="height: 16"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 17"] {
+#app-mount [class*=pill] span[style*="height: 17"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 18"] {
+#app-mount [class*=pill] span[style*="height: 18"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 19"] {
+#app-mount [class*=pill] span[style*="height: 19"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 20"] {
+#app-mount [class*=pill] span[style*="height: 20"] {
   transform: scale(0.7, 1) !important;
 }
-[class*=pill] span[style*="height: 21"] {
+#app-mount [class*=pill] span[style*="height: 21"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 22"] {
+#app-mount [class*=pill] span[style*="height: 22"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 23"] {
+#app-mount [class*=pill] span[style*="height: 23"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 24"] {
+#app-mount [class*=pill] span[style*="height: 24"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 25"] {
+#app-mount [class*=pill] span[style*="height: 25"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 26"] {
+#app-mount [class*=pill] span[style*="height: 26"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 27"] {
+#app-mount [class*=pill] span[style*="height: 27"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 28"] {
+#app-mount [class*=pill] span[style*="height: 28"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 29"] {
+#app-mount [class*=pill] span[style*="height: 29"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 30"] {
+#app-mount [class*=pill] span[style*="height: 30"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 31"] {
+#app-mount [class*=pill] span[style*="height: 31"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 32"] {
+#app-mount [class*=pill] span[style*="height: 32"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 33"] {
+#app-mount [class*=pill] span[style*="height: 33"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 34"] {
+#app-mount [class*=pill] span[style*="height: 34"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 35"] {
+#app-mount [class*=pill] span[style*="height: 35"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 36"] {
+#app-mount [class*=pill] span[style*="height: 36"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 37"] {
+#app-mount [class*=pill] span[style*="height: 37"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 38"] {
+#app-mount [class*=pill] span[style*="height: 38"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 39"] {
+#app-mount [class*=pill] span[style*="height: 39"] {
   transform: scale(1, 1) !important;
 }
-[class*=pill] span[style*="height: 40"] {
+#app-mount [class*=pill] span[style*="height: 40"] {
   transform: scale(1, 1) !important;
 }
-
-.expandedGuilds-1JMD4M {
+#app-mount .expandedGuilds-1JMD4M {
   height: auto !important;
   display: flex;
   width: auto;
   overflow: visible;
 }
-
-.expandedFolderBackground-2sPsd- {
+#app-mount .expandedFolderBackground-2sPsd- {
   height: var(--server-size);
   width: calc(100% - 20px);
   border-radius: 0 50px 50px 0;
 }
-
-[class*=unreadMentionsIndicator] {
+#app-mount [class*=unreadMentionsIndicator] {
   display: none;
 }
-
-.placeholderMask-3K9THS {
+#app-mount .placeholderMask-3K9THS {
   width: var(--server-size);
   height: var(--server-size);
 }
-
-/* BetterDiscord */
-#bd-pub-li {
+#app-mount #bd-pub-li {
   height: var(--server-size);
   margin-bottom: 0;
 }
-#bd-pub-li div {
+#app-mount #bd-pub-li div {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 25%;
 }
-
-/* ServerFolders by DebilBro fix */
-body[class*=folder] .base-3dtUhz {
+#app-mount body[class*=folder] .base-3dtUhz {
   position: absolute !important;
   transition: 0.2s ease !important;
 }
-
-.wrapper-1Rf91z.content-Pph8t6.foldercontent {
+#app-mount .wrapper-1Rf91z.content-Pph8t6.foldercontent {
   transition: height 0.2s ease !important;
 }
-
-.wrapper-1Rf91z.content-Pph8t6.foldercontent.closed-j55_T-.foldercontentclosed {
+#app-mount .wrapper-1Rf91z.content-Pph8t6.foldercontent.closed-j55_T-.foldercontentclosed {
   width: 100% !important;
   height: 0 !important;
 }
-.wrapper-1Rf91z.content-Pph8t6.foldercontent:not(.foldercontentclosed) + .base-3dtUhz {
+#app-mount .wrapper-1Rf91z.content-Pph8t6.foldercontent:not(.foldercontentclosed) + .base-3dtUhz {
   top: calc(var(--server-container) * 2);
 }
-
-/* Horizontal Server List version */
-.colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "HSL 2.0.0 by Gibbu";
+#app-mount .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
+  content: "HSL 2.0.1 by Gibbu";
   display: block;
 }

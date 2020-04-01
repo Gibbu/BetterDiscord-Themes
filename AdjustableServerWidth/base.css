@@ -13,6 +13,9 @@
 .wrapper-1Rf91z .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
+.wrapper-1Rf91z [role=group] {
+  height: auto !important;
+}
 .wrapper-1Rf91z .placeholderMask-3K9THS {
   width: var(--icon);
   height: var(--icon);
@@ -189,6 +192,6 @@
 }
 
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "Adjustable Server Width v2.0.1";
+  content: "Adjustable Server Width v2.0.2";
   display: block;
 }
