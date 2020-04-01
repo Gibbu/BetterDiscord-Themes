@@ -43,9 +43,9 @@ $dark-foreground: #21232b;
     --message-button: #{lighten($dark-background, 12%)};
 
     // Serverlist
-    --server-background: #{lighten($dark-foreground, 3%)};
-    --server-selected: #{lighten($dark-foreground, 5%)};
-    --server-hovered: #{lighten($dark-foreground, 4%)};
+    --server-background: #{lighten($dark-background, 5%)};
+    --server-hovered: #{lighten($dark-background, 6%)};
+    --server-selected: #{lighten($dark-background, 7%)};
     --server-folders: var(--server-background);
 
     // Search

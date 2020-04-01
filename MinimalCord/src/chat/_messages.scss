@@ -13,7 +13,7 @@
 
   .contents-2mQqc9,
   .container-1ov-mD {
-    padding-left: 50px;
+    padding-left: calc(var(--message-padding) + 38px);
     padding-bottom: 0;
   }
 
@@ -39,8 +39,8 @@
     margin-top: var(--message-spacing);
   }
   & + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-    margin-top: calc(var(--message-padding) / -1 + 3px);
-    padding-top: 0;
+    margin-top: calc(var(--message-padding) / -1);
+    padding-top: 3px;
   }
 }
 .mentioned-xhSam7 {

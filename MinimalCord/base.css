@@ -26,9 +26,9 @@
   --message-box-divider: #20242a;
   --message-embed: #171a1f;
   --message-button: #2d323c;
-  --server-background: #282a34;
-  --server-selected: #2c2f39;
-  --server-hovered: #2a2c37;
+  --server-background: #1e2127;
+  --server-hovered: #20242a;
+  --server-selected: #22262d;
   --server-folders: var(--server-background);
   --search-filter-hover: #22262d;
   --search-result-header: #1e2127;
@@ -286,38 +286,6 @@
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:before {
   content: "MinimalCord v1.0.2 by Gibbu";
   display: block;
-}
-
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN {
-  background: var(--background-2);
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .expandedFolderBackground-2sPsd-, #app-mount .wrapper-1Rf91z .scroller-2TZvBN .folder-21wGz3 {
-  background-color: var(--server-folders);
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .wrapper-1BJsBx:hover .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .scroller-2TZvBN .wrapper-1BJsBx:hover .circleIconButton-jET_ig {
-  color: var(--text-1);
-  background: var(--server-hovered);
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .scroller-2TZvBN .circleIconButton-jET_ig {
-  background: var(--server-background);
-  transition: 0.2s ease;
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .childWrapper-anI2G9.selected-ugP_am, #app-mount .wrapper-1Rf91z .scroller-2TZvBN .circleIconButton-jET_ig.selected-ugP_am {
-  color: var(--text-1);
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .listItem-2P_4kh.bd-selected .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .scroller-2TZvBN .listItem-2P_4kh .selected-bZ3Lue .childWrapper-anI2G9 {
-  background: var(--server-selected);
-  color: var(--text-1);
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildsError-b7zR5H {
-  background: var(--redDark);
-  border-color: var(--redDark);
-  color: #fff;
-  transition: 0.2s ease;
-}
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .guildsError-b7zR5H:hover {
-  background: var(--red);
-  border-color: var(--red);
 }
 
 #app-mount .sidebar-2K8pFh {
@@ -1752,7 +1720,7 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
 }
 #app-mount .cozyMessage-3V1Y8y .contents-2mQqc9,
 #app-mount .cozyMessage-3V1Y8y .container-1ov-mD {
-  padding-left: 50px;
+  padding-left: calc(var(--message-padding) + 38px);
   padding-bottom: 0;
 }
 #app-mount .cozyMessage-3V1Y8y .embedFull-2tM8-- {
@@ -1774,8 +1742,8 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   margin-top: var(--message-spacing);
 }
 #app-mount .cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y:not(.groupStart-23k01U) {
-  margin-top: calc(var(--message-padding) / -1 + 3px);
-  padding-top: 0;
+  margin-top: calc(var(--message-padding) / -1);
+  padding-top: 3px;
 }
 
 .mentioned-xhSam7:before {
@@ -1909,4 +1877,37 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
 #app-mount .bda-link:hover {
   background: rgba(var(--accent), 1);
   color: #fff;
+}
+
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN {
+  background: var(--background-2);
+}
+#app-mount .wrapper-1Rf91z .expandedFolderBackground-2sPsd-, #app-mount .wrapper-1Rf91z .folder-21wGz3 {
+  background-color: var(--server-folders);
+}
+#app-mount .wrapper-1Rf91z .wrapper-1BJsBx:hover .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .wrapper-1BJsBx:hover .circleIconButton-jET_ig {
+  color: var(--text-1);
+  background: var(--server-hovered);
+}
+#app-mount .wrapper-1Rf91z .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .circleIconButton-jET_ig {
+  background: var(--server-background);
+  transition: 0.2s ease;
+}
+#app-mount .wrapper-1Rf91z .childWrapper-anI2G9.selected-ugP_am, #app-mount .wrapper-1Rf91z .circleIconButton-jET_ig.selected-ugP_am {
+  color: var(--text-1);
+  background: var(--server-selected);
+}
+#app-mount .wrapper-1Rf91z .listItem-2P_4kh.bd-selected .childWrapper-anI2G9, #app-mount .wrapper-1Rf91z .listItem-2P_4kh .selected-bZ3Lue .childWrapper-anI2G9 {
+  background: var(--server-selected);
+  color: var(--text-1);
+}
+#app-mount .wrapper-1Rf91z .guildsError-b7zR5H {
+  background: var(--redDark);
+  border-color: var(--redDark);
+  color: #fff;
+  transition: 0.2s ease;
+}
+#app-mount .wrapper-1Rf91z .guildsError-b7zR5H:hover {
+  background: var(--red);
+  border-color: var(--red);
 }
