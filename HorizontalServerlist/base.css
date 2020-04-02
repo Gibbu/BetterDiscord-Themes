@@ -17,33 +17,33 @@
 #app-mount .sidebar-2K8pFh {
   border-radius: 0;
 }
-#app-mount .guilds-1SWlCJ {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   position: unset;
   height: var(--server-container) !important;
   width: 100%;
 }
-#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv {
   width: 100% !important;
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
   padding-top: 0;
   padding-left: var(--server-spacing);
   display: flex;
   align-items: center;
   scroll-snap-type: y mandatory;
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
   min-width: unset;
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
   margin-top: 0;
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
   width: 2px;
   min-width: unset;
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
   height: var(--server-size) !important;
 }
 #app-mount .guildSeparator-3s64Iy {
@@ -280,6 +280,6 @@
   top: calc(var(--server-container) * 2);
 }
 #app-mount .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "HSL 2.0.1 by Gibbu";
+  content: "HSL 2.0.2 by Gibbu";
   display: block;
 }
