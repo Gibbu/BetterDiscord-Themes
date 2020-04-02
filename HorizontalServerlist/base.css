@@ -1,3 +1,9 @@
+:root {
+  --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
+  --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
+  --server-container: calc(var(--server-size) + 20px);
+}
+
 #app-mount .base-3dtUhz {
   top: var(--server-container);
   left: 0;
@@ -29,23 +35,20 @@
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:not(:last-child) {
   min-width: unset;
 }
-#app-mount .guildSeparator-3s64Iy {
-  height: var(--server-size);
-  width: 2px;
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
+  margin-top: 0;
 }
-#app-mount nav .scroller-2TZvBN {
-  padding-top: 0;
-  padding-left: var(--server-spacing);
-  display: flex;
-  align-items: center;
-}
-#app-mount nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
-#app-mount nav .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + .listItem-2P_4kh:not(#bd-pub-li),
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > .listItem-2P_4kh:first-child + #bd-pub-li + .listItem-2P_4kh {
   width: 2px;
   min-width: unset;
 }
-#app-mount nav .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
   height: var(--server-size) !important;
+}
+#app-mount .guildSeparator-3s64Iy {
+  height: var(--server-size);
+  width: 2px;
 }
 #app-mount [data-ref-id=guildsnav] {
   display: flex;
