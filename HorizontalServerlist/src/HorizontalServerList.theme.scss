@@ -71,6 +71,7 @@
   }
   [data-ref-id="guildsnav"] {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     height: var(--server-container);
     overflow-y: auto;
@@ -84,7 +85,6 @@
     align-items: center;
     margin-bottom: 0;
     height: var(--server-size);
-    margin-top: 10px;
     [role="group"] {
       display: flex;
       align-items: center;
@@ -142,8 +142,11 @@
   }
   .expandedFolderBackground-2sPsd- {
     height: var(--server-size);
-    width: calc(100% - 20px);
-    border-radius: 0 50px 50px 0;
+    width: calc(100% - 11px);
+    left: 0;
+    &.collapsed-1GMuSb {
+      width: var(--server-size);
+    }
   }
   [class*="unreadMentionsIndicator"] {
     display: none;

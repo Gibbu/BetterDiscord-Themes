@@ -52,6 +52,7 @@
 }
 #app-mount [data-ref-id=guildsnav] {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   height: var(--server-container);
   overflow-y: auto;
@@ -65,7 +66,6 @@
   align-items: center;
   margin-bottom: 0;
   height: var(--server-size);
-  margin-top: 10px;
 }
 #app-mount .wrapper-21YSNc [role=group] {
   display: flex;
@@ -229,8 +229,11 @@
 }
 #app-mount .expandedFolderBackground-2sPsd- {
   height: var(--server-size);
-  width: calc(100% - 20px);
-  border-radius: 0 50px 50px 0;
+  width: calc(100% - 11px);
+  left: 0;
+}
+#app-mount .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+  width: var(--server-size);
 }
 #app-mount [class*=unreadMentionsIndicator] {
   display: none;
