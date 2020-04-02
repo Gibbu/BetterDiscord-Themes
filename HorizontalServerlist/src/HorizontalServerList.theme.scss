@@ -50,27 +50,24 @@
       > .listItem-2P_4kh:not(:last-child) {
         min-width: unset;
       }
+      > div[style]:not(.listItem-2P_4kh) .listItem-2P_4kh {
+        margin-top: 0;
+      }
+      > .listItem-2P_4kh:first-child {
+        + .listItem-2P_4kh:not(#bd-pub-li),
+        + #bd-pub-li + .listItem-2P_4kh {
+          width: 2px;
+          min-width: unset;
+        }
+      }
+      > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
+        height: var(--server-size) !important;
+      }
     }
   }
   .guildSeparator-3s64Iy {
     height: var(--server-size);
     width: 2px;
-  }
-  nav .scroller-2TZvBN {
-    padding-top: 0;
-    padding-left: var(--server-spacing);
-    display: flex;
-    align-items: center;
-    > .listItem-2P_4kh:first-child {
-      + .listItem-2P_4kh:not(#bd-pub-li),
-      + #bd-pub-li + .listItem-2P_4kh {
-        width: 2px;
-        min-width: unset;
-      }
-    }
-    > div[style]:not(.listItem-2P_4kh):not(.wrapper-21YSNc) {
-      height: var(--server-size) !important;
-    }
   }
   [data-ref-id="guildsnav"] {
     display: flex;
