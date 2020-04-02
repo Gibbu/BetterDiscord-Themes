@@ -178,7 +178,7 @@
 
   // Red buttons
   .lookOutlined-3sRXeN.colorRed-1TFJan {
-    @include smallBtn(var(--discord-red));
+    @include smallBtn(rgba(var(--discord-red), 1));
   }
 
   // Buttons

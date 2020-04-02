@@ -1,96 +1,6 @@
 #app-mount .sidebar-2K8pFh {
   .wrapper-1ucjTd {
-    height: auto;
     position: relative;
-    .content-3at_AU {
-      margin: 0;
-      padding: 0 var(--spacing);
-      border-radius: 0;
-      height: var(--item-height);
-      svg {
-        color: var(--text-default);
-        opacity: .75;
-      }
-      .icon-1_QxNX {
-        margin-right: var(--spacing);
-        opacity: .75;
-        height: 16px;
-        width: auto;
-      }
-      .name-3_Dsmg {
-        font-size: var(--font-size-lg);
-        font-weight: var(--font-weight-normal);
-        color: var(--text-default);
-      }
-    }
-
-    .list-2bwCXU {
-      padding-left: 0;
-      .content-3xS9Lh {
-        border-radius: 0;
-        margin: 0;
-        height: 100%;
-        padding-left: calc(var(--spacing) * 2.5);
-      }
-      .voiceUser-14U_Ns {
-        border-radius: 0;
-        height: 36px;
-        .avatarContainer-2inGBK {
-          margin-left: var(--spacing);
-          border-radius: var(--border-radius);
-          &.avatarSpeaking-3MqCHL {
-            box-shadow: none;
-          }
-        }
-        .usernameSpeaking-2xbKKh {
-          display: flex;
-          align-items: center;
-          &:after {
-            content: "";
-            display: block;
-            width: 14px;
-            height: 14px;
-            margin-left: var(--spacing);
-            -webkit-mask: url($icon_speaker) center/cover no-repeat;
-            background: currentColor;
-          }
-        }
-        .icons-3q-_6z {
-          margin-right: var(--spacing);
-        }
-
-        // Selected user
-        &.selected-3TGCSZ {
-          .username-lm8y6T {
-            color: #fff !important;
-          }
-          .usernameSpeaking-2xbKKh:after {
-            background: #fff;
-          }
-        }
-      }
-
-      // Collapsed channel
-      &.collapsed-3x0tkj {
-        padding-left: calc(var(--spacing) * 2.5);
-        .content-3xS9Lh {
-          padding-left: 0;
-        }
-      }
-    }
-
-    // Unread pill
-    .unread-3zKkbm {
-      border-radius: 0;
-      width: 3px;
-      height: 40%;
-      top: 50%;
-      transform: translateY(-50%);
-      margin-top: 0;
-      background-color: var(--accent-solid) !important;
-      transition: 0.2s ease;
-      z-index: 1;
-    }
 
     // Unread channel
     &.modeUnread-1zpFdA {
@@ -122,6 +32,55 @@
     }
   }
 
+  // User drag
+  .draggable-1KoBzC {
+    height: var(--item-height);
+  }
+
+  // User drag region
+  .containerUserOver-1U5YnL:after {
+    left: 0;
+    border-radius: 0;
+    border-color: var(--accent-solid);
+    background: rgba(var(--accent), 0.2);
+  }
+
+  // Unread pill
+  .unread-3zKkbm {
+    border-radius: 0;
+    width: 3px;
+    height: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    background-color: var(--accent-solid) !important;
+    transition: 0.2s ease;
+    z-index: 1;
+  }
+
+  // Channel
+  .content-3at_AU {
+    margin: 0;
+    padding: 0 var(--spacing);
+    border-radius: 0;
+    height: var(--item-height);
+    svg {
+      color: var(--text-default);
+      opacity: .75;
+    }
+    .icon-1_QxNX {
+      margin-right: var(--spacing);
+      opacity: .75;
+      height: 16px;
+      width: auto;
+    }
+    .name-3_Dsmg {
+      font-size: var(--font-size-lg);
+      font-weight: var(--font-weight-normal);
+      color: var(--text-default);
+    }
+  }
+
   // Connected users in voice
   .list-2bwCXU {
     padding-left: 0;
@@ -133,7 +92,7 @@
     }
     .voiceUser-14U_Ns {
       border-radius: 0;
-      height: 36px;
+      height: var(--item-height);
       .avatarContainer-2inGBK {
         margin-left: var(--spacing);
         border-radius: var(--border-radius);
@@ -158,7 +117,7 @@
         margin-right: var(--spacing);
       }
       &.selected-3TGCSZ {
-        .username-lm8y6T {
+        .username-lm8y6T, .icon-3BcwQu {
           color: #fff !important;
         }
         .usernameSpeaking-2xbKKh:after {

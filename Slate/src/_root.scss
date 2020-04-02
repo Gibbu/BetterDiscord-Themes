@@ -30,7 +30,7 @@
   // Toolbar (headers)
   --toolbar-height: 50px;
 
-  //
+  // Channels
   --item-height: 34px;
 
   // Sidebars
@@ -43,14 +43,17 @@
   --avatar-size: 30px;
   --avatar-size-large: 45px;
 
-  // Discord defaults
-  --discord-green: #43b581;
-  --discord-yellow: #faa61a;
-  --discord-red: #f04747;
-  --discord-purple: #593695;
-  --discord-invisible: #747f8d;
-  --discord-nitro: #ff73fa;
-  --discord-blurple: #7289da;
+  // Random ass vars
+  --discord-green: 67, 181, 129;
+  --discord-yellow: 250, 166, 26;
+  --discord-red: 240, 71, 71;
+  --discord-purple: 89, 54, 149;
+  --discord-invisible: 117, 128, 142;
+  --discord-nitro: 255, 115, 250;
+  --discord-blurple: 114, 137, 218;
+  --bd-blue: var(--accent-solid);
+  --bd-blue-hover: var(--accent-solid-hover);
+  --blurple: var(--accent-solid);
 
   // RadialStatus vars
   --rs-small-spacing: 0px;

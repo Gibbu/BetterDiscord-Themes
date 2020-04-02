@@ -1,120 +1,76 @@
 #app-mount .panels-j1Uci_ {
   background: var(--account-panel-background-colour);
   border-top: 1px solid var(--border-colour);
-  // Connected channel
+  position: relative;
+
+  // Connected
   .container-1giJp5 {
-    border: none;
-    padding: var(--spacing) var(--spacing) 0;
     position: relative;
-    .inner-tyMogq > div {
-      display: flex;
-      align-items: center;
-    }
-    // Go love and Disconnect buttons
-    .horizontal-1ae9ci {
-      background: var(--background-colour);
-      border: 1px solid var(--border-colour);
-      border-radius: var(--border-radius);
-      overflow: hidden;
-      width: calc(100% - var(--spacing) * 4);
-      button {
-        border-radius: 0;
-        flex: 1;
-        height: 27px;
-        svg {
-          width: 14px !important;
-          height: 14px !important;
-        }
-        &:hover {
-          background: rgba(255, 255, 255, 0.05);
-        }
+    border-bottom-color: var(--border-colour);
+    padding-left: calc(var(--spacing-double) + 12px);
+  }
+  .subtext-3CDbHg {
+    color: var(--text-focus);
+  }
+  .statusWithPopout-3ZfFol {
+    font-size: var(--font-size);
+  }
+  .channel-1TmDQ6 {
+    font-size: var(--font-size-sm);
+  }
+
+  // Connection strength
+  .ping-2NgC8E {
+    position: absolute;
+    top: var(--spacing);
+    left: var(--spacing);
+    margin-right: 0;
+    height: 28px;
+    rect {
+      width: 11px;
+      height: 9px;
+      rx: 0;
+      x: 0;
+      &:first-child {
+        y: -4px;
+      }
+      &:nth-child(2) {
+        y: 4px;
+      }
+      &:last-child {
+        y: 12px;
       }
     }
   }
 
-  .rtcConnectionStatus-2-jIsi {
-    > div {
-      display: none;
-      position: absolute;
-      background: var(--background-colour);
-      border: 1px solid var(--border-colour);
-      height: 29px;
-      margin-top: 1px;
-      box-sizing: border-box;
-      border-radius: var(--border-radius);
-      z-index: 1;
-      width: calc(100% - var(--spacing) * 6 + 2px);
-      right: var(--spacing);
-      overflow: visible;
-      .contents-18-Yxp {
-        font-size: var(--font-size);
-      }
-      button {
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        &:hover {
-          text-decoration: none;
-          background: rgba(255,255,255,0.05);
-        }
-      }
-      &:before {
-        content: "";
-        height: 100%;
-        width: 12px;
-        display: block;
-        position: absolute;
-        left: -12px;
-        z-index: 1;
-      }
-    }
+  // Buttons
+  .button-14-BFJ {
+    background: var(--background-colour);
+    border: 1px solid var(--border-colour);
+    margin-left: 5px;
+    height: 28px;
+    width: 28px;
     svg {
-      width: 24px;
-      height: 24px;
+      width: 16px;
+      height: 16px;
     }
-    & + a {
-      display: none;
-    }
-    &:hover > div,
-    &:hover > a {
-      display: block;
+    &:hover {
+      background: rgba(255,255,255,0.01);
     }
   }
 
   // User
   .container-3baos1 {
     padding: 0 var(--spacing);
-    .nameTag-3uD-yy {
-      display: none;
-    }
     .wrapper-3t9DeA {
       width: var(--avatar-size-small) !important;
       height: var(--avatar-size-small) !important;
     }
-    .avatarWrapper-2yR4wp {
-      margin-right: 0;
+    .subtext-3CDbHg {
+      font-size: var(--font-size-sm);
     }
-
-    // Mute, Deafen, Settings
-    .horizontal-1ae9ci {
-      margin-left: var(--spacing);
-      width: 100%;
-      border: 1px solid var(--border-colour);
-      background: var(--background-colour);
-      border-radius: var(--border-radius);
-      overflow: hidden;
-      button {
-        flex: 1;
-        border-radius: 0;
-        height: 27px;
-        svg {
-          width: 14px !important;
-          height: 14px !important;
-        }
-        &:hover {
-          background: rgba(255,255,255,0.05);
-        }
-      }
-    }
+  }
+  .title-eS5yk3 {
+    font-size: var(--font-size);
   }
 }

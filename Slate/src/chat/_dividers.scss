@@ -17,7 +17,7 @@
     .unreadPill-2HyYtt {
       position: unset;
       background: transparent;
-      color: var(--discord-red);
+      color: rgba(var(--discord-red), 1);
       svg {
         display: none;
       }
