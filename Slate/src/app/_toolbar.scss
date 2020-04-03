@@ -112,11 +112,17 @@
     position: absolute;
     right: var(--spacing);
     .searchBar-3dMhjb {
-      background: var(--background-colour);
+      background: var(--toolbar-search);
       border: 1px solid var(--toolbar-border);
       padding: 0 var(--spacing-half);
       height: 27px;
       border-radius: var(--border-radius);
+      color: var(--toolbar-text-default);
+    }
+    .public-DraftEditorPlaceholder-root {
+      color: var(--toolbar-text-focus);
+      opacity: .3;
+      font-weight: 400;
     }
     .searchAnswer-3Dz2-q,
     .searchFilter-2ESiM3 {

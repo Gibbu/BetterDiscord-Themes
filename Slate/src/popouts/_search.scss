@@ -27,8 +27,13 @@
     padding: 0 var(--spacing);
     display: flex;
     align-items: center;
+    color: var(--text-muted);
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
+  }
+  .searchClearHistory-2cSSMO,
+  .searchLearnMore-3SQUAj a {
+    color: var(--text-default);
   }
   .filter-3Y_im-,
   .displayedNick-3xxvzU {
@@ -53,7 +58,8 @@
       .filter-3Y_im-,
       .answer-1n6g43,
       .displayedNick-3xxvzU,
-      .displayUsername-Qekxml {
+      .displayUsername-Qekxml,
+      .nonText-3CRkO0 {
         color: #fff;
       }
       &:after {
@@ -62,14 +68,14 @@
     }
   }
   .plusIcon-v0BTrL {
-    color: var(--text-focus);
+    color: #fff;
     opacity: 1;
   }
   &:before {
     content: "";
     position: fixed;
     top: calc(var(--titlebar-height) + var(--toolbar-height) + 1px);
-    left: calc(var(--base-left) + 1px);
+    left: var(--base-left);
     width: calc(100vw - 320px - var(--base-left));
     height: 100vh;
     background: rgba(0,0,0,0.5);

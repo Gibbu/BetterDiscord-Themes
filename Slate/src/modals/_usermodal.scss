@@ -9,11 +9,30 @@
   .header-QKLPzZ {
     padding: var(--spacing-double);
   }
-  .discriminator-xUhQkU {
+  .discriminator-xUhQkU,
+  .text-AOoUen,
+  .activityHeader-1PExlk,
+  .listenAlongIcon-2vb1HG,
+  .additionalActionsIcon-1FoUlE {
     color: var(--text-default);
   }
 
   // Rich Presence
+  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    color: var(--text-default);
+    border-color: rgba(var(--text-opacity), 0.2);
+    &:hover {
+      border-color: rgba(var(--text-opacity), 0.5);
+    }
+  }
+  .lookInverted-2D7oAl.colorGreen-29iAKY {
+    background-color: rgba(var(--discord-spotify), 1);
+    color: #fff;
+  }
+  .lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: rgba(var(--discord-blurple), 1);
+    color: #fff;
+  }
   .headerFill-adLl4x {
     background: transparent;
   }
@@ -36,12 +55,15 @@
       display: none;
     }
   }
+  .activityName-1IaRLn {
+    color: var(--text-default);
+  }
   .assetsLargeImageProfile-3YXDex {
     width: 60px;
     height: 60px;
     position: relative;
     z-index: 1;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
   }
   .assetsSmallImageProfile-3JcsV1 {
     width: 21px;
@@ -49,13 +71,14 @@
     z-index: 1;
     bottom: 0;
     right: 0;
-    border-radius: 4px 0 4px;
+    border-radius: var(--border-radius) 0 var(--border-radius);
   }
   .activityName-1IaRLn {
     font-size: var(--font-size-lg);
   }
   .textRow-19NEd_ {
     font-size: var(--font-size);
+    color: var(--text-default);
   }
 
   .bar-3urHkF {
@@ -120,7 +143,7 @@
     &::-webkit-scrollbar-thumb {
       border-style: solid;
       border-color: transparent;
-      border-left-width: 4px;
+      border-left-width: var(--border-radius);
       border-right-width: 3px;
       background-clip: padding-box;
       background-color: var(--channel-scrollbar);
@@ -138,7 +161,7 @@
     padding: var(--spacing);
   }
   .listAvatar-1NlAhb {
-    border-radius: 4px;
+    border-radius: var(--border-radius);
   }
   .listName-3w10cx {
     font-size: var(--font-size-lg);
@@ -189,7 +212,7 @@
     box-sizing: border-box;
     border: 1px solid var(--border-colour);
     background: var(--modal-header);
-    border-radius: 4px;
+    border-radius: var(--border-radius);
   }
 
 
@@ -255,4 +278,10 @@
 
 
 
+}
+
+.theme-light #app-mount .root-SR8cQa {
+  [class*="profileBadge"] {
+    filter: invert(90%);
+  }
 }

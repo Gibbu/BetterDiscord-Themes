@@ -22,9 +22,9 @@
     border-radius: var(--border-radius);
     color: var(--text-default);
     &.selected-3s45Ha, &[style*="background-color: rgb(114, 137, 218)"] {
-      color: var(--text-focus);
+      color: #fff;
       &:before {
-        background-color: var(--text-focus);
+        background-color: #fff;
       }
     }
   }

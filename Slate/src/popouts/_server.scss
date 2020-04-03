@@ -10,6 +10,8 @@
     box-shadow: none;
     height: 100vh;
     background: var(--background-colour);
+    border-right: 1px solid var(--border-colour);
+    background: var(--context-background);
     .item-1GzJrl {
       margin: 0;
       padding: var(--spacing);
@@ -29,7 +31,7 @@
       content: "";
       position: absolute;
       top: -8px;
-      left: 241px;
+      left: 239px;
       width: 100vw;
       height: 100vh;
       background: rgba(0,0,0,0.5);

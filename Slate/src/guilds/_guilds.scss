@@ -38,20 +38,21 @@
       position: absolute;
       top: -5px;
       left: 0;
-      width: calc(100% - 23px);
+      width: calc(var(--base-left) - 1px);
       height: var(--toolbar-height);
       background: var(--toolbar-background);
-      border-right: 1px solid var(--toolbar-border);
       border-bottom: 1px solid var(--toolbar-border);
+      border-right: 1px solid var(--toolbar-border);
     }
-    &:after {
-      content:"";
-      position: absolute;
-      top: 46px;
-      height: 100vh;
-      width: calc(100% - 23px);
-      border-right: 1px solid var(--border-colour);
-    }
+  }
+  &:after {
+    content:"";
+    position: absolute;
+    top: var(--toolbar-height);
+    height: 100vh;
+    width: calc(var(--base-left) - 1px);
+    border-right: 1px solid var(--border-colour);
+    pointer-events: none;
   }
   .homeIcon-tEMBK1 {
     -webkit-mask: url($icon_home) center/cover no-repeat;

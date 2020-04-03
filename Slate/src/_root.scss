@@ -1,11 +1,12 @@
 :root {
   // Master variables
-  --border-radius: 3px;
+  --border-radius: 4px;
   --accent-solid: rgba(var(--accent), 1);
   --accent-solid-hover: rgba(var(--accent-hover), 1);
-  --base-left: var(--container, 0);
+  --base-left: var(--container, 70px);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: var(--accent-solid-hover);
+  --text-link: var(--accent-solid);
 
   // Spacing
   --spacing-third: calc(var(--spacing) / 3);
@@ -32,6 +33,7 @@
   // Toolbar (headers)
   --toolbar-height: 50px;
   --toolbar-background: #1d2125;
+  --toolbar-header-selected: #24292e;
   --toolbar-hover-background: #2f363d;
   --toolbar-border: #141414;
   --toolbar-icon-default: #d1d5da;
@@ -39,6 +41,7 @@
   --toolbar-text-default: #d1d5da;
   --toolbar-text-muted: #959da5;
   --toolbar-text-focus: #ffffff;
+  --toolbar-search: rgba(0,0,0,0.2);
 
   // Channels
   --item-height: 34px;
