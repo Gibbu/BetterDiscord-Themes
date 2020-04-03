@@ -1,4 +1,33 @@
+@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 ::selection {
   background: var(--accent-solid);
   color: #fff;
+}
+#app-mount {
+  background: var(--titlebar-background);
+  .base-3dtUhz {
+    border-radius: 0;
+    left: var(--base-left);
+  }
+
+  .layer-3QrUeG.baseLayer-35bLyl {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
+
+  // Mentions/Channel jump
+  .mention {
+    background: rgba(var(--accent), 0.15);
+    border-radius: var(--border-radius);
+    color: var(--accent-solid);
+    &:hover {
+      background: var(--accent-solid);
+      color: #fff;
+    }
+  }
+
+  // Remove box-shadow from chat
+  .content-yTz4x3:before {
+    content: none;
+  }
 }

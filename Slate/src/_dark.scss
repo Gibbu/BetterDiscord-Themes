@@ -6,11 +6,6 @@
   --text-muted: #959da5;
   --text-focus: #ffffff;
 
-  // Toolbar (headers)
-  --toolbar-background: #1d2125;
-  --toolbar-hover-background: #2f363d;
-  --toolbar-server-icon-colour: #454f59;
-
   // Account Container
   --account-panel-background-colour: #2f363d;
   --account-button-hover-colour: #{lighten(#2f363d, 1%)};
@@ -34,6 +29,10 @@
   --settings-input-background: var(--toolbar-background);
   --settings-input-height: 25px;
 
+  // Modals
+  --modal-header: var(--toolbar-background);
+  --modal-body: var(--background-colour);
+
   // Checkbox
   --checkbox-background: #fff;
   --checkbox-border: #bbb;
@@ -43,6 +42,7 @@
   --userpopout-header: var(--toolbar-background);
   --userpopout-body: var(--background-colour);
   --userpopout-textbox: var(--toolbar-background);
+  --userpopout-button-hover: rgba(255,255,255,0.03);
 
   // Font weights
   --font-weight-ultralight: 300;
@@ -55,6 +55,9 @@
   // Search
   --search-result: var(--main-background);
   --search-tag: var(--toolbar-background);
+
+  // Tooltips
+  --tooltip-background: #{darken(#2a3036, 4%)};
 
   // Scrollbars
   --channel-scrollbar: rgba(0,0,0,0.3);

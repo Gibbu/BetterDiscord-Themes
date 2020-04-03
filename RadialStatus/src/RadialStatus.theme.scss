@@ -27,6 +27,9 @@
     svg:not(:root) {
       overflow: visible;
     }
+    foreignObject {
+      mask: none;
+    }
     .dots-3Bkt3k {
       position: relative;
       z-index: 2;

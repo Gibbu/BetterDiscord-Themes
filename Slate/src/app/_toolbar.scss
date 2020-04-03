@@ -1,7 +1,7 @@
 #app-mount .container-1r6BKw {
   background: var(--toolbar-background);
   height: var(--toolbar-height);
-  border-bottom: 1px solid var(--border-colour);
+  border-bottom: 1px solid var(--toolbar-border);
   padding-left: 0;
   position: relative;
 
@@ -11,12 +11,12 @@
     height: var(--toolbar-height);
     min-width: 230px;
     padding: var(--spacing);
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--toolbar-border);
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing) 0 0;
       .icon-22AiRD {
         width: 16px;
-        color: var(--text-default);
+        color: var(--toolbar-text-muted);
       }
     }
     h3 {
@@ -25,13 +25,14 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      color: var(--toolbar-text-default);
       &:before {
         content: "Current Channel";
         margin-bottom: -2px;
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-light);
         line-height: normal;
-        color: var(--text-muted);
+        color: var(--toolbar-text-muted);
       }
     }
     .divider-3FBTu8 {
@@ -60,9 +61,15 @@
   .toolbar-1t6TWx {
     height: var(--toolbar-height);
     padding: 0 var(--spacing);
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--toolbar-border);
     .iconWrapper-2OrFZ1 {
       margin: 0 calc(var(--spacing) * 2) 0 0;
+    }
+    .icon-22AiRD {
+      color: var(--toolbar-icon-default);
+    }
+    .selected-1GqIat .icon-22AiRD {
+      color: var(--toolbar-icon-focus);
     }
     a .iconWrapper-2OrFZ1 {
       margin-right: 0;
@@ -75,7 +82,7 @@
   // Header buttons in friends/library tab
   .topPill-30KHOu {
     height: var(--toolbar-height);
-    border-left: 1px solid var(--border-colour);
+    border-left: 1px solid var(--toolbar-border);
     margin-left: var(--spacing);
     div {
       border-radius: 0;
@@ -87,15 +94,15 @@
       padding: 0 var(--spacing);
       &:hover {
         background: var(--toolbar-hover-background) !important;
-        color: var(--text-default) !important;
+        color: var(--toolbar-text-default) !important;
       }
       &.selected-3s45Ha {
-        color: var(--text-focus) !important;
+        color: var(--toolbar-text-focus) !important;
         background: var(--accent-solid) !important;
       }
       &[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
         background: var(--discord-green) !important;
-        color: var(--text-focus) !important;
+        color: var(--toolbar-text-focus) !important;
       }
     }
   }
@@ -106,7 +113,7 @@
     right: var(--spacing);
     .searchBar-3dMhjb {
       background: var(--background-colour);
-      border: 1px solid var(--border-colour);
+      border: 1px solid var(--toolbar-border);
       padding: 0 var(--spacing-half);
       height: 27px;
       border-radius: var(--border-radius);

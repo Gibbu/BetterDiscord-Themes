@@ -1,6 +1,9 @@
 #app-mount .wrapper-3t9DeA svg:not(:root) {
   overflow: visible;
 }
+#app-mount .wrapper-3t9DeA foreignObject {
+  mask: none;
+}
 #app-mount .wrapper-3t9DeA .dots-3Bkt3k {
   position: relative;
   z-index: 2;

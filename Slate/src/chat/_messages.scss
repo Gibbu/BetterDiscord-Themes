@@ -67,10 +67,27 @@
     }
   }
 
+  .latin24CompactTimeStamp-2V7XIQ {
+    width: 55px;
+    margin: 0;
+    text-align: center;
+  }
+
   .mentioned-xhSam7 {
     background: rgba(var(--accent), 0.1) !important;
     &:before {
       background-color: var(--accent-solid);
+    }
+  }
+
+  // Reactions
+  .reaction-1hd86g {
+    background: var(--background-colour);
+    &.reactionMe-wv5HKu {
+      background: rgba(var(--accent), 0.2);
+      .reactionCount-2mvXRV {
+        color: var(--accent-solid);
+      }
     }
   }
 

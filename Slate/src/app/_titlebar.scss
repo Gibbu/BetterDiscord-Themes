@@ -1,8 +1,8 @@
 #app-mount .titleBar-AC4pGV {
   height: calc(var(--titlebar-height) - 2px);
-  border-bottom: 1px solid var(--border-colour);
+  border-bottom: 1px solid var(--titlebar-border);
   margin-top: 2px;
-  background: var(--background-colour);
+  background: var(--titlebar-background);
   position: relative;
   .wordmarkWindows-1v0lYD {
     padding: 0 9px;
@@ -17,12 +17,13 @@
     &:before {
       content: 'Discord';
       font-size: var(--font-size);
-      color: var(--text-default);
+      color: var(--toolbar-text-default);
     }
   }
   .winButton-iRh8-Z {
     height: var(--titlebar-height);
     width: calc(var(--titlebar-height) * 1.5);
+    color: var(--toolbar-text-default);
     top: -2px;
   }
 }

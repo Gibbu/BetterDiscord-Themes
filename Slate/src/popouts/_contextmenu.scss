@@ -3,9 +3,31 @@
   box-shadow: none;
   border: 1px solid var(--border-colour);
   padding: 0;
+  .wrapper-35dUTv {
+    display: none;
+    & + .itemBase-tz5SeC {
+      border-radius: 4px 4px 0 0;
+    }
+  }
+  .itemGroup-1tL0uz {
+    border-color: var(--border-colour);
+    border-radius: 0;
+    &:first-child .itemBase-tz5SeC:first-child {
+      border-radius: 4px 4px 0 0;
+    }
+    &:last-child .itemBase-tz5SeC:last-child {
+      border-radius: 0 0 4px 4px;
+    }
+  }
   .itemBase-tz5SeC {
+    font-size: var(--font-size);
     margin: 0;
     padding: var(--spacing-half) var(--spacing);
     box-sizing: border-box;
+    border-radius: 0;
   }
+}
+
+#app-mount .layer-v9HyYc:not(.disabledPointerEvents-1ptgTB) + .layer-v9HyYc:not(.disabledPointerEvents-1ptgTB) {
+  margin-left: -8px;
 }

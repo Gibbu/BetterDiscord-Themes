@@ -2,7 +2,8 @@
   // Find or start a coversation
   .searchBar-6Kv8R2 {
     background: var(--toolbar-background);
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--toolbar-border);
     height: calc(var(--toolbar-height) - 1px);
     box-shadow: none;
     button {
@@ -21,7 +22,7 @@
     height: auto;
   }
   .scroller-1JbKMe {
-    background: var(--background-colour);
+    background: var(--channel-background);
     & > div[style*="height: 8px"] {
       display: none;
     }
@@ -57,12 +58,15 @@
       &:active .wrapper-3t9DeA:before {
         background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
       }
-      &.selected-aXhQR6 .wrapper-3t9DeA {
-        &:before {
-          background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
-        }
-        &:after {
-          background: #fff;
+      &.selected-aXhQR6 {
+        color: #fff;
+        .wrapper-3t9DeA {
+          &:before {
+            background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
+          }
+          &:after {
+            background: #fff;
+          }
         }
       }
     }

@@ -1,6 +1,7 @@
 #app-mount .panels-j1Uci_ {
   background: var(--account-panel-background-colour);
   border-top: 1px solid var(--border-colour);
+  border-right: 1px solid var(--border-colour);
   position: relative;
 
   // Connected
@@ -28,7 +29,7 @@
     height: 28px;
     rect {
       width: 11px;
-      height: 9px;
+      height: 5px;
       rx: 0;
       x: 0;
       &:first-child {

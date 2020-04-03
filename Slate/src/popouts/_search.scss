@@ -69,7 +69,7 @@
     content: "";
     position: fixed;
     top: calc(var(--titlebar-height) + var(--toolbar-height) + 1px);
-    left: var(--base-left);
+    left: calc(var(--base-left) + 1px);
     width: calc(100vw - 320px - var(--base-left));
     height: 100vh;
     background: rgba(0,0,0,0.5);

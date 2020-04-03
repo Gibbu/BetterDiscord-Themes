@@ -1,9 +1,13 @@
 #app-mount .sidebar-2K8pFh {
   width: var(--sidebar-width);
-  border-right: 1px solid var(--border-colour);
   border-radius: 0;
   .container-PNkimc {
     background: var(--background-colour);
+  }
+
+  .scroller-2FKFPG {
+    border-right: 1px solid var(--border-colour);
+    background: var(--channel-background);
   }
 
   // Banner image
