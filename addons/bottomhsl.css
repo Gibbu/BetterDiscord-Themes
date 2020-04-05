@@ -1,24 +1,29 @@
-body #app-mount .container-2lgZY8 {
-  flex-direction: column-reverse;
-}
 body #app-mount .base-3dtUhz {
-  top: 0;
-  bottom: var(--server-container);
+  top: 0 !important;
+  bottom: var(--server-container) !important;
+}
+body #app-mount .guilds-1SWlCJ {
+  top: unset !important;
+  left: 100%;
+  bottom: 0 !important;
+  transform-origin: bottom left;
+}
+body #app-mount .guilds-1SWlCJ.content-Pph8t6 {
+  top: unset !important;
+  bottom: var(--server-container) !important;
+}
+body #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+  top: 0 !important;
+  bottom: calc(var(--server-container) * 2) !important;
 }
 body #app-mount .listItemTooltip-CDcY8J {
   position: absolute;
   white-space: nowrap;
-  top: calc((var(--server-size) / -1) - 30px);
+  top: calc(var(--server-size) / -1 - 30px) !important;
+  margin-left: calc(var(--server-size) / -1 - 20px);
 }
 body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
-  transform: rotate(0);
-  top: unset;
-  bottom: -10px;
-}
-body #app-mount [class*=pill] {
-  top: unset;
-  bottom: -10px;
-}
-body #app-mount [class*=pill] span {
-  border-radius: 4px 4px 0 0;
+  transform: rotate(0) !important;
+  top: unset !important;
+  bottom: -10px !important;
 }
