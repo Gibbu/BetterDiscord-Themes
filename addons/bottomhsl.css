@@ -2,19 +2,25 @@ body #app-mount .base-3dtUhz {
   top: 0 !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-1SWlCJ {
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   top: unset !important;
   left: 100%;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
-body #app-mount .guilds-1SWlCJ.content-Pph8t6 {
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
+  top: calc(var(--server-size) - 12px);
+}
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
+  border-radius: 4px 0 0 4px;
 }
 body #app-mount .listItemTooltip-CDcY8J {
   position: absolute;

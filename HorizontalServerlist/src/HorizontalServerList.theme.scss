@@ -31,10 +31,10 @@
     border-radius: 0;
   }
 
-  .guilds-1SWlCJ {
+  .wrapper-1Rf91z.guilds-1SWlCJ {
     transform-origin: top left;
     transform: rotate(-90deg);
-    height: 100vw;
+    height: 100vw !important;
     width: var(--server-container);
     top: var(--server-container);
     bottom: unset;
@@ -71,7 +71,7 @@
         height: 100% !important;
         width: 4px !important;
         transform: scale(0,1) !important;
-        transition: 0.2s ease !important;
+        transition: 0.15s ease !important;
         margin-left: 0;
         border-radius: 0 4px 4px 0;
       }
