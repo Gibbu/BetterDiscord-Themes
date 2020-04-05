@@ -42,7 +42,7 @@
   transform: rotate(90deg) translateY(-50%);
   height: var(--server-size);
   width: 4px;
-  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px);
+  top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
   margin-left: -2px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
@@ -51,7 +51,7 @@
   transform: scale(0, 1) !important;
   transition: 0.15s ease !important;
   margin-left: 0;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0 !important;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
   transform: scale(1, 0.24) !important;

@@ -65,7 +65,7 @@
       transform: rotate(90deg) translateY(-50%);
       height: var(--server-size);
       width: 4px;
-      top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px);
+      top: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
       margin-left: -2px;
       span {
         height: 100% !important;
@@ -73,7 +73,7 @@
         transform: scale(0,1) !important;
         transition: 0.15s ease !important;
         margin-left: 0;
-        border-radius: 0 4px 4px 0;
+        border-radius: 0 4px 4px 0 !important;
       }
       @for $i from 0 through 8 {
         span[style*="height: #{$i}"] {
