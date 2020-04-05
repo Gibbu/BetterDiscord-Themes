@@ -73,7 +73,7 @@
         transform: scale(0,1) !important;
         transition: 0.15s ease !important;
         margin-left: 0;
-        border-radius: 0 4px 4px 0 !important;
+        border-radius: 0 4px 4px 0;
       }
       @for $i from 0 through 8 {
         span[style*="height: #{$i}"] {

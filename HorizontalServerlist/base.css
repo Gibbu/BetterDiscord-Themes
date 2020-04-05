@@ -51,7 +51,7 @@
   transform: scale(0, 1) !important;
   transition: 0.15s ease !important;
   margin-left: 0;
-  border-radius: 0 4px 4px 0 !important;
+  border-radius: 0 4px 4px 0;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 0"] {
   transform: scale(1, 0.24) !important;
