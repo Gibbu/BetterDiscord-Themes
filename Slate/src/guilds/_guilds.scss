@@ -1,6 +1,8 @@
 #app-mount .guilds-1SWlCJ {
   .scroller-2TZvBN {
     background: var(--background-colour);
+    contain: none;
+    padding-top: calc(var(--toolbar-height) + var(--server-icon-spacing));
   }
   // Home button
   .listItem-2P_4kh:first-child .childWrapper-anI2G9 {
@@ -8,9 +10,21 @@
   }
   .tutorialContainer-1v44GL {
     .listItem-2P_4kh {
+      position: fixed;
       height: var(--toolbar-height);
-      position: relative;
-      top: -4px;
+      top: 21px;
+      z-index: 1;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(var(--base-left) - 1px);
+        height: var(--toolbar-height);
+        background: var(--topbar-background);
+        border-bottom: 1px solid var(--topbar-border);
+        border-right: 1px solid var(--topbar-border);
+      }
     }
     [class*=pill] {
       height: calc(var(--toolbar-height) / 2);
@@ -33,17 +47,6 @@
       left: 50%;
       transform: translateX(-50%);
     }
-    &:before {
-      content: "";
-      position: absolute;
-      top: -5px;
-      left: 0;
-      width: calc(var(--base-left) - 1px);
-      height: var(--toolbar-height);
-      background: var(--toolbar-background);
-      border-bottom: 1px solid var(--toolbar-border);
-      border-right: 1px solid var(--toolbar-border);
-    }
   }
   &:after {
     content:"";
@@ -64,7 +67,8 @@
     }
   }
   .guildSeparator-3s64Iy {
-    display: none;
+    background: var(--border-colour);
+    height: 1px;
   }
   .childWrapper-anI2G9 {
     background: var(--server-icon);

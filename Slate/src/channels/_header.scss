@@ -2,13 +2,13 @@
 
   // Server dropdown selected
   .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
-    background: var(--toolbar-header-selected);
+    background: var(--topbar-header-selected);
   }
   .header-2o-2hj {
     box-shadow: none;
-    border-bottom: 1px solid var(--toolbar-border);
-    border-right: 1px solid var(--toolbar-border);
-    background-color: var(--toolbar-background);
+    border-bottom: 1px solid var(--topbar-border);
+    border-right: 1px solid var(--topbar-border);
+    background-color: var(--topbar-background);
     height: var(--toolbar-height);
     padding: var(--spacing);
     transition: none;
@@ -51,7 +51,7 @@
       }
     }
     &:hover {
-      background: var(--toolbar-hover-background);
+      background: var(--topbar-background-hover);
     }
   }
 }

@@ -1,4 +1,13 @@
 #app-mount {
+  // Buttons
+  .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background: var(--accent-solid);
+    color: #fff;
+    &:hover {
+      background: var(--accent-solid-hover);
+    }
+  }
+
   // Radio buttons
   .item-26Dhrx {
     background-color: transparent !important;
@@ -12,6 +21,29 @@
         font-weight: bold;
       }
     }
+    .checkbox-1ix_J3 {
+      border: none !important;
+      background: var(--checkbox-background) !important;
+      border-radius: 50%;
+      width: 14px !important;
+      height: 14px !important;
+      position: relative;
+      cursor: pointer;
+      svg {
+        display: none;
+      }
+      &.checked-3_4uQ9:before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        background: var(--accent-solid);
+        transform: translate(-50%, -50%);
+      }
+    }
   }
   .checkboxWrapper-SkhIWG {
     display: flex;
@@ -19,29 +51,6 @@
   }
   .input-3ITkQf[type="checkbox"] {
     display: none;
-  }
-  .checkbox-1ix_J3 {
-    border: none !important;
-    background: var(--checkbox-background) !important;
-    border-radius: 50%;
-    width: 14px !important;
-    height: 14px !important;
-    position: relative;
-    cursor: pointer;
-    svg {
-      display: none;
-    }
-    &.checked-3_4uQ9:before {
-      content: "";
-      position: absolute;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      top: 50%;
-      left: 50%;
-      background: var(--accent-solid);
-      transform: translate(-50%, -50%);
-    }
   }
   .label-cywgfr {
     display: flex;
@@ -80,10 +89,10 @@
       box-shadow: none;
       transform: translate3d(-1px,0,0);
     }
-    &.valueChecked-m-4IJZ {
+    &.valueChecked-m-4IJZ, &.bd-switch-checked {
       background: var(--accent-solid);
       &:after {
-        transform: translate3d(17px,0,0);
+        transform: translate3d(16px,0,0);
       }
     }
   }

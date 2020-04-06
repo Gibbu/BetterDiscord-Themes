@@ -67,6 +67,9 @@
     border: 1px solid var(--border-colour);
     background: var(--modal-body);
   }
+  .slateTextArea-1Mkdgw {
+    font-size: var(--font-size);
+  }
   .charcounter {
     font-size: var(--font-size);
     opacity: .5;
@@ -89,13 +92,6 @@
       polyline {
         stroke: #fff;
       }
-    }
-  }
-  .lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background: var(--accent-solid);
-    color: #fff;
-    &:hover {
-      background: var(--accent-solid-hover);
     }
   }
 }

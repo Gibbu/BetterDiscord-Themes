@@ -1,9 +1,12 @@
 #app-mount .messagesWrapper-3lZDfY {
   .message-2qnXI6 {
+    background: transparent !important;
+  }
+
+  .cozyMessage-3V1Y8y {
     margin: 0;
     padding-left: calc(var(--avatar-size) * 1.9);
     padding-bottom: var(--spacing);
-    background: transparent !important;
     .avatar-1BDn8e {
       border-radius: var(--border-radius);
       border: 1px solid var(--border-colour);
@@ -15,28 +18,17 @@
         border-color: var(--accent-solid);
       }
     }
-    .username-1A8OIy {
-      font-size: var(--font-size-lg);
-    }
-    .timestampCozy-1HNQR2 {
-      font-size: var(--font-size-sm);
-    }
-    .markup-2BOw-j {
-      font-size: var(--font-size);
-      margin-left: 0;
-      padding-left: 0;
-      .emoji {
-        width: calc(var(--font-size) * 1.6);
-        height: calc(var(--font-size) * 1.6);
-        &.jumboable {
-          width: calc(var(--font-size) * 4);
-          height: calc(var(--font-size) * 4);
-        }
+
+    .emoji {
+      width: calc(var(--font-size) * 1.6);
+      height: calc(var(--font-size) * 1.6);
+      &.jumboable {
+        width: calc(var(--font-size) * 4);
+        height: calc(var(--font-size) * 4);
       }
     }
-    &:last-child {
-      padding-bottom: calc(var(--spacing) + 5px);
-    }
+
+    // Quick actions
     .operations-36ENbA {
       font-size: 0px;
       margin-top: var(--spacing);
@@ -55,10 +47,34 @@
         }
       }
     }
+
+    // Timestamps
+    .latin24CompactTimeStamp-2V7XIQ {
+      width: 55px;
+      margin: 0;
+      text-align: center;
+    }
+
     & + .message-2qnXI6:not(.groupStart-23k01U) {
       margin-top: calc(var(--spacing) / -1);
     }
+    &:last-child {
+      padding-bottom: calc(var(--spacing) + 5px);
+    }
   }
+  .compact-T3H92H {
+    .emoji {
+      width: calc(var(--font-size) * 1.6);
+      height: calc(var(--font-size) * 1.6);
+      &.jumboable {
+        width: calc(var(--font-size) * 2);
+        height: calc(var(--font-size) * 2);
+      }
+    }
+  }
+
+
+
   .groupStart-23k01U {
     border-top: 1px solid var(--border-colour);
     padding-top: var(--spacing);
@@ -67,11 +83,20 @@
     }
   }
 
-  .latin24CompactTimeStamp-2V7XIQ {
-    width: 55px;
-    margin: 0;
-    text-align: center;
+  .username-1A8OIy {
+    font-size: var(--font-size-lg);
   }
+  .timestampCozy-1HNQR2 {
+    font-size: var(--font-size-sm);
+  }
+
+  // Message text
+  .markup-2BOw-j {
+    font-size: var(--font-size);
+    margin-left: 0;
+    padding-left: 0;
+  }
+
 
   .mentioned-xhSam7 {
     background: rgba(var(--accent), 0.1) !important;

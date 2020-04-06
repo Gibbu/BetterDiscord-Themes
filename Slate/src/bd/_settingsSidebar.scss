@@ -45,10 +45,10 @@
       -webkit-mask: url($icon_code) center/cover no-repeat;
     }
     &.selected {
-      color: var(--text-focus);
+      color: #fff;
       background: var(--accent-solid);
       &:before {
-        background-color: var(--text-focus);
+        background-color: #fff;
       }
     }
   }

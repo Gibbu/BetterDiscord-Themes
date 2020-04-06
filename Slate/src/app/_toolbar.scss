@@ -1,7 +1,7 @@
 #app-mount .container-1r6BKw {
-  background: var(--toolbar-background);
+  background: var(--topbar-background);
   height: var(--toolbar-height);
-  border-bottom: 1px solid var(--toolbar-border);
+  border-bottom: 1px solid var(--topbar-border);
   padding-left: 0;
   position: relative;
 
@@ -11,7 +11,7 @@
     height: var(--toolbar-height);
     min-width: 230px;
     padding: var(--spacing);
-    border-right: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--topbar-border);
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing) 0 0;
       .icon-22AiRD {
@@ -53,7 +53,7 @@
       content: none;
     }
     &:hover {
-      background: var(--toolbar-hover-background);
+      background: var(--topbar-background-hover);
     }
   }
 
@@ -61,7 +61,7 @@
   .toolbar-1t6TWx {
     height: var(--toolbar-height);
     padding: 0 var(--spacing);
-    border-right: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--topbar-border);
     .iconWrapper-2OrFZ1 {
       margin: 0 calc(var(--spacing) * 2) 0 0;
     }
@@ -82,7 +82,7 @@
   // Header buttons in friends/library tab
   .topPill-30KHOu {
     height: var(--toolbar-height);
-    border-left: 1px solid var(--toolbar-border);
+    border-left: 1px solid var(--topbar-border);
     margin-left: var(--spacing);
     div {
       border-radius: 0;
@@ -93,7 +93,7 @@
       color: var(--text-muted) !important;
       padding: 0 var(--spacing);
       &:hover {
-        background: var(--toolbar-hover-background) !important;
+        background: var(--topbar-background-hover) !important;
         color: var(--toolbar-text-default) !important;
       }
       &.selected-3s45Ha {
@@ -113,7 +113,7 @@
     right: var(--spacing);
     .searchBar-3dMhjb {
       background: var(--toolbar-search);
-      border: 1px solid var(--toolbar-border);
+      border: 1px solid var(--topbar-border);
       padding: 0 var(--spacing-half);
       height: 27px;
       border-radius: var(--border-radius);
