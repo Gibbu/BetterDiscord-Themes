@@ -38,7 +38,6 @@
 @import 'global/version';
 
 // General
-@import 'general/channels';
 @import 'general/settings';
 @import 'general/memberslist';
 
@@ -77,3 +76,5 @@
 @import 'chat/import';
 @import 'bd/import';
 @import 'guilds/guilds';
+@import 'channels/import';
+@import 'app/import';

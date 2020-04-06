@@ -42,27 +42,43 @@
     margin-top: calc(var(--message-padding) / -1);
     padding-top: 3px;
   }
-}
-.mentioned-xhSam7 {
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(250,166,26,0.05);
-    z-index: 1;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    pointer-events: none;
-    width: 2px;
-    background-color: #faa61a;
+  &.mentioned-xhSam7 {
+    &:before {
+      content: none;
+    }
+    .contents-2mQqc9 {
+      position: relative;
+      .avatar-1BDn8e {
+        top: 0;
+        left: 0;
+      }
+      .channelTextArea-2VhZ6z,
+      .operations-36ENbA {
+        position: relative;
+        z-index: 1;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: calc(var(--message-padding) / -1);
+        bottom: 0;
+        pointer-events: none;
+        width: 2px;
+        background-color: #faa61a;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: calc(var(--message-padding) / -1);
+        width: calc(100% + var(--message-padding) * 2);
+        height: 100%;
+        background: rgba(250,166,26,0.05);
+        z-index: 0;
+        pointer-events: none;
+      }
+    }
   }
 }
