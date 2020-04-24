@@ -1,10 +1,24 @@
 #app-mount {
   // Buttons
-  .lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background: var(--accent-solid);
-    color: #fff;
-    &:hover {
-      background: var(--accent-solid-hover);
+  .lookFilled-1Gx00P {
+    font-size: 12px;
+    .buttonIcon-Od8mYw {
+      height: 16px;
+      width: 16px;
+    }
+    &.colorBrand-3pXr91 {
+      background: var(--accent-solid);
+      color: #fff;
+      &:hover {
+        background: var(--accent-solid-hover);
+      }
+    }
+    &.buttonColor-7qQbGO {
+      background: var(--background-colour);
+      border: 1px solid var(--border-colour);
+      &:hover {
+        background: var(--settings-button-hover);
+      }
     }
   }
 

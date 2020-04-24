@@ -8,7 +8,6 @@
   .container-1giJp5 {
     position: relative;
     border-bottom-color: var(--border-colour);
-    padding-left: calc(var(--spacing-double) + 12px);
   }
   .subtext-3CDbHg {
     color: var(--text-focus);
@@ -18,30 +17,6 @@
   }
   .channel-1TmDQ6 {
     font-size: var(--font-size-sm);
-  }
-
-  // Connection strength
-  .ping-2NgC8E {
-    position: absolute;
-    top: var(--spacing);
-    left: var(--spacing);
-    margin-right: 0;
-    height: 28px;
-    rect {
-      width: 11px;
-      height: 5px;
-      rx: 0;
-      x: 0;
-      &:first-child {
-        y: -4px;
-      }
-      &:nth-child(2) {
-        y: 4px;
-      }
-      &:last-child {
-        y: 12px;
-      }
-    }
   }
 
   // Buttons

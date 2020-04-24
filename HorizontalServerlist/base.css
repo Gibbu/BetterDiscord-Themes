@@ -180,6 +180,7 @@
   width: var(--server-size);
   transform: rotate(90deg);
   margin: var(--server-spacing) 10px;
+  position: unset;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildSeparator-3s64Iy {
   transform: rotate(90deg);
@@ -211,12 +212,25 @@
   left: 13px;
   z-index: 1;
 }
+#app-mount .friendsOnline-2JkivW {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  top: calc(-50% + var(--server-spacing));
+  left: calc(-50%);
+  width: calc(var(--server-size) + var(--server-spacing));
+  display: flex;
+  justify-content: center;
+}
 #app-mount .guilds-1SWlCJ.content-Pph8t6 {
   position: absolute !important;
   top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
   top: calc(var(--server-container) * 2) !important;
+}
+
+html.platform-osx #app-mount .base-3dtUhz {
+  top: calc(var(--server-container) + 30px) !important;
 }
 
 body.foldercontentopened .base-3dtUhz {

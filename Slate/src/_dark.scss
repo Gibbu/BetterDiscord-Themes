@@ -20,14 +20,14 @@
   --channel-background: var(--background-colour);
 
   // Discovery
-  --discovery-search: var(--topbar-background);
-  --discovery-card: var(--topbar-background);
+  --discovery-search: var(--background-colour-dark);
+  --discovery-card: var(--background-colour-dark);
 
   // Emoji Picker
   --emoji-search: rgba(0,0,0,0.2);
 
   // Servers
-  --server-icon: var(--topbar-background);
+  --server-icon: var(--background-colour-dark);
 
   // Friends list
   --now-playing-background: var(--main-background);
@@ -38,11 +38,11 @@
   // Settings
   --settings-button: var(--account-panel-background-colour);
   --settings-button-hover: #{lighten(#2f363d, 4%)};
-  --settings-input-background: var(--topbar-background);
+  --settings-input-background: var(--background-colour-dark);
   --settings-input-height: 25px;
 
   // Modals
-  --modal-header: var(--topbar-background);
+  --modal-header: var(--background-colour-dark);
   --modal-body: var(--background-colour);
 
   // Checkbox
@@ -51,9 +51,9 @@
   --checkbox-tick: #444;
 
   // Userpopouts
-  --userpopout-header: var(--topbar-background);
+  --userpopout-header: var(--background-colour-dark);
   --userpopout-body: var(--background-colour);
-  --userpopout-textbox: var(--topbar-background);
+  --userpopout-textbox: var(--background-colour-dark);
   --userpopout-button-hover: rgba(255,255,255,0.03);
 
   // Font weights
@@ -66,7 +66,7 @@
 
   // Search
   --search-result: var(--main-background);
-  --search-tag: var(--topbar-background);
+  --search-tag: var(--background-colour-dark);
 
   // Tooltips
   --tooltip-background: #{darken(#2a3036, 4%)};

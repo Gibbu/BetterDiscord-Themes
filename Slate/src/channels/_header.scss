@@ -1,8 +1,11 @@
 #app-mount .sidebar-2K8pFh {
 
   // Server dropdown selected
-  .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
-    background: var(--topbar-header-selected);
+  .container-2Rl01u {
+    background: var(--topbar-background);
+    &.selected-WP3kCM .header-2o-2hj {
+      background: var(--topbar-header-selected);
+    }
   }
   .header-2o-2hj {
     box-shadow: none;
@@ -51,7 +54,7 @@
       }
     }
     &:hover {
-      background: var(--topbar-background-hover);
+      background-color: var(--topbar-background-hover);
     }
   }
 }
