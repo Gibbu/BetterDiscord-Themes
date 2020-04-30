@@ -176,6 +176,9 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span[style*="height: 40"] {
   transform: scale(1, 1) !important;
 }
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-sa6paO {
+  height: var(--server-size) !important;
+}
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .listItem-2P_4kh {
   width: var(--server-size);
   transform: rotate(90deg);

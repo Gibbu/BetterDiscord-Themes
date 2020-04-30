@@ -13,7 +13,6 @@
 }
 
 
-
 :root {
   --server-size: var(--HSL-server-icon-size, var(--HSL-size, 35px));
   --server-spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));
@@ -92,6 +91,10 @@
           transform: scale(1,1) !important;
         }
       }
+    }
+
+    .wrapper-sa6paO {
+      height: var(--server-size) !important;
     }
 
     .listItem-2P_4kh {

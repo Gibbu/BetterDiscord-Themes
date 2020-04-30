@@ -1,0 +1,33 @@
+.platform-win {
+  .typeWindows-1za-n7 {
+    height: 9px;
+    margin-top: 0;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+  }
+  .winButtonClose-1HsbF- {
+    border-top-right-radius: var(--TB-tr-roundness);
+  }
+  .winButton-iRh8-Z {
+    position: relative;
+    top: calc(var(--TB-position-top, 0px) - 1px);
+    right: var(--TB-position-right, 0px);
+    height: var(--TB-height, 48px);
+    width: var(--TB-width, 40px);
+    &:not(.winButtonClose-1HsbF-):hover {
+      background-color: rgba(255,255,255,0.1);
+    }
+  }
+  .container-1r6BKw {
+    padding-right: var(--TB-header-padding, 125px);
+  }
+  .wordmarkWindows-1v0lYD {
+    display: none;
+  }
+  #app-mount.bd-detached-editor .winButton-iRh8-Z {
+    right: 30%;
+  }
+}

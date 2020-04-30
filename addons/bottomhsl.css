@@ -17,7 +17,7 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)
   bottom: calc(var(--server-container) * 2) !important;
 }
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
-  top: calc(var(--server-size) - 12px);
+  top: calc(var(--server-size) - 12px) !important;
 }
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
   border-radius: 4px 0 0 4px;
@@ -32,4 +32,8 @@ body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
   transform: rotate(0) !important;
   top: unset !important;
   bottom: -10px !important;
+}
+
+html.platform-osx #app-mount .base-3dtUhz {
+  top: 32px !important;
 }

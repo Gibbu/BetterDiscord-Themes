@@ -1,0 +1,41 @@
+body #app-mount {
+  .base-3dtUhz {
+    top: 0 !important;
+    bottom: var(--server-container) !important;
+  }
+  .wrapper-1Rf91z.guilds-1SWlCJ {
+    top: unset !important;
+    left: 100%;
+    bottom: 0 !important;
+    transform-origin: bottom left;
+    &.content-Pph8t6 {
+      top: unset !important;
+      bottom: var(--server-container) !important;
+      &:not(.closed-j55_T-) + .base-3dtUhz {
+        top: 0 !important;
+        bottom: calc(var(--server-container) * 2) !important;
+      }
+    }
+    [class*="pill"] {
+      top: calc(var(--server-size) - 12px) !important;
+      span {
+        border-radius: 4px 0 0 4px;
+      }
+    }
+  }
+  .listItemTooltip-CDcY8J {
+    position: absolute;
+    white-space: nowrap;
+    top: calc(var(--server-size) / -1 - 30px) !important;
+    margin-left: calc(var(--server-size) / -1 - 20px);
+    .tooltipPointer-3ZfirK {
+      transform: rotate(0) !important;
+      top: unset !important;
+      bottom: -10px !important;
+    }
+  }
+}
+
+html.platform-osx #app-mount .base-3dtUhz {
+  top: 32px !important;
+}
