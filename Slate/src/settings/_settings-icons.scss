@@ -46,6 +46,9 @@
       -webkit-mask: url($icon_nitro-gem) center/cover no-repeat;
       background-color: rgba(var(--discord-nitro), 1);
     }
+    &.selected-3s45Ha {
+      background: rgba(var(--discord-nitro), 1);
+    }
   }
   // Hypesquad
   &:nth-child(11) {
@@ -53,6 +56,9 @@
     &:before {
       -webkit-mask: url($icon_hypesquad) center/cover no-repeat;
       background-color: rgba(var(--discord-yellow), 1);
+    }
+    &.selected-3s45Ha {
+      background: rgba(var(--discord-yellow), 1);
     }
   }
   // Voice and Video

@@ -16,12 +16,28 @@
       margin: 0;
       padding: var(--spacing);
       color: var(--text-default);
+      height: var(--item-height);
       border-radius: 0;
-      &:first-child {
-        color: rgba(var(--discord-nitro), 1);
-      }
-      &:not(:first-child):hover {
+      &:hover {
         color: var(--text-focus);
+      }
+      &:first-child {
+        color: rgb(var(--discord-nitro));
+        &:hover {
+          color: rgb(var(--discord-nitro));
+        }
+      }
+      &.invite-271nFU {
+        color: rgb(var(--discord-blurple));
+        &:hover {
+          color: rgb(var(--discord-blurple));
+        }
+      }
+      &.leave-1DRJfn {
+        color: rgb(var(--discord-red));
+        &:hover {
+          color: rgb(var(--discord-red));
+        }
       }
     }
     .separator-2zcjq8 {

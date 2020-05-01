@@ -4,6 +4,29 @@
   border-right: 1px solid var(--border-colour);
   position: relative;
 
+  // Buttons
+  button {
+    height: 25px;
+    flex: 1;
+    border-radius: 0;
+    transition: none;
+    svg {
+      height: 16px;
+      color: var(--text-default)
+    }
+    &:hover {
+      background: var(--accent-solid) !important;
+      svg {
+        color: #fff;
+      }
+    }
+  }
+
+  // Activity
+  .activityPanel-28dQGo {
+    border-color: var(--border-colour);
+  }
+
   // Connected
   .container-1giJp5 {
     position: relative;
@@ -19,21 +42,85 @@
     font-size: var(--font-size-sm);
   }
 
-  // Buttons
-  .button-14-BFJ {
-    background: var(--background-colour);
-    border: 1px solid var(--border-colour);
-    margin-left: 5px;
-    height: 28px;
-    width: 28px;
-    svg {
-      width: 16px;
-      height: 16px;
+  // Connection status
+  .container-1giJp5 {
+    padding: var(--spacing);
+    .inner-tyMogq {
+      flex: 0;
+      min-width: 18px;
     }
-    &:hover {
-      background: rgba(255,255,255,0.01);
+    .horizontal-1ae9ci>.flex-1xMQg5:last-child {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: flex-end;
+      background: var(--account-panel-buttons);
+      border-radius: var(--border-radius);
+      border: 1px solid var(--border-colour);
+      width: calc(100% - 28px);
+      box-sizing: border-box;
+      overflow: hidden;
+      button {
+        min-width: 52.25px;
+        flex: 0;
+      }
     }
   }
+  .rtcConnectionStatus-2-jIsi {
+    // &:before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   background: rgba(var(--discord-green), 0.1);
+    //   width: 100%;
+    //   height: 100%;
+    //   z-index: 0;
+    //   pointer-events: none;
+    // }
+    .statusWithPopout-3ZfFol {
+      position: absolute;
+      font-size: 0px;
+      top: 0;
+      left: 0;
+      background: transparent;
+      width: 10px;
+      height: 10px;
+    }
+    & + a {
+      display: none;
+    }
+  }
+
+  // Share buttons
+  .actionButtons-14eAc_ {
+    position: absolute;
+    top: var(--spacing);
+    right: calc(var(--spacing) + 103.25px);
+    margin-top: 0;
+    z-index: 1;
+    height: 27px;
+    button {
+      margin: 1px 0 0 0;
+      padding: 0;
+      min-height: 25px;
+      width: 52.25px;
+      font-size: 0;
+      min-width: unset;
+      border: none;
+      background: transparent;
+      &:first-child {
+        border-radius: var(--border-radius) 0 0 var(--border-radius);
+      }
+      &:last-child {
+        margin-right: 1px;
+      }
+    }
+    .buttonIcon-Od8mYw {
+      margin-right: 0;
+    }
+  }
+
 
   // User
   .container-3baos1 {
@@ -42,8 +129,16 @@
       width: var(--avatar-size-small) !important;
       height: var(--avatar-size-small) !important;
     }
-    .subtext-3CDbHg {
-      font-size: var(--font-size-sm);
+    .nameTag-3uD-yy {
+      display: none;
+    }
+    .directionRow-3v3tfG {
+      display: flex;
+      width: 100%;
+      background: var(--account-panel-buttons);
+      border-radius: var(--border-radius);
+      border: 1px solid var(--border-colour);
+      overflow: hidden;
     }
   }
   .title-eS5yk3 {

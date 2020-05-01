@@ -22,6 +22,9 @@
     width: var(--avatar-size-small) !important;
     height: var(--avatar-size-small) !important;
   }
+  .content-3QAtGj {
+    overflow: visible;
+  }
   .activity-2Gy-9S {
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
@@ -37,7 +40,11 @@
     border-radius: var(--border-radius);
     order: -1;
     margin-left: 0;
+    margin-top: 0;
     margin-right: var(--spacing-half);
+    svg, span {
+      display: none;
+    }
     &:before {
       content: '';
       width: 16px;

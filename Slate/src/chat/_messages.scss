@@ -1,4 +1,4 @@
-#app-mount .messagesWrapper-3lZDfY {
+#app-mount {
   .message-2qnXI6 {
     background: transparent !important;
   }
@@ -7,7 +7,7 @@
     height: auto;
   }
 
-  .cozyMessage-3V1Y8y {
+  .cozy-3raOZG {
     margin: 0;
     padding-left: calc(var(--avatar-size) * 1.9);
     padding-bottom: var(--spacing);
@@ -147,6 +147,9 @@
     background-color: var(--background-colour);
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
+    .slateTextArea-1Mkdgw {
+      padding: calc(var(--spacing) + 2px);
+    }
     .emojiButton-3uL3Aw {
       transform: scale(0.75);
     }

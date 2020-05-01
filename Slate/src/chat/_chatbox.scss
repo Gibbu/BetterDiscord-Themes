@@ -16,16 +16,25 @@
 
   // Attach files
   .attachWrapper-2TRKBi {
-    border-color: var(--border-colour);
+    border-right: 1px solid var(--border-colour);
     button {
       -webkit-mask: url($icon_upload) center/20px no-repeat;
       background: var(--text-muted);
       width: 44px;
       height: 44px;
+      transition: 0.1s ease;
       div {
         display: none;
       }
+      &:hover {
+        background: var(--text-focus);
+      }
     }
+  }
+
+  // No attachment
+  .sansAttachButton-td2irx {
+    padding-left: 0;
   }
 
   //

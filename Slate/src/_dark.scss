@@ -10,7 +10,7 @@
 
   // Account Container
   --account-panel-background-colour: #2f363d;
-  --account-button-hover-colour: #{lighten(#2f363d, 1%)};
+  --account-panel-buttons: var(--background-colour);
 
   // Chat/Friends/DM
   --main-background: #2a3036;
