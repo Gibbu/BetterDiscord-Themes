@@ -2,8 +2,8 @@
 name: Bug report
 about: Something needs fixing
 title: "[BUG] (Theme name) - (Brief description)"
-labels: bug
-assignees: Gibbu
+labels: ''
+assignees: ''
 
 ---
 
