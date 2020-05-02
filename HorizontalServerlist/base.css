@@ -231,7 +231,25 @@
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
   top: calc(var(--server-container) * 2) !important;
 }
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
+  height: var(--server-size) !important;
+}
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .wrapper-1BJsBx {
+  height: 100% !important;
+}
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .button-Jt-tIg {
+  width: 100%;
+  height: 100% !important;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
+html.platform-osx #app-mount .typeMacOS-3EmCyP {
+  width: 100%;
+}
 html.platform-osx #app-mount .base-3dtUhz {
   top: calc(var(--server-container) + 30px) !important;
 }

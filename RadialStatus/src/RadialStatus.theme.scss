@@ -100,7 +100,8 @@
         stroke: var(--rs-streaming-color);
       }
       &[fill="#747f8d"],
-      &[mask*="offline"] {
+      &[mask*="offline"],
+      &[fill="NaN"] {
         stroke: var(--rs-offline-color);
       }
       &[mask*="invisible"],
@@ -123,6 +124,7 @@
       rect {
         width: 80px;
         height: 80px;
+        pointer-events: none;
       }
       img {
         clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));

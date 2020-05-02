@@ -157,8 +157,28 @@
       top: calc(var(--server-container) * 2) !important;
     }
   }
+
+  // ReadAllNotifications by DevilBro
+  .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh {
+    height: var(--server-size) !important;
+    .wrapper-1BJsBx {
+      height: 100% !important;
+    }
+    .button-Jt-tIg {
+      width: 100%;
+      height: 100% !important;
+      border-radius: 50%;
+      padding: 2px;
+      font-size: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
 }
 html.platform-osx #app-mount {
+  .typeMacOS-3EmCyP {
+    width: 100%;
+  }
   .base-3dtUhz {
     top: calc(var(--server-container) + 30px) !important;
   }
