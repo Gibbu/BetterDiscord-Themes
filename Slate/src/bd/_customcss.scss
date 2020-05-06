@@ -1,0 +1,80 @@
+#app-mount {
+  #bd-settingspane-container .contentColumn-2hrIYH {
+    padding: 0 !important;
+    h2.ui-form-title.margin-bottom-20 {
+      display: none;
+    }
+  }
+  .ace_editor {
+    background: var(--css-background);
+  }
+  .ace_gutter {
+    background: var(--background-colour-dark);
+    border-right: 1px solid var(--border-colour);
+  }
+  .ace_gutter-active-line {
+    background: var(--css-selected-line-number);
+  }
+  .ace_active-line {
+    background: var(--css-selected-line);
+  }
+  .ace_selection {
+    background: rgba(var(--accent), 0.5);
+  }
+  .ace_gutter-cell {
+    font-size: var(--font-size);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .checkbox.da-checkbox {
+    color: var(--text-default);
+    font-weight: var(--font-weight-normal);
+  }
+  #bd-customcss-attach-controls {
+    box-shadow: none;
+    height: auto;
+    border-top: 1px solid var(--border-colour);
+    background: var(--background-colour);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing);
+    .checkbox-group li {
+      margin-top: 0;
+    }
+  }
+  #bd-customcss-detach-controls-button {
+    button {
+      margin: 0;
+      width: auto;
+      height: auto;
+      font-weight: var(--font-weight-normal);
+      background: var(--background-colour);
+      padding: var(--spacing-half) var(--spacing);
+      border-radius: var(--border-radius) !important;
+      color: var(--text-default);
+      margin-left: var(--spacing);
+      border: 1px solid var(--border-colour) !important;
+      &:hover {
+        background: var(--accent-solid) !important;
+        color: #fff !important;
+      }
+    }
+    & > span, & > div {
+      display: none;
+    }
+  }
+}
+
+#app-mount [aria-label*="SETTINGS"] .ace_editor {
+  height: calc(50vh - 107px);
+  min-height: 294px;
+}
+
+#app-mount #bd-customcss-detach-container {
+  border-left: 1px solid var(--border-colour);
+  #bd-customcss-detach-editor {
+    height: calc(100vh - var(--titlebar-height) - 50px);
+  }
+}

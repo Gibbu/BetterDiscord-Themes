@@ -1,0 +1,15 @@
+#bd-settingspane-container .bd-addon-card {
+  background: var(--background-colour-dark);
+  border: 1px solid var(--border-colour);
+  padding: 0;
+  .bda-header,
+  .bda-description,
+  .bd-card-footer {
+    padding: var(--spacing-half);
+    box-sizing: border-box;
+  }
+
+  .bd-addon-controls {
+    padding-right: var(--spacing);
+  }
+}

@@ -3,6 +3,7 @@
   --border-colour: #141414;
   --background-colour: #24292e;
   --background-colour-dark: #1d2125;
+  --background-colour-darker: #171a1d;
   --text-default: #d1d5da;
   --text-muted: #959da5;
   --text-focus: #ffffff;
@@ -36,6 +37,7 @@
   --input-background: #1d2125;
 
   // Settings
+  --settings-background: var(--background-colour);
   --settings-button: var(--account-panel-background-colour);
   --settings-button-hover: #{lighten(#2f363d, 4%)};
   --settings-input-background: var(--background-colour-dark);
@@ -49,6 +51,7 @@
   --checkbox-background: #fff;
   --checkbox-border: #bbb;
   --checkbox-tick: #444;
+  --checkbox-box-shadow: none;
 
   // Userpopouts
   --userpopout-header: var(--background-colour-dark);
@@ -63,6 +66,11 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-extrabold: 800;
+
+  // CustomCSS
+  --css-selected-line: var(--background-colour-dark);
+  --css-selected-line-number: var(--background-colour-darker);
+  --css-background: var(--background-colour);
 
   // Search
   --search-result: var(--main-background);

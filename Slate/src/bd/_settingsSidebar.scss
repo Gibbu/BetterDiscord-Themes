@@ -44,6 +44,10 @@
     &:nth-child(7):before {
       -webkit-mask: url($icon_code) center/cover no-repeat;
     }
+    &:hover {
+      background: var(--background-modifier-hover);
+    }
+
     &.selected {
       color: #fff;
       background: var(--accent-solid);

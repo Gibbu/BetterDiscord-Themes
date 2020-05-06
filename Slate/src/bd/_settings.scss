@@ -1,0 +1,26 @@
+#bd-settingspane-container {
+  .ui-switch-item {
+    margin: var(--spacing) var(--spacing-double);
+    .style-description {
+      border-color: var(--border-colour);
+    }
+
+    &:first-of-type {
+      margin-top: var(--spacing-double);
+    }
+    &:last-of-type {
+      margin-bottom: var(--spacing-double);
+      .style-description {
+        border-color: transparent
+      }
+    }
+  }
+
+  .bd-pfbtn {
+    margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
+  }
+
+  .bd-controls {
+    padding: 0 var(--spacing-double);
+  }
+}

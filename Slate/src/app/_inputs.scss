@@ -102,6 +102,7 @@
       height: 14px;
       box-shadow: none;
       transform: translate3d(-1px,0,0);
+      box-shadow: var(--checkbox-box-shadow);
     }
     &.valueChecked-m-4IJZ, &.bd-switch-checked {
       background: var(--accent-solid);
@@ -184,6 +185,16 @@
     }
     &.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
       width: 100px;
+    }
+  }
+
+  // Range slider
+  .slider-1PF9SW {
+    .bar-2Qqk5Z {
+      border-radius: 2px;
+    }
+    .barFill-23-gu- {
+      background: var(--accent-solid);
     }
   }
 
