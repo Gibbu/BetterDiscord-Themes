@@ -1,3 +1,5 @@
+@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
+
 :root {
   --border-radius: 4px;
   --accent-solid: rgba(var(--accent), 1);
