@@ -57,6 +57,9 @@
     border-right-width: 3px;
     background-clip: padding-box;
     background-color: var(--channel-scrollbar);
+    &:active {
+      background-color:var(--background-modifier-active);
+    }
   }
   &:hover {
     overflow: overlay;

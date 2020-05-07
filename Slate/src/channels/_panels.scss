@@ -6,7 +6,7 @@
 
   // Buttons
   button {
-    height: 25px;
+    height: var(--avatar-size-small);
     flex: 1;
     border-radius: 0;
     transition: none;
@@ -103,7 +103,7 @@
     button {
       margin: 1px 0 0 0;
       padding: 0;
-      min-height: 25px;
+      min-height: var(--avatar-size-small);
       width: 52.25px;
       font-size: 0;
       min-width: unset;
@@ -125,10 +125,13 @@
   // User
   .container-3baos1 {
     padding: 0 var(--spacing);
+    .avatarWrapper-2yR4wp {
+      margin-right:var(--spacing);
     .wrapper-3t9DeA {
       width: var(--avatar-size-small) !important;
       height: var(--avatar-size-small) !important;
     }
+  }
     .nameTag-3uD-yy {
       display: none;
     }

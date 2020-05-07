@@ -5,6 +5,7 @@
   // Header
   [class*="topSection"] {
     background: var(--modal-header);
+    border-radius:0 3px 0 0;
   }
   .header-QKLPzZ {
     padding: var(--spacing-double);
@@ -126,6 +127,7 @@
   .body-3ND3kc {
     background: var(--modal-body);
     border-top: 1px solid var(--border-colour);
+    border-radius:0 0 3px 0;
   }
 
   .scroller-2FKFPG {
@@ -233,6 +235,8 @@
     border-top: none;
     border-right: 1px solid var(--border-colour);
     background: var(--modal-body);
+    border-radius:3px 0 0 3px;
+    overflow:hidden;
   }
   .tabBar-2MuP6- {
     display: block;

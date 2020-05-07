@@ -60,10 +60,11 @@
   // Icons
   .toolbar-1t6TWx {
     height: var(--toolbar-height);
-    padding: 0 var(--spacing);
+    padding: 0;
     border-right: 1px solid var(--topbar-border);
+    background: var(--topbar-background);
     .iconWrapper-2OrFZ1 {
-      margin: 0 calc(var(--spacing) * 2) 0 0;
+      margin: 0 calc(var(--spacing) * 1.25);
     }
     .icon-22AiRD {
       color: var(--toolbar-icon-default);
@@ -71,10 +72,8 @@
     .selected-1GqIat .icon-22AiRD {
       color: var(--toolbar-icon-focus);
     }
-    a .iconWrapper-2OrFZ1 {
-      margin-right: 0;
-    }
-    .divider-3FBTu8 {
+    .divider-3FBTu8,
+    a {
       display: none;
     }
   }
@@ -110,7 +109,8 @@
   // Search bar
   .search-36MZv- {
     position: absolute;
-    right: var(--spacing);
+    right: 0;
+    margin:0 var(--spacing);
     .searchBar-3dMhjb {
       background: var(--toolbar-search);
       border: 1px solid var(--topbar-border);

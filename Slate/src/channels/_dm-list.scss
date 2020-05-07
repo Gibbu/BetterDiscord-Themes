@@ -1,11 +1,18 @@
 #app-mount .privateChannels-1nO12o {
+  overflow:visible;
+  width:var(--sidebar-width);
   // Find or start a coversation
   .searchBar-6Kv8R2 {
     background: var(--topbar-background);
     border-bottom: 1px solid var(--topbar-border);
     border-right: 1px solid var(--topbar-border);
-    height: calc(var(--toolbar-height) - 1px);
+    height: var(--toolbar-height);
     box-shadow: none;
+    position:absolute;
+    left:calc(var(--container) * -1);
+    width:calc(var(--sidebar-width) + var(--container));
+    box-sizing:border-box;
+    padding: 0 var(--spacing);
     button {
       background: var(--background-colour);
       border: 1px solid var(--border-colour);
@@ -13,6 +20,7 @@
       height: auto;
       border-radius: var(--border-radius);
       font-size: var(--font-size);
+      cursor:text;
     }
   }
 
@@ -21,11 +29,12 @@
     padding: var(--spacing);
     height: auto;
   }
-  .scroller-1JbKMe {
+  .scroller-2FKFPG {
     background: var(--channel-background);
-    & > div[style*="height: 8px"] {
+    div[style*="height: 8px"] {
       display: none;
     }
+  }
 
     // Dm
     .channel-2QD9_O {
@@ -60,6 +69,9 @@
       }
       &.selected-aXhQR6 {
         color: #fff;
+        .closeButton-2GCmT5 {
+          display:block;
+        }
         .wrapper-3t9DeA {
           &:before {
             background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
@@ -69,6 +81,5 @@
           }
         }
       }
-    }
   }
 }

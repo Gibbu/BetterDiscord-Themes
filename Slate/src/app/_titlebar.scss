@@ -2,7 +2,6 @@
   height: calc(var(--titlebar-height) - 2px);
   border-bottom: 1px solid var(--topbar-border);
   margin-top: 2px;
-  background: var(--topbar-background);
   position: relative;
   width: 100vw;
   .wordmarkWindows-1v0lYD {
@@ -20,11 +19,25 @@
       font-size: var(--font-size);
       color: var(--toolbar-text-default);
     }
+    &:after {
+      content:'';
+      position:fixed;
+      top:0;
+      left:0;
+      width:100vw;
+      height:var(--titlebar-height);
+      background:var(--topbar-header-selected);
+      z-index:-1;
+    }
   }
   .winButton-iRh8-Z {
     height: var(--titlebar-height);
     width: calc(var(--titlebar-height) * 1.5);
     color: var(--toolbar-text-default);
     top: -2px;
+    cursor:default;
+  }
+  .winButtonClose-1HsbF-:hover {
+    color:var(--toolbar-text-focus);
   }
 }

@@ -1,5 +1,4 @@
 #app-mount .sidebar-2K8pFh {
-
   // Server dropdown selected
   .container-2Rl01u {
     background: var(--topbar-background);
@@ -15,6 +14,9 @@
     height: var(--toolbar-height);
     padding: var(--spacing);
     transition: none;
+    position:absolute;
+    left:calc(var(--container) * -1);
+    width:calc(var(--sidebar-width) + var(--container));
     filter: none;
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);

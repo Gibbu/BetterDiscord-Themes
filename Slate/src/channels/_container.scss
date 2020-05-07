@@ -1,6 +1,8 @@
 #app-mount .sidebar-2K8pFh {
   width: var(--sidebar-width);
   border-radius: 0;
+  overflow:visible !important;
+  display: -webkit-box;
   .container-PNkimc {
     background: var(--background-colour);
   }
@@ -8,6 +10,7 @@
   .scroller-2FKFPG {
     border-right: 1px solid var(--border-colour);
     background: var(--channel-background);
+    padding-top:var(--toolbar-height)
   }
 
   // Banner image

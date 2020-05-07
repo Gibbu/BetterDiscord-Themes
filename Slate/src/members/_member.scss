@@ -6,6 +6,7 @@
     border-radius: 0;
     height: 44px;
     padding: 0 calc(var(--spacing) + 5px);
+    cursor:default;
   }
   .avatar-3uk_u9 {
     margin-right: var(--spacing);
@@ -36,7 +37,6 @@
     height: auto;
     width: auto;
     background-color: var(--background-modifier-active);
-    border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
     order: -1;
     margin-left: 0;

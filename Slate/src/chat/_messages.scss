@@ -9,23 +9,29 @@
 
   .cozy-3raOZG {
     margin: 0;
-    padding-left: calc(var(--avatar-size) * 1.9);
+    padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
     padding-bottom: var(--spacing);
+    .container-1ov-mD {
+      max-width: 100%;
+      overflow: hidden;
+    }
     .avatar-1BDn8e {
-      border-radius: var(--border-radius);
-      border: 1px solid var(--border-colour);
+      border-radius: calc(var(--border-radius) / 1.5);
+      box-shadow: 0 0 0 1px var(--border-colour);
       top: var(--spacing);
       left: var(--spacing);
       width: var(--avatar-size) !important;
       height: var(--avatar-size) !important;
+      transition: 100ms ease box-shadow;
       &:hover {
-        border-color: var(--accent-solid);
+        box-shadow: 0 0 0 1px var(--accent-solid);
       }
     }
 
     .header-23xsNx {
       align-items: center;
       display: flex;
+      min-height:unset;
     }
 
     .emoji {
@@ -46,7 +52,7 @@
         background: var(--background-colour);
         border: 1px solid var(--border-colour);
         border-radius: var(--border-radius);
-        padding: calc(var(--spacing) / 2);
+        padding: calc(var(--spacing) / 2);  
         margin-right: var(--spacing);
         color: var(--accent-solid);
         text-decoration: none;
@@ -87,6 +93,7 @@
   .groupStart-23k01U {
     border-top: 1px solid var(--border-colour);
     padding-top: var(--spacing);
+    padding-bottom:0;
     h2, .username-1A8OIy, .timestamp-3ZCmNB {
       line-height: normal;
     }
@@ -94,6 +101,7 @@
 
   .username-1A8OIy {
     font-size: var(--chat-font-size);
+    color:var(--text-default);
   }
   .timestampCozy-1HNQR2 {
     font-size: var(--chat-font-size);
