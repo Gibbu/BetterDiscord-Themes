@@ -14,6 +14,7 @@
     .container-1ov-mD {
       max-width: 100%;
       overflow: hidden;
+      padding-bottom:var(--spacing);
     }
     .avatar-1BDn8e {
       border-radius: calc(var(--border-radius) / 1.5);
@@ -177,6 +178,9 @@
   code, pre {
     font-family: var(--font-family-monospace);
     font-size: var(--font-size);
+  }
+  pre {
+    padding-bottom:var(--spacing);
   }
   .embedFull-2tM8-- {
     background-color: var(--background-colour);
