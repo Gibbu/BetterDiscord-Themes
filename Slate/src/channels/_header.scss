@@ -3,7 +3,8 @@
   .container-2Rl01u {
     background: var(--topbar-background);
     &.selected-WP3kCM .header-2o-2hj {
-      background: var(--topbar-header-selected);
+      background: var(--topbar-header-active);
+      border-bottom:1px solid transparent;
     }
   }
   .header-2o-2hj {
@@ -18,6 +19,7 @@
     left:calc(var(--container) * -1);
     width:calc(var(--sidebar-width) + var(--container));
     filter: none;
+    cursor:default;
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);
     }
