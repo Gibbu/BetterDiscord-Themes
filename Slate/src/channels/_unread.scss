@@ -19,7 +19,17 @@
     opacity: 1;
     height: auto;
     box-shadow: none;
-    padding: var(--spacing) 0;
+    line-height:normal;
+    padding: calc(var(--spacing) / 1.5) 0;
+    transform:none !important;
+    font-size:var(--font-size);
+    text-transform:none;
+    position:relative;
+    left:-1px;
+    width:100%;
+    &[aria-hidden="true"] {
+      display:none;
+    }
     &:before {
       content: none;
     }

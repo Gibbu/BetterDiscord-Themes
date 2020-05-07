@@ -19,7 +19,9 @@
       color: var(--text-default);
       height: var(--item-height);
       border-radius: 0;
-      font-size:var(--font-size-lg);
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-light);
+      cursor:default;
       &:hover {
         color: var(--text-focus);
       }

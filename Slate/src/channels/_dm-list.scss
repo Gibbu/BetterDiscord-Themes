@@ -46,10 +46,16 @@
         padding: 0 var(--spacing);
       }
       .name-uJV0GL {
-        font-size: var(--font-size-lg);
+        font-size: var(--font-size);
+        font-weight:var(--font-weight-light);
+        color:var(--text-default);
       }
-      .activityText-OW8WYb {
+      .activityText-OW8WYb,
+      .subtext-1RtU34 {
         font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-bold);
+        color: var(--text-muted);
+}
       }
       .wrapper-3t9DeA {
         width: 26px !important;
@@ -81,5 +87,4 @@
           }
         }
       }
-  }
 }

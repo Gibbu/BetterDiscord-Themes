@@ -1,6 +1,7 @@
 #app-mount .sidebar-2K8pFh {
   .wrapper-1ucjTd {
     position: relative;
+    cursor:default;
 
     // Unread channel
     &.modeUnread-1zpFdA {
@@ -63,7 +64,6 @@
     padding: 0 var(--spacing);
     border-radius: 0;
     height: var(--item-height);
-    cursor:default;
     svg {
       color: var(--text-default);
       opacity: .75;
