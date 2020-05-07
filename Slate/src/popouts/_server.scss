@@ -1,18 +1,18 @@
 #app-mount [id*="popout_"][style*="top"][style*="left"] {
-  top:calc(var(--toolbar-height) + var(--titlebar-height)) !important;
+  top:calc(var(--toolbar-height) + var(--titlebar-height) + 1px) !important;
  .animatorBottom-fS5rNO.scale-3iLZhb.didRender-33z1u8 {
   transform: none !important;
   transition: none !important;
   .menu-Sp6bN1 {
+    position:fixed;
+    left:0;
     padding: 0; 
     border-radius: 0;
-    margin-left: -20px;
-    width: var(--sidebar-width);
     box-shadow: none;
     height: 100vh;
+    width:calc(var(--sidebar-width) + var(--container));
     background: var(--background-colour);
-    border-right: 1px solid var(--border-colour);
-    border-top:1px solid var(--border-colour);
+    border-right:1px solid var(--border-colour);
     .item-1GzJrl {
       margin: 0;
       padding: var(--spacing);
@@ -47,9 +47,9 @@
     }
     &:before {
       content: "";
-      position: absolute;
-      top: calc(var(--toolbar-height) * -1);
-      left: 240px;
+      position: fixed;
+      top:calc(var(--toolbar-height) + var(--titlebar-height));
+      left: calc(var(--sidebar-width) + var(--container));
       width: 100vw;
       height: 100vh;
       background: rgba(0,0,0,0.5);
