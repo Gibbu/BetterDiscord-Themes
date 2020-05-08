@@ -1266,8 +1266,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .timestamp-3ZCmNB {
   font-size: calc(var(--font-size-sm) - 2px);
   height: auto;
-  display: flex;
-  align-items: center;
 }
 #app-mount .cozy-3raOZG {
   margin: 0;
