@@ -1,4 +1,3 @@
-
 :root {
   --border-radius: 4px;
   --accent-solid: rgba(var(--accent), 1);
@@ -81,7 +80,8 @@
   --discovery-search: var(--background-colour-dark);
   --discovery-card: var(--background-colour-dark);
   --emoji-search: rgba(0,0,0,0.2);
-  --server-icon: var(--background-colour-dark);
+  --server-icon: var(--account-panel-background-colour);
+  --server-icon-active: var(--settings-button-hover);
   --now-playing-background: var(--main-background);
   --input-background: #1d2125;
   --settings-background: var(--background-colour);
@@ -177,6 +177,16 @@
 ::selection {
   background: var(--accent-solid);
   color: #fff;
+}
+
+::-webkit-input-placeholder {
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  -webkit-user-select: text;
+          user-select: text;
 }
 
 #app-mount {
@@ -285,6 +295,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   flex-direction: column;
   align-items: flex-start;
   color: var(--toolbar-text-default);
+  -webkit-user-select: none;
+          user-select: none;
 }
 #app-mount .container-1r6BKw .children-19S4PO h3:before {
   content: "Current Channel";
@@ -639,6 +651,40 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .sidebar-2K8pFh .scroller-2FKFPG::-webkit-scrollbar {
   display: none;
 }
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC {
+  margin-top: var(--toolbar-height);
+  border-bottom: 1px solid var(--border-colour);
+  box-shadow: none;
+  border-right: 1px solid var(--border-colour);
+  background-color: var(--account-panel-background-colour);
+  background-image: none;
+  padding: var(--spacing);
+}
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW {
+  background-image: none;
+}
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW .message-3SOT5P {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--font-size);
+  line-height: normal;
+}
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW .message-3SOT5P .btn-11C5_u {
+  margin: var(--spacing) auto 0;
+}
+#app-mount .sidebar-2K8pFh .channelNotice-1-XFjC.invite-OjTXrW .message-3SOT5P:before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 75px;
+  height: 80px;
+  margin: var(--spacing);
+  background: var(--text-normal);
+  -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='61' viewBox='0 0 56 61'><title> ufo-alert </title><g fill-rule='nonzero'><path d='M43.324 1.08c8.09 1.42 13.497 9.126 12.078 17.215-1.326 7.57-8.16 12.79-15.66 12.267-3.827 3.423-8.51 4.283-11.832 4.42-.664.03-1.255-.498-.214-1.07 2.043-1.125 3.344-3.464 4.11-6.312-4.31-3.255-6.694-8.752-5.696-14.44C27.53 5.07 35.235-.337 43.324 1.08zm-.44 20.775v-4h-4v4h4zm0-5v-8h-4v8h4zm-23.758 18.33a8.918 8.918 0 0 0-16.62 6.466l2.777 7.14 16.624-6.468-2.778-7.14-.002.002zm3.606 7.89l-17.554 6.83a.5.5 0 0 1-.647-.284l-2.957-7.603c-1.986-5.105.54-10.853 5.646-12.84 5.103-1.986 10.85.542 12.84 5.647l2.96 7.605a.5.5 0 0 1-.287.647z'/><path d='M5.583 41.92c-1.98-4.183-.11-8.474 4.21-9.61a.5.5 0 0 0-.256-.967C4.6 32.64 2.435 37.61 4.68 42.35a.5.5 0 0 0 .903-.43zm20.197 3.644l-1.24-3.19L3.37 50.61l1.242 3.19 21.168-8.236zm.83.75l-22.1 8.6a.5.5 0 0 1-.648-.285l-1.604-4.125a.5.5 0 0 1 .284-.647l22.1-8.6a.5.5 0 0 1 .648.285l1.604 4.123a.5.5 0 0 1-.285.647z'/><path d='M23.604 44.037l-9.914 3.857a.5.5 0 1 0 .362.932l9.914-3.857a.5.5 0 0 0-.362-.934zm-1.77 4.136l-12.55 4.883 1.024 1.435 11.742-4.567-.216-1.75zm.94 2.54l-12.466 4.85a.5.5 0 0 1-.588-.174L8.098 53.11a.5.5 0 0 1 .225-.756L22.07 47.01a.5.5 0 0 1 .678.403l.342 2.772a.5.5 0 0 1-.315.527z'/><path d='M13.34 56.504l-.473-2.38a.5.5 0 1 0-.98.196l.473 2.38a.5.5 0 1 0 .98-.196zm9.738-2.582a.885.885 0 1 0-1.514.918.885.885 0 0 0 1.514-.918zm.855-.518a1.885 1.885 0 0 1-3.223 1.955 1.886 1.886 0 0 1 3.223-1.957z'/><path d='M14.078 57.922a.885.885 0 1 0-1.514.918.885.885 0 0 0 1.514-.918zm.855-.518a1.885 1.885 0 1 1-3.223 1.955 1.886 1.886 0 0 1 3.223-1.957zM22.03 52.937l-1.26-2.074a.5.5 0 1 0-.853.52l1.26 2.073a.5.5 0 1 0 .853-.52z'/></g></svg>") center/cover no-repeat;
+}
 
 #app-mount .sidebar-2K8pFh .wrapper-1ucjTd {
   position: relative;
@@ -777,6 +823,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   font-size: var(--font-size);
   font-weight: var(--font-weight-semibold);
   color: var(--toolbar-text-default);
+  -webkit-user-select: none;
+          user-select: none;
 }
 #app-mount .sidebar-2K8pFh .header-2o-2hj h1:before {
   display: block;
@@ -1075,20 +1123,20 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
 }
 
+#app-mount .guilds-1SWlCJ {
+  border-right: 1px solid var(--border-colour);
+  box-sizing: border-box;
+}
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN {
   background: var(--background-colour);
   contain: none;
   padding-top: var(--toolbar-height);
 }
-#app-mount .guilds-1SWlCJ .listItem-2P_4kh:first-child .childWrapper-anI2G9 {
-  background: transparent;
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+  background: transparent !important;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL [class*=pill] {
-  height: calc(var(--toolbar-height) / 2);
-}
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL [class*=pill] span {
-  height: calc(var(--toolbar-height) / 2) !important;
-  background: var(--toolbar-text-default);
+  display: none;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-25eVIn {
   display: flex;
@@ -1104,23 +1152,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   left: 50%;
   transform: translateX(-50%);
 }
-#app-mount .guilds-1SWlCJ:after {
-  content: "";
-  position: absolute;
-  top: var(--toolbar-height);
-  height: 100vh;
-  width: calc(var(--base-left) - 1px);
-  border-right: 1px solid var(--border-colour);
-  pointer-events: none;
-}
 #app-mount .guilds-1SWlCJ .homeIcon-tEMBK1 {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z"></path></svg>') center/cover no-repeat;
   background: var(--text-default);
   width: 70%;
   height: 70%;
+  transition: 150ms ease;
 }
 #app-mount .guilds-1SWlCJ .homeIcon-tEMBK1 path {
   display: none;
+}
+#app-mount .guilds-1SWlCJ .selected-bZ3Lue .homeIcon-tEMBK1 {
+  background: var(--text-focus);
 }
 #app-mount .guilds-1SWlCJ .guildSeparator-3s64Iy {
   background: var(--border-colour);
@@ -1128,6 +1171,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .guilds-1SWlCJ .childWrapper-anI2G9 {
   background: var(--server-icon);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-light);
+}
+#app-mount .guilds-1SWlCJ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background: var(--server-icon-active);
+  color: var(--text-focus);
 }
 #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
   background: var(--server-icon);
@@ -1160,6 +1209,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .guilds-1SWlCJ [class*=pill] span {
   border-radius: 0;
   max-height: 75%;
+  background: var(--text-muted);
+  width: 7px;
+  opacity: 1 !important;
 }
 
 #app-mount .chat-3bRxxu {
@@ -1211,6 +1263,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: transparent;
 }
 #app-mount .messages-3amgkR::-webkit-scrollbar-thumb {
+  border-radius: 50px;
   border-style: solid;
   border-color: transparent;
   border-left-width: 4px;
@@ -1229,6 +1282,59 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .messages-3amgkR .scrollerSpacer-1Rp0XE {
   height: 0;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo {
+  padding: 0;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-colour);
+  max-width: 850px;
+  margin: auto;
+  margin-bottom: calc(var(--spacing) * 10);
+  position: relative;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  margin-bottom: var(--spacing);
+  left: 0;
+  background: var(--text-muted);
+  -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='257px' height='85px' viewBox='0 0 257 85' version='1.1'><!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch --><g id='no-pull-requests'><g id='stars-right' transform='translate(168.000000, 1.000000)' fill-rule='nonzero'><path d='M44.4563773,27.4782814 C44.6852313,28.222572 43.9889658,28.9188375 43.2444173,28.6913354 L41.3825382,28.118141 L39.520271,28.6917568 C38.776199,28.9184823 38.0797631,28.2227985 38.3086867,27.4782814 L38.8818589,25.6174689 L38.3087287,23.7557907 C38.0793136,23.0117418 38.7771315,22.3146776 39.5217186,22.5436227 L41.3825311,23.1167948 L43.2442093,22.5436646 C43.9880322,22.3143193 44.6856807,23.0119678 44.4563994,23.7555827 L43.8832013,25.6174495 L44.4563773,27.4782814 Z M42.9251036,25.9040013 C42.8669289,25.7170111 42.8669289,25.5158387 42.9246646,25.3323533 L43.4837707,23.5162293 L41.6690653,24.0748964 C41.4823298,24.1329918 41.2827342,24.1329918 41.0973455,24.0753133 L39.2811914,23.5158989 L39.8394851,25.3294153 C39.8981351,25.5158387 39.8981351,25.7170111 39.8403773,25.9026545 L39.2808613,27.7191387 L41.0959987,27.1600396 C41.2827342,27.1019441 41.4823298,27.1019441 41.6676467,27.1596006 L43.4841014,27.7188095 L42.9251036,25.9040013 Z'/><path d='M2.928,1.36489322 L1.20955339,-0.353553391 C1.01429124,-0.548815536 0.697708755,-0.548815536 0.502446609,-0.353553391 C0.307184464,-0.158291245 0.307184464,0.158291245 0.502446609,0.353553391 L2.22089322,2.072 L0.502446609,3.79044661 C0.307184464,3.98570876 0.307184464,4.30229124 0.502446609,4.49755339 C0.697708755,4.69281554 1.01429124,4.69281554 1.20955339,4.49755339 L2.928,2.77910678 L4.64644661,4.49755339 C4.84170876,4.69281554 5.15829124,4.69281554 5.35355339,4.49755339 C5.54881554,4.30229124 5.54881554,3.98570876 5.35355339,3.79044661 L3.63510678,2.072 L5.35355339,0.353553391 C5.54881554,0.158291245 5.54881554,-0.158291245 5.35355339,-0.353553391 C5.15829124,-0.548815536 4.84170876,-0.548815536 4.64644661,-0.353553391 L2.928,1.36489322 Z'/><path d='M66.5,13.267 C66.5,12.8436424 66.1563576,12.5 65.732,12.5 C65.3085486,12.5 64.965,12.843736 64.965,13.267 C64.965,13.6911704 65.3084551,14.035 65.732,14.035 C66.1564513,14.035 66.5,13.6912641 66.5,13.267 Z M67.5,13.267 C67.5,14.2434269 66.7088581,15.035 65.732,15.035 C64.7559262,15.035 63.965,14.2432113 63.965,13.267 C63.965,12.2915732 64.7561418,11.5 65.732,11.5 C66.7086424,11.5 67.5,12.2913576 67.5,13.267 Z'/><path d='M32.5,65.5 L32.5,65 C32.5,64.7238576 32.2761424,64.5 32,64.5 C31.7238576,64.5 31.5,64.7238576 31.5,65 L31.5,65.5 L31,65.5 C30.7238576,65.5 30.5,65.7238576 30.5,66 C30.5,66.2761424 30.7238576,66.5 31,66.5 L31.5,66.5 L31.5,67 C31.5,67.2761424 31.7238576,67.5 32,67.5 C32.2761424,67.5 32.5,67.2761424 32.5,67 L32.5,66.5 L33,66.5 C33.2761424,66.5 33.5,66.2761424 33.5,66 C33.5,65.7238576 33.2761424,65.5 33,65.5 L32.5,65.5 Z'/><path d='M87.5,81.508 C87.5,80.9517457 87.0484611,80.5 86.492,80.5 C85.9361424,80.5 85.484,80.9521424 85.484,81.508 C85.484,82.0644611 85.9357457,82.516 86.492,82.516 C87.0488576,82.516 87.5,82.0648576 87.5,81.508 Z M88.5,81.508 C88.5,82.6171424 87.6011424,83.516 86.492,83.516 C85.3835635,83.516 84.484,82.6168484 84.484,81.508 C84.484,80.3998576 85.3838576,79.5 86.492,79.5 C87.6008484,79.5 88.5,80.3995635 88.5,81.508 Z'/><path d='M84.3080852,41.8906809 C84.2241857,41.8447961 84.1552039,41.7758143 84.1093191,41.6919148 L83.207,40.0420367 L82.3046809,41.6919148 C82.2587961,41.7758143 82.1898143,41.8447961 82.1059148,41.8906809 L80.4560367,42.793 L82.1059148,43.6953191 C82.1898143,43.7412039 82.2587961,43.8101857 82.3046809,43.8940852 L83.207,45.5439633 L84.1093191,43.8940852 C84.1552039,43.8101857 84.2241857,43.7412039 84.3080852,43.6953191 L85.9579633,42.793 L84.3080852,41.8906809 Z M87.2399148,42.3543191 C87.5866951,42.5439735 87.5866951,43.0420265 87.2399148,43.2316809 L84.9164079,44.5024079 L83.6456809,46.8259148 C83.4560265,47.1726951 82.9579735,47.1726951 82.7683191,46.8259148 L81.4975921,44.5024079 L79.1740852,43.2316809 C78.8273049,43.0420265 78.8273049,42.5439735 79.1740852,42.3543191 L81.4975921,41.0835921 L82.7683191,38.7600852 C82.9579735,38.4133049 83.4560265,38.4133049 83.6456809,38.7600852 L84.9164079,41.0835921 L87.2399148,42.3543191 Z'/></g><g id='ufo' transform='translate(98.000000, 14.000000)'><g id='bubble' transform='translate(25.000000, 0.000000)'><path d='M18.3237816,1.08100676 C26.4127649,2.49929537 31.8207464,10.2055364 30.4024578,18.2945197 C29.0755113,25.8645039 22.2411679,31.0843635 14.741292,30.561728 C10.9147571,33.9846722 6.23326239,34.8447564 2.90985691,34.9832289 C2.24602595,35.0115481 1.65540212,34.4838756 2.69592758,33.9120996 C4.73861105,32.7871827 6.04047637,30.4481746 6.80684544,27.6003518 C2.49561727,24.3446731 0.11187458,18.8476715 1.11026872,13.1596829 C2.52855732,5.07069967 10.2347984,-0.337281838 18.3237816,1.08100676 Z M24.0793651,12.0396825 L22.031746,9.99206349 L13.1587302,18.8650794 L9.74603175,15.452381 L7.6984127,17.5 L13.1587302,22.9603175 L24.0793651,12.0396825 Z'/></g><g transform='translate(0.000000, 28.000000)' fill-rule='nonzero'><path d='M19.1258644,7.18619476 C17.3387658,2.59580412 12.1701462,0.322197192 7.58107879,2.10878069 C2.99081125,3.89451596 0.71776611,9.06348268 2.50377128,13.653497 L5.28146848,20.7925262 L21.9035256,14.3251313 L19.1258644,7.18619476 Z M22.7321025,15.0757714 L5.17810255,21.9057714 C4.92075379,22.005902 4.63095952,21.8784516 4.53082872,21.621103 L1.57183195,14.0161113 C-0.414441594,8.91140932 2.11349668,3.16280864 7.21840524,1.17686444 C12.322129,-0.810081455 18.0703182,1.71847042 20.0577713,6.82349704 L23.0167713,14.428497 C23.1169022,14.685846 22.9894516,14.9756407 22.7321025,15.0757714 Z'/><path d='M5.58319378,13.9212093 C3.60174217,9.73688853 5.4726276,5.44590376 9.79150569,4.30974805 C10.0585619,4.23949428 10.2181018,3.96605052 10.147848,3.69899431 C10.0775943,3.4319381 9.80415052,3.27239819 9.53709431,3.34265195 C4.60116378,4.641134 2.43495008,9.60947137 4.67940622,14.3491907 C4.79759001,14.5987647 5.09571664,14.7052776 5.34529068,14.5870938 C5.59486472,14.46891 5.70137757,14.1707834 5.58319378,13.9212093 Z'/><path d='M25.780447,17.5643276 L24.5390132,14.3732856 L3.37095301,22.6096724 L4.61238676,25.8007144 L25.780447,17.5643276 Z M26.6090066,18.3149699 L4.50900656,26.9139699 C4.25164935,27.0141063 3.96184446,26.8866454 3.861721,26.6292831 L2.257721,22.5062831 C2.15760466,22.2489392 2.28505453,21.9591594 2.54239344,21.8590301 L24.6423934,13.2600301 C24.8997507,13.1598937 25.1895555,13.2873546 25.289679,13.5447169 L26.893679,17.6677169 C26.9937953,17.9250608 26.8663455,18.2148406 26.6090066,18.3149699 Z'/><path d='M23.6038134,16.0373224 L13.6898134,19.8943224 C13.432461,19.9944442 13.3050005,20.2842343 13.4051224,20.5415866 C13.5052442,20.798939 13.7950343,20.9263995 14.0523866,20.8262776 L23.9663866,16.9692776 C24.223739,16.8691558 24.3511995,16.5793657 24.2510776,16.3220134 C24.1509558,16.064661 23.8611657,15.9372005 23.6038134,16.0373224 Z'/><path d='M21.8341425,20.1734462 L9.28475399,25.055539 L10.3080248,26.4913986 L22.0498283,21.9216359 L21.8341425,20.1734462 Z M22.775044,22.7124553 L10.308044,27.5644553 C10.0947599,27.6474628 9.85234428,27.5750598 9.71951922,27.3886789 L8.09751922,25.1126789 C7.90835678,24.8472451 8.01965558,24.4746934 8.32341962,24.3565199 L22.0704196,19.0085199 C22.3742037,18.8903387 22.7080239,19.0897663 22.7479375,19.4132759 L23.0899375,22.1852759 C23.1179533,22.4123515 22.9882626,22.6294733 22.775044,22.7124553 Z'/><path d='M13.9890595,29.7871044 C13.8939636,29.3084338 13.4274357,28.9969537 12.9485581,29.0920903 C12.4689981,29.1880023 12.1576943,29.6540686 12.2528154,30.1328675 C12.3486888,30.6128735 12.8143264,30.9236935 13.2934419,30.8285097 C13.7733321,30.7325316 14.0843036,30.2671602 13.9890595,29.7871044 Z M14.9699157,29.5923708 C15.1725741,30.6138234 14.5102845,31.6049451 13.4889292,31.8092157 C12.4679598,32.0120483 11.4761687,31.350013 11.2720843,30.3282292 C11.0693223,29.3076151 11.7319182,28.3156144 12.7530708,28.1113843 C13.774013,27.9085571 14.7671254,28.5716144 14.9699157,29.5923708 Z'/><path d='M13.3409694,28.5043382 L12.8669694,26.1243382 C12.8130323,25.8535146 12.5497617,25.6776934 12.2789382,25.7316306 C12.0081146,25.7855677 11.8322934,26.0488383 11.8862306,26.3196618 L12.3602306,28.6996618 C12.4141677,28.9704854 12.6774383,29.1463066 12.9482618,29.0923694 C13.2190854,29.0384323 13.3949066,28.7751617 13.3409694,28.5043382 Z'/><path d='M23.0780618,25.9222451 C22.8250137,25.5043339 22.2798654,25.3709655 21.863232,25.6236245 C21.4444833,25.8784593 21.3111718,26.4223703 21.5647145,26.840045 C21.8183484,27.2578703 22.3627792,27.3908655 22.780845,27.1370855 C23.1985936,26.8834981 23.3315905,26.3392582 23.0780618,25.9222451 Z M23.9330043,25.4035231 C24.4731556,26.291982 24.189766,27.4516478 23.299755,27.9919145 C22.409669,28.5322266 21.2501595,28.248978 20.7098855,27.358955 C20.1697285,26.4691244 20.4536212,25.3108422 21.3440331,24.7689715 C22.2335372,24.2295478 23.3940719,24.5134681 23.9330043,25.4035231 Z'/><path d='M22.0304133,24.9372432 L20.7714133,22.8632432 C20.6281193,22.6271893 20.3205971,22.5519926 20.0845432,22.6952867 C19.8484893,22.8385807 19.7732926,23.1461029 19.9165867,23.3821568 L21.1755867,25.4561568 C21.3188807,25.6922107 21.6264029,25.7674074 21.8624568,25.6241133 C22.0985107,25.4808193 22.1737074,25.1732971 22.0304133,24.9372432 Z'/></g></g><g id='stars-left' fill-rule='nonzero'><path d='M86.072,2.36489322 L84.3535534,0.646446609 C84.1582912,0.451184464 83.8417088,0.451184464 83.6464466,0.646446609 C83.4511845,0.841708755 83.4511845,1.15829124 83.6464466,1.35355339 L85.3648932,3.072 L83.6464466,4.79044661 C83.4511845,4.98570876 83.4511845,5.30229124 83.6464466,5.49755339 C83.8417088,5.69281554 84.1582912,5.69281554 84.3535534,5.49755339 L86.072,3.77910678 L87.7904466,5.49755339 C87.9857088,5.69281554 88.3022912,5.69281554 88.4975534,5.49755339 C88.6928155,5.30229124 88.6928155,4.98570876 88.4975534,4.79044661 L86.7791068,3.072 L88.4975534,1.35355339 C88.6928155,1.15829124 88.6928155,0.841708755 88.4975534,0.646446609 C88.3022912,0.451184464 87.9857088,0.451184464 87.7904466,0.646446609 L86.072,2.36489322 Z'/><path d='M52.5497555,35.5 L51,35.5 C50.7238576,35.5 50.5,35.2761424 50.5,35 C50.5,34.7238576 50.7238576,34.5 51,34.5 L52.550561,34.5 C52.6451922,34.0354667 52.8726579,33.5927746 53.2329466,33.2329466 C54.2102088,32.2556845 55.7947912,32.2556845 56.7718271,33.2327205 C57.132214,33.5926465 57.3597362,34.0354127 57.4543937,34.5 L59.25,34.5 C59.5261424,34.5 59.75,34.7238576 59.75,35 C59.75,35.2761424 59.5261424,35.5 59.25,35.5 L57.4552308,35.5 C57.361082,35.9662119 57.1332807,36.4108259 56.7718271,36.7722795 C55.7946168,37.7482402 54.2103832,37.7482402 53.2331729,36.7722795 C52.8717163,36.410823 52.6439143,35.9662046 52.5497555,35.5 Z M53.9400534,36.0649466 C54.5266168,36.6507598 55.4783832,36.6507598 56.0649466,36.0649466 C56.6516468,35.4782465 56.6516468,34.5260034 56.0649466,33.9400534 C55.4782088,33.3533155 54.5267912,33.3533155 53.9398271,33.9402795 C53.3533532,34.5260034 53.3533532,35.4782465 53.9400534,36.0649466 Z' transform='translate(55.125000, 35.002111) rotate(-45.000000) translate(-55.125000, -35.002111) '/><path d='M24.035,14.267 C24.035,13.8436424 23.6913576,13.5 23.267,13.5 C22.8435486,13.5 22.5,13.843736 22.5,14.267 C22.5,14.6911704 22.8434551,15.035 23.267,15.035 C23.6914513,15.035 24.035,14.6912641 24.035,14.267 Z M25.035,14.267 C25.035,15.2434269 24.2438581,16.035 23.267,16.035 C22.2909262,16.035 21.5,15.2432113 21.5,14.267 C21.5,13.2915732 22.2911418,12.5 23.267,12.5 C24.2436424,12.5 25.035,13.2913576 25.035,14.267 Z'/><path d='M57.5,66.5 L57.5,66 C57.5,65.7238576 57.2761424,65.5 57,65.5 C56.7238576,65.5 56.5,65.7238576 56.5,66 L56.5,66.5 L56,66.5 C55.7238576,66.5 55.5,66.7238576 55.5,67 C55.5,67.2761424 55.7238576,67.5 56,67.5 L56.5,67.5 L56.5,68 C56.5,68.2761424 56.7238576,68.5 57,68.5 C57.2761424,68.5 57.5,68.2761424 57.5,68 L57.5,67.5 L58,67.5 C58.2761424,67.5 58.5,67.2761424 58.5,67 C58.5,66.7238576 58.2761424,66.5 58,66.5 L57.5,66.5 Z'/><path d='M3.516,82.508 C3.516,81.9517457 3.06446111,81.5 2.508,81.5 C1.95214237,81.5 1.5,81.9521424 1.5,82.508 C1.5,83.0644611 1.95174573,83.516 2.508,83.516 C3.06485763,83.516 3.516,83.0648576 3.516,82.508 Z M4.516,82.508 C4.516,83.6171424 3.61714237,84.516 2.508,84.516 C1.39956348,84.516 0.5,83.6168484 0.5,82.508 C0.5,81.3998576 1.39985763,80.5 2.508,80.5 C3.61684841,80.5 4.516,81.3995635 4.516,82.508 Z'/><path d='M6.89408522,42.8906809 C6.81018565,42.8447961 6.74120385,42.7758143 6.69531914,42.6919148 L5.793,41.0420367 L4.89068086,42.6919148 C4.84479615,42.7758143 4.77581435,42.8447961 4.69191478,42.8906809 L3.04203668,43.793 L4.69191478,44.6953191 C4.77581435,44.7412039 4.84479615,44.8101857 4.89068086,44.8940852 L5.793,46.5439633 L6.69531914,44.8940852 C6.74120385,44.8101857 6.81018565,44.7412039 6.89408522,44.6953191 L8.54396332,43.793 L6.89408522,42.8906809 Z M9.82591478,43.3543191 C10.1726951,43.5439735 10.1726951,44.0420265 9.82591478,44.2316809 L7.50240791,45.5024079 L6.23168086,47.8259148 C6.04202655,48.1726951 5.54397345,48.1726951 5.35431914,47.8259148 L4.08359209,45.5024079 L1.76008522,44.2316809 C1.41330493,44.0420265 1.41330493,43.5439735 1.76008522,43.3543191 L4.08359209,42.0835921 L5.35431914,39.7600852 C5.54397345,39.4133049 6.04202655,39.4133049 6.23168086,39.7600852 L7.50240791,42.0835921 L9.82591478,43.3543191 Z'/></g></g></svg>") center/50% no-repeat;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .h1-3fOAWv {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-ultralight);
+  color: var(--text-normal);
+  text-transform: none;
+  position: absolute;
+  top: -25%;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .base-19D3Qq,
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .icon-1crZ6p {
+  display: none;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .itemContainer-1tq6cd {
+  align-items: center;
+  width: 100%;
+  padding: calc(var(--spacing) * 2);
+  border-bottom: 1px solid var(--border-colour);
+  box-sizing: border-box;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .itemContainer-1tq6cd:nth-last-child(2) {
+  border: none;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .itemContainer-1tq6cd p {
+  color: var(--text-normal);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-light);
+  line-height: normal;
+  width: 100%;
+  margin: 0;
+}
+#app-mount .messages-3amgkR .welcomeMessage-ULm0mo .itemContainer-1tq6cd p strong {
+  font-weight: var(--font-weight-bold);
 }
 
 #app-mount .chatContent-a9vAAp .divider-JfaTT5 {
@@ -1286,6 +1392,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
   transition: 100ms ease box-shadow;
+  background-color: var(--account-panel-background-colour);
 }
 #app-mount .cozy-3raOZG .avatar-1BDn8e:hover {
   box-shadow: 0 0 0 1px var(--accent-solid);
@@ -1364,6 +1471,8 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .mentioned-xhSam7 {
   background: rgba(var(--accent), 0.1) !important;
+  padding-bottom: 0;
+  margin-bottom: var(--spacing);
 }
 #app-mount .mentioned-xhSam7:before {
   background-color: var(--accent-solid);
@@ -1415,10 +1524,328 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount code, #app-mount pre {
   font-family: var(--font-family-monospace);
-  font-size: var(--font-size);
 }
 #app-mount pre {
-  padding-bottom: var(--spacing);
+  margin: var(--spacing) 0;
+  background: var(--background-colour);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5px;
+  border-radius: var(--border-radius);
+}
+#app-mount pre:before {
+  content: "1\a 2\a 3\a 4\a 5\a 6\a 7\a 8\a 9\a 10\a 11\a 12\a 13\a 14\a 15\a 16\a 17\a 18\a 19\a 20\a 21\a 22\a 23\a 24\a 25\a 26\a 27\a 28\a 29\a 30\a 31\a 32\a 33\a 34\a 35\a 36\a 37\a 38\a 39\a 40\a 41\a 42\a 43\a 44\a 45\a 46\a 47\a 48\a 49\a 50\a 51\a 52\a 53\a 54\a 55\a 56\a 57\a 58\a 59\a 60\a 61\a 62\a 63\a 64\a 65\a 66\a 67\a 68\a 69\a 70\a 71\a 72\a 73\a 74\a 75\a 76\a 77\a 78\a 79\a 80\a 81\a 82\a 83\a 84\a 85\a 86\a 87\a 88\a 89\a 90\a 91\a 92\a 93\a 94\a 95\a 96\a 97\a 98\a 99\a 100\a 101\a 102\a 103\a 104\a 105\a 106\a 107\a 108\a 109\a 110\a 111\a 112\a 113\a 114\a 115\a 116\a 117\a 118\a 119\a 120\a 121\a 122\a 123\a 124\a 125\a 126\a 127\a 128\a 129\a 130\a 131\a 132\a 133\a 134\a 135\a 136\a 137\a 138\a 139\a 140\a 141\a 142\a 143\a 144\a 145\a 146\a 147\a 148\a 149\a 150\a 151\a 152\a 153\a 154\a 155\a 156\a 157\a 158\a 159\a 160\a 161\a 162\a 163\a 164\a 165\a 166\a 167\a 168\a 169\a 170\a 171\a 172\a 173\a 174\a 175\a 176\a 177\a 178\a 179\a 180\a 181\a 182\a 183\a 184\a 185\a 186\a 187\a 188\a 189\a 190\a 191\a 192\a 193\a 194\a 195\a 196\a 197\a 198\a 199\a 200\a 201\a 202\a 203\a 204\a 205\a 206\a 207\a 208\a 209\a 210\a 211\a 212\a 213\a 214\a 215\a 216\a 217\a 218\a 219\a 220\a 221\a 222\a 223\a 224\a 225\a 226\a 227\a 228\a 229\a 230\a 231\a 232\a 233\a 234\a 235\a 236\a 237\a 238\a 239\a 240\a 241\a 242\a 243\a 244\a 245\a 246\a 247\a 248\a 249\a 250\a 251\a 252\a 253\a 254\a 255\a 256\a 257\a 258\a 259\a 260\a 261\a 262\a 263\a 264\a 265\a 266\a 267\a 268\a 269\a 270\a 271\a 272\a 273\a 274\a 275\a 276\a 277\a 278\a 279\a 280\a 281\a 282\a 283\a 284\a 285\a 286\a 287\a 288\a 289\a 290\a 291\a 292\a 293\a 294\a 295\a 296\a 297\a 298\a 299\a 300\a 301\a 302\a 303\a 304\a 305\a 306\a 307\a 308\a 309\a 310\a 311\a 312\a 313\a 314\a 315\a 316\a 317\a 318\a 319\a 320\a 321\a 322\a 323\a 324\a 325\a 326\a 327\a 328\a 329\a 330\a 331\a 332\a 333\a 334\a 335\a 336\a 337\a 338\a 339\a 340\a 341\a 342\a 343\a 344\a 345\a 346\a 347\a 348\a 349\a 350\a 351\a 352\a 353\a 354\a 355\a 356\a 357\a 358\a 359\a 360\a 361\a 362\a 363\a 364\a 365\a 366\a 367\a 368\a 369\a 370\a 371\a 372\a 373\a 374\a 375\a 376\a 377\a 378\a 379\a 380\a 381\a 382\a 383\a 384\a 385\a 386\a 387\a 388\a 389\a 390\a 391\a 392\a 393\a 394\a 395\a 396\a 397\a 398\a 399\a 400\a 401\a 402\a 403\a 404\a 405\a 406\a 407\a 408\a 409\a 410\a 411\a 412\a 413\a 414\a 415\a 416\a 417\a 418\a 419\a 420\a 421\a 422\a 423\a 424\a 425\a 426\a 427\a 428\a 429\a 430\a 431\a 432\a 433\a 434\a 435\a 436\a 437\a 438\a 439\a 440\a 441\a 442\a 443\a 444\a 445\a 446\a 447\a 448\a 449\a 450\a 451\a 452\a 453\a 454\a 455\a 456\a 457\a 458\a 459\a 460\a 461\a 462\a 463\a 464\a 465\a 466\a 467\a 468\a 469\a 470\a 471\a 472\a 473\a 474\a 475\a 476\a 477\a 478\a 479\a 480\a 481\a 482\a 483\a 484\a 485\a 486\a 487\a 488\a 489\a 490\a 491\a 492\a 493\a 494\a 495\a 496\a 497\a 498\a 499\a 500\a 501\a 502\a 503\a 504\a 505\a 506\a 507\a 508\a 509\a 510\a 511\a 512\a 513\a 514\a 515\a 516\a 517\a 518\a 519\a 520\a 521\a 522\a 523\a 524\a 525\a 526\a 527\a 528\a 529\a 530\a 531\a 532\a 533\a 534\a 535\a 536\a 537\a 538\a 539\a 540\a 541\a 542\a 543\a 544\a 545\a 546\a 547\a 548\a 549\a 550\a 551\a 552\a 553\a 554\a 555\a 556\a 557\a 558\a 559\a 560\a 561\a 562\a 563\a 564\a 565\a 566\a 567\a 568\a 569\a 570\a 571\a 572\a 573\a 574\a 575\a 576\a 577\a 578\a 579\a 580\a 581\a 582\a 583\a 584\a 585\a 586\a 587\a 588\a 589\a 590\a 591\a 592\a 593\a 594\a 595\a 596\a 597\a 598\a 599\a 600\a 601\a 602\a 603\a 604\a 605\a 606\a 607\a 608\a 609\a 610\a 611\a 612\a 613\a 614\a 615\a 616\a 617\a 618\a 619\a 620\a 621\a 622\a 623\a 624\a 625\a 626\a 627\a 628\a 629\a 630\a 631\a 632\a 633\a 634\a 635\a 636\a 637\a 638\a 639\a 640\a 641\a 642\a 643\a 644\a 645\a 646\a 647\a 648\a 649\a 650\a 651\a 652\a 653\a 654\a 655\a 656\a 657\a 658\a 659\a 660\a 661\a 662\a 663\a 664\a 665\a 666\a 667\a 668\a 669\a 670\a 671\a 672\a 673\a 674\a 675\a 676\a 677\a 678\a 679\a 680\a 681\a 682\a 683\a 684\a 685\a 686\a 687\a 688\a 689\a 690\a 691\a 692\a 693\a 694\a 695\a 696\a 697\a 698\a 699\a 700\a 701\a 702\a 703\a 704\a 705\a 706\a 707\a 708\a 709\a 710\a 711\a 712\a 713\a 714\a 715\a 716\a 717\a 718\a 719\a 720\a 721\a 722\a 723\a 724\a 725\a 726\a 727\a 728\a 729\a 730\a 731\a 732\a 733\a 734\a 735\a 736\a 737\a 738\a 739\a 740\a 741\a 742\a 743\a 744\a 745\a 746\a 747\a 748\a 749\a 750\a 751\a 752\a 753\a 754\a 755\a 756\a 757\a 758\a 759\a 760\a 761\a 762\a 763\a 764\a 765\a 766\a 767\a 768\a 769\a 770\a 771\a 772\a 773\a 774\a 775\a 776\a 777\a 778\a 779\a 780\a 781\a 782\a 783\a 784\a 785\a 786\a 787\a 788\a 789\a 790\a 791\a 792\a 793\a 794\a 795\a 796\a 797\a 798\a 799\a 800\a 801\a 802\a 803\a 804\a 805\a 806\a 807\a 808\a 809\a 810\a 811\a 812\a 813\a 814\a 815\a 816\a 817\a 818\a 819\a 820\a 821\a 822\a 823\a 824\a 825\a 826\a 827\a 828\a 829\a 830\a 831\a 832\a 833\a 834\a 835\a 836\a 837\a 838\a 839\a 840\a 841\a 842\a 843\a 844\a 845\a 846\a 847\a 848\a 849\a 850\a 851\a 852\a 853\a 854\a 855\a 856\a 857\a 858\a 859\a 860\a 861\a 862\a 863\a 864\a 865\a 866\a 867\a 868\a 869\a 870\a 871\a 872\a 873\a 874\a 875\a 876\a 877\a 878\a 879\a 880\a 881\a 882\a 883\a 884\a 885\a 886\a 887\a 888\a 889\a 890\a 891\a 892\a 893\a 894\a 895\a 896\a 897\a 898\a 899\a 900\a 901\a 902\a 903\a 904\a 905\a 906\a 907\a 908\a 909\a 910\a 911\a 912\a 913\a 914\a 915\a 916\a 917\a 918\a 919\a 920\a 921\a 922\a 923\a 924\a 925\a 926\a 927\a 928\a 929\a 930\a 931\a 932\a 933\a 934\a 935\a 936\a 937\a 938\a 939\a 940\a 941\a 942\a 943\a 944\a 945\a 946\a 947\a 948\a 949\a 950\a 951\a 952\a 953\a 954\a 955\a 956\a 957\a 958\a 959\a 960\a 961\a 962\a 963\a 964\a 965\a 966\a 967\a 968\a 969\a 970\a 971\a 972\a 973\a 974\a 975\a 976\a 977\a 978\a 979\a 980\a 981\a 982\a 983\a 984\a 985\a 986\a 987\a 988\a 989\a 990\a 991\a 992\a 993\a 994\a 995\a 996\a 997\a 998\a 999\a";
+  width: 20px;
+  padding: 0 var(--spacing-half);
+  position: absolute;
+  left: 0;
+  text-align: right;
+  padding-top: 30px;
+  line-height: 1.5em;
+  height: calc(100% - 30px);
+  overflow: hidden;
+  color: var(--text-muted);
+  background: var(--background-colour-dark);
+  font-size: var(--font-size-xsm);
+}
+#app-mount code {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 34px !important;
+  padding-right: 0.25em !important;
+  padding-bottom: 0.15em;
+  padding-top: 30px !important;
+  background: transparent !important;
+  border: 1px solid var(--border-colour);
+  font-size: var(--font-size-xsm);
+  line-height: 1.5em;
+  border-radius: var(--border-radius);
+}
+#app-mount code:before {
+  content: "Unknown Language";
+  width: 100%;
+  height: 24px;
+  top: 0;
+  left: 0;
+  color: var(--text-normal);
+  font-size: 1em;
+  font-weight: var(--font-weight-light);
+  padding: 0 calc(var(--spacing) + 24px);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: var(--account-panel-background-colour);
+  box-sizing: border-box;
+  font-family: var(--font-family-sans-serif);
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#app-mount code:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 var(--spacing-third);
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M3 3a2 2 0 012-2h9.982a2 2 0 011.414.586l4.018 4.018A2 2 0 0121 7.018V21a2 2 0 01-2 2H4.75a.75.75 0 010-1.5H19a.5.5 0 00.5-.5V8.5h-4a2 2 0 01-2-2v-4H5a.5.5 0 00-.5.5v6.25a.75.75 0 01-1.5 0V3zm12-.5v4a.5.5 0 00.5.5h4a.5.5 0 00-.146-.336l-4.018-4.018A.5.5 0 0015 2.5z"/><path d="M4.53 12.24a.75.75 0 01-.039 1.06l-2.639 2.45 2.64 2.45a.75.75 0 11-1.022 1.1l-3.23-3a.75.75 0 010-1.1l3.23-3a.75.75 0 011.06.04zm3.979 1.06a.75.75 0 111.02-1.1l3.231 3a.75.75 0 010 1.1l-3.23 3a.75.75 0 11-1.021-1.1l2.639-2.45-2.64-2.45z"/></svg>') center/12px no-repeat;
+  background: var(--text-normal);
+}
+#app-mount code[class~=hljs]:before {
+  content: "Plain Text";
+}
+#app-mount code[class~=diff i]:before {
+  content: "Diff";
+}
+#app-mount code[class~=cs i]:before, #app-mount code[class~=csharp i]:before {
+  content: "C#";
+}
+#app-mount code[class~=ini i]:before {
+  content: "Initialization File";
+}
+#app-mount code[class~=autohotkey i]:before {
+  content: "AutoHotkey";
+}
+#app-mount code[class~=asciidoc i]:before {
+  content: "Ascii";
+}
+#app-mount code[class~=TOML i]:before {
+  content: "TOML";
+}
+#app-mount code[class~=nginx i]:before {
+  content: "NGINX";
+}
+#app-mount code[class~=perl i]:before {
+  content: "Perl";
+}
+#app-mount code[class~=d i]:before {
+  content: "d";
+}
+#app-mount code[class~=javascript i]:before, #app-mount code[class~=js i]:before {
+  content: "Javascript";
+}
+#app-mount code[class~=css i]:before {
+  content: "Cascading Style Sheet";
+}
+#app-mount code[class~=bash i]:before {
+  content: "Bash";
+}
+#app-mount code[class~=markdown i]:before, #app-mount code[class~=md i]:before {
+  content: "Markdown";
+}
+#app-mount code[class~=html i]:before {
+  content: "HTML";
+}
+#app-mount code[class~=xl i]:before {
+  content: "eXtensible Language";
+}
+#app-mount code[class~=coffee i]:before {
+  content: "CoffeeScript";
+}
+#app-mount code[class~=ruby i]:before {
+  content: "Ruby";
+}
+#app-mount code[class~=sql i]:before {
+  content: "SQL";
+}
+#app-mount code[class~=java i]:before {
+  content: "Java";
+}
+#app-mount code[class~=py i]:before, #app-mount code[class~=python i]:before {
+  content: "Python";
+}
+#app-mount code[class~=vb i]:before, #app-mount code[class~=visualbasic i]:before, #app-mount code[class~=vbs i]:before {
+  content: "Visual Basic";
+}
+#app-mount code[class~=lua i]:before {
+  content: "Lua";
+}
+#app-mount code[class~=php i]:before {
+  content: "Php";
+}
+#app-mount code[class~=swift i]:before {
+  content: "Swift";
+}
+#app-mount code[class~=makefile i]:before {
+  content: "Makefile";
+}
+#app-mount code[class~=go i]:before {
+  content: "Go";
+}
+#app-mount code[class~=rust i]:before {
+  content: "Rust";
+}
+#app-mount code[class~=prolog i]:before {
+  content: "Prolog";
+}
+#app-mount code[class~=ts i]:before, #app-mount code[class~=typescript i]:before {
+  content: "TypeScript";
+}
+#app-mount code[class~=http i]:before {
+  content: "HyperText Transfer Protocol";
+}
+#app-mount code[class~=json i]:before {
+  content: "JSON";
+}
+#app-mount code[class~=xml i]:before {
+  content: "XML";
+}
+#app-mount code[class~=less i]:before {
+  content: "Less";
+}
+#app-mount code[class~=sass i]:before, #app-mount code[class~=scss i]:before {
+  content: "SCSS";
+}
+#app-mount code[class~=elm i]:before {
+  content: "Elm";
+}
+#app-mount code[class~=cpp i]:before {
+  content: "C++";
+}
+#app-mount code[class~=hbs i]:before {
+  content: "Handlebars";
+}
+#app-mount code[class~="1c" i]:before {
+  content: "1c";
+}
+#app-mount code[class~=abnf i]:before {
+  content: "ABNF";
+}
+#app-mount code[class~=clojure i]:before {
+  content: "Clojure";
+}
+#app-mount code[class~=objc i]:before {
+  content: "Objective-C";
+}
+#app-mount code[class~=yaml i]:before {
+  content: "YAML";
+}
+#app-mount code[class~=shell i]:before, #app-mount code[class~=sh i]:before {
+  content: "Shell";
+}
+#app-mount code[class~=kotlin i]:before {
+  content: "Kotlin";
+}
+#app-mount code[class~=apache i]:before {
+  content: "Apache";
+}
+#app-mount code[class~=stylus i]:before {
+  content: "Stylus";
+}
+#app-mount code[class~=avrasm i]:before {
+  content: "AVR Assembler";
+}
+#app-mount code[class~=llvm i]:before {
+  content: "LLVM iR";
+}
+#app-mount code[class~=mipsasm i]:before {
+  content: "MIPS Assembly";
+}
+#app-mount code[class~=x86asm i]:before {
+  content: "Intel x86 Assembly";
+}
+#app-mount code[class~=crmsh i]:before {
+  content: "crmsh";
+}
+#app-mount code[class~=dns i]:before {
+  content: "DNS Zone File";
+}
+#app-mount code[class~=dockerfile i]:before {
+  content: "Dockerfile";
+}
+#app-mount code[class~=dsconfig i]:before {
+  content: "dsconfig";
+}
+#app-mount code[class~=jboss-cli i]:before {
+  content: "jboss-cli";
+}
+#app-mount code[class~=ldif i]:before {
+  content: "LDIF";
+}
+#app-mount code[class~="pf.conf" i]:before {
+  content: "pf.conf";
+}
+#app-mount code[class~=puppet i]:before {
+  content: "Puppet";
+}
+#app-mount code[class~=roboconf i]:before {
+  content: "Roboconf";
+}
+#app-mount code[class~=axapta i]:before {
+  content: "Microsoft Dynamics AX";
+}
+#app-mount code[class~=cos i]:before {
+  content: "Cache Object Script";
+}
+#app-mount code[class~=isbl i]:before {
+  content: "ISBL";
+}
+#app-mount code[class~=livecodeserver i]:before {
+  content: "LiveCode";
+}
+#app-mount code[class~=ldif i]:before {
+  content: "LDIF";
+}
+#app-mount code[class~=ruleslanguage i]:before {
+  content: "Oracle Rules Language";
+}
+#app-mount code[class~=clean i]:before {
+  content: "Clean";
+}
+#app-mount code[class~=coq i]:before {
+  content: "Coq";
+}
+#app-mount code[class~=elixir i]:before {
+  content: "Elixir";
+}
+#app-mount code[class~=erlang-repl i]:before {
+  content: "Erlang REPL";
+}
+#app-mount code[class~=erlang i]:before {
+  content: "Erlang";
+}
+#app-mount code[class~=flix i]:before {
+  content: "Flix";
+}
+#app-mount code[class~=fsharp i]:before, #app-mount code[class~=fs i]:before {
+  content: "F#";
+}
+#app-mount code[class~=haskell i]:before {
+  content: "Haskell";
+}
+#app-mount code[class~=ocaml i]:before {
+  content: "OCaml";
+}
+#app-mount code[class~=scala i]:before {
+  content: "Scala";
+}
+#app-mount code[class~=sml i]:before {
+  content: "SML (Standard ML)";
+}
+#app-mount code[class~=xquery i]:before {
+  content: "XQuery";
+}
+#app-mount code[class~=glsl i]:before {
+  content: "GLSL";
+}
+#app-mount code[class~=mel i]:before {
+  content: "MEL";
+}
+#app-mount code[class~=processing i]:before {
+  content: "Processing";
+}
+#app-mount code[class~=rib i]:before {
+  content: "RenderMan RIB";
+}
+#app-mount code[class~=rsl i]:before {
+  content: "RenderMan RSL";
+}
+#app-mount code[class~=armasm i]:before {
+  content: "Arm Assembly";
+}
+#app-mount code[class~=asm i]:before, #app-mount code[class~=assembly i]:before {
+  content: "Assembly";
 }
 #app-mount .embedFull-2tM8-- {
   background-color: var(--background-colour);
@@ -1429,6 +1856,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .embedFull-2tM8-- .embedTitle-3OXDkz,
 #app-mount .embedFull-2tM8-- .embedDescription-1Cuq9a {
   font-size: var(--chat-font-size);
+}
+
+.powercord-codeblock-lang,
+.hljs .powercord-lines {
+  display: none;
 }
 
 #app-mount .form-2fGMdU {
