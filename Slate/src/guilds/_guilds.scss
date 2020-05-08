@@ -1,20 +1,18 @@
 #app-mount .guilds-1SWlCJ {
+  border-right:1px solid var(--border-colour);
+  box-sizing:border-box;
   .scroller-2TZvBN {
     background: var(--background-colour);
     contain: none;
     padding-top: var(--toolbar-height);
   }
   // Home button
-  .listItem-2P_4kh:first-child .childWrapper-anI2G9 {
-    background: transparent;
+  .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+    background: transparent !important;
   }
   .tutorialContainer-1v44GL {
     [class*=pill] {
-      height: calc(var(--toolbar-height) / 2);
-      span {
-        height: calc(var(--toolbar-height) / 2) !important;
-        background: var(--toolbar-text-default);
-      }
+      display:none;
     }
     .wrapper-25eVIn {
       display: flex;
@@ -31,23 +29,18 @@
       transform: translateX(-50%);
     }
   }
-  &:after {
-    content:"";
-    position: absolute;
-    top: var(--toolbar-height);
-    height: 100vh;
-    width: calc(var(--base-left) - 1px);
-    border-right: 1px solid var(--border-colour);
-    pointer-events: none;
-  }
   .homeIcon-tEMBK1 {
     -webkit-mask: url($icon_home) center/cover no-repeat;
     background: var(--text-default);
     width: 70%;
     height: 70%;
+    transition:150ms ease;
     path {
       display: none;
     }
+  }
+  .selected-bZ3Lue .homeIcon-tEMBK1 {
+    background:var(--text-focus);
   }
   .guildSeparator-3s64Iy {
     background: var(--border-colour);
@@ -55,6 +48,12 @@
   }
   .childWrapper-anI2G9 {
     background: var(--server-icon);
+    font-size:var(--font-size-lg);
+    font-weight:var(--font-weight-light);
+  }
+  .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background:var(--server-icon-active);
+    color:var(--text-focus);
   }
   .circleIconButton-jET_ig {
     background: var(--server-icon);
@@ -86,5 +85,8 @@
   [class*="pill"] span {
     border-radius:0;
     max-height:75%;
+    background: var(--text-muted);
+    width:7px;
+    opacity:1 !important;
   }
 }

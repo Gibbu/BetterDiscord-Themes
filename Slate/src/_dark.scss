@@ -28,7 +28,8 @@
   --emoji-search: rgba(0,0,0,0.2);
 
   // Servers
-  --server-icon: var(--background-colour-dark);
+  --server-icon: var(--account-panel-background-colour);
+  --server-icon-active: var(--settings-button-hover);
 
   // Friends list
   --now-playing-background: var(--main-background);

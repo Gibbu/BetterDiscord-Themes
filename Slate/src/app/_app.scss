@@ -2,6 +2,12 @@
   background: var(--accent-solid);
   color: #fff;
 }
+::-webkit-input-placeholder {
+  user-select:none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  user-select:text;
+}
 #app-mount {
   background: var(--topbar-background);
   .base-3dtUhz {

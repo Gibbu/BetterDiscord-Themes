@@ -28,6 +28,7 @@
       font-size: var(--font-size);
       font-weight: var(--font-weight-semibold);
       color: var(--toolbar-text-default);
+      user-select:none;
       &:before {
         display: block;
         content: "Current Server";

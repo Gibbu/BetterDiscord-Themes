@@ -30,4 +30,41 @@
   .scroller-2FKFPG::-webkit-scrollbar {
     display: none;
   }
+
+// Channel Notifications
+
+.channelNotice-1-XFjC {
+  margin-top:var(--toolbar-height);
+  border-bottom:1px solid var(--border-colour);
+  box-shadow:none;
+    border-right:1px solid var(--border-colour);
+    background-color: var(--account-panel-background-colour);
+    background-image:none;
+    padding:var(--spacing);
+      &.invite-OjTXrW {
+        background-image:none;
+        .message-3SOT5P {
+          display:flex;
+          flex-direction:column;
+          align-items:center;
+          margin:0;
+          color:var(--text-muted);
+          font-size:var(--font-size);
+          line-height:normal;
+          .btn-11C5_u {
+            margin:var(--spacing) auto 0;
+          }
+          &:before {
+            content:'';
+            position:relative;
+            display:block;
+            width:75px;
+            height:80px;
+            margin:var(--spacing);
+            background:var(--text-normal);
+            -webkit-mask:url($illustration_1) center/cover no-repeat;
+        }
+      }
+    }
+  }
 }
