@@ -1,0 +1,22 @@
+#app-mount .recentMentionsPopout-3rCiI6 {
+  .container-3iAQ-0 {
+    background: rgba(#000, 0.2);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .channelHeader-3Gd2xq {
+    background: transparent;
+  }
+  .messageContainer-gbhlwo {
+    background: rgba(#000, 0.2);
+  }
+  .tertiary-aMXF0g,
+  .secondary-dIudih {
+    background: rgba(#fff, 0.05);
+    &:hover {
+      background: rgba(#fff, 0.15);
+    }
+  }
+}

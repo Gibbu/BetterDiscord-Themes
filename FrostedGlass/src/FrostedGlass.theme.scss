@@ -53,6 +53,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
   --BG-window-padding: 20px;           /* Space between Discord window and Discord itself | DEFAULT: 20px */
   --BG-window-roundness: 10px;         /* Edges of Discord | DEFAULT: 10px */
   --BG-left-right-split: 0;            /* Space between channels/dm's and chat/members list | DEFAULT: 0 */
+  --BG-scrollbar-colour: rgba(0,0,0,0.5); /* Colour of the scrollbars | DEFAULT: rgba(0,0,0,0.5) */
 
   /*
     To use a custom font. Visit https://fonts.google.com and select one to your liking.
@@ -76,6 +77,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
   --BG-tint-colour-default: 255, 51, 159;
   --BG-tint-colour-set: var(--BG-tint-colour, var(--BG-tint-colour-default));
   --BG-tint-brightness-set: var(--BG-tint-brightness, 0);
+  --set-scrollbar-colour: var(--BG-scrollbar-colour, rgba(0,0,0,0.5));
 
   --TB-tr-roundness: var(--BG-window-roundness);
   --TB-position-top: var(--BG-window-padding);
@@ -117,6 +119,7 @@ Valley 8K:        https://i.imgur.com/768zfyS.jpg
 @import 'popouts/searchroles';
 @import 'popouts/auditlogs';
 @import 'popouts/others';
+@import 'popouts/mentions';
 
 @import 'modals/global';
 @import 'modals/createjoinserver';
