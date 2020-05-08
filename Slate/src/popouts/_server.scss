@@ -9,7 +9,7 @@
     padding: 0; 
     border-radius: 0;
     box-shadow: none;
-    height: 100vh;
+    height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
     width:calc(var(--sidebar-width) + var(--container));
     background: var(--background-colour);
     border-right:1px solid var(--border-colour);
@@ -57,6 +57,16 @@
       background: rgba(0,0,0,0.5);
       z-index: -1;
       pointer-events: none;
+    }
+    &:after {
+      content:var(--slate-version);
+      position:absolute;
+      font-size:var(--font-size-xsm);
+      font-weight:var(--font-weight-light);
+      color:var(--text-default);
+      bottom:0;
+      left:0;
+      margin:var(--spacing);
     }
   }
 }

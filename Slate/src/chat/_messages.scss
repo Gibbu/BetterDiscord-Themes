@@ -5,6 +5,8 @@
   .timestamp-3ZCmNB {
     font-size: calc(var(--font-size-sm) - 2px);
     height: auto;
+    display:flex;
+    align-items:center;
   }
 
   .cozy-3raOZG {
@@ -103,6 +105,7 @@
   .username-1A8OIy {
     font-size: var(--chat-font-size);
     color:var(--text-default);
+    margin:0;
   }
   .timestampCozy-1HNQR2 {
     font-size: var(--chat-font-size);
