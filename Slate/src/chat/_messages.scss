@@ -55,7 +55,7 @@
         background: var(--background-colour);
         border: 1px solid var(--border-colour);
         border-radius: var(--border-radius);
-        padding: calc(var(--spacing) / 2);  
+        padding: calc(var(--spacing) / 2);
         margin-right: var(--spacing);
         color: var(--accent-solid);
         text-decoration: none;
@@ -74,7 +74,7 @@
     }
 
     & + .message-2qnXI6:not(.groupStart-23k01U) {
-      margin-top: calc(var(--spacing) / -1);
+      margin-top: calc(var(--spacing) / -1 - 5px);
     }
     &:last-child {
       padding-bottom: calc(var(--spacing) + 5px);
@@ -96,7 +96,8 @@
   .groupStart-23k01U {
     border-top: 1px solid var(--border-colour);
     padding-top: var(--spacing);
-    padding-bottom:0;
+    padding-bottom: var(--spacing);
+    min-height: auto;
     h2, .username-1A8OIy, .timestamp-3ZCmNB {
       line-height: normal;
     }
