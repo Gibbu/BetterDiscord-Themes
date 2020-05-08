@@ -1,10 +1,10 @@
 #app-mount [id*="popout_"][style*="top"][style*="left"] {
-  top:calc(var(--toolbar-height) + var(--titlebar-height) + 1px) !important;
- .animatorBottom-fS5rNO.scale-3iLZhb.didRender-33z1u8 {
+   .animatorBottom-fS5rNO.scale-3iLZhb.didRender-33z1u8 {
   transform: none !important;
   transition: none !important;
   .menu-Sp6bN1 {
     position:fixed;
+    top:calc(var(--titlebar-height) + var(--toolbar-height));
     left:0;
     padding: 0; 
     border-radius: 0;

@@ -18,6 +18,8 @@
     top: 50px;
     box-shadow: none;
     -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 90%) !important;
+    z-index:10;
+    pointer-events:none;
   }
   .bannerImage-1jOskm {
     width: var(--sidebar-width);
