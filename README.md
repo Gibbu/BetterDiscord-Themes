@@ -10,7 +10,7 @@
 - MinimalCord - [[Download]](https://betterdiscord.net/ghdl?id=3195) - [[Editor]](https://gibbu.me/themegen/minimalcord)
 - RadialStatus - [[Download]](https://betterdiscord.net/ghdl?id=3194)
 - SimplyDark - [[Download]](https://betterdiscord.net/ghdl?id=3193) - [[Editor]](https://gibbu.me/themegen/simplydark)
-- Slate - [[Download]](https://betterdiscord.net/ghdl?id=3192) - (EARLY DEVELOPMENT)
+- Slate - [[Download]](https://betterdiscord.net/ghdl?id=3192) - Collaboration wtih [Tropical](https://github.com/Tropix126)
 
 - - -
 
