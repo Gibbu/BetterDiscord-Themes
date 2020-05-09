@@ -58,7 +58,7 @@
   --avatar-size: 28px;
   --avatar-size-large: 45px;
 
-  // Random ass vars
+  // Status
   --discord-green: 67, 181, 129;
   --discord-yellow: 250, 166, 26;
   --discord-red: 240, 71, 71;
@@ -72,7 +72,7 @@
   --bd-blue-hover: var(--accent-solid-hover);
   --blurple: var(--accent-solid);
 
-  // RadialStatus vars
+  // RadialStatus
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
@@ -85,4 +85,12 @@
   --rs-invisible-color: #747f8d;
 
   --slate-version: "Slate 0.0.16";
+
+  // Syntax
+  --syntax-blue:#79b8ff;
+  --syntax-purple:#b392f0;
+  --syntax-grey:#959da5;
+  --syntax-grey-alt:#d1d5da;
+  --syntax-orange:#ffab70;
+  --syntax-green:#56b6c2;
 }
