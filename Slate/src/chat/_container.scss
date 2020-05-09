@@ -41,23 +41,18 @@
 #app-mount .messages-3amgkR {
   background: var(--main-background);
   &::-webkit-scrollbar {
-    width: 12px;
+    width: 4px;
     display: none;
-    background: transparent;
-    border-left: 1px solid var(--border-colour);
+    background: transparent !important;
   }
   &::-webkit-scrollbar-track-piece {
     background: transparent;
     border-color: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    border-radius:50px;
-    border-style: solid;
-    border-color: transparent;
-    border-left-width: 4px;
-    border-right-width: 3px;
-    background-clip: padding-box;
     background-color: var(--channel-scrollbar);
+    border-radius:0;
+    border:none;
     &:active {
       background-color:var(--background-modifier-active);
     }
@@ -74,9 +69,8 @@
 
   //Welcome Message
   .welcomeMessage-ULm0mo {
-    padding:0;
+    padding:0 calc(var(--spacing) * 2);
     border-radius:var(--border-radius);
-    border:1px solid var(--border-colour);
     max-width:850px;
     margin:auto;
     margin-bottom:calc(var(--spacing) * 10);
@@ -109,10 +103,16 @@
       align-items:center;
       width:100%;
       padding:calc(var(--spacing) * 2);
-      border-bottom:1px solid var(--border-colour);
+      border:1px solid var(--border-colour);
+      border-top:none;
       box-sizing:border-box;
       &:nth-last-child(2) {
-        border:none;
+        border-bottom:1px solid var(--border-colour);
+        border-radius:0 0 var(--border-radius) var(--border-radius);
+      }
+      &:nth-child(2) {
+        border-top:1px solid var(--border-colour);
+        border-radius:var(--border-radius) var(--border-radius) 0 0 
       }
       p {
        color:var(--text-normal);
