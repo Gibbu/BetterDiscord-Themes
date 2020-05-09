@@ -213,10 +213,11 @@
       padding-bottom: .15em;
       padding-top: 30px !important;
       background: transparent !important;
-      border:1px solid var(--border-colour);
+      border:1px solid var(--border-colour); 
       font-size:var(--font-size-sm);
       line-height:1.5em;
       border-radius:var(--border-radius);
+      color:var(--syntax-grey-alt);
       &:before {
         content: 'Unknown Language';
         width: 100%;
@@ -235,7 +236,7 @@
         font-family:var(--font-family-sans-serif);
         line-height:normal;
         white-space:nowrap;
-        overflow:hidden;
+        overflow:hidden; 
       }
       &:after {
         content:'';
@@ -249,6 +250,36 @@
         background:var(--text-normal);
       }
       @import 'codeblocklangs';
+
+      // Syntax
+      .hljs-selector-class,
+      .hljs-built_in,
+      .hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+        color:var(--syntax-purple);
+      }
+      .hljs-attribute,
+      .hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
+        color:var(--syntax-blue);
+      }
+      .hljs-number,
+      .hljs-bullet, 
+      .hljs-link, 
+      .hljs-meta, 
+      .hljs-meta 
+      .hljs-keyword,
+      .hljs-selector-attr, 
+      .hljs-selector-pseudo, 
+      .hljs-subst, 
+      .hljs-symbol,
+      .hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
+        color:var(--syntax-orange);
+      }
+      .hljs-addition, .hljs-keyword, .hljs-selector-tag {
+        color:var(--syntax-green);
+      }
+      .hljs-comment, .hljs-quote {
+        color:var(--syntax-grey);
+      }
     }
   }
   .embedFull-2tM8-- {
@@ -268,5 +299,3 @@
 .hljs .powercord-lines {
   display:none;
 }
-
-//Codeblock Database
