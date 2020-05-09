@@ -1,6 +1,6 @@
 #app-mount .guilds-1SWlCJ {
-  border-right:1px solid var(--border-colour);
-  box-sizing:border-box;
+  border-right: 1px solid var(--border-colour);
+  box-sizing: border-box;
   .scroller-2TZvBN {
     background: var(--background-colour);
     contain: none;
@@ -12,7 +12,7 @@
   }
   .tutorialContainer-1v44GL {
     [class*=pill] {
-      display:none;
+      display: none;
     }
     .wrapper-25eVIn {
       display: flex;
@@ -34,13 +34,13 @@
     background: var(--text-default);
     width: 70%;
     height: 70%;
-    transition:150ms ease;
+    transition: 150ms ease;
     path {
       display: none;
     }
   }
   .selected-bZ3Lue .homeIcon-tEMBK1 {
-    background:var(--text-focus);
+    background: var(--text-focus);
   }
   .guildSeparator-3s64Iy {
     background: var(--border-colour);
@@ -48,12 +48,12 @@
   }
   .childWrapper-anI2G9 {
     background: var(--server-icon);
-    font-size:var(--font-size-lg);
-    font-weight:var(--font-weight-light);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-light);
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-    background:var(--server-icon-active);
-    color:var(--text-focus);
+    background: var(--server-icon-active);
+    color: var(--text-focus);
   }
   .circleIconButton-jET_ig {
     background: var(--server-icon);
@@ -73,20 +73,19 @@
     border-radius: var(--border-radius);
     overflow: hidden;
   }
+  .expandedFolderBackground-2sPsd-,
   .folderIconWrapper-226oVY,
   .guildIcon-GuAC7C,
-  .expandedFolderBackground-2sPsd-,
   .guildIconUnavailable-5PMHDN,
-  .iconBadge-2NuvG9,
   .guildsError-b7zR5H,
+  .iconBadge-2NuvG9,
   .numberBadge-2s8kKX {
     border-radius: var(--border-radius);
   }
   [class*="pill"] span {
-    border-radius:0;
-    max-height:75%;
+    border-radius: 0;
+    max-height: 75%;
     background: var(--text-muted);
-    width:7px;
-    opacity:1 !important;
+    width: 7px;
   }
 }
