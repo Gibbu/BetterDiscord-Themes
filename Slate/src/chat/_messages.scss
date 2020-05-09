@@ -254,14 +254,23 @@
       // Syntax
       .hljs-selector-class,
       .hljs-built_in,
-      .hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string {
+      .hljs-doctag, 
+      .hljs-literal, 
+      .hljs-meta 
+      .hljs-meta-string, 
+      .hljs-number, 
+      .hljs-regexp {
         color:var(--syntax-purple);
       }
       .hljs-attribute,
-      .hljs-name, .hljs-section, .hljs-selector-class, .hljs-selector-id, .hljs-title {
+      .hljs-name,
+      .hljs-section, 
+      .hljs-selector-class,
+      .hljs-selector-id, 
+      .hljs-title, 
+      .hljs-string {
         color:var(--syntax-blue);
       }
-      .hljs-number,
       .hljs-bullet, 
       .hljs-link, 
       .hljs-meta, 
@@ -271,7 +280,13 @@
       .hljs-selector-pseudo, 
       .hljs-subst, 
       .hljs-symbol,
-      .hljs-attr, .hljs-attribute, .hljs-class .hljs-title, .hljs-template-variable, .hljs-type, .hljs-variable {
+      .hljs-attr, 
+      .hljs-attribute,
+      .hljs-class,
+      .hljs-title, 
+      .hljs-template-variable, 
+      .hljs-type, 
+      .hljs-variable {
         color:var(--syntax-orange);
       }
       .hljs-addition, .hljs-keyword, .hljs-selector-tag {

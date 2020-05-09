@@ -1856,14 +1856,22 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount pre code .hljs-selector-class,
 #app-mount pre code .hljs-built_in,
-#app-mount pre code .hljs-doctag, #app-mount pre code .hljs-literal, #app-mount pre code .hljs-meta .hljs-meta-string, #app-mount pre code .hljs-number, #app-mount pre code .hljs-regexp, #app-mount pre code .hljs-string {
+#app-mount pre code .hljs-doctag,
+#app-mount pre code .hljs-literal,
+#app-mount pre code .hljs-meta .hljs-meta-string,
+#app-mount pre code .hljs-number,
+#app-mount pre code .hljs-regexp {
   color: var(--syntax-purple);
 }
 #app-mount pre code .hljs-attribute,
-#app-mount pre code .hljs-name, #app-mount pre code .hljs-section, #app-mount pre code .hljs-selector-class, #app-mount pre code .hljs-selector-id, #app-mount pre code .hljs-title {
+#app-mount pre code .hljs-name,
+#app-mount pre code .hljs-section,
+#app-mount pre code .hljs-selector-class,
+#app-mount pre code .hljs-selector-id,
+#app-mount pre code .hljs-title,
+#app-mount pre code .hljs-string {
   color: var(--syntax-blue);
 }
-#app-mount pre code .hljs-number,
 #app-mount pre code .hljs-bullet,
 #app-mount pre code .hljs-link,
 #app-mount pre code .hljs-meta,
@@ -1872,7 +1880,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount pre code .hljs-selector-pseudo,
 #app-mount pre code .hljs-subst,
 #app-mount pre code .hljs-symbol,
-#app-mount pre code .hljs-attr, #app-mount pre code .hljs-attribute, #app-mount pre code .hljs-class .hljs-title, #app-mount pre code .hljs-template-variable, #app-mount pre code .hljs-type, #app-mount pre code .hljs-variable {
+#app-mount pre code .hljs-attr,
+#app-mount pre code .hljs-attribute,
+#app-mount pre code .hljs-class,
+#app-mount pre code .hljs-title,
+#app-mount pre code .hljs-template-variable,
+#app-mount pre code .hljs-type,
+#app-mount pre code .hljs-variable {
   color: var(--syntax-orange);
 }
 #app-mount pre code .hljs-addition, #app-mount pre code .hljs-keyword, #app-mount pre code .hljs-selector-tag {
