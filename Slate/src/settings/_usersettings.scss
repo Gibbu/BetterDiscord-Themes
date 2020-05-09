@@ -56,33 +56,7 @@
   margin-bottom: var(--spacing-double);
   border-bottom: 1px solid var(--border-colour);
   padding-bottom: var(--spacing-double);
-  .multiInput-1e2xJ7 {
-    border: 1px solid var(--border-colour);
-    border-radius: var(--border-radius);
-    background: var(--background-colour);
-    .input-cIJ7To {
-      padding: 0;
-      font-size: var(--font-size);
-      height: var(--settings-input-height);
-      background: transparent;
-    }
-  }
-  .multiInputLast-1aQ3YA {
-    &:before {
-      content: none;
-    }
-    .input-cIJ7To {
-      padding-left: var(--font-size);
-    }
-  }
-  .inputPrefix-2VAOGg {
-    font-size: var(--font-size);
-    height: var(--settings-input-height);
-    padding-top: 0;
-    padding-left: 0;
-    display: flex;
-    align-items: center;
-  }
+}
   .avatarUploaderInner-3UNxY3 {
     width: 64px;
     height: 64px;
@@ -96,7 +70,6 @@
   .avatarUploaderIndicator-2G-aIZ {
     display: none;
   }
-}
 
 // Authorized Apps
 .authedApp-mj2Hmd {

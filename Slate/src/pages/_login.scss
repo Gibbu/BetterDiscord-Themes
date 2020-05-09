@@ -6,17 +6,19 @@
   .image-2jyRAK, 
   .verticalSeparator-3huAjp,
   .qrLogin-1AOZMt,
-  .colorHeaderSecondary-3Sp3Ft {
+  .colorHeaderSecondary-3Sp3Ft,
+  .needAccount-23l_Wh {
     display:none;
   }
   .rightSplit-2US0xy {
     background:url($illustration_2) center/64%; 
+    box-shadow:inset 0 0 0 100vmax rgba(0,0,0,0.4);
   }
   .authBox-hW6HRx {
     padding:0;
     max-width: 400px;
     background:var(--background-colour);
-    box-shadow:var(--modal-box-shadow), 0 0 0 100vmax rgba(0,0,0,0.4);
+    box-shadow:var(--modal-box-shadow);
     border-radius:var(--border-radius);
     overflow:hidden;
     border:1px solid var(--border-color);
@@ -42,6 +44,9 @@
       margin:0;
       padding:var(--spacing-double);
       box-sizing:border-box;
+    }
+    .marginBottom20-32qID7 {
+      margin-bottom:var(--spacing);
     }
   }
   .wrapper-6URcxg {
