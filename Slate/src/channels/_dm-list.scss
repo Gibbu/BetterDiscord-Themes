@@ -44,11 +44,15 @@
 		.layout-2DM8Md {
 			border-radius: 0;
 			padding: 0 var(--spacing);
+			cursor:default;
 		}
 		.name-uJV0GL {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-light);
 			color: var(--text-default);
+		}
+		.avatar-3uk_u9 {
+			margin-right:var(--spacing);
 		}
 		.activityText-OW8WYb,
 		.subtext-1RtU34 {
@@ -59,7 +63,7 @@
     &.selected-aXhQR6 {
       color: var(--text-focus);
       .closeButton-2GCmT5 {
-        display: block;
+		display: block;
       }
       .name-uJV0GL,
       .activityText-OW8WYb,
