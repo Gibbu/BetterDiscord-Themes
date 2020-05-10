@@ -3,6 +3,7 @@
   border-radius: 0;
   overflow:visible !important;
   display: -webkit-box;
+  padding-top:var(--toolbar-height);
   .container-PNkimc {
     background: var(--background-colour);
   }
@@ -10,7 +11,6 @@
   .scroller-2FKFPG {
     border-right: 1px solid var(--border-colour);
     background: var(--channel-background);
-    padding-top:var(--toolbar-height)
   }
 
   // Banner image
@@ -34,35 +34,48 @@
 // Channel Notifications
 
 .channelNotice-1-XFjC {
-  margin-top:var(--toolbar-height);
   border-bottom:1px solid var(--border-colour);
   box-shadow:none;
-    border-right:1px solid var(--border-colour);
-    background-color: var(--account-panel-background-colour);
-    background-image:none;
-    padding:var(--spacing);
-      &.invite-OjTXrW {
-        background-image:none;
-        .message-3SOT5P {
-          display:flex;
-          flex-direction:column;
-          align-items:center;
-          margin:0;
-          color:var(--text-muted);
-          font-size:var(--font-size);
-          line-height:normal;
-          .btn-11C5_u {
-            margin:var(--spacing) auto 0;
-          }
-          &:before {
-            content:'';
-            position:relative;
-            display:block;
-            width:75px;
-            height:80px;
-            margin:var(--spacing);
-            background:var(--text-normal);
-            -webkit-mask:url($illustration_1) center/cover no-repeat;
+  border-right:1px solid var(--border-colour);
+  background-color: var(--account-panel-background-colour);
+  padding:var(--spacing);
+  .close-relY5R {
+    width:16px;
+    height:16px;
+    top:var(--spacing);
+    right:var(--spacing);
+    color:var(--text-muted);
+    background:currentColor;
+    -webkit-mask:url($icon_close) center/12px no-repeat;
+      path {
+        display:none;
+      }
+    &:hover {
+      color:var(--text-normal);
+    }
+  }
+    &.invite-OjTXrW {
+      background-image:none;
+      .message-3SOT5P {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0;
+        color:var(--text-muted);
+        font-size:var(--font-size);
+        line-height:normal;
+        .btn-11C5_u {
+          margin:var(--spacing) auto 0;
+        }
+        &:before {
+          content:'';
+          position:relative;
+          display:block;
+          width:75px;
+          height:80px;
+          margin:var(--spacing);
+          background:var(--text-normal);
+          -webkit-mask:url($illustration_1) center/cover no-repeat;
         }
       }
     }

@@ -17,6 +17,7 @@
     transition: none;
     position:absolute;
     left:calc(var(--container) * -1);
+    top:calc(var(--toolbar-height) * -1);
     width:calc(var(--sidebar-width) + var(--container));
     z-index:11;
     filter: none;

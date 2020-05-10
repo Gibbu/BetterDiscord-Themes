@@ -1,17 +1,16 @@
 #app-mount .wrapper-3Q5DdO {
-  position:Fixed;
+  position:fixed;
   background:var(--background-colour-dark);
   .canvas-3XuBXe,
   .fallbackImage-31Sk4m,
   .image-2jyRAK, 
   .verticalSeparator-3huAjp,
-  .qrLogin-1AOZMt,
   .colorHeaderSecondary-3Sp3Ft,
   .needAccount-23l_Wh {
     display:none;
   }
   .rightSplit-2US0xy {
-    background:url($illustration_2) center/64%; 
+    background:url($illustration_2) center/50%; 
     box-shadow:inset 0 0 0 100vmax rgba(0,0,0,0.4);
   }
   .authBox-hW6HRx {
@@ -20,11 +19,36 @@
     background:var(--background-colour);
     box-shadow:var(--modal-box-shadow);
     border-radius:var(--border-radius);
-    overflow:hidden;
     border:1px solid var(--border-color);
+    position:relative;
+    left:-100px;
+    .qrLogin-1AOZMt {
+      position:absolute;
+      left:100%;
+      background:var(--background-colour);
+      box-shadow:var(--modal-box-shadow);
+      border-radius:var(--border-radius);
+      border:1px solid var(--border-color);
+      margin-left:var(--spacing);
+      height:auto;  
+      width:auto;
+      top:0;
+      padding:0;
+      .qrLoginInner-c_7ePj {
+        justify-content:flex-start;
+        .qrCodeContainer-3sXarj {
+          padding:var(--spacing-double);
+        }
+      }
+      .title-jXR8lp {
+        order:-1;
+      }
+      .qrCodeContainer-3sXarj {
+        margin:0;
+      }
+    }
     .title-jXR8lp {
       width:100%;
-      background:var(--background-colour);
       height:50px;
       padding:var(--spacing-double);
       box-sizing:border-box;

@@ -59,9 +59,9 @@
   --avatar-size-large: 45px;
 
   // Status
-  --discord-green: 67, 181, 129;
-  --discord-yellow: 250, 166, 26;
-  --discord-red: 240, 71, 71;
+  --discord-green: 40, 167, 69;
+  --discord-yellow: 219, 171, 9;
+  --discord-red: 215, 58, 73;
   --discord-purple: 89, 54, 149;
   --discord-invisible: 117, 128, 142;
   --discord-nitro: 255, 115, 250;
@@ -77,12 +77,12 @@
   --rs-large-spacing: 0px;
   --rs-width: 2px;
   --rs-avatar-shape: 5%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
+  --rs-online-color: rgb(var(--discord-green));
+  --rs-idle-color: rgb(var(--discord-yellow));
+  --rs-dnd-color: rgb(var(--discord-red));
   --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
+  --rs-streaming-color: rgb(var(--discord-twitch));
+  --rs-invisible-color: rgb(var(--discord-invisible));
 
   --slate-version: "Slate 0.0.16";
 

@@ -36,9 +36,18 @@ h1, h2, h3, h4, h5, h6, p {
   .content-yTz4x3:before {
     content: none;
   }
+
+  // App-wide Text Rendering
   .h5-18_1nd {
     color:var(--text-normal);
     text-transform:none;
     font-weight:var(--font-weight-light);
+    cursor:text;
+    font-size:var(--font-size);
+  }
+  .errorMessage-3Guw2R {
+    color:rgb(var(--discord-red));
+    font-size:var(--font-size);
+    font-weight:var(--font-weight-normal);
   }
 }
