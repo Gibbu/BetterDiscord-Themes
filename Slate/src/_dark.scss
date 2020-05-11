@@ -8,6 +8,7 @@
   --text-muted: #959da5;
   --text-focus: #ffffff;
   --text-opacity: 255,255,255;
+  --text-link:#3090ff;
 
   // Account Container
   --account-panel-background-colour: #2f363d;
@@ -29,7 +30,7 @@
 
   // Servers
   --server-icon: var(--account-panel-background-colour);
-  --server-icon-active: var(--settings-button-hover);
+  --server-icon-active: var(--secondary-button);
 
   // Friends list
   --now-playing-background: var(--main-background);
@@ -39,8 +40,7 @@
 
   // Settings
   --settings-background: var(--background-colour);
-  --settings-button: var(--account-panel-background-colour);
-  --settings-button-hover: #{lighten(#2f363d, 4%)};
+  --secondary-button: var(--account-panel-background-colour);
   --settings-input-background: var(--background-colour-dark);
   --settings-input-height: 25px;
 

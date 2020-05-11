@@ -2,13 +2,14 @@
 
 :root {
   // Master variables
-  --border-radius: 4px;
+  --border-radius: 3px;
+  --button-border-radius: 2px;
   --accent-solid: rgba(var(--accent), 1);
   --accent-solid-hover: rgba(var(--accent-hover), 1);
   --base-left: var(--container, 70px);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: var(--accent-solid-hover);
-  --text-link: var(--accent-solid);
+  --text-link:#3090ff;
 
   // Spacing
   --spacing-third: calc(var(--spacing) / 3);

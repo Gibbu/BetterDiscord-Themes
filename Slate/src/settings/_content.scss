@@ -62,28 +62,6 @@
     margin-bottom: var(--spacing-half);
   }
 
-  // Blurple buttons
-  .lookFilled-1Gx00P.colorBrand-3pXr91,
-  .lookOutlined-3sRXeN.colorBrand-3pXr91,
-  .lookGhost-2Fn_0-.colorWhite-rEQuAQ,
-  .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-    @include smallBtn;
-  }
-
-  // Red buttons
-  .lookOutlined-3sRXeN.colorRed-1TFJan {
-    @include smallBtn(rgba(var(--discord-red), 1));
-  }
-
-  // Buttons
-  .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-    @include smallBtn;
-    margin-left: var(--spacing);
-    div {
-      background: transparent;
-    }
-  }
-
   // Content dividers
   .children-rWhLdy > .marginBottom40-2vIwTv {
     margin-bottom: var(--spacing-double);
