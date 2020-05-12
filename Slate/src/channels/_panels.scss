@@ -16,6 +16,7 @@
     }
     &:hover {
       background: var(--accent-solid) !important;
+      box-shadow: none;
       svg {
         color: #fff;
       }
@@ -65,19 +66,16 @@
         flex: 0;
       }
     }
+    .disabledButtonWrapper-3wH6-b {
+      flex: none;
+      margin-right: 0;
+      button {
+        flex: 0;
+        width: 100%;
+      }
+    }
   }
   .rtcConnectionStatus-2-jIsi {
-    // &:before {
-    //   content: "";
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   background: rgba(var(--discord-green), 0.1);
-    //   width: 100%;
-    //   height: 100%;
-    //   z-index: 0;
-    //   pointer-events: none;
-    // }
     .statusWithPopout-3ZfFol {
       position: absolute;
       font-size: 0px;
@@ -101,7 +99,7 @@
     z-index: 1;
     height: 27px;
     button {
-      margin: 1px 0 0 0;
+      margin: 1px 1px 0 0;
       padding: 0;
       min-height: var(--avatar-size-small);
       width: 52.25px;
@@ -111,9 +109,6 @@
       background: transparent;
       &:first-child {
         border-radius: var(--border-radius) 0 0 var(--border-radius);
-      }
-      &:last-child {
-        margin-right: 1px;
       }
     }
     .buttonIcon-Od8mYw {

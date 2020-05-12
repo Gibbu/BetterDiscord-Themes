@@ -174,14 +174,97 @@
   .zalgo-jN1Ica .messageContent-2qWWxC {
     overflow: visible;
   }
-  .attachment-33OFj0,
-  code,
+  .attachment-33OFj0 {
+    border: 1px solid var(--border-colour);
+    background-color: var(--background-colour);
+    overflow: hidden;
+    padding: 0;
+    .icon-1kp3fr {
+      margin-left: var(--spacing);
+      width: 24px;
+      margin-right: 0;
+    }
+    & > .anchor-3Z-8Bb {
+      height: 51px;
+      display: flex;
+      align-items: center;
+      padding: 0 var(--spacing-half);
+      border-left: 1px solid var(--border-colour);
+      svg {
+        color: var(--text-muted);
+        opacity: 1;
+        margin-left: 0;
+      }
+      &:hover svg {
+        color: var(--text-default);
+      }
+    }
+  }
+  .attachmentInner-3vEpKt {
+    padding: var(--spacing);
+  }
   .wrapper-35wsBm {
     border: 1px solid var(--border-colour);
     background-color: var(--background-colour);
+    padding: var(--spacing);
+    h5 {
+      margin-bottom: var(--spacing);
+    }
+    .guildIconImage-3qTk45 {
+      border-radius: var(--border-radius);
+      box-shadow: inset 0 0 0 1px var(--border-colour);
+      width: var(--avatar-size-large);
+      height: var(--avatar-size-large);
+      margin-right: var(--spacing);
+    }
+    .guildName-2hvnt_ {
+      font-size: var(--font-size-lg);
+    }
+    .count-30T-5k {
+      font-size: var(--font-size);
+    }
+  }
+  .wrapperAudio-1jDe0Q {
+    background: var(--background-colour);
+    border: 1px solid var(--border-colour);
+    padding: 0;
+  }
+  .audioMetadata-3zOuGv:before {
+    height: 56px;
+    background-position: center;
+    background-size: 24px;
+    padding: 0 var(--spacing);
+  }
+  .metadataContent-3c_ZXw {
+    padding: var(--spacing);
+  }
+  .metadataDownload-1fk90V {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 var(--spacing-half);
+    border-left: 1px solid var(--border-colour);
+    svg {
+      color: var(--text-muted);
+      opacity: 1
+    }
+    &:hover svg {
+      color: var(--text-default);
+    }
+  }
+  .audioControls-2HsaU6 {
+    border-top: 1px solid var(--border-colour);
+    border-radius: 0;
+    background: transparent;
+    margin-top: 0;
   }
   code, pre {
     font-family: var(--font-family-monospace);
+  }
+  code {
+    border: 1px solid var(--border-colour);
+    background-color: var(--background-colour);
+    font-size: 100%;
   }
   pre {
     margin:var(--spacing) 0;
@@ -213,7 +296,7 @@
       padding-bottom: .15em;
       padding-top: 30px !important;
       background: transparent !important;
-      border:1px solid var(--border-colour); 
+      border:1px solid var(--border-colour);
       font-size:var(--font-size-sm);
       line-height:1.5em;
       border-radius:var(--border-radius);
@@ -236,7 +319,7 @@
         font-family:var(--font-family-sans-serif);
         line-height:normal;
         white-space:nowrap;
-        overflow:hidden; 
+        overflow:hidden;
       }
       &:after {
         content:'';
@@ -254,38 +337,38 @@
       // Syntax
       .hljs-selector-class,
       .hljs-built_in,
-      .hljs-doctag, 
-      .hljs-literal, 
-      .hljs-meta 
-      .hljs-meta-string, 
-      .hljs-number, 
+      .hljs-doctag,
+      .hljs-literal,
+      .hljs-meta
+      .hljs-meta-string,
+      .hljs-number,
       .hljs-regexp {
         color:var(--syntax-purple);
       }
       .hljs-attribute,
       .hljs-name,
-      .hljs-section, 
+      .hljs-section,
       .hljs-selector-class,
-      .hljs-selector-id, 
-      .hljs-title, 
+      .hljs-selector-id,
+      .hljs-title,
       .hljs-string {
         color:var(--syntax-blue);
       }
-      .hljs-bullet, 
-      .hljs-link, 
-      .hljs-meta, 
-      .hljs-meta 
+      .hljs-bullet,
+      .hljs-link,
+      .hljs-meta,
+      .hljs-meta
       .hljs-keyword,
-      .hljs-selector-attr, 
-      .hljs-selector-pseudo, 
-      .hljs-subst, 
+      .hljs-selector-attr,
+      .hljs-selector-pseudo,
+      .hljs-subst,
       .hljs-symbol,
-      .hljs-attr, 
+      .hljs-attr,
       .hljs-attribute,
       .hljs-class,
-      .hljs-title, 
-      .hljs-template-variable, 
-      .hljs-type, 
+      .hljs-title,
+      .hljs-template-variable,
+      .hljs-type,
       .hljs-variable {
         color:var(--syntax-orange);
       }

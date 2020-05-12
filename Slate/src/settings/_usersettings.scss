@@ -40,12 +40,24 @@
     }
   }
 }
+.userInfoViewing-16kqK3 .flexChild-faoVW3[style="flex: 0 1 auto;"] {
+  margin-left: 0;
+}
 .userInfoViewingButton-2-jbH9 {
   top: 0;
   right: 0;
 }
 .userSettingsSecurity-3IYeMF {
   margin-top: var(--spacing-double);
+  .flexChild-faoVW3 {
+    margin-left: 0;
+  }
+  h5 {
+    margin-bottom: var(--spacing);
+  }
+  .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+    margin-left: var(--spacing);
+  }
 }
 .userInfoEditing-1CEzdT {
   background: transparent;
@@ -56,19 +68,18 @@
   border-bottom: 1px solid var(--border-colour);
   padding-bottom: var(--spacing-double);
 }
-  .avatarUploaderInner-3UNxY3 {
-    width: 64px;
-    height: 64px;
-    border-radius: var(--border-radius);
-    border: 1px solid var(--border-colour);
-  }
-  h5 {
-    font-size: var(--font-size-sm);
-    margin-bottom: 0;
-  }
-  .avatarUploaderIndicator-2G-aIZ {
-    display: none;
-  }
+.avatarUploaderInner-3UNxY3 {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-colour);
+}
+h5 {
+  font-size: var(--font-size-sm);
+}
+.avatarUploaderIndicator-2G-aIZ {
+  display: none;
+}
 
 // Authorized Apps
 .authedApp-mj2Hmd {
