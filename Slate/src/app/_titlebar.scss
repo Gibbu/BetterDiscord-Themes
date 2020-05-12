@@ -5,7 +5,7 @@
   position: relative;
   width: 100vw;
   .wordmarkWindows-1v0lYD {
-    padding: 0 var(--spacing);
+    padding: 0 var(--spacing-half);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,13 +16,14 @@
     }
     &:before {
       content:'';
-      width:16px;
-      height:16px;
+      width:var(--titlebar-height);
+      height:var(--titlebar-height);
       position:relative;
-      -webkit-mask:url($icon_discord) center/115% no-repeat;
+      -webkit-mask:url($icon_discord) center/18px no-repeat;
       top:2px;
       opacity:.5;
       background:#fff;
+      -webkit-app-region:drag;
     }
     &:after {
       content:'';

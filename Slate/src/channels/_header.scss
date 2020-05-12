@@ -5,6 +5,12 @@
     &.selected-WP3kCM .header-2o-2hj {
       background: var(--topbar-header-active);
       border-bottom:1px solid transparent;
+      .name-3YKhmS {
+        color:var(--toolbar-text-default);
+      }
+      .button-1w5pas {
+        border-top:5px solid var(--toolbar-text-default);
+      }
     }
   }
   .header-2o-2hj {
@@ -36,7 +42,7 @@
         margin-bottom: -5px;
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-light);
-        color: var(--text-muted);
+        color: var(--toolbar-text-muted);
       }
     }
 
@@ -62,6 +68,12 @@
     }
     &:hover {
       background-color: var(--topbar-background-hover);
+      .name-3YKhmS {
+        color:var(--toolbar-text-focus);
+      }
+      .button-1w5pas {
+        border-top:5px solid var(--toolbar-text-focus);
+      }
     }
   }
 }
