@@ -87,7 +87,9 @@
   .colorLink-35jkBc,
   .colorWhite-rEQuAQ,
   .colorBlack-1jwPVL,
-  .colorPrimary-3b3xI6 {
+  .colorPrimary-3b3xI6,
+  .colorGreen-29iAKY,
+  .colorYellow-2JqYwt {
     --button-colour:var(--accent);
   }
   .colorGrey-2DXtkV {
@@ -95,12 +97,6 @@
   }
   .colorRed-1TFJan {
     --button-colour:var(--discord-red);
-  }
-  .colorGreen-29iAKY {
-    --button-colour:var(--discord-green);
-  }
-  .colorYellow-2JqYwt {
-    --button-colour:var(--discord-yellow);
   }
 
   // Inputs
