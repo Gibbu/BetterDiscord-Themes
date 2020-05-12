@@ -36,6 +36,7 @@
       font-weight: var(--font-weight-semibold);
       color: var(--toolbar-text-default);
       user-select:none;
+      line-height:1.5em;
       &:before {
         display: block;
         content: "Current Server";
