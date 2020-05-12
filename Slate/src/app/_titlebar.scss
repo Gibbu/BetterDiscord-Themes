@@ -5,7 +5,7 @@
   position: relative;
   width: 100vw;
   .wordmarkWindows-1v0lYD {
-    padding: 0 9px;
+    padding: 0 var(--spacing);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,9 +15,14 @@
       display: none;
     }
     &:before {
-      content: 'Discord';
-      font-size: var(--font-size);
-      color: var(--toolbar-text-default);
+      content:'';
+      width:16px;
+      height:16px;
+      position:relative;
+      -webkit-mask:url($icon_discord) center/115% no-repeat;
+      top:2px;
+      opacity:.5;
+      background:#fff;
     }
     &:after {
       content:'';
