@@ -6,6 +6,13 @@
     contain: none;
     padding-top: var(--toolbar-height);
   }
+
+  // Remove Active Animations
+  .listItemWrapper-3X98Pc:active,
+  .circleButtonMask-2VNJsN:active,
+  .blobContainer-239gwq:active {
+    transform:none;
+  }
   // Home button
   .tutorialContainer-1v44GL .childWrapper-anI2G9 {
     background: transparent !important;
@@ -50,6 +57,11 @@
     background: var(--background-light);
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-light);
+    cursor:default;
+  }
+  .wrapper-1BJsBx,
+  .wrapper-25eVIn {
+    cursor:default;
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: var(--accent-solid);
@@ -58,8 +70,13 @@
   .circleIconButton-jET_ig {
     background: var(--background-light);
     color: var(--text-default);
+    cursor:default;
+    path[d="M21 11.001H13V3.00098H11V11.001H3V13.001H11V21.001H13V13.001H21V11.001Z"] {
+      d:path($path_add);
+      transform:scale(1.25) translateX(3px) translateY(2px);
+    }
     &.selected-ugP_am {
-      background-color: var(--accent-solid);
+      background-color: var(--accent-solid) !important;
       color: #fff;
     }
   }
@@ -82,17 +99,41 @@
   .numberBadge-2s8kKX {
     border-radius: var(--border-radius);
   }
+  .wrapper-sa6paO {
+    height:100%;
+  }
   [class*="pill"] span {
     border-radius: 0;
     max-height: 75%;
     background: var(--text-muted);
     width: 7px;
   }
+
+  // Mention Indicators 
+  .unreadMentionsIndicatorBottom-BXS58x, 
+  .unreadMentionsIndicatorTop-gA6RCh {
+    padding:0;
+    .bar-30k2ka {
+      width:var(--container);
+      border-radius:0;
+      text-transform:capitalize;
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-light);
+      background:rgb(var(--discord-red));
+      color:var(--white);
+      cursor:default;
+    }
+  }
+  .unreadMentionsIndicatorBottom-BXS58x {
+    height:auto;
+    width:auto;
+  }
 }
 
 .theme-light {
   #app-mount .guilds-1SWlCJ {
-    .childWrapper-anI2G9 {
+    .childWrapper-anI2G9,
+    .circleIconButton-jET_ig {
       background:var(--background-dark);
     }
     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {

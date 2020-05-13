@@ -5,7 +5,8 @@
     font-size: var(--font-size);
     text-align: center;
     padding: var(--spacing-half) var(--spacing);
-    border-radius: 3px;
+    border-radius: var(--border-radius);
+    min-height:var(--input-height);
   }
   .tooltipBlack-PPG47z {
     background: var(--tooltip-background);
