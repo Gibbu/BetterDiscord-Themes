@@ -6,17 +6,17 @@
     }
   }
   .ace_editor {
-    background: var(--css-background);
+    background: var(--background);
   }
   .ace_gutter {
-    background: var(--background-colour-dark);
+    background: var(--background-dark);
     border-right: 1px solid var(--border-colour);
   }
   .ace_gutter-active-line {
-    background: var(--css-selected-line-number);
+    background: var(--background-light);
   }
   .ace_active-line {
-    background: var(--css-selected-line);
+    background: var(--background-dark);
   }
   .ace_selection {
     background: rgba(var(--accent), 0.5);
@@ -35,7 +35,7 @@
     box-shadow: none;
     height: auto;
     border-top: 1px solid var(--border-colour);
-    background: var(--background-colour);
+    background: var(--background);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@
       width: auto;
       height: auto;
       font-weight: var(--font-weight-normal);
-      background: var(--background-colour);
+      background: var(--background);
       padding: var(--spacing-half) var(--spacing);
       border-radius: var(--border-radius) !important;
       color: var(--text-default);

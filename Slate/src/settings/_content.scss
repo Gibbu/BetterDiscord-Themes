@@ -108,6 +108,17 @@
 
 
 // Light theme warning
-.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i:before {
-  content: "Options (Light theme W.I.P)";
+.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i:after {
+  content: "Light Theme BETA";
+  position:absolute;
+  top:0;
+  left:0;
+  font-size:12px;
+  border-radius:var(--border-radius);
+  background:rgb(var(--discord-yellow));
+  padding:var(--spacing-third);
+  color:var(--white);
+  top:25px;
+  left:84px;
+  transform:translateY(-25%);
 }

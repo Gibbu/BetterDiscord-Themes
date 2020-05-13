@@ -1,51 +1,25 @@
-html.theme-dark {
-  // Master Variables
+.theme-dark {
+  // Text and Borders
   --border-colour: #141414;
-  --background-colour: #24292e;
-  --background-colour-dark: #1d2125;
-  --background-colour-darker: #171a1d;
   --text-default: #d1d5da;
   --text-muted: #959da5;
   --text-focus: #ffffff;
   --text-opacity: 255,255,255;
+  --text-link: rgb(var(--link-colour, var(--accent)));
 
-  // Account Container
-  --account-panel-background-colour: #2f363d;
-  --account-panel-buttons: var(--background-colour);
+  // Background
+  --background-light: #2f363d;
+  --background: #24292e;
+  --background-alt: #2a3036;
+  --background-dark: #1d2125;
 
-  // Chat/Friends/DM
-  --main-background: #2a3036;
-  --main-background-hover: #{lighten(#2a3036, 2%)};
-
-  // Channels
-  --channel-background: var(--background-colour);
-
-  // Discovery
-  --discovery-search: var(--background-colour-dark);
-  --discovery-card: var(--background-colour-dark);
-
-  // Emoji Picker
-  --emoji-search: rgba(0,0,0,0.2);
-
-  // Servers
-  --server-icon: var(--account-panel-background-colour);
-  --server-icon-active: var(--secondary-button);
-
-  // Friends list
-  --now-playing-background: var(--main-background);
-
-  // Input
-  --input-background: #1d2125;
+  //White
+  --white:#ffffff; // For use on buttons only. USE RESPECTIVE TEXT COLORS FOR CROSS-THEME SUPPORT.
 
   // Settings
-  --settings-background: var(--background-colour);
-  --secondary-button: var(--account-panel-background-colour);
-  --settings-input-background: var(--background-colour-dark);
-  --settings-input-height: 25px;
+  --input-height: 25px;
 
   // Modals
-  --modal-header: var(--background-colour-dark);
-  --modal-body: var(--background-colour);
   --modal-box-shadow: 0 2px 7px rgba(0,0,0,0.7);
 
   // Checkbox
@@ -55,42 +29,24 @@ html.theme-dark {
   --checkbox-box-shadow: none;
 
   // Userpopouts
-  --userpopout-header: var(--background-colour-dark);
-  --userpopout-body: var(--background-colour);
-  --userpopout-textbox: var(--background-colour-dark);
   --userpopout-button-hover: rgba(255,255,255,0.03);
 
-  // Font weights
-  --font-weight-ultralight: 300;
-  --font-weight-light: 400;
-  --font-weight-normal: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 800;
-
-  // CustomCSS
-  --css-selected-line: var(--background-colour-dark);
-  --css-selected-line-number: var(--background-colour-darker);
-  --css-background: var(--background-colour);
-
-  // Search
-  --search-result: var(--main-background);
-  --search-tag: var(--background-colour-dark);
-
   // Tooltips
-  --tooltip-background: #{darken(#2a3036, 4%)};
-
-  // Context menus
-  --context-background: var(--background-colour);
+  --tooltip-background: #{darken(#2a3036, 4%)}; //redo
 
   // Scrollbars
   --channel-scrollbar: rgba(0,0,0,0.3);
 
   // Discord variables
-  --background-modifier-hover: #2f363d;
+  --background-modifier-hover: var(--background-light);
   --background-modifier-active: #444d56;
   --background-modifier-selected: var(--accent-solid);
 
-  // Toolbar
-  --topbar-header-active: var(--background-colour);
+  // Syntax
+  --syntax-blue:#79b8ff;
+  --syntax-purple:#b392f0;
+  --syntax-grey:#959da5;
+  --syntax-grey-alt:#d1d5da;
+  --syntax-orange:#ffab70;
+  --syntax-green:#56b6c2;
 }

@@ -5,7 +5,7 @@
   min-height: 53px;
   display: flex;
   align-items: center;
-  background: var(--main-background);
+  background: var(--background-alt);
   &:before {
     content: none;
   }
@@ -40,14 +40,14 @@
   //
   .channelTextArea-rNsIhG {
     margin-bottom: 0;
-    background-color: var(--background-colour);
+    background-color: var(--background);
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);
     padding: calc(var(--spacing) + 2px);
   }
   .scrollableContainer-2NUZem {
-    background-color: var(--background-colour);
+    background-color: var(--background);
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
   }

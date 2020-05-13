@@ -4,7 +4,7 @@
 
   // Header
   [class*="topSection"] {
-    background: var(--modal-header);
+    background: var(--background-dark);
     border-radius:0 3px 0 0;
   }
   .header-QKLPzZ {
@@ -110,7 +110,7 @@
 
   // Body
   .body-3ND3kc {
-    background: var(--modal-body);
+    background: var(--background);
     border-top: 1px solid var(--border-colour);
     border-radius:0 0 3px 0;
   }
@@ -198,7 +198,7 @@
     width: 285px;
     box-sizing: border-box;
     border: 1px solid var(--border-colour);
-    background: var(--modal-header);
+    background: var(--background-dark);
     border-radius: var(--border-radius);
   }
 
@@ -219,7 +219,7 @@
     height: 100%;
     border-top: none;
     border-right: 1px solid var(--border-colour);
-    background: var(--modal-body);
+    background: var(--background);
     border-radius:3px 0 0 3px;
     overflow:hidden;
   }

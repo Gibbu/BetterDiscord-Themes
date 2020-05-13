@@ -2,7 +2,7 @@
   border-right: 1px solid var(--border-colour);
   box-sizing: border-box;
   .scroller-2TZvBN {
-    background: var(--background-colour);
+    background: var(--background);
     contain: none;
     padding-top: var(--toolbar-height);
   }
@@ -47,16 +47,16 @@
     height: 1px;
   }
   .childWrapper-anI2G9 {
-    background: var(--server-icon);
+    background: var(--background-light);
     font-size: var(--font-size-lg);
     font-weight: var(--font-weight-light);
   }
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-    background: var(--server-icon-active);
+    background: var(--accent-solid);
     color: var(--text-focus);
   }
   .circleIconButton-jET_ig {
-    background: var(--server-icon);
+    background: var(--background-light);
     color: var(--text-default);
     &.selected-ugP_am {
       background-color: var(--accent-solid);
@@ -67,7 +67,7 @@
     mask: none;
   }
   .expandedFolderBackground-2sPsd- {
-    background: var(--server-icon);
+    background: var(--background-light);
   }
   .wrapper-25eVIn {
     border-radius: var(--border-radius);
@@ -87,5 +87,16 @@
     max-height: 75%;
     background: var(--text-muted);
     width: 7px;
+  }
+}
+
+.theme-light {
+  #app-mount .guilds-1SWlCJ {
+    .childWrapper-anI2G9 {
+      background:var(--background-dark);
+    }
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+      color: var(--white);
+    }
   }
 }

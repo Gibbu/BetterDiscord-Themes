@@ -7,15 +7,15 @@
     font-size: var(--font-size);
     font-weight:var(--font-weight-light);
     cursor:default;
-    min-height:25px;
-    height:25px;
+    min-height:var(--input-height);
+    height:var(--input-height);
     line-height:normal;
     transition:none;
     padding:0 var(--spacing);
     border-radius:var(--button-border-radius);
   }
   .lookFilled-1Gx00P {
-    color:var(--text-focus);
+    color:var(--white);
     background-color:rgb(var(--button-colour));
     &:hover {
       box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.1);
@@ -27,9 +27,9 @@
   .secondaryButton-BIo-2g,
   .colorPrimary-3b3xI6.lookLink-9FtZy- {
     color:var(--text-normal);
-    background:var(--secondary-button);
-    min-height:25px;
-    height:25px;
+    background:var(--background-light);
+    min-height:var(--input-height);
+    height:var(--input-height);
     padding:0 var(--spacing);
     border-radius:var(--button-border-radius);
     border:1px solid var(--border-colour);
@@ -103,13 +103,13 @@
   .input-2A_zIr,
   .input-cIJ7To {
     border-radius: var(--border-radius);
-    background: var(--topbar-background);
+    background: var(--background-dark);
     font-size:var(--font-size);
     border:1px solid var(--border-colour);
     color:var(--text-normal);
     transition:none;
     padding:0 var(--spacing-half);
-    height:25px;
+    height:var(--input-height);
     line-height:24px;
     &:focus, .focused-1mmYsC {
       border:1px solid var(--accent-solid);
@@ -125,7 +125,7 @@
       padding:0;
     }
     .emoji-MCvpgl {
-      background:var(--background-colour);
+      background:var(--background);
     }
     .clearIcon-xXwSFS {
       width:12px;
@@ -264,9 +264,9 @@
   .css-oce0qz-control {
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
-    background: var(--input-background);
+    background: var(--background-dark);
     font-size: var(--font-size);
-    height: var(--settings-input-height);
+    height: var(--input-height);
     padding: 0;
     min-height: auto;
   }
@@ -275,7 +275,7 @@
     margin-top: -5px;
   }
   .css-1wy0on6 {
-    height: var(--settings-input-height);
+    height: var(--input-height);
   }
   .css-12qlrak-indicatorContainer,
   .css-1flfamv-indicatorContainer {
@@ -306,9 +306,9 @@
   .container-1nZlH6 {
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
-    background: var(--input-background);
+    background: var(--background-dark);
     font-size: var(--font-size);
-    height: var(--settings-input-height);
+    height: var(--input-height);
     padding: 0;
     min-height: auto;
     .input-1UhAnY {

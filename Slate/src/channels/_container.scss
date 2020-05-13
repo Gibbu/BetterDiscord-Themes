@@ -5,12 +5,12 @@
   display: -webkit-box;
   padding-top:var(--toolbar-height);
   .container-PNkimc {
-    background: var(--background-colour);
+    background: var(--background);
   }
 
   .scroller-2FKFPG {
     border-right: 1px solid var(--border-colour);
-    background: var(--channel-background);
+    background: var(--background);
   }
 
   // Banner image
@@ -36,7 +36,7 @@
   border-bottom:1px solid var(--border-colour);
   box-shadow:none;
   border-right:1px solid var(--border-colour);
-  background-color: var(--account-panel-background-colour);
+  background-color: var(--background-light);
   padding:var(--spacing);
   .close-relY5R {
     width:16px;

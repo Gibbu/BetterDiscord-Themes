@@ -1,5 +1,5 @@
 #app-mount .panels-j1Uci_ {
-  background: var(--account-panel-background-colour);
+  background: var(--background-light);
   border-top: 1px solid var(--border-colour);
   border-right: 1px solid var(--border-colour);
   position: relative;
@@ -55,7 +55,7 @@
       z-index: 1;
       display: flex;
       justify-content: flex-end;
-      background: var(--account-panel-buttons);
+      background: var(--background);
       border-radius: var(--border-radius);
       border: 1px solid var(--border-colour);
       width: calc(100% - 28px);
@@ -133,7 +133,7 @@
     .directionRow-3v3tfG {
       display: flex;
       width: 100%;
-      background: var(--account-panel-buttons);
+      background: var(--background);
       border-radius: var(--border-radius);
       border: 1px solid var(--border-colour);
       overflow: hidden;

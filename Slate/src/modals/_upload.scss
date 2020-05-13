@@ -1,5 +1,5 @@
 #app-mount .uploadModal-2ifh8j {
-  background-color: var(--modal-header);
+  background-color: var(--background-dark);
   border-radius: var(--border-radius);
   box-shadow: none;
   position: relative;
@@ -25,7 +25,7 @@
       box-shadow: none;
       height: 298.13px;
       border-bottom: 1px solid var(--border-colour);
-      background-color: var(--modal-body);
+      background-color: var(--background);
       &:active {
         background-size: 100%;
       }
@@ -43,7 +43,7 @@
     align-items: center;
     padding: 0 var(--spacing);
     border-bottom: 1px solid var(--border-colour);
-    background: var(--modal-body);
+    background: var(--background);
     width: 100%;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
     div {
@@ -65,7 +65,7 @@
   .scrollableContainer-2NUZem {
     border-radius: var(--border-radius);
     border: 1px solid var(--border-colour);
-    background: var(--modal-body);
+    background: var(--background);
   }
   .slateTextArea-1Mkdgw {
     font-size: var(--font-size);
@@ -76,7 +76,7 @@
   }
 
   .footer-3mqk7D {
-    background: var(--modal-body);
+    background: var(--background);
     box-shadow: none;
     border-top: 1px solid var(--border-colour);
     padding: var(--spacing);
@@ -86,7 +86,7 @@
   }
   .checkbox-1ix_J3 {
     border: none;
-    background: var(--modal-header);
+    background: var(--background-dark);
     &.checked-3_4uQ9 {
       background: var(--accent-solid);
       polyline {

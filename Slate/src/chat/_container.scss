@@ -1,5 +1,5 @@
 #app-mount .chat-3bRxxu {
-  background: var(--main-background);
+  background: var(--background-alt);
 
   // Old messages
   .jumpToPresentBar-9P20AM {
@@ -10,7 +10,7 @@
     padding: 0;
     min-height: auto;
     border-top: 1px solid var(--border-colour);
-    background: var(--account-panel-background-colour);
+    background: var(--background-light);
     button {
       padding: var(--spacing-half) var(--spacing);
       height: auto;
@@ -32,14 +32,14 @@
   .hasMore-3e72_v {
     margin: 0;
     box-shadow: none;
-    background: var(--background-colour);
+    background: var(--background);
     border-top: 1px solid var(--border-colour);
     border-bottom: 1px solid var(--border-colour);
     border-radius: 0;
   }
 }
 #app-mount .messages-3amgkR {
-  background: var(--main-background);
+  background: var(--background-alt);
   &::-webkit-scrollbar {
     width: 4px;
     display: none;

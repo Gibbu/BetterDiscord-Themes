@@ -1,5 +1,5 @@
 #app-mount .pageWrapper-1PgVDX {
-  background: var(--main-background);
+  background: var(--background-alt);
   .scroller-2FKFPG {
     margin-top: var(--toolbar-height);
     padding-top: 50px;
@@ -77,11 +77,11 @@
 
   .container-RHl2Ju {
     border-radius: var(--border-radius);
-    background: var(--discovery-card);
+    background: var(--background-dark);
     border: 1px solid var(--border-colour);
   }
   .card-3DjzTQ {
-    background-color: var(--discovery-card);
+    background-color: var(--background-dark);
     border: 1px solid var(--border-colour);
     box-shadow: none;
     height: auto;
@@ -116,7 +116,7 @@
   .roundButton-2CW1Hh {
     border-radius: var(--border-radius);
     &:hover {
-      background: var(--discovery-card);
+      background: var(--background-dark);
     }
   }
   .activeButton-1BJAiN {
@@ -129,7 +129,7 @@
     padding: var(--spacing);
     min-height: unset;
     height: auto;
-    background: var(--discovery-card);
+    background: var(--background-dark);
     border: 1px solid var(--border-colour);
   }
   .colorHeaderPrimary-26Jzh- {

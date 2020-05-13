@@ -15,7 +15,7 @@
     }
   }
   .modal-yWgWj- {
-    background-color: var(--background-colour);
+    background-color: var(--background);
     border-radius: var(--border-radius);
     box-shadow: none;
     .header-2tA9Os {
@@ -36,7 +36,7 @@
       border-top-color: var(--border-colour);
     }
     .footer-3rDWdC {
-      background: var(--background-colour);
+      background: var(--background);
       box-shadow: none;
       border-top: 1px solid var(--border-colour);
       padding: var(--spacing-double);
@@ -55,7 +55,7 @@
     }
     .cardPrimaryOutline-29Ujqw {
       border-color: var(--border-colour);
-      background: var(--background-colour-dark);
+      background: var(--background-dark);
       padding: var(--spacing-half) 0 var(--spacing-half) var(--spacing);
       border-radius: var(--border-radius);
       .directionRow-3v3tfG {
@@ -71,7 +71,7 @@
         font-size: var(--font-size-sm);
       }
       .box-mmYMsp {
-        background: var(--background-colour) !important;
+        background: var(--background) !important;
         cursor: pointer;
         border: none;
         &[style*="rgb(114, 137, 218)"] {

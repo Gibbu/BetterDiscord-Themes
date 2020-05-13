@@ -8,7 +8,6 @@
   --base-left: var(--container, 70px);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: rgb(var(--accent));
-  --text-link: rgb(var(--link-colour, var(--accent)));
 
   // Spacing
   --spacing-third: calc(var(--spacing) / 3);
@@ -32,6 +31,14 @@
   --topbar-background-hover: #2f363d;
   --topbar-header-selected: #24292e;
   --topbar-border: #141414;
+
+  // Font weights
+  --font-weight-ultralight: 300;
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
 
   // Titlebar
   --titlebar-height: 28px;
@@ -84,13 +91,5 @@
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
 
-  --slate-version: "Slate 0.0.17";
-
-  // Syntax
-  --syntax-blue:#79b8ff;
-  --syntax-purple:#b392f0;
-  --syntax-grey:#959da5;
-  --syntax-grey-alt:#d1d5da;
-  --syntax-orange:#ffab70;
-  --syntax-green:#56b6c2;
+  --slate-version: "Slate 0.0.2";
 }

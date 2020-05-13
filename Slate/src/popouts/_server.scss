@@ -6,12 +6,13 @@
     position:fixed;
     top:calc(var(--titlebar-height) + var(--toolbar-height));
     left:0;
+    top:calc(var(--toolbar-height) + var(--titlebar-height) + 1px);
     padding: 0; 
     border-radius: 0;
     box-shadow: none;
     height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
     width:calc(var(--sidebar-width) + var(--container));
-    background: var(--background-colour);
+    background: var(--background);
     border-right:1px solid var(--border-colour);
     .item-1GzJrl {  
       margin: 0;
@@ -50,7 +51,7 @@
     &:before {
       content: "";
       position: fixed;
-      top:calc(var(--toolbar-height) + var(--titlebar-height));
+      top:calc(var(--toolbar-height) + var(--titlebar-height) - 1);
       left: calc(var(--sidebar-width) + var(--container));
       width: 100vw;
       height: 100vh;

@@ -1,6 +1,6 @@
 #app-mount .wrapper-3Q5DdO {
   position:fixed;
-  background:var(--background-colour-dark);
+  background:var(--background-dark);
   .canvas-3XuBXe,
   .fallbackImage-31Sk4m,
   .image-2jyRAK, 
@@ -16,7 +16,7 @@
   .authBox-hW6HRx {
     padding:0;
     max-width: 400px;
-    background:var(--background-colour);
+    background:var(--background);
     box-shadow:var(--modal-box-shadow);
     border-radius:var(--border-radius);
     border:1px solid var(--border-color);
@@ -25,7 +25,7 @@
     .qrLogin-1AOZMt {
       position:absolute;
       left:100%;
-      background:var(--background-colour);
+      background:var(--background);
       box-shadow:var(--modal-box-shadow);
       border-radius:var(--border-radius);
       border:1px solid var(--border-color);

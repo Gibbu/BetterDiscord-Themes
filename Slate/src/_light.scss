@@ -1,50 +1,26 @@
-html.theme-light {
-  // Master Variables
+.theme-light {
+  // Text and Borders
   --border-colour: #e1e4e8;
-  --background-colour: #ffffff;
-  --background-colour-dark: #fff;
-  --background-colour-darker: #ebeef1;
   --text-default: #24292e;
   --text-muted: #6a737d;
-  --text-focus: #000;
+  --text-focus: #000000;
   --text-opacity: 0,0,0;
+  --text-link: rgb(var(--link-colour, var(--accent)));
 
-  // Account Container
-  --account-panel-background-colour: #f6f8fa;
-  --account-panel-buttons: #fff;
+  // Background
+  --background-light: #f6f8fa;
+  --background-alt: #ffffff;
+  --background:#ffffff;
+  --background-dark: #ebeef1;
 
-  // Chat/Friends/DM
-  --main-background: #fff;
-  --main-background-hover: #{darken(#fff, 2%)};
-
-  // Channels
-  --channel-background: var(--main-background);
-
-  // Discovery
-  --discovery-search: var(--background-colour);
-  --discovery-card: var(--background-colour);
-
-  // Emoji Picker
-  --emoji-search: rgba(0,0,0,0.1);
-
-  // Servers
-  --server-icon: #{darken(#ebeef1, 10%)};
-
-  // Friends list
-  --now-playing-background: var(--main-background);
-
-  // Input
-  --input-background: #fff;
+  //White
+  --white: #ffffff; // Only use to contrast against a neutral background.
 
   // Settings
-  --settings-background: var(--background-colour-dark);
-  --secondary-button: var(--account-panel-background-colour);
-  --settings-input-background: #fff;
-  --settings-input-height: 25px;
+  --input-height: 25px;
 
   // Modals
-  --modal-header: #ebeef1;
-  --modal-body: #fff;
+  --modal-box-shadow: 0 2px 7px rgba(3, 3, 3, 0.7);
 
   // Checkbox
   --checkbox-background: #ddd;
@@ -53,33 +29,10 @@ html.theme-light {
   --checkbox-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
 
   // Userpopouts
-  --userpopout-header: #fff;
-  --userpopout-body: #{darken(#fff, 2%)};
-  --userpopout-textbox: #fff;
   --userpopout-button-hover: rgba(0,0,0,0.05);
-
-  // Font weights
-  --font-weight-ultralight: 300;
-  --font-weight-light: 400;
-  --font-weight-normal: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 800;
-
-  // CustomCSS
-  --css-selected-line: rgba(var(--accent), 0.1);
-  --css-selected-line-number: rgba(var(--accent), 0.2);
-  --css-background: #fff;
-
-  // Search
-  --search-result: var(--main-background);
-  --search-tag: var(--toolbar-background);
 
   // Tooltips
   --tooltip-background: #fff;
-
-  // Context menus
-  --context-background: #fff;
 
   // Scrollbars
   --channel-scrollbar: rgba(0,0,0,0.3);
@@ -89,6 +42,11 @@ html.theme-light {
   --background-modifier-active: rgba(0,0,0,0.1);
   --background-modifier-selected: var(--accent-solid);
 
-  // Toolbar
-  --topbar-header-active: #fff;
+  // Syntax
+  --syntax-blue:#79b8ff;
+  --syntax-purple:#b392f0;
+  --syntax-grey:#6a737d;
+  --syntax-grey-alt:#24292e;
+  --syntax-orange:#ffab70;
+  --syntax-green:#56b6c2;
 }

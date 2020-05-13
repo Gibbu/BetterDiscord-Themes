@@ -35,10 +35,8 @@
       &:before {
         display:block;
         content: "Current Channel";
-        margin-bottom: -2px;
         font-size: var(--font-size-sm);
         font-weight: var(--font-weight-light);
-        line-height: normal;
         color: var(--toolbar-text-muted);
       }
     }
@@ -74,7 +72,7 @@
     border-right: 1px solid var(--topbar-border);
     background: var(--topbar-background);
     .iconWrapper-2OrFZ1 {
-      margin: 0 calc(var(--spacing) * 1.25);
+      margin: 0 var(--spacing);
     }
     .icon-22AiRD {
       color: var(--toolbar-icon-default);
@@ -140,7 +138,7 @@
     }
     .searchAnswer-3Dz2-q,
     .searchFilter-2ESiM3 {
-      background: var(--search-tag);
+      background: var(--background-dark);
     }
   }
 }

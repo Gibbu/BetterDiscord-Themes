@@ -1,5 +1,5 @@
 #app-mount .perksModal-fSYqOq {
-  background: var(--background-colour);
+  background: var(--background);
   top: var(--titlebar-height);
 
   // Header
@@ -9,7 +9,7 @@
 
   // Boost server
   .ctaBar-2UsjF2 {
-    background: var(--background-colour-dark);
+    background: var(--background-dark);
     border: 1px solid var(--border-colour);
     padding: var(--spacing);
   }
@@ -36,7 +36,7 @@
 
   // Progress bar
   .barBackground-2EEiLw {
-    background: var(--background-colour-dark);
+    background: var(--background-dark);
     border: 1px solid var(--border-colour);
   }
   .tierMarkerBackground-3q29am {
@@ -54,11 +54,11 @@
     border: 1px solid var(--border-colour);
   }
   .tierHeaderLocked-1s2JJz {
-    background: var(--background-colour-dark);
+    background: var(--background-dark);
     border-bottom: 1px solid var(--border-colour);
   }
   .tierBody-16Chc9 {
-    background: var(--background-colour-dark);
+    background: var(--background-dark);
   }
 
   // Perks

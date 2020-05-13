@@ -15,9 +15,8 @@
 		box-sizing: border-box;
 		padding: 0 var(--spacing);
 		button {
-			background: var(--background-colour);
-			border: 1px solid var(--border-colour);
-			padding: calc(var(--spacing) / 2) var(--spacing);
+			background: var(--topbar-header-selected);
+			border: 1px solid var(--topbar-border);
 			height: auto;
 			border-radius: var(--border-radius);
 			font-size: var(--font-size);
@@ -31,7 +30,7 @@
 		height: auto;
 	}
 	.scroller-2FKFPG {
-		background: var(--channel-background);
+		background: var(--background);
 		div[style*="height: 8px"] {
 			display: none;
 		}

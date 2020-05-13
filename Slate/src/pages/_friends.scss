@@ -1,5 +1,5 @@
 #app-mount .container-1D34oG {
-  background: var(--main-background);
+  background: var(--background-alt);
   .children-19S4PO {
     padding-right: 0;
     &:hover {
@@ -68,13 +68,13 @@
       font-size: var(--font-size);
     }
     .actionButton-uPB8Fs {
-      background: var(--background-colour);
+      background: var(--background);
       border: 1px solid var(--border-colour);
       border-radius: var(--border-radius);
       color: var(--text-focus);
     }
     &:hover {
-      background: var(--main-background-hover);
+      background: var(--background-light);
     }
   }
   .sectionHeader-20RGqu {
@@ -92,7 +92,7 @@
       .wrapper-1cBijl {
         border-color: var(--border-colour);
         border-radius: var(--border-radius);
-        background-color: var(--background-colour);
+        background-color: var(--background);
         margin: var(--spacing) 0 0 0;
         padding: 0;
         height: 46px;
@@ -125,16 +125,16 @@
 
   .nowPlayingColumn-2sl4cE {
     border-left: 1px solid var(--border-colour);
-    background: var(--background-colour);
+    background: var(--background);
   }
   .wrapper-3D2qGf {
-    background: var(--now-playing-background);
+    background: var(--background-alt);
     border: 1px solid var(--border-colour);
     .separator-XqIyoz {
       background-color: var(--border-colour);
     }
     .inset-3sAvek {
-      background-color: var(--background-colour);
+      background-color: var(--background);
       border: 1px solid var(--border-colour);
     }
   }

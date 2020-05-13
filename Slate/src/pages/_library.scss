@@ -1,5 +1,5 @@
 #app-mount .container-3Mxszk {
-  background: var(--main-background);
+  background: var(--background-alt);
   .container-19hC9u:before {
     content: none;
   }
@@ -10,7 +10,7 @@
     }
   }
   .scroller-1IIF0A {
-    background: var(--main-background);
+    background: var(--background-alt);
     overflow: hidden;
     &::-webkit-scrollbar {
       width: 12px;
@@ -38,12 +38,12 @@
     }
   }
   .searchBar-TUoVPN {
-    background: var(--background-colour);
+    background: var(--background);
     border: 1px solid var(--border-colour);
   }
   .header-39GIC8 {
     padding: var(--spacing);
-    background: var(--main-background);
+    background: var(--background-alt);
     border-bottom-color: var(--border-colour);
     width: 100%;
   }
@@ -56,10 +56,10 @@
       padding: var(--spacing);
     }
     &:hover {
-      background: var(--main-background-hover);
+      background: var(--background-light);
     }
   }
   .scroller-2XE8rp {
-    background-color: var(--main-background);
+    background-color: var(--background-alt);
   }
 }
