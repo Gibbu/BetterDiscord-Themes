@@ -120,6 +120,9 @@
   // User
   .container-3baos1 {
     padding: 0 var(--spacing);
+    height:var(--toolbar-height);
+    box-sizing:border-box;
+    margin-bottom:-1px;
     .avatarWrapper-2yR4wp {
       margin-right:var(--spacing);
     .wrapper-3t9DeA {
