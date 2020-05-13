@@ -74,7 +74,7 @@
   --text-muted: #959da5;
   --text-focus: #ffffff;
   --text-opacity: 255,255,255;
-  --text-link: rgb(var(--link-colour, var(--accent)));
+  --accent-solid: rgb(var(--link-colour, var(--accent)));
   --background-light: #2f363d;
   --background: #24292e;
   --background-alt: #2a3036;
@@ -106,7 +106,7 @@
   --text-muted: #6a737d;
   --text-focus: #000000;
   --text-opacity: 0,0,0;
-  --text-link: rgb(var(--link-colour, var(--accent)));
+  --accent-solid: rgb(var(--link-colour, var(--accent)));
   --background-light: #f6f8fa;
   --background-alt: #ffffff;
   --background:#ffffff;
@@ -476,13 +476,13 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .lookLink-9FtZy- {
   padding: 0;
-  color: var(--text-link);
+  color: var(--accent-solid);
   height: auto;
   min-height: unset;
   cursor: pointer;
 }
 #app-mount .lookLink-9FtZy-:hover .contents-18-Yxp {
-  background-image: linear-gradient(0deg, transparent, transparent 1px, var(--text-link) 0, var(--text-link) 2px, transparent 0);
+  background-image: linear-gradient(0deg, transparent, transparent 1px, var(--accent-solid) 0, var(--accent-solid) 2px, transparent 0);
 }
 #app-mount .lookLink-9FtZy-.reset-2ikQ30 {
   opacity: 1;

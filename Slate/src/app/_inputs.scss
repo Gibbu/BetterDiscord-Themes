@@ -24,36 +24,36 @@
       box-shadow:0 0 0 2px rgba(var(--button-colour), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
     }
   }
-  .secondaryButton-BIo-2g,
-  .colorPrimary-3b3xI6.lookLink-9FtZy- {
-    color:var(--text-normal);
-    background:var(--background-light);
-    min-height:var(--input-height);
-    height:var(--input-height);
-    padding:0 var(--spacing);
-    border-radius:var(--button-border-radius);
-    border:1px solid var(--border-colour);
-    cursor:default;
-    box-shadow:none !important;
-    &:focus {
-      box-shadow:0 0 0 1px currentColor !important;
-      border:1px solid currentColor;
-    }
-    &:hover {
-      border:1px solid currentColor;
-      .contents-18-Yxp {
-        background-image:none !important;
+    .secondaryButton-BIo-2g,
+    .colorPrimary-3b3xI6.lookLink-9FtZy- {
+      color:var(--text-normal);
+      background:var(--background-light);
+      min-height:var(--input-height);
+      height:var(--input-height);
+      padding:0 var(--spacing);
+      border-radius:var(--button-border-radius);
+      border:1px solid var(--border-colour);
+      cursor:default;
+      box-shadow:none !important;
+      &:hover {
+        border:1px solid currentColor;
+        .contents-18-Yxp {
+          background-image:none !important;
+        }
+      }
+      &:focus {
+        box-shadow:0 0 0 1px currentColor !important;
+        border:1px solid currentColor !important;
       }
     }
-  }
   .lookLink-9FtZy- {
     padding:0;
-    color:var(--text-link);
+    color:var(--accent-solid);
     height:auto;
     min-height:unset;
     cursor:pointer;
     &:hover .contents-18-Yxp {
-      background-image:linear-gradient(0deg,transparent,transparent 1px,var(--text-link) 0,var(--text-link) 2px,transparent 0);
+      background-image:linear-gradient(0deg,transparent,transparent 1px,var(--accent-solid) 0,var(--accent-solid) 2px,transparent 0);
     }
     &.reset-2ikQ30 {
       opacity:1;
@@ -336,5 +336,22 @@
       background: var(--accent-solid);
     }
   }
+}
 
+// Light Mode Buttons
+
+.theme-light {
+  #app-mount {
+    .secondaryButton-BIo-2g, 
+    .colorPrimary-3b3xI6.lookLink-9FtZy- {
+      &:hover {
+        background:var(--background);
+        border:1px solid var(--secondary-border-color);
+      }
+      &:focus {
+        box-shadow:0 0 0 2px rgba(0,0,0,0.05) !important;
+        border:1px solid var(--secondary-border-color) !important;
+      }
+    }
+  }
 }

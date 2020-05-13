@@ -69,25 +69,6 @@
       margin-bottom: 0;
     }
   }
-
-  // Green buttons
-  .lookFilled-1Gx00P.colorGreen-29iAKY {
-    font-size: var(--font-size);
-    padding: 0 var(--spacing);
-    height: 25px;
-    min-height: 25px;
-    min-width: auto;
-    text-decoration: none;
-    font-weight: var(--font-weight-light);
-    border: 1px solid var(--accent-solid);
-    background-color: var(--accent-solid);
-    border-radius: var(--border-radius);
-    transition: none;
-    color: #fff;
-    &:hover {
-      background: rgba(var(--accent), 0.8);
-      border-color: rgba(var(--accent), 0.8);
-    }
   }
 
   // Options
