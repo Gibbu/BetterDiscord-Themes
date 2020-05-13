@@ -5,6 +5,7 @@
   padding: 0;
   border-radius: var(--border-radius);
   max-width:280px;
+  box-shadow:var(--elevation-1);
   & > .itemBase-tz5SeC:first-child {
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
@@ -27,14 +28,15 @@
       border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
   }
-  .itemBase-tz5SeC:not(.itemSlider-FZeYw0) {
+  .itemBase-tz5SeC:not(.itemSlider-FZeYw0),
+  .itemSubMenu-1vN_Yns {
     font-size: var(--font-size);
     color:var(--text-normal);
     margin: 0;
     padding: var(--spacing-half) var(--spacing);
     box-sizing: border-box;
     border-radius: 0;
-    height:36px;
+    height:32px;
     cursor:default;
     &.disabled-2xniQf {
       color:var(--text-muted);

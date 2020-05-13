@@ -1,8 +1,9 @@
-#app-mount [id*="popout_"][style*="top"][style*="left"] {
-   .animatorBottom-fS5rNO.scale-3iLZhb.didRender-33z1u8 {
-  transform: none !important;
-  transition: none !important;
-  .menu-Sp6bN1 {
+#app-mount  {
+  .scale-3iLZhb {
+    transform: none !important;
+    transition: none !important;
+  }
+  .menu-Sp6bN1:not([role="listbox"]) {
     position:fixed;
     top:calc(var(--titlebar-height) + var(--toolbar-height));
     left:0;
@@ -70,5 +71,4 @@
       margin:var(--spacing);
     }
   }
-}
 }

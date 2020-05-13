@@ -1,33 +1,67 @@
-#app-mount [id*="popout_"][style*="bottom"][style*="left"] .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
-  transform: none !important;
-  transition: none !important;
-  .menu-Sp6bN1 {
-    background: var(--background);
-    width: var(--sidebar-width);
-    box-shadow: none;
-    margin-left: -10px;
-    margin-bottom: 0;
-    padding: 0;
+.menu-Sp6bN1[role="listbox"] {
+  background: var(--background);
+  width: var(--sidebar-width);
+  margin-left:calc(var(--spacing-double) * -1);
+  margin-bottom: var(--spacing);
+  padding: 0;
+  border-radius: 0;
+  border:1px solid var(--border-colour);
+  border-radius:var(--border-radius);
+  box-shadow:var(--elevation-1);
+  box-sizing:border-box;
+  max-width:200px;
+  position:relative;
+  &:after {
+    content:'';
+    width:10px;
+    height:10px;
+    background:var(--background);
+    box-sizing:border-box;
+    position:absolute;
+    bottom:calc(var(--spacing-half) * -1 + 1px);
+    left:28px;
+    transform:rotate(45deg);
+    border-bottom:1px solid var(--border-colour);
+    border-right:1px solid var(--border-colour);
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  }
+  .customStatusEmoji-2NpCsS,
+  .status-3Kz6VS {
+    margin-right:var(--spacing);
+    width:10px;
+    height:10px;
+  }
+  .customStatusEmoji-2NpCsS {
+    background:var(--text-normal);
+    -webkit-mask:url($icon_add) center/cover no-repeat;
+  }
+  .statusItem-2uzPIV, 
+  .item-1GzJrl {
+    margin: 0;
+    padding: var(--spacing);
     border-radius: 0;
-    border-top: 1px solid var(--border-colour);
-    border-bottom: 1px solid var(--border-colour);
-    .statusItem-2uzPIV, .item-1GzJrl {
-      margin: 0;
-      padding: var(--spacing);
-      border-radius: 0;
-      &.itemActive-2V2HNc {
-        background: var(--accent-solid);
-        color: #fff;
-      }
-      .customStatusContentIcon-2sionu {
-        margin-left: 0;
-      }
-      .statusIconText-3b4TkH {
-        height: auto;
-      }
+    color:var(--text-normal);
+    font-size:var(--font-size);
+    cursor:default;
+    height:32px;
+    display:flex;
+    align-items:center;
+    &.itemActive-2V2HNc {
+      background: var(--accent-solid);
+      color: #fff;
+    }
+    .customStatusContentIcon-2sionu {
+      margin-left: 0;
+    }
+    .statusIconText-3b4TkH {
+      height: auto;
+      font-size:var(--font-size);
+    }
+    .helper-2c73HK {
+      display:none;
     }
   }
-  .separator-2zcjq8 {
-    display: none;
-  }
+}
+.separator-2zcjq8 {
+  display: none;
 }

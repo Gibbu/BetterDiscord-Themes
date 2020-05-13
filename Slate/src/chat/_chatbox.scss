@@ -1,6 +1,7 @@
 #app-mount .form-2fGMdU {
   margin: 0;
   padding: var(--spacing);
+  padding-left:calc(var(--spacing) * 2 + var(--avatar-size));
   border-top: 1px solid var(--border-colour);
   display: flex;
   align-items: center;
@@ -42,6 +43,7 @@
   .channelTextArea-rNsIhG {
     margin-bottom: 0;
     background-color: var(--background);
+    box-sizing:border-box;
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);

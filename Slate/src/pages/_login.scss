@@ -17,7 +17,7 @@
     padding:0;
     max-width: 400px;
     background:var(--background);
-    box-shadow:var(--modal-box-shadow);
+    box-shadow:var(--elevation-2);
     border-radius:var(--border-radius);
     border:1px solid var(--border-color);
     position:relative;
@@ -26,7 +26,7 @@
       position:absolute;
       left:100%;
       background:var(--background);
-      box-shadow:var(--modal-box-shadow);
+      box-shadow:var(--elevation-2);
       border-radius:var(--border-radius);
       border:1px solid var(--border-color);
       margin-left:var(--spacing);
