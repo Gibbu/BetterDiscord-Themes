@@ -18,7 +18,7 @@
     background:var(--background);
     box-sizing:border-box;
     position:absolute;
-    bottom:calc(var(--spacing-half) * -1 + 1px);
+    bottom:-5px;
     left:28px;
     transform:rotate(45deg);
     border-bottom:1px solid var(--border-colour);
@@ -34,6 +34,15 @@
   .customStatusEmoji-2NpCsS {
     background:var(--text-normal);
     -webkit-mask:url($icon_add) center/cover no-repeat;
+  }
+  .clearStatusIcon-3-MDNF {
+    margin-left:var(--spacing-half);
+  }
+  .item-1GzJrl {
+    border-radius:0 0 var(--border-radius) var(--border-radius) !important;
+  }
+  .statusItem-2uzPIV:first-child {
+    border-radius:var(--border-radius) var(--border-radius) 0 0;
   }
   .statusItem-2uzPIV, 
   .item-1GzJrl {

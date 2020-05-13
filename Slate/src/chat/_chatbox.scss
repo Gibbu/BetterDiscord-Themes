@@ -10,6 +10,9 @@
   min-height:var(--toolbar-height);
   height:auto;
   margin:0;
+  margin-bottom:-2px;
+  padding-bottom:calc(var(--spacing) + 1px);
+  padding-top:calc(var(--spacing) - 1px);
   &:before {
     content: none;
   }
@@ -42,25 +45,29 @@
   }
   .channelTextArea-rNsIhG {
     margin-bottom: 0;
-    background-color: var(--background);
+    background-color: transparent;
     box-sizing:border-box;
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);
     padding:0 var(--spacing);
     color:var(--text-muted);
-    font-weight:var(--font-weight-normal);
+    font-weight:var(--font-weight-light);
     top:2px;
   }
   .scrollableContainer-2NUZem {
+    padding:2px;
+    background:transparent;
+    &::-webkit-scrollbar {
+      display:none;
+    }
+  }
+  .inner-MADQqc {
+    box-sizing:border-box;
     background-color: var(--background);
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
     transform:translateZ(0);
-    box-sizing:border-box;
-    &::-webkit-scrollbar {
-      display:none;
-    }
   }
   .textAreaSlate-1ZzRVj {
     height: var(--input-height);
@@ -72,6 +79,20 @@
     color:var(--text-normal);
     font-weight:var(--font-weight-light);
     top:2px;
+    &:focus:after {
+      content:'';
+      top:-1px;
+      left:-1px;
+      position:fixed;
+      width:calc(100% + 2px);
+      height:calc(100% + 2px);
+      background:transparent;
+      pointer-events:none;
+      box-sizing:border-box;
+      border:1px solid var(--accent-solid);
+      box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
+      border-radius:var(--border-radius);
+    }
   }
   .buttons-3JBrkn {
     height: var(--input-height);
