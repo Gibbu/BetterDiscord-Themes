@@ -102,13 +102,23 @@
     height: var(--input-height);
     margin:0;
     padding:0 var(--spacing-half);
-    .buttonWrapper-1ZmCpA {
+    .buttonWrapper-1ZmCpA,
+    .sprite-2iCowe {
       display:none;
     }
     button {
       transform: scale(0.75);
       transform-origin: center right;
       margin:0;
+    }
+    .emojiButton-3uL3Aw {
+      -webkit-mask:url($icon_emoji) center/22px no-repeat;
+      background:var(--text-muted);
+      width:var(--input-height);
+      cursor:default;
+      &:hover {
+        background:var(--text-normal);
+      }
     }
   }
 
