@@ -54,8 +54,14 @@
           color: rgb(var(--discord-red));
         }
       }
-      &:hover, &.focused-3afm-j, &:active {
+      &.focused-3afm-j {
+        background:unset;
+      }
+      &:hover {
         background-color: var(--background-modifier-hover);
+      }
+      &:active {
+        background-color: var(--background-modifier-active);
       }
     }
     .separator-2I32lJ {

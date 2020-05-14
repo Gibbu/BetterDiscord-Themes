@@ -3197,8 +3197,14 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1:hover {
   color: rgb(var(--discord-red));
 }
-#app-mount #guild-header-popout .item-1tOPte:hover, #app-mount #guild-header-popout .item-1tOPte.focused-3afm-j, #app-mount #guild-header-popout .item-1tOPte:active {
+#app-mount #guild-header-popout .item-1tOPte.focused-3afm-j {
+  background: unset;
+}
+#app-mount #guild-header-popout .item-1tOPte:hover {
   background-color: var(--background-modifier-hover);
+}
+#app-mount #guild-header-popout .item-1tOPte:active {
+  background-color: var(--background-modifier-active);
 }
 #app-mount #guild-header-popout .separator-2I32lJ {
   display: none;
