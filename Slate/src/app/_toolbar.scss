@@ -4,6 +4,7 @@
   border-bottom: 1px solid var(--topbar-border);
   padding-left: 0;
   position: relative;
+  overflow:visible;
 
   // Current Channel
   .children-19S4PO {
@@ -12,6 +13,21 @@
     min-width: 230px;
     padding: var(--spacing);
     border-right: 1px solid var(--topbar-border);
+    position:relative;
+    overflow:visible;
+    .input-2A_zIr, 
+    .input-cIJ7To {
+      background:var(--topbar-background);
+      border:1px solid var(--topbar-border) !important;
+      color:var(--toolbar-text-default);
+      &:hover {
+        border: 1px solid var(--topbar-background-hover) !important;
+      }
+      &:focus {
+        border:1px solid var(--accent-solid) !important;
+        color:var(--toolbar-text-focus);
+      }
+    }
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing) 0 0;
       .icon-22AiRD {
@@ -40,7 +56,8 @@
         color: var(--toolbar-text-muted);
       }
     }
-    .divider-3FBTu8 {
+    .divider-3FBTu8,
+    .akaBadge-1M-1Gw {
       display: none;
     }
     .topic-TCb_qw {
@@ -54,6 +71,52 @@
         display: none;
       }
     }
+    .nicknames-1XK4Zt {
+      position:absolute;
+      left:var(--spacing);
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      background:var(--background);
+      border-radius:var(--border-radius);
+      width:fit-content;
+      padding:var(--spacing-half) var(--spacing);
+      bottom:-36px;
+      margin:0;
+      border:1px solid var(--border-colour);
+      box-sizing:border-box;
+      box-shadow:var(--elevation-1);
+      overflow:visible;
+      max-height:25px;
+      display:flex;
+      align-items:center;
+      opacity:0;
+      pointer-events:none;
+      transition:100ms ease opacity;
+      &:after {
+        content:'';
+        width:10px;
+        height:10px;
+        background:var(--background);
+        box-sizing:border-box;
+        position:absolute;
+        top:-5px;
+        left:8px;
+        transform:rotate(45deg);
+        border-top:1px solid var(--border-colour);
+        border-left:1px solid var(--border-colour);
+        clip-path: polygon(100% 0, 0% 100%, 0 0);
+        box-shadow:var(--elevation-1);
+      }
+    }
+    .status-1XNdyw {
+      position:absolute;
+      left:0;
+      padding:var(--spacing) var(--spacing-third);
+      margin:0 var(--spacing);
+      box-sizing:border-box;
+      background:var(--topbar-background);
+      pointer-events:none;
+    }
     &:after {
       content: none;
     }
@@ -61,6 +124,12 @@
       background: var(--topbar-background-hover);
       .title-29uC1r {
         color:var(--toolbar-text-focus);
+      }
+      .status-1XNdyw {
+        background:var(--topbar-background-hover);
+      }
+      .nicknames-1XK4Zt {
+        opacity:1;
       }
     }
   }
