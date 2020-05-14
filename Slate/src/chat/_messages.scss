@@ -122,7 +122,9 @@
   .mentioned-xhSam7 {
     background: rgba(var(--accent), 0.1) !important;
     padding-bottom:0;
-    margin-bottom:var(--spacing);
+    & + .message-2qnXI6:not(.groupStart-23k01U) {
+      margin-top: calc(var(--spacing-half) / -1);
+    }
     &:before {
       background-color: var(--accent-solid);
     }
