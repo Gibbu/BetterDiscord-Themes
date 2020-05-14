@@ -3286,15 +3286,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #status-picker .scroller-3BxosC .item-1tOPte:last-child {
   border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
 }
-#status-picker .scroller-3BxosC .item-1tOPte:hover {
+#status-picker .scroller-3BxosC .item-1tOPte.focused-3afm-j {
   background: var(--accent-solid) !important;
   color: #fff !important;
 }
-#status-picker .scroller-3BxosC .item-1tOPte:hover .customEmojiPlaceholder-37iZ_j {
+#status-picker .scroller-3BxosC .item-1tOPte.focused-3afm-j .customEmojiPlaceholder-37iZ_j {
   background: #fff !important;
 }
-#status-picker .scroller-3BxosC .item-1tOPte.focused-3afm-j {
-  background: unset;
+#status-picker .scroller-3BxosC .item-1tOPte:hover {
+  background: transparent;
 }
 #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf {
   padding: 0;

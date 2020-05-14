@@ -49,15 +49,15 @@
       &:last-child {
         border-radius:0 0 var(--border-radius) var(--border-radius) !important;
       }
-      &:hover {
+      &.focused-3afm-j {
         background:var(--accent-solid) !important;
         color:#fff !important;
         .customEmojiPlaceholder-37iZ_j {
           background:#fff !important;
         }
       }
-      &.focused-3afm-j {
-        background:unset;
+      &:hover {
+        background:transparent;
       }
       .statusItem-33LqPf {
         padding:0;
