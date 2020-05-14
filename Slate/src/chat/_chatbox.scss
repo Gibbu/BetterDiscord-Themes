@@ -55,6 +55,7 @@
     color:var(--text-muted);
     font-weight:var(--font-weight-light);
     top:2px;
+    width:98%;
   }
   .scrollableContainer-2NUZem {
     padding:3px;
@@ -81,6 +82,7 @@
     color:var(--text-normal);
     font-weight:var(--font-weight-light);
     top:2px;
+    width:98%;
     &:focus:after {
       content:'';
       top:-1px;
@@ -100,9 +102,13 @@
     height: var(--input-height);
     margin:0;
     padding:0 var(--spacing-half);
+    .buttonWrapper-1ZmCpA {
+      display:none;
+    }
     button {
       transform: scale(0.75);
       transform-origin: center right;
+      margin:0;
     }
   }
 
