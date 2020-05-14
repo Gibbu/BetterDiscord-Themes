@@ -3,19 +3,25 @@
     transform: none !important;
     transition: none !important;
   }
-  .menu-Sp6bN1:not([role="listbox"]) {
+  #guild-header-popout {
     position:fixed;
     top:calc(var(--titlebar-height) + var(--toolbar-height));
     left:0;
     top:calc(var(--toolbar-height) + var(--titlebar-height) + 1px);
-    padding: 0; 
+    padding: 0;
     border-radius: 0;
     box-shadow: none;
     height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
     width:calc(var(--sidebar-width) + var(--container));
     background: var(--background);
     border-right:1px solid var(--border-colour);
-    .item-1GzJrl {  
+    .scroller-3BxosC {
+      padding: var(--spacing-half) 0 0 0;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .item-1tOPte {
       margin: 0;
       padding: var(--spacing);
       color: var(--text-default);
@@ -27,26 +33,32 @@
       &:hover {
         color: var(--text-focus);
       }
-      &:first-child {
+      &.colorPremium-p4p7qO {
         color: rgb(var(--discord-nitro));
+        .icon-LYJorE {
+          color: rgb(var(--discord-nitro));
+        }
         &:hover {
           color: rgb(var(--discord-nitro));
         }
       }
-      &.invite-271nFU {
+      &.colorBrand-ROmMP1 {
         color: rgb(var(--discord-blurple));
         &:hover {
           color: rgb(var(--discord-blurple));
         }
       }
-      &.leave-1DRJfn {
+      &.colorDanger-2qLCe1 {
         color: rgb(var(--discord-red));
         &:hover {
           color: rgb(var(--discord-red));
         }
       }
+      &:hover, &.focused-3afm-j, &:active {
+        background-color: var(--background-modifier-hover);
+      }
     }
-    .separator-2zcjq8 {
+    .separator-2I32lJ {
       display: none;
     }
     &:before {
