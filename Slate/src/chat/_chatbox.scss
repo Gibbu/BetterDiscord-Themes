@@ -10,7 +10,7 @@
   min-height:var(--toolbar-height);
   height:auto;
   margin:0;
-  margin-bottom:-2px;
+  margin-bottom:-4px;
   padding-bottom:calc(var(--spacing) + 1px);
   padding-top:calc(var(--spacing) - 1px);
   &:before {
@@ -56,7 +56,7 @@
     top:2px;
   }
   .scrollableContainer-2NUZem {
-    padding:2px;
+    padding:3px;
     background:transparent;
     &::-webkit-scrollbar {
       display:none;

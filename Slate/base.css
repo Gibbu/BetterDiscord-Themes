@@ -1197,24 +1197,28 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   left: var(--sidebar-width);
   margin: 0 var(--spacing);
   z-index: 10;
-  border: 1px solid var(--border-colour);
   border-radius: var(--border-radius);
   transition: 100ms ease;
   --rs-width:1px;
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2 {
   opacity: 1;
+  border-radius: var(--border-radius);
   cursor: default;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2 foreignObject {
+  overflow: visible;
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2 img {
   -webkit-clip-path: none;
           clip-path: none;
   border-radius: var(--border-radius);
+  border: 1px solid var(--border-colour);
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2 rect {
   position: initial;
-  x: 9.5;
-  y: 8;
+  x: 11.5;
+  y: 10;
   height: 10px !important;
   width: 10px !important;
   rx: 50% !important;
@@ -1241,7 +1245,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2 rect[fill="rgba(116, 127, 141, 1)"] {
   fill: var(--rs-invisible-color) !important;
 }
-#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover, #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=true] {
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover img, #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=true] img {
   border: 1px solid var(--accent-solid);
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover rect, #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=true] rect {
@@ -2336,7 +2340,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   min-height: var(--toolbar-height);
   height: auto;
   margin: 0;
-  margin-bottom: -2px;
+  margin-bottom: -4px;
   padding-bottom: calc(var(--spacing) + 1px);
   padding-top: calc(var(--spacing) - 1px);
 }
@@ -2378,7 +2382,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   top: 2px;
 }
 #app-mount .form-2fGMdU .scrollableContainer-2NUZem {
-  padding: 2px;
+  padding: 3px;
   background: transparent;
 }
 #app-mount .form-2fGMdU .scrollableContainer-2NUZem::-webkit-scrollbar {
@@ -3137,7 +3141,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   margin-left: calc(var(--spacing-double) * -1);
   margin-bottom: var(--spacing);
   padding: 0;
-  border-radius: 0;
   border: 1px solid var(--border-colour);
   border-radius: var(--border-radius);
   box-shadow: var(--elevation-1);
