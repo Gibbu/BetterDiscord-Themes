@@ -61,6 +61,8 @@
   */
   --font: 'Whitney';
 
+  /* Do not touch */
+  --update-notice-1: none;
 }
 
 @import 'root';
@@ -74,5 +76,6 @@
 @import 'pages/import';
 @import 'settings/import';
 @import 'bd/import';
+@import 'os/import';
 
 @import 'keyframes';

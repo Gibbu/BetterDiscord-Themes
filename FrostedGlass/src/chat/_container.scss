@@ -14,4 +14,13 @@
     opacity: 1;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
   }
+  .jumpToPresentBar-9P20AM {
+    border-radius: 8px;
+    background-color: var(--white-double);
+    padding-bottom: 0;
+    bottom: 10px;
+    &:hover {
+      background-color: var(--white-triple);
+    }
+  }
 }

@@ -34,8 +34,25 @@
       font-weight: bold;
     }
   }
+  // Popouts/modals
+  .layer-v9HyYc {
+    z-index: 1;
+  }
 }
 ::selection {
   background: rgb(var(--gradient-primary));
   color: var(--text-normal);
+}
+
+// Update notice
+#app-mount .app-2rEoOp::before {
+  content: "Your version of Frosted Glass is outdated. Please redownload";
+  white-space: pre-wrap;
+  display: var(--update-notice-1, block);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: rgb(var(--discord-blurple), 0.7);
+  text-shadow: 0 2px 3px rgba(0,0,0,var(--text-shadow));
 }

@@ -105,9 +105,23 @@
 #app-mount .botTagInvert-18-95s .botText-1526X_ {
   font-weight: bold;
 }
+#app-mount .layer-v9HyYc {
+  z-index: 1;
+}
 ::selection {
   background: rgb(var(--gradient-primary));
   color: var(--text-normal);
+}
+#app-mount .app-2rEoOp::before {
+  content: "Your version of Frosted Glass is outdated. Please redownload";
+  white-space: pre-wrap;
+  display: var(--update-notice-1, block);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: rgb(var(--discord-blurple), 0.7);
+  text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
 }
 ::-webkit-scrollbar {
   width: 8px !important;
@@ -466,6 +480,15 @@
   opacity: 1;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+#app-mount .jumpToPresentBar-9P20AM {
+  border-radius: 8px;
+  background-color: var(--white-double);
+  padding-bottom: 0;
+  bottom: 10px;
+}
+#app-mount .jumpToPresentBar-9P20AM:hover {
+  background-color: var(--white-triple);
+}
 #app-mount .message-2qRu38 {
   background: transparent;
   box-shadow: none;
@@ -504,11 +527,8 @@
   background: var(--gradient);
 }
 #app-mount .wrapper-3WhCwL {
-  background: var(--gradient-50);
-  color: var(--text-normal);
-}
-#app-mount .wrapper-3WhCwL:hover {
   background: var(--gradient);
+  color: var(--text-normal);
 }
 #app-mount .form-2fGMdU {
   margin-top: 0;
@@ -525,34 +545,29 @@
 }
 #app-mount .divider-JfaTT5 {
   border: none;
-  height: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  justify-content: flex-start;
 }
 #app-mount .divider-JfaTT5 .content-1o0f9g {
-  font-size: 16px;
-  color: var(--text-normal);
-  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-muted);
 }
-#app-mount .divider-JfaTT5 .unreadPill-2HyYtt {
-  position: relative;
-  top: 0;
-  background: transparent;
-  color: rgb(var(--discord-red));
-  font-size: 16px;
-  padding-left: 0;
+#app-mount .divider-JfaTT5 .content-1o0f9g:before, #app-mount .divider-JfaTT5 .content-1o0f9g:after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  display: block;
+  background: var(--background-modifier-accent);
 }
-#app-mount .divider-JfaTT5 .unreadPill-2HyYtt svg {
-  display: none;
+#app-mount .divider-JfaTT5 .content-1o0f9g:before {
+  margin-right: 10px;
+}
+#app-mount .divider-JfaTT5 .content-1o0f9g:after {
+  margin-left: 10px;
 }
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-#app-mount .divider-JfaTT5.isUnread-3Ef-o9 .content-1o0f9g {
-  color: rgb(var(--discord-red));
-  padding-left: 10px;
+  border-top: 1px solid rgb(var(--discord-red));
 }
 #app-mount .members-1998pB {
   background-color: rgba(0, 0, 0, var(--right-brightness));
@@ -1205,6 +1220,23 @@
 }
 #app-mount #bd-customcss-attach-controls button:active, #app-mount #bd-customcss-attach-controls button:hover {
   background: var(--white-double);
+}
+html.platform-win .scroller-2TZvBN {
+  padding-top: 10px;
+}
+html.platform-osx .macButtons-2MuSAC {
+  position: absolute;
+  top: var(--window-padding);
+  left: var(--window-padding);
+  background: rgba(0, 0, 0, var(--serverlist-brightness));
+  width: 72px;
+  border-top-left-radius: var(--window-roundness);
+}
+html.platform-osx .wrapper-1Rf91z {
+  margin-top: 30px;
+}
+html.platform-osx .scroller-2TZvBN {
+  padding-top: 15px;
 }
 @keyframes fadeIn {
   from {
