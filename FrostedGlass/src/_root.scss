@@ -11,6 +11,7 @@
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
+  --chat-embed: var(--background-secondary);
 
   // Discord variables
   --discord-green: 67,181,129;
@@ -24,7 +25,7 @@
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
 
-  --version: 'Frosted Glass 2.0.0';
+  --version: 'Frosted Glass 2.0.1';
 }
 
 .theme-dark {

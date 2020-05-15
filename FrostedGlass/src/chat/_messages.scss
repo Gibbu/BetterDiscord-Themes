@@ -1,11 +1,11 @@
 #app-mount {
+  .cozy-3raOZG .header-23xsNx {
+    margin-left: 0;
+    padding-left: 0;
+  }
   .message-2qRu38 {
     background: transparent;
     box-shadow: none;
-  }
-  .avatar-1BDn8e + h2::after {
-    left: 45px;
-    bottom: -30px;
   }
   // Attachments,pings,codeblocks ect...
   .message-2qnXI6 {
@@ -23,9 +23,13 @@
       background: var(--background-secondary);
     }
     .attachment-33OFj0,
-    .wrapperAudio-1jDe0Q {
-      background-color: var(--background-secondary);
+    .wrapperAudio-1jDe0Q,
+    code {
+      background-color: var(--chat-embed);
       border: none;
+    }
+    .embedFull-2tM8-- {
+      background-color: var(--chat-embed);
     }
   }
   .hljs {

@@ -10,6 +10,7 @@
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
+  --chat-embed: var(--background-secondary);
   --discord-green: 67, 181, 129;
   --discord-yellow: 219, 171, 9;
   --discord-red: 215, 58, 73;
@@ -20,7 +21,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.0";
+  --version: "Frosted Glass 2.0.1";
 }
 .theme-dark {
   --header-primary: #fff;
@@ -489,13 +490,13 @@
 #app-mount .jumpToPresentBar-9P20AM:hover {
   background-color: var(--white-triple);
 }
+#app-mount .cozy-3raOZG .header-23xsNx {
+  margin-left: 0;
+  padding-left: 0;
+}
 #app-mount .message-2qRu38 {
   background: transparent;
   box-shadow: none;
-}
-#app-mount .avatar-1BDn8e+h2::after {
-  left: 45px;
-  bottom: -30px;
 }
 #app-mount .message-2qnXI6 {
   background: transparent !important;
@@ -513,9 +514,13 @@
   background: var(--background-secondary);
 }
 #app-mount .message-2qnXI6 .attachment-33OFj0,
-#app-mount .message-2qnXI6 .wrapperAudio-1jDe0Q {
-  background-color: var(--background-secondary);
+#app-mount .message-2qnXI6 .wrapperAudio-1jDe0Q,
+#app-mount .message-2qnXI6 code {
+  background-color: var(--chat-embed);
   border: none;
+}
+#app-mount .message-2qnXI6 .embedFull-2tM8-- {
+  background-color: var(--chat-embed);
 }
 #app-mount .hljs {
   color: var(--text-default);
