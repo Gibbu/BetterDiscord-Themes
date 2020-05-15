@@ -23,35 +23,91 @@
     }
     .item-1tOPte {
       margin: 0;
-      padding: var(--spacing);
+      padding: 0 var(--spacing);
       color: var(--text-default);
-      height: var(--item-height);
       border-radius: 0;
       font-size:var(--font-size);
       font-weight:var(--font-weight-light);
       cursor:default;
+      box-sizing:border-box;
       &:hover {
         color: var(--text-focus);
       }
-      &.colorPremium-p4p7qO {
+      &#guild-header-popout-premium-subscribe {
         color: rgb(var(--discord-nitro));
         .icon-LYJorE {
           color: rgb(var(--discord-nitro));
+          path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
+            d:path($path_flame);
+            transform:scale(.7);
+            &~path {
+              display:none;
+            }
+          }
         }
         &:hover {
           color: rgb(var(--discord-nitro));
         }
       }
-      &.colorBrand-ROmMP1 {
+      &#guild-header-popout-invite-people {
         color: rgb(var(--discord-blurple));
         &:hover {
           color: rgb(var(--discord-blurple));
         }
+        path {
+          d:path($path_person_add);
+          transform:scale(1.4);
+        }
       }
-      &.colorDanger-2qLCe1 {
+      &#guild-header-popout-leave {
         color: rgb(var(--discord-red));
         &:hover {
           color: rgb(var(--discord-red));
+        }
+      }
+      &#guild-header-popout-notifications {
+        path {
+          d:path($path_bell);
+          transform:scale(1.4) translateX(1px) translateY(1px);
+        }
+      }
+      &#guild-header-popout-settings {
+        path {
+          d:path($path_gear);
+          transform:scale(1.4) translateX(2px);
+        }
+      }
+      &#guild-header-popout-create-channel {
+        path {
+          d:path($path_add);
+          transform:scale(1.4) translateX(2px);
+        }
+      }
+      &#guild-header-popout-create-category {
+        path {
+          d:path($path_repo);
+          transform:scale(1.2) translateX(4px) translateY(2px);
+        }
+      }
+      &#guild-header-popout-privacy {
+        path {
+          d:path($path_shield);
+          transform:scale(1.2) translateX(2px) translateY(2px);
+          fill-rule:evenodd;
+        }
+      }
+      &#guild-header-popout-change-nickname {
+        path {
+          d:path($path_pencil);
+          transform:scale(1.3) translateX(2px) translateY(1px);
+          fill-rule:evenodd;
+        }
+      }
+      &#guild-header-popout-leave {
+        path {
+          d:path($path_link);
+          transform:scale(1.4) translateX(2px) translateY(1px);
+          fill-rule:evenodd;
         }
       }
       &.focused-3afm-j {
