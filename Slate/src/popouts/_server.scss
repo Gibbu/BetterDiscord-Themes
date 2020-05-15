@@ -30,6 +30,18 @@
       font-weight:var(--font-weight-light);
       cursor:default;
       box-sizing:border-box;
+      .label-22pbtT {
+        flex:unset;
+      }
+      .icon-LYJorE, .iconContainer-2-XQPY {
+        width:14px;
+        height:14px;
+      }
+      .iconContainer-2-XQPY {
+        order:-1;
+        margin:0;
+        margin-right:var(--spacing-half);
+      }
       &:hover {
         color: var(--text-focus);
       }

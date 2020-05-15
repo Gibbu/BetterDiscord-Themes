@@ -392,7 +392,6 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   height: var(--toolbar-height);
   padding: 0;
   border-right: 1px solid var(--topbar-border);
-  border-bottom: 1px solid var(--topbar-border);
   background: var(--topbar-background);
 }
 #app-mount .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1 {
@@ -1207,10 +1206,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-top: 5px solid var(--toolbar-text-focus);
 }
 
+.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
+  border-right: none;
+}
 .theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj h1 {
   color: var(--text-focus);
 }
-
 .theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj .button-1w5pas {
   border-top: 5px solid var(--text-focus);
 }
@@ -3305,6 +3306,18 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   font-weight: var(--font-weight-light);
   cursor: default;
   box-sizing: border-box;
+}
+#app-mount #guild-header-popout .item-1tOPte .label-22pbtT {
+  flex: unset;
+}
+#app-mount #guild-header-popout .item-1tOPte .icon-LYJorE, #app-mount #guild-header-popout .item-1tOPte .iconContainer-2-XQPY {
+  width: 14px;
+  height: 14px;
+}
+#app-mount #guild-header-popout .item-1tOPte .iconContainer-2-XQPY {
+  order: -1;
+  margin: 0;
+  margin-right: var(--spacing-half);
 }
 #app-mount #guild-header-popout .item-1tOPte:hover {
   color: var(--text-focus);

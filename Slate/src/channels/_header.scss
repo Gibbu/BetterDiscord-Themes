@@ -78,10 +78,12 @@
   }
 }
 
-.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj h1 {
-  color:var(--text-focus);
-}
-
-.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj .button-1w5pas {
-  border-top:5px solid var(--text-focus);
+.theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
+  border-right:none;
+  h1 {
+    color:var(--text-focus);
+  }
+  .button-1w5pas {
+    border-top:5px solid var(--text-focus);
+  }
 }
