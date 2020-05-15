@@ -14,6 +14,11 @@
     button {
       padding: var(--spacing-half) var(--spacing);
       height: auto;
+      color:var(--text-normal);
+      font-size:var(--font-size);
+    }
+    &:active {
+      margin:0;
     }
   }
 
@@ -22,10 +27,33 @@
     left: 0;
     right: 0;
     border-radius: 0;
-    background: var(--accent-solid);
+    background: var(--background-light);
     border-bottom: 1px solid var(--border-colour);
     box-shadow: none;
     opacity: 1;
+    padding:var(--spacing-half) var(--spacing);
+    min-height:auto;
+    cursor:default;
+    button {
+      font-size:12px;
+      padding:0;
+      color:var(--text-normal);
+      font-weight:var(--font-weight-light);
+      height:auto;
+      line-height:normal;
+      cursor:default;
+    }
+    .barButtonAlt-3gIkIj {
+      font-size:0;
+      svg {
+        margin:0;
+        color:rgb(var(--discord-yellow));
+        path {
+          d:path($path_warning);
+          transform:scale(1.35) translateY(2px);
+        }
+      }
+    }
   }
 
   // Load more messages

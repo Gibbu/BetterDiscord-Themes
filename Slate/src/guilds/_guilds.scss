@@ -113,6 +113,9 @@
   .unreadMentionsIndicatorBottom-BXS58x, 
   .unreadMentionsIndicatorTop-gA6RCh {
     padding:0;
+    .active-1SSsBb:active {
+      top:0;
+    }
     .bar-30k2ka {
       width:var(--container);
       border-radius:0;
@@ -122,6 +125,13 @@
       background:rgb(var(--discord-red));
       color:var(--white);
       cursor:default;
+      opacity:0;
+      &[style*="translateY(0%)"] {
+        opacity:.9;
+        &:hover {
+          opacity:1;
+        }
+      }
     }
   }
   .unreadMentionsIndicatorBottom-BXS58x {

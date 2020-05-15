@@ -152,6 +152,9 @@
     height: 22px;
     padding: 0;
     width: auto;
+    &.selected-LCBEAU {
+      color:#fff;
+    }
   }
   .icon-3Gkjwa {
     width: 14px;
@@ -202,8 +205,8 @@
     .guildIconImage-3qTk45 {
       border-radius: var(--border-radius);
       box-shadow: inset 0 0 0 1px var(--border-colour);
-      width: var(--avatar-size-large);
-      height: var(--avatar-size-large);
+      width: var(--avatar-size-lg);
+      height: var(--avatar-size-lg);
       margin-right: var(--spacing);
     }
     .guildName-2hvnt_ {

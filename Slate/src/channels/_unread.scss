@@ -15,18 +15,21 @@
   }
   .bar-30k2ka {
     border-radius: 0;
-    background: var(--accent-solid);
+    background: var(--background-light);
     opacity: 1;
     height: auto;
     box-shadow: none;
     line-height:normal;
-    padding: calc(var(--spacing) / 1.5) 0;
+    padding:var(--spacing-half) 0;
     transform:none !important;
     font-size:var(--font-size);
+    font-weight:var(--font-weight-normal);
     text-transform:none;
     position:relative;
-    left:-1px;
     width:100%;
+    color:rgba(var(--discord-red));
+    border-right:1px solid var(--border-colour);
+    box-sizing:border-box;
     &[aria-hidden="true"] {
       display:none;
     }

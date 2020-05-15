@@ -1,7 +1,6 @@
 #status-picker {
   background: var(--background);
   width: var(--sidebar-width);
-  margin-bottom: var(--spacing);
   padding: 0;
   border:1px solid var(--border-colour);
   border-radius:var(--border-radius);
@@ -56,7 +55,8 @@
           background:#fff !important;
         }
       }
-      &:hover {
+      &:hover,
+      &:active {
         background:transparent;
       }
       .statusItem-33LqPf {
@@ -99,4 +99,3 @@
     }
   }
 }
-
