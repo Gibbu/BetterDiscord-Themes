@@ -1,36 +1,16 @@
-#app-mount {
-  .autocomplete-1vrmpx {
-    background: transparent;
-    .selectorSelected-1_M1WV {
-      background: rgba(#000, 0.2);
-    }
-    .header-1TOWci {
-      box-shadow: none;
-      .container-cMG81i {
-        background: rgba(#000, 0.2);
-      }
-    }
-    .input-3Xdcic {
-      color: #fff;
-    }
-    .categoryFadeBlurple-1j72_A {
-      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), .8) 20%, rgba(var(--BG-gradient-two), .8));
-    }
-    .result-3w1ZcL {
-      background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
-      &:hover:after {
-        box-shadow: inset 0 0 0 2px rgba(var(--BG-gradient-one), 1), inset 0 0 0 3px #2f3136;
-      }
-    }
-    .focused-1En8bG:after {
-      box-shadow: inset 0 0 0 2px rgba(var(--BG-gradient-two), 1), inset 0 0 0 3px #2f3136;
-    }
+#app-mount .autocomplete-1vrmpx {
+  box-shadow: none;
+  .selectorSelected-1_M1WV {
+    background: var(--white);
   }
-  .popout-2iWAc- {
-    box-shadow: none;
-    border: none;
+  .divider-23swzi {
+    background-color: var(--white);
   }
-  .option-96V44q:after {
-    content: none;
+  .description-11DmNu,
+  .descriptionUsername-J_75O8 {
+    color: var(--text-normal);
+  }
+  .descriptionDiscriminator-3vUOCc {
+    color: var(--text-muted);
   }
 }

@@ -1,0 +1,33 @@
+#app-mount {
+  .divider-JfaTT5 {
+    border: none;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+    .content-1o0f9g {
+      font-size: 16px;
+      color: var(--text-normal);
+      padding: 0;
+    }
+    .unreadPill-2HyYtt {
+      position: relative;
+      top: 0;
+      background: transparent;
+      color: rgb(var(--discord-red));
+      font-size: 16px;
+      padding-left: 0;
+      svg {
+        display: none;
+      }
+    }
+    &.isUnread-3Ef-o9 {
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      .content-1o0f9g {
+        color: rgb(var(--discord-red));
+        padding-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+#app-mount {
+  #guild-header-popout,
+  #message-actions,
+  #status-picker,
+  .autocompleteInner-zh20B_,
+  .container-3ayLPN,
+  .contextMenu-HLZMGh:not(.scroller-2FKFPG),
+  .emojiPicker-3PwZFl,
+  .messagesPopoutWrap-1MQ1bW,
+  .modal-yWgWj-:not(.slide-2pHaq5),
+  .root-1gCeng,
+  .root-SR8cQa,
+  .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
+  .userPopout-3XzG_A,
+  section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb {
+    overflow: hidden !important;
+    position: relative;
+    border-radius: 3px;
+    &:before {
+      content: "";
+      background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image) center/cover fixed;
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--popout-modal-brightness));
+      height: calc(100% + var(--popout-modal-blur) * 5);
+      width: calc(100% + var(--popout-modal-blur) * 5);
+      top: calc(var(--popout-modal-blur) / -1 * 2.5);
+      left: calc(var(--popout-modal-blur) / -1 * 2.5);
+      position: absolute;
+      filter: blur(var(--popout-modal-blur));
+      pointer-events: none;
+      user-select: none;
+      z-index: -1;
+    }
+  }
+}
