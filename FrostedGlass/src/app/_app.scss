@@ -1,5 +1,8 @@
 #app-mount {
-  background: var(--background-image) center/cover fixed;
+  background: var(--background-image);
+  background-attachment: fixed;
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
   .app-1q1i1E {
     backdrop-filter: blur(var(--background-image-blur));
     box-shadow: inset 0 0 0 100vmax var(--tint);
@@ -43,7 +46,6 @@
   background: rgb(var(--gradient-primary));
   color: var(--text-normal);
 }
-
 // Update notice
 #app-mount .app-2rEoOp::before {
   content: "Your version of Frosted Glass is outdated. Please redownload";

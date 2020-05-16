@@ -59,8 +59,8 @@
   --channeltextarea-background: rgba(255, 255, 255, 0.05);
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
-  --deprecated-card-bg: rgba(32, 34, 37, 0.6);
-  --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+  --deprecated-card-bg: rgba(0, 0, 0, 0.3);
+  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: #72767d;
   --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
@@ -72,7 +72,10 @@
   --text-link: var(--link-colour);
 }
 #app-mount {
-  background: var(--background-image) center/cover fixed;
+  background: var(--background-image);
+  background-attachment: fixed;
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
 }
 #app-mount .app-1q1i1E {
   backdrop-filter: blur(var(--background-image-blur));
@@ -200,7 +203,10 @@
 #app-mount .userPopout-3XzG_A:before,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before {
   content: "";
-  background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image) center/cover fixed;
+  background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
+  background-position: var(--popout-modal-position, center);
+  background-size: var(--popout-modal-size, cover);
+  background-attachment: fixed;
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
   height: calc(100% + var(--popout-modal-blur) * 5);
   width: calc(100% + var(--popout-modal-blur) * 5);
@@ -249,7 +255,7 @@
   background: rgb(var(--discord-red));
 }
 #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background: rgba(var(--discord-green), 0.3);
+  background: rgba(var(--discord-green), 0.4);
   transition: 0.2s ease;
 }
 #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:active, #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
@@ -296,7 +302,7 @@
 }
 #app-mount .item-26Dhrx {
   border: none;
-  background: var(--white);
+  background: var(--background-secondary);
 }
 #app-mount .item-26Dhrx .checkbox-1ix_J3 {
   border: none;
@@ -618,6 +624,9 @@
 }
 #app-mount .userPopout-3XzG_A .headerStreaming-2FjmGz {
   background: rgba(var(--discord-twitch), 0.3);
+}
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA::after {
+  border-radius: 3px;
 }
 #app-mount .userPopout-3XzG_A .activityName-1IaRLn,
 #app-mount .userPopout-3XzG_A .headerTag-2pZJzA,
@@ -1022,17 +1031,14 @@
 #app-mount [aria-label*=SETTINGS] .multiInput-1e2xJ7 .input-cIJ7To {
   background: transparent;
 }
-#app-mount [aria-label*=SETTINGS] .cardPrimary-1Hv-to,
-#app-mount [aria-label*=SETTINGS] .cardPrimaryEditable-3KtE4g,
-#app-mount [aria-label*=SETTINGS] .cardPrimaryOutline-29Ujqw {
-  background: var(--background-secondary);
-  border: none;
-}
 #app-mount [aria-label*=SETTINGS] .description-3_Ncsb,
 #app-mount [aria-label*=SETTINGS] .h5-18_1nd:not(.isEnabled-24g9qA),
 #app-mount [aria-label*=SETTINGS] .labelDescriptor-1PqHgD,
 #app-mount [aria-label*=SETTINGS] .viewBody-2Qz-jg {
   color: var(--text-normal);
+}
+#app-mount #user-settings .authedApp-mj2Hmd {
+  background: var(--background-secondary);
 }
 #app-mount #user-settings .connection-1fbD7X {
   position: relative;
