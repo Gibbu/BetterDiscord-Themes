@@ -520,21 +520,23 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .tooltip-2QfLtc {
-  padding: calc(var(--spacing) / 4) var(--spacing-half);
+  padding: var(--spacing-third) var(--spacing);
   border-radius: var(--border-radius);
   background: var(--background);
   color: var(--text-normal);
-  box-shadow: var(--elevation-1);
+  box-shadow: none;
   font-size: var(--font-size);
   border: 1px solid var(--border-colour);
   position: relative;
   font-weight: var(--font-weight-normal);
   transform: none !important;
 }
+#app-mount .tooltip-2QfLtc .tooltipContent-bqVLWK {
+  padding: 0;
+}
 #app-mount .tooltip-2QfLtc .tooltipPointer-3ZfirK {
   background: var(--background);
   border: 1px solid var(--border-colour);
-  box-shadow: var(--elevation-1);
   width: 8px;
   height: 8px;
   -webkit-clip-path: polygon(95% 0, 0% 95%, 0 0);
@@ -1514,9 +1516,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   font-size: var(--font-size);
   cursor: text;
 }
-#app-mount .privateChannels-1nO12o .header-zu8eWb {
+#app-mount .privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 {
   padding: var(--spacing);
   height: auto;
+  color: var(--text-default);
+  font-size: 12px;
+  text-transform: none;
 }
 #app-mount .privateChannels-1nO12o .scroller-2FKFPG {
   background: var(--background);
@@ -1580,6 +1585,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .privateChannels-1nO12o:active .wrapper-3t9DeA:before {
   background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
+}
+
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
+  color: #fff;
+}
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .name-uJV0GL,
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .activityText-OW8WYb,
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .subtext-1RtU34 {
+  color: #fff !important;
 }
 
 #app-mount .guilds-1SWlCJ {
@@ -1720,6 +1734,9 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .guilds-1SWlCJ .unreadMentionsIndicatorBottom-BXS58x {
   height: auto;
   width: auto;
+}
+#app-mount .guilds-1SWlCJ .unreadMentionsIndicatorTop-gA6RCh {
+  top: var(--toolbar-height);
 }
 
 .theme-light #app-mount .guilds-1SWlCJ .childWrapper-anI2G9,

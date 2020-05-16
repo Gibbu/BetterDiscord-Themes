@@ -25,9 +25,12 @@
 	}
 
 	// Direct messages header
-	.header-zu8eWb {
+	.privateChannelsHeaderContainer-3NB1K1 {
 		padding: var(--spacing);
 		height: auto;
+		color:var(--text-default);
+		font-size:12px;
+		text-transform:none;
 	}
 	.scroller-2FKFPG {
 		background: var(--background);
@@ -35,7 +38,6 @@
 			display: none;
 		}
 	}
-
 	// Dm
 	.channel-2QD9_O {
 		margin: 0;
@@ -104,4 +106,13 @@
 			var(--background-modifier-active) 50%
 		);
   }
+}
+
+.theme-light #app-mount .privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 {
+	color:#fff;
+	.name-uJV0GL,
+	.activityText-OW8WYb,
+	.subtext-1RtU34 {
+		color:#fff !important;
+	}
 }
