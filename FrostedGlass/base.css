@@ -62,8 +62,8 @@
   --deprecated-card-bg: rgba(0, 0, 0, 0.3);
   --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
   --deprecated-store-bg: #36393f;
-  --deprecated-quickswitcher-input-background: #72767d;
-  --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+  --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+  --deprecated-quickswitcher-input-placeholder: rgba(255,255,255,0.5);
   --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
@@ -183,7 +183,8 @@
 #app-mount .root-SR8cQa,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
 #app-mount .userPopout-3XzG_A,
-#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb {
+#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
+#app-mount .quickswitcher-3JagVE {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -201,7 +202,8 @@
 #app-mount .root-SR8cQa:before,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
 #app-mount .userPopout-3XzG_A:before,
-#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before {
+#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
+#app-mount .quickswitcher-3JagVE:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
@@ -863,6 +865,25 @@
 #app-mount .root-1gCeng .input-UJ9Tr3::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
+#app-mount .quickswitcher-3JagVE {
+  box-shadow: none;
+  padding: 20px;
+}
+#app-mount .quickswitcher-3JagVE .scrollerOuter-3FLELE {
+  margin-top: 10px;
+  margin-right: 0;
+  border-radius: 3px;
+}
+#app-mount .quickswitcher-3JagVE .scroller-zPkAnE {
+  padding: 10px 5px 10px 10px;
+  box-sizing: border-box;
+}
+#app-mount .quickswitcher-3JagVE .scroller-zPkAnE>div[style*="width: 100%;"] {
+  display: none;
+}
+#app-mount .quickswitcher-3JagVE .protip-1b9XPC {
+  display: none;
+}
 #app-mount .modal-3c3bKg {
   transform: scale(1) translateZ(0px) !important;
   animation: fadeInTop 0.3s ease forwards !important;
@@ -1248,6 +1269,18 @@ html.platform-osx .wrapper-1Rf91z {
 }
 html.platform-osx .scroller-2TZvBN {
   padding-top: 15px;
+}
+#app-mount .xenoLib-notifications {
+  padding: calc(var(--window-padding) * 2 + 48px) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2);
+  box-sizing: border-box;
+}
+#app-mount .xenoLib-notification:not(:only-child) {
+  margin-bottom: 15px;
+}
+#app-mount .xenoLib-notification-content-wrapper {
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 10;
 }
 @keyframes fadeIn {
   from {

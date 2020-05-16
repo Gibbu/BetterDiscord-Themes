@@ -23,7 +23,6 @@
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 
 :root {
-
   /* Background image variables */
   --background-image: url('https://i.imgur.com/kYW2H5C.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -82,4 +81,5 @@
 @import 'bd/import';
 @import 'os/import';
 
+@import 'plugins';
 @import 'keyframes';
