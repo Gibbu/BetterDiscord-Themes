@@ -63,7 +63,7 @@
   --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-  --deprecated-quickswitcher-input-placeholder: rgba(255,255,255,0.5);
+  --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
   --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
@@ -179,7 +179,7 @@
 #app-mount .emojiPicker-3PwZFl,
 #app-mount .messagesPopoutWrap-1MQ1bW,
 #app-mount .modal-yWgWj-:not(.slide-2pHaq5),
-#app-mount .root-1gCeng,
+#app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 #app-mount .root-SR8cQa,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
 #app-mount .userPopout-3XzG_A,
@@ -198,7 +198,7 @@
 #app-mount .emojiPicker-3PwZFl:before,
 #app-mount .messagesPopoutWrap-1MQ1bW:before,
 #app-mount .modal-yWgWj-:not(.slide-2pHaq5):before,
-#app-mount .root-1gCeng:before,
+#app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y):before,
 #app-mount .root-SR8cQa:before,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
 #app-mount .userPopout-3XzG_A:before,
@@ -581,6 +581,24 @@
 }
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
   border-top: 1px solid rgb(var(--discord-red));
+}
+#app-mount .wrapper-2qzCYF.minimum-28Z35l {
+  background: var(--background-secondary);
+}
+#app-mount .centerButton-3CaNcJ {
+  background: var(--white);
+}
+#app-mount .centerButton-3CaNcJ:hover {
+  background: var(--white-double);
+}
+#app-mount .controlButton-2MhVEL.leaveButton-2YnTyt {
+  background: rgba(var(--discord-red), 0.5);
+}
+#app-mount .controlButton-2MhVEL.leaveButton-2YnTyt:hover {
+  background: rgb(var(--discord-red));
+}
+#app-mount .quickSelect-3BxO0K {
+  margin-top: 10px;
 }
 #app-mount .members-1998pB {
   background-color: rgba(0, 0, 0, var(--right-brightness));
