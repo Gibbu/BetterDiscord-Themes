@@ -12,7 +12,7 @@
 	border-radius: 10px !important;
 	border: none !important;
 	background-clip: content-box !important;
-	background-color: var(--scrollbar-colour) !important;
+	background: var(--scrollbar-colour) !important;
 }
 ::-webkit-scrollbar-corner {
 	visibility: hidden !important;
