@@ -77,7 +77,7 @@
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
 }
-#app-mount .app-1q1i1E {
+#app-mount .layers-3iHuyZ {
   backdrop-filter: blur(var(--background-image-blur));
   box-shadow: inset 0 0 0 100vmax var(--tint);
   margin: var(--window-padding);
@@ -365,6 +365,34 @@
 }
 #app-mount .title-3qD0b- .searchBar-3dMhjb {
   background: var(--background-secondary);
+}
+#app-mount .notice-2FJMB4 {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  box-shadow: none;
+}
+#app-mount .notice-2FJMB4 .button-1MICoQ {
+  top: 0;
+  background: var(--white);
+  border-color: transparent;
+  color: #fff;
+}
+#app-mount .notice-2FJMB4 .button-1MICoQ:hover {
+  background: var(--white-double);
+}
+#app-mount .notice-2FJMB4 .button-1MICoQ:active {
+  background: var(--white-triple);
+}
+#app-mount .dismiss-SCAH9H {
+  right: unset;
+  left: 0;
+  height: 48px;
+}
+#app-mount .noticeStreamerMode-2TSQpg {
+  background: rgba(var(--discord-twitch), 0.6);
 }
 #app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
   background-color: transparent;
