@@ -21,7 +21,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.1";
+  --version: "Frosted Glass 2.0.2";
 }
 .theme-dark {
   --header-primary: #fff;
@@ -141,7 +141,7 @@
   border-radius: 10px !important;
   border: none !important;
   background-clip: content-box !important;
-  background-color: var(--scrollbar-colour) !important;
+  background: var(--scrollbar-colour) !important;
 }
 ::-webkit-scrollbar-corner {
   visibility: hidden !important;
@@ -184,7 +184,8 @@
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
 #app-mount .userPopout-3XzG_A,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
-#app-mount .quickswitcher-3JagVE {
+#app-mount .quickswitcher-3JagVE,
+#app-mount .root-1gCeng.wrapper-2ZbzR9 {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -203,7 +204,8 @@
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
 #app-mount .userPopout-3XzG_A:before,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
-#app-mount .quickswitcher-3JagVE:before {
+#app-mount .quickswitcher-3JagVE:before,
+#app-mount .root-1gCeng.wrapper-2ZbzR9:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
@@ -881,55 +883,6 @@
 #app-mount .messagesPopoutWrap-1MQ1bW {
   box-shadow: none;
 }
-#app-mount .root-1gCeng {
-  box-shadow: none;
-  background: transparent;
-}
-#app-mount .root-1gCeng .action-1lSjCi {
-  background: var(--white);
-}
-#app-mount .root-1gCeng .colorMuted-HdFt4q,
-#app-mount .root-1gCeng .colorStandard-2KCXvj,
-#app-mount .root-1gCeng .description-Bw8krY,
-#app-mount .root-1gCeng .description-QF3836,
-#app-mount .root-1gCeng .header-3ZP1MY,
-#app-mount .root-1gCeng .helpText-h3r3wC {
-  color: #fff;
-}
-#app-mount .root-1gCeng .footer-3rDWdC {
-  background: rgba(0, 0, 0, 0.2) !important;
-}
-#app-mount .root-1gCeng .input-1mgnkM,
-#app-mount .root-1gCeng .input-UJ9Tr3 {
-  background: rgba(0, 0, 0, 0.2) !important;
-  color: #fff;
-  padding: 10px;
-  box-sizing: border-box;
-  border-radius: 3px;
-}
-#app-mount .root-1gCeng .input-1mgnkM::placeholder,
-#app-mount .root-1gCeng .input-UJ9Tr3::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-#app-mount .quickswitcher-3JagVE {
-  box-shadow: none;
-  padding: 20px;
-}
-#app-mount .quickswitcher-3JagVE .scrollerOuter-3FLELE {
-  margin-top: 10px;
-  margin-right: 0;
-  border-radius: 3px;
-}
-#app-mount .quickswitcher-3JagVE .scroller-zPkAnE {
-  padding: 10px 5px 10px 10px;
-  box-sizing: border-box;
-}
-#app-mount .quickswitcher-3JagVE .scroller-zPkAnE>div[style*="width: 100%;"] {
-  display: none;
-}
-#app-mount .quickswitcher-3JagVE .protip-1b9XPC {
-  display: none;
-}
 #app-mount .modal-3c3bKg {
   transform: scale(1) translateZ(0px) !important;
   animation: fadeInTop 0.3s ease forwards !important;
@@ -1019,6 +972,55 @@
   box-shadow: var(--tint);
   z-index: 1;
   backdrop-filter: blur(var(--popout-modal-blur));
+}
+#app-mount .root-1gCeng {
+  box-shadow: none;
+  background: transparent;
+}
+#app-mount .root-1gCeng .action-1lSjCi {
+  background: var(--white);
+}
+#app-mount .root-1gCeng .colorMuted-HdFt4q,
+#app-mount .root-1gCeng .colorStandard-2KCXvj,
+#app-mount .root-1gCeng .description-Bw8krY,
+#app-mount .root-1gCeng .description-QF3836,
+#app-mount .root-1gCeng .header-3ZP1MY,
+#app-mount .root-1gCeng .helpText-h3r3wC {
+  color: #fff;
+}
+#app-mount .root-1gCeng .footer-3rDWdC {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+#app-mount .root-1gCeng .input-1mgnkM,
+#app-mount .root-1gCeng .input-UJ9Tr3 {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#app-mount .root-1gCeng .input-1mgnkM::placeholder,
+#app-mount .root-1gCeng .input-UJ9Tr3::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#app-mount .quickswitcher-3JagVE {
+  box-shadow: none;
+  padding: 20px;
+}
+#app-mount .quickswitcher-3JagVE .scrollerOuter-3FLELE {
+  margin-top: 10px;
+  margin-right: 0;
+  border-radius: 3px;
+}
+#app-mount .quickswitcher-3JagVE .scroller-zPkAnE {
+  padding: 10px 5px 10px 10px;
+  box-sizing: border-box;
+}
+#app-mount .quickswitcher-3JagVE .scroller-zPkAnE>div[style*="width: 100%;"] {
+  display: none;
+}
+#app-mount .quickswitcher-3JagVE .protip-1b9XPC {
+  display: none;
 }
 #app-mount .image-2LqJex {
   filter: grayscale(1);
