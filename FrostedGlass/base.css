@@ -170,9 +170,7 @@
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   display: none;
 }
-#app-mount #guild-header-popout,
-#app-mount #message-actions,
-#app-mount #status-picker,
+#app-mount [role=menu],
 #app-mount .autocompleteInner-zh20B_,
 #app-mount .container-3ayLPN,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
@@ -190,9 +188,7 @@
   position: relative;
   border-radius: 3px;
 }
-#app-mount #guild-header-popout:before,
-#app-mount #message-actions:before,
-#app-mount #status-picker:before,
+#app-mount [role=menu]:before,
 #app-mount .autocompleteInner-zh20B_:before,
 #app-mount .container-3ayLPN:before,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG):before,
@@ -339,6 +335,9 @@
   border-color: rgb(var(--gradient-primary));
   background: rgb(var(--gradient-primary));
 }
+#app-mount .checkbox-3s5GYZ {
+  color: rgb(var(--gradient-primary));
+}
 #app-mount .checkbox-1ix_J3 {
   background: var(--white);
   border: none;
@@ -411,6 +410,23 @@
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
   background: var(--gradient);
   background-color: transparent;
+}
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+  background-size: var(--home-button-size, cover);
+  background-position: var(--home-button-position, center);
+  height: 100%;
+  width: 100%;
+  transition: 0.2s ease;
+}
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx.selected-bZ3Lue:before {
+  border-radius: 30%;
+}
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .homeIcon-tEMBK1 {
+  display: none;
 }
 #app-mount .guilds-1SWlCJ .selected-bZ3Lue .acronym-2mOFsV {
   background: var(--white-double);
@@ -721,23 +737,19 @@
 #app-mount .userPopout-3XzG_A .protip-YaFfgO {
   display: none;
 }
-#app-mount .contextMenu-HLZMGh {
+#app-mount [role=menu] {
   box-shadow: none;
-}
-#app-mount .contextMenu-HLZMGh .itemBase-tz5SeC {
-  color: var(--text-default);
-}
-#app-mount .contextMenu-HLZMGh .itemBase-tz5SeC:hover {
-  color: var(--text-normal);
-}
-#app-mount .contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE {
-  color: rgb(var(--discord-red));
-}
-#app-mount .contextMenu-HLZMGh .selected-BYpGTS {
-  color: var(--text-normal);
-}
-#app-mount #message-actions {
   animation: fadeIn 0.3s ease forwards;
+}
+#app-mount .focused-3afm-j .check-1JyqgN {
+  color: #fff;
+}
+#app-mount .button-F9qN4n {
+  background: var(--white);
+}
+#app-mount .button-F9qN4n.focused-3ZzkKr {
+  background: var(--white-double);
+  box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
 }
 #app-mount .drawerSizingWrapper-27qFHb {
   right: 0;
@@ -882,6 +894,28 @@
 }
 #app-mount .messagesPopoutWrap-1MQ1bW {
   box-shadow: none;
+}
+#app-mount .container-3iAQ-0 {
+  background: var(--background-secondary);
+  margin: 0 10px 10px;
+  border-radius: 3px;
+  padding: 0;
+  overflow: hidden;
+}
+#app-mount .channelHeader-3Gd2xq {
+  background: transparent;
+  padding: 15px 15px 0;
+  height: auto;
+}
+#app-mount .tertiary-aMXF0g {
+  background: var(--white);
+}
+#app-mount .tertiary-aMXF0g:hover {
+  background: var(--white-double);
+}
+#app-mount .messageContainer-gbhlwo {
+  padding: 15px 15px 15px 0;
+  box-sizing: border-box;
 }
 #app-mount .modal-3c3bKg {
   transform: scale(1) translateZ(0px) !important;

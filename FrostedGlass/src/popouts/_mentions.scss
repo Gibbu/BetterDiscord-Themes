@@ -1,0 +1,24 @@
+#app-mount {
+  .container-3iAQ-0 {
+    background: var(--background-secondary);
+    margin: 0 10px 10px;
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .channelHeader-3Gd2xq {
+    background: transparent;
+    padding: 15px 15px 0;
+    height: auto;
+  }
+  .tertiary-aMXF0g {
+    background: var(--white);
+    &:hover {
+      background: var(--white-double);
+    }
+  }
+  .messageContainer-gbhlwo {
+    padding: 15px 15px 15px 0;
+    box-sizing: border-box;
+  }
+}

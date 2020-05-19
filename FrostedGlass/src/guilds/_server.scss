@@ -4,6 +4,25 @@
     background: var(--gradient);
     background-color: transparent;
   }
+  .wrapper-1BJsBx {
+    &:before {
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      background: var(--home-button-image, url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'));
+      background-size: var(--home-button-size, cover);
+      background-position: var(--home-button-position, center);
+      height: 100%;
+      width: 100%;
+      transition: 0.2s ease;
+    }
+    &.selected-bZ3Lue:before {
+      border-radius: 30%;
+    }
+  }
+  .homeIcon-tEMBK1 {
+    display: none;
+  }
 }
 .selected-bZ3Lue .acronym-2mOFsV {
   background: var(--white-double);
