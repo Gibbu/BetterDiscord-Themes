@@ -1,13 +1,14 @@
 #app-mount .chatContent-a9vAAp .divider-JfaTT5 {
   height: auto;
   margin: 0;
-  padding: var(--spacing) 0;
+  padding: var(--spacing-half) 0;
   border-top: 1px solid var(--border-colour);
   background: var(--background);
   top: 0;
   .content-1o0f9g {
     background: transparent;
     color: var(--text-muted);
+    font-size: 10px;
   }
   & + .groupStart-23k01U {
     margin-top: 0;
@@ -18,6 +19,7 @@
       position: unset;
       background: transparent;
       color: rgba(var(--discord-red), 1);
+      padding: 0;
       svg {
         display: none;
       }
