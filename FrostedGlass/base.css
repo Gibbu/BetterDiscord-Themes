@@ -84,10 +84,12 @@
   transform: translate(-50%, -50%);
 }
 #app-mount .layers-3iHuyZ {
-  box-shadow: inset 0 0 0 100vmax var(--tint);
   margin: var(--window-padding);
   overflow: hidden;
   border-radius: var(--window-roundness);
+}
+#app-mount .layer-3QrUeG {
+  background: var(--tint);
 }
 #app-mount .base-3dtUhz:before {
   content: "";
