@@ -21,6 +21,9 @@
         display: none;
       }
     }
+    .labelContainer-1BLJti {
+      justify-content: flex-start;
+    }
     .item-1tOPte {
       margin: 0;
       padding: 0 var(--spacing);
@@ -40,7 +43,7 @@
       .iconContainer-2-XQPY {
         order:-1;
         margin:0;
-        margin-right:var(--spacing-half);
+        margin-right:var(--spacing);
       }
       &:hover {
         color: var(--text-focus);

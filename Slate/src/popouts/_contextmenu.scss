@@ -1,66 +1,95 @@
-#app-mount .contextMenu-HLZMGh {
-  background: var(--background);
-  box-shadow: none;
-  border: 1px solid var(--border-colour);
-  padding: 0;
-  border-radius: var(--border-radius);
-  max-width:280px;
-  box-shadow:var(--elevation-1);
-  & > .itemBase-tz5SeC:first-child {
+#app-mount {
+  .styleFlexible-wGDiIL,
+  .submenu-2-ysNh {
+    background: var(--background);
+    box-shadow: none;
+    border: 1px solid var(--border-colour);
+    [role="group"] {
+      &:first-child .item-1tOPte {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+      }
+      &:last-child .item-1tOPte {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+      }
+    }
+    .scroller-3BxosC {
+      padding: 0;
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+    }
+    .separator-2I32lJ {
+      margin: 0;
+      border-color: var(--border-colour);
+    }
+    .item-1tOPte {
+      font-size: var(--font-size);
+      color:var(--text-normal);
+      margin: 0;
+      padding: var(--spacing-half) var(--spacing);
+      box-sizing: border-box;
+      border-radius: 0;
+      height:32px;
+      cursor:default;
+      &.focused-3afm-j {
+        background: var(--background-modifier-hover);
+      }
+      &:active:not(.hideInteraction-1iHO1O) {
+        background: var(--background-modifier-active);
+      }
+      &.colorDanger-2qLCe1 {
+        color: rgb(var(--discord-red));
+      }
+      &.colorBrand-ROmMP1 {
+        color: rgb(var(--discord-blurple));
+      }
+    }
+    #user-context-user-volume {
+      height: auto;
+      padding: 0;
+    }
+  }
+
+  // Instant reactions
+  .wrapper-3_530D {
+    padding: 0;
+    border-bottom: 1px solid var(--border-colour);
+    overflow: hidden;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
-  & > .itemBase-tz5SeC:last-child {
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
-  }
-  .wrapper-35dUTv {
-    display: none;
-    & + .itemBase-tz5SeC {
-      border-radius: var(--border-radius) var(--border-radius) 0 0;
-    }
-  }
-  .itemGroup-1tL0uz {
-    border-color: var(--border-colour);
+  .button-F9qN4n {
+    padding: 0;
+    width: 47px;
     border-radius: 0;
-    &:first-child .itemBase-tz5SeC:first-child {
+    background: transparent;
+    cursor: default;
+    &:hover {
+      background: var(--background-modifier-hover);
+    }
+  }
+
+  // User settings (reeeee why didn't they change this)
+  #user-settings-cog div {
+    &:first-child {
       border-radius: var(--border-radius) var(--border-radius) 0 0;
     }
-    &:last-child .itemBase-tz5SeC:last-child {
+    &:last-child {
       border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
   }
-  .itemBase-tz5SeC:not(.itemSlider-FZeYw0),
-  .itemSubMenu-1vN_Yns {
-    font-size: var(--font-size);
-    color:var(--text-normal);
-    margin: 0;
-    padding: var(--spacing-half) var(--spacing);
-    box-sizing: border-box;
-    border-radius: 0;
-    height:32px;
-    cursor:default;
-    &.disabled-2xniQf {
-      color:var(--text-muted);
-    }
-    &.danger-2dXSTE {
-      color: rgb(var(--discord-red));
-    }
-    .caret-UIZBlm {
-      -webkit-mask: url($icon_context_submenu_arrow) center/16px no-repeat;
-      transform:none;
-      background: var(--text-default);
-      path {
-        display:none;
+
+  // Sub menus
+  .submenuContainer-2gbm7M {
+    .scroller-3BxosC .item-1tOPte {
+      &:first-child {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+      }
+      &:last-child {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
       }
     }
-  }
-  .itemSlider-FZeYw0 {
-    margin: 0;
-    .label-JWQiNe {
-      font-size: var(--font-size);
+    .submenuPaddingContainer-fiOCHc {
+      margin-left: -4px;
     }
   }
-}
-
-#app-mount .layer-v9HyYc:not(.disabledPointerEvents-1ptgTB) + .layer-v9HyYc:not(.disabledPointerEvents-1ptgTB) {
-  margin-left: -8px;
 }

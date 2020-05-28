@@ -9,13 +9,13 @@
   // Current Channel
   .children-19S4PO {
     flex: none;
-    height: var(--toolbar-height);
+    height: calc(var(--toolbar-height) - 1px);
     min-width: 230px;
     padding: var(--spacing);
     border-right: 1px solid var(--topbar-border);
     position:relative;
     overflow:visible;
-    .input-2A_zIr, 
+    .input-2A_zIr,
     .input-cIJ7To {
       background:var(--topbar-background);
       border:1px solid var(--topbar-border) !important;
@@ -136,7 +136,7 @@
 
   // Icons
   .toolbar-1t6TWx {
-    height: var(--toolbar-height);
+    height: calc(var(--toolbar-height) - 1px);
     padding: 0;
     border-right: 1px solid var(--topbar-border);
     background: var(--topbar-background);
