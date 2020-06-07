@@ -1,0 +1,16 @@
+.container-1D34oG, .applicationStore-1pNvnv {
+  .scroller-2FKFPG {
+    margin-bottom: 49px;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 49px;
+    border-top: 1px solid var(--border-colour);
+    background: var(--background-alt);
+    width: 100%;
+    z-index: 1;
+  }
+}

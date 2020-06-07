@@ -8,6 +8,11 @@
     width: 40px;
     text-align: center;
   }
+  .timestamp-3ZCmNB {
+    color: var(--text-muted);
+    font-size: var(--font-size-xsm);
+    margin-left: var(--spacing-half);
+  }
 
   .cozy-3raOZG {
     margin: 0;
@@ -99,7 +104,7 @@
     padding-top: var(--spacing);
     padding-bottom: var(--spacing);
     min-height: auto;
-    h2, .username-1A8OIy, .timestamp-3ZCmNB {
+    h2, .username-1A8OIy {
       line-height: normal;
     }
   }

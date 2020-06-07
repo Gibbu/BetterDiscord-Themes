@@ -206,7 +206,7 @@
     height: var(--toolbar-height);
     border-left: 1px solid var(--topbar-border);
     margin-left: var(--spacing);
-    div {
+    .item-3HknzM {
       border-radius: 0;
       margin: 0;
       display: flex;
@@ -214,6 +214,7 @@
       background: transparent !important;
       color: var(--text-muted) !important;
       padding: 0 var(--spacing);
+      height: calc(var(--toolbar-height) - 1px);
       &:hover {
         background: var(--topbar-background-hover) !important;
         color: var(--toolbar-text-default) !important;
