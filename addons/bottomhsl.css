@@ -4,7 +4,7 @@ body #app-mount .base-3dtUhz {
 }
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   top: unset !important;
-  left: 100%;
+  left: 100vw;
   bottom: 0 !important;
   transform-origin: bottom left;
 }
@@ -12,7 +12,7 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)+.base-3dtUhz {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
@@ -33,7 +33,6 @@ body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
   top: unset !important;
   bottom: -10px !important;
 }
-
 html.platform-osx #app-mount .base-3dtUhz {
   top: 32px !important;
 }

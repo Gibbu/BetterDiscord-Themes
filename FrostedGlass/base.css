@@ -21,7 +21,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.2";
+  --version: "Frosted Glass 2.0.3";
 }
 .theme-dark {
   --header-primary: #fff;
@@ -182,6 +182,7 @@
   background: var(--background-image);
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
+  background-repeat: var(--background-image-repeat, no-repeat);
   height: calc(100vh + (var(--background-image-blur) * 2));
   width: calc(100vw + (var(--background-image-blur) * 2));
   top: 50%;
@@ -228,7 +229,8 @@
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
   background-size: var(--popout-modal-size, cover);
-  background-attachment: fixed;
+  background-attachment: var(--popout-modal-attachment, fixed);
+  background-repeat: var(--popout-modal-repeat, no-repeat);
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
   height: calc(100% + var(--popout-modal-blur) * 5);
   width: calc(100% + var(--popout-modal-blur) * 5);
@@ -939,6 +941,10 @@
   padding: 15px 15px 15px 0;
   box-sizing: border-box;
 }
+#app-mount .layer-2KE1M9,
+#app-mount .backdropWithLayer-3_uhz4 {
+  z-index: 1003;
+}
 #app-mount .modal-3c3bKg {
   transform: scale(1) translateZ(0px) !important;
   animation: fadeInTop 0.3s ease forwards !important;
@@ -1314,7 +1320,7 @@
   height: calc(100% + 41px);
 }
 #app-mount.bd-detached-editor .winButton-iRh8-Z {
-  right: calc(30% + 8px) !important;
+  right: calc(30% + 20px) !important;
 }
 #app-mount #bd-customcss-attach-controls {
   height: auto;
