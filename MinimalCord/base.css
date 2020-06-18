@@ -266,7 +266,7 @@
   bottom: 0;
 }
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:before {
-  content: "MinimalCord v1.0.2 by Gibbu";
+  content: "MinimalCord v1.0.3 by Gibbu";
   display: block;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
@@ -854,11 +854,11 @@
 #app-mount .userPopout-3XzG_A .activity-11LB_k .content-3JfFJh {
   color: var(--text-2);
 }
-#app-mount .userPopout-3XzG_A .bodyInner-245q0L {
+#app-mount .userPopout-3XzG_A .body-3iLsc4 {
   background: var(--user-popout-body);
   padding: 10px;
 }
-#app-mount .userPopout-3XzG_A .bodyInner-245q0L::-webkit-scrollbar {
+#app-mount .userPopout-3XzG_A .body-3iLsc4::-webkit-scrollbar {
   display: none;
 }
 #app-mount .userPopout-3XzG_A .addButton-pcyyf6 {
@@ -927,16 +927,12 @@
 .theme-light .userPopout-3XzG_A .headerSpotify-zpWxgT [class*=BadgeHype] {
   filter: invert(1);
 }
-#app-mount .contextMenu-HLZMGh {
+#app-mount .styleFlexible-wGDiIL,
+#app-mount .submenu-2-ysNh {
   background: var(--dropdown);
-  box-shadow: var(--box-shadow);
 }
-#app-mount .contextMenu-HLZMGh .itemBase-tz5SeC.selected-BYpGTS {
-  background: transparent;
-}
-#app-mount .contextMenu-HLZMGh .itemBase-tz5SeC:hover {
-  background: var(--dropdown-item-hover);
-  color: var(--text-1);
+#app-mount .barFill-23-gu- {
+  background: rgb(var(--accent));
 }
 #app-mount .autocomplete-1vrmpx {
   background: var(--dropdown);
