@@ -117,7 +117,7 @@
   font-weight: bold;
 }
 #app-mount .layer-v9HyYc {
-  z-index: 1;
+  z-index: 99999;
 }
 ::selection {
   background: rgb(var(--gradient-primary));
@@ -207,7 +207,8 @@
 #app-mount .userPopout-3XzG_A,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
 #app-mount .quickswitcher-3JagVE,
-#app-mount .root-1gCeng.wrapper-2ZbzR9 {
+#app-mount .root-1gCeng.wrapper-2ZbzR9,
+#app-mount .modalRoot-1Kx4Hb {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -226,7 +227,8 @@
 #app-mount .userPopout-3XzG_A:before,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
 #app-mount .quickswitcher-3JagVE:before,
-#app-mount .root-1gCeng.wrapper-2ZbzR9:before {
+#app-mount .root-1gCeng.wrapper-2ZbzR9:before,
+#app-mount .modalRoot-1Kx4Hb:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
@@ -372,7 +374,7 @@
   background: var(--gradient) !important;
   border: none !important;
 }
-#app-mount [class*=css][class*=control] {
+#app-mount [class*=css][class*=control], #app-mount .select-1Pkeg4 {
   background: var(--background-secondary);
   border-color: transparent;
 }
@@ -493,7 +495,7 @@
   background: transparent;
 }
 #app-mount .containerDefault-1ZnADq .modeUnread-1zpFdA .content-3at_AU {
-  background: var(--white-half);
+  background: var(--white);
 }
 #app-mount .containerDefault-1ZnADq .wrapper-1ucjTd:hover .content-3at_AU {
   background: var(--background-modifier-hover);
@@ -973,6 +975,10 @@
   box-shadow: none;
   background: var(--background-secondary);
 }
+#app-mount .footer-2gL1pp {
+  background: var(--background-secondary);
+  box-shadow: none;
+}
 #app-mount .root-SR8cQa {
   background: transparent;
 }
@@ -1096,6 +1102,17 @@
 #app-mount .quickswitcher-3JagVE .protip-1b9XPC {
   display: none;
 }
+#app-mount .modalRoot-1Kx4Hb .header-1TKi98 {
+  padding-top: 150px;
+}
+#app-mount .modalRoot-1Kx4Hb .art-347BZj {
+  position: absolute;
+  transform: translate(-50%, 20px);
+  width: 150px;
+}
+#app-mount .modalRoot-1Kx4Hb .header-3C6qT5 {
+  padding-top: 0;
+}
 #app-mount .image-2LqJex {
   filter: grayscale(1);
   opacity: 0.5;
@@ -1164,6 +1181,9 @@
 }
 #app-mount .perk-2WeBWW {
   background-color: var(--background-secondary);
+}
+#app-mount .applicationStore-1pNvnv {
+  background: rgba(0, 0, 0, var(--middle-brightness));
 }
 #app-mount [aria-label*=SETTINGS] .sidebarRegionScroller-3MXcoP {
   background-color: rgba(0, 0, 0, var(--left-brightness));
