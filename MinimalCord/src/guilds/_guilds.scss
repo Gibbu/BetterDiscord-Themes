@@ -1,6 +1,9 @@
 #app-mount .wrapper-1Rf91z {
   .scroller-2TZvBN {
     background: var(--background-2);
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   .expandedFolderBackground-2sPsd-, .folder-21wGz3 {
     background-color: var(--server-folders);
