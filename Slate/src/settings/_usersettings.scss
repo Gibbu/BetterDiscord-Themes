@@ -1,12 +1,12 @@
 // My Account
 .userSettingsAccount-2eMFVR {
   h2 {
-    font-size: 0;
+    font-size: 0 !important;
     display: flex;
     align-items: center;
     margin-bottom: var(--spacing-double);
     &:after {
-      content: "Discordapp.com";
+      content: "Discord.com";
       font-size: var(--font-size-xl);
     }
   }

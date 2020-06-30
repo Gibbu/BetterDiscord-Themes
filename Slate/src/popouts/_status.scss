@@ -8,9 +8,10 @@
   box-sizing:border-box;
   max-width:200px;
   position:relative;
+  top: 1px;
   .scroller-3BxosC {
     padding:0;
-    overflow:visible;
+    overflow:visible !important;
     max-height:unset;
     &:after {
       content:'';

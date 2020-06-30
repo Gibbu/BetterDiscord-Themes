@@ -8,6 +8,9 @@
 h1, h2, h3, h4, h5, h6, p {
   user-select:text;
 }
+html {
+  line-height: 1.5;
+}
 #app-mount {
   background: var(--topbar-background);
   .base-3dtUhz {
@@ -52,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
   //App-wide Spacing
-  .horizontal-1ae9ci>.flex-1xMQg5, 
+  .horizontal-1ae9ci>.flex-1xMQg5,
   .horizontal-1ae9ci>.flexChild-faoVW3 {
     margin:0 var(--spacing);
   }

@@ -2,6 +2,9 @@
   width: var(--sidebar-width);
   border-left: 1px solid var(--border-colour);
   background: var(--background);
+  & > div {
+    background: transparent;
+  }
   &::-webkit-scrollbar {
     display: none;
   }
