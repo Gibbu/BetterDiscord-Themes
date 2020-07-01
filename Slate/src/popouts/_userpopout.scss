@@ -19,6 +19,9 @@
       width: var(--avatar-size-xlg) !important;
       height: var(--avatar-size-xlg) !important;
     }
+    .discriminator {
+      font-size: var(--font-size-sm);
+    }
 
     // Roles
     .rolesList-22qj2L {
@@ -64,6 +67,9 @@
       .fill {
         fill: var(--text-normal);
       }
+    }
+    .nameTag-m8r81H {
+      line-height: inherit;
     }
 
     // Rich Presence text
@@ -115,13 +121,14 @@
     justify-content: flex-start;
     padding: var(--spacing);
   }
-  .headerNameWrapper-3res2c {
-    margin-bottom: var(--spacing-third);
-  }
   .headerTag-2pZJzA {
     font-weight: 500;
     color: var(--text-muted);
-    font-size: 13px;
+    font-size: var(--font-size-sm);
+    &.headerTagNoNickname-ENx6no {
+      font-size: var(--font-size-lg);
+      justify-content: flex-start;
+    }
   }
   .headerNormal-T_seeN,
   .headerPlaying-j0WQBV,
@@ -147,15 +154,6 @@
   }
   .headerTagUsernameNoNickname-2_H881 {
     color: var(--text-focus);
-  }
-  .headerTag-2pZJzA {
-    display: flex;
-    align-items: center;
-    font-size: var(--font-size-sm);
-    &.headerTagNoNickname-ENx6no {
-      font-size: var(--font-size-lg);
-      justify-content: flex-start;
-    }
   }
   .activity-11LB_k {
     background: transparent;

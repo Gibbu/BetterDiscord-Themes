@@ -1,0 +1,47 @@
+#app-mount {
+  .css-15ejc46-control,
+  .css-2yldzf-control,
+  .css-1yegjoj-control,
+  .css-oc2jo8-control,
+  .css-13kbzi0-control,
+  .css-oce0qz-control {
+    border: 1px solid var(--border-colour);
+    border-radius: var(--border-radius);
+    background: var(--background-dark);
+    font-size: var(--font-size);
+    height: var(--input-height);
+    padding: 0;
+    min-height: auto;
+  }
+  .css-1hwfws3 {
+    padding: 0 var(--spacing-half);
+    margin-top: -5px;
+  }
+  .css-1wy0on6 {
+    height: var(--input-height);
+  }
+  .css-12qlrak-indicatorContainer,
+  .css-1flfamv-indicatorContainer {
+    padding-right: var(--spacing-half);
+    opacity: 1;
+    svg {
+      width: 16px;
+      height: 16px;
+      -webkit-mask: url($icon_chevron-down) center/12px no-repeat;
+      background: #fff;
+      path {
+        display: none;
+      }
+    }
+  }
+  .css-13kbzi0-control,
+  .css-oce0qz-control {
+    opacity: .5;
+  }
+  .title-1B76a1 {
+    font-size: var(--font-size);
+  }
+  .subtitle-2yP_Eh {
+    font-size: var(--font-size-sm);
+  }
+}

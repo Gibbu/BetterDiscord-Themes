@@ -1,0 +1,28 @@
+#app-mount {
+  .switch-3wwwcV,
+  .bd-switch {
+    height: 14px;
+    width: 30px;
+    border-radius: var(--border-radius);
+    overflow: visible;
+    &:after {
+      margin: 0;
+      border-radius: var(--border-radius);
+      width: 14px;
+      height: 14px;
+      box-shadow: none;
+      transform: translate3d(-1px,0,0);
+      box-shadow: var(--checkbox-box-shadow);
+    }
+    &.valueChecked-m-4IJZ, &.bd-switch-checked {
+      background: var(--accent-solid);
+      &:after {
+        transform: translate3d(16px,0,0);
+      }
+    }
+  }
+  .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    background-color: var(--accent-solid);
+    border-color: var(--accent-solid);
+  }
+}

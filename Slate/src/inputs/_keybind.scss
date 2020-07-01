@@ -1,0 +1,25 @@
+#app-mount {
+  .container-1nZlH6 {
+    border: 1px solid var(--border-colour);
+    border-radius: var(--border-radius);
+    background: var(--background-dark);
+    font-size: var(--font-size);
+    height: var(--input-height);
+    padding: 0;
+    min-height: auto;
+    .input-1UhAnY {
+      padding: 0 var(--spacing);
+    }
+    .button-34kXw5 {
+      background: transparent;
+    }
+    .text-2sI5Sd {
+      font-size: var(--font-size);
+      top: -5px;
+      position: relative;
+    }
+    &.hasValue-3pdcdm:not(.disabled-29eJ21):hover .button-34kXw5 {
+      width: 100px;
+    }
+  }
+}

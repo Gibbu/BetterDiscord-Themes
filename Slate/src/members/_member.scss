@@ -57,14 +57,14 @@
       background: var(--text-default);
     }
   }
-  &:hover .wrapper-3t9DeA:before {
+  &:hover foreignObject[mask*="mobile"]:before {
     background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
   }
-  &:active .wrapper-3t9DeA:before {
+  &:active foreignObject[mask*="mobile"]:before {
     background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
   }
   &.selected-aXhQR6 {
-    .wrapper-3t9DeA {
+    foreignObject[mask*="mobile"] {
       &:before {
         background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
       }

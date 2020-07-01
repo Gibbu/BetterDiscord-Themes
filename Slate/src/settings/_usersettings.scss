@@ -1,184 +1,207 @@
-// My Account
-.userSettingsAccount-2eMFVR {
-  h2 {
-    font-size: 0 !important;
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--spacing-double);
-    &:after {
-      content: "Discord.com";
-      font-size: var(--font-size-xl);
+#app-mount {
+  // My Account
+  .userSettingsAccount-2eMFVR {
+    h2 {
+      font-size: 0 !important;
+      display: flex;
+      align-items: center;
+      margin-bottom: var(--spacing-double);
+      &:after {
+        content: "Discord.com";
+        font-size: var(--font-size-xl);
+      }
+    }
+    .cardPrimary-1Hv-to {
+      background: transparent;
+      border: none;
+      padding: 0;
+      .flexChild-faoVW3:first-child {
+        margin-right: 0;
+        .wrapper-3t9DeA {
+          width: 34px !important;
+          height: 34px !important;
+          border-radius: var(--border-radius);
+          border: 1px solid var(--border-colour);
+        }
+      }
+      h5 {
+        display: none;
+      }
+      .marginBottom20-32qID7 {
+        margin-bottom: var(--spacing-half);
+      }
+      .viewBody-2Qz-jg {
+        pointer-events: none;
+        font-size: var(--font-size);
+        font-weight: var(--font-weight-semibold);
+        color: var(--text-default);
+        span {
+          opacity: 1 !important;
+        }
+      }
     }
   }
-  .cardPrimary-1Hv-to {
+  .userInfoViewing-16kqK3 .flexChild-faoVW3[style="flex: 0 1 auto;"] {
+    margin-left: 0;
+  }
+  .userInfoViewingButton-2-jbH9 {
+    top: 0;
+    right: 0;
+  }
+  .userSettingsSecurity-3IYeMF {
+    margin-top: var(--spacing-double);
+    .flexChild-faoVW3 {
+      margin-left: 0;
+    }
+    h5 {
+      margin-bottom: var(--spacing);
+    }
+    .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+      margin-left: var(--spacing);
+    }
+  }
+  .userInfoEditing-1CEzdT {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    margin-bottom: var(--spacing-double);
+    border-bottom: 1px solid var(--border-colour);
+    padding-bottom: var(--spacing-double);
+  }
+  .avatarUploaderInner-3UNxY3 {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-colour);
+  }
+  h5 {
+    font-size: var(--font-size-sm);
+  }
+  .avatarUploaderIndicator-2G-aIZ {
+    display: none;
+  }
+
+  // Authorized Apps
+  .authedApp-mj2Hmd {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid var(--border-colour);
+    border-radius: 0;
+    padding-bottom: var(--spacing-double);
+    margin-bottom: var(--spacing-double)
+  }
+  .accountList-33MS45 {
     background: transparent;
     border: none;
     padding: 0;
-    .flexChild-faoVW3:first-child {
-      margin-right: 0;
-      .wrapper-3t9DeA {
-        width: 34px !important;
-        height: 34px !important;
-        border-radius: var(--border-radius);
-        border: 1px solid var(--border-colour);
-      }
-    }
-    h5 {
-      display: none;
-    }
-    .marginBottom20-32qID7 {
-      margin-bottom: var(--spacing-half);
-    }
-    .viewBody-2Qz-jg {
-      pointer-events: none;
-      font-size: var(--font-size);
-      font-weight: var(--font-weight-semibold);
-      color: var(--text-default);
-      span {
-        opacity: 1 !important;
+  }
+
+
+  // Connections
+  .accountBtn-2Nozo3 {
+    width: 33px;
+    margin: 0 var(--spacing) 0 0;
+    button {
+      border-radius: 0;
+      width: 100%;
+      padding: 0;
+      height: 33px;
+      border-radius: var(--border-radius);
+      border: 1px solid var(--border-colour);
+      background-color: var(--settings-button);
+      background-size: 20px;
+      background-position: center;
+      &:hover {
+        background-color: var(--settings-button-hover);
       }
     }
   }
-}
-.userInfoViewing-16kqK3 .flexChild-faoVW3[style="flex: 0 1 auto;"] {
-  margin-left: 0;
-}
-.userInfoViewingButton-2-jbH9 {
-  top: 0;
-  right: 0;
-}
-.userSettingsSecurity-3IYeMF {
-  margin-top: var(--spacing-double);
-  .flexChild-faoVW3 {
-    margin-left: 0;
+  .connection-1fbD7X {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--border-colour) !important;
+    margin-bottom: 0;
+    .flexChild-faoVW3 {
+      margin-left: 0 !important;
+    }
+    &:last-child {
+      border-bottom: none !important;
+    }
   }
-  h5 {
+  .subEnabledTitle-2ElRo_ {
+    color: var(--text-default) !important;
+  }
+  .integration-3kMeY4 {
+    background: var(--background-dark);
+    border: 1px solid var(--border-colour);
+  }
+  .integrationName-2tSCoY {
+    color: var(--text-focus);
+    font-weight: var(--font-weight-semibold);
+  }
+  .channelLink-2TxEu3 {
+    color: var(--text-default);
+  }
+  .connectionHeader-2MDqhu {
+    padding: var(--spacing) 0;
+    margin-bottom: 0;
+    background: var(--background);
+    border: none;
+  }
+  .connectionDelete-2Odoln {
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:before, &:after {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    &:before {
+      height: 12px;
+    }
+    &:after {
+      width: 12px;
+    }
+  }
+  .connectionOptionsWrapper-3KIj1Z {
+    padding: 0;
+  }
+  .subEnabledTitle-2ElRo_ {
+    font-size: var(--font-size);
+  }
+  .connectionOptionSwitch-3KNn-E {
+    padding: 0;
     margin-bottom: var(--spacing);
   }
-  .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-    margin-left: var(--spacing);
+  .connectionAccountValue-3VdBGs,
+  .connectionAccountLabel-1DiK0A {
+    margin-left: var(--spacing) !important;
   }
-}
-.userInfoEditing-1CEzdT {
-  background: transparent;
-  border-radius: 0;
-  border: none;
-  padding: 0;
-  margin-bottom: var(--spacing-double);
-  border-bottom: 1px solid var(--border-colour);
-  padding-bottom: var(--spacing-double);
-}
-.avatarUploaderInner-3UNxY3 {
-  width: 64px;
-  height: 64px;
-  border-radius: var(--border-radius);
-  border: 1px solid var(--border-colour);
-}
-h5 {
-  font-size: var(--font-size-sm);
-}
-.avatarUploaderIndicator-2G-aIZ {
-  display: none;
-}
-
-// Authorized Apps
-.authedApp-mj2Hmd {
-  padding: 0;
-  border: none;
-  border-bottom: 1px solid var(--border-colour);
-  border-radius: 0;
-  padding-bottom: var(--spacing-double);
-  margin-bottom: var(--spacing-double)
-}
-.accountList-33MS45 {
-  background: transparent;
-  border: none;
-  padding: 0;
-}
-
-
-// Connections
-.accountBtn-2Nozo3 {
-  width: 33px;
-  margin: 0 var(--spacing) 0 0;
-  button {
-    border-radius: 0;
-    width: 100%;
-    padding: 0;
-    height: 33px;
-    border-radius: var(--border-radius);
-    border: 1px solid var(--border-colour);
-    background-color: var(--settings-button);
-    background-size: 20px;
-    background-position: center;
-    &:hover {
-      background-color: var(--settings-button-hover);
-    }
+  .divider-3573oO {
+    margin-left: 0;
+    margin-right: 0;
   }
-}
-.connection-1fbD7X {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  border-radius: 0 !important;
-  border-bottom: 1px solid var(--border-colour) !important;
-  margin-bottom: 0;
-  &:last-child {
-    border-bottom: none !important;
+  .integrationsWrapper-VkM_zO {
+    padding: var(--spacing) 0;
   }
-}
-.connectionHeader-2MDqhu {
-  padding: var(--spacing) 0;
-  margin-bottom: 0;
-  background: var(--background);
-  border: none;
-}
-.connectionDelete-2Odoln {
-  top: 0;
-  right: 0;
-  width: 32px;
-  height: 32px;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  &:before, &:after {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-  }
-  &:before {
-    height: 12px;
-  }
-  &:after {
-    width: 12px;
-  }
-}
-.connectionOptionsWrapper-3KIj1Z {
-  padding: 0;
-}
-.subEnabledTitle-2ElRo_ {
-  font-size: var(--font-size);
-}
-.connectionOptionSwitch-3KNn-E {
-  padding: 0;
-  margin-bottom: var(--spacing);
-}
-.connectionAccountValue-3VdBGs,
-.connectionAccountLabel-1DiK0A {
-  margin-left: var(--spacing);
-}
-.divider-3573oO {
-  margin-left: 0;
-  margin-right: 0;
-}
-.integrationsWrapper-VkM_zO {
-  padding: var(--spacing) 0;
-}
 
 
 
-// Keybinds
-.card-FDVird:before {
-  content: none;
+  // Keybinds
+  .card-FDVird:before {
+    content: none;
+  }
+}
+
+.theme-light .connectionIcon-2ElzVe {
+  filter: invert(1);
 }

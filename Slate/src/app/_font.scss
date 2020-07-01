@@ -1,6 +1,3 @@
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family:var(--font-family-sans-serif);
 }
-html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
-	backface-visibility: hidden;
-}

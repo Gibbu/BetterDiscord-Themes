@@ -48,7 +48,8 @@
   }
   .description-3_Ncsb {
     font-size: var(--font-size);
-    color: var(--text-default);
+    color: var(--text-default) !important;
+    margin-left: var(--spacing-double);
   }
   .marginTop40-i-78cZ {
     margin-top: var(--spacing-double);
@@ -69,20 +70,20 @@
       margin-bottom: 0;
     }
   }
-  }
+}
 
-  // Options
-  .divider-3573oO {
-    border: none;
-    background-color: var(--border-colour);
-  }
-  .title-31JmR4 {
-    font-size: var(--font-size-lg);
-  }
+// Options
+.divider-3573oO {
+  border: none;
+  background-color: var(--border-colour);
+}
+.title-31JmR4 {
+  font-size: var(--font-size-lg);
+}
 
 
-  @import 'usersettings';
-  @import 'serversettings';
+@import 'usersettings';
+@import 'serversettings';
 
 
 
@@ -91,14 +92,12 @@
 .theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i:after {
   content: "Light Theme BETA";
   position:absolute;
-  top:0;
-  left:0;
   font-size:12px;
   border-radius:var(--border-radius);
   background:rgb(var(--discord-yellow));
-  padding:var(--spacing-third);
+  padding:var(--spacing-third) var(--spacing-half);
   color:var(--white);
-  top:25px;
+  top:23px;
   left:84px;
   transform:translateY(-25%);
 }
