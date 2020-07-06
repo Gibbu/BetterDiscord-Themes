@@ -31,13 +31,13 @@
     }
     .svg-1X37T1 {
       height: var(--toolbar-height);
-      width: 32px;
+      width: var(--server-icon-size);
       left: 50%;
       transform: translateX(-50%);
     }
   }
   .homeIcon-tEMBK1 {
-    -webkit-mask: url($icon_home) center/var(--server-icon-size, 36px) no-repeat;
+    -webkit-mask: url($icon_home) center/75% no-repeat;
     background: var(--text-default);
     width: 100%;
     height: 100%;

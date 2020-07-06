@@ -4,12 +4,12 @@
     background: var(--topbar-background);
     &.selected-WP3kCM .header-2o-2hj {
       background: var(--background);
-      border-bottom:1px solid transparent;
+      border-bottom: 1px solid transparent;
       .name-3YKhmS {
-        color:var(--toolbar-text-default);
+        color: var(--toolbar-text-default);
       }
       .button-1w5pas {
-        border-top:5px solid var(--toolbar-text-default);
+        border-top: 5px solid var(--toolbar-text-default);
       }
     }
   }
@@ -21,13 +21,13 @@
     height: var(--toolbar-height);
     padding: var(--spacing);
     transition: none;
-    position:absolute;
-    left:calc(var(--container) * -1);
-    top:calc(var(--toolbar-height) * -1);
-    width:calc(var(--sidebar-width) + var(--container));
-    z-index:11;
+    position: absolute;
+    left: calc(var(--base-left) * -1);
+    top: calc(var(--toolbar-height) * -1);
+    width: calc(100% + var(--base-left));
+    z-index: 11;
     filter: none;
-    cursor:default;
+    cursor: default;
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);
     }
@@ -35,8 +35,8 @@
       font-size: var(--font-size);
       font-weight: var(--font-weight-semibold);
       color: var(--toolbar-text-default);
-      user-select:none;
-      line-height:normal;
+      user-select: none;
+      line-height: normal;
       &:before {
         display: block;
         content: "Current Server";
@@ -45,7 +45,6 @@
         color: var(--toolbar-text-muted);
       }
     }
-
     // Chevron
     .button-1w5pas {
       transform-origin: center;
@@ -69,21 +68,20 @@
     &:hover {
       background-color: var(--topbar-background-hover);
       .name-3YKhmS {
-        color:var(--toolbar-text-focus);
+        color: var(--toolbar-text-focus);
       }
       .button-1w5pas {
-        border-top:5px solid var(--toolbar-text-focus);
+        border-top: 5px solid var(--toolbar-text-focus);
       }
     }
   }
 }
-
 .theme-light #app-mount .sidebar-2K8pFh .container-2Rl01u.selected-WP3kCM .header-2o-2hj {
-  border-right:none;
+  border-right: none;
   h1 {
-    color:var(--text-focus);
+    color: var(--text-focus);
   }
   .button-1w5pas {
-    border-top:5px solid var(--text-focus);
+    border-top: 5px solid var(--text-focus);
   }
 }

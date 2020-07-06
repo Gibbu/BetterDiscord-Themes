@@ -116,7 +116,12 @@
   .headerTop-3C2Zn0 {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-areas: "avatar info" "status status";
+    grid-template-areas:
+      "avatar info"
+      "status status"
+      "last last"
+      "join join"
+      "date date";
     align-items: center;
     justify-content: flex-start;
     padding: var(--spacing);
@@ -144,6 +149,7 @@
     grid-area: info;
     flex: 1;
     margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
     & > div {
       width: 100%;
       text-align: left;
@@ -168,6 +174,24 @@
   .customStatusSoloEmoji-XOvnMc {
     height: var(--avatar-size);
     width: var(--avatar-size);
+  }
+  .creationDate,
+  .joinedAtDate,
+  .lastMessageDate {
+    margin-top: var(--spacing);
+    margin-bottom: 0;
+    & + div:not(.customStatus-1bh2V9) {
+      margin-top: 0
+    }
+  }
+  .creationDate {
+    grid-area: date;
+  }
+  .joinedAtDate {
+    grid-area: join;
+  }
+  .lastMessageDate {
+    grid-area: last;
   }
 
 

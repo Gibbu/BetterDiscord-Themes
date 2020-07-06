@@ -1,26 +1,24 @@
-#app-mount .form-2fGMdU {
-  margin: 0;
-  padding: var(--spacing);
-  padding-left:calc(var(--spacing) * 2 + var(--avatar-size));
-  border-top: 1px solid var(--border-colour);
-  display: flex;
-  align-items: center;
-  background: var(--background-light);
-  box-sizing:border-box;
-  min-height:var(--toolbar-height);
-  height:auto;
-  margin:0;
-  margin-bottom:-4px;
-  padding-bottom:calc(var(--spacing) + 1px);
-  padding-top:calc(var(--spacing) - 1px);
-  &:before {
-    content: none;
+#app-mount {
+  .form-2fGMdU {
+    margin: 0;
+    padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing) * 2 + var(--avatar-size));
+    border-top: 1px solid var(--border-colour);
+    display: flex;
+    align-items: center;
+    background: var(--background-light);
+    box-sizing: border-box;
+    min-height: var(--toolbar-height);
+    height: auto;
+    margin: 0 0 -4px;
+    padding-bottom: calc(var(--spacing) + 1px);
+    padding-top: calc(var(--spacing) - 1px);
+    &:before {
+      content: none;
+    }
+    [aria-controls] {
+      width: 100%;
+    }
   }
-
-  [aria-controls] {
-    width: 100%;
-  }
-
   // Attach files
   .attachWrapper-2TRKBi {
     border-right: 1px solid var(--border-colour);
@@ -29,7 +27,7 @@
       background: var(--text-muted);
       width: 44px;
       height: var(--input-height);
-      cursor:default;
+      cursor: default;
       div {
         display: none;
       }
@@ -38,7 +36,6 @@
       }
     }
   }
-
   // No attachment
   .sansAttachButton-td2irx {
     padding-left: 0;
@@ -46,90 +43,89 @@
   .channelTextArea-rNsIhG {
     margin-bottom: 0;
     background-color: transparent;
-    box-sizing:border-box;
-    margin-left:-3px;
+    box-sizing: border-box;
+    margin-left: -3px;
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);
-    padding:0 var(--spacing);
-    color:var(--text-muted);
-    font-weight:var(--font-weight-light);
-    top:2px;
-    width:98%;
+    padding: 0 var(--spacing);
+    color: var(--text-muted);
+    font-weight: var(--font-weight-light);
+    top: 2px;
+    width: 98%;
   }
   .scrollableContainer-2NUZem {
-    padding:3px;
-    width:100%;
-    border-radius:0;
-    background:transparent;
+    padding: 3px;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    max-height: unset;
+    overflow: visible;
     &::-webkit-scrollbar {
-      display:none;
+      display: none;
     }
   }
   .inner-MADQqc {
-    box-sizing:border-box;
+    box-sizing: border-box;
     background-color: var(--background);
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
-    transform:translateZ(0);
+    transform: translateZ(0);
   }
   .textAreaSlate-1ZzRVj {
     height: var(--input-height);
-    min-height:unset;
+    min-height: unset;
   }
   .slateTextArea-1Mkdgw {
     font-size: var(--font-size);
-    padding:0 var(--spacing);
-    color:var(--text-normal);
-    font-weight:var(--font-weight-light);
-    top:2px;
-    width:98%;
+    padding: 0 var(--spacing);
+    color: var(--text-normal);
+    font-weight: var(--font-weight-light);
+    top: 2px;
+    width: 98%;
     &:focus:after {
-      content:'';
-      top:-1px;
-      left:-1px;
-      position:fixed;
-      width:calc(100% + 2px);
-      height:calc(100% + 2px);
-      background:transparent;
-      pointer-events:none;
-      box-sizing:border-box;
-      border:1px solid var(--accent-solid);
-      box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
-      border-radius:var(--border-radius);
+      content: '';
+      top: -1px;
+      left: -1px;
+      position: fixed;
+      width: calc(100% + 2px);
+      height: calc(100% + 2px);
+      background: transparent;
+      pointer-events: none;
+      box-sizing: border-box;
+      border: 1px solid var(--accent-solid);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+      border-radius: var(--border-radius);
     }
   }
   .buttons-3JBrkn {
     height: var(--input-height);
-    margin:0;
-    padding:0 var(--spacing-half);
+    margin: 0;
+    padding: 0 var(--spacing-half);
     .buttonWrapper-1ZmCpA {
-      display:none;
+      display: none;
     }
     button {
       transform: scale(0.75);
       transform-origin: center right;
-      margin:0;
+      margin: 0;
     }
     .emojiButton-3uL3Aw {
-      cursor:default;
-      opacity:.75;
+      cursor: default;
+      opacity: .75;
     }
   }
-
   .button-318s1X {
-    padding:0;
+    padding: 0;
   }
-
   // DevilBro CharCounter
-  .charCounter-7fw40k.charcounter {
+  .charCounter-7fw40k {
     font-size: var(--font-size-sm);
     color: var(--text-muted);
     opacity: .4;
     bottom: -11px;
     right: 1px;
   }
-
   // Users typing
   .typing-2GQL18 {
     opacity: 1;

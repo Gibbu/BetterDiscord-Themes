@@ -2,17 +2,14 @@
   .sidebar-CFHs9e {
     padding: var(--spacing) 0;
   }
-
   // Header (User settings/App settings)
   .header-2RyJ0Y {
     display: none;
   }
-
   .separator-gCa7yv {
     margin: var(--spacing) 0;
     background-color: var(--border-colour);
   }
-
   // Tab button
   .item-PXvHYJ {
     margin: calc(var(--spacing) / 3) var(--spacing-double);
@@ -21,22 +18,25 @@
     padding: var(--spacing);
     border-radius: var(--border-radius);
     color: var(--text-default);
-    &.selected-3s45Ha, &[style*="background-color: rgb(114, 137, 218)"] {
+    &.selected-3s45Ha,
+    &[style*="background-color: rgb(114, 137, 218)"] {
       color: #fff;
       &:before {
         background-color: #fff;
       }
     }
   }
-
   // Socials
   .socialLinks-3jqNFy {
     padding: calc(var(--spacing) / 3) var(--spacing-double);
     margin-bottom: calc(var(--spacing) / 3);
   }
-
   // Info
   .info-1VyQPT {
     padding: calc(var(--spacing) / 3) var(--spacing-double);
+    .colorMuted-HdFt4q:first-of-type:before {
+      content: var(--slate-version);
+      display: block;
+    }
   }
 }

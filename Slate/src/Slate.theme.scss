@@ -1,7 +1,7 @@
 /**
  * @name Slate
  * @author Gibbu#1211 & Tropical#8908
- * @version 0.0.32
+ * @version 0.0.33
  * @invite TeRQEPb
  * @description Github Desktop meets Discord. Supports both Light and Dark themes.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
@@ -15,6 +15,7 @@
 
   /* Slate variables */
   --accent: 3, 102, 214; /* This affects: Mentions, select channel/dm, unread channel | 3, 102, 214 */
+  --link-colour: 39, 138, 250; /* Colour of website urls / links */
   --chat-font-size: 12px; /* Font size for chat | DEAFULT: 12px; */
 
   /* Adjustable Server Width variables  */

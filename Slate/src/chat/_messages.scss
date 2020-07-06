@@ -1,4 +1,9 @@
 #app-mount {
+  // Edit message
+  .contents-2mQqc9 .scrollableContainer-2NUZem.webkit-HjD9Er {
+    padding: 0;
+  }
+
   .message-2qnXI6 {
     background: transparent !important;
   }
@@ -55,19 +60,31 @@
     // Quick actions
     .operations-36ENbA {
       font-size: 0px;
-      margin-top: var(--spacing);
+      margin-top: var(--spacing-half);
       a {
+        --button-colour: var(--accent);
         font-size: var(--font-size);
-        background: var(--background);
-        border: 1px solid var(--border-colour);
-        border-radius: var(--border-radius);
-        padding: calc(var(--spacing) / 2);
-        margin-right: var(--spacing);
-        color: var(--accent-solid);
+        font-weight: var(--font-weight-light);
+        cursor: default;
+        min-height: 25px;
+        height: 25px;
+        line-height: normal;
+        transition: none;
+        padding: 0 var(--spacing);
+        border-radius: var(--button-border-radius);
+        display: inline-flex;
+        align-items: center;
+        border: none !important;
         text-decoration: none;
+        user-select: none;
+        margin-right: var(--spacing);
+        color: var(--white);
+        background-color: rgb(var(--button-colour));
         &:hover {
-          background: var(--accent-solid);
-          color: #fff;
+          box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1)
+        }
+        &:focus {
+          box-shadow: 0 0 0 2px rgba(var(--button-colour), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
         }
       }
     }

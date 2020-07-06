@@ -2582,3 +2582,15 @@ html.theme-light #app-mount:after {
   content: "SimplyDark v2.0.1 by Gibbu";
   display: block;
 }
+
+.scroller-2TZvBN,
+.members-1998pB,
+.members-1998pB > div,
+.scroller-1JbKMe,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e {
+    background: transparent;
+}
+.scroller-2TZvBN::-webkit-scrollbar {
+    display: none;
+}
