@@ -1,3 +1,257 @@
-#app-mount .emojiPicker-3m1S-j {
-
+#app-mount {
+  .emojiPicker-3PwZFl {
+    height: 442px;
+    grid-template-rows: 46px auto 48px;
+    grid-template-columns: 38px auto;
+  }
+  .contentWrapper-SvZHNd {
+    background: var(--background);
+    box-shadow: none;
+    border: 1px solid var(--border-colour);
+    grid-gap: 0;
+    padding-top: 0;
+    border-radius: var(--border-radius);
+    display: block;
+  }
+  // Top nav (Gif and Emote buttons)
+  .nav-7UD0KD {
+    padding: 0;
+    position: absolute;
+    z-index: 101;
+    top: var(--spacing);
+    left: var(--spacing);
+  }
+  .navItem-3Wp_oJ[aria-controls] {
+    width: auto;
+    & + div {
+      margin-left: var(--spacing);
+    }
+    button {
+      padding: 0;
+      height: var(--input-height);
+      width: var(--input-height);
+      transition: none;
+      .contents-18-Yxp {
+        font-size: 0;
+        height: 16px;
+        width: 16px;
+        opacity: .5;
+        background: var(--white);
+      }
+      &.navButtonActive-1MkytQ {
+        background: rgb(var(--accent));
+        .contents-18-Yxp {
+          opacity: 1;
+        }
+      }
+    }
+    &:first-child button .contents-18-Yxp {
+      -webkit-mask: url($icon_image) center/cover no-repeat;
+    }
+    &:last-child button .contents-18-Yxp {
+      -webkit-mask: url($icon_face) center/cover no-repeat;
+    }
+  }
+  // Header (Search)
+  .header-1TOWci,
+  .header-8ilj5e {
+    padding: var(--spacing) var(--spacing) var(--spacing) 80px;
+    box-shadow: none;
+    border-bottom: 1px solid var(--border-colour);
+    grid-template-columns: auto 20px;
+    grid-gap: var(--spacing);
+  }
+  .container-2XeR5Z,
+  .container-cMG81i {
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .inner-2P4tQO,
+  .inner-3ErfOT {
+    padding: 0;
+  }
+  .input-1Rv96N,
+  .input-3Xdcic {
+    box-sizing: border-box;
+    height: var(--input-height);
+    background-color: var(--background-dark);
+    border: 1px solid var(--border-colour);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+    padding: 0 var(--spacing) 0 calc(var(--spacing-triple) - 2px);
+    color: var(--text-normal);
+    font-weight: var(--font-weight-light);
+    margin: 0;
+    z-index: 1;
+    &:focus {
+      border: 1px solid var(--accent-solid);
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+    }
+  }
+  .iconLayout-1WxHy4,
+  .iconLayout-3OgqU3 {
+    position: absolute;
+    height: var(--input-height);
+    border-left: none;
+    background: transparent;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    left: var(--spacing-sm);
+    width: auto;
+  }
+  .iconContainer-2wXvy1,
+  .iconContainer-O4O2CN {
+    width: 16px;
+    height: 16px;
+  }
+  .diversitySelector-1v4_1A {
+    width: 20px;
+    height: 20px;
+  }
+  .diversityEmojiItemImage-2gPNoS {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+  }
+  .diversitySelectorPopout-3FiGaM {
+    background: var(--background-dark);
+    border: 1px solid var(--border-colour);
+    height: auto !important;
+    border-radius: var(--border-radius);
+  }
+  .diversityEmojiItem-L6_IXw {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+  }
+  // Server picker list (left side)
+  .categoryList-2Kzf65 {
+    border-right: 1px solid var(--border-colour);
+    background: var(--background-dark);
+    border-radius: 0;
+    width: 38px;
+  }
+  .categoryItem-1D0nxC {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 var(--spacing);
+    height: var(--item-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    border-radius: 0;
+    .mask-2hO5M8 {
+      width: 24px;
+      height: 24px;
+      foreignObject {
+        mask: none;
+      }
+    }
+    .guildIcon-3h-1IH {
+      border-radius: var(--border-radius);
+      width: 100%;
+      height: 100%;
+      background: var(--background-light);
+    }
+    &:hover {
+      background: var(--background-modifier-hover);
+    }
+  }
+  .categoryItemDefaultCategorySelected-_HCKoz,
+  .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background: rgb(var(--accent));
+    svg {
+      color: var(--white);
+    }
+  }
+  .guildCategorySeparator-_An-MP {
+    margin: var(--spacing) 0;
+    border-bottom-color: var(--border-colour);
+  }
+  // Emote list (right side)
+  .listItems-1uJgMC {
+    margin-left: -8px;
+    margin-top: -8px;
+    width: 100%;
+  }
+  .wrapper-1-Fsb8 {
+    background: var(--background);
+    padding: var(--spacing);
+  }
+  .categorySection-2sgp74 {
+    margin: var(--spacing) 0 var(--spacing-double);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .emojiListRow-m_GHp0 {
+    padding: 0 var(--spacing);
+  }
+  .listWrapper-3kgtQ0 .scroller-2FKFPG {
+    &::-webkit-scrollbar {
+      width: 4px;
+      display: none;
+      background: transparent !important;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: transparent;
+      border-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--channel-scrollbar);
+      border-radius: 0;
+      border: none;
+      &:active {
+        background-color: var(--background-modifier-active);
+      }
+    }
+    &:hover {
+      overflow: overlay;
+      &::-webkit-scrollbar {
+        display: block;
+      }
+    }
+  }
+  .emojiItem-14v6tW {
+    border-radius: var(--border-radius);
+    &.emojiItemSelected-1aLkfV {
+      background: var(--background-modifier-hover);
+    }
+  }
+  // Hovered emote info
+  .inspector-sdLnLS {
+    background: var(--background);
+    border-top: 1px solid var(--border-colour);
+    padding: var(--spacing);
+    height: 48px;
+    .guildIcon-39bqCb {
+      width: var(--avatar-size);
+      height: var(--avatar-size);
+      foreignObject {
+        mask: none;
+      }
+      img {
+        background: var(--background-light);
+        border-radius: var(--border-radius);
+      }
+    }
+    .emoji-AAbs8r {
+      width: var(--avatar-size);
+      height: var(--avatar-size);
+      border-radius: var(--border-radius);
+    }
+  }
+  .textWrapper-2vvXwj {
+    margin: 0 var(--spacing);
+  }
+  .emojiName-Ve4ZI4 {
+    font-size: var(--font-size);
+    line-height: inherit;
+    margin-bottom: var(--spacing-third);
+  }
+  .guildName-10c_vS {
+    font-size: var(--font-size-sm);
+    line-height: inherit;
+  }
 }

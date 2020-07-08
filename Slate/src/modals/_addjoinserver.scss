@@ -1,57 +1,38 @@
 #app-mount .root-1gCeng.wrapper-2ZbzR9 {
-  box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
-  background: var(--addjoin-background, var(--background));
-  .slideBody-2nMrnU {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  background: var(--addjoin-background);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--addjoin-border-colour);
+  box-shadow: var(--elevation-1);
   .header-3ZP1MY {
-    margin: 0 0 var(--spacing-double);
     color: var(--addjoin-text);
-    font-weight: var(--font-weight-normal);
+    font-weight: normal;
   }
   .action-1lSjCi {
-    border-radius: var(--border-radius);
-    border: 1px solid var(--addjoin-border-colour);
     background: var(--addjoin-background-dark);
-    padding: var(--spacing-double);
-    &:hover {
-      box-shadow: none;
-    }
+    border: 1px solid var(--addjoin-border-colour);
+    border-radius: var(--border-radius);
   }
-  .description-QF3836 {
+  .colorStandard-2KCXvj,
+  .description-QF3836,
+  .description-Bw8krY {
     color: var(--addjoin-text);
-    font-weight: var(--font-weight-light);
+    font-weight: normal;
   }
-  .colorStandard-2KCXvj {
-    color: var(--addjoin-text);
-    font-weight: var(--font-weight-light);
-    strong {
-      font-weight: var(--font-weight-normal);
-    }
-  }
-
   .modal-yWgWj- {
+    background: transparent;
+  }
+  .input-1mgnkM,
+  .input-cIJ7To {
+    background: var(--addjoin-background-dark);
+    border-color: var(--addjoin-border-colour);
+    color: var(--addjoin-text);
+    &:focus {
+      border-color: rgb(var(--accent));
+    }
+  }
+  .footer-2gL1pp {
     background: var(--addjoin-background);
-    .inner-ZyuQk0 {
-      padding: var(--spacing-double);
-    }
-    .input-1mgnkM,
-    .input-UJ9Tr3 {
-      background: var(--addjoin-background-dark);
-      border: 1px solid var(--addjoin-border-colour);
-      border-radius: var(--border-radius);
-      padding: var(--spacing);
-      color: var(--addjoin-text);
-      font-weight: var(--font-weight-light);
-    }
-    .footer-3rDWdC {
-      background: var(--addjoin-background);
-      border-top: 1px solid var(--addjoin-border-colour);
-    }
+    border-top: 1px solid var(--addjoin-border-colour);
   }
 }
 

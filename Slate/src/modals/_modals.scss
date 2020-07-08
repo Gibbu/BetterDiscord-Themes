@@ -27,12 +27,6 @@
     .divider-3573oO {
       border-top-color: var(--border-colour);
     }
-    .footer-2gL1pp {
-      background: var(--background);
-      box-shadow: none;
-      border-top: 1px solid var(--border-colour);
-      padding: var(--spacing-double);
-    }
     .h4-AQvcAz,
     .title-31JmR4 {
       font-size: var(--font-size-lg);
@@ -75,6 +69,12 @@
     .checkboxMute-14hTGS:before {
       content: none;
     }
+  }
+  .footer-2gL1pp {
+    background: var(--background);
+    box-shadow: none;
+    border-top: 1px solid var(--border-colour);
+    padding: var(--spacing-double);
   }
 }
 

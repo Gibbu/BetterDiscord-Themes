@@ -55,20 +55,29 @@
 		.avatar-3uk_u9 {
 			margin-right: var(--spacing);
 		}
-		foreignObject[mask*="mobile"] {
-			width: calc(100% + var(--sidebar-width) - (var(--spacing-triple) * 1.5));
-		}
 		.activityText-OW8WYb,
 		.subtext-1RtU34 {
 			font-size: var(--font-size-sm);
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
+		foreignObject[mask*="mobile"] {
+			width: calc(100% + var(--sidebar-width) - 14px);
+			&[width="32"] {
+				&:before {
+					width: 100px;
+					background: linear-gradient(90deg, transparent, var(--background) 40%);
+				}
+				&:after {
+					right: 30px;
+				}
+			}
+		}
 		&:hover foreignObject[mask*="mobile"]:before {
-	    background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
+	    background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 40%);
 	  }
 	  &:active foreignObject[mask*="mobile"]:before {
-	    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
+	    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 40%);
 	  }
 		&.selected-aXhQR6 {
 			color: var(--text-focus);
@@ -89,6 +98,9 @@
 				}
 			}
 		}
+	}
+	.closeButton-2GCmT5 {
+		z-index: 10;
 	}
 	.wrapper-3t9DeA {
 		width: 26px !important;

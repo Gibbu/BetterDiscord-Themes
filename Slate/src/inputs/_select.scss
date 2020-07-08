@@ -4,7 +4,8 @@
   .css-1yegjoj-control,
   .css-oc2jo8-control,
   .css-13kbzi0-control,
-  .css-oce0qz-control {
+  .css-oce0qz-control,
+  .sizeMedium-6vZ9JV.select-1Pkeg4 {
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
     background: var(--background-dark);
@@ -12,6 +13,9 @@
     height: var(--input-height);
     padding: 0;
     min-height: auto;
+  }
+  .selectLabel-2ltwlE {
+    padding: 0 var(--spacing);
   }
   .css-1hwfws3 {
     padding: 0 var(--spacing-half);

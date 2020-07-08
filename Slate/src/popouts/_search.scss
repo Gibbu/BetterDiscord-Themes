@@ -35,8 +35,8 @@
   .searchLearnMore-3SQUAj a {
     color: var(--text-default);
   }
-  .filter-3Y_im-,
-  .displayedNick-3xxvzU {
+  .displayedNick-3xxvzU,
+  .filter-3Y_im- {
     color: var(--text-focus);
     font-size: var(--font-size-lg);
   }
@@ -55,10 +55,10 @@
     }
     &.selected-rZcOL- {
       background: var(--accent-solid);
-      .filter-3Y_im-,
       .answer-1n6g43,
-      .displayedNick-3xxvzU,
       .displayUsername-Qekxml,
+      .displayedNick-3xxvzU,
+      .filter-3Y_im-,
       .nonText-3CRkO0 {
         color: #fff;
       }
@@ -83,7 +83,6 @@
     pointer-events: none;
   }
 }
-
 // Search results
 #app-mount .searchResultsWrap-2DKFzt {
   background-color: var(--background);
@@ -108,7 +107,8 @@
     padding: var(--spacing);
   }
   .searchResult-3pzFAB {
-    &:before, &:after {
+    &:after,
+    &:before {
       content: none;
     }
   }

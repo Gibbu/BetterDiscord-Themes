@@ -1,12 +1,10 @@
 #app-mount {
-
   // User popout scoped classes
   .userPopout-3XzG_A {
     box-shadow: none;
     border-radius: var(--border-radius);
     border: 1px solid var(--border-colour);
     background: var(--background);
-
     .state-Tt0LO3 {
       display: none;
     }
@@ -22,56 +20,9 @@
     .discriminator {
       font-size: var(--font-size-sm);
     }
-
-    // Roles
-    .rolesList-22qj2L {
-      display: block;
-      margin: 0;
-    }
-    .role-2irmRk {
-      margin: 0;
-      border-radius: 0;
-      border: none;
-      height: var(--item-height);
-      padding: 0 var(--spacing);
-      position: relative;
-      &:hover {
-        background: var(--background-modifier-hover);
-        .roleCircle-3xAZ1j:before {
-          opacity: 1;
-        }
-      }
-      &:active {
-        background: var(--background-modifier-active);
-      }
-    }
-    .roleCircle-3xAZ1j {
-      margin-right: var(--spacing);
-      border-radius: var(--border-radius);
-    }
-    .roleName-32vpEy {
-      position: relative;
-    }
-    .actionButton-VzECiy {
-      position: absolute;
-      top: var(--spacing);
-      right: var(--spacing);
-      padding: 0;
-      height: auto;
-    }
-    .roleRemoveIcon-2-TeGW {
-      position: absolute;
-      right: var(--spacing);
-      width: 16px;
-      height: 16px;
-      .fill {
-        fill: var(--text-normal);
-      }
-    }
     .nameTag-m8r81H {
       line-height: inherit;
     }
-
     // Rich Presence text
     .activityName-1IaRLn,
     .nameNormal-2lqVQK,
@@ -87,10 +38,49 @@
       color: var(--text-normal);
     }
   }
-
-
-
-
+  // Roles
+  .rolesList-22qj2L {
+    margin: 0;
+    padding: 0 var(--spacing);
+  }
+  .role-2irmRk,
+  .member-perm {
+    border: none;
+    position: relative;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    padding: var(--spacing-half);
+    height: auto;
+  }
+  .roleCircle-3xAZ1j,
+  .perm-circle {
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-half);
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      z-index: 0;
+      opacity: .2;
+      pointer-events: none;
+    }
+  }
+  .roleName-32vpEy,
+  .member-perm .name {
+    position: relative;
+    z-index: 1;
+    margin-right: 0;
+    color: var(--white);
+  }
+  .actionButton-VzECiy {
+    position: absolute;
+    top: var(--spacing-half);
+    right: var(--spacing-half);
+  }
   // Titles (Roles, Note ect...)
   .bodyTitle-Y0qMQz {
     color: var(--text-normal);
@@ -109,19 +99,13 @@
     z-index: 1;
     margin-bottom: var(--spacing);
   }
-
   .header-2BwW8b {
     border-bottom: 1px solid var(--border-colour);
   }
   .headerTop-3C2Zn0 {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-areas:
-      "avatar info"
-      "status status"
-      "last last"
-      "join join"
-      "date date";
+    grid-template-areas: "avatar info" "status status" "last last" "join join" "date date";
     align-items: center;
     justify-content: flex-start;
     padding: var(--spacing);
@@ -181,7 +165,7 @@
     margin-top: var(--spacing);
     margin-bottom: 0;
     & + div:not(.customStatus-1bh2V9) {
-      margin-top: 0
+      margin-top: 0;
     }
   }
   .creationDate {
@@ -193,9 +177,6 @@
   .lastMessageDate {
     grid-area: last;
   }
-
-
-
   .actionsStreamPreview-2JlX14,
   .actionsUserPopout-2MrzCa,
   .listeningActionsUserPopout-Ga2V_N {
@@ -233,19 +214,18 @@
   .customStatusText-3YJeRZ {
     font-size: var(--font-size);
   }
-
   // Streaming
   .headerStreaming-2FjmGz {
     margin-bottom: calc(var(--item-height) + 1px);
     .actionsUserPopout-2MrzCa button {
       --button-colour: rgba(var(--discord-purple), 1);
       background: rgba(var(--discord-purple), .7);
-      &:hover, &:active {
+      &:active,
+      &:hover {
         background: rgba(var(--discord-purple), 1);
       }
     }
   }
-
   // Spotify
   .headerSpotify-zpWxgT {
     margin-bottom: calc(var(--item-height) + 1px);
@@ -291,20 +271,16 @@
       margin: 0 5px;
     }
   }
-
-
-
   .body-3iLsc4 {
     flex: 1;
     background: transparent;
     padding: 0;
-    max-height: 250px;
     &::-webkit-scrollbar {
       display: none;
     }
   }
   .note-3HfJZ5 {
-    margin: 0 var(--spacing) 0 var(--spacing);
+    margin: 0 var(--spacing);
     textarea {
       box-sizing: border-box;
       background-color: var(--background-dark);
@@ -326,9 +302,6 @@
   div[style="position: absolute; pointer-events: none; min-height: 0px; min-width: 1px; flex: 0 0 auto; height: 10px;"] {
     display: none;
   }
-
-
-
   .footer-1fjuF6 {
     border: none;
     background: transparent;

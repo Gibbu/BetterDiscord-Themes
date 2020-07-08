@@ -97,7 +97,7 @@
     }
 
     & + .message-2qnXI6:not(.groupStart-23k01U) {
-      margin-top: calc(var(--spacing) / -1 - 5px);
+      margin-top: calc(var(--spacing) / -1);
     }
     &:last-child {
       padding-bottom: calc(var(--spacing) + 5px);
@@ -140,6 +140,7 @@
     font-size: var(--chat-font-size);
     margin-left: 0;
     padding-left: 0;
+    line-height: 1.5;
   }
 
 
@@ -147,7 +148,7 @@
     background: rgba(var(--accent), 0.1) !important;
     padding-bottom:0;
     & + .message-2qnXI6:not(.groupStart-23k01U) {
-      margin-top: calc(var(--spacing-half) / -1);
+      margin-top: var(--spacing-half);
     }
     &:before {
       background-color: var(--accent-solid);
