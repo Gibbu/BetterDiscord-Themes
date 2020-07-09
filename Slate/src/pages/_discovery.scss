@@ -13,18 +13,16 @@
   .mainHeader-1i17pL {
     display: none;
   }
-  .body-2lagau {
-    &:before {
-      content: "";
-      height: var(--toolbar-height);
-      background: var(--topbar-background);
-      width: 100%;
-      position: fixed;
-      top: 21px;
-      left: var(--base-left);
-      border-bottom: 1px solid var(--topbar-border);
-      z-index: 10;
-    }
+  .body-2lagau:before {
+    content: "";
+    height: var(--toolbar-height);
+    background: var(--topbar-background);
+    width: 100%;
+    position: fixed;
+    top: 21px;
+    left: var(--base-left);
+    border-bottom: 1px solid var(--topbar-border);
+    z-index: 10;
   }
   .searchHelpText-19imBp {
     display: none;
@@ -74,7 +72,6 @@
   .css-1wy0on6 {
     height: auto;
   }
-
   .container-RHl2Ju {
     border-radius: var(--border-radius);
     background: var(--background-dark);
@@ -112,7 +109,6 @@
   .iconMask-3b8GzQ {
     background: rgba(0,0,0,0.5);
   }
-
   .roundButton-2CW1Hh {
     border-radius: var(--border-radius);
     &:hover {

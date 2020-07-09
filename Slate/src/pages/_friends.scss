@@ -93,7 +93,7 @@
         border-color: var(--border-colour);
         border-radius: var(--border-radius);
         background-color: var(--background);
-        margin: var(--spacing) 0 0 0;
+        margin: var(--spacing) 0 0;
         padding: 0;
         height: 46px;
         overflow: hidden;
@@ -122,7 +122,6 @@
       }
     }
   }
-
   .nowPlayingColumn-2sl4cE {
     border-left: 1px solid var(--border-colour);
     background: var(--background);
@@ -140,7 +139,6 @@
     margin-top: 0;
     border-bottom: 1px solid var(--border-colour);
     background: transparent;
-
     .size16-1P40sf {
       font-size: var(--font-size);
       color: var(--text-focus);
@@ -149,7 +147,6 @@
       font-size: var(--font-size-sm);
       font-weight: var(--font-weight-semibold);
     }
-
     .headerFull-1dyyvV {
       grid-gap: var(--spacing);
     }
@@ -157,7 +154,6 @@
       width: var(--avatar-size) !important;
       height: var(--avatar-size) !important;
     }
-
     &:first-of-type {
       border-top: 1px solid var(--border-colour);
     }

@@ -1,20 +1,19 @@
 #app-mount .root-SR8cQa {
   position: relative;
   overflow: visible;
-
   // Header
   [class*="topSection"] {
     background: var(--background-dark);
-    border-radius:0 3px 0 0;
+    border-radius: 0 3px 0 0;
   }
   .header-QKLPzZ {
     padding: var(--spacing-double);
   }
-  .discriminator-xUhQkU,
-  .text-AOoUen,
   .activityHeader-1PExlk,
+  .additionalActionsIcon-1FoUlE,
+  .discriminator-xUhQkU,
   .listenAlongIcon-2vb1HG,
-  .additionalActionsIcon-1FoUlE {
+  .text-AOoUen {
     color: var(--text-default);
   }
   .nameTag-2IFDfL {
@@ -27,7 +26,6 @@
     font-size: var(--font-size-sm);
     margin-left: var(--spacing-third);
   }
-
   // Avatar
   .wrapper-3t9DeA foreignObject[mask*="mobile"] {
     overflow: visible;
@@ -40,7 +38,6 @@
       transform: translate(0);
     }
   }
-
   // Rich Presence
   .headerFill-adLl4x {
     background: transparent;
@@ -124,7 +121,6 @@
       font-weight: var(--font-weight-semibold);
     }
   }
-
   .bar-3urHkF {
     position: absolute;
     top: 0;
@@ -164,15 +160,12 @@
   .listeningActionsProfile-1fYwru {
     margin-top: 28px;
   }
-
-
   // Body
   .body-3ND3kc {
     background: var(--background);
     border-top: 1px solid var(--border-colour);
     border-radius: 0 0 3px 0;
   }
-
   [class*="Scroller-"] {
     padding: 0 !important;
     &::-webkit-scrollbar {
@@ -196,7 +189,6 @@
   .guildNick-3uAm3i {
     font-size: var(--font-size);
   }
-
   .userInfoSection-2acyCx {
     padding: 0;
     margin: 0;
@@ -205,9 +197,6 @@
   .userInfoSectionHeader-CBvMDh {
     display: none;
   }
-
-
-
   // Note
   .note-QfFU8y {
     background: transparent;
@@ -239,9 +228,6 @@
     top: -10px;
     font-size: var(--font-size-xsm) !important;
   }
-
-
-
   // Connected accounts
   .connectedAccounts-repVzS {
     margin-top: 0;
@@ -270,9 +256,6 @@
     width: 12px !important;
     height: 12px !important;
   }
-
-
-
   // Tabs
   .tabBarContainer-1s1u-z {
     position: absolute;
@@ -283,8 +266,8 @@
     border-top: none;
     border-right: 1px solid var(--border-colour);
     background: var(--background);
-    border-radius:3px 0 0 3px;
-    overflow:hidden;
+    border-radius: 3px 0 0 3px;
+    overflow: hidden;
   }
   .tabBar-2MuP6- {
     display: block;
@@ -325,7 +308,6 @@
     }
   }
 }
-
 .theme-light #app-mount .root-SR8cQa {
   [class*="profileBadge"] {
     filter: invert(90%);

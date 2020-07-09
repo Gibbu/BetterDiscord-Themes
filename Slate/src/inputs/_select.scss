@@ -5,7 +5,9 @@
   .css-oc2jo8-control,
   .css-13kbzi0-control,
   .css-oce0qz-control,
-  .sizeMedium-6vZ9JV.select-1Pkeg4 {
+  .sizeMedium-6vZ9JV.select-1Pkeg4,
+  .css-1a8reka-control,
+  .css-17mfgdg-container {
     border: 1px solid var(--border-colour);
     border-radius: var(--border-radius);
     background: var(--background-dark);
@@ -13,6 +15,13 @@
     height: var(--input-height);
     padding: 0;
     min-height: auto;
+  }
+  .css-gd8if9-control {
+    background: transparent;
+    min-height: 0;
+    height: 0;
+    box-shadow: none;
+    border: none;
   }
   .selectLabel-2ltwlE {
     padding: 0 var(--spacing);

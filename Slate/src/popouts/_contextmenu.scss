@@ -15,7 +15,7 @@
     .scroller-3BxosC {
       padding: 0;
       &::-webkit-scrollbar {
-        width: 0px;
+        width: 0;
       }
     }
     .separator-2I32lJ {
@@ -24,13 +24,13 @@
     }
     .item-1tOPte {
       font-size: var(--font-size);
-      color:var(--text-normal);
+      color: var(--text-normal);
       margin: 0;
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
       border-radius: 0;
-      height:32px;
-      cursor:default;
+      height: 32px;
+      cursor: default;
       &.focused-3afm-j {
         background: var(--background-modifier-hover);
       }
@@ -49,7 +49,6 @@
       padding: 0;
     }
   }
-
   // Instant reactions
   .wrapper-3_530D {
     padding: 0;
@@ -67,7 +66,6 @@
       background: var(--background-modifier-hover);
     }
   }
-
   // User settings (reeeee why didn't they change this)
   #user-settings-cog div {
     &:first-child {
@@ -77,7 +75,6 @@
       border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
   }
-
   // Sub menus
   .submenuContainer-2gbm7M {
     .scroller-3BxosC .item-1tOPte {

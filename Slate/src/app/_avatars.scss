@@ -6,20 +6,18 @@
     foreignObject {
       mask: none;
     }
-    .dots-3Bkt3k {
-      circle {
-        &:nth-child(1) {
-          cy: -8 !important;
-          cx: -8.5 !important;
-        }
-        &:nth-child(2) {
-          cy: -8 !important;
-          cx: -2.25 !important;
-        }
-        &:nth-child(3) {
-          cy: -8 !important;
-          cx: 4 !important;
-        }
+    .dots-3Bkt3k circle {
+      &:nth-child(1) {
+        cy: -8 !important;
+        cx: -8.5 !important;
+      }
+      &:nth-child(2) {
+        cy: -8 !important;
+        cx: -2.25 !important;
+      }
+      &:nth-child(3) {
+        cy: -8 !important;
+        cx: 4 !important;
       }
     }
     .mask-1l8v16 > rect[x="22"] {
@@ -148,13 +146,11 @@
   .header-QKLPzZ .wrapper-3t9DeA {
     margin-right: 20px !important;
   }
-
   // Offline
   .offline-3nJYBR img {
     clip-path: none !important;
   }
 }
-
 // Online via mobile
 #app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"] {
   width: calc(100% + 252px);
@@ -199,7 +195,6 @@
     z-index: 1;
   }
 }
-
 // Remove inbuilt theme RadialStatus
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;

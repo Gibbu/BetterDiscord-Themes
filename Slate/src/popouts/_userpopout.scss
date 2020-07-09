@@ -43,8 +43,7 @@
     margin: 0;
     padding: 0 var(--spacing);
   }
-  .role-2irmRk,
-  .member-perm {
+  .member-perm, .role-2irmRk {
     border: none;
     position: relative;
     border-radius: var(--border-radius);
@@ -52,8 +51,7 @@
     padding: var(--spacing-half);
     height: auto;
   }
-  .roleCircle-3xAZ1j,
-  .perm-circle {
+  .perm-circle, .roleCircle-3xAZ1j {
     border-radius: var(--border-radius);
     margin-right: var(--spacing-half);
     &:before {
@@ -69,8 +67,7 @@
       pointer-events: none;
     }
   }
-  .roleName-32vpEy,
-  .member-perm .name {
+  .member-perm .name, .roleName-32vpEy {
     position: relative;
     z-index: 1;
     margin-right: 0;
@@ -159,9 +156,7 @@
     height: var(--avatar-size);
     width: var(--avatar-size);
   }
-  .creationDate,
-  .joinedAtDate,
-  .lastMessageDate {
+  .creationDate, .joinedAtDate, .lastMessageDate {
     margin-top: var(--spacing);
     margin-bottom: 0;
     & + div:not(.customStatus-1bh2V9) {
@@ -177,9 +172,7 @@
   .lastMessageDate {
     grid-area: last;
   }
-  .actionsStreamPreview-2JlX14,
-  .actionsUserPopout-2MrzCa,
-  .listeningActionsUserPopout-Ga2V_N {
+  .actionsStreamPreview-2JlX14, .actionsUserPopout-2MrzCa, .listeningActionsUserPopout-Ga2V_N {
     position: absolute;
     bottom: calc((var(--item-height) / -1) - 2px);
     left: 0;

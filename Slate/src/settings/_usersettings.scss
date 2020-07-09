@@ -195,10 +195,57 @@
   }
 
 
+  // Appearance
+  .preview-2nSL_2 {
+    background: var(--background);
+    border-color: var(--border-colour);
+  }
+
+
+  // Notifications
+  .notificationsSound-27jFSh {
+    padding: var(--spacing) 0;
+    box-shadow: inset 0 -1px 0 0 var(--border-colour);
+    &:hover .soundLabel-wUmcnl {
+      transform: translateX(0);
+    }
+  }
+  .soundLabel-wUmcnl {
+    transform: translateX(-24px);
+  }
+  .icon-GiGwrE {
+    width: 14px;
+    height: 14px;
+    margin-right: var(--spacing);
+  }
+  .sound-2QlACh {
+    font-size: var(--font-size);
+  }
+
+
 
   // Keybinds
   .card-FDVird:before {
     content: none;
+  }
+
+
+  // Game Activity
+  .game-1ipmAa {
+    box-shadow: 0 1px 0 0 var(--border-colour);
+    padding: var(--spacing) 0;
+  }
+  .gameName-1RiWHm,
+  .overlayStatusText-L2IACa {
+    font-size: var(--font-size);
+  }
+  .gameVerifiedIcon-2dGGa5 {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .lastPlayed-3bQ7Bo {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
   }
 }
 

@@ -1,49 +1,40 @@
 #app-mount {
   .tooltip-2QfLtc {
-    padding:var(--spacing-third) var(--spacing);
-    border-radius:var(--border-radius);
-    background:var(--background);
-    color:var(--text-normal); 
-    box-shadow:none;
-    font-size:var(--font-size);
-    border:1px solid var(--border-colour);
-    position:relative;
-    font-weight:var(--font-weight-normal);
-    transform:none !important;
+    padding: var(--spacing-third) var(--spacing);
+    border-radius: var(--border-radius);
+    background: var(--background);
+    color: var(--text-normal);
+    box-shadow: none;
+    font-size: var(--font-size);
+    border: 1px solid var(--border-colour);
+    position: relative;
+    font-weight: var(--font-weight-normal);
+    transform: none !important;
     .tooltipContent-bqVLWK {
-      padding:0;
+      padding: 0;
     }
     .tooltipPointer-3ZfirK {
-      background:var(--background);
-      border:1px solid var(--border-colour);
-      width:8px;
-      height:8px;
+      background: var(--background);
+      border: 1px solid var(--border-colour);
+      width: 8px;
+      height: 8px;
       clip-path: polygon(95% 0, 0% 95%, 0 0);
     }
-    &.tooltipRight-2JM5PQ {
-      .tooltipPointer-3ZfirK {
-        transform:rotate(-45deg);
-        margin-right:-6px;
-      }
+    &.tooltipRight-2JM5PQ .tooltipPointer-3ZfirK {
+      transform: rotate(-45deg);
+      margin-right: -6px;
     }
-    &.tooltipLeft-3EDOk1 {
-      .tooltipPointer-3ZfirK {
-        transform:rotate(135deg);
-        margin-left:-6px;
-      }
+    &.tooltipLeft-3EDOk1 .tooltipPointer-3ZfirK {
+      transform: rotate(135deg);
+      margin-left: -6px;
     }
-    &.tooltipBottom-3ARrEK {
-      .tooltipPointer-3ZfirK {
-        transform:rotate(45deg);
-        margin-bottom:-6px;
-      }
+    &.tooltipBottom-3ARrEK .tooltipPointer-3ZfirK {
+      transform: rotate(45deg);
+      margin-bottom: -6px;
     }
-    &.tooltipTop-XDDSxx {
-      .tooltipPointer-3ZfirK {
-        transform:rotate(-135deg);
-        margin-top:-6px;
-      }
+    &.tooltipTop-XDDSxx .tooltipPointer-3ZfirK {
+      transform: rotate(-135deg);
+      margin-top: -6px;
     }
   }
 }
-

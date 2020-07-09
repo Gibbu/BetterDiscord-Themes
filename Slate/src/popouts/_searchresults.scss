@@ -6,7 +6,6 @@
       padding: 0;
     }
   }
-
   // Search header
   .searchHeader-1EzJGH {
     box-shadow: none;
@@ -25,10 +24,8 @@
     background: var(--background);
     padding: var(--spacing);
   }
-
   // Results
-  .searchResult-2N9RV4:before,
-  .searchResult-2N9RV4:after {
+  .searchResult-2N9RV4:after, .searchResult-2N9RV4:before {
     content: none;
   }
   .searchResultMessage-30QnSN.hit-1CXhXT {

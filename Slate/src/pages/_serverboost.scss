@@ -1,12 +1,10 @@
 #app-mount .perksModal-fSYqOq {
   background: var(--background);
   top: var(--titlebar-height);
-
   // Header
   [class*="header"] {
     display: none;
   }
-
   // Boost server
   .ctaBar-2UsjF2 {
     background: var(--background-dark);
@@ -33,7 +31,6 @@
       margin: 0 0 0 var(--spacing);
     }
   }
-
   // Progress bar
   .barBackground-2EEiLw {
     background: var(--background-dark);
@@ -47,7 +44,6 @@
     border-radius: var(--border-radius);
     box-shadow: inset 0 0 0 1px var(--border-colour);
   }
-
   // Tiers
   .tierWrapper-W9ajqp {
     box-shadow: none !important;
@@ -60,10 +56,8 @@
   .tierBody-16Chc9 {
     background: var(--background-dark);
   }
-
   // Perks
-  .perks-3OsGy8,
-  .subscriberPerksHeader-2a50UC {
+  .perks-3OsGy8, .subscriberPerksHeader-2a50UC {
     display: none;
   }
 }

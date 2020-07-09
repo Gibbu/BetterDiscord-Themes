@@ -15,25 +15,25 @@
       display: none;
     }
     &:before {
-      content:'';
-      width:var(--titlebar-height);
-      height:var(--titlebar-height);
-      position:relative;
-      -webkit-mask:url($icon_discord) center/18px no-repeat;
-      top:2px;
-      opacity:.5;
-      background:#fff;
-      -webkit-app-region:drag;
+      content: '';
+      width: var(--titlebar-height);
+      height: var(--titlebar-height);
+      position: relative;
+      -webkit-mask: url($icon_discord) center/18px no-repeat;
+      top: 2px;
+      opacity: .5;
+      background: #fff;
+      -webkit-app-region: drag;
     }
     &:after {
-      content:'';
-      position:fixed;
-      top:0;
-      left:0;
-      width:100vw;
-      height:var(--titlebar-height);
-      background:var(--topbar-header-selected);
-      z-index:-1;
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: var(--titlebar-height);
+      background: var(--topbar-header-selected);
+      z-index: -1;
     }
   }
   .winButton-iRh8-Z {
@@ -41,9 +41,9 @@
     width: calc(var(--titlebar-height) * 1.5);
     color: var(--toolbar-text-default);
     top: -2px;
-    cursor:default;
+    cursor: default;
   }
   .winButtonClose-1HsbF-:hover {
-    color:var(--toolbar-text-focus);
+    color: var(--toolbar-text-focus);
   }
 }

@@ -61,17 +61,15 @@
         color: #fff !important;
       }
     }
-    & > span, & > div {
+    & > div, & > span {
       display: none;
     }
   }
 }
-
 #app-mount [aria-label*="SETTINGS"] .ace_editor {
   height: calc(50vh - 107px);
   min-height: 294px;
 }
-
 #app-mount #bd-customcss-detach-container {
   border-left: 1px solid var(--border-colour);
   #bd-customcss-detach-editor {

@@ -1,9 +1,6 @@
 #bd-settingspane-container {
-
   // Buttons
-  .bd-addon-button,
-  .bda-link,
-  .bd-button {
+  .bd-addon-button, .bd-button, .bda-link {
     font-size: var(--font-size);
     font-weight: var(--font-weight-light);
     cursor: default;
@@ -28,28 +25,30 @@
       box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
     }
   }
-
   .ui-switch-item {
     margin: var(--spacing) var(--spacing-double);
+    h3 {
+      font-size: var(--font-size-lg);
+      color: var(--text-default);
+    }
     .style-description {
       border-color: var(--border-colour);
+      color: var(--text-muted) !important;
+      font-size: var(--font-size);
     }
-
     &:first-of-type {
       margin-top: var(--spacing-double);
     }
     &:last-of-type {
       margin-bottom: var(--spacing-double);
       .style-description {
-        border-color: transparent
+        border-color: transparent;
       }
     }
   }
-
   .bd-pfbtn {
     margin: var(--spacing-double) 0 var(--spacing-double) var(--spacing-double);
   }
-
   .bd-controls {
     padding: 0 var(--spacing-double);
   }

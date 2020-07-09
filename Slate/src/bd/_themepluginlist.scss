@@ -6,23 +6,23 @@
     input {
       border-radius: var(--border-radius);
       background: var(--topbar-background);
-      font-size:var(--font-size);
-      border:1px solid var(--border-colour);
-      color:var(--text-normal);
-      transition:none;
-      padding:0 var(--spacing-half);
-      height:25px;
-      line-height:24px;
-      &:focus, .focused-1mmYsC {
-        border:1px solid var(--accent-solid);
-        box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
+      font-size: var(--font-size);
+      border: 1px solid var(--border-colour);
+      color: var(--text-normal);
+      transition: none;
+      padding: 0 var(--spacing-half);
+      height: 25px;
+      line-height: 24px;
+      &:focus,
+      .focused-1mmYsC {
+        border: 1px solid var(--accent-solid);
+        box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
       }
     }
     svg {
       display: none;
     }
   }
-
   .bd-addon-card {
     background: var(--background-dark);
     border: 1px solid var(--border-colour);
@@ -35,7 +35,6 @@
       font-size: var(--font-size);
       font-weight: var(--font-weight-normal);
     }
-
     .bda-description {
       padding: var(--spacing);
       box-sizing: border-box;
@@ -44,7 +43,6 @@
       font-size: var(--font-size-lg);
       font-weight: var(--font-weight-light);
     }
-
     .bda-footer {
       padding: var(--spacing) 77px var(--spacing) var(--spacing);
       border-color: var(--border-colour);
@@ -65,7 +63,6 @@
         box-shadow: 0 0 0 2px rgba(var(--button-colour), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
       }
     }
-
     .bd-addon-button {
       --button-colour: var(--discord-red);
       position: absolute;
@@ -87,6 +84,5 @@
         box-shadow: 0 0 0 2px rgba(var(--button-colour), 0.25);
       }
     }
-
   }
 }

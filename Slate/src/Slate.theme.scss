@@ -1,7 +1,7 @@
 /**
  * @name Slate
  * @author Gibbu#1211 & Tropical#8908
- * @version 0.0.34
+ * @version 0.0.35
  * @invite TeRQEPb
  * @description Github Desktop meets Discord. Supports both Light and Dark themes.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
@@ -28,7 +28,7 @@
 @import 'dark';
 @import 'light';
 
-@import 'assets/icons';
+@import 'assets/import';
 @import 'app/import';
 @import 'channels/import';
 @import 'guilds/guilds';
@@ -42,3 +42,5 @@
 @import 'inputs/import';
 
 @import 'os/import';
+
+@import 'keyframes';

@@ -66,7 +66,6 @@
     -webkit-mask: url($icon_mic) center/cover no-repeat;
   }
 }
-
 // Windows icons
 html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
   // Overlay
@@ -109,7 +108,92 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   &:nth-child(25):before {
     -webkit-mask: url($icon_history) center/cover no-repeat;
   }
+  // Logout
   &:nth-child(28):before {
+    -webkit-mask: url($icon_sign-out) center/cover no-repeat;
+    background-color: rgba(var(--discord-red), 1);
+  }
+}
+// Mac Icons
+html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
+  // Notifications
+  &:nth-child(15):before {
+    -webkit-mask: url($icon_bell) center/cover no-repeat;
+  }
+  // Keybinds
+  &:nth-child(16):before {
+    -webkit-mask: url($icon_keyboard) center/cover no-repeat;
+  }
+  // Game Activity
+  &:nth-child(17):before {
+    -webkit-mask: url($icon_feed) center/cover no-repeat;
+  }
+  // Text & Images
+  &:nth-child(18):before {
+    -webkit-mask: url($icon_comment) center/cover no-repeat;
+  }
+  // Appearance
+  &:nth-child(19):before {
+    -webkit-mask: url($icon_bucket) center/12px no-repeat;
+  }
+  // Streamer Mode
+  &:nth-child(20):before {
+    -webkit-mask: url($icon_camera) center/cover no-repeat;
+  }
+  // Language
+  &:nth-child(21):before {
+    -webkit-mask: url($icon_world) center/cover no-repeat;
+  }
+  // Change Log
+  &:nth-child(23):before {
+    -webkit-mask: url($icon_history) center/cover no-repeat;
+  }
+  // Logout
+  &:nth-child(26):before {
+    -webkit-mask: url($icon_sign-out) center/cover no-repeat;
+    background-color: rgba(var(--discord-red), 1);
+  }
+}
+// Linux Icons
+html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ {
+  // Notifications
+  &:nth-child(15):before {
+    -webkit-mask: url($icon_bell) center/cover no-repeat;
+  }
+  // Keybinds
+  &:nth-child(16):before {
+    -webkit-mask: url($icon_keyboard) center/cover no-repeat;
+  }
+  // Game Activity
+  &:nth-child(17):before {
+    -webkit-mask: url($icon_feed) center/cover no-repeat;
+  }
+  // Text & Images
+  &:nth-child(18):before {
+    -webkit-mask: url($icon_comment) center/cover no-repeat;
+  }
+  // Appearance
+  &:nth-child(19):before {
+    -webkit-mask: url($icon_bucket) center/12px no-repeat;
+  }
+  // Streamer Mode
+  &:nth-child(20):before {
+    -webkit-mask: url($icon_camera) center/cover no-repeat;
+  }
+  // Language
+  &:nth-child(21):before {
+    -webkit-mask: url($icon_world) center/cover no-repeat;
+  }
+  // Linux Settings
+  &:nth-child(22):before {
+    -webkit-mask: url($icon_linux) center/14px no-repeat;
+  }
+  // Change Log
+  &:nth-child(24):before {
+    -webkit-mask: url($icon_history) center/cover no-repeat;
+  }
+  // Logout
+  &:nth-child(27):before {
     -webkit-mask: url($icon_sign-out) center/cover no-repeat;
     background-color: rgba(var(--discord-red), 1);
   }

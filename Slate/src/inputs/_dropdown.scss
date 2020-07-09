@@ -8,4 +8,21 @@
     font-size: var(--font-size);
     line-height: inherit;
   }
+  .css-n57xjs-menu {
+    background: var(--background);
+    box-shadow: var(--elevation-1);
+    border: 1px solid var(--border-colour);
+  }
+  .css-12o7ek3-option,
+  .css-1aymab5-option,
+  .css-1gnr91b-option {
+    font-size: var(--font-size);
+    padding: var(--spacing);
+  }
+  .css-1gnr91b-option {
+    background: var(--background-modifier-hover);
+  }
+  .css-12o7ek3-option {
+    background: rgb(var(--accent));
+  }
 }

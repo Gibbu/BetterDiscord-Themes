@@ -13,16 +13,15 @@
     border-radius: var(--border-radius);
   }
   .colorStandard-2KCXvj,
-  .description-QF3836,
-  .description-Bw8krY {
+  .description-Bw8krY,
+  .description-QF3836 {
     color: var(--addjoin-text);
     font-weight: normal;
   }
   .modal-yWgWj- {
     background: transparent;
   }
-  .input-1mgnkM,
-  .input-cIJ7To {
+  .input-1mgnkM, .input-cIJ7To {
     background: var(--addjoin-background-dark);
     border-color: var(--addjoin-border-colour);
     color: var(--addjoin-text);
@@ -35,9 +34,6 @@
     border-top: 1px solid var(--addjoin-border-colour);
   }
 }
-
-
-
 // Dark theme
 html.theme-dark #app-mount .wrapper-2ZbzR9.theme-light {
   --addjoin-background: #24292e;
@@ -45,7 +41,6 @@ html.theme-dark #app-mount .wrapper-2ZbzR9.theme-light {
   --addjoin-border-colour: #141414;
   --addjoin-text: #fff;
 }
-
 // Light theme
 html.theme-light #app-mount .wrapper-2ZbzR9 {
   --addjoin-background: #fff;
