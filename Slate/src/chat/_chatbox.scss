@@ -130,8 +130,15 @@
   .typing-2GQL18 {
     opacity: 1;
     bottom: unset;
-    left: var(--spacing);
-    top: -6px;
+    left: 0;
+    right: 0;
+    top: -1px;
+    margin: 0 !important;
+    padding: 0;
+    height: 12px;
+    line-height: inherit;
+    font-size: var(--font-size);
+    padding: 0 var(--spacing);
     svg {
       display: none;
     }

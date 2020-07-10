@@ -12,6 +12,9 @@
     padding-top: 0;
     border-radius: var(--border-radius);
     display: block;
+    .scroller-2FKFPG {
+      height: 396px;
+    }
   }
   // Top nav (Gif and Emote buttons)
   .nav-7UD0KD {
@@ -52,6 +55,7 @@
       -webkit-mask: url($icon_face) center/cover no-repeat;
     }
   }
+
   // Header (Search)
   .header-1TOWci, .header-8ilj5e {
     padding: var(--spacing) var(--spacing) var(--spacing) 80px;

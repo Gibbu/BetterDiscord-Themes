@@ -5,6 +5,7 @@
   }
   .message-2qnXI6 {
     background: transparent !important;
+    min-height: unset;
   }
   .timestamp-3ZCmNB.alt-1uNpEt {
     font-size: calc(var(--font-size-sm) - 2px);
@@ -109,7 +110,6 @@
   .groupStart-23k01U {
     border-top: 1px solid var(--border-colour);
     padding-top: var(--spacing);
-    padding-bottom: var(--spacing);
     min-height: auto;
     .username-1A8OIy,
     h2 {

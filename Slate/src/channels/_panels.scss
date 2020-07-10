@@ -148,61 +148,59 @@
       border-radius: var(--border-radius);
       transition: 100ms ease;
       .avatar-SmRMf2 {
-        opacity: 1;
+        border: 1px solid var(--border-colour);
         border-radius: var(--border-radius);
-        cursor: default;
-        foreignObject {
-          overflow: visible;
-        }
-        img {
-          clip-path: none;
-          border-radius: var(--border-radius);
-          border: 1px solid var(--border-colour);
-        }
-        rect {
-          position: initial;
-          x: 11.5;
-          y: 10;
-          height: 10px !important;
-          width: 10px !important;
-          rx: 50% !important;
-          ry: 50% !important;
-          stroke-width: 1px !important;
-          stroke: var(--border-colour) !important;
-          transition: 100ms ease stroke;
-          &[fill="white"],
-          &[fill="black"],
-          &.pointerEvents-2zdfdO {
+        svg[x="14.5"][y="17"] {
+          rect {
+            x: 10;
+            y: 10;
+          }
+          & + rect {
             display: none !important;
           }
-          &[height="15"] {
-            fill: var(--border-colour) !important;
-          }
+        }
+        rect {
+          width: 10px;
+          height: 10px;
+          x: 26px;
+          y: 26px;
+          rx: 50% !important;
+          ry: 50% !important;
+          stroke: var(--border-colour);
+          &[mask*="online"],
           &[fill="rgba(67, 181, 129, 1)"] {
             fill: var(--rs-online-color) !important;
           }
+          &[mask*="idle"],
           &[fill="rgba(250, 166, 26, 1)"] {
             fill: var(--rs-idle-color) !important;
           }
+          &[mask*="dnd"],
           &[fill="rgba(240, 71, 71, 1)"] {
             fill: var(--rs-dnd-color) !important;
           }
+          &[mask*="offline"],
+          &[mask*="invisible"]
           &[fill="rgba(116, 127, 141, 1)"] {
             fill: var(--rs-invisible-color) !important;
           }
         }
-      }
-      &:hover, &[aria-expanded="true"] {
-        img {
-          border: 1px solid var(--accent-solid);
-        }
-        rect {
-          stroke: var(--accent-solid) !important;
+        &:hover {
+          border-color: rgb(var(--accent));
+          rect {
+            stroke: rgb(var(--accent));
+          }
         }
       }
       .wrapper-3t9DeA {
         width: var(--avatar-size-sm) !important;
         height: var(--avatar-size-sm) !important;
+      }
+      &[aria-expanded="true"] .avatar-SmRMf2 {
+        border-color: rgb(var(--accent));
+        rect {
+          stroke: rgb(var(--accent));
+        }
       }
     }
     .nameTag-3uD-yy {
