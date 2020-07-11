@@ -13,8 +13,12 @@
     button {
       padding: var(--spacing-half) var(--spacing);
       height: auto;
-      color: var(--text-normal);
+      color: var(--text-focus);
       font-size: var(--font-size);
+      line-height: inherit;
+      & > svg {
+        display: none;
+      }
     }
     &:active {
       margin: 0;
@@ -65,29 +69,6 @@
 }
 #app-mount .messages-3amgkR {
   background: var(--background-alt);
-  &::-webkit-scrollbar {
-    width: 4px;
-    display: none;
-    background: transparent !important;
-  }
-  &::-webkit-scrollbar-track-piece {
-    background: transparent;
-    border-color: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: var(--channel-scrollbar);
-    border-radius: 0;
-    border: none;
-    &:active {
-      background-color: var(--background-modifier-active);
-    }
-  }
-  &:hover {
-    overflow: overlay;
-    &::-webkit-scrollbar {
-      display: block;
-    }
-  }
   .scrollerSpacer-1Rp0XE {
     height: 0;
   }

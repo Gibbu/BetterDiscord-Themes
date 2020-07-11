@@ -186,31 +186,6 @@
   .emojiListRow-m_GHp0 {
     padding: 0 var(--spacing);
   }
-  .listWrapper-3kgtQ0 .scroller-2FKFPG {
-    &::-webkit-scrollbar {
-      width: 4px;
-      display: none;
-      background: transparent !important;
-    }
-    &::-webkit-scrollbar-track-piece {
-      background: transparent;
-      border-color: transparent;
-    }
-    &::-webkit-scrollbar-thumb {
-      background-color: var(--channel-scrollbar);
-      border-radius: 0;
-      border: none;
-      &:active {
-        background-color: var(--background-modifier-active);
-      }
-    }
-    &:hover {
-      overflow: overlay;
-      &::-webkit-scrollbar {
-        display: block;
-      }
-    }
-  }
   .emojiItem-14v6tW {
     border-radius: var(--border-radius);
     &.emojiItemSelected-1aLkfV {

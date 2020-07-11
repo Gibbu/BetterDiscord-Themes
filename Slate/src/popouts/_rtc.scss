@@ -36,6 +36,7 @@
     justify-content: flex-start;
     border-bottom: 1px solid var(--border-colour);
     background: var(--background-dark);
+    border-radius: 0;
   }
   section {
     height: calc(100% - (var(--titlebar-height) + var(--toolbar-height)));

@@ -1,0 +1,31 @@
+#app-mount {
+  .messages-3amgkR,
+  .messagesPopout-24nkyi,
+  .listWrapper-3kgtQ0 .scroller-2FKFPG,
+  .contentWrapper-SvZHNd .scroller-2FKFPG {
+    &::-webkit-scrollbar {
+      width: 4px;
+      display: none;
+      background: transparent !important;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: transparent;
+      border-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--channel-scrollbar);
+      border-radius: 0;
+      border: none;
+      &:active {
+        background-color: var(--background-modifier-active);
+      }
+    }
+    &:hover {
+      overflow: overlay;
+      &::-webkit-scrollbar {
+        display: block;
+      }
+    }
+  }
+}
+

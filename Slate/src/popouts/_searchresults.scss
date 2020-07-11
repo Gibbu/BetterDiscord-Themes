@@ -1,42 +1,64 @@
 #app-mount {
   .searchResultsWrap-3-pOjs {
-    background: var(--background);
+    background-color: var(--background);
     border-left: 1px solid var(--border-colour);
     .scroller-3GIiMh {
-      padding: 0;
+      padding-left: 0;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      & > .pagination-eQpqgk:first-child {
+        margin: 0;
+        padding: var(--spacing) 0;
+        border-bottom: 1px solid var(--border-colour);
+      }
     }
   }
-  // Search header
-  .searchHeader-1EzJGH {
+  .channelName-1JRO3C {
+    background: var(--background);
+    padding: var(--spacing);
+    line-height: 1.5;
+  }
+  .searchHeader-2XoQg7 {
     box-shadow: none;
     border-bottom: 1px solid var(--border-colour);
     padding: 0 var(--spacing);
   }
-  .tab-EiCZG6,
-  .totalResults-1yK_Ym {
+  .tab-2j5AEF,
+  .totalResults--dyAxF {
     padding: var(--spacing) 0;
     font-size: var(--font-size);
   }
-  .channelSeparator-dTqJ4K:before {
+  .channelSeparator-1DOiGt:before {
     content: none;
   }
-  .channelName-wvgELL {
-    background: var(--background);
-    padding: var(--spacing);
+  .searchResult-9tQ1uo {
+    &:after,
+    &:before {
+      content: none;
+    }
+    &.expanded-w_LCGl {
+      border: none;
+      border-top: 1px solid var(--border-colour);
+      border-bottom: 1px solid var(--border-colour);
+      border-radius: 0;
+      background: var(--background-dark);
+    }
   }
-  // Results
-  .searchResult-2N9RV4:after, .searchResult-2N9RV4:before {
-    content: none;
-  }
-  .searchResultMessage-30QnSN.hit-1CXhXT {
-    box-shadow: none;
-    border: 1px solid var(--border-colour);
-    border-left: none;
-    border-right: none;
+  .searchResultMessage-1fxgXh {
     border-radius: 0;
-    background: var(--background-alt);
+    &.hit-1fVM9e {
+      border-left: none;
+      border-right: none;
+      border-color: var(--border-colour);
+      box-shadow: none;
+      background: var(--background-alt);
+    }
+    &:hover .jumpButton-JkYoYK {
+      opacity: 1;
+    }
   }
-  .jumpButton-1ol35X {
+  .jumpButton-JkYoYK {
     --button-colour: var(--accent);
     font-size: var(--font-size);
     font-weight: var(--font-weight-light);
@@ -44,6 +66,7 @@
     height: 20px;
     display: flex;
     align-items: center;
+    opacity: 0;
     line-height: normal;
     transition: none;
     padding: 0 var(--spacing);
