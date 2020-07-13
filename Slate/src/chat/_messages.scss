@@ -129,7 +129,7 @@
     font-size: var(--chat-font-size);
     margin-left: 0;
     padding-left: 0;
-    line-height: 1.5;
+    line-height: var(--line-height);
   }
   .mentioned-xhSam7 {
     background: rgba(var(--accent), 0.1) !important;
@@ -282,7 +282,7 @@
       left: 0;
       text-align: right;
       padding-top: 30px;
-      line-height: 1.5em;
+      line-height: var(--line-height);
       height: calc(100% - 30px);
       overflow: hidden;
       color: var(--text-muted);
@@ -296,7 +296,7 @@
       background: transparent !important;
       border: 1px solid var(--border-colour);
       font-size: var(--font-size-sm);
-      line-height: 1.5em;
+      line-height: var(--line-height);
       border-radius: var(--border-radius);
       color: var(--syntax-grey-alt);
       &:before {

@@ -29,7 +29,9 @@
   --userpopout-button-hover: rgba(0,0,0,0.05);
 
   // Scrollbars
-  --channel-scrollbar: rgba(0,0,0,0.3);
+  --scrollbar-background: rgb(0 0 0 / 0.3);
+  --scrollbar-background-hover: rgb(0 0 0 / 0.4);
+  --scrollbar-background-active: rgb(0 0 0 / 0.5);
 
   // Discord variables
   --background-modifier-hover: #f2f2f2;

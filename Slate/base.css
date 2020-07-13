@@ -20,6 +20,8 @@
   --font-size-lg: calc(var(--font-size) + 2px);
   --font-size-xl: calc(var(--font-size) + 4px);
   --font-size-xxl: calc(var(--font-size) + 10px);
+  --line-height-sm: 1;
+  --line-height: 1.5;
   --topbar-background: #1d2125;
   --topbar-background-hover: #2f363d;
   --topbar-header-selected: #24292e;
@@ -72,7 +74,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-  --slate-version: "Slate 0.0.37";
+  --slate-version: "Slate 0.0.38";
 }
 .theme-dark {
   --border-colour: #141414;
@@ -91,7 +93,9 @@
   --checkbox-tick: #444;
   --checkbox-box-shadow: none;
   --userpopout-button-hover: rgba(255, 255, 255, 0.03);
-  --channel-scrollbar: rgba(0, 0, 0, 0.3);
+  --scrollbar-background: rgb(255 255 255 / 0.1);
+  --scrollbar-background-hover: rgb(255 255 255 / 0.2);
+  --scrollbar-background-active: rgb(255 255 255 / 0.3);
   --background-modifier-hover: var(--background-light);
   --background-modifier-active: #444d56;
   --background-modifier-selected: var(--accent-solid);
@@ -120,7 +124,9 @@
   --checkbox-tick: #444;
   --checkbox-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   --userpopout-button-hover: rgba(0, 0, 0, 0.05);
-  --channel-scrollbar: rgba(0, 0, 0, 0.3);
+  --scrollbar-background: rgb(0 0 0 / 0.3);
+  --scrollbar-background-hover: rgb(0 0 0 / 0.4);
+  --scrollbar-background-active: rgb(0 0 0 / 0.5);
   --background-modifier-hover: #f2f2f2;
   --background-modifier-active: #e5e5e5;
   --background-modifier-selected: var(--accent-solid);
@@ -142,7 +148,7 @@ h1, h2, h3, h4, h5, h6, p {
   user-select: text;
 }
 html {
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 #app-mount {
   background: var(--topbar-background);
@@ -360,18 +366,6 @@ html {
 #app-mount .container-1r6BKw .children-19S4PO:after {
   content: none;
 }
-#app-mount .container-1r6BKw .children-19S4PO:hover {
-  background: var(--topbar-background-hover);
-}
-#app-mount .container-1r6BKw .children-19S4PO:hover .title-29uC1r {
-  color: var(--toolbar-text-focus);
-}
-#app-mount .container-1r6BKw .children-19S4PO:hover .status-1XNdyw {
-  background: var(--topbar-background-hover);
-}
-#app-mount .container-1r6BKw .children-19S4PO:hover .nicknames-1XK4Zt {
-  opacity: 1;
-}
 #app-mount .container-1r6BKw .toolbar-1t6TWx {
   height: calc(var(--toolbar-height) - 1px);
   padding: 0;
@@ -449,6 +443,7 @@ html {
   align-items: center;
   background: transparent !important;
   color: var(--text-muted) !important;
+  font-size: var(--font-size-lg);
   padding: 0 var(--spacing);
   height: calc(var(--toolbar-height) - 1px);
 }
@@ -500,6 +495,18 @@ html {
 #app-mount .container-1r6BKw .search-2oPWTC.focused-31_ccS .DraftEditor-root {
   border: 1px solid var(--accent-solid);
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+}
+#app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover {
+  background: var(--background-light);
+}
+#app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .title-29uC1r {
+  color: var(--toolbar-text-focus);
+}
+#app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .status-1XNdyw {
+  background: var(--topbar-background-hover);
+}
+#app-mount .container-1r6BKw.title-3qD0b- .children-19S4PO:hover .nicknames-1XK4Zt {
+  opacity: 1;
 }
 #app-mount .tooltip-2QfLtc {
   padding: var(--spacing-third) var(--spacing);
@@ -718,42 +725,64 @@ html {
 #app-mount .messages-3amgkR::-webkit-scrollbar,
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar {
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar {
   width: 4px;
   display: none;
   background: transparent !important;
+  box-shadow: -1px 0 0 var(--border-colour);
+  position: absolute;
 }
 #app-mount .messages-3amgkR::-webkit-scrollbar-track-piece,
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-track-piece,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar-track-piece,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-track-piece,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar-track-piece {
   background: transparent;
   border-color: transparent;
 }
 #app-mount .messages-3amgkR::-webkit-scrollbar-thumb,
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-thumb,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar-thumb,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: var(--channel-scrollbar);
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-thumb,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-background);
   border-radius: 0;
   border: none;
+}
+#app-mount .messages-3amgkR::-webkit-scrollbar-thumb:hover,
+#app-mount .messagesPopout-24nkyi::-webkit-scrollbar-thumb:hover,
+#app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar-thumb:hover,
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-thumb:hover,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-background-hover);
 }
 #app-mount .messages-3amgkR::-webkit-scrollbar-thumb:active,
 #app-mount .messagesPopout-24nkyi::-webkit-scrollbar-thumb:active,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-thumb:active {
-  background-color: var(--background-modifier-active);
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar-thumb:active {
+  background-color: var(--scrollbar-background-active);
+}
+#app-mount .messages-3amgkR::-webkit-scrollbar-button,
+#app-mount .messagesPopout-24nkyi::-webkit-scrollbar-button,
+#app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG::-webkit-scrollbar-button,
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG::-webkit-scrollbar-button,
+#app-mount .container-1D34oG .scrollerBase-289Jih::-webkit-scrollbar-button {
+  display: none;
 }
 #app-mount .messages-3amgkR:hover,
 #app-mount .messagesPopout-24nkyi:hover,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG:hover,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG:hover {
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG:hover,
+#app-mount .container-1D34oG .scrollerBase-289Jih:hover {
   overflow: overlay;
 }
 #app-mount .messages-3amgkR:hover::-webkit-scrollbar,
 #app-mount .messagesPopout-24nkyi:hover::-webkit-scrollbar,
 #app-mount .listWrapper-3kgtQ0 .scroller-2FKFPG:hover::-webkit-scrollbar,
-#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG:hover::-webkit-scrollbar {
+#app-mount .contentWrapper-SvZHNd .scroller-2FKFPG:hover::-webkit-scrollbar,
+#app-mount .container-1D34oG .scrollerBase-289Jih:hover::-webkit-scrollbar {
   display: block;
 }
 #app-mount .sidebar-2K8pFh {
@@ -1530,6 +1559,9 @@ html {
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
   background: var(--background-light);
 }
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+  background: transparent;
+}
 #app-mount .guilds-1SWlCJ .wrapper-25eVIn {
   border-radius: var(--border-radius);
   overflow: hidden;
@@ -1878,7 +1910,7 @@ html {
   font-size: var(--chat-font-size);
   margin-left: 0;
   padding-left: 0;
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 #app-mount .mentioned-xhSam7 {
   background: rgba(var(--accent), 0.1) !important;
@@ -2028,7 +2060,7 @@ html {
   left: 0;
   text-align: right;
   padding-top: 30px;
-  line-height: 1.5em;
+  line-height: var(--line-height);
   height: calc(100% - 30px);
   overflow: hidden;
   color: var(--text-muted);
@@ -2042,7 +2074,7 @@ html {
   background: transparent !important;
   border: 1px solid var(--border-colour);
   font-size: var(--font-size-sm);
-  line-height: 1.5em;
+  line-height: var(--line-height);
   border-radius: var(--border-radius);
   color: var(--syntax-grey-alt);
 }
@@ -2466,10 +2498,10 @@ html {
 }
 #app-mount .slateTextArea-1Mkdgw {
   font-size: var(--font-size);
-  padding: 0 var(--spacing);
+  padding: 4px var(--spacing) 0;
   color: var(--text-normal);
   font-weight: var(--font-weight-light);
-  top: 2px;
+  top: 0;
   width: 98%;
 }
 #app-mount .slateTextArea-1Mkdgw:focus:after {
@@ -2764,163 +2796,191 @@ html {
 #app-mount .container-1D34oG {
   background: var(--background-alt);
 }
-#app-mount .container-1D34oG .children-19S4PO {
-  padding-right: 0;
-}
-#app-mount .container-1D34oG .children-19S4PO:hover {
-  background: transparent;
-}
-#app-mount .container-1D34oG .tabBody-3YRQ8W:before {
-  content: none;
-}
-#app-mount .container-1D34oG .scroller-2FKFPG {
-  overflow: hidden;
-}
-#app-mount .container-1D34oG .scroller-2FKFPG::-webkit-scrollbar {
-  width: 12px;
-  display: none;
-  background: transparent;
-  border-left: 1px solid var(--border-colour);
-}
-#app-mount .container-1D34oG .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-  background: transparent;
-  border-color: transparent;
-}
-#app-mount .container-1D34oG .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  border-style: solid;
-  border-color: transparent;
-  border-left-width: 4px;
-  border-right-width: 3px;
-  background-clip: padding-box;
-  background-color: var(--channel-scrollbar);
-}
-#app-mount .container-1D34oG .scroller-2FKFPG:hover {
-  overflow: overlay;
-}
-#app-mount .container-1D34oG .scroller-2FKFPG:hover::-webkit-scrollbar {
-  display: block;
-}
-#app-mount .container-1D34oG .title-30qZAO {
-  margin: 0;
-  padding: var(--spacing);
-  border-bottom: 1px solid var(--border-colour);
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh {
-  border-top: none;
-  border-bottom: 1px solid var(--border-colour);
-  margin: 0;
-  padding: var(--spacing);
-  border-radius: 0;
-  height: auto !important;
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .userInfo-2zN2z8 {
-  overflow: visible;
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .discordTag-2_tqUA {
-  overflow: visible;
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .username-31C1TQ {
-  font-size: var(--font-size-lg);
-  overflow: visible;
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .discriminator-22Okc1 {
-  font-size: var(--font-size-sm);
-  color: var(--text-muted);
-  visibility: visible;
-  margin-left: 5px;
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .text-3MU_QQ {
-  font-size: var(--font-size);
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh .actionButton-uPB8Fs {
-  background: var(--background);
-  border: 1px solid var(--border-colour);
-  border-radius: var(--border-radius);
-  color: var(--text-focus);
-}
-#app-mount .container-1D34oG .peopleListItem-2nzedh:hover {
-  background: var(--background-light);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu {
-  border-bottom-color: var(--border-colour);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d {
-  padding: var(--spacing);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d h2 {
-  margin: 0;
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-lg);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .description-1EvxpH {
-  display: none;
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .wrapper-1cBijl {
-  border-color: var(--border-colour);
-  border-radius: var(--border-radius);
-  background-color: var(--background);
-  margin: var(--spacing) 0 0;
-  padding: 0;
-  height: 46px;
-  overflow: hidden;
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .wrapper-1cBijl input {
-  font-size: var(--font-size-lg);
-  padding-left: var(--spacing);
-  height: 100%;
-  margin-right: 0;
-  border-right: 1px solid var(--border-colour);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .wrapper-1cBijl .addFriendHint-3Y70FX {
-  height: 100%;
-  font-size: var(--font-size-lg);
-  top: -2px;
-  left: var(--spacing);
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .wrapper-1cBijl button {
-  height: 100%;
-  border-radius: 0;
-  background: transparent;
-  transition: none;
-}
-#app-mount .container-1D34oG .sectionHeader-20RGqu .addInputWrapper-1BOZ3d .wrapper-1cBijl button:not([disabled]):hover {
-  background: var(--accent-solid);
-}
-#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
-  border-left: 1px solid var(--border-colour);
-  background: var(--background);
-}
-#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .scroller-2FKFPG {
-  padding: 0;
-}
-#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE .header-13Cw0- {
-  color: var(--text-normal);
-  padding: var(--spacing);
-}
-#app-mount .container-1D34oG .itemCard-v9viV7 {
-  border-radius: 0;
-  padding: var(--spacing);
-  margin-top: 0;
-  border-bottom: 1px solid var(--border-colour);
-  background: transparent;
-}
-#app-mount .container-1D34oG .itemCard-v9viV7 .size16-1P40sf {
-  font-size: var(--font-size);
-  color: var(--text-focus);
-}
-#app-mount .container-1D34oG .itemCard-v9viV7 .size14-e6ZScH {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-}
-#app-mount .container-1D34oG .itemCard-v9viV7 .headerFull-1dyyvV {
-  grid-gap: var(--spacing);
-}
-#app-mount .container-1D34oG .itemCard-v9viV7 .wrapper-3t9DeA[role=img] {
+#app-mount .container-1D34oG .wrapper-3t9DeA {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
 }
-#app-mount .container-1D34oG .itemCard-v9viV7:first-of-type {
+#app-mount .container-1D34oG .wrapper-3t9DeA foreignObject[mask*=mobile]:before {
+  background: linear-gradient(90deg, transparent -50%, var(--background-alt) 50%);
+}
+#app-mount .tabBody-3YRQ8W .base-1x0h_U {
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+#app-mount .tabBody-3YRQ8W .colorHeaderSecondary-3Sp3Ft,
+#app-mount .tabBody-3YRQ8W .colorStandard-2KCXvj {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+  line-height: var(--line-height);
+}
+#app-mount .tabBody-3YRQ8W:before {
+  content: none;
+}
+#app-mount .peopleColumn-29fq28 .scrollerBase-289Jih {
+  margin-bottom: 49px;
+}
+#app-mount .title-30qZAO {
+  margin: var(--spacing);
+  border-bottom: none;
+  font-size: var(--font-size);
+  color: var(--text-default);
+  line-height: inherit;
+  display: grid;
+  grid-template-columns: var(--avatar-size) 0.2755fr 1fr;
+  grid-gap: var(--spacing);
+}
+#app-mount .title-30qZAO:before {
+  content: "";
+  display: block;
+}
+#app-mount .title-30qZAO:after {
+  content: "Status";
+  display: block;
+}
+#app-mount .peopleListItem-2nzedh {
+  border-top: none;
   border-top: 1px solid var(--border-colour);
+  margin: 0;
+  padding: var(--spacing);
+  height: auto !important;
+  border-radius: 0;
+}
+#app-mount .peopleListItem-2nzedh:hover foreignObject[mask*=mobile]:before {
+  background: linear-gradient(90deg, transparent -50%, var(--background-modifier-hover) 50%);
+}
+#app-mount .peopleListItem-2nzedh:last-child {
+  border-bottom: 1px solid var(--border-colour);
+}
+#app-mount .userInfo-2zN2z8 {
+  overflow: visible;
+  width: 100%;
+}
+#app-mount .text-37NqbO {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.3fr 1fr;
+  grid-gap: var(--spacing);
+  width: 100%;
+}
+#app-mount .nameTag-m8r81H {
+  line-height: var(--line-height);
+}
+#app-mount .username-31C1TQ {
+  font-size: var(--font-size);
+  color: var(--text-focus);
+  align-items: center;
+}
+#app-mount .discriminator-22Okc1 {
+  font-size: var(--font-size-sm);
+}
+#app-mount .text-3MU_QQ {
+  font-size: var(--font-size-sm);
+  color: var(--text-muted);
+}
+#app-mount .subtext-24R4-w {
+  color: var(--text-muted);
+}
+#app-mount .actions-1SQwjn {
+  margin-left: var(--spacing);
+}
+#app-mount .actionButton-uPB8Fs {
+  color: var(--text-normal);
+  background: var(--background-light);
+  min-height: var(--input-height);
+  height: var(--input-height);
+  width: var(--input-height);
+  padding: 0;
+  border-radius: var(--button-border-radius);
+  border: 1px solid var(--border-colour);
+  cursor: default;
+  box-shadow: none !important;
+}
+#app-mount .actionButton-uPB8Fs svg {
+  width: 16px;
+  height: 16px;
+}
+#app-mount .actionButton-uPB8Fs:hover {
+  border-color: currentColor;
+}
+#app-mount .actionButton-uPB8Fs:focus {
+  border-color: currentColor;
+  box-shadow: 0 0 0 1px currentColor !important;
+}
+#app-mount .nowPlayingColumn-2sl4cE {
+  border-left: 1px solid var(--border-colour);
+  background: var(--background);
+}
+#app-mount .nowPlayingScroller-2XrVUt {
+  height: calc(100vh - var(--titlebar-height) - var(--toolbar-height) - 49px);
+  padding: 0 !important;
+}
+#app-mount .header-13Cw0- {
+  padding: var(--spacing);
+  font-size: var(--font-size);
+  color: var(--text-default);
+}
+#app-mount .headerFull-1dyyvV {
+  grid-template-columns: var(--avatar-size) minmax(20px, auto) 24px;
+  height: auto;
+  grid-gap: var(--spacing);
+}
+#app-mount .wrapper-3D2qGf {
+  background: transparent;
+  border-radius: 0;
+  border-top: 1px solid var(--border-colour);
+  padding: var(--spacing);
+  margin: 0;
+  cursor: default;
+}
+#app-mount .wrapper-3D2qGf:hover {
+  background: var(--background-modifier-hover);
+}
+#app-mount .wrapper-3D2qGf.active-1xchHY {
+  background: rgb(var(--accent));
+}
+#app-mount .wrapper-3D2qGf.active-1xchHY .colorHeaderSecondary-3Sp3Ft,
+#app-mount .wrapper-3D2qGf.active-1xchHY .size16-1P40sf {
+  color: var(--white);
+}
+#app-mount .wrapper-3D2qGf:last-child {
+  border-bottom: 1px solid var(--border-colour);
+}
+#app-mount .inset-3sAvek {
+  background: var(--background-dark);
+  border: 1px solid var(--border-colour);
+  margin-top: var(--spacing);
+  border-radius: var(--border-radius);
+}
+#app-mount .separator-XqIyoz {
+  background: var(--border-colour);
+}
+#app-mount .section-2gLsgF {
+  padding: var(--spacing);
+}
+#app-mount .voiceSection-1uiU7a {
+  grid-gap: var(--spacing);
+}
+#app-mount .voiceSectionAssets-1gjfmz {
+  border-radius: 0;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+}
+#app-mount .voiceSectionGuildImage-3HwnfL,
+#app-mount .voiceSectionNoGuildImageWrapper-TicZR3 {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  -webkit-mask: none;
+  mask: none;
+  border-radius: var(--border-radius);
+}
+#app-mount .voiceSectionIconWrapper-FO7UEY {
+  bottom: -1px;
+  right: -1px;
+  background: var(--background-dark);
+  border-radius: var(--border-radius) 0 0;
+}
+#app-mount .voiceSectionDetails-2DQTfs {
+  cursor: default;
 }
 #app-mount .container-3Mxszk {
   background: var(--background-alt);
@@ -2954,7 +3014,7 @@ html {
   border-left-width: 4px;
   border-right-width: 3px;
   background-clip: padding-box;
-  background-color: var(--channel-scrollbar);
+  background-color: var(--scrollbar-background);
 }
 #app-mount .container-3Mxszk .scroller-1IIF0A:hover {
   overflow: overlay;
@@ -3540,7 +3600,6 @@ html {
   grid-area: info;
   flex: 1;
   margin-left: var(--spacing);
-  margin-bottom: var(--spacing);
 }
 #app-mount .headerText-2sdzFM>div {
   width: 100%;
@@ -4239,7 +4298,7 @@ html {
 #app-mount .channelName-1JRO3C {
   background: var(--background);
   padding: var(--spacing);
-  line-height: 1.5;
+  line-height: var(--line-height);
 }
 #app-mount .searchHeader-2XoQg7 {
   box-shadow: none;
@@ -6095,12 +6154,14 @@ html.theme-light #app-mount .wrapper-2ZbzR9 {
   --button-colour: var(--discord-red);
 }
 .theme-light #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:hover,
-.theme-light #app-mount .secondaryButton-BIo-2g:hover {
+.theme-light #app-mount .secondaryButton-BIo-2g:hover,
+.theme-light #app-mount .actionButton-uPB8Fs:hover {
   background: var(--background);
   border: 1px solid var(--secondary-border-color);
 }
 .theme-light #app-mount .colorPrimary-3b3xI6.lookLink-9FtZy-:focus,
-.theme-light #app-mount .secondaryButton-BIo-2g:focus {
+.theme-light #app-mount .secondaryButton-BIo-2g:focus,
+.theme-light #app-mount .actionButton-uPB8Fs:focus {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05) !important;
   border: 1px solid var(--secondary-border-color) !important;
 }

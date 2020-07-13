@@ -2,23 +2,32 @@
   .messages-3amgkR,
   .messagesPopout-24nkyi,
   .listWrapper-3kgtQ0 .scroller-2FKFPG,
-  .contentWrapper-SvZHNd .scroller-2FKFPG {
+  .contentWrapper-SvZHNd .scroller-2FKFPG,
+  .container-1D34oG .scrollerBase-289Jih {
     &::-webkit-scrollbar {
       width: 4px;
       display: none;
       background: transparent !important;
+      box-shadow: -1px 0 0 var(--border-colour);
+      position: absolute;
     }
     &::-webkit-scrollbar-track-piece {
       background: transparent;
       border-color: transparent;
     }
     &::-webkit-scrollbar-thumb {
-      background-color: var(--channel-scrollbar);
+      background-color: var(--scrollbar-background);
       border-radius: 0;
       border: none;
-      &:active {
-        background-color: var(--background-modifier-active);
+      &:hover {
+        background-color: var(--scrollbar-background-hover);
       }
+      &:active {
+        background-color: var(--scrollbar-background-active);
+      }
+    }
+    &::-webkit-scrollbar-button {
+      display: none;
     }
     &:hover {
       overflow: overlay;

@@ -85,6 +85,9 @@
   }
   .expandedFolderBackground-2sPsd- {
     background: var(--background-light);
+    &.collapsed-1GMuSb {
+      background: transparent;
+    }
   }
   .wrapper-25eVIn {
     border-radius: var(--border-radius);
