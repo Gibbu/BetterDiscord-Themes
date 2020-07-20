@@ -130,7 +130,7 @@
       left: calc(var(--sidebar-width) + var(--container));
       width: 100vw;
       height: 100vh;
-      background: rgba(0,0,0,0.5);
+      background: var(--backdrop);
       z-index: -1;
       pointer-events: none;
     }

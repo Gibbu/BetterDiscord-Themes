@@ -162,4 +162,25 @@
       }
     }
   }
+
+  // User Limit
+  .wrapper-pZmgj4 {
+    color: var(--text-default);
+    background: var(--background-dark);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-colour);
+  }
+  .users-i_3-kL {
+    background: transparent;
+    padding: 0 var(--spacing-half);
+    width: auto;
+  }
+  .total-3tKGEB {
+    background: transparent;
+    padding: 0 var(--spacing-half);
+    width: auto;
+    border-left: 1px solid var(--border-colour);
+    position: unset;
+    color: var(--text-focus);
+  }
 }

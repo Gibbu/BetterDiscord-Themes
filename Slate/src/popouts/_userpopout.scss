@@ -14,8 +14,8 @@
       z-index: 1;
     }
     .wrapper-3t9DeA {
-      width: var(--avatar-size-xlg) !important;
-      height: var(--avatar-size-xlg) !important;
+      width: var(--avatar-size-lg) !important;
+      height: var(--avatar-size-lg) !important;
     }
     .discriminator {
       font-size: var(--font-size-sm);
@@ -71,7 +71,7 @@
     position: relative;
     z-index: 1;
     margin-right: 0;
-    color: var(--white);
+    color: var(--text-default);
   }
   .actionButton-VzECiy {
     position: absolute;
@@ -101,6 +101,7 @@
     border-bottom: 1px solid var(--border-colour);
   }
   .headerTop-3C2Zn0 {
+    background: var(--background-dark);
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-areas: "avatar info" "status status" "last last" "join join" "date date";
@@ -118,10 +119,14 @@
     }
   }
   .headerNormal-T_seeN,
-  .headerPlaying-j0WQBV,
-  .headerSpotify-zpWxgT,
-  .headerStreaming-2FjmGz {
+  .headerSpotify-zpWxgT {
     background: var(--background-dark);
+  }
+  .headerPlaying-j0WQBV {
+    background: rgba(var(--accent), 0.1);
+  }
+  .headerStreaming-2FjmGz {
+    background: rgba(var(--discord-twitch), 0.1);
   }
   .avatarWrapper-3H_478 {
     grid-area: avatar;
@@ -146,11 +151,13 @@
     background: transparent;
     position: relative;
     border-top: 1px solid var(--border-colour);
+    padding: var(--spacing);
   }
   .customStatus-1bh2V9 {
     margin-top: var(--spacing);
     grid-area: status;
     text-align: left;
+    color: var(--text-default);
   }
   .customStatusSoloEmoji-XOvnMc {
     height: var(--avatar-size);
@@ -172,7 +179,8 @@
   .lastMessageDate {
     grid-area: last;
   }
-  .actionsStreamPreview-2JlX14, .actionsUserPopout-2MrzCa, .listeningActionsUserPopout-Ga2V_N {
+  .actionsStreamPreview-2JlX14,
+  .listeningActionsUserPopout-Ga2V_N {
     position: absolute;
     bottom: calc((var(--item-height) / -1) - 2px);
     left: 0;
@@ -256,6 +264,7 @@
   }
   .text-AOoUen {
     font-size: var(--font-size-sm);
+    color: var(--text-default);
   }
   .textLeft-3EZXG6 {
     flex: 0 !important;
@@ -272,8 +281,11 @@
       display: none;
     }
   }
+  .bodyInnerWrapper-Z8WDxe {
+    padding-right: 0;
+  }
   .note-3HfJZ5 {
-    margin: 0 var(--spacing);
+    margin: 0 var(--spacing) var(--spacing);
     textarea {
       box-sizing: border-box;
       background-color: var(--background-dark);
@@ -281,10 +293,8 @@
       border-radius: var(--border-radius);
       transform: translateZ(0);
       max-height: calc(var(--input-height) * 2);
-      padding: var(--spacing);
-      &::placeholder {
-        position: absolute;
-      }
+      padding: var(--spacing-half);
+      line-height: var(--line-height);
       &:focus {
         border: 1px solid var(--accent-solid);
         box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
@@ -298,7 +308,10 @@
   .footer-1fjuF6 {
     border: none;
     background: transparent;
-    padding: var(--spacing) 0 0;
+    padding: 0;
+  }
+  .inputWrapper-31_8H8 {
+    padding: 0 var(--spacing) var(--spacing);
   }
   .quickMessage-1yeL4E {
     box-sizing: border-box;

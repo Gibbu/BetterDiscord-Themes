@@ -28,7 +28,7 @@
       padding-bottom: var(--spacing);
     }
     .avatar-1BDn8e {
-      border-radius: calc(var(--border-radius) / 1.5);
+      border-radius: calc(var(--border-radius) / 1.5) !important;
       box-shadow: 0 0 0 1px var(--border-colour);
       top: var(--spacing);
       left: var(--spacing);
@@ -36,8 +36,18 @@
       height: var(--avatar-size) !important;
       transition: 100ms ease box-shadow;
       background-color: var(--background-light);
+      position: absolute;
+      overflow: hidden !important;
       &:hover {
         box-shadow: 0 0 0 1px var(--accent-solid);
+      }
+    }
+    .wrapper-3t9DeA {
+      width: var(--avatar-size) !important;
+      height: var(--avatar-size) !important;
+      img {
+        border-radius: 0;
+        clip-path: none;
       }
     }
     .header-23xsNx {

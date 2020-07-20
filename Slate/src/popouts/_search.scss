@@ -78,7 +78,7 @@
     left: var(--base-left);
     width: calc(100vw - 320px - var(--base-left));
     height: 100vh;
-    background: rgba(0,0,0,0.5);
+    background: var(--backdrop);
     display: block;
     pointer-events: none;
   }

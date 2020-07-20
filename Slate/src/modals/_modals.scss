@@ -1,4 +1,8 @@
 #app-mount {
+  .backdrop-1wrmKB {
+    background: var(--backdrop) !important;
+    opacity: 1 !important;
+  }
   .modal-3c3bKg {
     transform: none !important;
     opacity: 1 !important;
@@ -9,7 +13,7 @@
   .modal-yWgWj- {
     background-color: var(--background);
     border-radius: var(--border-radius);
-    box-shadow: none;
+    box-shadow: var(--elevation-2);
     .header-2tA9Os {
       padding: var(--spacing-double);
       border-bottom: 1px solid var(--border-colour);
