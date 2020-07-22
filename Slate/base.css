@@ -75,7 +75,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-  --slate-version: "Slate 0.0.39";
+  --slate-version: "Slate 0.0.40";
 }
 .theme-dark {
   --border-colour: #141414;
@@ -4127,6 +4127,9 @@ html {
   font-size: var(--font-size);
   color: var(--text-muted);
 }
+#app-mount .drawerSizingWrapper-17Mss4 {
+  min-width: 430px !important;
+}
 #app-mount .emojiPicker-3PwZFl {
   height: 442px;
   grid-template-rows: 46px auto 48px;
@@ -4291,6 +4294,9 @@ html {
 #app-mount .guildCategorySeparator-_An-MP {
   margin: var(--spacing) 0;
   border-bottom-color: var(--border-colour);
+}
+#app-mount .container-2jxBbw, #app-mount .results-3i9FaE {
+  height: 398px;
 }
 #app-mount .listItems-1uJgMC {
   margin-left: -8px;
@@ -5570,7 +5576,8 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 #bd-settingspane-container .bd-controls {
   padding: 0 var(--spacing-double);
 }
-#app-mount .backdrop-1wrmKB {
+#app-mount .backdrop-1wrmKB,
+#app-mount .backdropWithLayer-3_uhz4 {
   background: var(--backdrop) !important;
   opacity: 1 !important;
 }
@@ -5765,7 +5772,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   border-top: 1px solid var(--border-colour);
   display: grid;
   grid-template-columns: var(--avatar-size-xlg) 1fr auto auto;
-  grid-gap: var(--spacing);
+  grid-gap: var(--spacing-double);
 }
 #app-mount .header-QKLPzZ+div {
   display: flex;
@@ -5774,9 +5781,13 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 #app-mount .activityProfile-2bJRaP {
   position: relative;
+  order: 2;
 }
 #app-mount .activity-1ythUs {
   border-top: 1px solid var(--border-colour);
+}
+#app-mount .activity-1ythUs:not(.activityProfile-2bJRaP) {
+  order: 3;
 }
 #app-mount .assetsLargeImageActivityFeed-25vA7H,
 #app-mount .assetsLargeImageActivityFeedXbox-3Tr-tf,
@@ -5811,13 +5822,14 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 #app-mount .tabBarContainer-1s1u-z {
   padding-left: var(--spacing-double);
   border: none;
+  order: 3;
 }
 #app-mount .tabBar-2MuP6- {
   height: auto;
 }
 #app-mount .tabBarItem-1b8RUP {
   margin-left: 0;
-  padding: 0 0 var(--spacing) 0;
+  padding: 0 0 var(--spacing);
   margin-right: var(--spacing);
   font-size: var(--font-size);
   font-weight: var(--font-weight-light);
@@ -5831,7 +5843,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   color: var(--text-default) !important;
   border-color: var(--text-default) !important;
 }
-#app-mount .tabBarItem-1b8RUP[style*="color: rgb(255, 255, 255)"] {
+#app-mount .tabBarItem-1b8RUP[style*="color: rgb(255, 255, 255)"], #app-mount .tabBarItem-1b8RUP.selected-3s45Ha {
   color: var(--text-focus) !important;
   border-color: var(--text-focus) !important;
 }
@@ -5841,7 +5853,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 }
 #app-mount .infoScroller-3EYYns,
 #app-mount .listScroller-2_vlfo {
-  padding: 0;
+  padding: 0 1px 0 0 !important;
 }
 #app-mount .userInfoSection-2acyCx {
   border: none;
@@ -6047,6 +6059,7 @@ html.theme-light #app-mount .wrapper-2ZbzR9 {
 #app-mount .modal-1sor29 {
   min-height: auto;
   color: var(--text-default);
+  box-shadow: var(--elevation-2);
 }
 #app-mount .modal-1sor29 .header-2tA9Os {
   padding: var(--spacing-double);
@@ -6206,6 +6219,10 @@ html.theme-light #app-mount .wrapper-2ZbzR9 {
 #app-mount .protip-1b9XPC {
   padding: var(--spacing);
   border-color: var(--border-colour);
+}
+#app-mount .downloadLink-1ywL9o {
+  opacity: 1;
+  text-shadow: var(--elevation-2);
 }
 #app-mount .lookFilled-1Gx00P,
 #app-mount .lookInverted-2D7oAl,
