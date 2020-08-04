@@ -12,12 +12,13 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6 {
   top: unset !important;
   bottom: var(--server-container) !important;
 }
-body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)+.base-3dtUhz {
+body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
   top: 0 !important;
   bottom: calc(var(--server-container) * 2) !important;
 }
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
-  top: calc(var(--server-size) - 12px) !important;
+  top: unset !important;
+  bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px) !important;
 }
 body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] span {
   border-radius: 4px 0 0 4px;
@@ -33,6 +34,7 @@ body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
   top: unset !important;
   bottom: -10px !important;
 }
+
 html.platform-osx #app-mount .base-3dtUhz {
   top: 32px !important;
 }
