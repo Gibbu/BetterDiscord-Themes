@@ -8,20 +8,17 @@
  * @website https://www.gibbu.me
 */
 
-// @import url("https://gibbu.github.io/BetterDiscord-Themes/Slate/base.css");
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
 
 :root {
 
-  /* Slate variables */
-  --accent: 3, 102, 214; /* This affects: Mentions, select channel/dm, unread channel | 3, 102, 214 */
-  --link-colour: 39, 138, 250; /* Colour of website urls / links */
-  --chat-font-size: 12px; /* Font size for chat | DEAFULT: 12px; */
+  --accent: 3, 102, 214;
+  --link-colour: 39, 138, 250;
+  --chat-font-size: 12px;
 
-  /* Adjustable Server Width variables  */
-  --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
-  --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
-  --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
+  --server-icon-size: 35px;
+  --server-icon-spacing: 8px;
+  --server-container-padding: 10px;
 }
 
 @import 'root';

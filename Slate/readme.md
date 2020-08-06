@@ -1,3 +1,3 @@
 ### Slate - [Download](https://betterdiscord.net/ghdl?id=3192)
-GitHub Desktop meets Discord
-![Server Chat](https://i.imgur.com/ZVkkeOZ.jpg)
+Github Desktop meets Discord. Supports both Light and Dark themes.
+![Server Chat](https://i.imgur.com/wAZpUfQ.jpeg)

@@ -108,6 +108,10 @@
     }
   }
   .compact-T3H92H {
+    .contents-2mQqc9 {
+      margin-left: -105px;
+      padding-left: -105px;
+    }
     .emoji {
       width: calc(var(--font-size) * 1.6);
       height: calc(var(--font-size) * 1.6);
@@ -119,11 +123,15 @@
   }
   .groupStart-23k01U {
     border-top: 1px solid var(--border-colour);
-    padding-top: var(--spacing);
     min-height: auto;
-    .username-1A8OIy,
-    h2 {
+    .username-1A8OIy, h2 {
       line-height: normal;
+    }
+    &.cozy-3raOZG {
+      padding-top: var(--spacing);
+    }
+    &.compact-T3H92H {
+      margin-top: 0;
     }
   }
   .username-1A8OIy {

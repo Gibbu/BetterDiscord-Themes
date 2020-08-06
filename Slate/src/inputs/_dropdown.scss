@@ -18,6 +18,8 @@
   .css-1gnr91b-option {
     font-size: var(--font-size);
     padding: var(--spacing);
+    height: auto;
+    min-height: unset;
   }
   .css-1gnr91b-option {
     background: var(--background-modifier-hover);
