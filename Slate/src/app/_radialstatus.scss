@@ -1,10 +1,12 @@
 #app-mount {
   .wrapper-3t9DeA {
+    z-index: 1;
     svg:not(:root) {
       overflow: visible;
     }
     foreignObject {
       mask: none;
+      overflow: visible;
     }
     .dots-3Bkt3k circle {
       &:nth-child(1) {

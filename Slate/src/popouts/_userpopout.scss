@@ -16,6 +16,13 @@
     .wrapper-3t9DeA {
       width: var(--avatar-size-lg) !important;
       height: var(--avatar-size-lg) !important;
+      foreignObject[mask*="mobile"] {
+        width: calc(100% + 320px);
+        &:after {
+          width: 24px;
+          -webkit-mask-size: 16px;
+        }
+      }
     }
     .discriminator {
       font-size: var(--font-size-sm);
@@ -170,13 +177,13 @@
       margin-top: 0;
     }
   }
-  .creationDate {
+  .creationDate-CJwdKT {
     grid-area: date;
   }
-  .joinedAtDate {
+  .joinedAtDate-IawR02 {
     grid-area: join;
   }
-  .lastMessageDate {
+  .lastMessageDate-ocEw13 {
     grid-area: last;
   }
   .actionsStreamPreview-2JlX14,

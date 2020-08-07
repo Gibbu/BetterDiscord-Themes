@@ -3,10 +3,13 @@
   --border-radius: 3px;
   --button-border-radius: 2px;
   --accent-solid: rgba(var(--accent), 1);
-  --base-left: var(--container, 72px);
   --bd-blue: var(--accent-solid);
   --bd-blue-hover: rgb(var(--accent));
   --text-link: rgb(var(--link-colour, var(--accent)));
+
+  // No AdjustableServerWidth used variables
+  --noasw-base: var(--container, 72px);
+  --noasw-channel-header: var(--container, 0px);
 
   // Spacing
   --spacing-third: calc(var(--spacing) / 3);
@@ -103,5 +106,5 @@
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
 
-  --slate-version: "Slate 1.0.0";
+  --slate-version: "Slate 1.0.1";
 }

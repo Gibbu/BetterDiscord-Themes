@@ -12,6 +12,19 @@
       height: var(--avatar-size-xlg) !important;
       margin-right: var(--spacing) !important;
     }
+    .wrapper-3t9DeA {
+      z-index: 1;
+      foreignObject[mask*="mobile"] {
+        width: calc(100% + 600px);
+        &:before {
+          content: none;
+        }
+        &:after {
+          top: -20px;
+          width: 16px;
+        }
+      }
+    }
     // Top bar (User name, badges, send message, more...) to overwtite previous importants
     .nameTag-m8r81H {
       margin-right: var(--spacing);
@@ -114,10 +127,6 @@
   }
   .profileBadgeWrapper-rl_RO6 {
     margin-right: var(--spacing-half);
-  }
-  .wrapper-3t9DeA {
-    position: relative;
-    z-index: 1;
   }
   // Header
   .header-QKLPzZ {

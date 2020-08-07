@@ -11,7 +11,7 @@
 		position: absolute;
 		left: calc(var(--container) * -1);
 		top: calc(var(--toolbar-height) * -1);
-		width: calc(var(--sidebar-width) + var(--container));
+		width: calc(var(--sidebar-width) + var(--noasw-channel-header));
 		box-sizing: border-box;
 		padding: 0 var(--spacing);
 		button {
