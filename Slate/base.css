@@ -76,7 +76,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-  --slate-version: "Slate 1.0.1";
+  --slate-version: "Slate 1.0.2";
 }
 .theme-dark {
   --border-colour: #141414;
@@ -5702,7 +5702,7 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
   content: none;
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
-  top: -20px;
+  top: 0px;
   width: 16px;
 }
 #app-mount .root-SR8cQa .nameTag-m8r81H {
@@ -6671,6 +6671,16 @@ body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .textScroller-dc9_k
 }
 body.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ .guildSeparator-3s64Iy {
   margin-top: 8px;
+}
+#app-mount .buttonContainer-28fw2U.send-button button {
+  display: block !important;
+}
+#app-mount .buttons-3JBrkn>button.button-38aScr.colorBrand-3pXr91:not(.noFocus-2C7BQj):first-child {
+  display: block !important;
+}
+#app-mount .cozy-3raOZG .wrapper-3t9DeA.avatar-1BDn8e {
+  box-shadow: none !important;
+  overflow: visible !important;
 }
 @keyframes growIn {
   from {
