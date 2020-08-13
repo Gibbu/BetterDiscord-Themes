@@ -26,7 +26,7 @@
   box-shadow: none;
   top: var(--titlebar-height);
   left: 0;
-  width: calc(var(--sidebar-width) + var(--base-left));
+  width: calc(var(--sidebar-width) + var(--noasw-base));
   border-right: 1px solid var(--border-colour);
   height: calc(100vh - var(--titlebar-height));
   border-radius: 0;

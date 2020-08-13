@@ -182,6 +182,10 @@ html.platform-osx #app-mount {
   .base-3dtUhz {
     top: calc(var(--server-container) + 30px) !important;
   }
+  #pluginNotice {
+    top: 32px;
+    z-index: 100000 !important;
+  }
 }
 
 

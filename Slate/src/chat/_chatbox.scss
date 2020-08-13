@@ -22,12 +22,14 @@
   // Attach files
   .attachWrapper-2TRKBi {
     border-right: 1px solid var(--border-colour);
+    width: 44px;
     button {
       -webkit-mask: url($icon_upload) center/14px no-repeat;
       background: var(--text-muted);
       width: 44px;
       height: var(--input-height);
       cursor: default;
+      margin-left: 0;
       div {
         display: none;
       }
