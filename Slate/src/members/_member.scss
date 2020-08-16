@@ -1,4 +1,4 @@
-#app-mount .members-1998pB .member-3-YXUe {
+#app-mount .member-3-YXUe {
   padding: 0;
   margin: 0;
   max-width: 100%;
@@ -28,7 +28,7 @@
   }
   .activity-2Gy-9S {
     font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-normal);
     color: var(--text-muted);
   }
   .botTag-3W9SuW:not(.tag-wWVHyf) {
@@ -74,6 +74,17 @@
     }
     .activity-2Gy-9S, .roleColor-rz2vM0 {
       color: #fff !important;
+    }
+  }
+
+  &.placeholder-3X_lzF {
+    padding: 0 var(--spacing);
+    .placeholderAvatar-damqh6 {
+      border-radius: var(--border-radius);
+      border: 1px solid var(--border-colour);
+      width: var(--avatar-size-sm);
+      height: var(--avatar-size-sm);
+      background: var(--background-dark);
     }
   }
 }

@@ -52,6 +52,10 @@
     z-index: 1;
   }
   // Channel
+  .mainContent-ENyL1r,
+  .voiceUser-14U_Ns {
+    cursor: default;
+  }
   .content-3at_AU {
     margin: 0;
     padding: 0 var(--spacing);
@@ -106,7 +110,6 @@
       margin: 0;
       height: 100%;
       padding-left: calc(var(--spacing) * 2.5);
-      cursor: default;
     }
     .voiceUser-14U_Ns {
       border-radius: 0;

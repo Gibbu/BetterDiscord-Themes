@@ -19,7 +19,7 @@
     max-width: 960px;
     min-height: 400px;
     position: fixed;
-    top: 50%;
+    top: calc(50% + (var(--titlebar-height) / 2));
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 56px;
@@ -36,6 +36,14 @@
       left: 0;
       padding: var(--spacing-double);
       box-sizing: border-box;
+    }
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+    .standardSidebarView-3F1I7i {
+      min-height: 500px;
     }
   }
 }

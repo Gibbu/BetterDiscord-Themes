@@ -1,6 +1,9 @@
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
   padding-top: 8px;
 }
+.scroller-2TZvBN::-webkit-scrollbar {
+  display: none;
+}
 .wrapper-1Rf91z {
   background-color: var(--bg6) !important;
   .folder-21wGz3 {

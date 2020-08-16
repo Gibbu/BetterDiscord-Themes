@@ -205,7 +205,8 @@
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
 #app-mount .quickswitcher-3JagVE,
 #app-mount .root-1gCeng.wrapper-2ZbzR9,
-#app-mount .modalRoot-1Kx4Hb {
+#app-mount .modalRoot-1Kx4Hb,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -225,7 +226,8 @@
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
 #app-mount .quickswitcher-3JagVE:before,
 #app-mount .root-1gCeng.wrapper-2ZbzR9:before,
-#app-mount .modalRoot-1Kx4Hb:before {
+#app-mount .modalRoot-1Kx4Hb:before,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
@@ -558,18 +560,18 @@
   background-color: transparent;
   text-shadow: 0 2px 5px rgba(0, 0, 0, var(--text-shadow));
 }
-#app-mount .newMessagesBar-mujexs {
+#app-mount .newMessagesBar-265mhP {
   background: var(--gradient);
   opacity: 1;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
-#app-mount .jumpToPresentBar-9P20AM {
+#app-mount .jumpToPresentBar-G1R9s6 {
   border-radius: 8px;
   background-color: var(--white-double);
   padding-bottom: 0;
   bottom: 10px;
 }
-#app-mount .jumpToPresentBar-9P20AM:hover {
+#app-mount .jumpToPresentBar-G1R9s6:hover {
   background-color: var(--white-triple);
 }
 #app-mount .cozy-3raOZG .header-23xsNx {

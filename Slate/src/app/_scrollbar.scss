@@ -1,12 +1,12 @@
 #app-mount {
-  .messages-3amgkR,
   .messagesPopout-24nkyi,
   .listWrapper-3kgtQ0 .scroller-2FKFPG,
   .contentWrapper-SvZHNd .scroller-2FKFPG,
   .container-1D34oG .scrollerBase-289Jih,
   .scroller-zPkAnE,
   .infoScroller-3EYYns,
-  .listScroller-2_vlfo {
+  .listScroller-2_vlfo,
+  .scroller-2LSbBU {
     &::-webkit-scrollbar {
       width: 4px;
       display: none;
@@ -29,11 +29,12 @@
         background-color: var(--scrollbar-background-active);
       }
     }
-    &::-webkit-scrollbar-button {
-      display: none;
+    &::-webkit-scrollbar-button,
+    &::-webkit-scrollbar-corner {
+      display: none !important;
     }
     &:hover {
-      overflow: overlay;
+      overflow: overlay !important;
       &::-webkit-scrollbar {
         display: block;
       }

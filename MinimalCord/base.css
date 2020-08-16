@@ -1378,6 +1378,10 @@ html.theme-light .wrapper-2ZbzR9 .slide-2pHaq5 .footer-3rDWdC {
   background: var(--message-box);
   box-shadow: var(--box-shadow);
 }
+#app-mount .wrapper-3vR61M,
+#app-mount .wrapper-1F5TKx {
+  background: transparent;
+}
 #app-mount .chat-3bRxxu {
   background: var(--background-1);
 }

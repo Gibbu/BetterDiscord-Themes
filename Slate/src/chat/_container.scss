@@ -1,7 +1,12 @@
 #app-mount .chat-3bRxxu {
   background: var(--background-alt);
+
+  // Message spacing
+  .scrollerSpacer-avRLaA {
+    display: none;
+  }
   // Old messages
-  .jumpToPresentBar-9P20AM {
+  .jumpToPresentBar-G1R9s6 {
     opacity: 1;
     left: 0;
     right: 0;
@@ -25,7 +30,7 @@
     }
   }
   // New messages
-  .newMessagesBar-mujexs {
+  .newMessagesBar-265mhP {
     left: 0;
     right: 0;
     border-radius: 0;
@@ -131,3 +136,9 @@
     }
   }
 }
+
+
+
+// .scrollerInner-2YIMLh > .message-2qnXI6 {
+//   display: none;
+// }
