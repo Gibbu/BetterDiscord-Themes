@@ -2551,3 +2551,7 @@ html.theme-light #app-mount:after {
   content: "SimplyDark v2.0.1 by Gibbu";
   display: block;
 }
+#app-mount .contentRegionScroller-26nc1e,
+#app-mount .sidebarRegionScroller-3MXcoP {
+  background: transparent;
+}

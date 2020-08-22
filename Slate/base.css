@@ -3506,6 +3506,7 @@ html {
   max-width: 200px;
   position: relative;
   top: 1px;
+  z-index: 1;
 }
 #app-mount #status-picker .scroller-3BxosC {
   padding: 0;
@@ -4129,8 +4130,8 @@ html {
 #app-mount .submenu-2-ysNh .item-1tOPte.colorBrand-ROmMP1 {
   color: rgb(var(--discord-blurple));
 }
-#app-mount .styleFlexible-wGDiIL #user-context-user-volume,
-#app-mount .submenu-2-ysNh #user-context-user-volume {
+#app-mount .styleFlexible-wGDiIL .item-1tOPte.hideInteraction-1iHO1O,
+#app-mount .submenu-2-ysNh .item-1tOPte.hideInteraction-1iHO1O {
   height: auto;
   padding: 0;
 }
@@ -6215,7 +6216,7 @@ html.theme-light #app-mount .wrapper-2ZbzR9 {
   position: fixed;
   top: var(--titlebar-height);
   left: 0;
-  width: calc(var(--base-left) + var(--sidebar-width));
+  width: calc(var(--noasw-base) + var(--sidebar-width));
   height: calc(100vh - var(--titlebar-height));
 }
 #app-mount .quickswitcher-3JagVE {

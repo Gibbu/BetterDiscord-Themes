@@ -3,7 +3,7 @@
     position: fixed;
     top: var(--titlebar-height);
     left: 0;
-    width: calc(var(--base-left) + var(--sidebar-width));
+    width: calc(var(--noasw-base) + var(--sidebar-width));
     height: calc(100vh - var(--titlebar-height));
   }
   .quickswitcher-3JagVE {
