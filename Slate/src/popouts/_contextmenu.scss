@@ -85,8 +85,13 @@
         border-radius: 0 0 var(--border-radius) var(--border-radius);
       }
     }
-    .submenuPaddingContainer-fiOCHc {
-      margin-left: -4px;
+    .layer-v9HyYc {
+      &[style*="right"] {
+        margin-right: -4px;
+      }
+      &[style*="left"] {
+        margin-left: -4px;
+      }
     }
   }
 }

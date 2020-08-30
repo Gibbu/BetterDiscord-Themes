@@ -76,7 +76,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-  --slate-version: "Slate 1.0.3";
+  --slate-version: "Slate 1.0.4";
 }
 .theme-dark {
   --border-colour: #141414;
@@ -1378,6 +1378,9 @@ html {
   color: rgba(var(--discord-red));
   border-right: 1px solid var(--border-colour);
   box-sizing: border-box;
+}
+#app-mount .sidebar-2K8pFh .bar-30k2ka.unread-1xRYoj {
+  color: var(--text-default);
 }
 #app-mount .sidebar-2K8pFh .bar-30k2ka[aria-hidden=true] {
   display: none;
@@ -2976,6 +2979,7 @@ html {
 #app-mount .userInfo-2zN2z8 {
   overflow: visible;
   width: 100%;
+  flex: 1;
 }
 #app-mount .text-37NqbO {
   display: grid;
@@ -3724,6 +3728,21 @@ html {
 #app-mount .headerPlaying-j0WQBV {
   background: rgba(var(--accent), 0.1);
 }
+#app-mount .headerPlaying-j0WQBV .activity-11LB_k>.buttonsWrapper-2eYbM0 {
+  margin-top: 0;
+  padding-top: calc(var(--spacing-triple) + 4px);
+  position: relative;
+}
+#app-mount .headerPlaying-j0WQBV .activity-11LB_k>.buttonsWrapper-2eYbM0>.listeningActionsUserPopout-Ga2V_N {
+  height: var(--item-height);
+  position: absolute;
+  top: var(--spacing);
+  left: calc(var(--spacing) / -1);
+  width: calc(100% + var(--spacing-double));
+  border-bottom: none;
+  border-top: 1px solid var(--border-colour);
+  background: var(--background);
+}
 #app-mount .headerStreaming-2FjmGz {
   background: rgba(var(--discord-twitch), 0.1);
 }
@@ -3781,7 +3800,7 @@ html {
 #app-mount .actionsStreamPreview-2JlX14,
 #app-mount .listeningActionsUserPopout-Ga2V_N {
   position: absolute;
-  bottom: calc((var(--item-height) / -1) - 2px);
+  bottom: calc(var(--item-height) / -1);
   left: 0;
   width: 100%;
   box-sizing: border-box;
@@ -4163,7 +4182,10 @@ html {
 #app-mount .submenuContainer-2gbm7M .scroller-3BxosC .item-1tOPte:last-child {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
-#app-mount .submenuContainer-2gbm7M .submenuPaddingContainer-fiOCHc {
+#app-mount .submenuContainer-2gbm7M .layer-v9HyYc[style*=right] {
+  margin-right: -4px;
+}
+#app-mount .submenuContainer-2gbm7M .layer-v9HyYc[style*=left] {
   margin-left: -4px;
 }
 #app-mount .autocomplete-1vrmpx {

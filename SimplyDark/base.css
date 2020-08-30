@@ -27,8 +27,7 @@
   --purpleDark: #432870;
   --blurple: #7289da;
   --nitro: #ff73fa;
-  --HSL-btns: calc(var(--HSL-size) + 20px);
-  --HSL-btns-SF-opened: calc(var(--HSL-btns) + 55px);
+  --TB-position-top: calc(var(--server-size) + 20px);
 }
 .platform-win .wrapper-1Rf91z .scroller-2TZvBN {
   padding-top: 8px;

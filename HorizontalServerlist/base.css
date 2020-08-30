@@ -11,6 +11,13 @@
 #app-mount .sidebar-2K8pFh {
   border-radius: 0;
 }
+#app-mount [class*=unreadMentionsIndicator] {
+  width: var(--server-size);
+  padding: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+}
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ {
   transform-origin: top left;
   transform: rotate(-90deg);
@@ -24,8 +31,14 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scrollerWrap-1IAIlv {
   width: calc(100% + 30px);
 }
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
+  padding-top: 0 !important;
+}
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh) {
   height: auto !important;
+}
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh)[style*="height: 0px"] {
+  padding-top: 1px;
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .svg-1X37T1,
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .wrapper-25eVIn,

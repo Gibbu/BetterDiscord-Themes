@@ -131,6 +131,21 @@
   }
   .headerPlaying-j0WQBV {
     background: rgba(var(--accent), 0.1);
+    .activity-11LB_k > .buttonsWrapper-2eYbM0 {
+      margin-top: 0;
+      padding-top: calc(var(--spacing-triple) + 4px);
+      position: relative;
+      & > .listeningActionsUserPopout-Ga2V_N {
+        height: var(--item-height);
+        position: absolute;
+        top: var(--spacing);
+        left: calc(var(--spacing) / -1);
+        width: calc(100% + var(--spacing-double));
+        border-bottom: none;
+        border-top: 1px solid var(--border-colour);
+        background: var(--background);
+      }
+    }
   }
   .headerStreaming-2FjmGz {
     background: rgba(var(--discord-twitch), 0.1);
@@ -183,13 +198,16 @@
   .joinedAtDate-IawR02 {
     grid-area: join;
   }
+
+  // flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 wrap-ZIn9Iy buttonsWrapper-2eYbM0 actionsUserPopout-2MrzCa
+
   .lastMessageDate-ocEw13 {
     grid-area: last;
   }
   .actionsStreamPreview-2JlX14,
   .listeningActionsUserPopout-Ga2V_N {
     position: absolute;
-    bottom: calc((var(--item-height) / -1) - 2px);
+    bottom: calc(var(--item-height) / -1);
     left: 0;
     width: 100%;
     box-sizing: border-box;

@@ -28,6 +28,9 @@
     color: rgba(var(--discord-red));
     border-right: 1px solid var(--border-colour);
     box-sizing: border-box;
+    &.unread-1xRYoj {
+      color: var(--text-default);
+    }
     &[aria-hidden="true"] {
       display: none;
     }
