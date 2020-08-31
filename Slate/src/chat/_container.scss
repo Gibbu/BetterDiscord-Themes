@@ -72,14 +72,70 @@
     border-radius: 0;
   }
 }
-#app-mount .messages-3amgkR {
-  background: var(--background-alt);
+#app-mount .messagesWrapper-1sRNjr {
+  background: var(--background-alt);  
   .scrollerSpacer-1Rp0XE {
     height: 0;
   }
   // Welcome Message
   .container-3zqIcM {
-    padding: var(--spacing) var(--spacing) 0;
+    padding: var(--spacing-double) var(--spacing-double) 0;
+    .hasDivider-20M1le {
+      border:none;
+    }
+    .inner-3GZ54g {
+      max-width:600px;
+      &:before {
+        content:'';
+        width:100%;
+        height:200px;
+        background:var(--text-muted);
+        -webkit-mask: url($illustration_3) center/50% no-repeat;
+      }
+      .titleName-3-Lp3Z {
+        font-size:var(--font-size-xxl);
+        font-weight:var(--font-weight-ultralight);
+        p:first-child {
+          display:none;
+        }
+      }
+      .cardWrapper-2R6-SX {
+        .card-3RzMcx {
+          margin:0;
+          border-radius:0;
+          background:transparent;
+          border:1px solid var(--border-colour);
+          border-top:none;
+          padding:var(--spacing-double);
+          .arrow-3bRNiS {
+            color:var(--text-muted);
+          }
+          &:hover .arrow-3bRNiS {
+            color:var(--text-normal);
+          }
+          .checkmark-3rush5 {
+            background:transparent;
+            padding:0;
+            color:rgb(var(--discord-green));
+          }
+          .icon-2ou77m {
+            display:none;
+          }
+          .cardHeader-2Wz67Q {
+            margin:0;
+            font-size:var(--font-size);
+            font-weight:var(--font-weight-semibold);
+          }
+        }
+        &:nth-child(2) .card-3RzMcx {
+          border-top:1px solid var(--border-colour);
+          border-radius:3px 3px 0 0;
+        }
+        &:last-child .card-3RzMcx {
+          border-radius:0 0 3px 3px;
+        }
+      }
+    }
   }
 }
 

@@ -56,6 +56,9 @@
     line-height: unset;
     text-transform:none;
   }
+  .title-31JmR4 {
+    font-size: var(--font-size-lg);
+  }
   h5 {
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size);
@@ -101,14 +104,9 @@
       margin-right: 0;
     }
   }
-}
-// Options
-.divider-3573oO {
-  border: none;
-  background-color: var(--border-colour);
-}
-.title-31JmR4 {
-  font-size: var(--font-size-lg);
+  .divider-3573oO {
+    display:none;
+  }
 }
 
 @import 'usersettings';
