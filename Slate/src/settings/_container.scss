@@ -19,17 +19,18 @@
     height: 65vh;
     max-height:650px;
     min-height: 400px;
-    padding-top: 56px;
+    padding-top: 50px;
     &:before {
-      padding-left: 10px;
       content: "Options";
+      display:flex;
+      align-items:center;
       border-bottom: 1px solid var(--border-colour);
       width: 100%;
-      color: #fff;
+      height:50px;
       font-weight: var(--font-weight-semibold);
       color: var(--text-default);
       position: absolute;
-      top: -1px;
+      top: 0;
       left: 0;
       padding: var(--spacing-double);
       box-sizing: border-box;
