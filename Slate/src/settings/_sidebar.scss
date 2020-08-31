@@ -1,6 +1,11 @@
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .sidebarRegion-VFTUkN {
+  flex:unset;
+  .sidebarRegionScroller-3MXcoP {
+    flex:auto;
+  }
   .sidebar-CFHs9e {
     padding: var(--spacing) 0;
+    width:auto;
   }
   // Header (User settings/App settings)
   .header-2RyJ0Y {
@@ -19,15 +24,20 @@
     border-radius: var(--border-radius);
     color: var(--text-default);
     line-height:normal;
+    min-width:165px;
     cursor:default;
+    &:hover, &:active {
+      background-color:transparent;
+    }
     &.selected-3s45Ha, &[style*="background-color: rgb(114, 137, 218)"] {
       color: #fff;
+      background:rgb(var(--accent));
       &:before {
         background-color: #fff;
       }
     }
-    &:hover {
-      background-color:transparent;
+    &[style*="background-color: rgba(114, 137, 218, 0.1)"] {
+      background:transparent !important;
     }
   }
   // Socials

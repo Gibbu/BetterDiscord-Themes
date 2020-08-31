@@ -16,6 +16,9 @@
     color: var(--text-default);
     display: flex;
     align-items: center;
+    line-height:normal;
+    cursor:default;
+    min-width:165px;
     &:before {
       content: "";
       width: 16px;
@@ -45,7 +48,7 @@
       -webkit-mask: url($icon_code) center/cover no-repeat;
     }
     &:hover {
-      background: var(--background-modifier-hover);
+      background: transparent;
     }
     &.selected {
       color: #fff;

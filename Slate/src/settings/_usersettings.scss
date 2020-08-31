@@ -1,16 +1,6 @@
 #app-mount {
   // My Account
   .userSettingsAccount-2eMFVR {
-    h2 {
-      font-size: 0 !important;
-      display: flex;
-      align-items: center;
-      margin-bottom: var(--spacing-double);
-      &:after {
-        content: "Discord.com";
-        font-size: var(--font-size-xl);
-      }
-    }
     .cardPrimary-1Hv-to {
       background: transparent;
       border: none;
@@ -21,14 +11,23 @@
           width: 34px !important;
           height: 34px !important;
           border-radius: var(--border-radius);
-          border: 1px solid var(--border-colour);
+          border:1px solid var(--border-colour);
+          img {
+            clip-path:none;
+            -webkit-clip-path:none;
+          }
         }
       }
       h5 {
         display: none;
       }
       .marginBottom20-32qID7 {
-        margin-bottom: var(--spacing-half);
+        margin-bottom: 0;
+        +div .viewBody-2Qz-jg {
+          color:var(--text-muted);
+          font-weight:var(--font-weight-light);
+          font-style:italic;
+        }
       }
       .viewBody-2Qz-jg {
         pointer-events: none;
@@ -50,14 +49,26 @@
   }
   .userSettingsSecurity-3IYeMF {
     margin-top: var(--spacing-double);
-    .flexChild-faoVW3 {
-      margin-left: 0;
-    }
     h5 {
       margin-bottom: var(--spacing);
     }
-    .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-      margin-left: var(--spacing);
+    .children-rWhLdy {
+      .flexChild-faoVW3 {
+        margin: 0;
+        >div {
+          display:flex;
+          align-items:center;
+          .colorStandard-2KCXvj {
+            margin:0;
+          }
+        }
+        +.flex-1xMQg5 {
+          display:none;
+        }
+      }
+      .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+        margin-left: var(--spacing);
+      }
     }
   }
   .userInfoEditing-1CEzdT {

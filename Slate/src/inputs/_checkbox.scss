@@ -1,24 +1,31 @@
 #app-mount {
   .switch-3wwwcV,
   .bd-switch {
-    height: 14px;
-    width: 30px;
-    border-radius: var(--border-radius);
+    height: 20px;
+    width: 35px;
+    border-radius: 50px;
     overflow: visible;
     &:after {
       margin: 0;
-      border-radius: var(--border-radius);
-      width: 14px;
-      height: 14px;
-      box-shadow: none;
-      transform: translate3d(-1px,0,0);
-      box-shadow: var(--checkbox-box-shadow);
+      border-radius: 50px;
+      width: 15px;
+      height: 15px;
+      top:50%;
+      transform: translate3d(3px,-50%,0);
+      box-shadow:var(--elevation-1);
     }
     &.valueChecked-m-4IJZ, &.bd-switch-checked {
       background: var(--accent-solid);
       &:after {
-        transform: translate3d(16px,0,0);
+        transform: translate3d(17px,-50%,0);
       }
+    }
+    &:active:after {
+      width:15px;
+      left:unset;
+    }
+    &:active {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
     }
   }
   .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {

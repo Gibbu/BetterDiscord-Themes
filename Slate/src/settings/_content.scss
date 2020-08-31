@@ -1,7 +1,13 @@
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .contentRegion-3nDuYy {
+  flex:unset;
+  flex-grow:1;
   border-left: 1px solid var(--border-colour);
+  background:transparent;
   .contentColumnDefault-1VQkGM {
     padding: var(--spacing-double);
+    flex-grow:1;
+    max-width:unset;
+    min-width:unset;
   }
   // Close button
   .toolsContainer-1edPuj {
@@ -12,6 +18,7 @@
     display:flex;
     align-items:center;
     position: absolute;
+    margin:0;
     right: var(--spacing-double);
   }
   .tools-3-3s-N {
@@ -23,6 +30,18 @@
       flex: none;
       background: transparent;
       border-radius: 0;
+      color:var(--toolbar-text-muted);
+        svg {
+          color:inherit;
+          path {
+          d:path($path_close);
+          transform:scale(1.5) translateX(2px);
+          fill:currentColor;
+        }
+      }
+      &:hover {
+        color:var(--text-normal);
+      }
     }
     .keybind-KpFkfr {
       display: none;
@@ -31,15 +50,17 @@
   // Global rules
   h2 {
     font-weight: var(--font-weight-semibold);
-    font-size: var(--font-size-xl);
-    color: var(--text-focus);
-    margin-bottom: var(--spacing-double);
+    font-size: var(--font-size-lg);
+    color: var(--text-normal);
+    margin-bottom: var(--spacing);
     line-height: unset;
+    text-transform:none;
   }
   h5 {
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size);
     line-height: unset;
+    text-transform:none;
     &:not(.isEnabled-24g9qA) {
       color: var(--text-default);
     }
@@ -102,7 +123,8 @@
   background: rgb(var(--discord-yellow));
   padding: var(--spacing-third) var(--spacing-half);
   color: var(--white);
-  top: 23px;
+  height:12px;
+  margin-top:-9px;
+  top: 25px;
   left: 84px;
-  transform: translateY(-25%);
 }

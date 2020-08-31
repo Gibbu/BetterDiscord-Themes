@@ -15,7 +15,8 @@
   }
   .lookFilled-1Gx00P {
     color: var(--white);
-    background-color: rgb(var(--button-colour));
+    background-color: rgb(var(--accent));
+    margin-left:var(--spacing);
     &:hover {
       box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
     }
@@ -24,7 +25,11 @@
     }
   }
   .colorPrimary-3b3xI6.lookLink-9FtZy-,
-  .secondaryButton-BIo-2g {
+  .colorPrimary-3b3xI6.lookFilled-1Gx00P,
+  .lookInverted-2D7oAl,
+  .lookOutlined-3sRXeN,
+  .secondaryButton-BIo-2g,
+  .actionButton-uPB8Fs {
     color: var(--text-normal);
     background: var(--background-light);
     min-height: var(--input-height);
@@ -58,51 +63,15 @@
       opacity: 1;
     }
   }
-  .lookInverted-2D7oAl {
-    color: rgb(var(--button-colour));
-    background-color: var(--text-focus) !important;
-    border: 1px solid var(--text-focus);
-    &:hover {
-      border: 1px solid rgb(var(--button-colour));
-    }
-    &:focus {
-      border: 1px solid rgb(var(--button-colour));
-      box-shadow: 0 0 0 2px rgba(var(--button-colour), 0.25);
-    }
-  }
-  .lookOutlined-3sRXeN {
-    border: 1px solid rgb(var(--button-colour));
-    color: rgba(var(--button-colour), .75);
-    background: transparent;
-    &:hover {
-      color: rgb(var(--button-colour));
-    }
-    &:focus {
-      color: rgb(var(--button-colour));
-      box-shadow: 0 0 0 2px rgba(var(--button-colour), .25);
-    }
-  }
-  .colorBlack-1jwPVL,
-  .colorBrand-3pXr91,
-  .colorGreen-29iAKY,
-  .colorLink-35jkBc,
-  .colorPrimary-3b3xI6,
-  .colorWhite-rEQuAQ,
-  .colorYellow-2JqYwt {
-    --button-colour: var(--accent);
-  }
-  .colorGrey-2DXtkV {
-    --button-colour: var(--discord-invisible);
-  }
-  .colorRed-1TFJan {
-    --button-colour: var(--discord-red);
-  }
 }
 
 // Light mode buttons
 .theme-light {
   #app-mount {
     .colorPrimary-3b3xI6.lookLink-9FtZy-,
+    .colorPrimary-3b3xI6.lookFilled-1Gx00P,
+    .lookInverted-2D7oAl,
+    .lookOutlined-3sRXeN,
     .secondaryButton-BIo-2g,
     .actionButton-uPB8Fs {
       &:hover {
