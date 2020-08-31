@@ -18,6 +18,7 @@
     padding: var(--spacing);
     border-radius: var(--border-radius);
     color: var(--text-default);
+    line-height:normal;
     &.selected-3s45Ha, &[style*="background-color: rgb(114, 137, 218)"] {
       color: #fff;
       &:before {
