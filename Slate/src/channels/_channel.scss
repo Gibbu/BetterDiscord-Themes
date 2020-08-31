@@ -119,21 +119,10 @@
         border-radius: var(--border-radius);
         height: var(--avatar-size-xsm);
         width: var(--avatar-size-xsm);
+        border: 1px solid var(--border-colour);
         &.avatarSpeaking-3MqCHL {
-          box-shadow: none;
-        }
-      }
-      .usernameSpeaking-2xbKKh {
-        display: flex;
-        align-items: center;
-        &:after {
-          content: "";
-          display: block;
-          width: 14px;
-          height: 14px;
-          margin-left: var(--spacing);
-          -webkit-mask: url($icon_speaker) center/cover no-repeat;
-          background: currentColor;
+          border-color: rgb(var(--accent));
+          box-shadow: 0 0 0 2px rgba(var(--accent), .35);
         }
       }
       .icons-3q-_6z {
