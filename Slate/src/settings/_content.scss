@@ -7,20 +7,26 @@
   .toolsContainer-1edPuj {
     padding-top: 0;
     width: auto;
+    height:50px;
+    top: -50px;
+    display:flex;
+    align-items:center;
     position: absolute;
-    right: 25px;
-    top: -48px;
+    right: var(--spacing-double);
   }
-  .closeButton-1tv5uR {
-    border: none;
-    width: 36px;
-    height: 36px;
-    flex: none;
-    background: transparent;
-    border-radius: 0;
-  }
-  .keybind-KpFkfr {
-    display: none;
+  .tools-3-3s-N {
+    position:relative;
+    .closeButton-1tv5uR {
+      border: none;
+      width: 16px;
+      height: 16px;
+      flex: none;
+      background: transparent;
+      border-radius: 0;
+    }
+    .keybind-KpFkfr {
+      display: none;
+    }
   }
   // Global rules
   h2 {
