@@ -44,322 +44,327 @@
       font-weight: var(--font-weight-semibold);
       color: var(--text-normal);
     }
-  }
-  // Roles
-  .rolesList-22qj2L {
-    margin: 0;
-    padding: 0 var(--spacing);
-  }
-  .member-perm, .role-2irmRk {
-    border: none;
-    position: relative;
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    padding: var(--spacing-half);
-    height: auto;
-  }
-  .perm-circle, .roleCircle-3xAZ1j {
-    border-radius: var(--border-radius);
-    margin-right: var(--spacing-half);
-    &:before {
-      content: "";
+    // Roles
+    .rolesList-22qj2L {
+      margin: 0;
+      padding: 0 var(--spacing);
+    }
+    .member-perm,
+    .role-2irmRk {
+      border: none;
+      position: relative;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      padding: var(--spacing-half);
+      height: auto;
+    }
+    .perm-circle,
+    .roleCircle-3xAZ1j {
+      border-radius: var(--border-radius);
+      margin-right: var(--spacing-half);
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+        z-index: 0;
+        opacity: 0.2;
+        pointer-events: none;
+      }
+    }
+    .member-perm .name,
+    .roleName-32vpEy {
+      position: relative;
+      z-index: 1;
+      margin-right: 0;
+      color: var(--text-default);
+    }
+    .actionButton-VzECiy {
+      position: absolute;
+      top: var(--spacing-half);
+      right: var(--spacing-half);
+      margin: 0;
+    }
+    // Titles (Roles, Note ect...)
+    .bodyTitle-Y0qMQz {
+      color: var(--text-normal);
+      font-weight: var(--font-weight-semibold);
+      font-size: var(--font-size);
+      padding: var(--spacing);
+      margin-bottom: 0;
+      text-transform: none;
+    }
+    .headerText-1HLrL7 {
+      color: var(--text-normal);
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-semibold);
+      text-transform: none;
+      position: relative;
+      z-index: 1;
+      margin-bottom: var(--spacing);
+    }
+    .header-2BwW8b {
+      border-bottom: 1px solid var(--border-colour);
+    }
+    .headerTop-3C2Zn0 {
+      background: var(--background-dark);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-template-areas: "avatar info" "status status" "last last" "join join" "date date";
+      align-items: center;
+      justify-content: flex-start;
+      padding: var(--spacing);
+    }
+    .headerTag-2pZJzA {
+      font-weight: 500;
+      color: var(--text-muted);
+      font-size: var(--font-size-sm);
+      &.headerTagNoNickname-ENx6no {
+        font-size: var(--font-size-lg);
+        justify-content: flex-start;
+      }
+    }
+    .headerNormal-T_seeN,
+    .headerSpotify-zpWxgT {
+      background: var(--background-dark);
+    }
+    .headerPlaying-j0WQBV {
+      background: rgba(var(--accent), 0.1);
+      .activity-11LB_k > .buttonsWrapper-2eYbM0 {
+        margin-top: 0;
+        padding-top: calc(var(--spacing-triple) + 4px);
+        position: relative;
+        & > .listeningActionsUserPopout-Ga2V_N {
+          height: var(--item-height);
+          position: absolute;
+          top: var(--spacing);
+          left: calc(var(--spacing) / -1);
+          width: calc(100% + var(--spacing-double));
+          border-bottom: none;
+          border-top: 1px solid var(--border-colour);
+          background: var(--background);
+        }
+      }
+    }
+    .headerStreaming-2FjmGz {
+      background: rgba(var(--discord-twitch), 0.1);
+    }
+    .avatarWrapper-3H_478 {
+      grid-area: avatar;
+      margin-bottom: 0;
+    }
+    .headerText-2sdzFM {
+      grid-area: info;
+      flex: 1;
+      margin-left: var(--spacing);
+      & > div {
+        width: 100%;
+        text-align: left;
+      }
+    }
+    .headerName-fajvi9 {
+      font-size: var(--font-size-lg);
+    }
+    .headerTagUsernameNoNickname-2_H881 {
+      color: var(--text-focus);
+    }
+    .activity-11LB_k {
+      background: transparent;
+      position: relative;
+      border-top: 1px solid var(--border-colour);
+      padding: var(--spacing);
+    }
+    .customStatus-1bh2V9 {
+      margin-top: var(--spacing);
+      grid-area: status;
+      text-align: left;
+      color: var(--text-default);
+    }
+    .customStatusSoloEmoji-XOvnMc {
+      height: var(--avatar-size);
+      width: var(--avatar-size);
+    }
+    .creationDate,
+    .joinedAtDate,
+    .lastMessageDate {
+      margin-top: var(--spacing);
+      margin-bottom: 0;
+      & + div:not(.customStatus-1bh2V9) {
+        margin-top: 0;
+      }
+    }
+    .creationDate-CJwdKT {
+      grid-area: date;
+    }
+    .joinedAtDate-IawR02 {
+      grid-area: join;
+    }
+
+    // flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 wrap-ZIn9Iy buttonsWrapper-2eYbM0 actionsUserPopout-2MrzCa
+
+    .lastMessageDate-ocEw13 {
+      grid-area: last;
+    }
+    .actionsStreamPreview-2JlX14,
+    .listeningActionsUserPopout-Ga2V_N {
+      position: absolute;
+      bottom: calc(var(--item-height) / -1);
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      border-bottom: 1px solid var(--border-colour);
+      margin-top: 0;
+      button {
+        margin: 0;
+        border-radius: 0;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        height: var(--item-height);
+        min-height: var(--item-height);
+        border-left: 1px solid var(--border-colour);
+        box-shadow: none !important;
+        &.iconButton-285DXF {
+          max-width: 62px;
+        }
+        &:first-child {
+          border: none;
+        }
+      }
+    }
+    .assetsLargeImageStreamPreview-1A9lfF,
+    .assetsLargeImageUserPopout-3Pp8BK,
+    .assetsLargeImageUserPopoutXbox-2hgKt0 {
+      width: var(--avatar-size-lg);
+      height: var(--avatar-size-lg);
+    }
+    .customStatusText-3YJeRZ {
+      font-size: var(--font-size);
+    }
+    // Streaming
+    .headerStreaming-2FjmGz {
+      margin-bottom: calc(var(--item-height) + 1px);
+      .actionsUserPopout-2MrzCa button {
+        --button-colour: rgba(var(--discord-purple), 1);
+        background: rgba(var(--discord-purple), 0.7);
+        &:active,
+        &:hover {
+          background: rgba(var(--discord-purple), 1);
+        }
+      }
+    }
+    // Spotify
+    .headerSpotify-zpWxgT {
+      margin-bottom: calc(var(--item-height) + 1px);
+      .activityUserPopout-2yItg2 {
+        background: rgba(var(--discord-spotify), 0.2);
+      }
+    }
+    .timeBarUserPopout-AWPFf2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+    .bar-3urHkF {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: inherit;
+      border-radius: 0;
+      background: transparent;
       z-index: 0;
-      opacity: .2;
-      pointer-events: none;
-    }
-  }
-  .member-perm .name, .roleName-32vpEy {
-    position: relative;
-    z-index: 1;
-    margin-right: 0;
-    color: var(--text-default);
-  }
-  .actionButton-VzECiy {
-    position: absolute;
-    top: var(--spacing-half);
-    right: var(--spacing-half);
-    margin: 0;
-  }
-  // Titles (Roles, Note ect...)
-  .bodyTitle-Y0qMQz {
-    color: var(--text-normal);
-    font-weight: var(--font-weight-semibold);
-    font-size: var(--font-size);
-    padding: var(--spacing);
-    margin-bottom: 0;
-    text-transform: none;
-  }
-  .headerText-1HLrL7 {
-    color: var(--text-normal);
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-semibold);
-    text-transform: none;
-    position: relative;
-    z-index: 1;
-    margin-bottom: var(--spacing);
-  }
-  .header-2BwW8b {
-    border-bottom: 1px solid var(--border-colour);
-  }
-  .headerTop-3C2Zn0 {
-    background: var(--background-dark);
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-areas: "avatar info" "status status" "last last" "join join" "date date";
-    align-items: center;
-    justify-content: flex-start;
-    padding: var(--spacing);
-  }
-  .headerTag-2pZJzA {
-    font-weight: 500;
-    color: var(--text-muted);
-    font-size: var(--font-size-sm);
-    &.headerTagNoNickname-ENx6no {
-      font-size: var(--font-size-lg);
-      justify-content: flex-start;
-    }
-  }
-  .headerNormal-T_seeN,
-  .headerSpotify-zpWxgT {
-    background: var(--background-dark);
-  }
-  .headerPlaying-j0WQBV {
-    background: rgba(var(--accent), 0.1);
-    .activity-11LB_k > .buttonsWrapper-2eYbM0 {
-      margin-top: 0;
-      padding-top: calc(var(--spacing-triple) + 4px);
-      position: relative;
-      & > .listeningActionsUserPopout-Ga2V_N {
-        height: var(--item-height);
+      & + .horizontal-2EEEnY {
         position: absolute;
         top: var(--spacing);
-        left: calc(var(--spacing) / -1);
-        width: calc(100% + var(--spacing-double));
-        border-bottom: none;
-        border-top: 1px solid var(--border-colour);
-        background: var(--background);
+        right: var(--spacing);
       }
     }
-  }
-  .headerStreaming-2FjmGz {
-    background: rgba(var(--discord-twitch), 0.1);
-  }
-  .avatarWrapper-3H_478 {
-    grid-area: avatar;
-    margin-bottom: 0;
-  }
-  .headerText-2sdzFM {
-    grid-area: info;
-    flex: 1;
-    margin-left: var(--spacing);
-    & > div {
-      width: 100%;
-      text-align: left;
-    }
-  }
-  .headerName-fajvi9 {
-    font-size: var(--font-size-lg);
-  }
-  .headerTagUsernameNoNickname-2_H881 {
-    color: var(--text-focus);
-  }
-  .activity-11LB_k {
-    background: transparent;
-    position: relative;
-    border-top: 1px solid var(--border-colour);
-    padding: var(--spacing);
-  }
-  .customStatus-1bh2V9 {
-    margin-top: var(--spacing);
-    grid-area: status;
-    text-align: left;
-    color: var(--text-default);
-  }
-  .customStatusSoloEmoji-XOvnMc {
-    height: var(--avatar-size);
-    width: var(--avatar-size);
-  }
-  .creationDate, .joinedAtDate, .lastMessageDate {
-    margin-top: var(--spacing);
-    margin-bottom: 0;
-    & + div:not(.customStatus-1bh2V9) {
-      margin-top: 0;
-    }
-  }
-  .creationDate-CJwdKT {
-    grid-area: date;
-  }
-  .joinedAtDate-IawR02 {
-    grid-area: join;
-  }
-
-  // flex-1xMQg5 flex-1O1GKY vertical-V37hAW flex-1O1GKY directionColumn-35P_nr justifyStart-2NDFzi alignStretch-DpGPf3 wrap-ZIn9Iy buttonsWrapper-2eYbM0 actionsUserPopout-2MrzCa
-
-  .lastMessageDate-ocEw13 {
-    grid-area: last;
-  }
-  .actionsStreamPreview-2JlX14,
-  .listeningActionsUserPopout-Ga2V_N {
-    position: absolute;
-    bottom: calc(var(--item-height) / -1);
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    border-bottom: 1px solid var(--border-colour);
-    margin-top: 0;
-    button {
-      margin: 0;
+    .barInner-3NDaY_ {
       border-radius: 0;
-      border: none;
+      background: rgba(var(--discord-spotify), 0.5);
+    }
+    .text-AOoUen {
+      font-size: var(--font-size-sm);
+      color: var(--text-default);
+    }
+    .textLeft-3EZXG6 {
+      flex: 0 !important;
+      &:after {
+        content: "/";
+        margin: 0 5px;
+      }
+    }
+    .body-3iLsc4 {
+      flex: 1;
+      background: transparent;
       padding: 0;
-      cursor: pointer;
-      height: var(--item-height);
-      min-height: var(--item-height);
-      border-left: 1px solid var(--border-colour);
-      box-shadow: none !important;
-      &.iconButton-285DXF {
-        max-width: 62px;
-      }
-      &:first-child {
-        border: none;
+      &::-webkit-scrollbar {
+        display: none;
       }
     }
-  }
-  .assetsLargeImageStreamPreview-1A9lfF,
-  .assetsLargeImageUserPopout-3Pp8BK,
-  .assetsLargeImageUserPopoutXbox-2hgKt0 {
-    width: var(--avatar-size-lg);
-    height: var(--avatar-size-lg);
-  }
-  .customStatusText-3YJeRZ {
-    font-size: var(--font-size);
-  }
-  // Streaming
-  .headerStreaming-2FjmGz {
-    margin-bottom: calc(var(--item-height) + 1px);
-    .actionsUserPopout-2MrzCa button {
-      --button-colour: rgba(var(--discord-purple), 1);
-      background: rgba(var(--discord-purple), .7);
-      &:active,
-      &:hover {
-        background: rgba(var(--discord-purple), 1);
+    .bodyInnerWrapper-Z8WDxe {
+      padding-right: 0;
+    }
+    .note-3HfJZ5 {
+      margin: 0 var(--spacing) var(--spacing);
+      textarea {
+        box-sizing: border-box;
+        background-color: var(--background-dark);
+        border: 1px solid var(--border-colour);
+        border-radius: var(--border-radius);
+        transform: translateZ(0);
+        max-height: calc(var(--input-height) * 2);
+        padding: var(--spacing-half);
+        line-height: var(--line-height);
+        &:focus {
+          border: 1px solid var(--accent-solid);
+          box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
+          border-radius: var(--border-radius);
+        }
       }
     }
-  }
-  // Spotify
-  .headerSpotify-zpWxgT {
-    margin-bottom: calc(var(--item-height) + 1px);
-    .activityUserPopout-2yItg2 {
-      background: rgba(var(--discord-spotify), 0.2);
-    }
-  }
-  .timeBarUserPopout-AWPFf2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
-  .bar-3urHkF {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    background: transparent;
-    z-index: 0;
-    & + .horizontal-2EEEnY {
-      position: absolute;
-      top: var(--spacing);
-      right: var(--spacing);
-    }
-  }
-  .barInner-3NDaY_ {
-    border-radius: 0;
-    background: rgba(var(--discord-spotify), 0.5);
-  }
-  .text-AOoUen {
-    font-size: var(--font-size-sm);
-    color: var(--text-default);
-  }
-  .textLeft-3EZXG6 {
-    flex: 0 !important;
-    &:after {
-      content: "/";
-      margin: 0 5px;
-    }
-  }
-  .body-3iLsc4 {
-    flex: 1;
-    background: transparent;
-    padding: 0;
-    &::-webkit-scrollbar {
+    div[style="position: absolute; pointer-events: none; min-height: 0px; min-width: 1px; flex: 0 0 auto; height: 10px;"] {
       display: none;
     }
-  }
-  .bodyInnerWrapper-Z8WDxe {
-    padding-right: 0;
-  }
-  .note-3HfJZ5 {
-    margin: 0 var(--spacing) var(--spacing);
-    textarea {
+    .footer-1fjuF6 {
+      border: none;
+      background: transparent;
+      padding: 0;
+    }
+    .inputWrapper-31_8H8 {
+      padding: 0 var(--spacing) var(--spacing);
+    }
+    .quickMessage-1yeL4E {
       box-sizing: border-box;
       background-color: var(--background-dark);
       border: 1px solid var(--border-colour);
       border-radius: var(--border-radius);
       transform: translateZ(0);
-      max-height: calc(var(--input-height) * 2);
-      padding: var(--spacing-half);
-      line-height: var(--line-height);
+      width: calc(100% - (var(--spacing) * 2));
+      height: var(--input-height);
+      padding: 0 var(--spacing);
+      margin: 0 var(--spacing) var(--spacing);
+      &::placeholder {
+        font-size: var(--font-size);
+        color: var(--text-muted);
+        font-weight: var(--font-weight-light);
+      }
       &:focus {
         border: 1px solid var(--accent-solid);
         box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
         border-radius: var(--border-radius);
       }
     }
-  }
-  div[style="position: absolute; pointer-events: none; min-height: 0px; min-width: 1px; flex: 0 0 auto; height: 10px;"] {
-    display: none;
-  }
-  .footer-1fjuF6 {
-    border: none;
-    background: transparent;
-    padding: 0;
-  }
-  .inputWrapper-31_8H8 {
-    padding: 0 var(--spacing) var(--spacing);
-  }
-  .quickMessage-1yeL4E {
-    box-sizing: border-box;
-    background-color: var(--background-dark);
-    border: 1px solid var(--border-colour);
-    border-radius: var(--border-radius);
-    transform: translateZ(0);
-    width: calc(100% - (var(--spacing) * 2));
-    height: var(--input-height);
-    padding: 0 var(--spacing);
-    margin: 0 var(--spacing) var(--spacing);
-    &::placeholder {
-      font-size: var(--font-size);
-      color: var(--text-muted);
-      font-weight: var(--font-weight-light);
+    .protip-YaFfgO {
+      display: none;
     }
-    &:focus {
-      border: 1px solid var(--accent-solid);
-      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25);
-      border-radius: var(--border-radius);
-    }
-  }
-  .protip-YaFfgO {
-    display: none;
   }
 }

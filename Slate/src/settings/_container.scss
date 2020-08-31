@@ -4,6 +4,7 @@
   justify-content: center;
   padding:0 var(--spacing-triple);
   background: rgba(0,0,0,0.4);
+  transform:none !important;
   [class*="scroller-" i]:not([class*=bd-]) {
     background: var(--background);
     &::-webkit-scrollbar {
@@ -11,6 +12,7 @@
     }
   }
   .standardSidebarView-3F1I7i {
+    animation:modal 100ms ease;
     border-radius: var(--border-radius);
     background: var(--background);
     position:relative;
