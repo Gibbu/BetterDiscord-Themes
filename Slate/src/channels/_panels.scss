@@ -153,6 +153,7 @@
           clip-path:none;
           border-radius:calc(var(--border-radius) / 2);
           box-shadow:0 0 0 1px var(--border-colour);
+        }
         svg[x="14.5"][y="17"] {
           rect {
             x: 10;
@@ -192,8 +193,6 @@
           rect {
             stroke: rgb(var(--accent));
           }
-        }
-        &:hover {
           img {
             box-shadow:0 0 0 1px rgb(var(--accent));
           }
