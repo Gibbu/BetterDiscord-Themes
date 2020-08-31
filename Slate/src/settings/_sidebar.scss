@@ -19,6 +19,7 @@
     border-radius: var(--border-radius);
     color: var(--text-default);
     line-height:normal;
+    cursor:default;
     &.selected-3s45Ha, &[style*="background-color: rgb(114, 137, 218)"] {
       color: #fff;
       &:before {
