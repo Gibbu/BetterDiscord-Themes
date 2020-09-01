@@ -33,7 +33,7 @@
         pointer-events: none;
         font-size: var(--font-size);
         font-weight: var(--font-weight-semibold);
-        color: var(--text-default);
+        color: var(--text-normal);
         span {
           opacity: 1 !important;
         }
@@ -150,7 +150,7 @@
     }
   }
   .subEnabledTitle-2ElRo_ {
-    color: var(--text-default) !important;
+    color: var(--text-normal) !important;
   }
   .integration-3kMeY4 {
     background: var(--background-dark);
@@ -161,7 +161,7 @@
     font-weight: var(--font-weight-semibold);
   }
   .channelLink-2TxEu3 {
-    color: var(--text-default);
+    color: var(--text-normal);
   }
   .connectionHeader-2MDqhu {
     padding: var(--spacing) 0;
@@ -217,6 +217,18 @@
   .preview-2nSL_2 {
     background: var(--background);
     border-color: var(--border-colour);
+  }
+  .preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr {
+    .item-26Dhrx:first-child {
+      .title-3BE6m5:after {
+        content:'Dark themed elements with a grey color scheme.';
+      }
+    }
+    &:last-child {
+      .title-3BE6m5:after {
+        content:'Light themed elements with a white color scheme. (Unfinished)';
+      }
+    }
   }
 
 

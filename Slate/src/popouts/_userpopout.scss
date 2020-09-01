@@ -173,7 +173,7 @@
           height: var(--item-height);
           position: absolute;
           top: var(--spacing);
-          left: calc(var(--spacing) / -1);
+          left: calc(var(--spacing) / -1 + 1px);
           width: calc(100% + var(--spacing-double));
           border-bottom: none;
           border-top: 1px solid var(--border-colour);
@@ -223,7 +223,7 @@
       margin-top: var(--spacing);
       grid-area: status;
       text-align: left;
-      color: var(--text-default);
+      color: var(--text-normal);
     }
     .customStatusSoloEmoji-XOvnMc {
       height: var(--avatar-size);
@@ -253,28 +253,22 @@
     .actionsStreamPreview-2JlX14,
     .listeningActionsUserPopout-Ga2V_N {
       position: absolute;
-      bottom: calc(var(--item-height) / -1);
+      bottom: calc(var(--item-height) * -1 - 1px);
       left: 0;
       width: 100%;
       box-sizing: border-box;
-      border-bottom: 1px solid var(--border-colour);
       margin-top: 0;
-      button {
-        margin: 0;
-        border-radius: 0;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-        height: var(--item-height);
-        min-height: var(--item-height);
-        border-left: 1px solid var(--border-colour);
-        box-shadow: none !important;
-        &.iconButton-285DXF {
-          max-width: 62px;
-        }
-        &:first-child {
-          border: none;
-        }
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:var(--item-height);
+      padding:0 var(--spacing-half);
+      & > span,
+      .contents-18-Yxp {	
+        margin: 0;	
+      }
+      .iconButton-285DXF {
+        max-width: 62px;
       }
     }
     .assetsLargeImageStreamPreview-1A9lfF,
@@ -282,6 +276,7 @@
     .assetsLargeImageUserPopoutXbox-2hgKt0 {
       width: var(--avatar-size-lg);
       height: var(--avatar-size-lg);
+      border-radius:var(--border-radius);
     }
     .customStatusText-3YJeRZ {
       font-size: var(--font-size);
@@ -307,11 +302,11 @@
     }
     .timeBarUserPopout-AWPFf2 {
       position: absolute;
-      top: 0;
+      top: 28px;
       left: 0;
       margin-top: 0;
       width: 100%;
-      height: 100%;
+      height: calc(100% - 28px);
       z-index: 0;
     }
     .bar-3urHkF {
@@ -335,7 +330,7 @@
     }
     .text-AOoUen {
       font-size: var(--font-size-sm);
-      color: var(--text-default);
+      color: var(--text-normal);
     }
     .textLeft-3EZXG6 {
       flex: 0 !important;

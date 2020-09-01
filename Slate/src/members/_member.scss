@@ -16,7 +16,7 @@
   .name-uJV0GL {
     font-size: var(--font-size);
     font-weight: var(--font-weight-light);
-    color: var(--text-default);
+    color: var(--text-normal);
     line-height: normal;
   }
   .wrapper-3t9DeA {
@@ -54,7 +54,7 @@
       align-items: center;
       justify-content: center;
       -webkit-mask: url($icon_cog) center/12px no-repeat;
-      background: var(--text-default);
+      background: var(--text-normal);
     }
   }
   &:hover foreignObject[mask*="mobile"]:before {

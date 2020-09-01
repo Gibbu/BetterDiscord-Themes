@@ -6,10 +6,10 @@
       background: var(--background);
       border-bottom: 1px solid transparent;
       .name-3YKhmS {
-        color: var(--toolbar-text-default);
+        color: var(--toolbar-text-normal);
       }
       .button-1w5pas {
-        border-top: 5px solid var(--toolbar-text-default);
+        border-top: 5px solid var(--toolbar-text-normal);
       }
     }
   }
@@ -34,7 +34,7 @@
     h1 {
       font-size: var(--font-size);
       font-weight: var(--font-weight-semibold);
-      color: var(--toolbar-text-default);
+      color: var(--toolbar-text-normal);
       user-select: none;
       line-height: normal;
       &:before {

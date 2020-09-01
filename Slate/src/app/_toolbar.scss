@@ -18,7 +18,7 @@
     .input-cIJ7To {
       background: var(--topbar-background);
       border: 1px solid var(--topbar-border) !important;
-      color: var(--toolbar-text-default);
+      color: var(--toolbar-text-normal);
       &:hover {
         border: 1px solid var(--topbar-background-hover) !important;
       }
@@ -43,7 +43,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      color: var(--toolbar-text-default);
+      color: var(--toolbar-text-normal);
       user-select: none;
       line-height: normal;
       flex: 1;
@@ -203,7 +203,7 @@
       height: calc(var(--toolbar-height) - 1px);
       &:hover {
         background: var(--topbar-background-hover) !important;
-        color: var(--toolbar-text-default) !important;
+        color: var(--toolbar-text-normal) !important;
       }
       &.selected-3s45Ha {
         color: var(--toolbar-text-focus) !important;

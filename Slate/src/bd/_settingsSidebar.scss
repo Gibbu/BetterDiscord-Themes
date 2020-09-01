@@ -13,7 +13,7 @@
     font-size: var(--font-size);
     padding: var(--spacing);
     border-radius: var(--border-radius);
-    color: var(--text-default);
+    color: var(--text-normal);
     display: flex;
     align-items: center;
     line-height:normal;
@@ -23,7 +23,7 @@
       content: "";
       width: 16px;
       height: 16px;
-      background: var(--text-default);
+      background: var(--text-normal);
       display: block;
       margin-right: var(--spacing);
     }

@@ -33,7 +33,7 @@
     margin: var(--spacing);
     border-bottom: none;
     font-size: var(--font-size);
-    color: var(--text-default);
+    color: var(--text-normal);
     line-height: inherit;
     display: grid;
     grid-template-columns: var(--avatar-size) .2755fr 1fr;
@@ -131,7 +131,7 @@
   .header-13Cw0- {
     padding: var(--spacing);
     font-size: var(--font-size);
-    color: var(--text-default);
+    color: var(--text-normal);
   }
   .headerFull-1dyyvV {
     grid-template-columns: var(--avatar-size) minmax(20px, auto) 24px;

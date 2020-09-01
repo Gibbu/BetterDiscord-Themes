@@ -31,6 +31,7 @@
       background: transparent;
       border-radius: 0;
       color:var(--toolbar-text-muted);
+      transform:none;
         svg {
           color:inherit;
           path {
@@ -65,7 +66,7 @@
     line-height: unset;
     text-transform:none;
     &:not(.isEnabled-24g9qA) {
-      color: var(--text-default);
+      color: var(--text-normal);
     }
   }
   .row-2okwlC {
@@ -76,7 +77,7 @@
   }
   .description-3_Ncsb {
     font-size: var(--font-size);
-    color: var(--text-default) !important;
+    color: var(--text-normal) !important;
   }
   .marginTop40-i-78cZ {
     margin-top: var(--spacing-double);

@@ -15,19 +15,32 @@
 		box-sizing: border-box;
 		padding: 0 var(--spacing);
 		button {
-			background: var(--topbar-header-selected);
+			box-sizing: border-box;
+			background-color: var(--topbar-background);
 			border: 1px solid var(--topbar-border);
-			height: auto;
 			border-radius: var(--border-radius);
-			font-size: var(--font-size);
-			cursor: text;
+			height: var(--input-height);
+			transform: translateZ(0);
+			font-size: 0;
+			box-shadow: none;
+			position:relative;
+			cursor:text;
+			width:100%;
+			font-weight:var(--font-weight-light);
+			color:var(--toolbar-text-muted);
+			padding:0 var(--spacing-half);
+			line-height:normal;
+			&:before {
+				content:'Where would you like to go?';
+				font-size:var(--font-size);
+			}
 		}
 	}
 	// Direct messages header
 	.privateChannelsHeaderContainer-3NB1K1 {
 		padding: var(--spacing);
 		height: auto;
-		color: var(--text-default);
+		color: var(--text-normal);
 		font-size: 12px;
 		text-transform: none;
 	}
@@ -50,7 +63,7 @@
 		.name-uJV0GL {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-light);
-			color: var(--text-default);
+			color: var(--text-normal);
 		}
 		.avatar-3uk_u9 {
 			margin-right: var(--spacing);

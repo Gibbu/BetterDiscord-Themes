@@ -52,7 +52,7 @@
   --toolbar-height: 50px;
   --toolbar-icon-default: #d1d5da;
   --toolbar-icon-focus: #ffffff;
-  --toolbar-text-default: #d1d5da;
+  --toolbar-text-normal: #d1d5da;
   --toolbar-text-muted: #959da5;
   --toolbar-text-focus: #ffffff;
   --toolbar-search-background: #1a1b1e;
@@ -77,7 +77,7 @@
   --backdrop: rgb(0 0 0 / 0.4);
 
   // Elevation
-  --elevation-1: 0 1px 15px rgba(0, 0, 0, 0.25);
+  --elevation-1: 0 8px 24px rgba(0,0,0,0.15);
   --elevation-2: 0 2px 7px rgba(12, 7, 7, 0.7);
 
   // Status
@@ -106,5 +106,5 @@
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
 
-  --slate-version: "Slate 1.0.6";
+  --slate-version: "Slate 1.0.6b";
 }
