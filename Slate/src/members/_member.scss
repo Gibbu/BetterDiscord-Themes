@@ -79,6 +79,7 @@
 
   &.placeholder-3X_lzF {
     padding: 0 var(--spacing);
+    animation:none;
     .placeholderAvatar-damqh6 {
       border-radius: var(--border-radius);
       border: 1px solid var(--border-colour);
@@ -87,4 +88,13 @@
       background: var(--background-dark);
     }
   }
+}
+.mulitplePlaceholderUsername-pogq9I,
+.placeholderUsername-2B_OA9, 
+.memberGroupsPlaceholder-3mwPub {
+  background:var(--text-muted);
+  opacity:.2;
+  height:4px;
+  animation:none;
+  border-radius:var(--border-radius);
 }

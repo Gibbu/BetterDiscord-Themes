@@ -406,6 +406,12 @@
       font-size: var(--chat-font-size);
     }
   }
+  // Placeholder Messages
+  .attachment-2p5mHK, .avatar-2daVqv, .blob-2w7iIK {
+    border-radius:var(--border-radius);
+    background:var(--text-muted);
+    height:4px;
+  }
 }
 // Remove Powercord Codeblock Mods
 .hljs .powercord-lines, .powercord-codeblock-lang {

@@ -5,6 +5,7 @@
     border-radius: var(--border-radius);
     border: 1px solid var(--border-colour); 
     background: var(--background);
+    overflow:visible;
     .state-Tt0LO3 {
       display: none;
     }
@@ -390,6 +391,54 @@
     }
     .protip-YaFfgO {
       display: none;
+    }
+    // New to Discord
+    .wumpusWrapper-yrvoR3 {
+      position:fixed;
+      width: 65px;
+      height: 65px;
+      top: 0;
+      right: 0;
+      margin: 0;
+      z-index:1;
+      .wumpus-3VDMUi {
+        margin:0;
+        animation: none;
+        transition: none;
+        transform: none;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        img {
+          display:none;
+        }
+        .wumpusTooltip-65YlMT {
+          font-size: 0;
+          background: rgb(var(--discord-red));
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          padding: 0;
+          top: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          border-radius: 0;
+          clip-path: polygon(0% 0%, 50% 0, 100% 50%, 100% 100%);
+          animation:none;
+          opacity:1;
+          &:before {
+            content: 'New';
+            font-size: var(--font-size-sm);
+            color: var(--text-normal);
+            position: relative;
+            transform: rotate(45deg);
+            transform-origin: center;
+            top: 10px;
+            left: -10px;
+          }
+        }
+      }
     }
   }
 }

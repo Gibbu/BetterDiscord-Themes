@@ -71,6 +71,79 @@
     border-bottom: 1px solid var(--border-colour);
     border-radius: 0;
   }
+  // Message Error Load
+  .messagesErrorBar-nyJGU7 {
+    opacity:1;
+    position:absolute;
+    top:50%;
+    left:50%;
+    flex-direction:column;
+    background:var(--background);
+    border-radius:var(--border-radius);
+    box-shadow:var(--elevation-1);
+    border:1px solid var(--border-colour);
+    height:fit-content;
+    width:340px;
+    height:290px;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:var(--spacing-double);
+    pointer-events:none;
+    margin-left:-170px;
+    margin-top:-145px;
+    animation:modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    .barButtonMain-3K-jeJ {
+      font-size:0;
+      padding:0;
+      overflow:visible;
+      margin:var(--spacing) 0;
+      &:after {
+        content:'Uh oh.';
+        font-size:var(--font-size-xxl);
+        font-weight:var(--font-weight-ultralight);
+      }
+    }
+    &:before {
+      content:'';
+      width:124px;
+      height:124px;
+      background:var(--text-muted);
+      -webkit-mask:url($illustration_1) center/contain no-repeat;
+    }
+    &:after {
+      content:'There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.';
+      font-size:var(--font-size);
+      color:var(--text-muted);
+      text-transform:none;
+      text-align:center;
+      line-height:normal;
+    }
+  }
+  .barButtonAlt-mYL1lj,
+  .spinner-2enMB9 {
+    order:1;
+    pointer-events:all;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-light);
+    cursor: default;
+    min-height: var(--input-height);
+    height: var(--input-height);
+    line-height: normal;
+    transition: none;
+    padding: 0 var(--spacing);
+    border-radius: var(--button-border-radius);
+    color: var(--white);
+    background-color: rgb(var(--accent));
+    margin-top:var(--spacing);
+    &:hover {
+      box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+    }
+  }
 }
 #app-mount .messagesWrapper-1sRNjr {
   background: var(--background-alt);  

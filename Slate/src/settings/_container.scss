@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding:0 var(--spacing-triple);
-  background: rgba(0,0,0,0.4);
+  background: var(--backdrop);
   transform:none !important;
   [class*="scroller-" i]:not([class*=bd-]) {
     background: var(--background);
