@@ -149,6 +149,7 @@
       transition: 100ms ease;
       .avatar-SmRMf2 {
         border-radius: var(--border-radius);
+        opacity:1 !important;
         img {
           clip-path:none;
           border-radius:calc(var(--border-radius) / 2);
