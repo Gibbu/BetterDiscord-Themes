@@ -41,14 +41,19 @@
     padding: var(--spacing-half) var(--spacing);
     min-height: auto;
     cursor: default;
-    button {
-      font-size: 12px;
-      padding: 0;
-      color: var(--text-normal);
-      font-weight: var(--font-weight-normal);
+    & > button {
       height: auto;
       line-height: normal;
       cursor: default;
+      margin-top: 0;
+      padding: 0;
+      font-size: 12px;
+      color: var(--text-normal);
+      font-weight: var(--font-weight-normal);
+      &:last-child {
+        padding: 0 var(--spacing);
+        color: var(--white);
+      }
     }
     .barButtonAlt-3gIkIj {
       font-size: 0;
@@ -146,7 +151,7 @@
   }
 }
 #app-mount .messagesWrapper-1sRNjr {
-  background: var(--background-alt);  
+  background: var(--background-alt);
   .scrollerSpacer-1Rp0XE {
     height: 0;
   }
