@@ -112,10 +112,11 @@
     }
     &:before {
       content:'';
-      width:124px;
-      height:124px;
+      width:100px;
+      height:100px;
       background:var(--text-muted);
       -webkit-mask:url($illustration_1) center/contain no-repeat;
+      margin-bottom:var(--spacing);
     }
     &:after {
       content:'There was a problem loading messages for this channel. Make sure you have a stable internet connection, then try agian.';
