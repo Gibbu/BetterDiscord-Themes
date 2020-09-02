@@ -52,7 +52,8 @@
       &:last-child {
         border-radius:0 0 var(--border-radius) var(--border-radius);
       }
-      &:hover .desc-2Dttbk {
+      &:hover .desc-2Dttbk,
+      &:hover .title-3BE6m5:after {
         color:var(--text-normal);
       }
     }

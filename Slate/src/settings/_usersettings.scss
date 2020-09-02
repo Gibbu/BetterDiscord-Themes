@@ -1,4 +1,10 @@
 #app-mount {
+  // Hide unnessecary elements
+  #user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(1) > h5,
+  #user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(2) > h5 {
+      display:none;
+  }
+  
   // My Account
   .userSettingsAccount-2eMFVR {
     .cardPrimary-1Hv-to {
@@ -22,7 +28,7 @@
         display: none;
       }
       .marginBottom20-32qID7 {
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
         +div .viewBody-2Qz-jg {
           color:var(--text-muted);
           font-weight:var(--font-weight-light);
@@ -100,6 +106,12 @@
     display: none;
   }
 
+  // Privacy and Safety
+
+  .children-rWhLdy > .marginBottom20-32qID7.marginTop8-1DLZ1n.flex-1xMQg5 {
+    margin-bottom:0 !important;
+  }
+
   // Authorized Apps
   .authedApp-mj2Hmd {
     padding: 0;
@@ -114,7 +126,6 @@
     border: none;
     padding: 0;
   }
-
 
   // Connections
   .accountBtn-2Nozo3 {
@@ -212,6 +223,29 @@
     padding: var(--spacing) 0;
   }
 
+  // Gift Inventory
+
+  main > div h2 + .children-rWhLdy form {
+    margin-bottom:var(--spacing-double);
+  }
+
+  .emptyStateImage-2MrSNs {
+    margin:0;
+    margin-top:calc(var(--spacing) * 4); 
+    width:144px;
+    height:144px;
+    background:var(--text-muted);
+    -webkit-mask:url($illustration_8) center/contain no-repeat;
+  }
+  .emptyStateHeader-248f_b {
+    margin-top:var(--spacing-double);
+    margin-bottom:var(--spacing);
+  }
+  .emptyStateSubtext-2hdA9c {
+    font-size:var(--font-size);
+    color:var(--text-muted);
+    margin:0;
+  }
 
   // Appearance
   .preview-2nSL_2 {
@@ -230,7 +264,9 @@
       }
     }
   }
-
+  .preview-2nSL_2 + .marginTop40-i-78cZ + .marginTop40-i-78cZ + h2 + .switchItem-2hKKKK {
+    margin-bottom:var(--spacing-double) !important;
+  }
 
   // Notifications
   .notificationsSound-27jFSh {
@@ -252,13 +288,10 @@
     font-size: var(--font-size);
   }
 
-
-
   // Keybinds
   .card-FDVird:before {
     content: none;
   }
-
 
   // Game Activity
   .game-1ipmAa {
