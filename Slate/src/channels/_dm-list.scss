@@ -92,6 +92,39 @@
 	  &:active foreignObject[mask*="mobile"]:before {
 	    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 40%);
 	  }
+	  &[href="/store"] {
+		  display:none;
+	  }
+	  &[href="/library"] {
+		  border-left:1px solid var(--border-colour);
+	  }
+	  &[href="/channels/@me"],
+	  &[href="/library"] {
+		width:50%;
+		display:inline-block;
+		border-radius:0;
+		.layout-2DM8Md {
+			justify-content:center;
+			height:28px;
+			border-bottom:1px solid var(--border-colour);
+			.avatar-3uk_u9 {
+				display:none;
+			}
+			.content-3QAtGj {
+				flex-grow:0;
+			}
+			&:active {
+				background:var(--background-modifier-hover);
+			}
+		}
+		&.selected-aXhQR6 .layout-2DM8Md {
+			background:transparent;
+			box-shadow:inset 0 -3px 0px var(--accent-solid);
+			.name-uJV0GL {
+				color:var(--text-normal) !important;
+			}
+		}
+	  }
 		&.selected-aXhQR6 {
 			color: var(--text-focus);
 			.closeButton-2GCmT5 {
