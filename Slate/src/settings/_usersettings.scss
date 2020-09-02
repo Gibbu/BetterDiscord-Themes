@@ -112,16 +112,6 @@
     margin-bottom:0 !important;
   }
 
-  .formNotice-2_hHWR {
-    padding:var(--spacing);
-    border:1px solid var(--accent-solid);
-    background:rgba(var(--accent), 0.1);
-    border-radius:var(--border-radius);
-    .colorStandard-2KCXvj {
-      font-size:var(--font-size);
-    }
-  }
-
   // Authorized Apps
   .authedApp-mj2Hmd {
     padding: 0;
@@ -131,6 +121,7 @@
     padding-bottom: var(--spacing-double);
     margin-bottom: var(--spacing-double)
   }
+  
   .accountList-33MS45 {
     background: transparent;
     border: none;
