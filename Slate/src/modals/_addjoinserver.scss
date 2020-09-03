@@ -143,7 +143,7 @@
             white-space:nowrap; 
             z-index:10;
             &:before {
-              content:'ProTip!';
+              content:'';
               margin:var(--spacing-half);
               width:24px;
               height:24px;
@@ -154,7 +154,7 @@
               max-width:100%;
               overflow:hidden;
               text-overflow:ellipsis;
-              content:'ProTip! You can set a server template after create it through settings.'
+              content:'ProTip! You can set a server template after it is created in settings.'
             }
           }
           .actions-pBaxX6 {
