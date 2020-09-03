@@ -17,3 +17,21 @@
     transform:scale(1);
   }
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes addJoinMenu {
+  0% {
+    transform:translateX(-10%);
+  }
+  100% {
+    transform:none;
+  }
+}

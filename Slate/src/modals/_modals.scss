@@ -8,6 +8,15 @@
     background: var(--backdrop) !important;
     opacity: 1 !important;
   }
+  .backdropWithLayer-3_uhz4::before {
+    content:'';
+    position:absolute;
+    top:var(--titlebar-height);
+    left:0;
+    width:var(--toolbar-height);
+    height:var(--toolbar-height);
+    cursor:pointer;
+  }
   .modal-3c3bKg {
     transform: none !important;
     opacity: 1 !important;

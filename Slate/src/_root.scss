@@ -27,7 +27,7 @@
   --font-size: 12px;
   --font-size-lg: calc(var(--font-size) + 2px); // 14px
   --font-size-xl: calc(var(--font-size) + 4px); // 16px
-  --font-size-xxl: 32px;
+  --font-size-xxl: 42px;
   --line-height-sm: 1;
   --line-height: 1.5;
 
@@ -106,5 +106,9 @@
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
 
-  --slate-version: "Slate 1.0.6b";
+  --slate-version: "Slate 1.0.7";
+  
+  // Cards
+  --tip-box-background:rgba(3, 102, 214, 0.06);
+  --tip-box-border:#c8e1ff;
 }
