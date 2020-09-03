@@ -1,5 +1,6 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 :root {
+  --slate-version: "Slate 1.0.9";
   --border-radius: 3px;
   --button-border-radius: 2px;
   --accent-solid: rgba(var(--accent), 1);
@@ -77,7 +78,6 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-  --slate-version: "Slate 1.0.8";
   --tip-box-background: rgba(3, 102, 214, 0.06);
   --tip-box-border: #c8e1ff;
 }
@@ -742,27 +742,9 @@ html {
 .modal-3c3bKg foreignObject[mask*=mobile][width="32"] img {
   width: 32px;
 }
-.userPopout-3XzG_A foreignObject[mask*=mobile][width="32"]:before,
-.modal-3c3bKg foreignObject[mask*=mobile][width="32"]:before {
-  content: "";
-  position: absolute;
-  right: 0;
-  height: 100%;
-  width: 50px;
-  background: linear-gradient(90deg, transparent -50%, var(--background) 50%);
-}
 .userPopout-3XzG_A foreignObject[mask*=mobile][width="80"] img,
 .modal-3c3bKg foreignObject[mask*=mobile][width="80"] img {
   width: 80px;
-}
-.userPopout-3XzG_A foreignObject[mask*=mobile][width="80"]:before,
-.modal-3c3bKg foreignObject[mask*=mobile][width="80"]:before {
-  content: "";
-  position: absolute;
-  right: 0;
-  height: 100%;
-  width: 50px;
-  background: linear-gradient(90deg, transparent -50%, var(--background-dark) 50%);
 }
 .userPopout-3XzG_A foreignObject[mask*=mobile]:after,
 .modal-3c3bKg foreignObject[mask*=mobile]:after {
@@ -781,18 +763,16 @@ html {
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;
 }
-.wrapper-3t9DeA svg:not(:root),
-.wrapper-3t9DeA foreignObject {
+.wrapper-3t9DeA {
+  box-shadow: 0 0 0 1px var(--border-colour);
+  border-radius: calc(var(--border-radius) / 2);
+}
+.wrapper-3t9DeA svg:not(:root) {
   overflow: visible;
 }
 .wrapper-3t9DeA .mask-1l8v16,
 .wrapper-3t9DeA foreignObject {
   mask: none;
-}
-.wrapper-3t9DeA .mask-1l8v16 img,
-.wrapper-3t9DeA foreignObject img {
-  border-radius: calc(var(--border-radius) - 1px);
-  box-shadow: 0 0 0 1px var(--border-colour);
 }
 .wrapper-3t9DeA rect {
   x: 24.5px;
@@ -800,13 +780,39 @@ html {
   stroke: var(--border-colour);
   rx: 50;
   mask: none;
+}
+.wrapper-3t9DeA rect[height="15"], .wrapper-3t9DeA rect[height="10"] {
   width: 11px;
   height: 11px;
+  x: 24.5px;
+  y: 24.5px;
+}
+.wrapper-3t9DeA rect[height="15"][mask*=mobile], .wrapper-3t9DeA rect[height="10"][mask*=mobile] {
+  height: 18px;
+  y: 17px;
+}
+.wrapper-3t9DeA rect[width="8"] {
+  width: 8px;
+  height: 8px;
+  x: 19.5px;
+  y: 19.5px;
 }
 .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
   y: 8.5px;
   x: 10.5px;
   stroke: var(--border-colour);
+}
+.wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+  cy: -8 !important;
+  cx: -8.5 !important;
+}
+.wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+  cy: -8 !important;
+  cx: -2.25 !important;
+}
+.wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+  cy: -8 !important;
+  cx: 4 !important;
 }
 .wrapper-3t9DeA rect[fill=transparent] {
   stroke: none;
@@ -1924,8 +1930,7 @@ html {
   text-align: center;
   line-height: normal;
 }
-#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj,
-#app-mount .chat-3bRxxu .spinner-2enMB9 {
+#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj {
   order: 1;
   pointer-events: all;
   font-size: var(--font-size);
@@ -1939,14 +1944,11 @@ html {
   border-radius: var(--button-border-radius);
   color: var(--white);
   background-color: rgb(var(--accent));
-  margin-top: var(--spacing);
 }
-#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj:hover,
-#app-mount .chat-3bRxxu .spinner-2enMB9:hover {
+#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj:hover {
   box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
-#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj:focus,
-#app-mount .chat-3bRxxu .spinner-2enMB9:focus {
+#app-mount .chat-3bRxxu .barButtonAlt-mYL1lj:focus {
   box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255, 255, 255, 0.1);
 }
 #app-mount .messagesWrapper-1sRNjr {
@@ -4002,6 +4004,10 @@ html {
 }
 #app-mount .userPopout-3XzG_A .headerTagUsernameNoNickname-2_H881 {
   color: var(--text-focus);
+  width: 155px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 #app-mount .userPopout-3XzG_A .activity-11LB_k {
   background: transparent;
@@ -5117,6 +5123,7 @@ html {
   overflow: hidden;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
   width: 100%;
+  min-width: 960px;
   max-width: 960px;
   height: 65vh;
   max-height: 650px;

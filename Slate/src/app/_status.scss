@@ -32,7 +32,7 @@
       y: -53;
     }
     .pointerEvents-2zdfdO[x="14.5"] {
-      fill: rgba(0,0,0,0.5) !important;
+      fill: rgba(0, 0, 0, 0.5) !important;
       width: 30px;
       height: 30px;
       x: 1;
@@ -114,15 +114,13 @@
         transform: none;
       }
     }
-    &[style*="width: 32px;"] {
-      rect {
-        width: 32px;
-        height: 32px;
-        x: -14.5;
-        y: -17;
-        position: relative;
-        z-index: 0;
-      }
+    &[style*="width: 32px;"] rect {
+      width: 32px;
+      height: 32px;
+      x: -14.5;
+      y: -17;
+      position: relative;
+      z-index: 0;
     }
   }
   .avatarHint-1qgaV3 {
@@ -161,31 +159,14 @@
       img {
         width: 32px;
       }
-      &:before {
-        content: "";
-        position: absolute;
-        right: 0;
-        height: 100%;
-        width: 50px;
-        background: linear-gradient(90deg, transparent -50%, var(--background) 50%);
-      }
     }
-    &[width="80"] {
-      img {
-        width: 80px;
-      }
-      &:before {
-        content: "";
-        position: absolute;
-        right: 0;
-        height: 100%;
-        width: 50px;
-        background: linear-gradient(90deg, transparent -50%, var(--background-dark) 50%);
-      }
+    &[width="80"] img {
+      width: 80px;
     }
     &:after {
       content: "";
-      -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
+      -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>')
+        center/12px no-repeat;
       display: block;
       position: absolute;
       width: 12px;
@@ -204,40 +185,63 @@
   content: none !important;
 }
 
-
 // Standard Dot Status
-
 .wrapper-3t9DeA {
-  svg:not(:root),
-  foreignObject {
-    overflow:visible;
+  box-shadow: 0 0 0 1px var(--border-colour);
+  border-radius: calc(var(--border-radius) / 2);
+  svg:not(:root) {
+    overflow: visible;
   }
   .mask-1l8v16,
   foreignObject {
-    mask:none;
-    img {
-      border-radius:calc(var(--border-radius) - 1px);
-      box-shadow:0 0 0 1px var(--border-colour);
-    }
+    mask: none;
   }
   rect {
-    x:24.5px;
-    y:24.5px;
-    stroke:var(--border-colour);
-    rx:50;
-    mask:none;
-    width:11px;
-    height:11px;
+    x: 24.5px;
+    y: 24.5px;
+    stroke: var(--border-colour);
+    rx: 50;
+    mask: none;
+    &[height="15"], &[height="10"] {
+      width: 11px;
+      height: 11px;
+      x: 24.5px;
+      y: 24.5px;
+      &[mask*="mobile"] {
+        height: 18px;
+        y: 17px;
+      }
+    }
+    &[width="8"] {
+      width: 8px;
+      height: 8px;
+      x: 19.5px;
+      y: 19.5px;
+    }
   }
   .cursorDefault-dsQJ1n rect {
-    y:8.5px;
-    x:10.5px;
-    stroke:var(--border-colour);
+    y: 8.5px;
+    x: 10.5px;
+    stroke: var(--border-colour);
+  }
+  .dots-3Bkt3k circle {
+    &:nth-child(1) {
+      cy: -8 !important;
+      cx: -8.5 !important;
+    }
+    &:nth-child(2) {
+      cy: -8 !important;
+      cx: -2.25 !important;
+    }
+    &:nth-child(3) {
+      cy: -8 !important;
+      cx: 4 !important;
+    }
   }
   rect[fill="transparent"] {
-    stroke:none;
+    stroke: none;
   }
   rect[mask*="mobile"] {
-    rx:2;
+    rx: 2;
   }
 }

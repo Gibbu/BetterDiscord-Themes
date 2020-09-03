@@ -3,10 +3,10 @@
   .userPopout-3XzG_A {
     box-shadow: var(--elevation-1);
     border-radius: var(--border-radius);
-    border: 1px solid var(--border-colour); 
+    border: 1px solid var(--border-colour);
     background: var(--background);
-    overflow:visible;
-    transform:translateZ(0) !important;
+    overflow: visible;
+    transform: translateZ(0) !important;
     .state-Tt0LO3 {
       display: none;
     }
@@ -49,10 +49,10 @@
     // Roles
     .rolesList-22qj2L {
       margin: 0;
-      margin-bottom:var(--spacing-half);
+      margin-bottom: var(--spacing-half);
       padding: 0 var(--spacing);
-      max-height:172px;
-      overflow:auto;
+      max-height: 172px;
+      overflow: auto;
     }
     .member-perm,
     .role-2irmRk {
@@ -61,65 +61,65 @@
       border-radius: 50px;
       overflow: hidden;
       padding: var(--spacing-half) calc(var(--spacing) / 1.5);
-      margin:0 var(--spacing-half) var(--spacing-half) 0;
+      margin: 0 var(--spacing-half) var(--spacing-half) 0;
       height: auto;
-      transition:50ms ease linear;
+      transition: 50ms ease linear;
       &:hover .roleCircle-3xAZ1j {
-        opacity:1;
-        box-sizing:border-box;
+        opacity: 1;
+        box-sizing: border-box;
         .roleRemoveIcon-2-TeGW {
-          opacity:1;
+          opacity: 1;
           path {
-            fill:var(--text-focus);
+            fill: var(--text-focus);
           }
         }
       }
     }
     .perm-circle,
     .roleCircle-3xAZ1j {
-      margin:0;
+      margin: 0;
       border-radius: var(--border-radius);
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%;
-      height:100%;
-      opacity:.75;
-      border-radius:50px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.75;
+      border-radius: 50px;
       .roleRemoveIcon-2-TeGW {
-        z-index:10;
-        background:inherit;
-        width:100%;
-        height:100%;
-        padding:var(--spacing-third);
-        box-sizing:border-box;
-        opacity:0;
-        transition:50ms linear opacity;
-        border-radius:50px;
+        z-index: 10;
+        background: inherit;
+        width: 100%;
+        height: 100%;
+        padding: var(--spacing-third);
+        box-sizing: border-box;
+        opacity: 0;
+        transition: 50ms linear opacity;
+        border-radius: 50px;
       }
     }
     .member-perm .name,
     .roleName-32vpEy {
-      overflow:visible;
+      overflow: visible;
       position: relative;
       z-index: 1;
       margin-right: 0;
       color: var(--text-focus);
-      font-size:var(--font-size-sm);
-      font-weight:var(--font-weight-normal);
+      font-size: var(--font-size-sm);
+      font-weight: var(--font-weight-normal);
     }
     .actionButton-VzECiy {
       position: absolute;
       top: 0;
-      right:0;
+      right: 0;
       margin: 0;
-      padding:0 var(--spacing);
-      height:28px;
-      border-radius:var(--border-radius);
-      color:var(--text-muted);
+      padding: 0 var(--spacing);
+      height: 28px;
+      border-radius: var(--border-radius);
+      color: var(--text-muted);
       &:hover,
       &[aria-expanded="true"] {
-        color:var(--text-normal);
+        color: var(--text-normal);
       }
     }
     // Titles (Roles, Note ect...)
@@ -130,14 +130,14 @@
       font-size: var(--font-size);
       padding: 0 var(--spacing);
       text-transform: none;
-      background:var(--background-alt);
-      border-bottom:1px solid var(--border-colour);
-      border-top:1px solid var(--border-colour);
-      margin-bottom:var(--spacing);
-      height:28px;
-      box-sizing:border-box;
-      display:flex;
-      align-items:center;
+      background: var(--background-alt);
+      border-bottom: 1px solid var(--border-colour);
+      border-top: 1px solid var(--border-colour);
+      margin-bottom: var(--spacing);
+      height: 28px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
     }
     .headerTop-3C2Zn0 {
       background: var(--background-dark);
@@ -147,8 +147,8 @@
       align-items: center;
       justify-content: flex-start;
       padding: var(--spacing);
-      box-sizing:border-box;
-      transform:translateZ(0);
+      box-sizing: border-box;
+      transform: translateZ(0);
     }
     .headerTag-2pZJzA {
       font-weight: 500;
@@ -192,24 +192,28 @@
       grid-area: info;
       flex: 1;
       margin-left: var(--spacing);
-      display:block;
+      display: block;
       & > div {
         width: 100%;
         text-align: left;
-        line-height:normal;
+        line-height: normal;
       }
     }
     .headerNameWrapper-3res2c {
-      max-width:90%;
-      overflow:hidden;
-      text-overflow:ellipsis;
+      max-width: 90%;
+      overflow: hidden;
+      text-overflow: ellipsis;
       .headerName-fajvi9 {
         font-size: var(--font-size-lg);
-        white-space:nowrap;
+        white-space: nowrap;
       }
     }
     .headerTagUsernameNoNickname-2_H881 {
       color: var(--text-focus);
+      width: 155px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
     .activity-11LB_k {
       background: transparent;
@@ -258,14 +262,14 @@
       width: 100%;
       box-sizing: border-box;
       margin-top: 0;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      height:var(--item-height);
-      padding:0 var(--spacing-half);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: var(--item-height);
+      padding: 0 var(--spacing-half);
       & > span,
-      .contents-18-Yxp {	
-        margin: 0;	
+      .contents-18-Yxp {
+        margin: 0;
       }
       .iconButton-285DXF {
         max-width: 62px;
@@ -276,7 +280,7 @@
     .assetsLargeImageUserPopoutXbox-2hgKt0 {
       width: var(--avatar-size-lg);
       height: var(--avatar-size-lg);
-      border-radius:var(--border-radius);
+      border-radius: var(--border-radius);
     }
     .customStatusText-3YJeRZ {
       font-size: var(--font-size);
@@ -405,15 +409,15 @@
     }
     // New to Discord
     .wumpusWrapper-yrvoR3 {
-      position:fixed;
+      position: fixed;
       width: 65px;
       height: 65px;
       top: 0;
       right: 0;
       margin: 0;
-      z-index:1;
+      z-index: 1;
       .wumpus-3VDMUi {
-        margin:0;
+        margin: 0;
         animation: none;
         transition: none;
         transform: none;
@@ -421,7 +425,7 @@
         height: 100%;
         left: 0;
         img {
-          display:none;
+          display: none;
         }
         .wumpusTooltip-65YlMT {
           font-size: 0;
@@ -436,10 +440,10 @@
           justify-content: center;
           border-radius: 0;
           clip-path: polygon(0% 0%, 50% 0, 100% 50%, 100% 100%);
-          animation:none;
-          opacity:1;
+          animation: none;
+          opacity: 1;
           &:before {
-            content: 'New';
+            content: "New";
             font-size: var(--font-size-sm);
             color: var(--text-normal);
             position: relative;
@@ -458,7 +462,7 @@
 
 .userPopout-3XzG_A {
   .wrapper-3t9DeA::after {
-    content: '';
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
@@ -466,17 +470,17 @@
     height: 100%;
     z-index: -1;
     pointer-events: none;
-    opacity: .25;
+    opacity: 0.25;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: var(--user-popout-position) center;
     background-image: var(--user-background);
-    border-radius:var(--border-radius) var(--border-radius) 0 0;
-    box-sizing:border-box;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    box-sizing: border-box;
   }
   .header-2BwW8b,
   .headerText-2sdzFM,
   .customStatus-1bh2V9 {
-    z-index:1;
+    z-index: 1;
   }
 }

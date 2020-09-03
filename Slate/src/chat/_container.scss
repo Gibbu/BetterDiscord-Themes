@@ -127,8 +127,7 @@
       line-height:normal;
     }
   }
-  .barButtonAlt-mYL1lj,
-  .spinner-2enMB9 {
+  .barButtonAlt-mYL1lj {
     order:1;
     pointer-events:all;
     font-size: var(--font-size);
@@ -142,7 +141,6 @@
     border-radius: var(--button-border-radius);
     color: var(--white);
     background-color: rgb(var(--accent));
-    margin-top:var(--spacing);
     &:hover {
       box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
     }

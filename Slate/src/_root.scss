@@ -1,4 +1,6 @@
 :root {
+  --slate-version: "Slate 1.0.9";
+
   // Master variables
   --border-radius: 3px;
   --button-border-radius: 2px;
@@ -105,8 +107,6 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: rgb(var(--discord-twitch));
   --rs-invisible-color: rgb(var(--discord-invisible));
-
-  --slate-version: "Slate 1.0.8";
 
   // Cards
   --tip-box-background:rgba(3, 102, 214, 0.06);
