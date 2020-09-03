@@ -4,9 +4,6 @@
     .wrapper-3t9DeA {
       width: var(--avatar-size) !important;
       height: var(--avatar-size) !important;
-      foreignObject[mask*=mobile]:before {
-        background: linear-gradient(90deg, transparent -50%, var(--background-alt) 50%)
-      }
     }
   }
   .tabBody-3YRQ8W {
@@ -54,9 +51,6 @@
     padding: var(--spacing);
     height: auto !important;
     border-radius: 0;
-    &:hover foreignObject[mask*=mobile]:before {
-      background: linear-gradient(90deg, transparent -50%, var(--background-modifier-hover) 50%)
-    }
     &:last-child {
       border-bottom: 1px solid var(--border-colour);
     }

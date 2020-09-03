@@ -1,4 +1,5 @@
-#app-mount {
+.userPopout-3XzG_A,
+.modal-3c3bKg {
   .wrapper-3t9DeA {
     z-index: 1;
     svg:not(:root) {
@@ -152,52 +153,91 @@
   .offline-3nJYBR img {
     clip-path: none !important;
   }
-}
-// Online via mobile
-#app-mount .wrapper-3t9DeA foreignObject[mask*="mobile"] {
-  width: calc(100% + 252px);
-  &[width="32"] {
-    width: calc(100% + var(--sidebar-width) + var(--spacing-half));
-    img {
-      width: 32px;
+  // Mobile
+  foreignObject[mask*="mobile"] {
+    width: calc(100% + 252px);
+    &[width="32"] {
+      width: calc(100% + var(--sidebar-width) + var(--spacing-half));
+      img {
+        width: 32px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 50px;
+        background: linear-gradient(90deg, transparent -50%, var(--background) 50%);
+      }
     }
-    &:before {
+    &[width="80"] {
+      img {
+        width: 80px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 50px;
+        background: linear-gradient(90deg, transparent -50%, var(--background-dark) 50%);
+      }
+    }
+    &:after {
       content: "";
+      -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
+      display: block;
       position: absolute;
-      right: 0;
+      width: 12px;
       height: 100%;
-      width: 50px;
-      background: linear-gradient(90deg, transparent -50%, var(--background) 50%);
-    }
-  }
-  &[width="80"] {
-    img {
-      width: 80px;
-    }
-    &:before {
-      content: "";
-      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
       right: 0;
-      height: 100%;
-      width: 50px;
-      background: linear-gradient(90deg, transparent -50%, var(--background-dark) 50%);
+      background: var(--rs-online-color);
+      z-index: 1;
     }
-  }
-  &:after {
-    content: "";
-    -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center/12px no-repeat;
-    display: block;
-    position: absolute;
-    width: 12px;
-    height: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
-    background: var(--rs-online-color);
-    z-index: 1;
   }
 }
+
 // Remove inbuilt theme RadialStatus
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;
+}
+
+
+// Standard Dot Status
+
+.wrapper-3t9DeA {
+  svg:not(:root),
+  foreignObject {
+    overflow:visible;
+  }
+  .mask-1l8v16,
+  foreignObject {
+    mask:none;
+    img {
+      border-radius:calc(var(--border-radius) - 1px);
+      box-shadow:0 0 0 1px var(--border-colour);
+    }
+  }
+  rect {
+    x:24.5px;
+    y:24.5px;
+    stroke:var(--border-colour);
+    rx:50;
+    mask:none;
+    width:11px;
+    height:11px;
+  }
+  .cursorDefault-dsQJ1n rect {
+    y:8.5px;
+    x:10.5px;
+    stroke:var(--border-colour);
+  }
+  rect[fill="transparent"] {
+    stroke:none;
+  }
+  rect[mask*="mobile"] {
+    rx:2;
+  }
 }

@@ -1,48 +1,3 @@
-@media screen and (max-width: 600px) {
-  html #app-mount .root-1gCeng.wrapper-2ZbzR9 div[style*="position: relative"] {
-    width:100% !important;
-  }
-  #app-mount .root-1gCeng.wrapper-2ZbzR9:after,
-  #app-mount .root-1gCeng.wrapper-2ZbzR9:before {
-    display:none;
-  }
-  header {
-    text-align:center !important;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  .backdropWithLayer-3_uhz4,
-  .content-1LAB8Z,
-  .footer-2gL1pp .lookFilled-1Gx00P {
-		zoom: 1.2;
-	}
-}
-
-@media screen and (min-width: 1400px) {
-  .backdropWithLayer-3_uhz4,
-  .content-1LAB8Z,
-  .footer-2gL1pp .lookFilled-1Gx00P {
-		zoom: 1.3;
-	}
-}
-
-@media screen and (min-width: 1600px) {
-  .backdropWithLayer-3_uhz4,
-  .content-1LAB8Z,
-  .footer-2gL1pp .lookFilled-1Gx00P {
-		zoom: 1.4;
-	}
-}
-
-@media screen and (min-width: 1800px) {
-  .backdropWithLayer-3_uhz4,
-  .content-1LAB8Z,
-  .footer-2gL1pp .lookFilled-1Gx00P {
-		zoom: 1.5;
-	}
-}
-
 #app-mount .root-1gCeng.wrapper-2ZbzR9 {
   position:fixed;
   top:calc(var(--titlebar-height) + var(--toolbar-height));
@@ -59,6 +14,46 @@
   border-radius:0;
   overflow:visible;
   animation:fadeIn 250ms ease;
+  @media screen and (max-width: 600px) {
+    html #app-mount .root-1gCeng.wrapper-2ZbzR9 div[style*="position: relative"] {
+      width:100% !important;
+    }
+    #app-mount .root-1gCeng.wrapper-2ZbzR9:after,
+    #app-mount .root-1gCeng.wrapper-2ZbzR9:before {
+      display:none;
+    }
+    header {
+      text-align:center !important;
+    }
+  }
+  @media screen and (min-width: 1366px) {
+    .backdropWithLayer-3_uhz4,
+    .content-1LAB8Z,
+    .footer-2gL1pp .lookFilled-1Gx00P {
+      zoom: 1.2;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .backdropWithLayer-3_uhz4,
+    .content-1LAB8Z,
+    .footer-2gL1pp .lookFilled-1Gx00P {
+      zoom: 1.3;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .backdropWithLayer-3_uhz4,
+    .content-1LAB8Z,
+    .footer-2gL1pp .lookFilled-1Gx00P {
+      zoom: 1.4;
+    }
+  }
+  @media screen and (min-width: 1800px) {
+    .backdropWithLayer-3_uhz4,
+    .content-1LAB8Z,
+    .footer-2gL1pp .lookFilled-1Gx00P {
+      zoom: 1.5;
+    }
+  }
   &:before {
     content:'';
     position: absolute;

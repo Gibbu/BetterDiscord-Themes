@@ -18,23 +18,23 @@
       border: 1px solid var(--border-colour);
       width: 8px;
       height: 8px;
-      clip-path: polygon(95% 0, 0% 95%, 0 0);
+      clip-path: polygon(100% 0, 0% 100%, 0 0);
     }
     &.tooltipRight-2JM5PQ .tooltipPointer-3ZfirK {
       transform: rotate(-45deg);
-      margin-right: -6px;
+      margin-right: -5px;
     }
     &.tooltipLeft-3EDOk1 .tooltipPointer-3ZfirK {
       transform: rotate(135deg);
-      margin-left: -6px;
+      margin-left: -5px;
     }
     &.tooltipBottom-3ARrEK .tooltipPointer-3ZfirK {
       transform: rotate(45deg);
-      margin-bottom: -6px;
+      margin-bottom: -5px;
     }
     &.tooltipTop-XDDSxx .tooltipPointer-3ZfirK {
       transform: rotate(-135deg);
-      margin-top: -6px;
+      margin-top: -5px;
     }
   }
 }

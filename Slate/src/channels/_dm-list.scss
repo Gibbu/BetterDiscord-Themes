@@ -74,24 +74,6 @@
 			font-weight: var(--font-weight-bold);
 			color: var(--text-muted);
 		}
-		foreignObject[mask*="mobile"] {
-			width: calc(100% + var(--sidebar-width) - 14px);
-			&[width="32"] {
-				&:before {
-					width: 100px;
-					background: linear-gradient(90deg, transparent, var(--background) 40%);
-				}
-				&:after {
-					right: 30px;
-				}
-			}
-		}
-		&:hover foreignObject[mask*="mobile"]:before {
-	    background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 40%);
-	  }
-	  &:active foreignObject[mask*="mobile"]:before {
-	    background: linear-gradient(90deg, transparent, var(--background-modifier-active) 40%);
-	  }
 	  &[href="/store"] {
 		  display:none;
 	  }
@@ -135,14 +117,6 @@
 			.name-uJV0GL,
 			.subtext-1RtU34 {
 				color: var(--text-focus) !important;
-			}
-			foreignObject[mask*="mobile"] {
-				&:before {
-					background: linear-gradient(90deg, transparent, var(--accent-solid) 50%);
-				}
-				&:after {
-					background: #fff;
-				}
 			}
 		}
 	}

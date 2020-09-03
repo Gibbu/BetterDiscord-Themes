@@ -169,11 +169,13 @@
         width:100%;
         height:200px;
         background:var(--text-muted);
-        -webkit-mask: url($illustration_3) center/50% no-repeat;
+        -webkit-mask: url($illustration_3) center/75% no-repeat;
+        margin-bottom:var(--spacing);
       }
       .titleName-3-Lp3Z {
         font-size:var(--font-size-xxl);
         font-weight:var(--font-weight-ultralight);
+        line-height:1.5;
         p:first-child {
           display:none;
         }
