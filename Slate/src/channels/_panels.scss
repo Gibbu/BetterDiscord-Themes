@@ -173,19 +173,23 @@
           ry: 50% !important;
           stroke: var(--border-colour);
           &[mask*="online"],
+          &[fill="#43b581"],
           &[fill="rgba(67, 181, 129, 1)"] {
             fill: var(--rs-online-color) !important;
           }
           &[mask*="idle"],
+          &[fill="#faa61a"],
           &[fill="rgba(250, 166, 26, 1)"] {
             fill: var(--rs-idle-color) !important;
           }
           &[mask*="dnd"],
+          &[fill="#f04747"],
           &[fill="rgba(240, 71, 71, 1)"] {
             fill: var(--rs-dnd-color) !important;
           }
           &[mask*="offline"],
-          &[mask*="invisible"]
+          &[mask*="invisible"],
+          &[fill="#747f8d"],
           &[fill="rgba(116, 127, 141, 1)"] {
             fill: var(--rs-invisible-color) !important;
           }
