@@ -1,3 +1,6 @@
+// holy fuck this took 5 hours to make
+// i dont even know
+
 #app-mount .root-1gCeng.wrapper-2ZbzR9 {
   position:fixed;
   top:calc(var(--titlebar-height) + var(--toolbar-height));
@@ -14,6 +17,8 @@
   border-radius:0;
   overflow:visible;
   animation:fadeIn 250ms ease;
+
+  // Scaling for smaller screens and low zoom level
   @media screen and (max-width: 600px) {
     html #app-mount .root-1gCeng.wrapper-2ZbzR9 div[style*="position: relative"] {
       width:100% !important;
@@ -54,6 +59,8 @@
       zoom: 1.5;
     }
   }
+
+  // Main page layout
   &:before {
     content:'';
     position: absolute;
@@ -150,6 +157,8 @@
               background:var(--text-normal);
               -webkit-mask:url($icon_lightbulb) center/12px no-repeat;
             }
+
+            // Protip
             &:after {
               max-width:100%;
               overflow:hidden;
@@ -157,6 +166,8 @@
               content:'ProTip! You can set a server template after it is created in settings.'
             }
           }
+
+          // Primary Actions
           .actions-pBaxX6 {
             display:flex;
             flex-direction:column;
@@ -245,6 +256,8 @@
         }
       }
     }
+
+    // Secondary pgaes
     .modal-yWgWj- {
       background:var(--background);
       box-shadow:none;
@@ -336,6 +349,8 @@
           animation:fadeIn 150ms ease;
           margin-top:var(--spacing);
         }
+
+        // Back Button
         .cancelButton-RGXhAE {
           position:fixed;
           font-size:0;
@@ -400,12 +415,16 @@
   }
 }
 
+// Hide primary button while slide is animating
+
 #app-mount .root-1gCeng.wrapper-2ZbzR9 div[style*="top: 50%;"]:not([style*="left: auto; right: auto;"]) {
   .slideFooter-2dXJ9s .lookFilled-1Gx00P {
     display:none;
   }
 }
 
+
+// Light Mode
 
 html.theme-light {
   #app-mount {

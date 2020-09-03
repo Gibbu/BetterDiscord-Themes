@@ -63,6 +63,7 @@
         height: calc(var(--font-size) * 4);
       }
     }
+
     // Quick actions
     .operations-36ENbA {
       font-size: 0;
@@ -94,6 +95,7 @@
         }
       }
     }
+
     // Timestamps
     .latin24CompactTimeStamp-2V7XIQ {
       width: 55px;
@@ -142,6 +144,7 @@
   .timestampCozy-1HNQR2 {
     font-size: var(--chat-font-size);
   }
+
   // Message text
   .markup-2BOw-j {
     font-size: var(--chat-font-size);
@@ -159,6 +162,7 @@
       background-color: var(--accent-solid);
     }
   }
+
   // Reactions
   .reaction-1hd86g {
     background: var(--background);
@@ -169,6 +173,7 @@
       }
     }
   }
+
   // Quick actions
   .wrapper-2aW0bm {
     background: var(--background);
@@ -189,7 +194,9 @@
     height: 14px;
   }
 }
+
 #app-mount {
+  // Attachments
   .zalgo-jN1Ica .messageContent-2qWWxC {
     overflow: visible;
   }
@@ -277,6 +284,8 @@
     background: transparent;
     margin-top: 0;
   }
+
+  // Codeblocks
   code, pre {
     font-family: var(--font-family-monospace);
   }
@@ -406,6 +415,7 @@
       font-size: var(--chat-font-size);
     }
   }
+  \
   // Placeholder Messages
   .attachment-2p5mHK, .avatar-2daVqv, .blob-2w7iIK {
     border-radius:var(--border-radius);
@@ -413,6 +423,7 @@
     height:4px;
   }
 }
+
 // Remove Powercord Codeblock Mods
 .hljs .powercord-lines, .powercord-codeblock-lang {
   display: none;

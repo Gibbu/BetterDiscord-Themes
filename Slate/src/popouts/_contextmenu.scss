@@ -1,4 +1,5 @@
 #app-mount {
+  // Native context menus
   .styleFlexible-wGDiIL,
   .submenu-2-ysNh {
     background: var(--background);
@@ -49,6 +50,7 @@
       }
     }
   }
+
   // Instant reactions
   .wrapper-3_530D {
     padding: 0;
@@ -66,6 +68,7 @@
       background: var(--background-modifier-hover);
     }
   }
+
   // User settings (reeeee why didn't they change this)
   #user-settings-cog div {
     &:first-child {
@@ -75,6 +78,7 @@
       border-radius: 0 0 var(--border-radius) var(--border-radius);
     }
   }
+
   // Sub menus
   .submenuContainer-2gbm7M {
     .scroller-3BxosC .item-1tOPte {

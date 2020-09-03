@@ -2,6 +2,7 @@
   .wrapper-1ucjTd {
     position: relative;
     cursor: default;
+
     // Unread channel
     &.modeUnread-1zpFdA {
       .content-3at_AU {
@@ -14,6 +15,7 @@
         height: 18px;
       }
     }
+
     // Muted channel
     &.modeMuted-3osy7j .content-3at_AU {
       .name-3_Dsmg, svg {
@@ -21,6 +23,7 @@
         color: var(--text-muted);
       }
     }
+
     // Selected channel
     &.modeSelected-1zApJ_ .content-3at_AU {
       .name-3_Dsmg, svg {
@@ -29,10 +32,12 @@
       }
     }
   }
+
   // User drag
   .draggable-1KoBzC {
     height: var(--item-height);
   }
+
   // User drag region
   .containerUserOver-1U5YnL:after {
     left: 0;
@@ -40,6 +45,7 @@
     border-color: var(--accent-solid);
     background: rgba(var(--accent), 0.2);
   }
+
   // Unread pill
   .unread-3zKkbm {
     border-radius: 0;
@@ -51,6 +57,7 @@
     background-color: var(--accent-solid) !important;
     z-index: 1;
   }
+
   // Channel
   .mainContent-ENyL1r,
   .voiceUser-14U_Ns {
@@ -102,6 +109,7 @@
       color: var(--text-normal);
     }
   }
+  
   // Connected users in voice
   .list-2bwCXU {
     padding-left: 0;

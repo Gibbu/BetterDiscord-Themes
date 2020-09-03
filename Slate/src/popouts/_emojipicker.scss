@@ -19,6 +19,7 @@
       height: 396px;
     }
   }
+
   // Top nav (Gif and Emote buttons)
   .nav-7UD0KD {
     padding: 0;
@@ -58,6 +59,7 @@
       -webkit-mask: url($icon_face) center/cover no-repeat;
     }
   }
+
   // Header (Search)
   .header-1TOWci, .header-8ilj5e {
     padding: var(--spacing) var(--spacing) var(--spacing) 80px;
@@ -124,6 +126,7 @@
     height: 20px;
     border-radius: 0;
   }
+
   // Server picker list (left side)
   .categoryList-2Kzf65 {
     border-right: 1px solid var(--border-colour);
@@ -169,6 +172,7 @@
     margin: var(--spacing) 0;
     border-bottom-color: var(--border-colour);
   }
+
   // Emote list (right side)
   .container-2jxBbw, .results-3i9FaE {
     height: 398px;
@@ -197,6 +201,7 @@
       background: var(--background-modifier-hover);
     }
   }
+  
   // Hovered emote info
   .inspector-sdLnLS {
     background: var(--background);

@@ -187,14 +187,17 @@
 
 // Standard Dot Status
 .wrapper-3t9DeA {
-  box-shadow: 0 0 0 1px var(--border-colour);
   border-radius: calc(var(--border-radius) / 2);
+  box-shadow:0 0 0 .5px var(--border-colour); 
   svg:not(:root) {
     overflow: visible;
   }
   .mask-1l8v16,
   foreignObject {
     mask: none;
+  }
+  img {
+    border-radius:calc(var(--border-radius) / 2);
   }
   rect {
     x: 24.5px;

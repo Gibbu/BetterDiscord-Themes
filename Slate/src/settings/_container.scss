@@ -25,6 +25,8 @@
     max-height: 650px;
     min-height: 400px;
     padding-top: 50px;
+
+    // Options header
     &:before {
       content: "Options";
       display: flex;

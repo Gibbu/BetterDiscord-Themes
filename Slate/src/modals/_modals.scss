@@ -8,6 +8,8 @@
     background: var(--backdrop) !important;
     opacity: 1 !important;
   }
+
+  // Close button (see _addjoinserver.scss)
   .backdropWithLayer-3_uhz4::before {
     content:'';
     position:absolute;

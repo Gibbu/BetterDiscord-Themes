@@ -9,13 +9,15 @@
     box-sizing: border-box;
     max-width: 200px;
     position: relative;
-    top: 1px;
+    top: 3px;
     z-index: 1;
     .scroller-3BxosC {
       padding: 0;
       overflow: visible !important;
       max-height: unset;
-      &:after {
+
+      // Decroative Arrow
+      &:after { 
         content: '';
         width: 10px;
         height: 10px;
@@ -33,6 +35,8 @@
       .description-2L932D, .separator-2I32lJ {
         display: none;
       }
+
+      // Status Items
       .item-1tOPte {
         margin: 0;
         padding: var(--spacing);
@@ -47,7 +51,8 @@
         &:first-child {
           border-radius: var(--border-radius) var(--border-radius) 0 0;
         }
-        &:last-child {
+        &:nth-last-child(2) {
+          z-index:10;
           border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
         }
         &.focused-3afm-j {

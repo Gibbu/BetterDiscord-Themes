@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
+
+  // Generic member entries
   .layout-2DM8Md {
     border-radius: 0;
     height: 44px;
@@ -31,6 +33,8 @@
     font-weight: var(--font-weight-normal);
     color: var(--text-muted);
   }
+
+  // Bot Tag
   .botTag-3W9SuW:not(.tag-wWVHyf) {
     font-size: 0;
     padding: 0;
@@ -63,6 +67,7 @@
     }
   }
 
+  // Placeholders
   &.placeholder-3X_lzF {
     padding: 0 var(--spacing);
     animation:none;
