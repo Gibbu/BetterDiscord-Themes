@@ -283,8 +283,6 @@ body {
     height:40%;
     z-index:0;
     opacity:.5;
-    animation-delay:3s;
-    animation:float-reverse 25s ease infinite forwards;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/9.svg') center/contain no-repeat;
 }
 
@@ -296,7 +294,7 @@ body {
     height:60%;
     z-index:0;
     opacity:.5;
-    animation:float 35s ease infinite forwards;
+    animation:float-reverse 35s ease infinite forwards;
     animation-delay:500ms;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/11.svg') center/contain no-repeat;
 }

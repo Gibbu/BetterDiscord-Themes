@@ -7,6 +7,11 @@
     background: transparent !important;
     min-height: unset;
   }
+  .edited-3sfAzf {
+    color:var(--text-muted);
+    font-size:var(--font-size-xsm);
+    cursor:default;
+  }
   .timestamp-3ZCmNB.alt-1uNpEt {
     font-size: calc(var(--font-size-sm) - 2px);
     height: auto;
@@ -415,7 +420,7 @@
       font-size: var(--chat-font-size);
     }
   }
-  \
+  
   // Placeholder Messages
   .attachment-2p5mHK, .avatar-2daVqv, .blob-2w7iIK {
     border-radius:var(--border-radius);
