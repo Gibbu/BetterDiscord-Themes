@@ -106,7 +106,7 @@
       position: relative;
       z-index: 1;
       margin-right: 0;
-      color: var(--text-focus);
+      color: var(--white);
       font-size: var(--font-size-sm);
       font-weight: var(--font-weight-normal);
     }
@@ -209,6 +209,7 @@
       .headerName-fajvi9 {
         font-size: var(--font-size-lg);
         white-space: nowrap;
+        color:var(--text-normal);
       }
     }
     .headerTagUsernameNoNickname-2_H881 {

@@ -1,10 +1,18 @@
 #app-mount .sidebar-2K8pFh .containerDefault-3GGEv_ {
-  padding: var(--spacing) 0 calc(var(--spacing) / 2);
+  padding: var(--spacing-half) 0;
   .wrapper-CU3qI5 {
     color: var(--text-normal);
+    height:26px;
+    padding-right:var(--spacing);
+    padding-left:var(--spacing-double);
+    cursor:default;
     svg, .name-IbjUBS {
       color: var(--text-normal);
       font-size:var(--font-size-sm);
+    }
+    .arrow-gKvcEx {
+      left:4px;
+      top:7px;
     }
     .name-IbjUBS {
       text-transform: none;

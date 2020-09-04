@@ -1,4 +1,6 @@
-#app-mount .titleBar-AC4pGV {
+// Windows Titlebar
+
+#app-mount .typeWindows-1za-n7 {
   height: calc(var(--titlebar-height) - 2px);
   border-bottom: 1px solid var(--topbar-border);
   margin-top: 2px;
@@ -38,12 +40,23 @@
   }
   .winButton-iRh8-Z {
     height: var(--titlebar-height);
-    width: calc(var(--titlebar-height) * 1.5);
-    color: var(--toolbar-text-normal);
+    width: 45px;
+    color: var(--toolbar-text-muted);
     top: -2px;
     cursor: default;
+    &:hover {
+      background:var(--topbar-background-hover);
+      color:var(--white);
+    }
+    &:active {
+      background:var(--topbar-background-active);
+      color:var(--white);
+    }
   }
   .winButtonClose-1HsbF-:hover {
-    color: var(--toolbar-text-focus);
+    background:#e81123;
+  }
+  .winButtonClose-1HsbF-:active {
+    background:#bf0f1d;
   }
 }

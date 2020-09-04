@@ -30,6 +30,9 @@
         opacity: 1;
         color: #fff;
       }
+      &:active {
+        background:var(--background-modifier-selected);
+      }
     }
   }
 
