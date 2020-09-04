@@ -185,6 +185,36 @@
     }
 }
 
+@keyframes float {
+    0% {
+        transform:none;
+        opacity:.5;
+    }
+    50% {
+        transform:translateY(-15%);
+        opacity:.3;
+    }
+    100% {
+        transform:none;
+        opacity:.5;
+    }
+}
+
+@keyframes float-reverse {
+    0% {
+        transform:none;
+        opacity:.5;
+    }
+    50% {
+        transform:translateY(15%);
+        opacity:.3;
+    }
+    100% {
+        transform:none;
+        opacity:.5;
+    }
+}
+
 @media screen and (max-width:900px) {
     #section-1 {
         flex-direction:column;
@@ -202,6 +232,10 @@
     }
     #section-1 .align-left {
         padding-bottom:0;
+        align-items:center;
+    }
+    p.description {
+        text-align:center;
     }
     body #section-1 .bg-deco2 {
         right:0;
@@ -218,7 +252,6 @@ body {
     font-family:var(--font-family-sans-serif);
     background:var(--background);
     line-height:normal;
-    overflow-x:hidden;
 }
 
 #section-1 {
@@ -226,6 +259,7 @@ body {
     box-sizing:border-box;
     display:flex;
     background:linear-gradient(var(--background), var(--background-gradient-light));
+    overflow:hidden;
 }
 
 #section-1 .bg-deco1 {
@@ -235,6 +269,8 @@ body {
     bottom:0;
     z-index:0;
     opacity:.5;
+    animation-delay:2s;
+    animation:float 15s ease infinite forwards;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/12.svg') center/contain no-repeat;
 }
 
@@ -244,6 +280,8 @@ body {
     height:40%;
     z-index:0;
     opacity:.5;
+    animation-delay:3s;
+    animation:float-reverse 25s ease infinite forwards;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/9.svg') center/contain no-repeat;
 }
 
@@ -255,6 +293,8 @@ body {
     height:60%;
     z-index:0;
     opacity:.5;
+    animation:float 35s ease infinite forwards;
+    animation-delay:500ms;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/11.svg') center/contain no-repeat;
 }
 
@@ -269,7 +309,7 @@ body {
 #footer {
     height:40px;
     border-top:1px solid var(--border-colour);
-    background:var(--background);
+    background:var(--background-light);
     position:relative;
     z-index:1;
     display:flex;
@@ -282,7 +322,7 @@ body {
 #footer .footer-text {
     font-weight:var(--font-weight-light);
     font-size:var(--font-size-xsm);
-    color:var(--text-muted);
+    color:var(--text-normal);
 }
 
 #footer a {
@@ -436,6 +476,10 @@ strong.inline {
     border-radius: var(--button-border-radius);
     display:flex;
     align-items:center;
+}
+
+.button .button-icon {
+    margin-right:var(--spacing-half);
 }
 
 .button.secondary {
