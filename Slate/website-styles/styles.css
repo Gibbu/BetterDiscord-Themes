@@ -476,6 +476,7 @@ strong.inline {
     border-radius: var(--button-border-radius);
     display:flex;
     align-items:center;
+    position:relative;
 }
 
 .button .button-icon {
@@ -524,6 +525,7 @@ strong.inline {
 
 #dropdown-container {
     display:flex;
+    position:relative;
     margin-right:var(--spacing);
     margin-bottom:var(--spacing);
 }
@@ -558,31 +560,21 @@ strong.inline {
     box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
 }
 
-#popouts {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    z-index:100;
-    pointer-events:none;
-}
-
 #download-selector.download-selector-visible {
     display:block;
 }
 
 #download-selector {
-    top:calc(50% + 80px);
-    left:60px;
     border-radius:var(--border-radius);
     background:var(--background);
     border:1px solid var(--border-colour);
     box-shadow:var(--elevation-1);
     position:absolute;
+    margin-top:40px;
     display:none;
     overflow:hidden;  
     animation:contextMenu 350ms ease; 
+    width:100%;
 }
 
 #download-selector .item {
