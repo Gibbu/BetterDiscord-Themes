@@ -200,21 +200,6 @@
     }
 }
 
-@keyframes float-reverse {
-    0% {
-        transform:none;
-        opacity:.5;
-    }
-    50% {
-        transform:translateY(15%);
-        opacity:.3;
-    }
-    100% {
-        transform:none;
-        opacity:.5;
-    }
-}
-
 @media screen and (max-width:900px) {
     #section-1 {
         flex-direction:column;
@@ -294,8 +279,6 @@ body {
     height:60%;
     z-index:0;
     opacity:.5;
-    animation:float-reverse 35s ease infinite forwards;
-    animation-delay:500ms;
     background:url('https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/11.svg') center/contain no-repeat;
 }
 
