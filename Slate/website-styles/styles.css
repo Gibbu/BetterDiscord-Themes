@@ -241,6 +241,9 @@
         right:0;
         height:20%;
     }
+    body #download-selector {
+        margin-top:-125px;
+    }
 }
 
 :focus {
@@ -528,6 +531,7 @@ strong.inline {
     position:relative;
     margin-right:var(--spacing);
     margin-bottom:var(--spacing);
+    width:fit-content;
 }
 
 #dropdown-container .button.primary {
@@ -579,7 +583,7 @@ strong.inline {
 
 #download-selector .item {
     padding:var(--spacing);
-    font-size:var(--font-size-sm);
+    font-size:var(--font-size-xsm);
     color:var(--text-normal);
     font-weight:var(--font-weight-normal);
     display:flex;
