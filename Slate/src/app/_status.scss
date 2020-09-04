@@ -197,7 +197,7 @@
     mask: none;
   }
   img {
-    border-radius:calc(var(--border-radius) / 2);
+    border-radius:var(--border-radius);
   }
   rect {
     x: 24.5px;

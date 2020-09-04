@@ -41,7 +41,7 @@
   .winButton-iRh8-Z {
     height: var(--titlebar-height);
     width: 45px;
-    color: var(--toolbar-text-muted);
+    color: var(--titlebar-button-color);
     top: -2px;
     cursor: default;
     &:hover {
@@ -53,10 +53,31 @@
       color:var(--white);
     }
   }
-  .winButtonClose-1HsbF-:hover {
-    background:#e81123;
+  .winButtonMinMax-PBQ2gm:nth-child(3) {
+    svg {
+      display:none;
+    }
+    &:after {
+      content:'';
+      width:10px;
+      height:10px;
+      -webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/cover no-repeat;
+      background:var(--titlebar-button-color);
+    }
+    &:active:after,
+    &:hover:after {
+      background:var(--white);
+    }
   }
-  .winButtonClose-1HsbF-:active {
-    background:#bf0f1d;
+  .winButtonClose-1HsbF- {
+    path {
+      d:path('M 0,0 0,0.7 4.3,5 0,9.3 0,10 0.7,10 5,5.7 9.3,10 10,10 10,9.3 5.7,5 10,0.7 10,0 9.3,0 5,4.3 0.7,0 Z');
+    }
+    &:hover {
+      background:var(--win32-close-background-hover);
+    }
+    &:active {
+      background:var(--win32-close-background-active);
+    }
   }
 }
