@@ -67,15 +67,21 @@
     .labelDescriptor-1PqHgD {
       font-size: var(--font-size);
     }
-    .switchItem-2hKKKK .directionRow-3v3tfG {
-      align-items: center;
-      flex-direction:row-reverse;
-      label {
-        font-size:var(--font-size);
-        cursor:default;
-      }
-      .switch-3wwwcV {
-        margin:0;
+    h5[style*="margin-bottom: 4px;"] {
+      margin-bottom:var(--spacing-third) !important;
+    }
+    .switchItem-2hKKKK {
+      margin:0;
+      .directionRow-3v3tfG {
+        align-items: center;
+        flex-direction:row-reverse;
+        label {
+          font-size:var(--font-size);
+          cursor:default;
+        }
+        .switch-3wwwcV {
+          margin:0;
+        }
       }
     }
     .cardPrimaryOutline-29Ujqw {
