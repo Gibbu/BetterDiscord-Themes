@@ -28,20 +28,24 @@
   }
   .css-1hwfws3 {
     padding: 0 var(--spacing-half);
-    margin-top: -10px;
   }
   .css-1wy0on6 {
     height: var(--input-height);
   }
   .css-12qlrak-indicatorContainer,
-  .css-1flfamv-indicatorContainer {
-    padding-right: var(--spacing-half);
+  .css-1flfamv-indicatorContainer,
+  .css-11dkexk-indicatorContainer {
+    padding:0 var(--spacing-half);
     opacity: 1;
+    height:100%;
+    display:flex;
+    align-items:center;
+    cursor:default;
     svg {
-      width: 16px;
-      height: 16px;
-      -webkit-mask: url($icon_chevron-down) center/12px no-repeat;
-      background: #fff;
+      width:10px;
+      height:10px;
+      -webkit-mask: url($icon_chevron-down) center/10px no-repeat;
+      background: var(--text-normal);
       path {
         display: none;
       }
@@ -50,6 +54,11 @@
   .css-13kbzi0-control,
   .css-oce0qz-control {
     opacity: .5;
+  }
+  .css-mhi7q3-placeholder,
+  .css-1ao1kba-placeholder {
+    opacity:1;
+    color:var(--text-muted);
   }
   .title-1B76a1 {
     font-size: var(--font-size);

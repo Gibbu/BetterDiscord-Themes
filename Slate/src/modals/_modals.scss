@@ -22,6 +22,18 @@
   .modal-3c3bKg {
     transform:none !important;
   }
+  .sizeMedium-df47zS,
+  .sizeSmall-1jtLQy,
+  .sizeLarge-2yOtf1,
+  .small-3iVZYw {
+    min-width: 400px;
+    max-width: 600px;
+    max-height:800px;
+    width:unset;
+    &.small-3iVZYw {
+      width:400px;
+    }
+  }
   .modal-yWgWj-,
   .root-1gCeng {
     background-color: var(--background);
@@ -31,6 +43,7 @@
     opacity:1 !important;
     transform:none !important;
     animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    min-height:unset;
     .header-2tA9Os,
     .header-1TKi98 {
       padding: var(--spacing-double);
@@ -39,6 +52,9 @@
       height:50px;
       box-sizing:border-box;
       overflow:hidden;
+      > .flexChild-faoVW3:first-child {
+        margin:0;
+      }
       .h4-AQvcAz,
       .title-31JmR4,
       .colorStandard-2KCXvj {
@@ -49,11 +65,44 @@
         line-height:normal;
         letter-spacing:normal;
       }
+      .guildName-3WI6ml {
+        color:var(--text-muted);
+        font-size:var(--font-size-sm);
+        font-weight:var(--font-weight-normal);
+        line-height:normal;
+      }
+      .close-hZ94c6 {
+        width:16px;
+        height:16px;
+        margin:0;
+        padding:0;
+        color:var(--text-muted);
+        opacity:1;
+        transition:none;
+        &:hover {
+          color:var(--text-normal);
+        }
+        .contents-18-Yxp {
+          width:16px;
+          height:16px;
+        }
+        svg {
+          width:16px;
+          height:16px;
+          path {
+            d:path($path_close);
+            transform:scale(1.6) translateX(1.5px);
+          }
+        }
+      }
     }
     .content-1LAB8Z {
       border-radius:0;
       padding:var(--spacing-double);
       padding-right:var(--spacing-double) !important;
+      .divider-3573oO {
+        display:none;
+      }
     }
     .inner-ZyuQk0 {
       padding: var(--spacing-double) var(--spacing-double) 0;
@@ -66,6 +115,9 @@
     }
     .divider-3573oO {
       border-top-color: var(--base-border);
+    }
+    .content-38qMG0 {
+      padding-bottom:0;
     }
     .description-3_Ncsb,
     .labelDescriptor-1PqHgD {
@@ -126,5 +178,104 @@
     box-shadow: none;
     border-top: 1px solid var(--base-border);
     padding: var(--spacing-double);
+  }
+  .overrideList-Xc_VCf {
+    padding:0;
+    .header-3Uqp87, 
+    .overrideHeader-367JNH {
+      color:var(--text-muted);
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-normal);
+    }
+    .lighten-kLb06a {
+      opacity:1;
+    }
+    .header-3Uqp87 {
+      margin-left:0;
+      margin-bottom:var(--spacing);
+      font-size:var(--font-size-sm);
+      color:var(--text-muted);
+      font-weight:var(--font-weight-normal);
+      text-transform:none;
+      user-select:none;
+      &.headerName-2n9eUZ {
+        color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);
+      }
+      &.headerOption-3qo9Ph {
+        width:60px;
+        &:last-child {
+          padding-right:var(--spacing-half);
+        }
+      }
+    }
+    .overridePlaceholder-14_rPI {
+      margin:0;
+      border:1px solid var(--base-border);
+    }
+    .override-2YgiXd,
+    .overrideHighlight-YPcBxt {
+      margin:0;
+      padding:var(--spacing-half);
+      background:var(--background);
+      .channelName-28iMRJ {
+        font-size:var(--font-size);
+        color:var(--text-normal);
+        line-height:normal;
+      }
+      .channelNameByline-R73-tU {
+        color:var(--text-muted);
+        line-height:normal;
+      }
+      .checkboxGroup-Z7AmuU {
+        width:fit-content;
+      }
+      .checkboxContainer-2vV9zd, 
+      .checkboxMute-14hTGS {
+        display:flex;
+        justify-content:center;
+        width:60px;
+        height:16px;
+        .checkboxWrapper-SkhIWG {
+          width:16px;
+          height:16px;
+          flex-grow:0;
+        }
+        &:before {
+          content:none;
+        }
+        .checkbox-1ix_J3 {
+          display:none;
+        }
+        &.checkboxMute-14hTGS {
+          .input-3ITkQf {
+            opacity:1;
+            z-index:0;
+            appearance:checkbox;
+          }
+        }
+        &.checkboxContainer-2vV9zd {
+          .input-3ITkQf {
+            opacity:1;
+            z-index:0;
+            appearance:radio;
+          }
+        }
+      }
+      .inputDefault-3JxKJ2,
+      .checkbox-1ix_J3 {
+        height:16px !important;
+        width:16px !important;
+        cursor:default; 
+      }
+      .iconContainer-2h8jYA {
+        margin:0;
+        color:var(--text-muted);
+        height:16px;
+        svg {
+          height:16px;
+        }
+      }
+    }
   }
 }

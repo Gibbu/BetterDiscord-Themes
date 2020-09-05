@@ -49,6 +49,9 @@ html {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
   }
+  strong {
+    font-weight:var(--font-weight-bold);
+  }
   //App-wide Spacing
   .horizontal-1ae9ci > .flex-1xMQg5,
   .horizontal-1ae9ci > .flexChild-faoVW3 {
