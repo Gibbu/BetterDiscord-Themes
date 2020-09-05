@@ -344,7 +344,7 @@ h1 {
     margin:0;
     line-height:1.5;
     font-size:var(--font-size-xxl);
-    font-weight:var(--font-weight-normal);
+    font-weight:var(--font-weight-light);
     color:var(--text-normal);
 }
 
@@ -352,6 +352,7 @@ p {
     margin:0;
     font-size:var(--font-size);
     color:var(--text-muted);
+    font-weight:var(--font-weight-normal);
 }
 
 p.description {

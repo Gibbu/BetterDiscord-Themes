@@ -16,12 +16,19 @@
     min-height: auto;
     border-top: 1px solid var(--base-border);
     background: var(--background-light);
-    button {
-      padding: var(--spacing-half) var(--spacing);
+    padding: var(--spacing-third) var(--spacing);
+    cursor:default;
+    .barButtonMain-3K-jeJ {
       height: auto;
-      color: var(--text-focus);
+      color: var(--text-normal);
       font-size: var(--font-size);
+      font-weight:var(--font-weight-semibold);
       line-height: inherit;
+      padding:0;
+      overflow:visible;
+      pointer-events:none;
+    }
+    .barButtonAlt-mYL1lj {
       & > svg {
         display: none;
       }
@@ -40,32 +47,20 @@
     border-bottom: 1px solid var(--base-border);
     box-shadow: none;
     opacity: 1;
-    padding: var(--spacing-half) var(--spacing);
+    padding: var(--spacing-third) var(--spacing);
     min-height: auto;
     cursor: default;
-    & > button {
-      height: auto;
-      line-height: normal;
-      cursor: default;
-      margin-top: 0;
-      padding: 0;
-      font-size: 12px;
-      color: var(--text-normal);
-      font-weight: var(--font-weight-normal);
-      &:last-child {
-        padding: 0 var(--spacing);
-        color: var(--white);
+    button {
+      cursor:default;
+      &.barButtonMain-3K-jeJ {
+        color:var(--text-normal);
+        font-size:var(--font-size);
+        padding:0;
+        font-weight:var(--font-weight-semibold);
+        pointer-events:none;
       }
-    }
-    .barButtonAlt-3gIkIj {
-      font-size: 0;
-      svg {
-        margin: 0;
-        color: rgb(var(--discord-yellow));
-        path {
-          d: path($path_warning);
-          transform: scale(1.35) translateY(2px);
-        }
+      .barButtonIcon-3t4V3d {
+        display:none;
       }
     }
   }
