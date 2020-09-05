@@ -4,7 +4,7 @@
   .lookLink-9FtZy-,
   .lookOutlined-3sRXeN {
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     min-height: var(--input-height);
     height: var(--input-height);
@@ -36,7 +36,7 @@
     height: var(--input-height);
     padding: 0 var(--spacing);
     border-radius: var(--button-border-radius);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     cursor: default;
     box-shadow: none !important;
     &:hover {

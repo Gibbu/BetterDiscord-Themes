@@ -1,7 +1,7 @@
 #app-mount .container-1r6BKw {
-  background: var(--topbar-background);
+  background: var(--toolbar-background);
   height: var(--toolbar-height);
-  border-bottom: 1px solid var(--topbar-border);
+  border-bottom: 1px solid var(--toolbar-border);
   padding-left: 0;
   position: relative;
   overflow: visible;
@@ -11,16 +11,16 @@
     height: calc(var(--toolbar-height) - 1px);
     min-width: 230px;
     padding: var(--spacing);
-    border-right: 1px solid var(--topbar-border);
+    border-right: 1px solid var(--toolbar-border);
     position: relative;
     overflow: visible;
     .input-2A_zIr,
     .input-cIJ7To {
-      background: var(--topbar-background);
-      border: 1px solid var(--topbar-border) !important;
+      background: var(--toolbar-background);
+      border: 1px solid var(--toolbar-border) !important;
       color: var(--toolbar-text-normal);
       &:hover {
-        border: 1px solid var(--topbar-background-hover) !important;
+        border: 1px solid var(--toolbar-background-hover) !important;
       }
       &:focus {
         border: 1px solid var(--accent-solid) !important;
@@ -51,7 +51,7 @@
         display: block;
         content: "Current Channel";
         font-size: var(--font-size-sm);
-        font-weight: var(--font-weight-light);
+        font-weight: var(--font-weight-normal);
         color: var(--toolbar-text-muted);
       }
     }
@@ -81,7 +81,7 @@
       padding: var(--spacing-half) var(--spacing);
       bottom: -36px;
       margin: 0;
-      border: 1px solid var(--border-colour);
+      border: 1px solid var(--base-border);
       box-sizing: border-box;
       box-shadow: var(--elevation-1);
       overflow: visible;
@@ -101,8 +101,8 @@
         top: -5px;
         left: 8px;
         transform: rotate(45deg);
-        border-top: 1px solid var(--border-colour);
-        border-left: 1px solid var(--border-colour);
+        border-top: 1px solid var(--base-border);
+        border-left: 1px solid var(--base-border);
         clip-path: polygon(100% 0, 0% 100%, 0 0);
         box-shadow: var(--elevation-1);
       }
@@ -113,7 +113,7 @@
       padding: var(--spacing) var(--spacing-third);
       margin: 0 var(--spacing);
       box-sizing: border-box;
-      background: var(--topbar-background);
+      background: var(--toolbar-background);
       pointer-events: none;
     }
     &:after {
@@ -124,8 +124,8 @@
   .toolbar-1t6TWx {
     height: calc(var(--toolbar-height) - 1px);
     padding: 0;
-    border-right: 1px solid var(--topbar-border);
-    background: var(--topbar-background);
+    border-right: 1px solid var(--toolbar-border);
+    background: var(--toolbar-background);
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing);
       .iconBadge-qZ4Ksk {
@@ -189,7 +189,7 @@
   // Header buttons in friends/library tab
   .topPill-30KHOu {
     height: var(--toolbar-height);
-    border-left: 1px solid var(--topbar-border);
+    border-left: 1px solid var(--toolbar-border);
     margin-left: var(--spacing);
     .item-3HknzM {
       border-radius: 0;
@@ -198,11 +198,11 @@
       align-items: center;
       background: transparent !important;
       color: var(--text-muted) !important;
-      font-size: var(--font-size-lg);
+      font-size: var(--font-size-md);
       padding: 0 var(--spacing);
       height: calc(var(--toolbar-height) - 1px);
       &:hover {
-        background: var(--topbar-background-hover) !important;
+        background: var(--toolbar-background-hover) !important;
         color: var(--toolbar-text-normal) !important;
       }
       &.selected-3s45Ha {
@@ -235,7 +235,7 @@
     font-size: var(--font-size);
     padding: 0 var(--spacing) 0 calc(var(--spacing-triple) - 4px);
     color: var(--text-normal);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     margin: 0;
   }
   .DraftEditor-editorContainer {
@@ -255,12 +255,12 @@
   }
 
   &.title-3qD0b- .children-19S4PO:hover {
-    background: var(--topbar-background-hover );
+    background: var(--toolbar-background-hover );
     .title-29uC1r {
       color: var(--toolbar-text-focus);
     }
     .status-1XNdyw {
-      background: var(--topbar-background-hover);
+      background: var(--toolbar-background-hover);
     }
     .nicknames-1XK4Zt {
       opacity: 1;

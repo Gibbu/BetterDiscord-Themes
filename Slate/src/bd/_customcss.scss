@@ -12,7 +12,7 @@
   #bd-customcss-attach-controls {
     box-shadow: none;
     height: auto;
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     background: var(--background);
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
       margin:0;
       margin-left:var(--spacing);
       font-size: var(--font-size);
-      font-weight: var(--font-weight-light);
+      font-weight: var(--font-weight-normal);
       cursor: default;
       min-height: var(--input-height);
       height: var(--input-height);
@@ -41,7 +41,7 @@
       border-radius: var(--button-border-radius) !important;
       color: var(--text-normal);
       background: var(--background-light);
-      border: 1px solid var(--border-colour) !important;
+      border: 1px solid var(--base-border) !important;
       &:hover {
         border: 1px solid currentColor !important;
       }
@@ -60,7 +60,7 @@
   min-height: 400px;
 }
 #app-mount #bd-customcss-detach-container {
-  border-left: 1px solid var(--border-colour);
+  border-left: 1px solid var(--base-border);
   #bd-customcss-detach-editor {
     height: calc(100vh - var(--titlebar-height) - 50px);
   }

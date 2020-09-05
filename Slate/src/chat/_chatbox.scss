@@ -1,7 +1,7 @@
 #app-mount {
   .form-2fGMdU {
     padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing) * 2 + var(--avatar-size));
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     display: flex;
     align-items: center;
     background: var(--background-light);
@@ -20,7 +20,7 @@
   }
   // Attach files
   .attachWrapper-2TRKBi {
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     width: 44px;
     button {
       -webkit-mask: url($icon_upload) center/14px no-repeat;
@@ -51,7 +51,7 @@
     font-size: var(--font-size);
     padding: 0 var(--spacing);
     color: var(--text-muted);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     top: 2px;
     width: 98%;
   }
@@ -70,7 +70,7 @@
   .inner-MADQqc {
     box-sizing: border-box;
     background-color: var(--background);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     transform: translateZ(0);
   }
@@ -82,7 +82,7 @@
     font-size: var(--font-size);
     padding: 4px var(--spacing) 0;
     color: var(--text-normal);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     top: 0;
     width: 98%;
     &:focus:after {

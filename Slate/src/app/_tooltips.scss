@@ -6,16 +6,16 @@
     color: var(--text-normal);
     box-shadow: none;
     font-size: var(--font-size);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     position: relative;
-    font-weight: var(--font-weight-normal);
-    transform: none !important;
+    font-weight: var(--font-weight-semibold);
+    transform: none !important; 
     .tooltipContent-bqVLWK {
       padding: 0;
     }
     .tooltipPointer-3ZfirK {
       background: var(--background);
-      border: 1px solid var(--border-colour);
+      border: 1px solid var(--base-border);
       width: 8px;
       height: 8px;
       clip-path: polygon(100% 0, 0% 100%, 0 0);

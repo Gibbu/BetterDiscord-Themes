@@ -5,7 +5,7 @@
     position: absolute;
     background: var(--background);
     box-shadow: none;
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     .header-2-Imhb {
       padding: 0 var(--spacing);
@@ -44,7 +44,7 @@
   .container-3iAQ-0 {
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     &:hover .jumpButton-2F6EMx {
       opacity: 1;
     }
@@ -58,7 +58,7 @@
     border-radius: var(--border-radius);
   }
   .channelNameHeader-F4hU_R {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
   }
   .colorHeaderSecondary-3Sp3Ft {
     font-size: var(--font-size);
@@ -111,7 +111,7 @@
   .jumpButton-2F6EMx {
     --button-colour: var(--accent);
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     height: 20px;
     opacity: 0;

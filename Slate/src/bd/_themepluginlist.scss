@@ -5,9 +5,9 @@
     padding: 0;
     input {
       border-radius: var(--border-radius);
-      background: var(--topbar-background);
+      background: var(--toolbar-background);
       font-size: var(--font-size);
-      border: 1px solid var(--border-colour);
+      border: 1px solid var(--base-border);
       color: var(--text-normal);
       transition: none;
       padding: 0 var(--spacing-half);
@@ -25,7 +25,7 @@
   }
   .bd-addon-card {
     background: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     padding: 0;
     position: relative;
     .bda-header {
@@ -38,14 +38,14 @@
     .bda-description {
       padding: var(--spacing) 80px var(--spacing) var(--spacing);
       box-sizing: border-box;
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
       margin: 0;
-      font-size: var(--font-size-lg);
-      font-weight: var(--font-weight-light);
+      font-size: var(--font-size-md);
+      font-weight: var(--font-weight-normal);
     }
     .bda-footer {
       padding: var(--spacing) 77px var(--spacing) var(--spacing);
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
     }
     .bda-links {
       display: flex;

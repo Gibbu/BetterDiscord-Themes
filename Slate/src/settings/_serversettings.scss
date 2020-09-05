@@ -16,12 +16,12 @@
 
 // Emojis
 .emojiRow-zIc7ZX {
-  box-shadow: 0 1px 0 0 var(--border-colour);
+  box-shadow: 0 1px 0 0 var(--base-border);
 }
 .emojiRemove-1k6MlJ {
   right: 0;
   background-color: var(--background-dark);
-  border: 1px solid var(--border-colour);
+  border: 1px solid var(--base-border);
   border-radius: var(--border-radius);
   box-shadow: none;
 }
@@ -39,13 +39,13 @@
   padding: var(--spacing-double);
 }
 .auditLog-3jNbM6 {
-  border-color: var(--border-colour);
+  border-color: var(--base-border);
 }
 .headerClickable-2IVFo9, .headerDefault-1wrJcN {
   background: var(--background-dark);
 }
 .divider-1pnAR2 {
-  border-color: var(--border-colour);
+  border-color: var(--base-border);
 }
 .changeDetails-bk98pu {
   background: var(--background-dark);

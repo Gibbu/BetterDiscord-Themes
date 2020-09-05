@@ -2,7 +2,7 @@
   // Buttons
   .bd-addon-button, .bd-button, .bda-link {
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     min-height: 25px;
     height: 25px;
@@ -28,11 +28,11 @@
   .ui-switch-item {
     margin: var(--spacing) var(--spacing-double);
     h3 {
-      font-size: var(--font-size-lg);
+      font-size: var(--font-size-md);
       color: var(--text-normal);
     }
     .style-description {
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
       color: var(--text-muted) !important;
       font-size: var(--font-size);
     }

@@ -188,7 +188,7 @@
 // Standard Dot Status
 .wrapper-3t9DeA {
   border-radius: calc(var(--border-radius) / 2);
-  box-shadow:0 0 0 .5px var(--border-colour); 
+  box-shadow:0 0 0 .5px var(--base-border); 
   svg:not(:root) {
     overflow: visible;
   }
@@ -202,7 +202,7 @@
   rect {
     x: 24.5px;
     y: 24.5px;
-    stroke: var(--border-colour);
+    stroke: var(--base-border);
     rx: 50;
     mask: none;
     &[height="15"], &[height="10"] {
@@ -225,7 +225,7 @@
   .cursorDefault-dsQJ1n rect {
     y: 8.5px;
     x: 10.5px;
-    stroke: var(--border-colour);
+    stroke: var(--base-border);
   }
   .dots-3Bkt3k circle {
     &:nth-child(1) {

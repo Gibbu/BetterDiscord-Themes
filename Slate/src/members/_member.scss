@@ -17,7 +17,7 @@
   }
   .name-uJV0GL {
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     color: var(--text-normal);
     line-height: normal;
   }
@@ -30,7 +30,7 @@
   }
   .activity-2Gy-9S {
     font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-semibold);
     color: var(--text-muted);
   }
 
@@ -79,7 +79,7 @@
     animation:none;
     .placeholderAvatar-damqh6 {
       border-radius: var(--border-radius);
-      border: 1px solid var(--border-colour);
+      border: 1px solid var(--base-border);
       width: var(--avatar-size-sm);
       height: var(--avatar-size-sm);
       background: var(--background-dark);

@@ -4,9 +4,9 @@
 
 	// Search Header
 	.searchBar-6Kv8R2 {
-		background: var(--topbar-background);
-		border-bottom: 1px solid var(--topbar-border);
-		border-right: 1px solid var(--topbar-border);
+		background: var(--toolbar-background);
+		border-bottom: 1px solid var(--toolbar-border);
+		border-right: 1px solid var(--toolbar-border);
 		height: var(--toolbar-height);
 		box-shadow: none;
 		position: absolute;
@@ -17,8 +17,8 @@
 		padding: 0 var(--spacing);
 		button {
 			box-sizing: border-box;
-			background-color: var(--topbar-background);
-			border: 1px solid var(--topbar-border);
+			background-color: var(--toolbar-background);
+			border: 1px solid var(--toolbar-border);
 			border-radius: var(--border-radius);
 			height: var(--input-height);
 			transform: translateZ(0);
@@ -27,7 +27,7 @@
 			position:relative;
 			cursor:text;
 			width:100%;
-			font-weight:var(--font-weight-light);
+			font-weight:var(--font-weight-normal);
 			color:var(--toolbar-text-muted);
 			padding:0 var(--spacing-half);
 			line-height:normal;
@@ -65,7 +65,7 @@
 		}
 		.name-uJV0GL {
 			font-size: var(--font-size);
-			font-weight: var(--font-weight-light);
+			font-weight: var(--font-weight-normal);
 			color: var(--text-normal);
 		}
 		.avatar-3uk_u9 {
@@ -81,7 +81,7 @@
 		  display:none;
 	  }
 	  &[href="/library"] {
-		  border-left:1px solid var(--border-colour);
+		  border-left:1px solid var(--base-border);
 	  }
 	  &[href="/channels/@me"],
 	  &[href="/library"] {
@@ -92,7 +92,7 @@
 		.layout-2DM8Md {
 			justify-content:center;
 			height:28px;
-			border-bottom:1px solid var(--border-colour);
+			border-bottom:1px solid var(--base-border);
 			.avatar-3uk_u9 {
 				display:none;
 			}

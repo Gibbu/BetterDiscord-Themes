@@ -7,7 +7,7 @@
     height: calc(100vh - var(--titlebar-height));
     border-radius: 0;
     box-shadow: none;
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     width: calc(var(--noasw-base) + var(--sidebar-width));
     box-sizing: border-box;
     background: var(--background);

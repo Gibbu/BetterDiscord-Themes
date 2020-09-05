@@ -1,5 +1,5 @@
 #app-mount .guilds-1SWlCJ {
-  border-right: 1px solid var(--border-colour);
+  border-right: 1px solid var(--base-border);
   box-sizing: border-box;
   .scroller-2TZvBN {
     background: var(--background);
@@ -50,13 +50,13 @@
     background: var(--text-focus);
   }
   .guildSeparator-3s64Iy {
-    background: var(--border-colour);
+    background: var(--base-border);
     height: 1px;
   }
   .childWrapper-anI2G9 {
     background: var(--background-light);
-    font-size: var(--font-size-lg);
-    font-weight: var(--font-weight-light);
+    font-size: 1em;
+    font-weight: var(--font-weight-normal);
     cursor:default;
   }
   .wrapper-1BJsBx,
@@ -124,7 +124,7 @@
       border-radius:0;
       text-transform:capitalize;
       font-size:var(--font-size);
-      font-weight:var(--font-weight-light);
+      font-weight:var(--font-weight-normal);
       background:rgb(var(--discord-red));
       color:var(--white);
       cursor:default;

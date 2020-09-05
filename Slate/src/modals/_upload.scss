@@ -23,7 +23,7 @@
       border-radius: 0;
       box-shadow: none;
       height: 298.13px;
-      border-bottom: 1px solid var(--border-colour);
+      border-bottom: 1px solid var(--base-border);
       background-color: var(--background);
       &:active {
         background-size: 100%;
@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     padding: 0 var(--spacing);
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     background: var(--background);
     width: 100%;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
@@ -71,7 +71,7 @@
   .footer-3mqk7D {
     background: var(--background);
     box-shadow: none;
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     padding: var(--spacing);
   }
   .checkboxWrapper-SkhIWG {

@@ -5,17 +5,17 @@
     transform: translateX(-50%);
     border: none;
     box-shadow: none;
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     background: var(--background);
   }
   .header-ykumBX {
     background: var(--background-dark);
     padding: var(--spacing);
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     box-shadow: none;
     h3 {
-      font-size: var(--font-size-lg);
+      font-size: var(--font-size-md);
     }
   }
   .messagesPopout-24nkyi {
@@ -27,7 +27,7 @@
   .messageGroupWrapper-o-Zw7G {
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     background: transparent;
     &:hover .jumpButton-3DTcS_ {
       opacity: 1;
@@ -36,7 +36,7 @@
   .jumpButton-3DTcS_ {
     --button-colour: var(--accent);
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     height: 20px;
     display: flex;

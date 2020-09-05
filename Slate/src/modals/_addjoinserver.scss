@@ -17,6 +17,7 @@
   border-radius:0;
   overflow:visible;
   animation:fadeIn 250ms ease;
+  border:none;
 
   // Scaling for smaller screens and low zoom level
   @media screen and (max-width: 600px) {
@@ -64,21 +65,21 @@
   &:before {
     content:'';
     position: absolute;
-    right: 80px;
-    top: 40px;
-    width: 20%;
-    height: 20%;
+    right: 70px;
+    top: 0;
+    width: 15%;
+    height: 23%;
     z-index:1;
-    background:urL($illustration_12) right/contain no-repeat;
-  }
+    background:urL($illustration_11) right/contain no-repeat;
+  } 
   &:after {
     content:'';
     position: absolute;
     right: var(--spacing);
     bottom:var(--spacing);
     width: 40%;
-    height: 50%;
-    background:urL($illustration_11) right/contain no-repeat;
+    height: 60%;
+    background:urL($illustration_10) right/contain no-repeat;
   }
   div[style*="position: relative"] {
     height:100% !important;
@@ -204,7 +205,7 @@
                   background: var(--background-light);
                   min-height: var(--input-height);
                   border-radius: var(--button-border-radius);
-                  border: 1px solid var(--border-colour);
+                  border: 1px solid var(--base-border);
                   cursor: default;
                   box-shadow: none;
                   &:hover {
@@ -240,7 +241,7 @@
           .header-3ZP1MY {
             text-align:left;
             font-size:var(--font-size-xxl);
-            font-weight:var(--font-weight-ultralight);
+            font-weight:var(--font-weight-light);
             margin:0;
             color:var(--text-normal);
             line-height:normal;
@@ -248,7 +249,7 @@
               content:'Add a server by choosing one of the options below.';
               display:block;
               font-size:var(--font-size);
-              font-weight:var(--font-weight-light);
+              font-weight:var(--font-weight-normal);
               margin-bottom:calc(var(--spacing) * 4);
               margin-top:var(--spacing-half);
             }
@@ -269,6 +270,7 @@
       border-radius:0;
       margin:0;
       max-width:100%;
+      border:none;
       .content-1LAB8Z {
         padding:0 2px !important;
         padding-right:var(--spacing) !important;
@@ -302,7 +304,7 @@
       .label-wQQoIq {
         font-size:var(--font-size);
         text-transform:none;
-        font-weight:var(--font-weight-light);
+        font-weight:var(--font-weight-normal);
         color:var(--text-normal);
         margin-bottom:var(--spacing-half);
       }
@@ -317,8 +319,8 @@
           text-align:center;
           .avatarUploaderAcronym-3SioMc {
             color:var(--text-normal);
-            font-size:calc(var(--font-size-xl) + 10px);
-            font-weight:var(--font-weight-ultralight);
+            font-size:var(--font-size-xxl);
+            font-weight:var(--font-weight-light);
           }
         }
         .sizeInfo-SKMPPw {
@@ -367,7 +369,7 @@
       }
       h5 {
         font-size:var(--font-size-xxl);
-        font-weight:var(--font-weight-ultralight);
+        font-weight:var(--font-weight-light);
         color:var(--text-normal);
         text-align:left;
         text-transform:none;
@@ -378,7 +380,7 @@
         font-size:var(--font-size);
         text-align:left;
         color:var(--text-normal);
-        font-weight:var(--font-weight-light);
+        font-weight:var(--font-weight-normal);
         padding:0;
         margin-bottom:calc(var(--spacing) * 4);
         margin-top:var(--spacing-half);

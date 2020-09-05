@@ -14,7 +14,7 @@
     height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
     width: calc(var(--sidebar-width) + var(--container));
     background: var(--background);
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     .scroller-3BxosC {
       padding: var(--spacing-half) 0 0;
       &::-webkit-scrollbar {
@@ -30,7 +30,7 @@
       color: var(--text-normal);
       border-radius: 0;
       font-size: var(--font-size);
-      font-weight: var(--font-weight-light);
+      font-weight: var(--font-weight-normal);
       cursor: default;
       box-sizing: border-box;
       .label-22pbtT {
@@ -138,7 +138,7 @@
       content: var(--slate-version);
       position: absolute;
       font-size: var(--font-size-xsm);
-      font-weight: var(--font-weight-light);
+      font-weight: var(--font-weight-normal);
       color: var(--text-normal);
       bottom: 0;
       left: 0;

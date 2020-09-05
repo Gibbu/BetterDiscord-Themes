@@ -27,13 +27,14 @@
     background-color: var(--background);
     border-radius: var(--border-radius);
     box-shadow: var(--elevation-2);
+    border:1px solid var(--base-border);
     opacity:1 !important;
     transform:none !important;
     animation: modal 150ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     .header-2tA9Os,
     .header-1TKi98 {
       padding: var(--spacing-double);
-      border-bottom: 1px solid var(--border-colour);
+      border-bottom: 1px solid var(--base-border);
       box-shadow: none;
       height:50px;
       box-sizing:border-box;
@@ -41,9 +42,12 @@
       .h4-AQvcAz,
       .title-31JmR4,
       .colorStandard-2KCXvj {
-        font-size: var(--font-size-lg);
-        text-transform:none;
+        font-size: var(--font-size-md);
         color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);  
+        text-transform:none;
+        line-height:normal;
+        letter-spacing:normal;
       }
     }
     .content-1LAB8Z {
@@ -61,7 +65,7 @@
       margin-bottom: var(--spacing-double);
     }
     .divider-3573oO {
-      border-top-color: var(--border-colour);
+      border-top-color: var(--base-border);
     }
     .description-3_Ncsb,
     .labelDescriptor-1PqHgD {
@@ -77,6 +81,8 @@
         flex-direction:row-reverse;
         label {
           font-size:var(--font-size);
+          font-weight:var(--font-weight-normal);  
+          color:var(--text-normal);
           cursor:default;
         }
         .switch-3wwwcV {
@@ -85,7 +91,7 @@
       }
     }
     .cardPrimaryOutline-29Ujqw {
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
       background: var(--background-dark);
       padding: var(--spacing-half) 0 var(--spacing-half) var(--spacing);
       border-radius: var(--border-radius);
@@ -96,7 +102,7 @@
         }
       }
       .weightSemiBold-1WYsXZ {
-        font-size: var(--font-size-lg);
+        font-size: var(--font-size-md);
       }
       .channelNameByline-R73-tU {
         font-size: var(--font-size-sm);
@@ -118,7 +124,7 @@
   .footer-2gL1pp {
     background: var(--background);
     box-shadow: none;
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     padding: var(--spacing-double);
   }
 }

@@ -4,7 +4,7 @@
   .submenu-2-ysNh {
     background: var(--background);
     box-shadow: var(--elevation-1);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     [role="group"] {
       &:first-child .item-1tOPte {
         border-radius: var(--border-radius) var(--border-radius) 0 0;
@@ -21,7 +21,7 @@
     }
     .separator-2I32lJ {
       margin: 0;
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
     }
     .item-1tOPte {
       font-size: var(--font-size);
@@ -54,7 +54,7 @@
   // Instant reactions
   .wrapper-3_530D {
     padding: 0;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     overflow: hidden;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }

@@ -16,7 +16,7 @@
       width: 12px;
       display: none;
       background: transparent;
-      border-left: 1px solid var(--border-colour);
+      border-left: 1px solid var(--base-border);
     }
     &::-webkit-scrollbar-track-piece {
       background: transparent;
@@ -39,17 +39,17 @@
   }
   .searchBar-TUoVPN {
     background: var(--background);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
   }
   .header-39GIC8 {
     padding: var(--spacing);
     background: var(--background-alt);
-    border-bottom-color: var(--border-colour);
+    border-bottom-color: var(--base-border);
     width: 100%;
   }
   .rowWrapper-2fB6P0 {
     margin: 0;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     border-radius: 0;
     padding-bottom: 0;
     .bodyCell-9xKjWE {

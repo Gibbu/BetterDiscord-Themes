@@ -2,7 +2,7 @@
   height: auto;
   margin: 0;
   padding: var(--spacing-half) 0;
-  border-top: 1px solid var(--border-colour);
+  border-top: 1px solid var(--base-border);
   background: var(--background);
   top: 0;
   .content-1o0f9g {
@@ -14,7 +14,7 @@
     margin-top: 0;
   }
   &.isUnread-3Ef-o9 {
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     .unreadPill-2HyYtt {
       position: unset;
       background: transparent;

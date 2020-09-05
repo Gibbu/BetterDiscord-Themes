@@ -1,7 +1,7 @@
 #app-mount .autocomplete-1vrmpx {
   background: var(--background);
   border-radius: 0;
-  border-top: 1px solid var(--border-colour);
+  border-top: 1px solid var(--base-border);
   left: -45px;
   right: -13px;
   bottom: calc(100% + 10px);
@@ -27,7 +27,7 @@
     color: var(--text-normal);
   }
   .marginLeft4-3VaXdt {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     color: var(--text-focus);
   }
   .description-11DmNu {

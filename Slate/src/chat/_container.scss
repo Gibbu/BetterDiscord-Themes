@@ -14,7 +14,7 @@
     border-radius: 0;
     padding: 0;
     min-height: auto;
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     background: var(--background-light);
     button {
       padding: var(--spacing-half) var(--spacing);
@@ -37,7 +37,7 @@
     right: 0;
     border-radius: 0;
     background: var(--background-light);
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     box-shadow: none;
     opacity: 1;
     padding: var(--spacing-half) var(--spacing);
@@ -75,8 +75,8 @@
     margin: 0;
     box-shadow: none;
     background: var(--background);
-    border-top: 1px solid var(--border-colour);
-    border-bottom: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
+    border-bottom: 1px solid var(--base-border);
     border-radius: 0;
   }
 
@@ -90,7 +90,7 @@
     background:var(--background);
     border-radius:var(--border-radius);
     box-shadow:var(--elevation-1);
-    border:1px solid var(--border-colour);
+    border:1px solid var(--base-border);
     height:fit-content;
     width:340px;
     height:290px;
@@ -111,7 +111,7 @@
       &:after {
         content:'Uh oh.';
         font-size:var(--font-size-xxl);
-        font-weight:var(--font-weight-ultralight);
+        font-weight:var(--font-weight-light);
       }
     }
     &:before {
@@ -135,7 +135,7 @@
     order:1;
     pointer-events:all;
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     min-height: var(--input-height);
     height: var(--input-height);
@@ -177,7 +177,7 @@
       }
       .titleName-3-Lp3Z {
         font-size:var(--font-size-xxl);
-        font-weight:var(--font-weight-ultralight);
+        font-weight:var(--font-weight-light);
         line-height:1.5;
         p:first-child {
           display:none;
@@ -188,7 +188,7 @@
           margin:0;
           border-radius:0;
           background:transparent;
-          border:1px solid var(--border-colour);
+          border:1px solid var(--base-border);
           border-top:none;
           padding:var(--spacing-double);
           cursor:default;
@@ -213,7 +213,7 @@
           }
         }
         &:nth-child(2) .card-3RzMcx {
-          border-top:1px solid var(--border-colour);
+          border-top:1px solid var(--base-border);
           border-radius:3px 3px 0 0;
         }
         &:last-child .card-3RzMcx {

@@ -12,7 +12,7 @@ html {
   line-height: var(--line-height);
 }
 #app-mount {
-  background: var(--topbar-background);
+  background: var(--toolbar-background);
   .base-3dtUhz {
     border-radius: 0;
     left: var(--noasw-base);
@@ -40,7 +40,7 @@ html {
   .h5-18_1nd {
     color: var(--text-normal);
     text-transform: none;
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: text;
     font-size: var(--font-size);
   }

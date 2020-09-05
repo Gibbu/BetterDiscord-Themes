@@ -1,7 +1,7 @@
 #app-mount .panels-j1Uci_ {
 	background: var(--background-light);
-	border-top: 1px solid var(--border-colour);
-	border-right: 1px solid var(--border-colour);
+	border-top: 1px solid var(--base-border);
+	border-right: 1px solid var(--base-border);
   position: relative;
   
 	// Buttons
@@ -44,13 +44,13 @@
   
 	// Activity
 	.activityPanel-28dQGo {
-		border-color: var(--border-colour);
+		border-color: var(--base-border);
   }
   
 	// Connected
 	.container-1giJp5 {
 		position: relative;
-		border-bottom-color: var(--border-colour);
+		border-bottom-color: var(--base-border);
 	}
 	.subtext-3CDbHg {
 		color: var(--text-focus);
@@ -73,7 +73,7 @@
 			justify-content: flex-end;
 			background: var(--background);
 			border-radius: var(--border-radius);
-			border: 1px solid var(--border-colour);
+			border: 1px solid var(--base-border);
 			width: calc(100% - 28px);
 			box-sizing: border-box;
 			overflow: hidden;
@@ -184,7 +184,7 @@
 			width: 100%;
 			background: var(--background);
 			border-radius: var(--border-radius);
-			border: 1px solid var(--border-colour);
+			border: 1px solid var(--base-border);
 			overflow: hidden;
 		}
 	}

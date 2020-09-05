@@ -4,7 +4,7 @@
       border-radius:0;
       margin:0;
       background:transparent;
-      border:1px solid var(--border-colour);
+      border:1px solid var(--base-border);
       border-top:none;
       cursor:default;
       padding:var(--spacing) !important;
@@ -29,7 +29,7 @@
       .desc-2Dttbk,
       .title-3BE6m5:after {
         font-size:var(--font-size);
-        font-weight:var(--font-weight-light);
+        font-weight:var(--font-weight-normal);
         color:var(--text-muted);
         line-height:normal;
         margin:0;
@@ -47,7 +47,7 @@
       }
       &:first-child {
         border-radius:var(--border-radius) var(--border-radius) 0 0;
-        border-top:1px solid var(--border-colour);
+        border-top:1px solid var(--base-border);
       }
       &:last-child {
         border-radius:0 0 var(--border-radius) var(--border-radius);

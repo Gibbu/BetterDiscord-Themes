@@ -8,7 +8,7 @@
     background: var(--background);
   }
   [class*="scroller-"] {
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     &::-webkit-scrollbar {
       display: none;
     }
@@ -26,9 +26,9 @@
   }
   // Channel Notifications
   .channelNotice-1-XFjC {
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     box-shadow: none;
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     background-color: var(--background-light);
     padding: var(--spacing);
     .close-relY5R {

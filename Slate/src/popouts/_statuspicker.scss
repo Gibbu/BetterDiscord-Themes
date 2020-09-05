@@ -3,7 +3,7 @@
     background: var(--background);
     width: var(--sidebar-width);
     padding: 0;
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     box-shadow: var(--elevation-1);
     box-sizing: border-box;
@@ -28,8 +28,8 @@
         bottom: -5px;
         left: 8px;
         transform: rotate(45deg);
-        border-bottom: 1px solid var(--border-colour);
-        border-right: 1px solid var(--border-colour);
+        border-bottom: 1px solid var(--base-border);
+        border-right: 1px solid var(--base-border);
         clip-path: polygon(0 100%, 100% 100%, 100% 0);
         box-shadow: var(--elevation-1);
       }

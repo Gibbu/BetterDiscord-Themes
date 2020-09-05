@@ -4,7 +4,7 @@
   position: relative;
   margin-bottom: 0;
   padding: var(--spacing) var(--spacing) var(--spacing-triple);
-  border-bottom-color: var(--border-colour);
+  border-bottom-color: var(--base-border);
   background: rgba(var(--discord-spotify), 0.2);
   min-height: unset;
   button {
@@ -20,7 +20,7 @@
     z-index: 1;
   }
   .coverWrapper-YAplwJ {
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
   }
   .timeline-UWmgAx {
     position: absolute;
@@ -58,7 +58,7 @@
     padding: 0 8px var(--spacing-triple);
     .coverWrapper-YAplwJ {
       border: none;
-      border-bottom: 1px solid var(--border-colour);
+      border-bottom: 1px solid var(--base-border);
     }
   }
 }

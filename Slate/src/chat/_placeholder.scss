@@ -14,7 +14,7 @@
       margin-top: calc(var(--spacing) / -1);
     }
     &[style*="margin-top"] {
-      border-top: 1px solid var(--border-colour);
+      border-top: 1px solid var(--base-border);
       margin-top: 0 !important;
     }
   }
@@ -22,7 +22,7 @@
     border-radius: var(--border-radius);
     width: var(--avatar-size);
     height: var(--avatar-size);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     background: var(--background-dark);
     top: var(--spacing);
     left: var(--spacing);

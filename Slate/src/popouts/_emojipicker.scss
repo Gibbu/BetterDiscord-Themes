@@ -10,7 +10,7 @@
   .contentWrapper-SvZHNd {
     background: var(--background);
     box-shadow: none;
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     grid-gap: 0;
     padding-top: 0;
     border-radius: var(--border-radius);
@@ -64,7 +64,7 @@
   .header-1TOWci, .header-8ilj5e {
     padding: var(--spacing) var(--spacing) var(--spacing) 80px;
     box-shadow: none;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     grid-template-columns: auto 20px;
     grid-gap: var(--spacing);
   }
@@ -80,12 +80,12 @@
     box-sizing: border-box;
     height: var(--input-height);
     background-color: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     font-size: var(--font-size);
     padding: 0 var(--spacing) 0 calc(var(--spacing-triple) - 2px);
     color: var(--text-normal);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     margin: 0;
     z-index: 1;
     &:focus {
@@ -117,7 +117,7 @@
   }
   .diversitySelectorPopout-3FiGaM {
     background: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     height: auto !important;
     border-radius: var(--border-radius);
   }
@@ -129,7 +129,7 @@
 
   // Server picker list (left side)
   .categoryList-2Kzf65 {
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     background: var(--background-dark);
     border-radius: 0;
     width: 38px;
@@ -170,7 +170,7 @@
   }
   .guildCategorySeparator-_An-MP {
     margin: var(--spacing) 0;
-    border-bottom-color: var(--border-colour);
+    border-bottom-color: var(--base-border);
   }
 
   // Emote list (right side)
@@ -205,7 +205,7 @@
   // Hovered emote info
   .inspector-sdLnLS {
     background: var(--background);
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
     padding: var(--spacing);
     height: 48px;
     .guildIcon-39bqCb {

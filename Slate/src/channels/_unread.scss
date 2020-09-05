@@ -1,11 +1,11 @@
 #app-mount .sidebar-2K8pFh {
   // Unread messages above
   .unreadTop-73gZ2_ .bar-30k2ka {
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
   }
   // Unread messages below
   .unreadBottom-3hWQ7c .bar-30k2ka {
-    border-top: 1px solid var(--border-colour);
+    border-top: 1px solid var(--base-border);
   }
   .unread-1s3J68 {
     padding: 0;
@@ -26,7 +26,7 @@
     position: relative;
     width: 100%;
     color: rgba(var(--discord-red));
-    border-right: 1px solid var(--border-colour);
+    border-right: 1px solid var(--base-border);
     box-sizing: border-box;
     &.unread-1xRYoj {
       color: var(--text-normal);

@@ -1,7 +1,7 @@
 #app-mount {
   .searchResultsWrap-3-pOjs {
     background-color: var(--background);
-    border-left: 1px solid var(--border-colour);
+    border-left: 1px solid var(--base-border);
     .scroller-3GIiMh {
       padding-left: 0;
       &::-webkit-scrollbar {
@@ -10,7 +10,7 @@
       & > .pagination-eQpqgk:first-child {
         margin: 0;
         padding: var(--spacing) 0;
-        border-bottom: 1px solid var(--border-colour);
+        border-bottom: 1px solid var(--base-border);
       }
     }
   }
@@ -21,7 +21,7 @@
   }
   .searchHeader-2XoQg7 {
     box-shadow: none;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     padding: 0 var(--spacing);
   }
   .tab-2j5AEF,
@@ -39,8 +39,8 @@
     }
     &.expanded-w_LCGl {
       border: none;
-      border-top: 1px solid var(--border-colour);
-      border-bottom: 1px solid var(--border-colour);
+      border-top: 1px solid var(--base-border);
+      border-bottom: 1px solid var(--base-border);
       border-radius: 0;
       background: var(--background-dark);
     }
@@ -50,7 +50,7 @@
     &.hit-1fVM9e {
       border-left: none;
       border-right: none;
-      border-color: var(--border-colour);
+      border-color: var(--base-border);
       box-shadow: none;
       background: var(--background-alt);
     }
@@ -61,7 +61,7 @@
   .jumpButton-JkYoYK {
     --button-colour: var(--accent);
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     cursor: default;
     height: 20px;
     display: flex;

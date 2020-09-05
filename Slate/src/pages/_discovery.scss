@@ -16,12 +16,12 @@
   .body-2lagau:before {
     content: "";
     height: var(--toolbar-height);
-    background: var(--topbar-background);
+    background: var(--toolbar-background);
     width: 100%;
     position: fixed;
     top: 21px;
     left: var(--base-left);
-    border-bottom: 1px solid var(--topbar-border);
+    border-bottom: 1px solid var(--toolbar-border);
     z-index: 10;
   }
   .searchHelpText-19imBp {
@@ -40,7 +40,7 @@
   .searchBox-26HYGw {
     flex: none;
     width: calc(100% - 196px);
-    border-right: 1px solid var(--topbar-border);
+    border-right: 1px solid var(--toolbar-border);
   }
   .searchBox-3Y2Vi7 {
     background-color: transparent;
@@ -75,11 +75,11 @@
   .container-RHl2Ju {
     border-radius: var(--border-radius);
     background: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
   }
   .card-3DjzTQ {
     background-color: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
     box-shadow: none;
     height: auto;
   }
@@ -126,7 +126,7 @@
     min-height: unset;
     height: auto;
     background: var(--background-dark);
-    border: 1px solid var(--border-colour);
+    border: 1px solid var(--base-border);
   }
   .colorHeaderPrimary-26Jzh- {
     color: #fff;

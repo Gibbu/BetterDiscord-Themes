@@ -1,7 +1,7 @@
 #app-mount .sidebar-2K8pFh {
   // Server dropdown selected
   .container-2Rl01u {
-    background: var(--topbar-background);
+    background: var(--toolbar-background);
     &.selected-WP3kCM .header-2o-2hj {
       background: var(--background);
       border-bottom: 1px solid transparent;
@@ -15,9 +15,9 @@
   }
   .header-2o-2hj {
     box-shadow: none;
-    border-bottom: 1px solid var(--topbar-border);
-    border-right: 1px solid var(--topbar-border);
-    background-color: var(--topbar-background);
+    border-bottom: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--toolbar-border);
+    background-color: var(--toolbar-background);
     height: var(--toolbar-height);
     padding: var(--spacing);
     transition: none;
@@ -41,7 +41,7 @@
         display: block;
         content: "Current Server";
         font-size: var(--font-size-sm);
-        font-weight: var(--font-weight-light);
+        font-weight: var(--font-weight-normal);
         color: var(--toolbar-text-muted);
       }
     }
@@ -66,7 +66,7 @@
       }
     }
     &:hover {
-      background-color: var(--topbar-background-hover);
+      background-color: var(--toolbar-background-hover);
       .name-3YKhmS {
         color: var(--toolbar-text-focus);
       }

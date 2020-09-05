@@ -2,7 +2,7 @@
 
 #app-mount .typeWindows-1za-n7 {
   height: calc(var(--titlebar-height) - 2px);
-  border-bottom: 1px solid var(--topbar-border);
+  border-bottom: 1px solid var(--toolbar-border);
   margin-top: 2px;
   position: relative;
   width: 100vw;
@@ -34,7 +34,7 @@
       left: 0;
       width: 100vw;
       height: var(--titlebar-height);
-      background: var(--topbar-header-selected);
+      background: var(--toolbar-header-selected);
       z-index: -1;
     }
   }
@@ -45,11 +45,11 @@
     top: -2px;
     cursor: default;
     &:hover {
-      background:var(--topbar-background-hover);
+      background:var(--toolbar-background-hover);
       color:var(--white);
     }
     &:active {
-      background:var(--topbar-background-active);
+      background:var(--toolbar-background-active);
       color:var(--white);
     }
   }

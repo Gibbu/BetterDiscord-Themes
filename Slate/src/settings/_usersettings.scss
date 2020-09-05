@@ -17,7 +17,7 @@
 					width: 34px !important;
 					height: 34px !important;
 					border-radius: var(--border-radius);
-					border: 1px solid var(--border-colour);
+					border: 1px solid var(--base-border);
 					img {
 						clip-path: none;
 						-webkit-clip-path: none;
@@ -31,7 +31,7 @@
 				margin-bottom: 0 !important;
 				+ div .viewBody-2Qz-jg {
 					color: var(--text-muted);
-					font-weight: var(--font-weight-light);
+					font-weight: var(--font-weight-normal);
 					font-style: italic;
 				}
 			}
@@ -90,14 +90,14 @@
 		border: none;
 		padding: 0;
 		margin-bottom: var(--spacing-double);
-		border-bottom: 1px solid var(--border-colour);
+		border-bottom: 1px solid var(--base-border);
 		padding-bottom: var(--spacing-double);
 	}
 	.avatarUploaderInner-3UNxY3 {
 		width: 64px;
 		height: 64px;
 		border-radius: var(--border-radius);
-		border: 1px solid var(--border-colour);
+		border: 1px solid var(--base-border);
 	}
 	h5 {
 		font-size: var(--font-size-sm);
@@ -116,7 +116,7 @@
 	.authedApp-mj2Hmd {
 		padding: 0;
 		border: none;
-		border-bottom: 1px solid var(--border-colour);
+		border-bottom: 1px solid var(--base-border);
 		border-radius: 0;
 		padding-bottom: var(--spacing-double);
 		margin-bottom: var(--spacing-double);
@@ -138,7 +138,7 @@
 			padding: 0;
 			height: 33px;
 			border-radius: var(--border-radius);
-			border: 1px solid var(--border-colour);
+			border: 1px solid var(--base-border);
 			background-color: var(--settings-button);
 			background-size: 20px;
 			background-position: center;
@@ -152,7 +152,7 @@
 		box-shadow: none !important;
 		border: none !important;
 		border-radius: 0 !important;
-		border-bottom: 1px solid var(--border-colour) !important;
+		border-bottom: 1px solid var(--base-border) !important;
 		margin-bottom: 0;
 		.flexChild-faoVW3 {
 			margin-left: 0 !important;
@@ -166,7 +166,7 @@
 	}
 	.integration-3kMeY4 {
 		background: var(--background-dark);
-		border: 1px solid var(--border-colour);
+		border: 1px solid var(--base-border);
 	}
 	.integrationName-2tSCoY {
 		color: var(--text-focus);
@@ -252,7 +252,7 @@
 	// Appearance
 	.preview-2nSL_2 {
 		background: var(--background);
-		border-color: var(--border-colour);
+		border-color: var(--base-border);
 	}
 	.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr {
 		.item-26Dhrx:first-child {
@@ -277,7 +277,7 @@
 	// Notifications
 	.notificationsSound-27jFSh {
 		padding: var(--spacing) 0;
-		box-shadow: inset 0 -1px 0 0 var(--border-colour);
+		box-shadow: inset 0 -1px 0 0 var(--base-border);
 		&:hover .soundLabel-wUmcnl {
 			transform: translateX(0);
 		}
@@ -301,7 +301,7 @@
 
 	// Game Activity
 	.game-1ipmAa {
-		box-shadow: 0 1px 0 0 var(--border-colour);
+		box-shadow: 0 1px 0 0 var(--base-border);
 		padding: var(--spacing) 0;
 	}
 	.gameName-1RiWHm,

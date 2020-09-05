@@ -8,14 +8,14 @@
   transform: none !important;
   margin-top: 0 !important;
   border-radius: 0;
-  border-left: 1px solid var(--border-colour);
+  border-left: 1px solid var(--base-border);
   background-color: var(--background);
   box-shadow: none;
   height: calc(100vh - var(--toolbar-height) - var(--titlebar-height));
   .resultsGroup-r_nuzN {
     padding: 0;
     margin-top: 0;
-    border-bottom: 1px solid var(--border-colour);
+    border-bottom: 1px solid var(--base-border);
     &:before {
       content: none;
     }
@@ -39,11 +39,11 @@
   .displayedNick-3xxvzU,
   .filter-3Y_im- {
     color: var(--text-focus);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
   }
   .answer-1n6g43,
   .displayUsername-Qekxml {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     color: var(--text-muted);
   }
   .option-96V44q {
