@@ -103,10 +103,13 @@
       padding:0;
       overflow:visible;
       margin:var(--spacing) 0;
+      height:auto;
+      line-height:normal;
       &:after {
         content:'Uh oh.';
         font-size:var(--font-size-xxl);
         font-weight:var(--font-weight-light);
+        color:var(--text-normal);
       }
     }
     &:before {
@@ -124,6 +127,7 @@
       text-transform:none;
       text-align:center;
       line-height:normal;
+      margin-bottom:var(--spacing);
     }
   }
   .barButtonAlt-mYL1lj {
