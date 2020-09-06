@@ -122,7 +122,7 @@
 
   // Top bar (User name, badges, send message, more...) to overwtite previous importants
   .username-3gJmXY {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-md);
     color: var(--text-normal);
   }
   .discriminator-xUhQkU {
@@ -206,7 +206,7 @@
     padding: 0 0 var(--spacing);
     margin-right: var(--spacing);
     font-size: var(--font-size);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-normal);
     line-height: var(--line-height);
     color: var(--text-normal);
     &[style*="color: rgba(255, 255, 255, 0.4)"] {

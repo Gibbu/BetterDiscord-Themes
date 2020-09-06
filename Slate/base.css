@@ -95,6 +95,7 @@ html.theme-dark #app-mount .wrapper-2ZbzR9.theme-light {
   --background: #24292e;
   --background-alt: #2a3036;
   --background-dark: #1d2125;
+  --guilds-background:var(--background);
   --white:#ffffff;
   --input-height: 25px;
   --checkbox-background: #fff;
@@ -128,6 +129,7 @@ html.theme-light #app-mount .wrapper-2ZbzR9 {
   --background-alt: #ffffff;
   --background:#ffffff;
   --background-dark: #ebeef1;
+  --guilds-background:var(--background);
   --white: #ffffff;
   --input-height: 25px;
   --checkbox-background: #ddd;
@@ -1623,7 +1625,7 @@ html {
 }
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 button {
   box-sizing: border-box;
-  background-color: var(--toolbar-background);
+  background-color: var(--toolbar-search-background);
   border: 1px solid var(--toolbar-border);
   border-radius: var(--border-radius);
   height: var(--input-height);
@@ -1763,7 +1765,7 @@ html {
   box-sizing: border-box;
 }
 #app-mount .guilds-1SWlCJ .scroller-2TZvBN {
-  background: var(--background);
+  background: var(--guilds-background);
   contain: none;
   padding-top: var(--toolbar-height);
 }
@@ -2456,7 +2458,7 @@ html {
   padding: 0 var(--spacing-half);
   position: absolute;
   left: 0;
-  top:0;
+  top: 1px;
   text-align: right;
   padding-top: 30px;
   line-height: var(--line-height);
