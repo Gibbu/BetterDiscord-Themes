@@ -2456,6 +2456,7 @@ html {
   padding: 0 var(--spacing-half);
   position: absolute;
   left: 0;
+  top:0;
   text-align: right;
   padding-top: 30px;
   line-height: var(--line-height);
