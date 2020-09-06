@@ -159,9 +159,11 @@
   }
   .mentioned-xhSam7 {
     background: rgba(var(--accent), 0.1) !important;
-    padding-bottom: 0;
     & + .message-2qnXI6:not(.groupStart-23k01U) {
       margin-top: var(--spacing-half);
+    }
+    &:not(:nth-last-child(2)) {
+      padding-bottom:0;
     }
     &:before {
       background-color: var(--accent-solid);
