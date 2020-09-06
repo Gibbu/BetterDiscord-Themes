@@ -201,6 +201,9 @@
 }
 
 /* Global styles */
+button {
+  outline:none;
+}
 body {
   height: 100vh;
   width: 100vw;
