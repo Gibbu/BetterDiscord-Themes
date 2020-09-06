@@ -27,6 +27,7 @@ html {
     background: rgba(var(--accent), 0.15);
     border-radius: var(--border-radius);
     color: var(--accent-solid);
+    cursor:default;
     &:hover {
       background: var(--accent-solid);
       color: #fff;
