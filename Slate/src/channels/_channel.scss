@@ -168,23 +168,27 @@
   }
 
   // User Limit
-  .wrapper-pZmgj4 {
-    color: var(--text-normal);
-    background: var(--background-dark);
-    border-radius: var(--border-radius);
-    border: 1px solid var(--base-border);
-  }
-  .users-i_3-kL {
-    background: transparent;
-    padding: 0 var(--spacing-half);
-    width: auto;
-  }
-  .total-3tKGEB {
-    background: transparent;
-    padding: 0 var(--spacing-half);
-    width: auto;
-    border-left: 1px solid var(--base-border);
-    position: unset;
-    color: var(--text-focus);
+  .userLimit-64AFxe {
+    .wrapper-pZmgj4 {
+      color: var(--text-normal);
+      border-radius: var(--border-radius);
+      border: 1px solid var(--base-border);
+      span {
+        padding: 0 var(--spacing-half);
+        width: auto;
+        font-size:var(--font-size);
+        color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);
+        &.users-i_3-kL {
+          background: transparent;
+        }
+        &.total-3tKGEB {
+          background: var(--background-alt);
+          &:after {
+            content:none;
+          }
+        }
+      }
+    }
   }
 }

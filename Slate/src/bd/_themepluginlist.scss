@@ -64,13 +64,17 @@
       }
     }
     .bd-addon-button {
-      --button-colour: var(--discord-red);
+      color: var(--text-normal);
+      background: var(--background-light);
+      min-height: var(--input-height);
+      height: var(--input-height);
+      padding: 0 var(--spacing);
+      border-radius: var(--button-border-radius);
+      border: 1px solid var(--base-border) !important;
+      cursor: default;
       position: absolute;
-      bottom: var(--spacing);
-      right: var(--spacing);
-      border: 1px solid rgb(var(--button-colour)) !important;
-      color: rgba(var(--button-colour), 0.75);
-      background: transparent;
+      right:var(--spacing);
+      bottom:var(--spacing);
       &:before {
         content: "Delete";
       }
@@ -78,11 +82,25 @@
         display: none;
       }
       &:hover {
-        color: rgb(var(--discord-red));
+        border: 1px solid currentColor !important;
       }
-      &:focus {
-        box-shadow: 0 0 0 2px rgba(var(--button-colour), 0.25);
+      &:active {
+        box-shadow: 0 0 0 1px currentColor !important;
+        border: 1px solid currentColor !important;
       }
     }
+  }
+}
+
+// Light Mode
+
+.theme-light #bd-settingspane-container .bd-addon-card .bd-addon-button {
+  &:hover {
+    background: var(--background) !important;
+    border: 1px solid var(--secondary-border-color) !important;
+  }
+  &:active {
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+    border: 1px solid var(--secondary-border-color) !important;
   }
 }

@@ -1,12 +1,18 @@
 // Mac
 html.platform-osx #app-mount {
-  .macButtons-2MuSAC {
-    padding: 5px 0 5px 10px;
-  }
   .guilds-1SWlCJ {
     margin-top: 0;
     .tutorialContainer-1v44GL .listItem-2P_4kh {
       top: -1px;
     }
+  }
+}
+
+// Linux
+
+html.platform-linux {
+  --titlebar-height:0px;
+  #guild-header-popout {
+    top:var(--toolbar-height) !important;
   }
 }

@@ -24,7 +24,7 @@
       -webkit-mask: url($icon_discord) center/18px no-repeat;
       top: 2px;
       opacity: .5;
-      background: #fff;
+      background: var(--white);
       -webkit-app-region: drag;
     }
     &:after {
@@ -79,5 +79,35 @@
     &:active {
       background:var(--win32-close-background-active);
     }
+  }
+}
+
+// Mac Titlebar
+
+.typeMacOS-3EmCyP {
+  position:relative;
+  z-index:3001;
+  width:100%;
+  height:var(--titlebar-height);
+  padding:0 var(--spacing-half);
+  background:var(--toolbar-header-selected);
+  border-bottom:1px solid var(--toolbar-border);
+  display:flex;
+  justify-content:center;
+  .macButtons-2MuSAC {
+    padding:0 var(--spacing-half);
+    height:100%;
+    position:absolute;
+    left:var(--spacing-half);
+  }
+  &:after {
+    content: '';
+    width: var(--titlebar-height);
+    height: var(--titlebar-height);
+    position: relative;
+    display:block;
+    -webkit-mask: url($icon_discord) center/18px no-repeat;
+    opacity: .5;
+    background: var(--white);
   }
 }
