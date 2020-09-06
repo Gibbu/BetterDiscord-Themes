@@ -1,4 +1,10 @@
 #app-mount {
+  // Hide Scrollbars
+  ::-webkit-scrollbar {
+    display:none;
+  }
+
+  // Container
   .drawerSizingWrapper-17Mss4 {
     min-width: 430px !important;
   }
@@ -6,15 +12,18 @@
     height: 442px;
     grid-template-rows: 46px auto 48px;
     grid-template-columns: 38px auto;
+    background: var(--background);
+    border: 1px solid var(--base-border);
+    border-radius: var(--border-radius);
+    box-shadow:var(--elevation-1);
   }
   .contentWrapper-SvZHNd {
-    background: var(--background);
-    box-shadow: none;
-    border: 1px solid var(--base-border);
     grid-gap: 0;
     padding-top: 0;
     border-radius: var(--border-radius);
     display: block;
+    overflow:visible;
+    box-shadow:var(--elevation-1);
     .scroller-2FKFPG {
       height: 396px;
     }
@@ -38,6 +47,8 @@
       height: var(--input-height);
       width: var(--input-height);
       transition: none;
+      cursor:default;
+      border-radius:var(--border-radius);
       .contents-18-Yxp {
         font-size: 0;
         height: 16px;
@@ -61,8 +72,13 @@
   }
 
   // Header (Search)
+  .nav-7UD0KD + .wrapper-1rqM3x  {
+    .header-1TOWci, .header-8ilj5e {
+      padding-left:80px;
+    }
+  }
   .header-1TOWci, .header-8ilj5e {
-    padding: var(--spacing) var(--spacing) var(--spacing) 80px;
+    padding: var(--spacing);
     box-shadow: none;
     border-bottom: 1px solid var(--base-border);
     grid-template-columns: auto 20px;
@@ -129,21 +145,25 @@
 
   // Server picker list (left side)
   .categoryList-2Kzf65 {
-    border-right: 1px solid var(--base-border);
+    border:1px solid var(--base-border);
+    border-top:none;
     background: var(--background-dark);
-    border-radius: 0;
     width: 38px;
+    top:47px;
+    border-bottom-left-radius:var(--border-radius);
   }
   .categoryItem-1D0nxC {
     width: 100%;
     box-sizing: border-box;
     padding: 0 var(--spacing);
-    height: var(--item-height);
+    height: calc(var(--item-height) - 1px);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
     border-radius: 0;
+    cursor:default;
+    transition:none;
     .mask-2hO5M8 {
       width: 24px;
       height: 24px;
@@ -160,6 +180,9 @@
     &:hover {
       background: var(--background-modifier-hover);
     }
+    &:active {
+      background:var(--background-modifier-active);
+    }
   }
   .categoryItemDefaultCategorySelected-_HCKoz,
   .categoryItemDefaultCategorySelected-_HCKoz:hover {
@@ -171,6 +194,24 @@
   .guildCategorySeparator-_An-MP {
     margin: var(--spacing) 0;
     border-bottom-color: var(--base-border);
+  }
+  .unicodeShortcut-15J8Ck {
+    height:49px;
+    border-top:1px solid var(--base-border);
+    box-sizing:border-box;
+    cursor:default;
+    svg {
+      width:16px;
+      height:16px;
+      color:var(--text-muted);
+      path {
+        d:path($path_smile);
+        transform:scale(1.5);
+      }
+    }
+    &:hover svg {
+      color:var(--text-normal);
+    }
   }
 
   // Emote list (right side)
@@ -184,12 +225,46 @@
   }
   .wrapper-1-Fsb8 {
     background: var(--background);
-    padding: var(--spacing);
+    padding:0 var(--spacing);
+    border-bottom:1px solid var(--base-border);
+    border-top:1px solid var(--base-border);
+    margin-bottom:var(--spacing);
+    background:var(--background-light);
+    cursor:default;
+    height:var(--item-height);
+    .header-19cWci {
+      cursor:default;
+      display:flex;
+      width:100%;
+    }
+    .headerLabel-3dG4M- {
+      font-size:var(--font-size);
+      text-transform:none;
+      color:var(--text-normal);
+      font-weight:var(--font-weight-semibold);
+      cursor:default;
+      margin-left:var(--spacing-half);
+      flex-grow:1;
+    }
+    .arrow-gKvcEx {
+      transition:none;
+      cursor:default;
+      color:var(--text-muted);
+    }
+    foreignObject {
+      mask:none;
+      .guildIcon-3h-1IH {
+        border-radius:var(--border-radius);
+      }
+    }
   }
   .categorySection-2sgp74 {
     margin: var(--spacing) 0 var(--spacing-double);
     &:first-child {
       margin-top: 0;
+      .wrapper-1-Fsb8 {
+        border-top:none;
+      }
     }
   }
   .emojiListRow-m_GHp0 {
@@ -197,8 +272,14 @@
   }
   .emojiItem-14v6tW {
     border-radius: var(--border-radius);
+    cursor:default;
     &.emojiItemSelected-1aLkfV {
       background: var(--background-modifier-hover);
+    }
+    &.emojiItemDisabled-1FvFuF {
+      filter:none;
+      opacity:.2;
+      pointer-events:none;
     }
   }
   
@@ -208,6 +289,7 @@
     border-top: 1px solid var(--base-border);
     padding: var(--spacing);
     height: 48px;
+    box-sizing:border-box;
     .guildIcon-39bqCb {
       width: var(--avatar-size);
       height: var(--avatar-size);
@@ -231,10 +313,73 @@
   .emojiName-Ve4ZI4 {
     font-size: var(--font-size);
     line-height: inherit;
-    margin-bottom: var(--spacing-third);
+    line-height:1.5;
+    color:var(--text-normal);
   }
   .guildName-10c_vS {
     font-size: var(--font-size-sm);
     line-height: inherit;
+    color:var(--text-muted);
+  }
+
+  // Nitro Ad
+  .premiumPromo-fVlLu- {
+    background:var(--background);
+    border-radius:0;
+    .premiumPromoImage-2wS9zo {
+      display:none;
+    }
+    .premiumPromoTitle-2cKOQe {
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      margin:0;
+      margin-bottom:var(--spacing-half);
+      line-height:normal;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      &:before {
+        content:'';
+        height:124px;
+        width:400px;
+        display:block;
+        background:var(--text-muted);
+        margin-bottom:var(--spacing-double);
+        -webkit-mask:url($illustration_6) center/contain no-repeat;
+      }
+    }
+    .premiumPromoDescription-QWky-t {
+      font-size:var(--font-size);
+      color:var(--text-muted);
+      margin:0;
+      margin-bottom:var(--spacing);
+      line-height:normal;
+    }
+  }
+  .premiumPromoClose-1w65km {
+    background:var(--text-muted);
+    opacity:1;
+    -webkit-mask:url($icon_close) center/12px no-repeat;
+    &:hover {
+      background:var(--text-normal);
+    }
+  }
+
+  // No Results
+  
+  .noSearchResultsContainer-7llQ5J {
+    border-bottom:1px solid var(--base-border);
+    .wrapper-1GJGVj {
+      color:var(--text-muted);
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-normal);
+    }
+    .sadImage-2ph8SI {
+      width:120px;
+      height:120px;
+      background:var(--text-muted);
+      -webkit-mask:url($illustration_7) center/contain no-repeat;
+      margin-bottom:var(--spacing-double);
+    }
   }
 }

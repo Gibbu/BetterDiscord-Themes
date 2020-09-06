@@ -54,8 +54,8 @@
   --toolbar-text-normal: #d1d5da;
   --toolbar-text-muted: #959da5;
   --toolbar-text-focus: #ffffff;
-  --toolbar-search-background: #1a1b1e;
-  --toolbar-search-border: #141414;
+  --toolbar-search-background: #161a1d;
+  --toolbar-search-border: var(--toolbar-border);
   --toolbar-background: #1d2125;
   --toolbar-background-hover: #2f363d;
   --toolbar-background-active:#444d56;
