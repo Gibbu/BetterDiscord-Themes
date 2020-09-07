@@ -204,7 +204,6 @@
     y: 24.5px;
     stroke: var(--base-border);
     rx: 50;
-    mask: none;
     &[height="15"], &[height="10"] {
       width: 11px;
       height: 11px;
@@ -220,6 +219,9 @@
       height: 8px;
       x: 19.5px;
       y: 19.5px;
+    }
+    &:not([mask*="mobile"]) {
+      mask:none;
     }
   }
   .cursorDefault-dsQJ1n rect {
