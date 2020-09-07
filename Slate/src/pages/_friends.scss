@@ -108,17 +108,12 @@
       width: 100%;
       flex: 1;
     }
-    .text-37NqbO {
-      display: grid;
-      align-items: center;
-      grid-template-columns: .3fr 1fr;
-      grid-gap: var(--spacing);
-      width: 100%;
-    }
     .nameTag-m8r81H {
       line-height: var(--line-height);
     }
     .username-31C1TQ {
+      font-weight:var(--font-weight-semibold);
+      line-height:normal;
       font-size: var(--font-size);
       color: var(--text-focus);
       align-items: center;
@@ -129,6 +124,7 @@
     .text-3MU_QQ {
       font-size: var(--font-size-sm);
       color: var(--text-muted);
+      line-height:normal;
     }
     .subtext-24R4-w {
       color: var(--text-muted);
