@@ -1,5 +1,5 @@
 :root {
-  --slate-version: "Slate 1.1.1";
+  --slate-version: "Slate 1.1.3";
 
   // Master variables
   --border-radius: 3px;
@@ -10,6 +10,7 @@
   --text-link: rgb(var(--link-colour, var(--accent)));
 
   // No AdjustableServerWidth used variables
+  --noasw-padding: calc(var(--container, 0) - 4px);
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
 
@@ -24,7 +25,7 @@
   // Fonts
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
   --font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  
+
   --font-size-xsm:9px;
   --font-size-sm: 11px;
   --font-size: 12px;
