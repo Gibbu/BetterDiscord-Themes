@@ -186,36 +186,6 @@
       display: none;
     }
   }
-  // Header buttons in friends/library tab
-  .topPill-30KHOu {
-    height: var(--toolbar-height);
-    border-right: 1px solid var(--toolbar-border);
-    border-bottom: 1px solid var(--toolbar-border);
-    margin-left: var(--spacing);
-    .item-3HknzM {
-      border-radius: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      background: transparent !important;
-      color: var(--text-muted) !important;
-      font-size: var(--font-size-md);
-      padding: 0 var(--spacing);
-      height: calc(var(--toolbar-height) - 1px);
-      &:hover {
-        background: var(--toolbar-background-hover) !important;
-        color: var(--toolbar-text-normal) !important;
-      }
-      &.selected-3s45Ha {
-        color: var(--toolbar-text-focus) !important;
-        background: var(--accent-solid) !important;
-      }
-      &[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
-        background: var(--discord-green) !important;
-        color: var(--toolbar-text-focus) !important;
-      }
-    }
-  }
   // Search bar
   .search-36MZv- {
     position: absolute;

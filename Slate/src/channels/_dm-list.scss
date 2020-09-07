@@ -91,7 +91,8 @@
       cursor: default;
       .layout-2DM8Md {
         justify-content: center;
-        height: 28px;
+        height: 30px;
+        box-sizing:border-box;
         border-bottom: 1px solid var(--base-border);
         .avatar-3uk_u9 {
           display: none;
