@@ -92,7 +92,7 @@
       pointer-events: none;
       transition: 100ms ease opacity;
       &:after {
-        content: '';
+        content: "";
         width: 10px;
         height: 10px;
         background: var(--background);
@@ -146,7 +146,7 @@
         d: path($path_eye_closed);
         fill-rule: evenodd;
         transform: scale(1.15) translateY(12%) translateX(12.5%);
-        &~path {
+        & ~ path {
           display: none;
         }
       }
@@ -157,7 +157,7 @@
       path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"] {
         d: path($path_members);
         transform: scale(1.15) translateY(12%) translateX(12.5%);
-        &~path {
+        & ~ path {
           display: none;
         }
       }
@@ -189,7 +189,8 @@
   // Header buttons in friends/library tab
   .topPill-30KHOu {
     height: var(--toolbar-height);
-    border-left: 1px solid var(--toolbar-border);
+    border-right: 1px solid var(--toolbar-border);
+    border-bottom: 1px solid var(--toolbar-border);
     margin-left: var(--spacing);
     .item-3HknzM {
       border-radius: 0;
@@ -255,7 +256,7 @@
   }
 
   &.title-3qD0b- .children-19S4PO:hover {
-    background: var(--toolbar-background-hover );
+    background: var(--toolbar-background-hover);
     .title-29uC1r {
       color: var(--toolbar-text-focus);
     }
