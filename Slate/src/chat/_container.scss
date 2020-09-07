@@ -168,7 +168,7 @@
       max-width:600px;
       &:before {
         content:'';
-        width:100%;
+        width:500px;
         height:200px;
         background:var(--text-muted);
         -webkit-mask: url($illustration_3) center/75% no-repeat;
@@ -182,6 +182,9 @@
         p:first-child {
           display:none;
         }
+      }
+      .subtitle-2UIIw0 {
+        margin:0;
       }
       .cardWrapper-2R6-SX {
         .card-3RzMcx {
@@ -215,6 +218,7 @@
         &:nth-child(2) .card-3RzMcx {
           border-top:1px solid var(--base-border);
           border-radius:3px 3px 0 0;
+          margin-top:var(--spacing-double);
         }
         &:last-child .card-3RzMcx {
           border-radius:0 0 3px 3px;

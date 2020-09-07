@@ -30,6 +30,23 @@
     cursor: default;
     .guildIconContainer-E1JUVt {
       margin-right: var(--spacing);
+      .disableColor-MwOAZf, 
+      .iconBackgroundTierNone-3MPhMJ, 
+      .iconBackgroundTierOne-2LhaMB, 
+      .iconBackgroundTierThree-3qw3JX,
+      .iconBackgroundTierTwo-3bCmdc {
+        color:var(--toolbar-background-active);
+      }
+      .iconTierNone-3xOaeG {
+        color: var(--toolbar-text-muted);
+      }
+      .bannerVisible-14J9lQ  .iconBackgroundTierOne-2LhaMB, 
+      .bannerVisible-14J9lQ .iconBackgroundTierThree-3qw3JX, 
+      .bannerVisible-14J9lQ .iconBackgroundTierTwo-3bCmdc,
+      .iconTierOne-BHC2T8, 
+      .iconTierTwo-_1edeM {
+        color:var(--toolbar-text-normal);
+      }
     }
     h1 {
       font-size: var(--font-size);
