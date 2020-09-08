@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     background: var(--background-light);
-    min-height: calc(var(--toolbar-height) + 1px);
+    min-height: var(--toolbar-height);
     height: auto;
     margin:0;
     &:before {
@@ -75,14 +75,16 @@
     box-sizing:border-box;
     height:unset;
   }
-  .textAreaSlate-1ZzRVj {
-    min-height:24px;
+  .textArea-12jD-V {
+    min-height:var(--avatar-size-sm);
+    height:auto;
   }
   .slateTextArea-1Mkdgw {
     font-size: var(--font-size);
     padding: 4px var(--spacing) 0;
     color: var(--text-normal);
     font-weight: var(--font-weight-normal);
+    font-weight:var(--font-weight-normal);
     line-height:normal;
     top:0;
     width: 98%;

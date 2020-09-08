@@ -1,8 +1,17 @@
 #app-mount .panels-j1Uci_ {
 	background: var(--background-light);
-	border-top: 1px solid var(--base-border);
 	border-right: 1px solid var(--base-border);
-  position: relative;
+	position: relative;
+	box-sizing:border-box;
+	&::before {
+		content:'';
+		top:0;
+		left:0;
+		width:100%;
+		height:1px;
+		border-top:1px solid var(--base-border);
+		position:absolute;
+	}
   
 	// Buttons
 	button {
