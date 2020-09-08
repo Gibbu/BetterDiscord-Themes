@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     background: var(--background-light);
-    min-height: var(--toolbar-height);
+    min-height: calc(var(--toolbar-height) + 1px);
     height: auto;
     margin:0;
     &:before {
@@ -24,9 +24,10 @@
       -webkit-mask: url($icon_upload) center/14px no-repeat;
       background: var(--text-muted);
       width: 44px;
-      height: var(--input-height);
+      height: 100%;
       cursor: default;
       margin-left: 0;
+      padding:0;
       div {
         display: none;
       }
@@ -47,10 +48,11 @@
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);
-    padding: 0 var(--spacing);
+    padding: 4px var(--spacing) 0;
     color: var(--text-muted);
     font-weight: var(--font-weight-normal);
-    top: 2px;
+    line-height:normal;
+    top: 0;
     width: 98%;
   }
   .scrollableContainer-2NUZem {
@@ -70,10 +72,11 @@
     border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
     transform: translateZ(0);
+    box-sizing:border-box;
+    height:unset;
   }
   .textAreaSlate-1ZzRVj {
-    height: var(--input-height);
-    min-height: unset;
+    min-height:24px;
   }
   .slateTextArea-1Mkdgw {
     font-size: var(--font-size);
@@ -81,7 +84,7 @@
     color: var(--text-normal);
     font-weight: var(--font-weight-normal);
     line-height:normal;
-    top:0.05em;
+    top:0;
     width: 98%;
     &:focus:after {
       content: '';
@@ -99,7 +102,7 @@
     }
   }
   .buttons-3JBrkn {
-    height: var(--input-height);
+    height: auto;
     margin: 0;
     padding: 0 var(--spacing-half);
     .buttonWrapper-1ZmCpA {
