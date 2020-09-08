@@ -77,14 +77,13 @@
       font-weight: var(--font-weight-bold);
       color: var(--text-muted);
     }
+    &[href="/library"],
     &[href="/store"] {
-      display: none;
-    }
-    &[href="/library"] {
       border-left: 1px solid var(--base-border);
     }
     &[href="/channels/@me"],
-    &[href="/library"] {
+    &[href="/library"],
+    &[href="/store"] {
       width: 50%;
       display: inline-block;
       border-radius: 0;
@@ -103,6 +102,12 @@
         &:active {
           background: var(--background-modifier-hover);
         }
+      }
+      &[href="/store"] {
+        display: none;
+      } 
+      &[href="/channels/@me"] + [href="/store"] {
+        display:inline-block;
       }
       &.selected-aXhQR6 .layout-2DM8Md {
         background: transparent;
@@ -156,6 +161,11 @@
       transparent,
       var(--background-modifier-active) 50%
     );
+  }
+
+  // Empty DMs List
+  .empty-388osJ {
+    display:none;
   }
 }
 
