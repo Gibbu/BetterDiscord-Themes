@@ -45,6 +45,10 @@
     background-color: transparent;
     box-sizing: border-box;
     margin-left: -3px;
+    &.highlighted-2eSV1B,
+    .focused-PMHa7m {
+      box-shadow:none;
+    }
   }
   .placeholder-37qJjk {
     font-size: var(--font-size);

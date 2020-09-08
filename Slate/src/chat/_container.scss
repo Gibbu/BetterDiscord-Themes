@@ -1,6 +1,11 @@
 #app-mount .chat-3bRxxu {
   background: var(--background-alt);
 
+  // Prevent Y-Overflow
+  .scroller-2LSbBU {
+    overflow-x:hidden !important;
+  }
+
   // Message spacing
   .scrollerSpacer-avRLaA {
     display: none;
@@ -153,6 +158,7 @@
     }
   }
 }
+
 #app-mount .messagesWrapper-1sRNjr {
   background: var(--background-alt);
   .scrollerSpacer-1Rp0XE {
@@ -160,6 +166,68 @@
   }
   
   // Welcome Message
+  .container-3RCQyg {
+    padding:var(--spacing-triple);
+    margin:0;
+    justify-content:center;
+    flex-grow:1;
+    border:none;
+    h1 {
+      margin:0;
+      margin-bottom:var(--spacing);
+      font-size:var(--font-size-xxl);
+      font-weight:var(--font-weight-light);
+      color:var(--text-normal);
+      max-width:calc(100% - var(--avatar-size-xlg) - var(--spacing-double) - var(--spacing));
+    }
+    .description-1sDbzZ {
+      color:var(--text-muted);
+      font-size:var(--font-size);
+      font-weight:var(--font-weight-normal);
+      max-width:calc(100% - var(--avatar-size-xlg) - var(--spacing-double) - var(--spacing));
+      user-select:text;
+    }
+    .wrapper-3t9DeA {
+      width:var(--avatar-size-xlg) !important;
+      height:var(--avatar-size-xlg) !important;
+      position:absolute;
+      right:var(--spacing-double);
+    }
+    .emptyChannelIcon-cc932w {
+      background:url($illustration_7) center/cover no-repeat;
+      border-radius:0;
+      position:absolute;
+      margin:0;
+      right:var(--spacing-triple);
+      height:72px;
+      width:72px;
+    }
+    .button-2OOM0p {
+      font-size: var(--font-size);
+      font-weight: var(--font-weight-normal);
+      cursor: default;
+      min-height: var(--input-height);
+      height: var(--input-height);
+      line-height: normal;
+      transition: none;
+      padding: 0 var(--spacing);
+      border-radius: var(--button-border-radius);
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      text-transform:capitalize;
+      color: var(--white);
+      background-color: rgb(var(--accent));
+      margin-top:var(--spacing-half);
+      &:hover {
+        box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      }
+      &:focus {
+        box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+      }
+    }
+  }
+
   .container-3zqIcM {
     padding: var(--spacing-double) var(--spacing-double) 0;
     .hasDivider-20M1le {
