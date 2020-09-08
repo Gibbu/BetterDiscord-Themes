@@ -1,6 +1,6 @@
 #app-mount {
   .form-2fGMdU {
-    padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing) * 2 + var(--avatar-size));
+    padding: var(--spacing-half) var(--spacing) var(--spacing-half) calc(var(--spacing) * 2 + var(--avatar-size));
     border-top: 1px solid var(--base-border);
     display: flex;
     align-items: center;
@@ -8,9 +8,7 @@
     box-sizing: border-box;
     min-height: var(--toolbar-height);
     height: auto;
-    margin: 0 0 -4px;
-    padding-bottom: calc(var(--spacing) + 1px);
-    padding-top: calc(var(--spacing) - 1px);
+    margin:0;
     &:before {
       content: none;
     }
@@ -56,7 +54,7 @@
     width: 98%;
   }
   .scrollableContainer-2NUZem {
-    padding: 3px;
+    padding: 0;
     padding-left:0;
     width: 100%;
     border-radius: 0;
