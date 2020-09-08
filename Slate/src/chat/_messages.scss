@@ -10,12 +10,6 @@
         line-height: normal;
         font-weight:var(--font-weight-semibold);
       }
-      &.cozy-3raOZG {
-        padding-top: var(--spacing);
-      }
-      &.compact-T3H92H {
-        margin-top: 0;
-      }
     }
     .username-1A8OIy {
       font-size: var(--chat-font-size);
@@ -129,6 +123,7 @@
     // Cozy
     &.cozy-3raOZG {
       margin: 0;
+      padding-top:var(--spacing);
       padding-left: calc(var(--avatar-size) + var(--spacing) * 2);
       padding-bottom: var(--spacing);
       .container-1ov-mD {
@@ -177,6 +172,7 @@
 
   // Compact
   .compact-T3H92H {
+    margin-top:0;
     padding: var(--spacing-half) 0;
     padding-left:70px !important;
     .contents-2mQqc9 {
