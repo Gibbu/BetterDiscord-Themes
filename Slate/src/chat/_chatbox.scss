@@ -83,7 +83,8 @@
     padding: 4px var(--spacing) 0;
     color: var(--text-normal);
     font-weight: var(--font-weight-normal);
-    top: 0;
+    line-height:normal;
+    top: 1px;
     width: 98%;
     &:focus:after {
       content: '';
