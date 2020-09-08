@@ -1,11 +1,11 @@
 #app-mount {
   .form-2fGMdU {
-    padding: var(--spacing-half) var(--spacing) var(--spacing-half) calc(var(--spacing) * 2 + var(--avatar-size));
+    box-sizing:border-box;
+    padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing) * 2 + var(--avatar-size));
     border-top: 1px solid var(--base-border);
     display: flex;
     align-items: center;
     background: var(--background-light);
-    box-sizing: border-box;
     min-height: var(--toolbar-height);
     height: auto;
     margin:0;
@@ -66,10 +66,10 @@
     }
   }
   .inner-MADQqc {
-    box-sizing: border-box;
     background-color: var(--background);
     border: 1px solid var(--base-border);
     border-radius: var(--border-radius);
+    height:var(--avatar-size-sm);
     transform: translateZ(0);
   }
   .textAreaSlate-1ZzRVj {
