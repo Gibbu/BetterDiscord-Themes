@@ -85,13 +85,87 @@
 		}
 	}
 	.userInfoEditing-1CEzdT {
-		background: transparent;
-		border-radius: 0;
-		border: none;
-		padding: 0;
-		margin-bottom: var(--spacing-double);
-		border-bottom: 1px solid var(--base-border);
-		padding-bottom: var(--spacing-double);
+		background: var(--background-alt);
+		border-radius: var(--border-radius);
+		padding: var(--spacing);
+		margin-bottom: 0;
+		border: 1px solid var(--base-border);
+		h5 {
+			font-size:var(--font-size) !important;
+			margin-bottom:var(--spacing-half) !important;
+			font-weight:var(--font-weight-normal) !important;
+		}
+		.required-7sPBq3 {
+			margin-left:var(--spacing-third);
+			color:rgb(var(--discord-red));
+			padding:0;
+		}
+		.questionMark-CWEQZn {
+			width:var(--input-height);
+			height:var(--input-height);
+			margin-left:var(--spacing);
+			margin-right:0;
+			color: var(--white);
+			background-color: rgb(var(--accent));
+			border-radius:var(--button-border-radius);	
+			svg {
+				cursor:default;
+				path {
+					d:path($path_help);
+					transform-origin:center;
+					transform:translate(-3px) scale(.9);
+				}
+			}
+			&:hover {
+				box-shadow: inset 0 0 0 100vmax rgba(255,255,255,0.1);
+			}
+			&:focus {
+				box-shadow: 0 0 0 2px rgba(var(--accent), 0.25), inset 0 0 0 100vmax rgba(255,255,255,0.1);
+			}
+		}
+		.justifyEnd-2E6vba {
+			margin-top:var(--spacing-double);
+			.flex-1xMQg5,
+			.flexChild-faoVW3 {
+				margin:0;
+				&:first-child {
+					button {
+						margin-right:var(--spacing);
+					}
+				}
+			}
+		}
+		.avatarColumn-VWwg1S {
+			margin:0;
+			.avatarUploader-3XDtmn {
+				.removeButton-1hcZyG {
+					font-size:var(--font-size);
+					color:var(--text-normal);
+					font-weight:var(--font-weight-normal);
+					cursor:default;
+				}
+				.avatarUploaderInner-3UNxY3 {
+					background-color:var(--accent-solid);
+					margin-bottom:var(--spacing);
+				}
+			}
+			+.flexChild-faoVW3 {
+				display:flex;
+				flex-wrap:wrap;
+				.marginBottom20-32qID7 {
+					width:100%;
+					+div:not(.marginTop20-3TxNs6):not(.marginBottom20-32qID7) {
+						flex-grow:1;
+					}
+				}
+				.marginTop20-3TxNs6 {
+					margin-top:0;
+					margin-left:var(--spacing);
+					display:flex;
+					align-items:flex-end;
+				}
+			}
+		}
 	}
 	.avatarUploaderInner-3UNxY3 {
 		width: 64px;

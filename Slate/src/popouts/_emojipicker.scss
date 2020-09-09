@@ -53,13 +53,13 @@
         font-size: 0;
         height: 16px;
         width: 16px;
-        opacity: .5;
-        background: var(--white);
+        background: var(--text-normal);
       }
       &.navButtonActive-1MkytQ {
         background: rgb(var(--accent));
         .contents-18-Yxp {
           opacity: 1;
+          background:var(--white);
         }
       }
     }
@@ -72,6 +72,9 @@
   }
 
   // Header (Search)
+  #gif-picker-tab-panel .header-1TOWci {
+    padding-left:80px;
+  }
   .nav-7UD0KD + .wrapper-1rqM3x  {
     .header-1TOWci, .header-8ilj5e {
       padding-left:80px;
@@ -381,5 +384,19 @@
       -webkit-mask:url($illustration_7) center/contain no-repeat;
       margin-bottom:var(--spacing-double);
     }
+  }
+
+  // Gif Picker
+  #gif-picker-tab-panel {
+    .content-ySCtCx:after,
+    &.container-3ISnnM:after {
+      content:none;
+    }
+  }
+  .container-3ISnnM {
+    background:var(--background);
+    border:1px solid var(--base-border);
+    border-radius:var(--border-radius);
+    box-shadow:var(--elevation-1);
   }
 }
