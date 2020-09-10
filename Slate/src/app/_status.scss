@@ -1,4 +1,4 @@
-.userPopout-3XzG_A,
+  .userPopout-3XzG_A,
 .modal-3c3bKg {
   .wrapper-3t9DeA {
     z-index: 1;
@@ -147,10 +147,12 @@
   .header-QKLPzZ .wrapper-3t9DeA {
     margin-right: 20px !important;
   }
+  
   // Offline
   .offline-3nJYBR img {
     clip-path: none !important;
   }
+
   // Mobile
   foreignObject[mask*="mobile"] {
     width: calc(100% + 252px);
@@ -219,6 +221,32 @@
       height: 8px;
       x: 19.5px;
       y: 19.5px;
+    }
+    &[fill="#43b581"],
+    &[fill="rgba(67, 181, 129, 1)"],
+    &[mask*="online"] {
+      fill:rgb(var(--status-green));
+    }
+    &[fill="#faa61a"],
+    &[fill="rgba(250, 166, 26, 1)"],
+    &[mask*="idle"] {
+      fill:rgb(var(--status-yellow));
+    }
+    &[fill="#f04747"],
+    &[fill="rgba(240, 71, 71, 1)"],
+    &[mask*="dnd"] {
+      fill:rgb(var(--status-red));
+    }
+    &[fill="#593695"],
+    &[mask*="streaming"] {
+      fill:rgb(var(--status-purple));
+    }
+    &[fill="#747f8d"],
+    &[mask*="offline"],
+    &[fill="NaN"],
+    &[mask*="invisible"],
+    &[fill="rgba(116, 127, 141, 1)"] {
+      fill:rgb(var(--status-grey));
     }
     &:not([mask*="mobile"]) {
       mask:none;

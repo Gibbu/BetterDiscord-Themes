@@ -1,0 +1,32 @@
+#app-mount {
+    .card-3Qj_Yx {
+        border-radius:var(--border-radius);
+        padding:var(--spacing);
+
+        // Status Cards
+        &.cardWarning-2yPNAa {
+            background-color:rgb(var(--status-yellow));
+            border-color:rgb(var(--status-yellow));
+        }
+        &.cardDanger-ZurOv3 {
+            background-color:rgb(var(--status-red));
+            border-color:rgb(var(--status-red));
+        }
+        &.cardSuccess-3uEYjj {
+            background-color:rgb(var(--status-green));
+            border-color:rgb(var(--status-green));
+        }
+        &.cardBrand-39zmMQ {
+            background-color:rgb(var(--accent));
+            border-color:rgb(var(--accent));
+        }
+
+        // Primary Cards
+        &.cardPrimary-1Hv-to, 
+        &.cardPrimaryOutline-29Ujqw,
+        &.cardPrimaryEditable-3KtE4g {
+            background-color: var(--background-alt);
+            border-color: var(--base-border);
+        }
+    }
+}

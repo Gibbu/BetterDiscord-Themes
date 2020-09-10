@@ -1,7 +1,6 @@
 #app-mount {
   // General Messages
-  .message-2qnXI6,
-  .messageGroupCozy-2-Q370 {
+  .wrapper-2a6GCs {
     background: transparent !important;
     min-height: unset;
     &.groupStart-23k01U {
@@ -46,6 +45,34 @@
     }
     &:last-child {
       padding-bottom: calc(var(--spacing) + 5px);
+    }
+
+    // Bot Tag
+    .botTag-2WPJ74 {
+      font-size: 0;
+      padding: 0;
+      height: auto;
+      width: auto;
+      background-color: var(--background-modifier-active);
+      border-radius: var(--border-radius);
+      &.botTagCozy-1fFsZk {
+        margin:0 var(--spacing-third);
+        margin-right:0;
+        margin-top:0;
+        vertical-align:unset;
+        top:0;
+      }
+      &::before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        mask: url($icon_cog) center/12px no-repeat;
+        background: var(--text-normal);
+      }
     }
     
     // Timestamps

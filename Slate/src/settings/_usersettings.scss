@@ -8,8 +8,8 @@
 	// My Account
 	.userSettingsAccount-2eMFVR {
 		.cardPrimary-1Hv-to {
-			background: transparent;
-			border: none;
+			background: transparent !important;
+			border: none !important;
 			padding: 0;
 			.flexChild-faoVW3:first-child {
 				margin-right: 0;
@@ -85,11 +85,7 @@
 		}
 	}
 	.userInfoEditing-1CEzdT {
-		background: var(--background-alt);
-		border-radius: var(--border-radius);
-		padding: var(--spacing);
 		margin-bottom: 0;
-		border: 1px solid var(--base-border);
 		h5 {
 			font-size:var(--font-size) !important;
 			margin-bottom:var(--spacing-half) !important;
@@ -97,7 +93,7 @@
 		}
 		.required-7sPBq3 {
 			margin-left:var(--spacing-third);
-			color:rgb(var(--discord-red));
+			color:rgb(var(--status-red));
 			padding:0;
 		}
 		.questionMark-CWEQZn {
@@ -187,19 +183,35 @@
 	}
 
 	// Authorized Apps
-	.authedApp-mj2Hmd {
-		padding: 0;
-		border: none;
-		border-bottom: 1px solid var(--base-border);
-		border-radius: 0;
-		padding-bottom: var(--spacing-double);
-		margin-bottom: var(--spacing-double);
-	}
 
 	.accountList-33MS45 {
 		background: transparent;
 		border: none;
 		padding: 0;
+	}
+	.authedApp-mj2Hmd {
+		.headerInfo-30WFqE {
+			margin:0;
+		}
+		.appAvatar-3bgkQ9 {
+			border-radius:var(--border-radius);
+			height:var(--avatar-size);
+			width:var(--avatar-size);
+		}
+		.size14-e6ZScH,
+		h5 {
+			line-height:normal !important;
+			font-size:var(--font-size) !important;
+		}
+		.faded-3bns_w {
+			margin:0 !important;
+		}
+		.permission-1gtoyP {
+			margin-top:var(--spacing-half);
+		}
+		.permissionCheckmark-1SeKr2 {
+			display:none;
+		}
 	}
 
 	// Connections
@@ -228,6 +240,9 @@
 		border-radius: 0 !important;
 		border-bottom: 1px solid var(--base-border) !important;
 		margin-bottom: 0;
+		.connectionAccountValue-3VdBGs {
+			color:var(--text-normal);
+		}
 		.flexChild-faoVW3 {
 			margin-left: 0 !important;
 		}
@@ -269,6 +284,7 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%) rotate(45deg);
+			background-color:var(--text-normal);
 		}
 		&:before {
 			height: 12px;
@@ -311,7 +327,7 @@
 		width: 144px;
 		height: 144px;
 		background: var(--text-muted);
-		mask: url($illustration_8) center/contain no-repeat;
+		mask: url($illustration_7) center/contain no-repeat;
 	}
 	.emptyStateHeader-248f_b {
 		margin-top: var(--spacing-double);
@@ -346,6 +362,9 @@
 		+ h2
 		+ .switchItem-2hKKKK {
 		margin-bottom: var(--spacing-double) !important;
+	}
+	.preview-2nSL_2 ~ .marginTop60-3PGbtK {
+		margin-top:var(--spacing-double);
 	}
 
 	// Notifications

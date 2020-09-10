@@ -20,11 +20,6 @@
         content: none;
       }
     }
-    .toolbar-1t6TWx {
-      position:absolute;
-      right:0;
-      border:none;
-    }
     .topPill-30KHOu {
       position:absolute;
       top:var(--toolbar-height);
@@ -45,6 +40,9 @@
         color:var(--text-normal) !important;
         border-right:1px solid var(--base-border);
         flex-grow:1;
+        .badge-1Skb69 {
+          margin-left:var(--spacing-half);
+        }
         &:hover {
           background:var(--background-light) !important;
         }

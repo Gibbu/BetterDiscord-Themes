@@ -35,6 +35,9 @@
       left: 50%;
       transform: translateX(-50%);
     }
+    .lowerBadge-29hYVK {
+      margin-bottom:5px;
+    }
   }
   .homeIcon-tEMBK1 {
     mask: url($icon_home) center/65% no-repeat;
@@ -125,7 +128,7 @@
       text-transform:capitalize;
       font-size:var(--font-size);
       font-weight:var(--font-weight-normal);
-      background:rgb(var(--discord-red));
+      background:rgb(var(--status-red));
       color:var(--white);
       cursor:default;
       opacity:0;

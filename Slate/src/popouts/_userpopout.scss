@@ -185,7 +185,7 @@
       }
     }
     .headerStreaming-2FjmGz {
-      background: rgba(var(--discord-twitch), 0.1);
+      background: rgba(var(--twitch), 0.1);
     }
     .avatarWrapper-3H_478 {
       grid-area: avatar;
@@ -293,20 +293,13 @@
     // Streaming
     .headerStreaming-2FjmGz {
       margin-bottom: calc(var(--item-height) + 1px);
-      .actionsUserPopout-2MrzCa button {
-        background: rgba(var(--discord-purple), 0.7);
-        &:active,
-        &:hover {
-          background: rgba(var(--discord-purple), 1);
-        }
-      }
     }
 
     // Spotify
     .headerSpotify-zpWxgT {
       margin-bottom: calc(var(--item-height) + 1px);
       .activityUserPopout-2yItg2 {
-        background: rgba(var(--discord-spotify), 0.2);
+        background: rgba(var(--spotify), 0.2);
       }
     }
     .timeBarUserPopout-AWPFf2 {
@@ -335,7 +328,7 @@
     }
     .barInner-3NDaY_ {
       border-radius: 0;
-      background: rgba(var(--discord-spotify), 0.5);
+      background: rgba(var(--spotify), 0.5);
     }
     .text-AOoUen {
       font-size: var(--font-size-sm);
@@ -435,7 +428,7 @@
         }
         .wumpusTooltip-65YlMT {
           font-size: 0;
-          background: rgb(var(--discord-red));
+          background: rgb(var(--status-red));
           position: absolute;
           width: 100%;
           height: 100%;

@@ -50,6 +50,7 @@
         border-top:1px solid var(--base-border);
       }
       &:last-child {
+        border-top:none;
         border-radius:0 0 var(--border-radius) var(--border-radius);
       }
       &:hover .desc-2Dttbk,

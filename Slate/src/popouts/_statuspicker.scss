@@ -55,6 +55,18 @@
           padding: 0;
           max-height: unset;
           display: flex;  
+          .status-1AY8sU[style="background-color: rgb(67, 181, 129);"] {
+            background:rgb(var(--status-green)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(250, 166, 26);"] {
+            background:rgb(var(--status-yellow)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(240, 71, 71);"] {
+            background:rgb(var(--status-red)) !important;
+          }
+          .status-1AY8sU[style="background-color: rgb(116, 127, 141);"] {
+            background:rgb(var(--status-grey)) !important;
+          }
         }
         .statusIconText-3b4TkH {
           height: auto;

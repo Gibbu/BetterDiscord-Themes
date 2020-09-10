@@ -2,15 +2,15 @@
   background: var(--accent-solid);
   color: #fff;
 }
+
 ::-webkit-input-placeholder {
   user-select: none;
 }
-h1, h2, h3, h4, h5, h6, p {
-  user-select: text;
-}
+
 html {
   line-height: var(--line-height);
 }
+
 #app-mount {
   background: var(--toolbar-background);
   .base-3dtUhz {
@@ -22,6 +22,7 @@ html {
     opacity: 1 !important;
     transform: scale(1) !important;
   }
+
   // Mentions/Channel jump
   .mention {
     background: rgba(var(--accent), 0.15);
@@ -33,29 +34,9 @@ html {
       color: #fff;
     }
   }
+
   // Remove box-shadow from chat
   .content-yTz4x3:before {
     content: none;
-  }
-  // App-wide Text Rendering
-  .h5-18_1nd {
-    color: var(--text-normal);
-    text-transform: none;
-    font-weight: var(--font-weight-normal);
-    cursor: text;
-    font-size: var(--font-size);
-  }
-  .errorMessage-3Guw2R {
-    color: rgb(var(--discord-red));
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-normal);
-  }
-  strong {
-    font-weight:var(--font-weight-bold);
-  }
-  //App-wide Spacing
-  .horizontal-1ae9ci > .flex-1xMQg5,
-  .horizontal-1ae9ci > .flexChild-faoVW3 {
-    margin: 0 var(--spacing);
   }
 }

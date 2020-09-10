@@ -92,18 +92,11 @@
 	.titleDefault-a8-ZSr {
 		cursor: default;
 	}
-	.switchItem-2hKKKK .flex-1xMQg5 + .description-3_Ncsb,
-	.marginBottom20-32qID7 {
-		margin-bottom: var(--spacing-double);
-	}
 	.switchItem-2hKKKK {
 		margin: 0;
 	}
 	.marginTop40-i-78cZ {
 		margin-top: var(--spacing-double);
-	}
-	.marginTop60-3PGbtK {
-		margin-top: var(--spacing-triple);
 	}
 	.faded-3bns_w {
 		opacity: 1;
@@ -128,12 +121,7 @@
 		display: none;
 	}
 
-	// Cards
 	.formNotice-2_hHWR {
-		padding: var(--spacing);
-		border: 1px solid var(--base-border);
-		background: var(--background-alt);
-		border-radius: var(--border-radius);
 		.default-3nhoK- {
 			font-size: var(--font-size);
 			color: var(--text-muted);
@@ -158,7 +146,7 @@
 	position: absolute;
 	font-size: 12px;
 	border-radius: var(--border-radius);
-	background: rgb(var(--discord-yellow));
+	background: rgb(var(--status-yellow));
 	padding: var(--spacing-third) var(--spacing-half);
 	color: var(--white);
 	height: 12px;

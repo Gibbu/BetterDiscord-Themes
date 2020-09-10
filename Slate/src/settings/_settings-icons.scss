@@ -62,13 +62,13 @@
   	
   // Hypesquad
   &:nth-child(11) {
-    color: rgba(var(--discord-yellow), 1);
+    color: rgba(var(--status-yellow), 1);
     &:before {
       mask: url($icon_hypesquad) center/cover no-repeat;
-      background-color: rgba(var(--discord-yellow), 1);
+      background-color: rgba(var(--status-yellow), 1);
     }
     &.selected-3s45Ha {
-      background: rgba(var(--discord-yellow), 1);
+      background: rgba(var(--status-yellow), 1);
     }
   }
   	
@@ -133,7 +133,7 @@ html.platform-win #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   // Logout
   &:nth-child(28):before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--discord-red), 1);
+    background-color: rgba(var(--status-red), 1);
   }
 }
 
@@ -182,7 +182,7 @@ html.platform-osx #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHYJ 
   // Logout
   &:nth-child(26):before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--discord-red), 1);
+    background-color: rgba(var(--status-red), 1);
   }
 }
 
@@ -236,6 +236,6 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .item-PXvHY
   // Logout
   &:nth-child(27):before {
     mask: url($icon_sign-out) center/cover no-repeat;
-    background-color: rgba(var(--discord-red), 1);
+    background-color: rgba(var(--status-red), 1);
   }
 }

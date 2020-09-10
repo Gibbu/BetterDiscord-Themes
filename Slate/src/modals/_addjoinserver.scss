@@ -1,4 +1,5 @@
 #app-mount .theme-light .root-1gCeng {
+    transform:none !important;
     .container-1CE3eW {
         width:100%;
         > div[style*="width"] {
@@ -165,6 +166,10 @@
                         user-select:none;
                     }
                 }
+                .templatesList-2E6rTe + .footer-2gL1pp button {
+                    padding:var(--spacing);
+                    height:auto;
+                }
                 .footer-2gL1pp {
                     .footerTitle-2CYZch {
                         display:none;
@@ -204,7 +209,8 @@
 
 // Light Mode
 
-html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .itemContainer-1LSFks:not(:first-child) {
+html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .templatesList-2E6rTe .itemContainer-1LSFks:not(:first-child),
+html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[style*=width] > div[style*=width] .footer-2gL1pp button.lookBlank-3eh9lL {
     &:hover {
         background: var(--background);
         border: 1px solid var(--secondary-border-color);

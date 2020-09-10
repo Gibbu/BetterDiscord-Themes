@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #app-mount .container-1r6BKw.themed-ANHk51 {
+=======
+body #app-mount .container-1r6BKw {
+>>>>>>> Stashed changes
   background: var(--toolbar-background);
   height: var(--toolbar-height);
   border-bottom: 1px solid var(--toolbar-border);
@@ -14,6 +18,20 @@
     border-right: 1px solid var(--toolbar-border);
     position: relative;
     overflow: visible;
+    .followButton-L6L-Us {
+      margin:0;
+      margin-left:var(--spacing);
+      border-color:var(--toolbar-border);
+      background:var(--toolbar-background-hover);
+      color:var(--toolbar-text-normal);
+      &:hover {
+        background:var(--toolbar-background-hover) !important;
+      }
+      &:focus {
+        border-color:currentColor !important;
+        box-shadow:0 0 0 1px currentColor !important;
+      }
+    }
     .input-2A_zIr,
     .input-cIJ7To {
       background: var(--toolbar-background);
@@ -129,7 +147,7 @@
     .iconWrapper-2OrFZ1 {
       margin: 0 var(--spacing);
       .iconBadge-qZ4Ksk {
-        background: rgb(var(--discord-red));
+        background: rgb(var(--status-red));
       }
     }
     .icon-22AiRD {
@@ -142,7 +160,7 @@
         transform: scale(1.15) translateY(8%) translateX(12.5%);
       }
       .strikethrough-3Wiitd {
-        color: rgb(var(--discord-red));
+        color: rgb(var(--status-red));
         d: path($path_eye_closed);
         fill-rule: evenodd;
         transform: scale(1.15) translateY(12%) translateX(12.5%);

@@ -74,9 +74,9 @@
         }
       }
       &#guild-header-popout-leave {
-        color: rgb(var(--discord-red));
+        color: rgb(var(--status-red));
         &:hover {
-          color: rgb(var(--discord-red));
+          color: rgb(var(--status-red));
         }
       }
       &#guild-header-popout-notifications path {
