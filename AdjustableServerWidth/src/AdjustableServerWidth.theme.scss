@@ -17,6 +17,7 @@
 :root {
   --icon: var(--server-icon-size, var(--ASW_size, 35px));
   --container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
+  --asw-version: 'Adjustable Server Width 2.0.3';
 }
 // Base
 .base-3dtUhz {
@@ -40,15 +41,15 @@
     width: var(--container);
     margin-bottom: var(--server-icon-spacing);
   }
-  .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) {
+  .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not([style*="absolute"]) {
     height: calc(var(--icon) + var(--server-icon-spacing)) !important;
   }
   [class*="pill"] {
-    height: var(--icon);
+    height: calc(var(--icon) - 8px);
     top: 50%;
     transform: translateY(-50%);
     span {
-      height: var(--server-icon-size) !important;
+      height: 100% !important;
       transition: 0.1s ease !important;
       transform: scale(1,0) !important;
       // Unread
@@ -70,6 +71,9 @@
         }
       }
     }
+  }
+  [class*="unreadMentionsIndicator"] {
+    width: 100%;
   }
   .guildsError-b7zR5H,
   .svg-1X37T1,
@@ -104,6 +108,6 @@
   }
 }
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "Adjustable Server Width 2.0.2";
+  content: var(--asw-version);
   display: block;
 }

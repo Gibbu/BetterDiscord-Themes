@@ -1,12 +1,11 @@
 :root {
   --icon: var(--server-icon-size, var(--ASW_size, 35px));
   --container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
+  --asw-version: "Adjustable Server Width 2.0.3";
 }
-
 .base-3dtUhz {
   left: var(--container);
 }
-
 .wrapper-1Rf91z {
   width: var(--container);
 }
@@ -24,16 +23,16 @@
   width: var(--container);
   margin-bottom: var(--server-icon-spacing);
 }
-.wrapper-1Rf91z .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh) {
+.wrapper-1Rf91z .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh):not([style*=absolute]) {
   height: calc(var(--icon) + var(--server-icon-spacing)) !important;
 }
 .wrapper-1Rf91z [class*=pill] {
-  height: var(--icon);
+  height: calc(var(--icon) - 8px);
   top: 50%;
   transform: translateY(-50%);
 }
 .wrapper-1Rf91z [class*=pill] span {
-  height: var(--server-icon-size) !important;
+  height: 100% !important;
   transition: 0.1s ease !important;
   transform: scale(1, 0) !important;
 }
@@ -160,6 +159,9 @@
 .wrapper-1Rf91z [class*=pill] span[style*="height: 40"] {
   transform: scale(1, 1) !important;
 }
+.wrapper-1Rf91z [class*=unreadMentionsIndicator] {
+  width: 100%;
+}
 .wrapper-1Rf91z .guildsError-b7zR5H,
 .wrapper-1Rf91z .svg-1X37T1,
 .wrapper-1Rf91z .wrapper-25eVIn {
@@ -190,8 +192,7 @@
 .wrapper-1Rf91z .wrapper-21YSNc .expandedFolderIconWrapper-1xLaU- {
   transform: none !important;
 }
-
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
-  content: "Adjustable Server Width 2.0.2";
+  content: var(--asw-version);
   display: block;
 }
