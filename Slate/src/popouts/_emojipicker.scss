@@ -64,10 +64,10 @@
       }
     }
     &:first-child button .contents-18-Yxp {
-      -webkit-mask: url($icon_image) center/cover no-repeat;
+      mask: url($icon_image) center/cover no-repeat;
     }
     &:last-child button .contents-18-Yxp {
-      -webkit-mask: url($icon_face) center/cover no-repeat;
+      mask: url($icon_face) center/cover no-repeat;
     }
   }
 
@@ -348,7 +348,7 @@
         display:block;
         background:var(--text-muted);
         margin-bottom:var(--spacing-double);
-        -webkit-mask:url($illustration_6) center/contain no-repeat;
+        mask:url($illustration_6) center/contain no-repeat;
       }
     }
     .premiumPromoDescription-QWky-t {
@@ -362,7 +362,7 @@
   .premiumPromoClose-1w65km {
     background:var(--text-muted);
     opacity:1;
-    -webkit-mask:url($icon_close) center/12px no-repeat;
+    mask:url($icon_close) center/12px no-repeat;
     &:hover {
       background:var(--text-normal);
     }
@@ -381,7 +381,7 @@
       width:120px;
       height:120px;
       background:var(--text-muted);
-      -webkit-mask:url($illustration_7) center/contain no-repeat;
+      mask:url($illustration_7) center/contain no-repeat;
       margin-bottom:var(--spacing-double);
     }
   }

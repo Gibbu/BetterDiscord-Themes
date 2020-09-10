@@ -22,7 +22,7 @@
         width: calc(100% + 320px);
         &:after {
           width: 24px;
-          -webkit-mask-size: 16px;
+          mask-size: 16px;
         }
       }
     }

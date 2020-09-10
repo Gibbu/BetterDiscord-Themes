@@ -2,7 +2,8 @@
   .lookFilled-1Gx00P,
   .lookInverted-2D7oAl,
   .lookLink-9FtZy-,
-  .lookOutlined-3sRXeN {
+  .lookOutlined-3sRXeN,
+  .colorPrimary-3b3xI6.lookLink-9FtZy- {
     font-size: var(--font-size);
     font-weight: var(--font-weight-normal);
     cursor: default;
@@ -10,6 +11,7 @@
     height: var(--input-height);
     line-height: normal;
     transition: none;
+    box-sizing:border-box;
     padding: 0 var(--spacing);
     border-radius: var(--button-border-radius);
   }
@@ -32,17 +34,13 @@
   .actionButton-uPB8Fs {
     color: var(--text-normal);
     background: var(--background-light);
-    min-height: var(--input-height);
-    height: var(--input-height);
-    padding: 0 var(--spacing);
-    border-radius: var(--button-border-radius);
     border: 1px solid var(--base-border);
     cursor: default;
     box-shadow: none !important;
     &:hover {
       border: 1px solid currentColor;
       .contents-18-Yxp {
-        background-image: none !important;
+        background-image:none;
       }
     }
     &:focus {

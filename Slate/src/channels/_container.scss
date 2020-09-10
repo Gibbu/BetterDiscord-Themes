@@ -16,7 +16,7 @@
   // Banner image
   .animatedContainer-1pJv5C {
     box-shadow: none;
-    -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 90%) !important;
+    mask: linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 90%) !important;
     z-index: 10;
     pointer-events: none;
   }
@@ -38,7 +38,7 @@
       right: var(--spacing);
       color: var(--text-muted);
       background: currentColor;
-      -webkit-mask: url($icon_close) center/12px no-repeat;
+      mask: url($icon_close) center/12px no-repeat;
       path {
         display: none;
       }
@@ -67,7 +67,7 @@
           height: 80px;
           margin: var(--spacing);
           background: var(--text-normal);
-          -webkit-mask: url($illustration_1) center/cover no-repeat;
+          mask: url($illustration_1) center/cover no-repeat;
         }
       }
     }

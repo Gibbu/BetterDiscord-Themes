@@ -69,6 +69,7 @@
         color:var(--text-muted);
         opacity:1;
         transition:none;
+        right:calc(var(--spacing) * 1.25);
         &:hover {
           color:var(--text-normal);
         }

@@ -122,7 +122,7 @@
       width:100px;
       height:100px;
       background:var(--text-muted);
-      -webkit-mask:url($illustration_1) center/contain no-repeat;
+      mask:url($illustration_1) center/contain no-repeat;
       margin-bottom:var(--spacing);
     }
     &:after {
@@ -240,7 +240,7 @@
         width:500px;
         height:200px;
         background:var(--text-muted);
-        -webkit-mask: url($illustration_3) center/75% no-repeat;
+        mask: url($illustration_3) center/75% no-repeat;
         margin-bottom:var(--spacing);
       }
       .titleName-3-Lp3Z {

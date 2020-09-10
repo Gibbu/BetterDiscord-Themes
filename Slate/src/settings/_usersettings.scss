@@ -311,7 +311,7 @@
 		width: 144px;
 		height: 144px;
 		background: var(--text-muted);
-		-webkit-mask: url($illustration_8) center/contain no-repeat;
+		mask: url($illustration_8) center/contain no-repeat;
 	}
 	.emptyStateHeader-248f_b {
 		margin-top: var(--spacing-double);

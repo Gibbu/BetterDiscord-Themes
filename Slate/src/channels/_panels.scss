@@ -113,7 +113,7 @@
 			border-radius: var(--border-radius) 0 0 var(--border-radius);
 			.contents-18-Yxp {
 				font-size: 0;
-				-webkit-mask: url($icon_pulse) center/cover no-repeat;
+				mask: url($icon_pulse) center/cover no-repeat;
 				background: var(--text-normal);
 				width: 16px;
 				height: 16px;

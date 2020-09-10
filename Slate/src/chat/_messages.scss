@@ -251,7 +251,7 @@
           left: var(--spacing);
           width: var(--avatar-size);
           height: var(--avatar-size);
-          -webkit-mask: url($icon_cog) center/16px no-repeat;
+          mask: url($icon_cog) center/16px no-repeat;
           background:var(--text-muted);
           position: absolute;
           z-index:1;
