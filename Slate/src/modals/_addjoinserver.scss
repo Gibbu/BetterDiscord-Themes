@@ -4,10 +4,17 @@
         width:100%;
         > div[style*="width"] {
             width:100% !important;
+            height:fit-content !important;
             > div[style*="width"] {
                 width:100% !important; // holy fuck why
                 transform:none !important;
                 top:0 !important;
+                position:relative !important;
+                left:0 !important;
+                right:0 !important;
+                + div[style*="width"] {
+                    display:none !important;
+                }
                 .header-1TKi98 {
                     align-items:flex-start;
                     justify-content:center;
