@@ -4,7 +4,7 @@
     color: var(--text-normal);
     height:26px;
     padding-right:var(--spacing);
-    padding-left:var(--spacing-double);
+    padding-left:20px; // not using spacing here intentionally
     cursor:default;
     svg, .name-IbjUBS {
       color: var(--text-normal);

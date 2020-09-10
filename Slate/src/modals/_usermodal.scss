@@ -157,6 +157,7 @@
   // Activity
   .activity-1ythUs {
     border-top: 1px solid var(--base-border);
+    padding:var(--spacing-double);
     &:not(.activityProfile-2bJRaP) {
       order: 3;
     }
