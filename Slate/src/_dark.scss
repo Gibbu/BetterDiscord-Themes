@@ -1,10 +1,11 @@
-html.theme-dark,
+.theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng {
   // Text and Borders
   --base-border: #141414;
   --text-normal: #d1d5da;
   --text-muted: #959da5;
   --text-focus: #ffffff;
+  --text-link: rgb(var(--link-colour)) !important;
   --text-opacity: 255,255,255;
 
   // Background

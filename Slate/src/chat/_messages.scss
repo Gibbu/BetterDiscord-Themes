@@ -106,7 +106,7 @@
     .contents-2mQqc9 .scrollableContainer-2NUZem.webkit-HjD9Er {
       padding: 0;
       .markup-2BOw-j {
-        padding:4px var(--spacing) 0;
+        padding:4px var(--spacing-half) 0;
       }
     }
     .edited-3sfAzf {
@@ -377,6 +377,9 @@
     &:last-child {
       border-right:1px solid var(--base-border);
       border-radius:0 var(--border-radius) var(--border-radius) 0;
+    }
+    &:only-child {
+      border-radius:var(--border-radius);
     }
   }
   .icon-3Gkjwa {

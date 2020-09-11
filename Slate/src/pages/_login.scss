@@ -44,6 +44,29 @@
       .marginTop4-2BNfKC:last-child {
         margin: 0;
       }
+      .title-3sZWYQ {
+        font-size:var(--font-size);
+      }
+      .subText-1XkjIB {
+        color:var(--text-muted);
+      }
+      .inputs-14Hc7m {
+        margin-bottom:0;
+        width:auto;
+        justify-content:flex-start;
+        div[tabindex] {
+          flex-grow:1;
+        }
+        .inputMonth-IGgn-0,
+        .inputDay-18OXiE,
+        .inputYear-2J502p {
+          width:auto;
+          margin-right:var(--spacing-half);
+        }
+      }
+      a {
+        color:var(--text-link);
+      }
     }
     .marginBottom20-32qID7 {
       margin-bottom: var(--spacing);
@@ -51,7 +74,6 @@
   }
   .wrapper-6URcxg {
     transform: none !important;
-    opacity: 1 !important;
     width: 100vw !important;
     height: 100vh !important;
     min-width: unset;

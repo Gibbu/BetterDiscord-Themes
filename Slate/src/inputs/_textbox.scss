@@ -1,15 +1,18 @@
 #app-mount {
   .input-2A_zIr,
-  .input-cIJ7To {
+  .input-cIJ7To,
+  .input-1ppKdn {
     border-radius: var(--border-radius);
     background: var(--background-dark);
     font-size:var(--font-size);
+    font-weight:var(--font-weight-normal);
     border:1px solid var(--base-border);
     color:var(--text-normal);
     transition:none;
     padding:0 var(--spacing-half);
     height:var(--input-height);
     line-height:24px;
+    box-sizing:border-box;
     &:focus, .focused-1mmYsC {
       border:1px solid var(--accent-solid);
       box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
@@ -76,7 +79,8 @@
 
 html.theme-light #app-mount {
   .input-2A_zIr,
-  .input-cIJ7To {
+  .input-cIJ7To,
+  .input-1ppKdn {
     background:var(--background);
   }
 }

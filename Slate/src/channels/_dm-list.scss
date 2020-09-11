@@ -84,6 +84,9 @@
     &[href="/library"],
     &[href="/store"] {
       border-left: 1px solid var(--base-border);
+      .children-gzQq2t {
+        display:none; // Hides Download Indicator
+      }
     }
     &[href="/channels/@me"],
     &[href="/library"],

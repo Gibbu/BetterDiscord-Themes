@@ -38,6 +38,35 @@
     .lowerBadge-29hYVK {
       margin-bottom:5px;
     }
+    .upperBadge-2XnnGB {
+      top:5px;
+      right:0px;
+      transform:none !important;  
+      .downloadProgress-3lBtPV {
+        top:0;
+        left:0;
+        width:18px;
+        height:18px;
+        .circleBackgroundAlt-Eohdst {
+            fill:var(--background);
+        }
+        .circleBackground-OqqxHM {
+          fill:var(--background-light);
+          stroke:var(--base-border);
+        }
+        .circleProgress-1EBmVn {
+          stroke:var(--accent-solid);
+        }
+        .downloadIcon-3TWA3B {
+          padding:var(--spacing-half);
+          color:var(--text-normal);
+          path {
+            d:path($path_download);
+            transform:scale(1.5);
+          }
+        }
+      }
+    }
   }
   .homeIcon-tEMBK1 {
     mask: url($icon_home) center/65% no-repeat;
@@ -100,9 +129,7 @@
   .folderIconWrapper-226oVY,
   .guildIcon-GuAC7C,
   .guildIconUnavailable-5PMHDN,
-  .guildsError-b7zR5H,
-  .iconBadge-2NuvG9,
-  .numberBadge-2s8kKX {
+  .guildsError-b7zR5HX {
     border-radius: var(--border-radius);
   }
   .wrapper-sa6paO {
@@ -113,6 +140,23 @@
     max-height: 75%;
     background: var(--text-muted);
     width: 7px;
+  }
+
+  // Badges
+
+  .iconBadge-2wi9r4,
+  .unavailableBadge-3k7iq_ {
+    position: absolute;
+    top: 0;
+    left: calc(var(--icon) * -1);
+    width: var(--icon);
+    height: var(--icon);
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 0;
+    .icon-3s6X1M {
+      width: 18px;
+      color: var(--white);
+    }
   }
 
   // Mention Indicators
@@ -146,6 +190,19 @@
   }
   .unreadMentionsIndicatorTop-gA6RCh {
     top:var(--toolbar-height);
+  }
+
+  // Draggable Icon State
+
+  .dragInner-_SHftW {
+    background:var(--background);
+    border-radius:var(--border-radius);
+    border:1px dashed var(--base-border);
+    box-sizing:border-box;
+  }
+
+  .folder-21wGz3.hover-2ji_A7 {
+    background:transparent;
   }
 }
 

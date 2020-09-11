@@ -66,6 +66,7 @@
       margin: 0 var(--spacing-half) var(--spacing-half) 0;
       height: auto;
       transition: 50ms ease linear;
+      height:22px;
       &:hover .roleCircle-3xAZ1j {
         opacity: 1;
         box-sizing: border-box;
@@ -102,7 +103,8 @@
     }
     .member-perm .name,
     .roleName-32vpEy {
-      overflow: visible;
+      overflow: hidden;
+      line-height:normal;
       position: relative;
       z-index: 1;
       margin-right: 0;
@@ -114,11 +116,17 @@
       position: absolute;
       top: 0;
       right: 0;
-      margin: 0;
-      padding: 0 var(--spacing);
+      padding:0;
+      margin: 0 var(--spacing);
       height: 28px;
       border-radius: var(--border-radius);
       color: var(--text-muted);
+      cursor:default;
+      .addButtonIcon-1NMJ8u {
+        height:var(--font-size);
+        width:var(--font-size);
+        cursor:default;
+      }
       &:hover,
       &[aria-expanded="true"] {
         color: var(--text-normal);
