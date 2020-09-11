@@ -34,7 +34,7 @@
       left: 0;
       width: 100vw;
       height: var(--titlebar-height);
-      background: var(--toolbar-header-selected);
+      background: var(--toolbar-background-alt);
       z-index: -1;
     }
   }
@@ -90,7 +90,7 @@
   width:100%;
   height:var(--titlebar-height);
   padding:0 var(--spacing-half);
-  background:var(--toolbar-header-selected);
+  background:var(--toolbar-background-alt);
   border-bottom:1px solid var(--toolbar-border);
   display:flex;
   justify-content:center;
