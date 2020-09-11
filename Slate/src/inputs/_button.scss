@@ -37,7 +37,6 @@
     border: 1px solid var(--base-border);
     cursor: default;
     box-shadow: none !important;
-    cursor: default;
     &:hover {
       border: 1px solid currentColor;
       .contents-18-Yxp {
@@ -51,17 +50,22 @@
   }
   .lookLink-9FtZy- {
     padding: 0;
-    color: var(--accent-solid);
+    color: var(--text-link);
     height: auto;
     min-height: unset;
     cursor: pointer;
     &:hover .contents-18-Yxp {
-      background-image: linear-gradient(0deg,transparent,transparent 1px,var(--accent-solid) 0,var(--accent-solid) 2px,transparent 0);
+      background-image: linear-gradient(0deg,transparent,transparent 1px,var(--text-link) 0,var(--text-link) 2px,transparent 0);
     }
     &.reset-2ikQ30 {
       opacity: 1;
       margin:0;
     }
+  }
+  .premiumIcon-YgHhed {
+    margin-right:var(--spacing-third);
+    height:16px;
+    width:16px;
   }
 }
 

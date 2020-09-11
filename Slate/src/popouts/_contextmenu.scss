@@ -65,7 +65,10 @@
     background: transparent;
     cursor: default;
     &:hover {
-      background: var(--background-modifier-hover);
+      background:var(--background-modifier-hover);
+    }
+    &:active {
+      background:var(--background-modifier-active);
     }
   }
 

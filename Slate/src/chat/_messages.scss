@@ -160,7 +160,6 @@
       padding-bottom: var(--spacing);
       .container-1ov-mD {
         max-width: 100%;
-        overflow: hidden;
         padding-bottom: var(--spacing);
       }
       .header-23xsNx {
@@ -448,6 +447,14 @@
     border-radius: 0;
     background: transparent;
     margin-top: 0;
+  }
+  .imageWrapper-2p5ogY {
+    border-radius:var(--border-radius);
+    cursor:default;
+    outline:none;
+    &:focus {
+      box-shadow:0 0 0 3px rgba(var(--accent), 0.25);
+    }
   }
 
   // Embeds 

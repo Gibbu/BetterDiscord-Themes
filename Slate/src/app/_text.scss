@@ -1,3 +1,7 @@
+::selection {
+  background: var(--accent-solid);
+  color: #fff;
+}
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family:var(--font-family-sans-serif);
 }
@@ -58,4 +62,8 @@ strong {
 }
 .marginBottom60-Gs8NBA {
   margin-bottom: calc(var(--spacing) * 6);
+}
+a {
+  cursor:default;
+  color:var(--text-link);
 }

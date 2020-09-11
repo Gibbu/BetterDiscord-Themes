@@ -133,7 +133,7 @@
       font-size: var(--font-size);
       padding: 0 var(--spacing);
       text-transform: none;
-      background: var(--background-alt);
+      background: var(--background-light);
       border-bottom: 1px solid var(--base-border);
       border-top: 1px solid var(--base-border);
       margin-bottom: var(--spacing);
@@ -482,4 +482,10 @@
   .customStatus-1bh2V9 {
     z-index: 1;
   }
+}
+
+// Light Mode
+
+html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
+  background:var(--background);
 }

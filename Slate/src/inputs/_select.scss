@@ -23,6 +23,10 @@
     box-shadow: none;
     border: none;
   }
+  .css-1k00wn6-singleValue {
+    color:var(--text-normal);
+    margin:0;
+  }
   .selectLabel-2ltwlE {
     padding: 0 var(--spacing);
   }
@@ -41,11 +45,13 @@
     display:flex;
     align-items:center;
     cursor:default;
+    color:var(--text-muted);
     svg {
       width:10px;
       height:10px;
       mask: url($icon_chevron-down) center/10px no-repeat;
-      background: var(--text-normal);
+      background: currentColor;
+      color:inherit;
       path {
         display: none;
       }
@@ -66,5 +72,23 @@
   .subtitle-2yP_Eh {
     font-size: var(--font-size-sm);
     color: var(--text-muted);
+  }
+}
+
+// Light Mode
+
+.theme-light {
+  #app-mount {
+    .css-13kbzi0-control,
+    .css-15ejc46-control,
+    .css-17mfgdg-container,
+    .css-1a8reka-control,
+    .css-1yegjoj-control,
+    .css-2yldzf-control,
+    .css-oc2jo8-control,
+    .css-oce0qz-control,
+    .sizeMedium-6vZ9JV.select-1Pkeg4 {
+      background:var(--background);
+    }
   }
 }

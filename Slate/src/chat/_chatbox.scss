@@ -145,7 +145,17 @@
     }
     .emojiButton-3uL3Aw {
       cursor: default;
-      opacity: .75;
+      .sprite-2iCowe {
+        height:22px;
+        width:22px;
+        transform:none !important;
+        background:var(--text-muted);
+        mask:url($icon_smiley_alt) center/20px no-repeat;
+      }
+      &:hover .sprite-2iCowe,
+      .sprite-2iCowe[style*="grayscale(0%)"] {
+        background:var(--text-normal);
+      }
     }
   }
   .button-318s1X {

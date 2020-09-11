@@ -36,5 +36,13 @@
       transform: rotate(-135deg);
       margin-top: -5px;
     }
+    .size14-e6ZScH {
+      color:var(--text-normal);
+      font-size:var(--font-size);
+      line-height:normal;
+      &.clickCTA-kIMiUd {
+        color:var(--text-muted);
+      }
+    }
   }
 }

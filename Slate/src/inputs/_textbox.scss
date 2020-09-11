@@ -71,3 +71,12 @@
     align-items:center;
   }
 }
+
+// Light Mode
+
+html.theme-light #app-mount {
+  .input-2A_zIr,
+  .input-cIJ7To {
+    background:var(--background);
+  }
+}
