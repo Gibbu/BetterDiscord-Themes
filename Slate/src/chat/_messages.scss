@@ -39,6 +39,12 @@
       &:before {
         background-color: var(--accent-solid);
       }
+      .mention {
+        background:transparent;
+        &:hover {
+          color:var(--text-normal);
+        }
+      }
     }
     & + .message-2qnXI6:not(.groupStart-23k01U) {
       margin-top: calc(var(--spacing) / -1);
@@ -160,7 +166,7 @@
       padding-bottom: var(--spacing);
       .container-1ov-mD {
         max-width: 100%;
-        padding-bottom: var(--spacing);
+        padding-bottom: 0;
       }
       .header-23xsNx {
         align-items: center;
@@ -328,31 +334,49 @@
     }
   }
 
-  // Reactions
-  .reaction-1hd86g {
-    background: var(--background);
-    &.reactionMe-wv5HKu {
-      background: rgba(var(--accent), 0.2);
-      .reactionCount-2mvXRV {
-        color: var(--accent-solid);
-      }
-    }
-  }
-
   // Quick actions
   .wrapper-2aW0bm {
     background: var(--background);
-    border: 1px solid var(--base-border);
     box-shadow: none;
     height: 24px;
     top:4px;
+    border-radius:var(--border-radius);
+    overflow:hidden;
+    box-sizing:border-box;
+    margin:0;
+  }
+  .separator-42rNt0 {
+    display:none;
   }
   .button-1ZiXG9 {
-    height: 22px;
+    height: 100%;
     padding: 0; 
     width: auto;
+    color:var(--text-muted);
+    border-radius:0;
+    cursor:default;
+    box-sizing:border-box;
+    border-top:1px solid var(--base-border);
+    border-bottom:1px solid var(--base-border);
+    &:hover {
+      background:var(--background-modifier-hover);
+      color:var(--text-normal);
+    }
+    &:active {
+      background:var(--background-modifier-active);
+      color:var(--text-normal);
+    }
     &.selected-LCBEAU {
-      color: #fff;
+      color: var(--white);
+      background:var(--background-modifier-selected);
+    }
+    &:first-child {
+      border-left:1px solid var(--base-border);
+      border-radius:var(--border-radius) 0 0 var(--border-radius);
+    }
+    &:last-child {
+      border-right:1px solid var(--base-border);
+      border-radius:0 var(--border-radius) var(--border-radius) 0;
     }
   }
   .icon-3Gkjwa {
@@ -452,8 +476,9 @@
     border-radius:var(--border-radius);
     cursor:default;
     outline:none;
-    &:focus {
-      box-shadow:0 0 0 3px rgba(var(--accent), 0.25);
+    transition:250ms ease;
+    &:hover {
+      box-shadow:var(--elevation-1);
     }
   }
 

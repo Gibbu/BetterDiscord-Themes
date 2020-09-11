@@ -34,10 +34,10 @@
 		}
 		&.selected-3s45Ha,
 		&[style*="background-color: rgb(114, 137, 218)"] {
-			color: #fff;
+			color: var(--white);
 			background: rgb(var(--accent));
 			&:before {
-				background-color: #fff;
+				background-color: var(--white);
 			}
 		}
 		&[style*="background-color: rgba(114, 137, 218, 0.1)"] {
