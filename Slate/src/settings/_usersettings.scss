@@ -264,7 +264,6 @@
 			height:var(--avatar-size);
 			width:var(--avatar-size);
 			border-radius:var(--border-radius);
-			background:var(--background-light);
 			padding:var(--spacing-third);
 			border:1px solid var(--base-border);
 		}
@@ -320,7 +319,7 @@
 	}
 	.connectionOptionSwitch-3KNn-E {
 		padding: 0;
-		margin-bottom: 0;
+		margin-bottom: 0 !important;
 	}
 	.connectionAccountValue-3VdBGs,
 	.connectionAccountLabel-1DiK0A {
@@ -356,6 +355,9 @@
 		font-size: var(--font-size);
 		color: var(--text-muted);
 		margin: 0;
+	}
+	.codeRedemptionInput-3JOJea {
+		margin:0;
 	}
 
 	// Appearance
