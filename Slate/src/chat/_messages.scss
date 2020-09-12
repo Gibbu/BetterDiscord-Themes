@@ -48,6 +48,7 @@
     }
     & + .message-2qnXI6:not(.groupStart-23k01U) {
       margin-top: calc(var(--spacing) / -1);
+      padding-top:0;
     }
     &:last-child {
       padding-bottom: calc(var(--spacing) + 5px);
@@ -494,6 +495,15 @@
     .embedDescription-1Cuq9a,
     .embedTitle-3OXDkz {
       font-size: var(--chat-font-size);
+    }
+  }
+
+  // Search Flash Indicator
+  .backgroundFlash-24qWLN {
+    transition:150ms ease;
+    background:rgba(var(--accent), 0.2) !important;
+    &[style*="rgba(114, 137, 218, 0)"] {
+      background:transparent !important;
     }
   }
 }
