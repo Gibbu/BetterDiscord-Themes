@@ -46,7 +46,7 @@
 			background: var(--accent-solid) !important;
 			box-shadow: none;
 			svg {
-				color: #fff;
+				color: var(--white);
 			}
 		}
   }
@@ -117,6 +117,11 @@
 				background: var(--text-normal);
 				width: 16px;
 				height: 16px;
+			}
+			&:hover {
+				.contents-18-Yxp {
+					background:var(--white);
+				}
 			}
 		}
 		& + a {
