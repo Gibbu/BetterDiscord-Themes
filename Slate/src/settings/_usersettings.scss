@@ -186,31 +186,42 @@
 
 	.accountList-33MS45 {
 		background: transparent;
-		border: none;
 		padding: 0;
 	}
 	.authedApp-mj2Hmd {
 		.headerInfo-30WFqE {
 			margin:0;
+			.size14-e6ZScH {
+				color:var(--text-normal);
+			}
 		}
 		.appAvatar-3bgkQ9 {
 			border-radius:var(--border-radius);
 			height:var(--avatar-size);
 			width:var(--avatar-size);
 		}
-		.size14-e6ZScH,
-		h5 {
-			line-height:normal !important;
-			font-size:var(--font-size) !important;
-		}
 		.faded-3bns_w {
-			margin:0 !important;
+			margin-bottom:var(--spacing-half) !important;
 		}
 		.permission-1gtoyP {
 			margin-top:var(--spacing-half);
 		}
 		.permissionCheckmark-1SeKr2 {
 			display:none;
+		}
+		.marginTop20-3TxNs6 {
+			margin-top:var(--spacing);
+		}
+		.marginBottom20-32qID7 {
+			margin-bottom:var(--spacing);
+		}
+		.permission-1gtoyP {
+			margin:0;
+		}
+		.size14-e6ZScH {
+			font-size:var(--font-size);
+			font-weight:var(--font-weight-normal);
+			color:var(--text-muted);
 		}
 	}
 
@@ -234,20 +245,34 @@
 		}
 	}
 	.connection-1fbD7X {
-		background: transparent !important;
+		background: var(--background-alt) !important;
 		box-shadow: none !important;
-		border: none !important;
-		border-radius: 0 !important;
-		border-bottom: 1px solid var(--base-border) !important;
-		margin-bottom: 0;
+		box-sizing:border-box;
+		border: 1px solid var(--base-border) !important;
+		margin-bottom: var(--spacing);
+		border-radius:var(--border-radius);
+		padding:var(--spacing);
 		.connectionAccountValue-3VdBGs {
 			color:var(--text-normal);
+			font-weight:var(--font-weight-semibold);
+		}
+		.connectionAccountLabel-1DiK0A {
+			opacity:1;
+			font-weight:var(--font-weight-normal);
+		}
+		.connectionIcon-2ElzVe {
+			height:var(--avatar-size);
+			width:var(--avatar-size);
+			border-radius:var(--border-radius);
+			background:var(--background-light);
+			padding:var(--spacing-third);
+			border:1px solid var(--base-border);
 		}
 		.flexChild-faoVW3 {
 			margin-left: 0 !important;
-		}
-		&:last-child {
-			border-bottom: none !important;
+			&[style*="background"] {
+				background:transparent !important;
+			}
 		}
 	}
 	.subEnabledTitle-2ElRo_ {
@@ -265,32 +290,26 @@
 		color: var(--text-normal);
 	}
 	.connectionHeader-2MDqhu {
-		padding: var(--spacing) 0;
-		margin-bottom: 0;
-		background: var(--background);
+		margin-bottom: var(--spacing);
+		padding:0;
+		background: transparent;
 		border: none;
 	}
 	.connectionDelete-2Odoln {
 		top: 0;
 		right: 0;
-		width: 32px;
-		height: 32px;
+		width: 16px;
+		height: 16px;
 		border: none;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		background:var(--text-muted);
+		mask:url($icon_close) center/contain no-repeat;
 		&:before,
 		&:after {
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%) rotate(45deg);
-			background-color:var(--text-normal);
+			content:none;
 		}
-		&:before {
-			height: 12px;
-		}
-		&:after {
-			width: 12px;
+		&:hover,
+		&:active {
+			background:var(--text-normal);
 		}
 	}
 	.connectionOptionsWrapper-3KIj1Z {
@@ -301,7 +320,7 @@
 	}
 	.connectionOptionSwitch-3KNn-E {
 		padding: 0;
-		margin-bottom: var(--spacing);
+		margin-bottom: 0;
 	}
 	.connectionAccountValue-3VdBGs,
 	.connectionAccountLabel-1DiK0A {
@@ -387,6 +406,17 @@
 		font-size: var(--font-size);
 	}
 
+	.children-rWhLdy {
+		.marginBottom20-32qID7[style="flex: 1 1 auto;"] {
+			margin-bottom:var(--spacing);
+			+ .marginBottom20-32qID7[style="flex: 1 1 auto;"] + .marginBottom40-2vIwTv[style="flex: 1 1 auto;"] {
+				+ div + div {
+					margin:var(--spacing-double) 0;
+				}
+			}
+		}
+	}
+
 	// Keybinds
 	.card-FDVird:before {
 		content: none;
@@ -408,6 +438,20 @@
 	.lastPlayed-3bQ7Bo {
 		font-size: var(--font-size-sm);
 		color: var(--text-muted);
+	}
+
+	// Text and Images
+	.marginBottom20-32qID7.marginTop8-1DLZ1n + .flex-1xMQg5.marginBottom40-2vIwTv + h5 + .marginTop8-1DLZ1n.marginBottom40-2vIwTv {
+		margin-top:0;	
+		+ h5 + .marginBottom20-32qID7.marginTop8-1DLZ1n {
+			margin:0;
+			+ .marginTop8-1DLZ1n.marginBottom20-32qID7 {
+				margin:0;
+				+ .marginBottom40-2vIwTv + .marginBottom40-2vIwTv + .marginBottom40-2vIwTv {
+					margin-top:0;
+				}
+			}
+		}
 	}
 }
 
