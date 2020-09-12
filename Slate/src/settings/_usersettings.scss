@@ -361,19 +361,28 @@
 	}
 
 	// Appearance
-	.preview-2nSL_2 {
+	.preview-2nSL_2.card-3Qj_Yx {
 		background: var(--background);
 		border-color: var(--base-border);
-	}
-	.preview-2nSL_2 + .marginTop40-i-78cZ .radioGroup-1GBvlr {
-		.item-26Dhrx:first-child {
-			.title-3BE6m5:after {
-				content: "Dark themed elements with a grey color scheme.";
-			}
+		padding:0;
+		.header-23xsNx {
+			margin-bottom:0 !important;
 		}
-		&:last-child {
-			.title-3BE6m5:after {
-				content: "Light themed elements with a white color scheme. (Unfinished)";
+	}
+	.preview-2nSL_2 + .marginTop40-i-78cZ {
+		h5 {
+			display:block !important;
+		}
+		 .radioGroup-1GBvlr {
+			.item-26Dhrx:first-child {
+				.title-3BE6m5:after {
+					content: "Dark themed elements with a grey color scheme.";
+				}
+			}
+			&:last-child {
+				.title-3BE6m5:after {
+					content: "Light themed elements with a white color scheme. (Unfinished)";
+				}
 			}
 		}
 	}
