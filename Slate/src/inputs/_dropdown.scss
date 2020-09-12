@@ -2,29 +2,44 @@
   .popout-2sKjHu {
     background: var(--background);
     border: 1px solid var(--base-border);
+    box-shadow:var(--elevation-1);
   }
   .optionLabel-2CkCZx {
     padding: var(--spacing);
     font-size: var(--font-size);
     line-height: inherit;
   }
-  .css-n57xjs-menu {
+  .css-n57xjs-menu,
+  .css-1s13zip-menu {
     background: var(--background);
     box-shadow: var(--elevation-1);
     border: 1px solid var(--base-border);
-  }
-  .css-12o7ek3-option,
-  .css-1aymab5-option,
-  .css-1gnr91b-option {
-    font-size: var(--font-size);
-    padding: var(--spacing);
-    height: auto;
-    min-height: unset;
-  }
-  .css-1gnr91b-option {
-    background: var(--background-modifier-hover);
-  }
-  .css-12o7ek3-option {
-    background: rgb(var(--accent));
+    border-radius:var(--border-radius);
+    margin:0;
+    margin-top:5px;
+    overflow:hidden;  
+    [class*="-option"] {
+      font-size: var(--font-size);
+      padding:0 var(--spacing);
+      height:var(--item-height);
+      min-height: unset;
+      cursor:default;
+      color:var(--text-normal);
+      font-weight:var(--font-weight-normal);
+      &:active {
+        background:var(--background-modifier-active);
+      }
+    }
+    .css-1gnr91b-option,
+    .css-1kft5vg-option {
+      background: var(--background-modifier-hover);
+    }
+    .css-12o7ek3-option {
+      background: var(--accent-solid);
+      color:var(--white);
+      .icon-JJBzjE {
+        color:var(--white);
+      }
+    }
   }
 }
