@@ -230,17 +230,19 @@
 
   .container-3zqIcM {
     padding: var(--spacing-double) var(--spacing-double) 0;
+    padding-top:calc(var(--spacing) * 6);
     .hasDivider-20M1le {
       border:none;
     }
     .inner-3GZ54g {
       max-width:600px;
+      width:100%;
       &:before {
         content:'';
-        width:500px;
+        width:90%;
         height:200px;
         background:var(--text-muted);
-        mask: url($illustration_3) center/75% no-repeat;
+        mask: url($illustration_3) center/contain no-repeat;
         margin-bottom:var(--spacing);
       }
       .titleName-3-Lp3Z {
