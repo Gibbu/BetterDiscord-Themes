@@ -352,7 +352,7 @@
     height: 100%;
     padding: 0; 
     width: auto;
-    color:var(--text-muted);
+    color:var(--text-normal);
     border-radius:0;
     cursor:default;
     box-sizing:border-box;
@@ -360,11 +360,9 @@
     border-bottom:1px solid var(--base-border);
     &:hover {
       background:var(--background-modifier-hover);
-      color:var(--text-normal);
     }
     &:active {
       background:var(--background-modifier-active);
-      color:var(--text-normal);
     }
     &.selected-LCBEAU {
       color: var(--white);
