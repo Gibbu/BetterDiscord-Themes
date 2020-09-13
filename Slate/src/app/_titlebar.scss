@@ -23,8 +23,7 @@
       position: relative;
       mask: url($icon_discord) center/18px no-repeat;
       top: 2px;
-      opacity: .5;
-      background: var(--white);
+      background: var(--toolbar-text-muted);
       -webkit-app-region: drag;
     }
     &:after {
@@ -41,7 +40,7 @@
   .winButton-iRh8-Z {
     height: var(--titlebar-height);
     width: 45px;
-    color: var(--titlebar-button-color);
+    color: var(--toolbar-text-muted);
     top: -2px;
     cursor: default;
     &:hover {
@@ -62,7 +61,7 @@
       width:10px;
       height:10px;
       mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/cover no-repeat;
-      background:var(--titlebar-button-color);
+      background:var(--toolbar-text-muted);
     }
     &:active:after,
     &:hover:after {
