@@ -17,13 +17,16 @@
             display:flex;
             align-items:center;
             .breadcrumbWrapper-WmDjgG {
-                color:var(--text-normal);   
+                color:var(--text-normal); 
+                font-weight:var(--font-weight-semibold);  
                 .breadcrumb-OALf_a {
                     font-size:var(--font-size-md);
                     font-weight:var(--font-weight-semibold);
                     opacity:.5;
+                    line-height:18px;
                     &.activeBreadcrumb-p6aw-F {
                         opacity:1;
+                        color:var(--text-normal);
                     }
                 }
             }
