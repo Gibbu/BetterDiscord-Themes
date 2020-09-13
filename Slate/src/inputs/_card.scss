@@ -29,4 +29,21 @@
             border-color: var(--base-border);
         }
     }
+    // Close Button
+    .button-2CgfFz {
+        width:16px;
+        height:16px;
+        top:0;
+        right:0;
+        box-shadow:none;
+        border-radius:0;
+        transition:none;
+        background:var(--text-muted);
+        mask:url($icon_close) center/12px no-repeat;
+        transform:none;
+        &:hover,
+        &:active {
+            background:var(--text-normal);
+        }
+    }
 }

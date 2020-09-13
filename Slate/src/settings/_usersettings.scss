@@ -1,9 +1,9 @@
 #app-mount {
 	// Hide redundant information
-  #user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(1) > h5,
-  #user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(2) > h5 {
-      display:none;
-  }
+	#user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(1) > h5,
+	#user-settings > div > div.contentRegion-3nDuYy > div > div > main > div > div > div:nth-child(2) > h5 {
+		display:none;
+	}
 
 	// My Account
 	.userSettingsAccount-2eMFVR {
@@ -169,9 +169,6 @@
 		border-radius: var(--border-radius);
 		border: 1px solid var(--base-border);
 	}
-	h5 {
-		font-size: var(--font-size-sm);
-	}
 	.avatarUploaderIndicator-2G-aIZ {
 		display: none;
 	}
@@ -183,11 +180,6 @@
 	}
 
 	// Authorized Apps
-
-	.accountList-33MS45 {
-		background: transparent;
-		padding: 0;
-	}
 	.authedApp-mj2Hmd {
 		.headerInfo-30WFqE {
 			margin:0;
@@ -431,6 +423,43 @@
 	// Keybinds
 	.card-FDVird:before {
 		content: none;
+	}
+	.ghostPill-2-KUPM {
+		color:var(--text-normal);
+		border:1px solid var(--base-border);
+		background:var(--background-alt);
+		border-radius:var(--border-radius);
+		padding:var(--spacing);
+		font-size:var(--font-size);
+		font-weight:var(--font-weight-noraml);
+		line-height:normal;
+		margin:0;
+		+ .flexChild-faoVW3 {
+			display:flex;
+			align-items:center;
+		}
+	}
+	.keybindGroup-JQs9x_ {
+		margin:0;
+		padding:var(--spacing);
+		background:var(--background-alt);
+		border:1px solid var(--base-border);
+		border-radius:var(--border-radius);
+		margin-bottom:var(--spacing);
+		border-radius:var(--border-radius);
+		.flex-1xMQg5.marginBottom8-AtZOdT {
+			margin:0;
+		}
+		.keybindMessage-20JT9A {
+			margin-top:var(--spacing);
+			color:rgb(var(--status-red)) !important;
+		}
+		.removeKeybind-39dSFj {
+			top:0;
+			right:0;
+			z-index:10;
+			margin:var(--spacing);
+		}
 	}
 
 	// Game Activity
