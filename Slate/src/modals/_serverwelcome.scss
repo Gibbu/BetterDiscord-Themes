@@ -52,12 +52,10 @@
             padding:0;
         }
         .choiceHeader-3g-iq5 {
-            margin-top:var(--spacing-double);
+            margin-top:0;
             width:100%;
             text-align:center;
-            color:var(--text-normal);
-            font-weight:var(--font-weight-semibold);
-            font-size:var(--font-size-md);
+            color:var(--text-muted);
         }
         .options-1VK2u9 {
             margin:0;
@@ -82,6 +80,15 @@
                   box-shadow: 0 0 0 1px currentColor !important;
                   border: 1px solid currentColor !important;
                 }
+                .channelDescription-1Vw6Lv {
+                    line-height:normal;
+                }
+                .optionTextContainer-1WT7xh {
+                    margin:0 var(--spacing);
+                }
+                .optionArrow-2L2fza {
+                    color:var(--text-normal);
+                }
             }
         }
         .skip-1vOolA {
@@ -91,7 +98,7 @@
 }
 
 // Light Mode
-#app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc {
+html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc {
     &:hover {
         background: var(--background);
         border: 1px solid var(--secondary-border-color);
