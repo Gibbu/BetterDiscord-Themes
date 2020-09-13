@@ -174,7 +174,6 @@
 	}
 
 	// Privacy and Safety
-
 	.children-rWhLdy > .marginBottom20-32qID7.marginTop8-1DLZ1n.flex-1xMQg5 {
 		margin-bottom: 0 !important;
 	}
@@ -328,8 +327,171 @@
 		padding: var(--spacing) 0;
 	}
 
-	// Gift Inventory
+	// Billing
+	.lockIcon-1UaIyp {
+		margin-right:var(--spacing-half);
+	}
+	.codeRedemptionRedirect-1wVR4b {
+		font-size:12px;
+		font-weight:var(--font-weight-normal);
+		color:var(--text-normal);
+		margin-top:var(--spacing-double);
+		background:var(--background-alt);
+		border:1px solid var(--base-border);
+	}
+	.footer-TVTShO {
+		margin-top:var(--spacing);
+		.colorStandard-2KCXvj {
+			font-size:var(--font-size-md);
+			font-weight:var(--font-weight-semibold);
+		}
+	}
+	.paymentHistory-2FXzro {
+		margin-top:var(--spacing-double);
+		.paymentPane-3bwJ6A {
+			background:var(--background-alt);
+			border:1px solid var(--base-border);
+			border-radius:var(--border-radius);
+			color:var(--text-normal);
+			.bottomDivider-1K9Gao {
+				border-color:var(--base-border);
+			}
+			.scrollerBase-289Jih {
+				border:none;
+			}
+			.paginator-166-09 {
+				background:var(--background-alt);
+				color:var(--text-normal);
+			}
+			.payment-xT17Mq {
+				transition:none;
+				border:none;
+				background:transparent;
+				height:auto;
+				color:var(--text-normal);
+				&:hover {
+					background:var(--background-modifier-hover);
+				}
+				&:active {
+					background:var(--background-modifier-active);
+				}
+				.summaryInfo-2QFKUg {
+					height:var(--item-height);
+					color:var(--text-normal);
+					border:none;
+					padding:0 var(--spacing);
+					font-weight:var(--font-weight-normal);
+					font-size:var(--font-size);
+					cursor:default;
+					.description-RQzS-K {
+						margin-right:var(--spacing);
+					}
+					.gameIcon-gg34Dz {
+						border-radius:var(--border-radius);
+						height:var(--avatar-size-xsm);
+						width:var(--avatar-size-xsm);
+						color:var(--text-normal);
+						margin-right:var(--spacing-half);
+					}
+					.expand-1g95ZR {
+						display:none;
+					}
+				}
+				.expandedInfo-3kfShd {
+					background:var(--background);
+					border:1px solid var(--base-border);
+					padding:var(--spacing);
+					border-radius:var(--border-radius);
+					margin:var(--spacing) var(--spacing-double);
+					.paymentBreakdown-28CAO8 {
+						padding:0;
+						.cardIconSmall-2gJ6xX {
+							box-shadow:none;
+							border-radius:var(--border-radius);
+						}
+					}
+					.paymentText-2vaF7U {
+						color:var(--text-normal);
+						font-size:var(--font-size);
+						font-weight:var(--font-weight-normal);
+						strong {
+							line-height: var(--line-height);
+							border-radius:var(--border-radius);
+							padding:var(--spacing-third) var(--spacing-half);
+							color:var(--text-normal);
+							background:var(--background-modifier-active);
+							font-size:var(--font-size-sm);
+							font-weight:var(--font-weight-normal);
+							user-select:none;
+						}
+					}
+					.paymentDetail-aFXa-m:first-child,
+					.paymentDetail-aFXa-m:last-child {
+						margin-top:var(--spacing);
+					}
+					.refundSubHeader-3hp-GM {
+						margin:var(--spacing) 0;
+						font-size:var(--font-size-md);
+						font-weight:var(--font-weight-semibold);
+						text-transform:none;
+					}
+					.refundCriteriaIcon-Ta3gtw {
+						margin-right:var(--spacing-half);
+					}
+					.paymentHeader-3QlZQi {
+						padding:0;
+						border:none;
+						margin:var(--spacing) 0;
+						&:first-child {
+							margin-top:0;
+						}
+					}
+				}
+			}
+			.paymentRowHeader-2sfDdN {
+				margin:0;
+				height:auto;
+				padding:var(--spacing);
+				.paymentRowHeaderDescription-4bm8wL {
+					margin:0;
+				}
+			}
+			.pageActions-1SVAnA {
+				padding:var(--spacing);
+				border-top:1px solid var(--base-border);
+				.pageButtonNext-V2kUq0, 
+				.pageButtonPrev-1Y-47D {
+					padding:var(--spacing-half);
+					height:var(--input-height);
+					width:var(--input-height);
+					box-sizing:border-box;
+					border:1px solid var(--base-border);
+					color:var(--text-muted);
+					box-sizing:border-box;
+					cursor:default;
+					&.disabled-BrLY9Y {
+						opacity:.5;
+					}
+					&.pageButtonNext-V2kUq0 {
+						border-radius:0 var(--border-radius) var(--border-radius) 0;	
+					}
+					&.pageButtonPrev-1Y-47D {
+						border-radius:var(--border-radius) 0 0 var(--border-radius);	
+					}
+				}	
+				.pageIndicator-1gAbyA {
+					padding:0 var(--spacing-half);
+					height:var(--input-height);
+					border-color:var(--base-border);
+					font-size:var(--font-size);
+					font-weight:var(--font-weight);
+					color:var(--text-normal);
+				}
+			}
+		}
+	}
 
+	// Gift Inventory
 	main > div h2 + .children-rWhLdy form {
 		margin-bottom: var(--spacing-double);
 	}
@@ -411,7 +573,6 @@
 	.sound-2QlACh {
 		font-size: var(--font-size);
 	}
-
 	.children-rWhLdy {
 		.marginBottom20-32qID7[style="flex: 1 1 auto;"] {
 			margin-bottom:var(--spacing);
