@@ -112,6 +112,19 @@
       color: var(--text-normal);
     }
   }
+
+  // Channel Dragging
+
+  .containerDragAfter-3TEhpe:before, 
+  .containerDragBefore-3Dzc5x:before,
+  .containerDragAfter-1F4fgZ:after, 
+  .containerDragBefore-31UGCO:before {
+    left:0;
+    border-radius:0;
+    height:2px;
+    background:rgb(var(--status-green));
+    box-shadow:none;
+  }
   
   // Connected users in voice
   .list-2bwCXU {
