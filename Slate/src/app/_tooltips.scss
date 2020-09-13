@@ -42,6 +42,18 @@
       line-height:normal;
       &.clickCTA-kIMiUd {
         color:var(--text-muted);
+        font-size:var(--font-size-sm);
+      }
+    }
+    .userTooltip-7qZaHD {
+      font-size:var(--font-size);
+      color:var(--text-normal);
+      .avatar-i5C_qp {
+        margin-right:var(--spacing-half);
+      }
+      .discriminator-17tNDS {
+        opacity:1;
+        color:var(--text-muted);
       }
     }
   }
