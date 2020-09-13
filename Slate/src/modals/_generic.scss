@@ -56,6 +56,32 @@
         line-height:normal;
         letter-spacing:normal;
       }
+      .modalTitle-3qb2Mp {
+        margin:0;
+      }
+      .breadcrumbs-SOzMJD {
+        position:absolute;
+        top:0;
+        left:0;
+        width:calc(100% - (var(--spacing) * 4) - 6px);
+        height:100%;
+        padding-left:var(--spacing-double);
+        background:var(--background);
+        z-index:0;
+        box-sizing:border-box;
+        .breadcrumbWrapper-WmDjgG {
+          .breadcrumb-OALf_a {
+            white-space:nowrap;
+            font-size:var(--font-size);
+            font-weight:var(--font-weight-semibold);
+            color:var(--text-normal);
+            opacity:.5;
+            &.activeBreadcrumb-p6aw-F {
+              opacity:1;
+            }
+          }
+        }
+      }
       .guildName-3WI6ml {
         color:var(--text-muted);
         font-size:var(--font-size-sm);
@@ -69,6 +95,7 @@
         padding:0;
         color:var(--text-muted);
         opacity:1;
+        z-index:1;
         transition:none;
         right:-6px;
         &:hover {
@@ -87,6 +114,9 @@
           }
         }
       }
+    }
+    .divider-3WKGWk {
+      display:none;
     }
     .content-1LAB8Z {
       border-radius:0;

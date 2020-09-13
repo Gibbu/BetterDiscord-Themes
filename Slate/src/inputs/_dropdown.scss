@@ -16,7 +16,7 @@
     border: 1px solid var(--base-border);
     border-radius:var(--border-radius);
     margin:0;
-    margin-top:5px;
+    margin-top:-2px;
     overflow:hidden;  
     [class*="-option"] {
       font-size: var(--font-size);
@@ -30,11 +30,11 @@
         background:var(--background-modifier-active);
       }
     }
-    .css-1gnr91b-option,
-    .css-1kft5vg-option {
+    .css-1gnr91b-option {
       background: var(--background-modifier-hover);
     }
-    .css-12o7ek3-option {
+    .css-12o7ek3-option,
+    .css-1kft5vg-option {
       background: var(--accent-solid);
       color:var(--white);
       .icon-JJBzjE {
