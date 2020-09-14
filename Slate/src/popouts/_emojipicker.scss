@@ -297,39 +297,41 @@
     }
     
     // Hovered emote info
-    .inspector-sdLnLS {
+    .inspector-3LQtX9 {
       background: var(--background);
       border-top: 1px solid var(--base-border);
       padding: var(--spacing);
       height: 48px;
       box-sizing:border-box;
-      .guildIcon-39bqCb {
+      .graphicSecondary-1zo8ze {
+        border-radius:var(--border-radius);
         width: var(--avatar-size);
         height: var(--avatar-size);
+        margin-left:0;
         foreignObject {
           mask: none;
         }
-        img {
-          background: var(--background-light);
-          border-radius: var(--border-radius);
+        .guildIcon-3h-1IH {
+          border-radius:var(--border-radius);
         }
       }
-      .emoji-AAbs8r {
+      .graphicPrimary-1I8l6r {
         width: var(--avatar-size);
         height: var(--avatar-size);
         border-radius: var(--border-radius);
       }
     }
-    .textWrapper-2vvXwj {
+    .textWrapper-2hGAqu {
       margin: 0 var(--spacing);
     }
-    .emojiName-Ve4ZI4 {
+    .titlePrimary-1jHRGm {
       font-size: var(--font-size);
       line-height: inherit;
       line-height:1.5;
       color:var(--text-normal);
     }
-    .guildName-10c_vS {
+    .guildName-10c_vSm,
+    .titleSecondary-3Dh_RZ {
       font-size: var(--font-size-sm);
       line-height: inherit;
       color:var(--text-muted);

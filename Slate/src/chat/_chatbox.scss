@@ -182,12 +182,12 @@
     width:fit-content;
     background:var(--background);
     border:1px solid var(--base-border);
-    border-radius:var(--button-border-radius);
-    top:calc((var(--input-height) + var(--spacing)) * -1);
-    box-shadow:var(--elevation-1);
-    transition:50ms linear;
+    border-radius:var(--button-border-radius) var(--button-border-radius) 0 0;
+    top:calc(var(--input-height) * -1 - 2px);
+      transition:50ms linear;
     padding:0 var(--spacing-half);
-    max-width:200px;
+    display:flex;
+    justify-content:center;
     &.text-1y-e8- {
       line-height:normal;
       color:var(--text-muted);
@@ -198,11 +198,14 @@
         color:var(--text-normal);
       }
     }
-    &:hover {
-      opacity:1;
-    }
     svg {
       display: none;
+    }
+  }
+  form:hover .typing-2GQL18 {
+    opacity:1;
+    &:hover {
+      opacity:1;
     }
   }
   .base-gE7OpD .cooldownWrapper-3joyFc {
