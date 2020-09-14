@@ -296,7 +296,6 @@ a {
   width: 10px;
   height: 10px;
   -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/cover no-repeat;
-          mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" version="1.1" width="10" height="10"><path d="M 0,0 0,10 10,10 10,0 Z M 1,1 9,1 9,9 1,9 Z"/></svg>') center/cover no-repeat;
   background: var(--toolbar-text-muted);
 }
 #app-mount .typeWindows-1za-n7 .winButtonMinMax-PBQ2gm:nth-child(3):active:after, #app-mount .typeWindows-1za-n7 .winButtonMinMax-PBQ2gm:nth-child(3):hover:after {
@@ -1173,7 +1172,6 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 #app-mount .spinner-2enMB9 {
   background: var(--text-normal);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10.236 7.4a4.15 4.15 0 0 1-1.2 3.6 4.346 4.346 0 0 1-5.41.54l1.17-1.14-4.3-.6.6 4.2 1.31-1.26c2.36 1.74 5.7 1.57 7.84-.54a5.876 5.876 0 0 0 1.74-4.46l-1.75-.34zM2.956 5a4.346 4.346 0 0 1 5.41-.54L7.196 5.6l4.3.6-.6-4.2-1.31 1.26c-2.36-1.74-5.7-1.57-7.85.54-1.24 1.23-1.8 2.85-1.73 4.46l1.75.35A4.17 4.17 0 0 1 2.956 5z"/></svg>   ') center/12px no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10.236 7.4a4.15 4.15 0 0 1-1.2 3.6 4.346 4.346 0 0 1-5.41.54l1.17-1.14-4.3-.6.6 4.2 1.31-1.26c2.36 1.74 5.7 1.57 7.84-.54a5.876 5.876 0 0 0 1.74-4.46l-1.75-.34zM2.956 5a4.346 4.346 0 0 1 5.41-.54L7.196 5.6l4.3.6-.6-4.2-1.31 1.26c-2.36-1.74-5.7-1.57-7.85.54-1.24 1.23-1.8 2.85-1.73 4.46l1.75.35A4.17 4.17 0 0 1 2.956 5z"/></svg>   ') center/12px no-repeat;
   animation: rotate 1s linear infinite;
 }
 #app-mount .spinner-2enMB9 .wanderingCubesItem-WPXqao,
@@ -2386,7 +2384,6 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   height: 100px;
   background: var(--text-muted);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/contain no-repeat;
   margin-bottom: var(--spacing);
 }
 #app-mount .chat-3bRxxu .messagesErrorBar-nyJGU7:after {
@@ -3053,12 +3050,9 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
 }
 #app-mount .imageWrapper-2p5ogY {
   border-radius: var(--border-radius);
-  cursor: default;
+  cursor: pointer;
   outline: none;
   transition: 250ms ease;
-}
-#app-mount .imageWrapper-2p5ogY:hover {
-  box-shadow: var(--elevation-1);
 }
 #app-mount .embedFull-2tM8-- {
   background-color: var(--background);
@@ -3244,7 +3238,6 @@ body #app-mount .container-1r6BKw.themed-ANHk51.title-3qD0b- .children-19S4PO:ho
   transform: none !important;
   background: var(--text-muted);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/20px no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM5 8a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zM5.32 9.636a.75.75 0 011.038.175l.007.009c.103.118.22.222.35.31.264.178.683.37 1.285.37.602 0 1.02-.192 1.285-.371.13-.088.247-.192.35-.31l.007-.008a.75.75 0 111.222.87l-.614-.431c.614.43.614.431.613.431v.001l-.001.002-.002.003-.005.007-.014.019a1.984 1.984 0 01-.184.213c-.16.166-.338.316-.53.445-.63.418-1.37.638-2.127.629-.946 0-1.652-.308-2.126-.63a3.32 3.32 0 01-.715-.657l-.014-.02-.005-.006-.002-.003v-.002h-.001l.613-.432-.614.43a.75.75 0 01.183-1.044h.001z"/></svg>') center/20px no-repeat;
 }
 #app-mount .buttons-3JBrkn .emojiButton-3uL3Aw:hover .sprite-2iCowe,
 #app-mount .buttons-3JBrkn .emojiButton-3uL3Aw .sprite-2iCowe[style*="grayscale(0%)"] {
@@ -4215,7 +4208,6 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .container-1D34oG .header-13Cw0- {
   display: flex;
@@ -4598,6 +4590,44 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   background: var(--background-light);
   width: 100%;
   z-index: 1;
+}
+
+#app-mount .noChannel-Z1DQK7 {
+  background: var(--background-alt);
+  display: flex;
+  flex-direction: column;
+}
+#app-mount .noChannel-Z1DQK7::before {
+  content: "";
+  width: 100%;
+  height: var(--toolbar-height);
+  display: block;
+  position: relative;
+  background: var(--toolbar-background);
+  border-bottom: 1px solid var(--toolbar-border);
+  box-sizing: border-box;
+}
+#app-mount .noChannel-Z1DQK7::after {
+  content: "";
+  width: 100%;
+  height: var(--toolbar-height);
+  display: block;
+  position: relative;
+  background: var(--background-light);
+  border-top: 1px solid var(--base-border);
+  box-sizing: border-box;
+}
+#app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt {
+  width: 100%;
+  height: calc(100% - var(--toolbar-height) * 2);
+  margin: 0;
+  max-width: unset;
+  background: var(--text-muted);
+  -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/4.svg") center/50% no-repeat;
+}
+#app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .image-1GzsFd,
+#app-mount .noChannel-Z1DQK7 .wrapper-r-6rrt .flexChild-faoVW3 {
+  display: none;
 }
 
 #app-mount .scale-3iLZhb {
@@ -5079,9 +5109,9 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: info;
-  flex: 1;
   margin-left: var(--spacing);
   display: block;
+  max-width: 80%;
 }
 #app-mount .userPopout-3XzG_A .headerText-2sdzFM > div {
   width: 100%;
@@ -5089,7 +5119,6 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   line-height: normal;
 }
 #app-mount .userPopout-3XzG_A .headerNameWrapper-3res2c {
-  max-width: 90%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -5097,10 +5126,10 @@ html.theme-light #app-mount .reactions-12N0jA .reaction-1hd86g:not(.reactionMe-w
   font-size: var(--font-size-md);
   white-space: nowrap;
   color: var(--text-normal);
+  font-weight: var(--font-weight-semibold);
 }
 #app-mount .userPopout-3XzG_A .headerTagUsernameNoNickname-2_H881 {
   color: var(--text-focus);
-  width: 155px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -5624,7 +5653,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   height: 16px;
   width: 16px;
   -webkit-mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxNicgdmlld0JveD0nMCAwIDEyIDE2Jz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9J00xMiA5SDd2NUg1VjlIMFY3aDVWMmgydjVoNXYyeic+PC9wYXRoPjwvc3ZnPg==") center/10px no-repeat;
-          mask: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMicgaGVpZ2h0PScxNicgdmlld0JveD0nMCAwIDEyIDE2Jz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9J00xMiA5SDd2NUg1VjlIMFY3aDVWMmgydjVoNXYyeic+PC9wYXRoPjwvc3ZnPg==") center/10px no-repeat;
 }
 #app-mount .layer-v9HyYc[style*=left][style*=top] .container-3ayLPN.elevationBorderHigh-2WYJ09 .resultsGroup-r_nuzN .option-96V44q .plusIcon-v0BTrL polygon {
   display: none;
@@ -6165,7 +6193,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   background: var(--text-muted);
   margin-bottom: var(--spacing-double);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/6.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/6.svg") center/contain no-repeat;
 }
 #app-mount .premiumPromo-fVlLu- .premiumPromoDescription-QWky-t {
   font-size: var(--font-size);
@@ -6178,7 +6205,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   background: var(--text-muted);
   opacity: 1;
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
 }
 #app-mount .premiumPromoClose-1w65km:hover {
   background: var(--text-normal);
@@ -6196,7 +6222,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   height: 120px;
   background: var(--text-muted);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 #app-mount #gif-picker-tab-panel .content-ySCtCx:after, #app-mount #gif-picker-tab-panel.container-3ISnnM:after {
@@ -6566,7 +6591,6 @@ html.theme-light #app-mount .userPopout-3XzG_A .note-3HfJZ5 textarea {
   margin: 0;
   background: var(--text-normal);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10.236 7.4a4.15 4.15 0 0 1-1.2 3.6 4.346 4.346 0 0 1-5.41.54l1.17-1.14-4.3-.6.6 4.2 1.31-1.26c2.36 1.74 5.7 1.57 7.84-.54a5.876 5.876 0 0 0 1.74-4.46l-1.75-.34zM2.956 5a4.346 4.346 0 0 1 5.41-.54L7.196 5.6l4.3.6-.6-4.2-1.31 1.26c-2.36-1.74-5.7-1.57-7.85.54-1.24 1.23-1.8 2.85-1.73 4.46l1.75.35A4.17 4.17 0 0 1 2.956 5z"/></svg>   ') center/12px no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 12 16" width="48" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M10.236 7.4a4.15 4.15 0 0 1-1.2 3.6 4.346 4.346 0 0 1-5.41.54l1.17-1.14-4.3-.6.6 4.2 1.31-1.26c2.36 1.74 5.7 1.57 7.84-.54a5.876 5.876 0 0 0 1.74-4.46l-1.75-.34zM2.956 5a4.346 4.346 0 0 1 5.41-.54L7.196 5.6l4.3.6-.6-4.2-1.31 1.26c-2.36-1.74-5.7-1.57-7.85.54-1.24 1.23-1.8 2.85-1.73 4.46l1.75.35A4.17 4.17 0 0 1 2.956 5z"/></svg>   ') center/12px no-repeat;
   animation: rotate 1s linear infinite;
 }
 #app-mount .container-ZRw2kD .loadingBackground-1p5N1j .loading-1lSwpg {
@@ -6784,7 +6808,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   position: relative;
   margin-bottom: var(--spacing);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/8.svg") center/contain no-repeat;
 }
 #app-mount .container-VSDcQc .sectionTag-pXyto9 .autocompleteScroller-iInVqR .empty-3hoe1g p {
   margin: 0;
@@ -6817,7 +6840,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   display: block;
   background: var(--text-muted);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/50px no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/1.svg") center/50px no-repeat;
 }
 #app-mount .container-2Uhd6d .content-3MbD2f {
   margin-left: var(--spacing);
@@ -6975,7 +6997,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   border-radius: 0;
   background: var(--toolbar-text-muted);
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
   transform: none;
 }
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .contentRegion-3nDuYy .tools-3-3s-N .closeButton-1tv5uR svg {
@@ -7368,7 +7389,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   border: none;
   background: var(--text-muted);
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/contain no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/contain no-repeat;
 }
 #app-mount .connectionDelete-2Odoln:before, #app-mount .connectionDelete-2Odoln:after {
   content: none;
@@ -7771,20 +7791,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   margin-right: -10px;
 }
 
-.theme-light #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .standardSidebarView-3F1I7i:after {
-  content: "Light Theme BETA";
-  position: absolute;
-  font-size: 12px;
-  border-radius: var(--border-radius);
-  background: rgb(var(--status-yellow));
-  padding: var(--spacing-third) var(--spacing-half);
-  color: var(--white);
-  height: 12px;
-  margin-top: -9px;
-  top: 25px;
-  left: 84px;
-}
-
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .item-PXvHYJ {
   display: flex;
   align-items: center;
@@ -7797,7 +7803,6 @@ html.theme-light #app-mount .container-ZRw2kD .guildSection-1EoFKd .showMoreEmoj
   display: block;
   margin-right: var(--spacing);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 14 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>') center/cover no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 14 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>') center/cover no-repeat;
 }
 #app-mount .layer-3QrUeG[aria-label=USER_SETTINGS] .item-PXvHYJ:nth-child(2):before {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M12 14.002a.998.998 0 01-.998.998H1.001A1 1 0 010 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"></path></svg>') center/cover no-repeat;
@@ -8531,6 +8536,10 @@ html.platform-linux #app-mount .layer-3QrUeG[aria-label*=SETTINGS] .item-PXvHYJ:
 #app-mount .modal-yWgWj- .switchItem-2hKKKK .directionRow-3v3tfG .switch-3wwwcV,
 #app-mount .root-1gCeng .switchItem-2hKKKK .directionRow-3v3tfG .switch-3wwwcV {
   margin: 0;
+}
+#app-mount .modal-yWgWj- video.spacing-2jY1b4,
+#app-mount .root-1gCeng video.spacing-2jY1b4 {
+  width: 100%;
 }
 #app-mount .modal-yWgWj- .cardPrimaryOutline-29Ujqw,
 #app-mount .root-1gCeng .cardPrimaryOutline-29Ujqw {
@@ -9402,7 +9411,6 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   height: 140px;
   background: var(--text-muted);
   -webkit-mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/5.svg") center/contain no-repeat;
-          mask: url("https://gibbu.github.io/BetterDiscord-Themes/Slate/assets/illustrations/5.svg") center/contain no-repeat;
   margin-bottom: var(--spacing-double);
 }
 
@@ -9735,7 +9743,6 @@ html.theme-light #app-mount .theme-light .root-1gCeng .container-1CE3eW > div[st
   top: var(--spacing-double);
   right: var(--spacing-double);
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/contain no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/contain no-repeat;
   transition: none;
   opacity: 1;
 }
@@ -10001,7 +10008,6 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
   height: 16px;
   background: var(--text-muted);
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 14 16" width="56" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M0 11.592v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3l-1.3 1.3-3-3 1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>') center/12px no-repeat;
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="octicon" height="64" role="img" viewBox="0 0 14 16" width="56" style="display:inline-block;fill:currentColor;user-select:none;vertical-align:middle"><path fill-rule="evenodd" d="M0 11.592v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3l-1.3 1.3-3-3 1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>') center/12px no-repeat;
 }
 #app-mount .container-1nZlH6 .layout-eEMo5y button .contents-18-Yxp {
   display: none;
@@ -10021,7 +10027,6 @@ html.theme-light #app-mount .main-3auUui .options-1VK2u9 .optionContainer-15srkc
 }
 #app-mount .container-1nZlH6.recording-1H2dS7 button {
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
   background: var(--text-muted);
 }
 #app-mount .container-1nZlH6.recording-1H2dS7 button:hover {
@@ -10525,20 +10530,20 @@ html.theme-light #app-mount .input-1ppKdn {
   padding: var(--spacing);
 }
 #app-mount .card-3Qj_Yx.cardWarning-2yPNAa {
-  background-color: rgb(var(--status-yellow));
-  border-color: rgb(var(--status-yellow));
+  background-color: rgba(var(--status-yellow), 0.25);
+  border-color: rgba(var(--status-yellow), 0.5);
 }
 #app-mount .card-3Qj_Yx.cardDanger-ZurOv3 {
-  background-color: rgb(var(--status-red));
-  border-color: rgb(var(--status-red));
+  background-color: rgba(var(--status-red), 0.25);
+  border-color: rgba(var(--status-red), 0.5);
 }
 #app-mount .card-3Qj_Yx.cardSuccess-3uEYjj {
-  background-color: rgb(var(--status-green));
-  border-color: rgb(var(--status-green));
+  background-color: rgba(var(--status-green), 0.25);
+  border-color: rgba(var(--status-green), 0.5);
 }
 #app-mount .card-3Qj_Yx.cardBrand-39zmMQ {
-  background-color: rgb(var(--accent));
-  border-color: rgb(var(--accent));
+  background-color: rgba(var(--accent), 0.25);
+  border-color: rgba(var(--accent), 0.5);
 }
 #app-mount .card-3Qj_Yx.cardPrimary-1Hv-to, #app-mount .card-3Qj_Yx.cardPrimaryOutline-29Ujqw, #app-mount .card-3Qj_Yx.cardPrimaryEditable-3KtE4g {
   background-color: var(--background-alt);
@@ -10554,7 +10559,6 @@ html.theme-light #app-mount .input-1ppKdn {
   transition: none;
   background: var(--text-muted);
   -webkit-mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
-          mask: url("data:image/svg+xml; utf-8,<svg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' class='octicon' version='1.1' viewBox='0 0 12 16'><path d='M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z'></path></svg>") center/12px no-repeat;
   transform: none;
 }
 #app-mount .button-2CgfFz:hover, #app-mount .button-2CgfFz:active {
