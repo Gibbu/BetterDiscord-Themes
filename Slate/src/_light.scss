@@ -7,7 +7,6 @@ html.theme-light #app-mount .theme-light .root-1gCeng {
   --text-muted: #6a737d;
   --text-focus: #000000;
   --text-link: rgb(var(--link-colour));
-  --text-opacity: 0,0,0;
 
   // Background
   --background-light: #f6f8fa;
@@ -19,19 +18,10 @@ html.theme-light #app-mount .theme-light .root-1gCeng {
   --guilds-background:var(--background);
 
   //White
-  --white: #ffffff; // Only use to contrast against a neutral background.
+  --white: #ffffff; // Only use to contrast a primary background.
 
-  // Settings
+  // Input
   --input-height: 25px;
-
-  // Checkbox
-  --checkbox-background: #ddd;
-  --checkbox-border: #bbb;
-  --checkbox-tick: #444;
-  --checkbox-box-shadow: 0 2px 3px rgba(0,0,0,0.4);
-
-  // Userpopouts
-  --userpopout-button-hover: rgba(0,0,0,0.05);
 
   // Scrollbars
   --scrollbar-background: rgb(0 0 0 / 0.3);

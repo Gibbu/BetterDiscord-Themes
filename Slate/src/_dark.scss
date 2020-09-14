@@ -6,7 +6,6 @@ html.theme-dark #app-mount .theme-light .root-1gCeng {
   --text-muted: #959da5;
   --text-focus: #ffffff;
   --text-link: rgb(var(--link-colour));
-  --text-opacity: 255,255,255;
 
   // Background
   --background-light: #2f363d;
@@ -17,21 +16,12 @@ html.theme-dark #app-mount .theme-light .root-1gCeng {
   // Guilds
   --guilds-background:var(--background);
 
-  //White
-  --white:#ffffff; // For use on buttons only. USE RESPECTIVE TEXT COLORS FOR CROSS-THEME SUPPORT.
+  // White
+  --white:#ffffff; // Only use to contrast a primary background.
 
-  // Settings
+  // Input
   --input-height: 25px;
-
-  // Checkbox
-  --checkbox-background: #fff;
-  --checkbox-border: #bbb;
-  --checkbox-tick: #444;
-  --checkbox-box-shadow: none;
-
-  // Userpopouts
-  --userpopout-button-hover: rgba(255,255,255,0.03);
-
+  
   // Scrollbars
   --scrollbar-background: rgb(255 255 255 / 0.1);
   --scrollbar-background-hover: rgb(255 255 255 / 0.2);
