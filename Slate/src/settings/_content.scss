@@ -160,21 +160,3 @@
 
 @import "usersettings";
 @import "guildsettings";
-
-// Light theme warning
-.theme-light
-	#app-mount
-	.layer-3QrUeG[aria-label*="SETTINGS"]
-	.standardSidebarView-3F1I7i:after {
-	content: "Light Theme BETA";
-	position: absolute;
-	font-size: 12px;
-	border-radius: var(--border-radius);
-	background: rgb(var(--status-yellow));
-	padding: var(--spacing-third) var(--spacing-half);
-	color: var(--white);
-	height: 12px;
-	margin-top: -9px;
-	top: 25px;
-	left: 84px;
-}
