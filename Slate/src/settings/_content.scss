@@ -31,7 +31,7 @@
 			flex: none;
 			border-radius: 0;
 			background: var(--toolbar-text-muted);
-			mask:url($icon_close) center/12px no-repeat;
+			-webkit-mask:url($icon_close) center/12px no-repeat;
 			transform: none;
 			svg {
 				display:none;

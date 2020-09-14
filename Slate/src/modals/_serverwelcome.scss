@@ -8,7 +8,7 @@
             height:16px;
             top:var(--spacing-double);
             right:var(--spacing-double);
-            mask:url($icon_close) center/contain no-repeat;
+            -webkit-mask:url($icon_close) center/contain no-repeat;
             transition:none;
             opacity:1;
             &:hover {

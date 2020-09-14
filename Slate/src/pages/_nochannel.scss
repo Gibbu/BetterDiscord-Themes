@@ -29,7 +29,7 @@
             margin:0;
             max-width:unset;
             background:var(--text-muted);
-            mask:url($illustration_4) center/50% no-repeat;
+            -webkit-mask:url($illustration_4) center/50% no-repeat;
             .image-1GzsFd,
             .flexChild-faoVW3 {
                 display:none;

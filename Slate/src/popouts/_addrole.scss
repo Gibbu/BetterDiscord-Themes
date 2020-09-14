@@ -99,7 +99,7 @@
                             display:block;
                             position:relative;
                             margin-bottom:var(--spacing);
-                            mask:url($illustration_7) center/contain no-repeat;
+                            -webkit-mask:url($illustration_7) center/contain no-repeat;
                         }
                     }
                     p {

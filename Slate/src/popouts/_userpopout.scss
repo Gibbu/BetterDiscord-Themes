@@ -201,9 +201,9 @@
     }
     .headerText-2sdzFM {
       grid-area: info;
-      flex: 1;
       margin-left: var(--spacing);
       display: block;
+      max-width: 80%;
       & > div {
         width: 100%;
         text-align: left;
@@ -211,18 +211,17 @@
       }
     }
     .headerNameWrapper-3res2c {
-      max-width: 90%;
       overflow: hidden;
       text-overflow: ellipsis;
       .headerName-fajvi9 {
         font-size: var(--font-size-md);
         white-space: nowrap;
         color:var(--text-normal);
+        font-weight:var(--font-weight-semibold);
       }
     }
     .headerTagUsernameNoNickname-2_H881 {
       color: var(--text-focus);
-      width: 155px;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;

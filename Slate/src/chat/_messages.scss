@@ -475,12 +475,9 @@
   }
   .imageWrapper-2p5ogY {
     border-radius:var(--border-radius);
-    cursor:default;
+    cursor:pointer;
     outline:none;
     transition:250ms ease;
-    &:hover {
-      box-shadow:var(--elevation-1);
-    }
   }
 
   // Embeds 

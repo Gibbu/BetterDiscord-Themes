@@ -358,7 +358,7 @@
           display:block;
           background:var(--text-muted);
           margin-bottom:var(--spacing-double);
-          mask:url($illustration_6) center/contain no-repeat;
+          -webkit-mask:url($illustration_6) center/contain no-repeat;
         }
       }
       .premiumPromoDescription-QWky-t {
@@ -372,7 +372,7 @@
     .premiumPromoClose-1w65km {
       background:var(--text-muted);
       opacity:1;
-      mask:url($icon_close) center/12px no-repeat;
+      -webkit-mask:url($icon_close) center/12px no-repeat;
       &:hover {
         background:var(--text-normal);
       }
@@ -391,7 +391,7 @@
         width:120px;
         height:120px;
         background:var(--text-muted);
-        mask:url($illustration_7) center/contain no-repeat;
+        -webkit-mask:url($illustration_7) center/contain no-repeat;
         margin-bottom:var(--spacing-double);
       }
     }

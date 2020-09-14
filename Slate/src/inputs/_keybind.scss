@@ -32,7 +32,7 @@
         width:16px;
         height:16px;
         background:var(--text-muted);
-        mask:url($icon_pencil) center/12px no-repeat;
+        -webkit-mask:url($icon_pencil) center/12px no-repeat;
         .contents-18-Yxp {
           display:none;
         }
@@ -51,7 +51,7 @@
       border:1px solid var(--accent-solid); 
       box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
       button {
-        mask:url($icon_close) center/12px no-repeat;
+        -webkit-mask:url($icon_close) center/12px no-repeat;
         background:var(--text-muted);
         &:hover {
           background:var(--text-normal);

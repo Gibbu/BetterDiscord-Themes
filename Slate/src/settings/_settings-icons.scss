@@ -9,7 +9,7 @@
     background: var(--text-muted);
     display: block;
     margin-right: var(--spacing);
-    mask:url($icon_cog) center/cover no-repeat;
+    -webkit-mask:url($icon_cog) center/cover no-repeat;
   }
 
   // My account

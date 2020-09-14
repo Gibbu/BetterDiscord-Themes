@@ -153,7 +153,7 @@
         width:22px;
         transform:none !important;
         background:var(--text-muted);
-        mask:url($icon_smiley_alt) center/20px no-repeat;
+        -webkit-mask:url($icon_smiley_alt) center/20px no-repeat;
       }
       &:hover .sprite-2iCowe,
       .sprite-2iCowe[style*="grayscale(0%)"] {

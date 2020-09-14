@@ -122,7 +122,7 @@
       width:100px;
       height:100px;
       background:var(--text-muted);
-      mask:url($illustration_1) center/contain no-repeat;
+      -webkit-mask:url($illustration_1) center/contain no-repeat;
       margin-bottom:var(--spacing);
     }
     &:after {

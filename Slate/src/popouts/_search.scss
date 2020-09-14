@@ -181,7 +181,7 @@
         top:8px;
         height:16px;
         width:16px;
-        mask:url($icon_add) center/10px no-repeat;
+        -webkit-mask:url($icon_add) center/10px no-repeat;
         polygon {
           display:none;
         }

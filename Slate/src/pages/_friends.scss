@@ -197,7 +197,7 @@
         display:block;
         background:var(--text-muted);
         margin-bottom:var(--spacing-double);
-        mask:url($illustration_7) center/contain no-repeat;
+        -webkit-mask:url($illustration_7) center/contain no-repeat;
       }
     }
     .header-13Cw0- {

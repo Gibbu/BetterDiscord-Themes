@@ -39,7 +39,7 @@
         border-radius:0;
         transition:none;
         background:var(--text-muted);
-        mask:url($icon_close) center/12px no-repeat;
+        -webkit-mask:url($icon_close) center/12px no-repeat;
         transform:none;
         &:hover,
         &:active {

@@ -14,7 +14,7 @@
             position:relative;
             display:block;
             background:var(--text-muted);
-            mask:url($illustration_1) center/50px no-repeat;
+            -webkit-mask:url($illustration_1) center/50px no-repeat;
         }
         .content-3MbD2f {
             margin-left:var(--spacing);
