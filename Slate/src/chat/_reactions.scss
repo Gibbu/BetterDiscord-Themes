@@ -25,7 +25,7 @@
         .reaction-1hd86g {
             background: var(--background-light);
             border:1px solid var(--base-border);
-            margin-bottom:0;
+            margin-bottom:var(--spacing-half);
             margin-right:var(--spacing-half);
             border-radius:var(--button-border-radius);
             cursor:default;
