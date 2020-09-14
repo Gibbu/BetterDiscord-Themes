@@ -5,20 +5,20 @@
 
         // Status Cards
         &.cardWarning-2yPNAa {
-            background-color:rgb(var(--status-yellow));
-            border-color:rgb(var(--status-yellow));
+            background-color:rgba(var(--status-yellow), .25);
+            border-color:rgba(var(--status-yellow), .5);
         }
         &.cardDanger-ZurOv3 {
-            background-color:rgb(var(--status-red));
-            border-color:rgb(var(--status-red));
+            background-color:rgba(var(--status-red), .25);
+            border-color:rgba(var(--status-red), .5);
         }
         &.cardSuccess-3uEYjj {
-            background-color:rgb(var(--status-green));
-            border-color:rgb(var(--status-green));
+            background-color:rgba(var(--status-green), .25);
+            border-color:rgba(var(--status-green), .5);
         }
         &.cardBrand-39zmMQ {
-            background-color:rgb(var(--accent));
-            border-color:rgb(var(--accent));
+            background-color:rgba(var(--accent), .25);
+            border-color:rgba(var(--accent), .5);
         }
 
         // Primary Cards
