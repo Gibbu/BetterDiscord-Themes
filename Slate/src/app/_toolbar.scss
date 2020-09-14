@@ -195,7 +195,11 @@ body #app-mount .container-1r6BKw.themed-ANHk51 {
       .updateIconForeground-3tnNZn {
         transform: scale(1.15) translateY(10%) translateX(10%);
         d:path($path_desktop_download);
-        fill:rgb(var(--status-green));
+        fill: transparent;
+      }
+      svg[name="Pull_req_nobg"]{
+        background: url(https://i.imgur.com/EfxHvw4.png) 50% 50%/cover;
+      }
       }
     }
     .selected-1GqIat .icon-22AiRD {
