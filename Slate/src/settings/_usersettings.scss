@@ -520,6 +520,37 @@
 		margin:0;
 	}
 
+	// Voice and Video
+	
+	.userSettingsVoice-iwdUCU {
+		.micTest-2C-tpt {
+			button {
+				margin-left:0;
+			}
+			.container-3PXSwK {
+				border-radius:var(--border-radius);
+				border:1px solid var(--base-border);
+				box-sizing:border-box;
+				background:var(--background-alt);
+				&[style*="background: linear"] {
+					background:var(--accent-solid) !important;
+				}
+			}
+			.wrapper-3Z-vWm {
+				height:var(--input-height);
+				.progress-1IcQ3A {
+					background:var(--background-alt);
+				}
+			}
+			.notches-1sAcEM {
+				background:none;
+			}
+			.micTestCaption-2xsa4I {
+				display:none;
+			}
+		}
+	}
+
 	// Appearance
 	.preview-2nSL_2.card-3Qj_Yx {
 		background: var(--background);

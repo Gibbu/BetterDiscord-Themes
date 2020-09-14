@@ -3,6 +3,23 @@
   background:var(--background);
   box-shadow:var(--elevation-1);
   border:1px solid var(--base-border);
+  &:empty {
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:var(--spacing);
+    &:after {
+      content:'';
+      width:72px;
+      height:72px;
+      display:block;
+      position:relative;
+      background:var(--text-muted);
+      -webkit-mask:url($illustration_7) center/contain no-repeat;
+    }
+  }
   &::before {
     content:'';
     position:absolute;
