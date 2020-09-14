@@ -402,7 +402,10 @@
 					border:1px solid var(--base-border);
 					padding:var(--spacing);
 					border-radius:var(--border-radius);
-					margin:var(--spacing) var(--spacing-double);
+					margin:var(--spacing);
+					margin-top:var(--spacing-double);
+					position:relative;
+					bottom:var(--spacing);
 					.paymentBreakdown-28CAO8 {
 						padding:0;
 						.cardIconSmall-2gJ6xX {
@@ -470,7 +473,7 @@
 					box-sizing:border-box;
 					cursor:default;
 					&.disabled-BrLY9Y {
-						opacity:.5;
+						cursor:not-allowed;
 					}
 					&.pageButtonNext-V2kUq0 {
 						border-radius:0 var(--border-radius) var(--border-radius) 0;	
