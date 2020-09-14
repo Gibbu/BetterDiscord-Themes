@@ -29,20 +29,15 @@
 			width: 16px;
 			height: 16px;
 			flex: none;
-			background: transparent;
 			border-radius: 0;
-			color: var(--toolbar-text-muted);
+			background: var(--toolbar-text-muted);
+			mask:url($icon_close) center/12px no-repeat;
 			transform: none;
 			svg {
-				color: inherit;
-				path {
-					d: path($path_close);
-					transform: scale(1.5) translateX(2px);
-					fill: currentColor;
-				}
+				display:none;
 			}
 			&:hover {
-				color: var(--text-normal);
+				background: var(--text-normal);
 			}
 		}
 		.keybind-KpFkfr {
