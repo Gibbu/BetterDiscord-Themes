@@ -7,7 +7,7 @@
   // Container
     .emojiPicker-3PwZFl {
       height: 442px;
-      grid-template-rows: 46px auto 48px;
+      grid-template-rows: 46px auto 49px;
       grid-template-columns: 38px auto;
       background: var(--background);
       border: 1px solid var(--base-border);
@@ -301,7 +301,7 @@
       background: var(--background);
       border-top: 1px solid var(--base-border);
       padding: var(--spacing);
-      height: 48px;
+      height: 49px;
       box-sizing:border-box;
       .graphicSecondary-1zo8ze {
         border-radius:var(--border-radius);
@@ -312,6 +312,8 @@
           mask: none;
         }
         .guildIcon-3h-1IH {
+          width: var(--avatar-size);
+          height: var(--avatar-size);
           border-radius:var(--border-radius);
         }
       }

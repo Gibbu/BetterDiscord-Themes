@@ -1,7 +1,7 @@
 #app-mount {
   .form-2fGMdU {
     box-sizing:border-box;
-    padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing) * 2 + var(--avatar-size));
+    padding: var(--spacing) var(--spacing) var(--spacing) calc(var(--spacing-double) + var(--avatar-size-sm));
     border-top: 1px solid var(--base-border);
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
     margin-bottom: 0;
     background-color: transparent;
     box-sizing: border-box;
-    margin-left: -3px;
+    margin-left: 0;
     &.highlighted-2eSV1B,
     .focused-PMHa7m {
       box-shadow:none;

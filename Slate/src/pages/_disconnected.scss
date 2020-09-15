@@ -69,7 +69,7 @@
     width:fit-content;
     border-radius:var(--border-radius);
     padding:0;
-    left:50%;
+    transform:translateY(-200%) translateX(-50%);
     margin:0 var(--spacing);
     margin-bottom:var(--spacing-double);
     transition:none;
