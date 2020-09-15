@@ -9,6 +9,8 @@
     min-height: var(--toolbar-height);
     height: auto;
     margin:0;
+    position:relative;
+    z-index:1;
     &:before {
       content: none;
     }

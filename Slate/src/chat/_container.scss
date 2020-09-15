@@ -14,32 +14,41 @@
   // Old messages
   .jumpToPresentBar-G1R9s6 {
     opacity: 1;
-    left: 0;
-    right: 0;
+    left: calc(var(--spacing) - 2px);
+    bottom:0;
     border-radius: 0;
-    padding: 0;
     min-height: auto;
-    border-top: 1px solid var(--base-border);
-    background: var(--background-light);
-    padding: var(--spacing-third) var(--spacing);
+    background: var(--background);
+    padding:0;
     cursor:default;
+    position:absolute;
+    z-index:10;
+    box-shadow:var(--elevation-1);
+    width:fit-content;
     .barButtonMain-3K-jeJ {
-      height: auto;
-      color: var(--text-normal);
-      font-size: var(--font-size);
-      font-weight:var(--font-weight-semibold);
-      line-height: inherit;
-      padding:0;
-      overflow:visible;
-      pointer-events:none;
+      display:none;
     }
     .barButtonAlt-mYL1lj {
+      font-size:var(--font-size-sm);
+      color:var(--text-normal);
+      font-weight:var(--font-weight);
+      padding:0 var(--spacing);
+      border: 1px solid var(--base-border);
+      border-bottom:none;
+      cursor:default;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+      &:hover {
+        background:var(--background-modifier-hover);
+      }
+      &:active {
+        background:var(--background-modifier-active);
+      }
       & > svg {
         display: none;
       }
     }
     &:active {
-      margin: 0;
+      margin:0;
     }
   }
 
@@ -135,8 +144,10 @@
       margin-bottom:var(--spacing);
     }
   }
-  .barButtonAlt-mYL1lj,
-  .spinner-1AwyAQ {
+  .messagesErrorBar-nyJGU7 .barButtonAlt-mYL1lj,
+  .newMessagesBar-265mhP .barButtonAlt-mYL1lj,
+  .messagesErrorBar-nyJGU7 .spinner-1AwyAQ,
+  .newMessagesBar-265mhP .spinner-1AwyAQ {
     order:1;
     pointer-events:all;
     font-size: var(--font-size);
@@ -161,6 +172,7 @@
 
 #app-mount .messagesWrapper-1sRNjr {
   background: var(--background-alt);
+  z-index:1;
   .scrollerSpacer-1Rp0XE {
     height: 0;
   }
