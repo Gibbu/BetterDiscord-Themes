@@ -25,24 +25,6 @@
     max-height: 650px;
     min-height: 400px;
     padding-top: 50px;
-
-    // Options header
-    &:before {
-      content: "Options";
-      display: flex;
-      align-items: center;
-      border-bottom: 1px solid var(--base-border);
-      width: 100%;
-      height: 50px;
-      font-size: var(--font-size-md);
-      font-weight: var(--font-weight-semibold);
-      color: var(--text-normal);
-      position: absolute;
-      top: 0;
-      left: 0;
-      padding: var(--spacing-double);
-      box-sizing: border-box;
-    }
   }
 }
 
