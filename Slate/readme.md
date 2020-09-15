@@ -15,7 +15,7 @@
 
 ## Developers
 
-| <h3>Tropical</h3> | <h3>Gibbu</h3> |
+| <h5>Tropical</h5> | <h5>Gibbu</h5> |
 |:-:|:-:|
 
 
