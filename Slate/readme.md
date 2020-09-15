@@ -17,7 +17,7 @@
 
 | <h5>Tropical</h5> | <h5>Gibbu</h5> |
 |:-:|:-:|
-| <a href="https://github.com/Gibbu" target="_blank"> <img src="https://avatars0.githubusercontent.com/u/24623601?s=460&v=4" alt="" width="200px" height="200px"> </a> | <a href="https://github.com/Tropix126" target="_blank"> <img src="https://avatars3.githubusercontent.com/u/20338746?s=460&u=d9ebab4f6f0f5221390bca1eaf8f191acd275afe&v=4" alt="" width="200px" height="200px"> </a> |
+| <a href="https://github.com/Gibbu" target="_blank"> <img src="https://avatars0.githubusercontent.com/u/24623601?s=460&v=4" alt="" width="200px" height="200px"> </a> | <a href="https://github.com/Tropix126" target="_blank"> <img src="https://avatars1.githubusercontent.com/u/42101043?s=460&u=f44f07cf7122e1ba61a9e9e8ca83d133c741d011&v=4" alt="" width="200px" height="200px"> </a> |
 
 ## Translation Team
 
