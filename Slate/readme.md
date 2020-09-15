@@ -22,3 +22,7 @@
 ## Translation Team
 
 * Translations are coming soon.
+
+## Documentation
+
+Documentation, including customization guides can be found in the [Wiki](https://github.com/Gibbu/BetterDiscord-Themes/wiki) of this repo
