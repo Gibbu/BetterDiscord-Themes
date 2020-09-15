@@ -41,7 +41,6 @@
 ====================================================================================
 */
 
-@import url("https://gibbu.github.io/BetterDiscord-Themes/Slate/base.css");
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
 
 /*
@@ -55,7 +54,7 @@
 :root {
   /*Primary Colors*/
   --accent: 3, 102, 214;
-  --link-colour: 0, 186, 255;
+  --link-colour: 48, 144, 255;
 
   /*Server List*/
   --server-icon-size: 35px;
