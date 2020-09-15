@@ -25,4 +25,4 @@
 
 ## Documentation
 
-Documentation, including customization guides can be found in the [Wiki](https://github.com/Gibbu/BetterDiscord-Themes/wiki) of this repo
+Documentation, including customization guides can be found in the [Wiki](https://github.com/GibbuPCStuff/Slate) of this repo
