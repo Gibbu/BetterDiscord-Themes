@@ -14,7 +14,9 @@
 	}
 	.separator-gCa7yv {
 		margin: var(--spacing) 0;
-		background-color: var(--base-border);
+		border-bottom:1px solid var(--base-border);
+		height:1px;
+		background:transparent;
 	}
 
 	// Tab button
