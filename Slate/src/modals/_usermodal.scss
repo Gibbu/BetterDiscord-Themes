@@ -9,8 +9,8 @@
 
     // User avatar
     .avatar-3EQepX {
-      width: var(--avatar-size-xlg) !important;
-      height: var(--avatar-size-xlg) !important;
+      width: var(--avatar-size-xl) !important;
+      height: var(--avatar-size-xl) !important;
       margin-right: var(--spacing) !important;
     }
     .wrapper-3t9DeA {
@@ -141,7 +141,7 @@
   .header-QKLPzZ {
     border-top: 1px solid var(--base-border);
     display: grid;
-    grid-template-columns: var(--avatar-size-xlg) 1fr auto auto;
+    grid-template-columns: var(--avatar-size-xl) 1fr auto auto;
     grid-gap: var(--spacing-double);
     & + div {
       display: flex;
@@ -165,8 +165,8 @@
   .assetsLargeImageActivityFeed-25vA7H,
   .assetsLargeImageActivityFeedXbox-3Tr-tf,
   .assetsLargeImageProfile-3YXDex {
-    width: var(--avatar-size-xlg);
-    height: var(--avatar-size-xlg);
+    width: var(--avatar-size-xl);
+    height: var(--avatar-size-xl);
   }
   .assetsSmallImage-3_3Bzj {
     width: var(--avatar-size-sm);

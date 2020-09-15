@@ -1,28 +1,71 @@
 /**
  * @name Slate
  * @author Gibbu#1211 & Tropical#8908
- * @version 1.0.9
+ * @version 1.1.6
  * @invite TeRQEPb
- * @description Github Desktop meets Discord. Supports both Light and Dark themes.
+ * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
- * @website https://www.gibbu.me
+ * @website https://gibbu.github.io/BetterDiscord-Themes/Slate/
+*/
+
+/*       _____                    _____          
+         /\    \                  /\    \          /\    \              /\    \                  /\    \         
+        /::\    \                /::\____\        /::\    \            /::\    \                /::\    \        
+       /::::\    \              /:::/    /       /::::\    \           \:::\    \              /::::\    \       
+      /::::::\    \            /:::/    /       /::::::\    \           \:::\    \            /::::::\    \      
+     /:::/\:::\    \          /:::/    /       /:::/\:::\    \           \:::\    \          /:::/\:::\    \     
+    /:::/__\:::\    \        /:::/    /       /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \    
+    \:::\   \:::\    \      /:::/    /       /::::\   \:::\    \          /::::\    \      /::::\   \:::\    \   
+  ___\:::\   \:::\    \    /:::/    /       /::::::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \  
+ /\   \:::\   \:::\    \  /:::/    /       /:::/\:::\   \:::\    \      /:::/\:::\    \  /:::/\:::\   \:::\    \ 
+/::\   \:::\   \:::\____\/:::/____/       /:::/  \:::\   \:::\____\    /:::/  \:::\____\/:::/__\:::\   \:::\____\
+\:::\   \:::\   \::/    /\:::\    \       \::/    \:::\  /:::/    /   /:::/    \::/    /\:::\   \:::\   \::/    /
+ \:::\   \:::\   \/____/  \:::\    \       \/____/ \:::\/:::/    /   /:::/    / \/____/  \:::\   \:::\   \/____/ 
+  \:::\   \:::\    \       \:::\    \               \::::::/    /   /:::/    /            \:::\   \:::\    \     
+   \:::\   \:::\____\       \:::\    \               \::::/    /   /:::/    /              \:::\   \:::\____\    
+    \:::\  /:::/    /        \:::\    \              /:::/    /    \::/    /                \:::\   \::/    /    
+     \:::\/:::/    /          \:::\    \            /:::/    /      \/____/                  \:::\   \/____/     
+      \::::::/    /            \:::\    \          /:::/    /                                 \:::\    \         
+       \::::/    /              \:::\____\        /:::/    /                                   \:::\____\        
+        \::/    /                \::/    /        \::/    /                                     \::/    /        
+         \/____/                  \/____/          \/____/                                       \/____/         
+
+====================================================================================
+    Please view the full documentation at https://github.com/GibbuPCStuff/Slate  
+====================================================================================
+*/
+
+/*
+====================================================================================
+                                Import Source Code                                  
+====================================================================================
 */
 
 @import url("https://gibbu.github.io/BetterDiscord-Themes/Slate/base.css");
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
 
+/*
+====================================================================================
+                                  Basic Variables                                   
+====================================================================================
+*/
+
+/*A full list of variables and their uses can be found in the documentation above.*/
+
 :root {
+  /*Primary Colors*/
+  --accent: 3, 102, 214;
+  --link-colour: 0, 186, 255;
 
-  /* Slate variables */
-  --accent: 3, 102, 214; /* This affects: Mentions, select channel/dm, unread channel | DEFAULT: 3, 102, 214 */
-  --link-colour: 0, 186, 255; /* Colour of links | DEFAULT: 17, 83, 157 */
-  --chat-font-size: 12px; /* Font size for chat | DEAFULT: 12px; */
-
-  /* Adjustable Server Width variables  */
-  --server-icon-size: 35px; /* Size of the server icons | DEFAULT: 35px */
-  --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
-  --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
-
+  /*Server List*/
+  --server-icon-size: 35px;
+  --server-icon-spacing: 8px;
+  --server-container-padding: 10px;
 }
 
-/* Custom CSS below here */
+/* 
+====================================================================================
+                Please place any Theme-specific Custom CSS Below here               
+====================================================================================
+*/
+

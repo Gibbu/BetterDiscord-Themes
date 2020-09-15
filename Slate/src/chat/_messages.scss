@@ -17,14 +17,14 @@
       }
     } 
     .username-1A8OIy {
-      font-size: var(--chat-font-size);
+      font-size: var(--font-size);
       color: var(--text-normal);
       font-weight:var(--font-weight-semibold);
       line-height:normal;
       margin: 0;
     }
     .markup-2BOw-j {
-      font-size: var(--chat-font-size);
+      font-size: var(--font-size);
       margin-left: 0;
       padding-left: 0;
       line-height: var(--line-height);
@@ -251,7 +251,7 @@
       padding-left:calc(10px + var(--spacing-double)) !important;
     }
     .content-2M3n_H {
-      font-size:var(--chat-font-size);
+      font-size:var(--font-size);
       color:var(--text-muted);
       font-weight:var(--font-weight-normal);
       line-height:normal;
@@ -512,7 +512,7 @@
     border-bottom: 1px solid var(--base-border) !important;
     .embedDescription-1Cuq9a,
     .embedTitle-3OXDkz {
-      font-size: var(--chat-font-size);
+      font-size: var(--font-size);
     }
   }
 

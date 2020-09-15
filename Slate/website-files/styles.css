@@ -1,7 +1,7 @@
 :root {
   --accent: 3, 102, 214;
   --link-colour: 0, 186, 255;
-  --chat-font-size: 12px;
+  --font-size: 12px;
   --server-icon-size: 35px;
   --server-icon-spacing: 8px;
   --server-container-padding: 10px;
@@ -124,7 +124,7 @@
   --avatar-size-sm: 24px;
   --avatar-size: 28px;
   --avatar-size-lg: 45px;
-  --avatar-size-xlg: 64px;
+  --avatar-size-xl: 64px;
   --backdrop: rgb(0 0 0 / 0.4);
   --elevation-1: 0 8px 24px rgba(0, 0, 0, 0.15);
   --elevation-2: 0 2px 7px rgba(12, 7, 7, 0.7);
@@ -138,7 +138,7 @@
   --spotify: 29, 185, 84;
   --twitch: 89, 54, 149;
   --bd-blue: var(--accent-solid);
-  --bd-blue-hover: var(--accent-solid-hover);
+  --bd-blue-hover: var(--accent-solid);
   --blurple: var(--accent-solid);
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;

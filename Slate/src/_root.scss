@@ -6,9 +6,9 @@
   --button-border-radius: 2px;
   --accent-solid: rgba(var(--accent), 1);
   --bd-blue: var(--accent-solid);
-  --bd-blue-hover: rgb(var(--accent));
+  --bd-blue-hover: var(--accent-solid);
 
-  // No AdjustableServerWidth used variables
+  // No AdjustableServerWidth variables
   --noasw-padding: calc(var(--container, 0) - 4px);
   --noasw-base: var(--container, 72px);
   --noasw-channel-header: var(--container, 0px);
@@ -16,7 +16,6 @@
   // Spacing
   --spacing-third: calc(var(--spacing) / 3);
   --spacing-half: calc(var(--spacing) / 2);
-  --spacing-sm: 8px;
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
@@ -60,7 +59,7 @@
   --toolbar-background-alt: #24292e;
   --toolbar-border: #141414;
 
-  // ListItems
+  // List Items
   --item-height: 34px;
 
   // Sidebars
@@ -73,7 +72,7 @@
   --avatar-size-sm: 24px;
   --avatar-size: 28px;
   --avatar-size-lg: 45px;
-  --avatar-size-xlg: 64px;
+  --avatar-size-xl: 64px;
 
   // Backdrops
   --backdrop: rgb(0 0 0 / 0.4);
@@ -92,11 +91,8 @@
   --discord-blurple: 114, 137, 218;
   --spotify: 29, 185, 84;
   --twitch: 89, 54, 149;
-  --bd-blue: var(--accent-solid);
-  --bd-blue-hover: var(--accent-solid-hover);
-  --blurple: var(--accent-solid);
 
-  // Status
+  // RadialStatus
   --rs-small-spacing: 0px;
   --rs-large-spacing: 0px;
   --rs-width: 2px;
@@ -107,8 +103,4 @@
   --rs-offline-color: rgb(var(--status-grey));
   --rs-streaming-color: rgb(var(--twitch));
   --rs-invisible-color: rgb(var(--status-grey));
-
-  // Cards
-  --tip-box-background:rgba(3, 102, 214, 0.06);
-  --tip-box-border:#c8e1ff;
 }

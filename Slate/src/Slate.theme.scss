@@ -1,20 +1,17 @@
 /**
  * @name Slate
  * @author Gibbu#1211 & Tropical#8908
- * @version -dev
+ * @version Dev
  * @invite TeRQEPb
- * @description Github Desktop meets Discord. Supports both Light and Dark themes.
+ * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
  * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/Slate
- * @website https://www.gibbu.me
+ * @website https://gibbu.github.io/BetterDiscord-Themes/Slate/
 */
-
+@import url("https://gibbu.github.io/BetterDiscord-Themes/Slate/base.css");
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
-
 :root {
   --accent: 3, 102, 214;
-  --link-colour: 48, 144, 255;
-  --chat-font-size: 12px;
-
+  --link-colour: 0, 186, 255;
   --server-icon-size: 35px;
   --server-icon-spacing: 8px;
   --server-container-padding: 10px;

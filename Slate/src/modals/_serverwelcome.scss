@@ -23,8 +23,8 @@
             foreignObject {
                 mask:none;
                 .iconActiveLarger-1L4Joi {
-                    width:var(--avatar-size-xlg);
-                    height:var(--avatar-size-xlg);
+                    width:var(--avatar-size-xl);
+                    height:var(--avatar-size-xl);
                     border-radius:var(--border-radius);
                 }
             }
@@ -42,7 +42,7 @@
                 margin:0;
                 margin-top:-11px;
                 margin-left:-11px;
-                top:calc(var(--spacing) * 4 + var(--avatar-size-xlg));
+                top:calc(var(--spacing) * 4 + var(--avatar-size-xl));
                 left:calc(50% + 32px);
                 transform:scale(1.25);
             }
