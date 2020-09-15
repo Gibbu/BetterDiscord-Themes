@@ -68,13 +68,11 @@
   .problems-3mgf6w {
     width:fit-content;
     border-radius:var(--border-radius);
-    border:1px solid var(--base-border);
-    padding:var(--spacing);
+    padding:0;
     left:50%;
     margin:0 var(--spacing);
     margin-bottom:var(--spacing-double);
     transition:none;
-    background:var(--background);
     &.slideIn-sCvzGz {
       transform:translateX(-50%);
     }
