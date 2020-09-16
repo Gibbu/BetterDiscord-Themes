@@ -125,14 +125,15 @@
       }
     }
     &.selected-aXhQR6 {
-      color: var(--text-focus);
+      color: var(--white);
       .closeButton-2GCmT5 {
         display: block;
+        background:var(--white);
       }
       .activityText-OW8WYb,
       .name-uJV0GL,
       .subtext-1RtU34 {
-        color: var(--text-focus) !important;
+        color: var(--white) !important;
       }
       .wrapper-3t9DeA {
         box-shadow: 0 0 0 0.5px var(--accent-solid);
@@ -144,6 +145,15 @@
   }
   .closeButton-2GCmT5 {
     z-index: 10;
+    opacity:1;
+    background:var(--text-muted);
+    -webkit-mask:url($icon_close) center/11px no-repeat;
+    path {
+      display:none;
+    }
+    &:hover {
+      background:var(--text-normal);
+    }
   }
   .wrapper-3t9DeA {
     width: 26px !important;
