@@ -35,16 +35,24 @@
 		&:active {
 			background-color: transparent;
 		}
-		&.selected-3s45Ha,
-		&[style*="background-color: rgb(114, 137, 218)"] {
+		&.selected-3s45Ha {
 			color: var(--white);
 			background: rgb(var(--accent));
-			&:before {
-				background-color: var(--white);
+		}
+		&[style] {
+			&:active,
+			&:hover {
+				background:transparent !important;
+				color:rgb(var(--discord-blurple)) !important;
 			}
 		}
-		&[style*="background-color: rgba(114, 137, 218, 0.1)"] {
-			background: transparent !important;
+		&[style*="background-color: rgb(114, 137, 218)"] {
+			background: rgb(var(--discord-blurple)) !important;
+			&:active,
+			&:hover {
+				background:rgb(var(--discord-blurple)) !important;
+				color:var(--white) !important;
+			}
 		}
 	}
 

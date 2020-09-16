@@ -48,9 +48,9 @@
         color: var(--text-focus);
       }
       &#guild-header-popout-premium-subscribe {
-        color: rgb(var(--discord-nitro));
+        color: rgb(var(--discord-pink));
         .icon-LYJorE {
-          color: rgb(var(--discord-nitro));
+          color: rgb(var(--discord-pink));
           path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
             d: path($path_flame);
             transform: scale(.7);
@@ -60,7 +60,7 @@
           }
         }
         &:hover {
-          color: rgb(var(--discord-nitro));
+          color: rgb(var(--discord-pink));
         }
       }
       &#guild-header-popout-invite-people {

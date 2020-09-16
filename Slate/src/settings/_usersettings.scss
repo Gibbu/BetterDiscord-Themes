@@ -7,10 +7,20 @@
 
 	// My Account
 	.userSettingsAccount-2eMFVR {
+		.card-3Qj_Yx.cardWarning-2yPNAa,
+		 {
+			.icon-4lJsMQ {
+				display:none;
+			}
+			.flexChild-faoVW3:last-child {
+				margin:0;
+			}
+		}
 		.cardPrimary-1Hv-to {
 			background: transparent !important;
 			border: none !important;
 			padding: 0;
+			box-shadow:none;
 			.flexChild-faoVW3:first-child {
 				margin-right: 0;
 				.wrapper-3t9DeA {
@@ -86,6 +96,7 @@
 	}
 	.userInfoEditing-1CEzdT {
 		margin-bottom: 0;
+		box-shadow:none;
 		h5 {
 			font-size:var(--font-size) !important;
 			margin-bottom:var(--spacing-half) !important;
@@ -143,6 +154,15 @@
 				.avatarUploaderInner-3UNxY3 {
 					background-color:var(--accent-solid);
 					margin-bottom:var(--spacing);
+				}
+				.sizeInfo-SKMPPw {
+					color:var(--text-muted);
+					font-size:var(--font-size-sm);
+					font-weight:var(--font-weight-normal);
+				}
+				.colorStatusRed-1YV2rj {
+					font-size:var(--font-size);
+					font-weight:var(--font-weight-normal);
 				}
 			}
 			+.flexChild-faoVW3 {
@@ -676,6 +696,12 @@
 	.lastPlayed-3bQ7Bo {
 		font-size: var(--font-size-sm);
 		color: var(--text-muted);
+	}
+	.activeGame-14JI7o {
+		border-radius:var(--border-radius);
+		padding:var(--spacing);
+		background-color: rgba(var(--status-grey), 0.25);
+		border:1px solid rgba(var(--status-grey), 0.5);
 	}
 
 	// Text and Images

@@ -8,6 +8,7 @@
     background: var(--background);
   }
   [class*="scroller-"] {
+    background:var(--background);
     border-right: 1px solid var(--base-border);
     &::-webkit-scrollbar {
       display: none;
@@ -31,6 +32,49 @@
     border-right: 1px solid var(--base-border);
     background-color: var(--background-light);
     padding: var(--spacing);
+    padding-top:calc(16px + var(--spacing-double));
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-image:none;
+    &.premiumGuildSubscription-3oKecP {
+      padding-top:var(--spacing);
+      &:before {
+        content: '';
+        position: relative;
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: var(--spacing);
+        background: var(--text-normal);
+        -webkit-mask: url($icon_rocket) center/cover no-repeat;
+      }
+    }
+    &.publicUpsell-31ZSJ8 {
+      padding-top:var(--spacing);
+      &:before {
+        content: '';
+        position: relative;
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: var(--spacing);
+        background: var(--text-normal);
+        -webkit-mask: url($icon_lock) center/cover no-repeat;
+      }
+    }
+    .message-3SOT5P {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      color: var(--text-muted);
+      font-size: var(--font-size);
+      line-height: normal;
+    }
+    .btn-11C5_u {
+      margin: var(--spacing) auto 0;
+    }
     .close-relY5R {
       width: 16px;
       height: 16px;
@@ -38,7 +82,7 @@
       right: var(--spacing);
       color: var(--text-muted);
       background: currentColor;
-      mask: url($icon_close) center/12px no-repeat;
+      -webkit-mask: url($icon_close) center/12px no-repeat;
       path {
         display: none;
       }
@@ -48,17 +92,6 @@
     }
     &.invite-OjTXrW {
       background-image: none;
-      .message-3SOT5P {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        color: var(--text-muted);
-        font-size: var(--font-size);
-        line-height: normal;
-        .btn-11C5_u {
-          margin: var(--spacing) auto 0;
-        }
         &:before {
           content: '';
           position: relative;
@@ -67,9 +100,8 @@
           height: 80px;
           margin: var(--spacing);
           background: var(--text-normal);
-          mask: url($illustration_1) center/cover no-repeat;
+          -webkit-mask: url($illustration_1) center/cover no-repeat;
         }
       }
     }
   }
-}

@@ -60,30 +60,30 @@
       &[fill="#43b581"],
       &[fill="rgba(67, 181, 129, 1)"],
       &[mask*="online"] {
-        stroke: var(--rs-online-color);
+        stroke: rgb(var(--status-green));
       }
       &[fill="#faa61a"],
       &[fill="rgba(250, 166, 26, 1)"],
       &[mask*="idle"] {
-        stroke: var(--rs-idle-color);
+        stroke: rgb(var(--status-yellow));
       }
       &[fill="#f04747"],
       &[fill="rgba(240, 71, 71, 1)"],
       &[mask*="dnd"] {
-        stroke: var(--rs-dnd-color);
+        stroke: rgb(var(--status-red));
       }
       &[fill="#593695"],
       &[mask*="streaming"] {
-        stroke: var(--rs-streaming-color);
+        stroke: rgb(var(--status-purple));
       }
       &[fill="#747f8d"],
       &[mask*="offline"],
       &[fill="NaN"] {
-        stroke: var(--rs-offline-color);
+        stroke: rgb(var(--status-grey));
       }
       &[mask*="invisible"],
       &[fill="rgba(116, 127, 141, 1)"] {
-        stroke: var(--rs-invisible-color);
+        stroke: rgb(var(--status-grey));
       }
       &[x="16"] {
         width: 24px;
@@ -176,7 +176,7 @@
       top: 50%;
       transform: translateY(-50%);
       right: 0;
-      background: var(--rs-online-color);
+      background: rgb(var(--status-green));
       z-index: 1;
     }
   }

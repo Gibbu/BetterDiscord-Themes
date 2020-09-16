@@ -123,4 +123,12 @@
       margin: 0;
     }
   }
+
+  // Capcha
+  img[src="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] {
+    display:none;
+  }
+  .g-recaptcha {
+    margin:var(--spacing-double) 0;
+  }
 }

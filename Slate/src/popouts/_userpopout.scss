@@ -194,7 +194,7 @@
       }
     }
     .headerStreaming-2FjmGz {
-      background: rgba(var(--twitch), 0.1);
+      background: rgba(var(--status-purple), 0.1);
     }
     .avatarWrapper-3H_478 {
       grid-area: avatar;
@@ -307,7 +307,7 @@
     .headerSpotify-zpWxgT {
       margin-bottom: calc(var(--item-height) + 1px);
       .activityUserPopout-2yItg2 {
-        background: rgba(var(--spotify), 0.2);
+        background: rgba(var(--status-green), 0.2);
       }
     }
     .timeBarUserPopout-AWPFf2 {
@@ -336,7 +336,7 @@
     }
     .barInner-3NDaY_ {
       border-radius: 0;
-      background: rgba(var(--spotify), 0.5);
+      background: rgba(var(--status-green), 0.5);
     }
     .text-AOoUen {
       font-size: var(--font-size-sm);
