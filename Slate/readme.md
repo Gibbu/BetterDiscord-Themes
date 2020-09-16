@@ -1,3 +1,5 @@
+<h1 align="center">This branch is deprecated. The latest version can be found at https://github.com/DiscordStyles/Slate.</h1>
+
 <h1 align="center">Slate</h1>
 <p align="center">An optimized, consistent, and functional theme for Discord based on GitHub's design language.</p>
 
