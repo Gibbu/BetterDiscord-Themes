@@ -63,6 +63,19 @@
         -webkit-mask: url($icon_lock) center/cover no-repeat;
       }
     }
+    &.quickswitcher-35bYg4 {
+      padding-top:var(--spacing);
+      &:before {
+        content: '';
+        position: relative;
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: var(--spacing);
+        background: var(--text-normal);
+        -webkit-mask: url($icon_globe) center/cover no-repeat;
+      }
+    }
     .message-3SOT5P {
       display: flex;
       flex-direction: column;
