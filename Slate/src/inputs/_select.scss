@@ -19,8 +19,10 @@
     min-height: auto;
     transition:none;
     box-sizing:border-box;
+    cursor:default;
     &.css-1qm8c5n-control,
-    &.css-2yldzf-control {
+    &.css-2yldzf-control,
+    &.selectOpen-hQuR6b {
       border:1px solid var(--accent-solid);
       box-shadow:0 0 0 2px rgba(var(--accent), 0.25);
     }
@@ -59,7 +61,7 @@
     text-transform:none;
   }
   .selectLabel-2ltwlE {
-    padding: 0 var(--spacing);
+    padding: 0 var(--spacing-half);
   }
   .css-1hwfws3 {
     padding: 0 var(--spacing-half);

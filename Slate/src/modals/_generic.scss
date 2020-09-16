@@ -205,6 +205,25 @@
     box-shadow: none;
     border-top: 1px solid var(--base-border);
     padding: var(--spacing-double);
+    .lookLink-9FtZy-,
+    .cancelButton-2O3h8t {
+      color: var(--text-normal);
+      background: var(--background-light);
+      border: 1px solid var(--base-border);
+      box-shadow: none !important;
+      cursor:default;
+      text-decoration:none;
+      &:hover {
+        border: 1px solid currentColor;
+        .contents-18-Yxp {
+          background-image:none;
+        }
+      }
+      &:focus {
+        box-shadow: 0 0 0 1px currentColor !important;
+        border: 1px solid currentColor !important;
+      }
+    }
   }
   .overrideList-Xc_VCf {
     padding:0;
@@ -235,6 +254,22 @@
           padding-right:var(--spacing-half);
         }
       }
+    }
+  }
+}
+
+// Light Mode
+
+html.theme-light {
+  #app-mount .footer-2gL1pp .lookLink-9FtZy-, 
+  #app-mount .footer-2gL1pp .cancelButton-2O3h8t {
+    &:hover {
+      background: var(--background);
+      border: 1px solid var(--secondary-border-color);
+    }
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(0,0,0,0.05) !important;
+      border: 1px solid var(--secondary-border-color) !important;
     }
   }
 }
