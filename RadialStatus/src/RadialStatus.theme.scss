@@ -205,3 +205,20 @@
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;
 }
+
+
+[class*="baseLayer"]::before {
+    content:'This version of RadialStatus is outdated and will no longer be updated. Please download the newest version from https://betterdiscord.net/ghdl?id=3361';
+    background:var(--rs-dnd-color);
+    height:32px;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    color:#fff;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

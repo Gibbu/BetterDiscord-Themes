@@ -4,3 +4,19 @@
     background: transparent;
   }
 }
+
+[class*="baseLayer"]::before {
+    content:'This version of SimplyDark is outdated and will no longer be updated. Please download the newest version from https://betterdiscord.net/ghdl?id=3362';
+    background:var(--red);
+    height:32px;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    color:#fff;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

@@ -206,3 +206,19 @@ html.platform-osx #app-mount {
 body.foldercontentopened .base-3dtUhz {
   transition: 0.2s ease !important;
 }
+
+[class*="baseLayer"]::before {
+    content:'This version of Horizontal Server List is outdated and will no longer be updated. Please download the newest version from https://betterdiscord.net/ghdl?id=3360';
+    background: rgb(240, 71, 71);
+    height:32px;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    color:#fff;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

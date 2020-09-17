@@ -3,9 +3,11 @@
   --container: calc(var(--icon) + calc(var(--server-container-padding) * 2));
   --asw-version: "Adjustable Server Width 2.0.3";
 }
+
 .base-3dtUhz {
   left: var(--container);
 }
+
 .wrapper-1Rf91z {
   width: var(--container);
 }
@@ -23,7 +25,7 @@
   width: var(--container);
   margin-bottom: var(--server-icon-spacing);
 }
-.wrapper-1Rf91z .scroller-2TZvBN>div[style]:not(.listItem-2P_4kh):not([style*=absolute]) {
+.wrapper-1Rf91z .scroller-2TZvBN > div[style]:not(.listItem-2P_4kh):not([style*=absolute]) {
   height: calc(var(--icon) + var(--server-icon-spacing)) !important;
 }
 .wrapper-1Rf91z [class*=pill] {
@@ -192,7 +194,24 @@
 .wrapper-1Rf91z .wrapper-21YSNc .expandedFolderIconWrapper-1xLaU- {
   transform: none !important;
 }
+
 .colorMuted-HdFt4q.size12-3cLvbJ:first-child:after {
   content: var(--asw-version);
   display: block;
+}
+
+[class*=baseLayer]::before {
+  content: "This version of Adjustable Server Width is outdated and will no longer be updated. Please download the newest version from https://betterdiscord.net/ghdl?id=3364";
+  background: #f04747;
+  height: 32px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
