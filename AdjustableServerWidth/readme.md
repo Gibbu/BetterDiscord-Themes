@@ -1,4 +1,2 @@
-### Adjustable Server Width - [Download](https://betterdiscord.net/ghdl?id=3198)
-Make the server list smaller or larger
-
-![AdjustableServerWidth](https://i.imgur.com/2KuvHaV.jpg)
+### This repo is not longer in use.
+### All themes have been moved to [DiscordStyles/AdjustableServerWidth](https://github.com/DiscordStyles/AdjustableServerWidth)
